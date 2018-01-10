@@ -12,6 +12,7 @@ requires = [
     'aiohttp',
     'bs4',
     'cliff',
+    'future-fstrings',
     'jsonpickle',
     'lxml',
     'pendulum',
@@ -73,7 +74,7 @@ setuptools.setup(
     package_data={'mariner': ['config/*.yaml']},
     install_requires=requires,
     tests_require=tests_require,
-    python_requires='>=3.6',
+    python_requires='>=3.5',
     cmdclass={'test': PyTest},
     entry_points={
         'console_scripts': ['mariner = mariner.main:main'],
@@ -92,7 +93,7 @@ setuptools.setup(
         "Intended Audience :: End Users/Desktop",
         "Topic :: Internet :: WWW/HTTP :: Indexing/Search", ] + [
         ('Programming Language :: Python :: %s' % x) for x in
-        '3 3.6'.split()
+        '3 3.5 3.6'.split()
     ],
     zip_safe=False,
 )

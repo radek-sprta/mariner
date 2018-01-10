@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 """Contain CLI commands."""
 import logging
 import pathlib

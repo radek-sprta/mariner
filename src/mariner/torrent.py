@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 """Represent a downloadable torrent."""
 from typing import Optional
 

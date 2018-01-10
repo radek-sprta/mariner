@@ -17,6 +17,7 @@ tinydb-smartcache = "*"
 jsonpickle = "*"
 pendulum = "*"
 aiofiles = "*"
+future-fstrings = "*"
 
 
 [dev-packages]

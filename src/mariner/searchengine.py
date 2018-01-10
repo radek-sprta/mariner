@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 """Handle searching for torrents on torrent trackers."""
 import abc
 import asyncio
