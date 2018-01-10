@@ -1,0 +1,11 @@
+site_name: Mariner - command line torrent searcher
+site_url: https://radek-sprta.gitlab.io/mariner
+site_author: Radek Sprta
+theme: cinder
+pages:
+  - Home: index.md
+  - Usage: use.md
+  - Configuration: config.md
+  - Contributing: contributing.md
+  - License: license.md
+repo_url: https://gitlab.com/radek-sprta/mariner

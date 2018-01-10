@@ -1,0 +1,14 @@
+image: python:alpine
+
+before_script:
+  - pip install mkdocs
+  - pip install mkdocs-cinder
+
+pages:
+  script:
+  - mkdocs build -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
