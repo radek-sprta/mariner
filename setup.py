@@ -13,6 +13,7 @@ requires = [
     'bs4',
     'cliff',
     'jsonpickle',
+    'lxml',
     'pendulum',
     'ruamel.yaml',
     'tinydb',
@@ -72,6 +73,7 @@ setuptools.setup(
     package_data={'mariner': ['config/*.yaml']},
     install_requires=requires,
     tests_require=tests_require,
+    python_requires='>=3.6',
     cmdclass={'test': PyTest},
     entry_points={
         'console_scripts': ['mariner = mariner.main:main'],
