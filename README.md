@@ -55,6 +55,7 @@ Alternatively, copy the magnet link to clipboard:
 `(mariner) magnet 0`
 
 And quit:
+
 `(mariner) quit`
 
 For more information, check the [documentation][documentation].
@@ -66,16 +67,17 @@ For more information, check the [documentation][documentation].
 - Pass torrents directly to Transmission and Deluge
 
 ## Contributing
-For information on how to contribute to the project, please check the [Contributor's Guide](CONTRIBUTING.MD)
+For information on how to contribute to the project, please check the [Contributor's Guide][contributing]
 
 ## Disclaimer
 I do not want anyone to act in conflict with their local laws and I do not endorse any illegal activity. Some content in the search results provided be Mariner might be illegal in your country and it is up to you to check your local laws before using it. Neither I, nor Mariner can be held liable for any action taken against you as the result of using it.
 
 ## Contact
-mail@radeksprta.eu
+[mail@radeksprta.eu](mailto:mail@radeksprta.eu)
 
 ## License
 GNU General Public License v3.0
 
+[contributing]: https://gitlab.com/radek-sprta/mariner/blob/master/CONTRIBUTING.md
 [documentation]: https://radek-sprta.gitlab.io/mariner
 [pypi]: https://badge.fury.oi/py/mariner.png

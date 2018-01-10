@@ -50,4 +50,5 @@ If you have found any mistakes, want to add examples, or just improve the docume
 Thank you for taking the time to read the Contributor's Guide!
 
 Radek Sprta
+
 Maintainer
