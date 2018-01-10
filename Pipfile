@@ -1,0 +1,25 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+aiohttp = "*"
+"bs4" = "*"
+lxml = "*"
+cliff = "*"
+"ruamel.yaml" = "*"
+tinydb = "*"
+tinydb-smartcache = "*"
+jsonpickle = "*"
+pendulum = "*"
+aiofiles = "*"
+
+
+[dev-packages]
+
+pytest = "*"
+pytest-asyncio = "*"

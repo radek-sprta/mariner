@@ -1,0 +1,4 @@
+[MESSAGES CONTROL]
+
+# Does not play nice with type hint aliases
+disable=invalid-name
