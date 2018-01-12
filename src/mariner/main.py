@@ -1,4 +1,5 @@
 """Entrance point for Mariner application."""
+import logging
 import os
 import pathlib
 import sys
@@ -12,6 +13,8 @@ from mariner import searchengine, utils, config
 
 class Mariner(app.App):
     """Interactive CLI for Mariner."""
+
+    log = logging.getLogger(__name__)
 
     def __init__(self):
         super().__init__(
@@ -58,6 +61,11 @@ class Mariner(app.App):
         self.LOG.debug('Initialize Mariner')
         # Initialize plugins
         searchengine.SearchEngineManager().initialize_engines()
+        if self.interactive_mode:
+            self.log.info(
+                'Welcome to Mariner, a command line torrent searcher!')
+            self.log.info(
+                'Type "help" or see http://radek-sprta.gitlab.io/mariner to get started.')
 
     def prepare_to_run_command(self, cmd) -> None:
         """Code to run before command.

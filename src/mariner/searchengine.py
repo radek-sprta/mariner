@@ -51,7 +51,7 @@ class SearchEngineManager:
 
     def initialize_engines(self) -> None:
         """Find engines and put them into global namespace."""
-        self.log.info('Initializing plugins')
+        self.log.debug('Initializing plugins')
         self.find_engines()
         self.register_engines()
 
