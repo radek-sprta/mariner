@@ -1,11 +1,31 @@
-image: python:alpine
+image: python:latest
 
-before_script:
-  - pip install mkdocs
-  - pip install mkdocs-cinder
+stages:
+  - test
+
+before_script: 
+  - apt -y install libxml2-dev libxslt-dev
+  - pip install pipenv
+  - pip install tox
+  - pip install codecov
+
+after_script:
+  - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
+
+test:python36:
+  stage: test
+  script: tox -e py36
+
+test:linters:
+  stage: test
+  script: tox -e linters
+  allow_failure: true
 
 pages:
+  image: python:alpine
   script:
+  - pip install mkdocs
+  - pip install mkdocs-cinder
   - mkdocs build -d public/
   artifacts:
     paths:

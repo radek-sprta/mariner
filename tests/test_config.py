@@ -31,7 +31,7 @@ class TestConfig:
         configuration = config.Config()
         test_path = pathlib.Path('~/.config/mariner/config.yaml').expanduser()
         assert configuration.configpath == test_path
-        assert configuration.configpath.exists()
+        assert configuration.configpath.parent.exists()
 
     def test_load(self, configuration):
         assert configuration['download_path'] == '~/Downloads'

@@ -24,3 +24,4 @@ future-fstrings = "*"
 
 pytest = "*"
 pytest-asyncio = "*"
+coverage = "*"
