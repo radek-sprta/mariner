@@ -9,12 +9,11 @@ before_script:
   - pip install tox
   - pip install codecov
 
-after_script:
-  - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
-
 test:python36:
   stage: test
-  script: tox -e py36
+  script: 
+  - tox -e py36
+  - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
 
 test:linters:
   stage: test
@@ -22,7 +21,6 @@ test:linters:
   allow_failure: true
 
 pages:
-  image: python:alpine
   script:
   - pip install mkdocs
   - pip install mkdocs-cinder
