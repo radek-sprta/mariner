@@ -3,20 +3,19 @@ from typing import List, Tuple
 
 import bs4
 
-from mariner import searchengine
+from mariner import searchengine, torrent
 
 Magnet = str
 Name = str
 Url = str
 
 
-class TokyoTosho(searchengine.SearchEngine):
+class TokyoTosho(searchengine.TrackerPlugin):
     """Represents TokyoTosho search engine."""
 
     search_url = 'https://www.tokyotosho.info/search.php?terms='
 
-    @staticmethod
-    def _parse(raw: str) -> List[Tuple[Name, Magnet, Url]]:
+    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
         """Parse result page.
 
         Args:
@@ -33,7 +32,10 @@ class TokyoTosho(searchengine.SearchEngine):
             magnet = links[0].get('href')
             url = links[1].get('href')
             name = TokyoTosho._parse_name(links[1].contents)
-            results.append((name, magnet, url))
+            tracker = self.__class__.__name__
+
+            results.append(torrent.Torrent(
+                name, tracker, magnet_link=magnet, torrent_url=url))
         return results
 
     @staticmethod

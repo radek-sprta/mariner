@@ -11,16 +11,7 @@ class TestTorrent:
 
     @pytest.fixture
     def torrent(self):
-        return torrent.Torrent(1, 'name', 'torrent', magnet_link='magnet',
-                               description='desc')
-
-    def test_id_is_int(self, torrent):
-        """Id is integer."""
-        assert isinstance(torrent.tid, int)
-
-    def test_id_positive_number(self):
-        with pytest.raises(ValueError):
-            torrent.Torrent(-1, 'name', 'torrent')
+        return torrent.Torrent('name', 'tacker', magnet_link='magnet', torrent_url='tracker')
 
     def test_name_is_string(self, torrent):
         """Name is a string."""
@@ -34,14 +25,14 @@ class TestTorrent:
         """Magnet link is a string."""
         assert isinstance(torrent.magnet_link, str)
 
-    def test_description_is_string(self, torrent):
-        """Description is a string."""
-        assert isinstance(torrent.description, str)
+    def test_tracker_is_string(self, torrent):
+        """Tracker is a string."""
+        assert isinstance(torrent.tracker, str)
 
     def test_mods_is_string(self, torrent):
-        """Description is a string."""
+        """Mods is a string."""
         assert isinstance(torrent.mods, str)
 
     def test_filename_is_string(self, torrent):
-        """Description is a string."""
+        """Filename is a string."""
         assert isinstance(torrent.filename, str)

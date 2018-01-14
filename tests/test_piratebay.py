@@ -14,33 +14,12 @@ class TestPirateBay:
         """Search url class attribute is string."""
         assert isinstance(piratebay.PirateBay.search_url, str)
 
-    def test_search(self, engine):
+    def test_result(self, engine, event_loop):
         """Search returns an iterator of Torrent objects."""
-        search = engine.search('Ubuntu')
+        search = event_loop.run_until_complete(engine.results('Ubuntu'))
         assert isinstance(search, list)
         assert isinstance(search[0], torrent.Torrent)
-
-    @pytest.mark.parametrize('limit', [1, 2, 3])
-    def test_search_limit(self, engine, limit):
-        """Get results should get number of URLs up to a limit."""
-        search = engine.search('Ubuntu', limit)
-        assert len(search) == limit
-
-    def test_search_limit_zero(self, engine):
-        """Get results should throw ValueError when limit is zero."""
-        with pytest.raises(ValueError):
-            engine.search('Ubuntu', limit=0)
-
-    def test_get_torrent(self, engine):
-        """Return torrent with given ID."""
-        engine.search('Ubuntu')
-        assert isinstance(engine.get_torrent(1), torrent.Torrent)
-
-    @pytest.mark.parametrize('tid', [-1, -9999, 10000])
-    def test_get_torrent_non_existant(self, engine, tid):
-        engine.search('Ubuntu')
-        with pytest.raises(searchengine.NoResultException):
-            engine.get_torrent(tid)
+        assert len(search) == 3
 
     @pytest.fixture
     def engine(self, monkeypatch):

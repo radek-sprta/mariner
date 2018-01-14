@@ -1,5 +1,4 @@
 """Persistent memoization using TinyDB."""
-import atexit
 import functools
 import hashlib
 from typing import Any, Callable, Dict
@@ -28,21 +27,18 @@ class Cache:
                  timeout: int = 86400,
                  size: int = 10000,
                  storage: tinydb.storages.Storage = tinydb.storages.JSONStorage,
-                ) -> None:
+                 ) -> None:
         self.path = utils.check_path(path)
         self.timeout = timeout
         self.size = size
         self.db = tinydb.TinyDB(self.path, storage)
         self.db.table_class = tinydb_smartcache.SmartCacheTable
-        atexit.register(self._remove_expired)
 
-    @property
-    def newest(self) -> Dict:
-        """Return last cached result."""
-        newest = self.db.all()[-1]['value']
-        return jsonpickle.decode(newest)
+    def clear(self) -> None:
+        """Clear the cache."""
+        self.db.purge()
 
-    def get_expiry(self) -> pendulum.Pendulum:
+    def expiry(self) -> pendulum.Pendulum:
         """Return expiration time for cached results."""
         expiry = pendulum.now().add(seconds=self.timeout)
         return self._serialize_date(expiry)
@@ -55,14 +51,13 @@ class Cache:
 
         Returns:
             Cached object.
-
         """
+        self._remove_expired()
         entry = tinydb.Query()
-        value = self.db.search(entry.key == key)
+        value = self.db.get(entry.key == key)
         if value:
-            self.db.remove(entry.key == key)
-            self.insert(key, jsonpickle.decode(value[0]['value']))
-            return jsonpickle.decode(value[0]['value'])
+            self.db.update({'time': self.expiry()}, entry.key == key)
+            return jsonpickle.decode(value['value'])
         return None
 
     def insert(self, key: str, entry: Any) -> None:
@@ -73,7 +68,7 @@ class Cache:
             entry: Object to cache.
         """
         value = jsonpickle.encode(entry)
-        self.db.insert({'key': key, 'time': self.get_expiry(), 'value': value})
+        self.db.insert({'key': key, 'time': self.expiry(), 'value': value})
         if len(self.db) > self.size:
             self._remove_oldest()
 
@@ -94,8 +89,8 @@ class Cache:
 
     def _remove_oldest(self) -> None:
         """Remove oldest entry."""
-        oldest = self.db.all()[0].doc_id
-        self.db.remove(doc_ids=[oldest])
+        oldest = self.db.all()[0].key
+        self.remove(oldest)
 
     @staticmethod
     def _serialize_date(date: pendulum.Pendulum) -> Dict[str, str]:
@@ -122,9 +117,9 @@ class Cache:
         def wrapped(*args, **kwargs):
             """Cache function."""
             result = ''
-            key_root = function.__name__ + \
+            seed = function.__name__ + \
                 jsonpickle.encode(args) + jsonpickle.encode(kwargs)
-            key = hashlib.md5(key_root.encode('utf8')).hexdigest()
+            key = hashlib.md5(seed.encode('utf8')).hexdigest()
             result = self.get(key)
             if not result:
                 result = function(*args, **kwargs)

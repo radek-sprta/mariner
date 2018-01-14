@@ -8,6 +8,7 @@ from setuptools.command.test import test as TestCommand
 
 
 requires = [
+    'aiodns',
     'aiofiles',
     'aiohttp',
     'bs4',

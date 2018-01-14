@@ -2,7 +2,7 @@
 """Module for searching torrents on Distrowatch."""
 import asyncio
 import logging
-from typing import List, Iterable, Tuple
+from typing import List, Tuple
 
 import bs4
 
@@ -13,13 +13,13 @@ Page = str
 Name = str
 
 
-class Distrowatch(searchengine.SearchEngine):
+class Distrowatch(searchengine.TrackerPlugin):
     """Represent Distrowatch search engine."""
 
     log = logging.getLogger(__name__)
     search_url = "https://distrowatch.com/dwres.php?resource=bittorrent"
 
-    async def get_results(self, title: str) -> None:
+    async def results(self, title: str) -> List[torrent.Torrent]:
         """Get of list of torrent page urls.
 
         Args:
@@ -27,39 +27,13 @@ class Distrowatch(searchengine.SearchEngine):
         """
         try:
             page = await self.get(self.search_url)
-        except OSError:
+        except (OSError, asyncio.TimeoutError):
             print('Cannot reach server')
         else:
-            self.urls = self._parse(page)
+            all_torrents = self._parse(page)
+            return [t for t in all_torrents if title in t.name]
 
-    @cache.Cache(size=100)
-    def get_torrents(self, title: str) -> Iterable[torrent.Torrent]:
-        """Get a list of torrents that we searched for.
-
-        Args:
-            title: String to search for.
-
-        Returns:
-            List of torrent results.
-        """
-        tid = 0
-        torrents = []
-
-        if not self.urls:
-            self.log.debug('Fetching results')
-            tasks = asyncio.wait([self.get_results(title)])
-            loop = asyncio.get_event_loop()
-            loop.run_until_complete(tasks)
-
-        for name, url in self.urls:
-            if title.lower() in name:
-                self.log.debug('Appending tid=%s name=%s', tid, name)
-                torrents.append(torrent.Torrent(tid, name, url))
-                tid += 1
-        return torrents
-
-    @staticmethod
-    def _parse(raw: str) -> List[Tuple[Name, Url]]:
+    def _parse(self, raw: str) -> List[Tuple[Name, Url]]:
         """Parse result page.
 
         Args:
@@ -76,5 +50,6 @@ class Distrowatch(searchengine.SearchEngine):
             name = link.string.lower()
             url_stub = link.get('href')
             url = f"https://distrowatch.com/{url_stub}"
-            results.append((name, url))
+            tracker = self.__class__.__name__
+            results.append(torrent.Torrent(name, tracker, torrent_url=url))
         return results

@@ -3,20 +3,19 @@ from typing import List, Tuple
 
 import bs4
 
-from mariner import searchengine
+from mariner import searchengine, torrent
 
 Magnet = str
 Name = str
 Url = str
 
 
-class PirateBay(searchengine.SearchEngine):
+class PirateBay(searchengine.TrackerPlugin):
     """Represents PirateBay search engine."""
 
     search_url = 'https://thepiratebay.org/search/'
 
-    @staticmethod
-    def _parse(raw: str) -> List[Tuple[Name, Magnet, Url]]:
+    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
         """Parse result page.
 
         Args:
@@ -40,10 +39,10 @@ class PirateBay(searchengine.SearchEngine):
 
                 links = torrent_.find_all('a')
                 magnet = links[3].get('href')
-                # PirateBay has only magnet links
-                url = None
+                tracker = self.__class__.__name__
 
-                results.append((name, magnet, url))
+                results.append(torrent.Torrent(
+                    name, tracker, magnet_link=magnet))
             return results
 
     @staticmethod

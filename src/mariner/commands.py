@@ -6,8 +6,7 @@ import pathlib
 from cliff import command, lister
 import pyperclip
 
-from mariner import downloader, searchengine
-from mariner.plugins import distrowatch
+from mariner import downloader
 
 
 class Download(lister.Lister):
@@ -37,11 +36,9 @@ class Download(lister.Lister):
         Returns:
             List of downloaded torrents and the location where they were saved.
         """
-        engine = distrowatch.Distrowatch()
-
         torrents = []
         for tid in parsed_args.ID:
-            torrent = engine.get_torrent(tid)
+            torrent = self.app.engine.result(tid)
             self.log.debug('tid=%s torrent=%s', tid, torrent)
             if torrent.torrent_url:
                 torrents.append(torrent)
@@ -57,8 +54,8 @@ class Download(lister.Lister):
         torrent_downloader = downloader.Downloader(download_path=path)
         torrent_downloader.download(filelist)
 
-        headers = ('ID', 'Name', 'Saved to')
-        columns = ((t.tid, t.name[:60], pathlib.Path(path) / t.filename)
+        headers = ('Name', 'Saved to')
+        columns = ((t.name[:60], pathlib.Path(path) / t.filename)
                    for t in torrents)
         return (headers, columns)
 
@@ -87,9 +84,8 @@ class Magnet(command.Command):
         Args:
             parsed_args: List of parsed arguments.
         """
-        engine = distrowatch.Distrowatch()
         tid = parsed_args.ID[0]
-        torrent = engine.get_torrent(tid)
+        torrent = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent)
         if torrent.magnet_link:
             pyperclip.copy(torrent.magnet_link)
@@ -116,8 +112,9 @@ class Search(lister.Lister):
         """
         parser = super().get_parser(prog_name)
         parser.add_argument('title', nargs=1)
-        parser.add_argument('--limit', '-l', nargs='?', default=10, type=int)
-        parser.add_argument('--tracker', '-t', nargs='?',
+        parser.add_argument('--limit', '-l', nargs='?', default=60, type=int)
+        plugins = self.app.engine.plugins.keys()
+        parser.add_argument('--trackers', '-t', nargs='+', choices=plugins,
                             default=self.app.config['default_tracker'])
         return parser
 
@@ -132,14 +129,12 @@ class Search(lister.Lister):
         """
         title = parsed_args.title[0].lower()
         limit = parsed_args.limit
-        tracker = parsed_args.tracker.lower()
-        self.log.debug('title=%s limit=%s tracker=%s', title, limit, tracker)
-
+        trackers = [t.lower() for t in parsed_args.trackers]
         self.log.info(f'Searching for "{title}".')
-        engine = searchengine.engines[tracker]()
-        torrents = engine.search(title, limit)
-        self.log.debug(f'torrents={torrents}')
 
-        headers = ('ID', 'Name', 'Available as')
-        columns = ((t.tid, t.name[:80], t.mods) for t in torrents)
+        self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)
+        results = self.app.engine.search(title, trackers, limit)
+
+        headers = ('ID', 'Name', 'Tracker', 'Available as')
+        columns = ((tid, t.name[:80], t.tracker, t.mods) for tid, t in results)
         return (headers, columns)

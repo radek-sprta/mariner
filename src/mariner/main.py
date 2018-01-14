@@ -24,6 +24,7 @@ class Mariner(app.App):
             deferred_help=True,
         )
         self.config = config.Config().load()
+        self.engine = searchengine.SearchEngine()
 
     def build_option_parser(self, description, version, argparse_kwargs=None):
         """Return an Argparse option parser for Mariner.
@@ -59,8 +60,6 @@ class Mariner(app.App):
           argv: List[str]: List of command line arguments.
         """
         self.LOG.debug('Initialize Mariner')
-        # Initialize plugins
-        searchengine.SearchEngineManager().initialize_engines()
         if self.interactive_mode:
             self.log.info(
                 'Welcome to Mariner, a command line torrent searcher!')

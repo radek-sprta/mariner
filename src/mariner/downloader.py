@@ -23,7 +23,7 @@ class Downloader:
     log = logging.getLogger(__name__)
 
     def __init__(self, download_path: Path = '~/Downloads') -> None:
-        self.download_path = download_path
+        self.download_path = utils.check_path(download_path)
 
     async def download_coroutine(self, session: Session, url: Url, name: str) -> None:
         """Download a single file and asynchronously save it to disk.
@@ -34,7 +34,7 @@ class Downloader:
         """
         with async_timeout.timeout(10):
             async with session.get(url) as response:
-                filename = utils.check_path(self.download_path) / name
+                filename = self.download_path / name
                 self.log.debug('filename=%s', filename)
                 async with aiofiles.open(filename, 'wb') as file_:
                     while True:
