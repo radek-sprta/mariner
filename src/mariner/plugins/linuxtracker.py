@@ -29,7 +29,6 @@ class LinuxTracker(searchengine.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         content = soup.find_all('table', {'class': 'lista', 'width': '100%'})
-        results = []
         for torrent_ in content[4]:
             try:
                 name = str(torrent_.font.a.string)
@@ -38,8 +37,6 @@ class LinuxTracker(searchengine.TrackerPlugin):
                 magnet = links.find_all('a')[0]['href']
                 stub = links.find_all('a')[1]['href']
                 url = f'http://linuxtracker.org/{stub}'
-                results.append(torrent.Torrent(
-                    name, tracker, torrent_url=url, magnet_link=magnet))
+                yield torrent.Torrent(name, tracker, torrent_url=url, magnet_link=magnet)
             except AttributeError:
                 pass
-        return results

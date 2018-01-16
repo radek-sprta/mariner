@@ -37,6 +37,6 @@ class TestDistrowatch:
     def test_results(self, engine, event_loop):
         """Search returns an iterator of Torrent objects."""
         search = event_loop.run_until_complete(engine.results('ubuntu'))
-        assert isinstance(search, list)
+        search = list(search)
         assert isinstance(search[0], torrent.Torrent)
         assert len(search) == 3

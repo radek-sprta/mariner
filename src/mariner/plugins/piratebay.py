@@ -30,20 +30,15 @@ class PirateBay(searchengine.TrackerPlugin):
             torrents = content.find_all('tr')
         except AttributeError:
             # No search result
-            return []
+            yield from ()
         else:
-            results = []
             for torrent_ in torrents[1:]:
                 raw_name = torrent_.find('a', class_='detLink')
                 name = PirateBay._parse_name(raw_name)
-
                 links = torrent_.find_all('a')
                 magnet = links[3].get('href')
                 tracker = self.__class__.__name__
-
-                results.append(torrent.Torrent(
-                    name, tracker, magnet_link=magnet))
-            return results
+                yield torrent.Torrent(name, tracker, magnet_link=magnet)
 
     @staticmethod
     def _parse_name(raw: str) -> Name:

@@ -26,7 +26,6 @@ class KickAssTorrents(searchengine.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         content = soup.find_all('div', class_='torrents_table__torrent_name')
-        results = []
         try:
             for torrent_ in content:
                 name = str(torrent_.find(
@@ -34,8 +33,7 @@ class KickAssTorrents(searchengine.TrackerPlugin):
                 magnet = torrent_.find(
                     'a', {'title': 'Torrent magnet link'})['href']
                 tracker = self.__class__.__name__
-                results.append(torrent.Torrent(
-                    name, tracker, magnet_link=magnet))
+                yield torrent.Torrent(name, tracker, magnet_link=magnet)
         except AttributeError:
             self.log.debug("No results found")
-        return results
+            yield from ()

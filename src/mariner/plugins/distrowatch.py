@@ -30,8 +30,7 @@ class Distrowatch(searchengine.TrackerPlugin):
         except (OSError, asyncio.TimeoutError):
             print('Cannot reach server')
         else:
-            all_torrents = self._parse(page)
-            return [t for t in all_torrents if title in t.name]
+            return (t for t in self._parse(page) if title in t.name)
 
     def _parse(self, raw: str) -> List[Tuple[Name, Url]]:
         """Parse result page.
@@ -44,12 +43,10 @@ class Distrowatch(searchengine.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         torrents = soup.find_all('td', 'torrent')
-        results = []
         for torrent_ in torrents:
             link = torrent_.find('a')
             name = link.string.lower()
             url_stub = link.get('href')
             url = f"https://distrowatch.com/{url_stub}"
             tracker = self.__class__.__name__
-            results.append(torrent.Torrent(name, tracker, torrent_url=url))
-        return results
+            yield torrent.Torrent(name, tracker, torrent_url=url)

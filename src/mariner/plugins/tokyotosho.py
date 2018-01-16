@@ -26,17 +26,13 @@ class TokyoTosho(searchengine.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         torrents = soup.select('.desc-top')
-        results = []
         for torrent_ in torrents:
             links = torrent_.select('a')
             magnet = links[0].get('href')
             url = links[1].get('href')
             name = TokyoTosho._parse_name(links[1].contents)
             tracker = self.__class__.__name__
-
-            results.append(torrent.Torrent(
-                name, tracker, magnet_link=magnet, torrent_url=url))
-        return results
+            yield torrent.Torrent(name, tracker, magnet_link=magnet, torrent_url=url)
 
     @staticmethod
     def _parse_name(raw: str) -> Name:
