@@ -6,7 +6,7 @@ from typing import List, Tuple
 
 import bs4
 
-from mariner import searchengine, torrent, cache
+from mariner import searchengine, torrent
 
 Url = str
 Page = str

@@ -31,13 +31,14 @@ class SearchEngine:
             path='~/.local/share/mariner/results.json', size=1000)
         self.initialize_plugins()
 
-    def _flatten(self, nested_list: List[List]) -> List:
+    @staticmethod
+    def _flatten(nested_list: List[List]) -> List:
         """Flatten a list."""
         return list(itertools.chain(*nested_list))
 
     def find_plugins(self) -> None:
         """Find and import tracker plugins."""
-        for module in self.plugin_directory.glob('*.py'):
+        for module in self.plugin_directory.glob('*.py'):  # pylint: disable=no-member
             self.log.debug('Loading module=%s', module)
             name = module.stem
             spec = importlib.util.spec_from_file_location(name, module)
@@ -63,16 +64,16 @@ class SearchEngine:
             Torrent with given ID.
         """
         self.log.debug('Fetching torrent with tid=%s', tid)
-        torrent = self.results.get(tid)
-        if torrent:
-            return torrent
+        torrent_ = self.results.get(tid)
+        if torrent_:
+            return torrent_
         raise NoResultException(f"No torrent with ID {tid}")
 
     @cache.Cache(size=100)
     def _cached_search(self,
                        title: str,
                        trackers: List[str],
-                       ) -> List[torrent.Torrent]:
+                       ) -> List[torrent.Torrent]:  # pylint: disable=bad-continuation
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily
         serializable, we cannot simply cache TrackerPlugun.results() method.
@@ -95,7 +96,7 @@ class SearchEngine:
                title: str,
                trackers: List[str],
                limit: Optional[int] = 10
-               ) -> List[torrent.Torrent]:
+               ) -> List[torrent.Torrent]:  # pylint: disable=bad-continuation
         """Search for torrents on given site.
 
         Args:
@@ -133,11 +134,11 @@ class SearchEngine:
 
 class TrackerMeta(abc.ABCMeta, type):
     """Metaclass to check, that Tracket plugins override search_url."""
-    def __new__(meta, name, bases, class_dict):
+    def __new__(mcs, name, bases, namespace, **kwargs):
         if bases != (abc.ABC,):
-            if not class_dict.get('search_url'):
+            if not namespace.get('search_url'):
                 raise ValueError('You must define search_url')
-        return type.__new__(meta, name, bases, class_dict)
+        return type.__new__(mcs, name, bases, namespace)
 
 
 class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
@@ -145,9 +146,6 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
     log = logging.getLogger(__name__)
     user_agent = {'user-agent': 'Mariner Torrent Downloader'}
     search_url = ''  # To be overwritten by subclasses
-
-    def __init__(self) -> None:
-        super().__init__()
 
     async def get(self, url: Url) -> Page:
         """Asynchronous https request.

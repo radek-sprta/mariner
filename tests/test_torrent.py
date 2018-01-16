@@ -29,10 +29,6 @@ class TestTorrent:
         """Tracker is a string."""
         assert isinstance(torrent.tracker, str)
 
-    def test_mods_is_string(self, torrent):
-        """Mods is a string."""
-        assert isinstance(torrent.mods, str)
-
     def test_filename_is_string(self, torrent):
         """Filename is a string."""
         assert isinstance(torrent.filename, str)

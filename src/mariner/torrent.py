@@ -2,7 +2,7 @@
 """Represent a downloadable torrent."""
 
 
-class Torrent:
+class Torrent:  # pylint: disable=too-few-public-methods
     """Class representing a Torrent."""
 
     def __init__(self,
@@ -11,21 +11,11 @@ class Torrent:
                  *,
                  torrent_url: str = None,
                  magnet_link: str = None,
-                 ) -> None:
+                 ) -> None:  # pylint: disable=bad-continuation
         self.name = name
         self.torrent_url = torrent_url
         self.magnet_link = magnet_link
         self.tracker = tracker
-
-    @property
-    def mods(self) -> str:
-        """Show whether it is available as torrent, magnet link or both."""
-        mods = []
-        if self.torrent_url:
-            mods.append('Torrent')
-        if self.magnet_link:
-            mods.append('Magnet link')
-        return ', '.join(mods)
 
     @property
     def filename(self) -> str:

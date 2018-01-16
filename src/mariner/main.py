@@ -67,7 +67,7 @@ class Mariner(app.App):
         console_level = {0: logging.WARNING,
                          1: logging.INFO,
                          2: logging.DEBUG,
-                         }.get(self.options.verbose_level, logging.DEBUG)
+                        }.get(self.options.verbose_level, logging.DEBUG)
         console.setLevel(console_level)
         formatter = logging.Formatter(self.CONSOLE_MESSAGE_FORMAT)
         console.setFormatter(formatter)

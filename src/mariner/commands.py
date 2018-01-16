@@ -6,7 +6,7 @@ import pathlib
 from cliff import command, lister
 import pyperclip
 
-from mariner import downloader
+from mariner import downloader, torrent
 
 
 class Download(lister.Lister):
@@ -38,15 +38,15 @@ class Download(lister.Lister):
         """
         torrents = []
         for tid in parsed_args.ID:
-            torrent = self.app.engine.result(tid)
-            self.log.debug('tid=%s torrent=%s', tid, torrent)
-            if torrent.torrent_url:
-                torrents.append(torrent)
+            torrent_ = self.app.engine.result(tid)
+            self.log.debug('tid=%s torrent=%s', tid, torrent_)
+            if torrent_.torrent_url:
+                torrents.append(torrent_)
                 self.log.debug('Torrent appended.')
                 self.log.info(f'Downloading torrent ID {tid}.')
             else:
                 self.log.warning(
-                    f'No torrent for {torrent.name}. Use magnet link instead.')
+                    f'No torrent for {torrent_.name}. Use magnet link instead.')
 
         filelist = ((t.torrent_url, t.filename) for t in torrents)
         path = self.app.config['download_path']
@@ -85,21 +85,31 @@ class Magnet(command.Command):
             parsed_args: List of parsed arguments.
         """
         tid = parsed_args.ID[0]
-        torrent = self.app.engine.result(tid)
+        torrent_ = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent)
-        if torrent.magnet_link:
-            pyperclip.copy(torrent.magnet_link)
-            self.log.info(f'Copied {torrent.name} magnet link to clipboard.')
-            self.log.debug('magnet=%s', torrent.magnet_link)
-        else:
+        try:
+            pyperclip.copy(torrent_.magnet_link)
+            self.log.info(f'Copied {torrent_.name} magnet link to clipboard.')
+            self.log.debug('magnet=%s', torrent_.magnet_link)
+        except AttributeError:
             self.log.warning(
-                f'{torrent.name} has no magnet link. Download the torrent.')
+                f'{torrent_.name} has no magnet link. Download the torrent.')
 
 
 class Search(lister.Lister):
     """Search for torrents."""
 
     log = logging.getLogger(__name__)
+
+    @staticmethod
+    def _availability(torrent_: torrent.Torrent) -> str:
+        """Show whether it is available as torrent, magnet link or both."""
+        availability = []
+        if torrent_.magnet_link:
+            availability.append('Magnet link')
+        if torrent_.torrent_url:
+            availability.append('Torrent')
+        return ', '.join(availability)
 
     def get_parser(self, prog_name):
         """Add arguments to argument parser.
@@ -136,5 +146,6 @@ class Search(lister.Lister):
         results = self.app.engine.search(title, trackers, limit)
 
         headers = ('ID', 'Name', 'Tracker', 'Available as')
-        columns = ((tid, t.name[:80], t.tracker, t.mods) for tid, t in results)
+        columns = ((tid, t.name[:80], t.tracker, self._availability(t))
+                   for tid, t in results)
         return (headers, columns)

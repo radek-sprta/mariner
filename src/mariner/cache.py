@@ -27,7 +27,7 @@ class Cache:
                  timeout: int = 86400,
                  size: int = 10000,
                  storage: tinydb.storages.Storage = tinydb.storages.JSONStorage,
-                 ) -> None:
+                 ) -> None:  # pylint: disable=bad-continuation
         self.path = utils.check_path(path)
         self.timeout = timeout
         self.size = size

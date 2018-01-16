@@ -37,6 +37,5 @@ class KickAssTorrents(searchengine.TrackerPlugin):
                 results.append(torrent.Torrent(
                     name, tracker, magnet_link=magnet))
         except AttributeError:
-            pass
-        finally:
-            return results
+            self.log.debug("No results found")
+        return results
