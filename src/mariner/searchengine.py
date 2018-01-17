@@ -53,6 +53,8 @@ class SearchEngine:
             self.log.debug('Adding plugin=%s', plugin)
             name = plugin.__name__.lower()
             self.plugins[name] = plugin
+            for alias in plugin.aliases:
+                self.plugins[alias] = plugin
 
     def result(self, tid: str) -> torrent.Torrent:
         """Get torrent of given id.
@@ -85,8 +87,10 @@ class SearchEngine:
             List of Torrents returned by the search.
         """
         self.log.debug('Fetching search results')
-        tasks = asyncio.gather(
-            *[self.plugins[t]().results(title.lower()) for t in trackers])
+
+        # Get unique trackers
+        plugins = set(self.plugins[t] for t in trackers)
+        tasks = asyncio.gather(*(p().results(title.lower()) for p in plugins))
         loop = asyncio.get_event_loop()
         torrents = loop.run_until_complete(tasks)
         torrents = self._flatten(torrents)
@@ -146,6 +150,7 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
     log = logging.getLogger(__name__)
     user_agent = {'user-agent': 'Mariner Torrent Downloader'}
     search_url = ''  # To be overwritten by subclasses
+    aliases = []  # Aliases for the tracker name
 
     async def get(self, url: Url) -> Page:
         """Asynchronous https request.

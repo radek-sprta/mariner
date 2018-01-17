@@ -14,6 +14,7 @@ class KickAssTorrents(searchengine.TrackerPlugin):
     """Represents KickAssTorrents search engine."""
 
     search_url = 'https://katcr.co/katsearch/page/1/'
+    aliases = ['kat']
 
     def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
         """Parse result page.

@@ -125,7 +125,7 @@ class Search(lister.Lister):
         parser.add_argument('--limit', '-l', nargs='?', default=60, type=int)
         plugins = self.app.engine.plugins.keys()
         parser.add_argument('--trackers', '-t', action='append', choices=plugins,
-                            default=[self.app.config['default_tracker']])
+                            default=[])
         return parser
 
     def take_action(self, parsed_args):
@@ -139,6 +139,11 @@ class Search(lister.Lister):
         """
         title = parsed_args.title
         limit = parsed_args.limit
+
+        # If default tracker is used as default argument, the user provided ones
+        # are appended to it, instead of replacing it.
+        if not parsed_args.trackers:
+            parsed_args.trackers.append(self.app.config['default_tracker'])
         trackers = [t.lower() for t in set(parsed_args.trackers)]
 
         self.log.info(f'Searching for "{title}".')

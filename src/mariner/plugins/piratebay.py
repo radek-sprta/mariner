@@ -14,6 +14,7 @@ class PirateBay(searchengine.TrackerPlugin):
     """Represents PirateBay search engine."""
 
     search_url = 'https://thepiratebay.org/search/'
+    aliases = ['tpb', 'pb']
 
     def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
         """Parse result page.
