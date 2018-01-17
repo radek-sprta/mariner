@@ -121,10 +121,10 @@ class Search(lister.Lister):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument('title', nargs=1)
+        parser.add_argument('title')
         parser.add_argument('--limit', '-l', nargs='?', default=60, type=int)
         plugins = self.app.engine.plugins.keys()
-        parser.add_argument('--trackers', '-t', nargs='+', choices=plugins,
+        parser.add_argument('--trackers', '-t', action='append', choices=plugins,
                             default=[self.app.config['default_tracker']])
         return parser
 
@@ -137,11 +137,11 @@ class Search(lister.Lister):
         Returns:
             List of torrents found.
         """
-        title = parsed_args.title[0]
+        title = parsed_args.title
         limit = parsed_args.limit
-        trackers = [t.lower() for t in parsed_args.trackers]
-        self.log.info(f'Searching for "{title}".')
+        trackers = [t.lower() for t in set(parsed_args.trackers)]
 
+        self.log.info(f'Searching for "{title}".')
         self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)
         results = self.app.engine.search(title, trackers, limit)
 

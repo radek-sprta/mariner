@@ -3,9 +3,9 @@ import functools
 import hashlib
 from typing import Any, Callable, Dict
 
-import pendulum
 import jsonpickle
-import tinydb
+import pendulum  # pylint: disable=wrong-import-order
+import tinydb  # pylint: disable=wrong-import-order
 import tinydb_smartcache
 
 from mariner import utils
