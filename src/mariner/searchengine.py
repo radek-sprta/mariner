@@ -118,8 +118,8 @@ class SearchEngine:
             raise ValueError('Limit has to be higher than zero.')
 
         torrents = self._cached_search(title, trackers)
-
-        results = [(i, t) for i, t in enumerate(torrents[:limit])]
+        sorted_torrents = list(reversed(sorted(torrents)))
+        results = [(i, t) for i, t in enumerate(sorted_torrents[:limit])]
         if results:
             self.save_results(results)
             return results
@@ -194,9 +194,22 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
         """
         raise NotImplementedError
 
+    @staticmethod
+    def _parse_number(number: str) -> int:
+        """Parse a number string from HTML page and return an interger.
+
+        Args:
+            number: Number string to parse.
+
+        Return:
+            Parsed number.
+        """
+        squashed = number.replace(' ', '')
+        return int(squashed.replace(',', ''))
+
 
 class Error(Exception):
-    """Base-class for all exceptions raised by this module."""
+    """Base - class for all exceptions raised by this module."""
 
 
 class NoResultException(Error):

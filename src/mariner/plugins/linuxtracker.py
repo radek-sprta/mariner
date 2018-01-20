@@ -37,6 +37,9 @@ class LinuxTracker(searchengine.TrackerPlugin):
                 magnet = links.find_all('a')[0]['href']
                 stub = links.find_all('a')[1]['href']
                 url = f'http://linuxtracker.org/{stub}'
-                yield torrent.Torrent(name, tracker, torrent_url=url, magnet_link=magnet)
+                raw_seeds = torrent_.find_all(
+                    'tr')[2].get_text().split(' ')[-2]
+                seeds = self._parse_number(raw_seeds)
+                yield torrent.Torrent(name, tracker, torrent_url=url, magnet_link=magnet, seeds=seeds)
             except AttributeError:
                 pass

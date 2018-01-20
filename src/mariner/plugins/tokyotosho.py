@@ -25,14 +25,23 @@ class TokyoTosho(searchengine.TrackerPlugin):
             List of torrent names with magnet links and URLs.
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
-        torrents = soup.select('.desc-top')
-        for torrent_ in torrents:
-            links = torrent_.select('a')
-            magnet = links[0].get('href')
-            url = links[1].get('href')
-            name = TokyoTosho._parse_name(links[1].contents)
-            tracker = self.__class__.__name__
-            yield torrent.Torrent(name, tracker, magnet_link=magnet, torrent_url=url)
+        contents = soup.select('tr.category_0')
+        for content in contents:
+            try:
+                # Even lines
+                torrent_ = content.select('.desc-top')[0]
+                links = torrent_.select('a')
+                magnet = links[0].get('href')
+                url = links[1].get('href')
+                name = TokyoTosho._parse_name(links[1].contents)
+                tracker = self.__class__.__name__
+                result = torrent.Torrent(
+                    name, tracker, magnet_link=magnet, torrent_url=url)
+            except IndexError:
+                # Odd lines
+                raw_seeds = content.select('td.stats')[0].span.string
+                result.seeds = self._parse_number(raw_seeds)
+                yield result
 
     @staticmethod
     def _parse_name(raw: str) -> Name:

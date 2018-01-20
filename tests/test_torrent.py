@@ -11,7 +11,7 @@ class TestTorrent:
 
     @pytest.fixture
     def torrent(self):
-        return torrent.Torrent('name', 'tacker', magnet_link='magnet', torrent_url='tracker')
+        return torrent.Torrent('name', 'tracker', magnet_link='magnet', torrent_url='tracker')
 
     def test_name_is_string(self, torrent):
         """Name is a string."""
@@ -32,3 +32,7 @@ class TestTorrent:
     def test_filename_is_string(self, torrent):
         """Filename is a string."""
         assert isinstance(torrent.filename, str)
+
+    def test_cmpkey_is_int(self, torrent):
+        """_cmpkey is an integer."""
+        assert isinstance(torrent._cmpkey, int)

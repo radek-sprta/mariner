@@ -26,15 +26,19 @@ class KickAssTorrents(searchengine.TrackerPlugin):
             List of torrent names with magnet links.
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
-        content = soup.find_all('div', class_='torrents_table__torrent_name')
+        contents = soup.find('table', class_='torrents_table')
         try:
-            for torrent_ in content:
+            for line in contents.find_all('tr')[1:]:
+                torrent_ = line.find(
+                    'div', class_='torrents_table__torrent_name')
                 name = str(torrent_.find(
                     'a', class_='torrents_table__torrent_title').string)
                 magnet = torrent_.find(
                     'a', {'title': 'Torrent magnet link'})['href']
                 tracker = self.__class__.__name__
-                yield torrent.Torrent(name, tracker, magnet_link=magnet)
+                raw_seeds = line.find('td', {'data-title': 'Seed'}).string
+                seeds = self._parse_number(raw_seeds)
+                yield torrent.Torrent(name, tracker, magnet_link=magnet, seeds=seeds)
         except AttributeError:
             self.log.debug("No results found")
             yield from ()

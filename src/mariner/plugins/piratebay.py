@@ -39,7 +39,9 @@ class PirateBay(searchengine.TrackerPlugin):
                 links = torrent_.find_all('a')
                 magnet = links[3].get('href')
                 tracker = self.__class__.__name__
-                yield torrent.Torrent(name, tracker, magnet_link=magnet)
+                raw_seeds = torrent_.find('td', align='right').string
+                seeds = self._parse_number(raw_seeds)
+                yield torrent.Torrent(name, tracker, magnet_link=magnet, seeds=seeds)
 
     @staticmethod
     def _parse_name(raw: str) -> Name:
