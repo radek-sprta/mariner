@@ -10,14 +10,14 @@ class Torrent(mixins.ComparableMixin):
                  name: str,
                  tracker: str,
                  *,
-                 torrent_url: str = None,
-                 magnet_link: str = None,
+                 torrent: str = None,
+                 magnet: str = None,
                  seeds: int = -1,
                  ) -> None:  # pylint: disable=bad-continuation
         self.name = name
         self.tracker = tracker
-        self.torrent_url = torrent_url
-        self.magnet_link = magnet_link
+        self.torrent = torrent
+        self.magnet = magnet
         self.seeds = seeds
 
     @property
@@ -31,7 +31,7 @@ class Torrent(mixins.ComparableMixin):
         return self.name if '.torrent' in self.name else f'{self.name}.torrent'
 
     def __repr__(self) -> str:
-        return f"Torrent({self.name}, {self.tracker}, {self.torrent_url}, {self.magnet_link}, {self.seeds})"
+        return f"Torrent({self.name}, {self.tracker}, {self.torrent}, {self.magnet}, {self.seeds})"
 
     def __str__(self) -> str:
         return self.__repr__()

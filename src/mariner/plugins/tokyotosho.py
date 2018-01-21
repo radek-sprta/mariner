@@ -36,7 +36,7 @@ class TokyoTosho(searchengine.TrackerPlugin):
                 name = TokyoTosho._parse_name(links[1].contents)
                 tracker = self.__class__.__name__
                 result = torrent.Torrent(
-                    name, tracker, magnet_link=magnet, torrent_url=url)
+                    name, tracker, magnet=magnet, torrent=url)
             except IndexError:
                 # Odd lines
                 raw_seeds = content.select('td.stats')[0].span.string

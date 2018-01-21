@@ -11,19 +11,19 @@ class TestTorrent:
 
     @pytest.fixture
     def torrent(self):
-        return torrent.Torrent('name', 'tracker', magnet_link='magnet', torrent_url='tracker')
+        return torrent.Torrent('name', 'tracker', magnet='magnet', torrent='tracker')
 
     def test_name_is_string(self, torrent):
         """Name is a string."""
         assert isinstance(torrent.name, str)
 
-    def test_torrent_url_is_string(self, torrent):
+    def test_torrent_is_string(self, torrent):
         """Torrent URL is a string."""
-        assert isinstance(torrent.torrent_url, str)
+        assert isinstance(torrent.torrent, str)
 
-    def test_magnet_link_is_string(self, torrent):
+    def test_magnet_is_string(self, torrent):
         """Magnet link is a string."""
-        assert isinstance(torrent.magnet_link, str)
+        assert isinstance(torrent.magnet, str)
 
     def test_tracker_is_string(self, torrent):
         """Tracker is a string."""

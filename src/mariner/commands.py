@@ -40,7 +40,7 @@ class Download(lister.Lister):
         for tid in parsed_args.ID:
             torrent_ = self.app.engine.result(tid)
             self.log.debug('tid=%s torrent=%s', tid, torrent_)
-            if torrent_.torrent_url:
+            if torrent_.torrent:
                 torrents.append(torrent_)
                 self.log.debug('Torrent appended.')
                 self.log.info(f'Downloading torrent ID {tid}.')
@@ -48,7 +48,7 @@ class Download(lister.Lister):
                 self.log.warning(
                     f'No torrent for {torrent_.name}. Use magnet link instead.')
 
-        filelist = ((t.torrent_url, t.filename) for t in torrents)
+        filelist = ((t.torrent, t.filename) for t in torrents)
         path = self.app.config['download_path']
         self.log.debug('filelist=%s download_path=%s', filelist, path)
         torrent_downloader = downloader.Downloader(download_path=path)
@@ -88,9 +88,9 @@ class Magnet(command.Command):
         torrent_ = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent)
         try:
-            pyperclip.copy(torrent_.magnet_link)
+            pyperclip.copy(torrent_.magnet)
             self.log.info(f'Copied {torrent_.name} magnet link to clipboard.')
-            self.log.debug('magnet=%s', torrent_.magnet_link)
+            self.log.debug('magnet=%s', torrent_.magnet)
         except AttributeError:
             self.log.warning(
                 f'{torrent_.name} has no magnet link. Download the torrent.')
@@ -105,9 +105,9 @@ class Search(lister.Lister):
     def _availability(torrent_: torrent.Torrent) -> str:
         """Show whether it is available as torrent, magnet link or both."""
         availability = []
-        if torrent_.magnet_link:
+        if torrent_.magnet:
             availability.append('Magnet link')
-        if torrent_.torrent_url:
+        if torrent_.torrent:
             availability.append('Torrent')
         return ', '.join(availability)
 

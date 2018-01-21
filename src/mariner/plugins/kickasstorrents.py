@@ -38,7 +38,7 @@ class KickAssTorrents(searchengine.TrackerPlugin):
                 tracker = self.__class__.__name__
                 raw_seeds = line.find('td', {'data-title': 'Seed'}).string
                 seeds = self._parse_number(raw_seeds)
-                yield torrent.Torrent(name, tracker, magnet_link=magnet, seeds=seeds)
+                yield torrent.Torrent(name, tracker, magnet=magnet, seeds=seeds)
         except AttributeError:
             self.log.debug("No results found")
             yield from ()

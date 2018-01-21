@@ -49,4 +49,4 @@ class Distrowatch(searchengine.TrackerPlugin):
             url_stub = link.get('href')
             url = f"https://distrowatch.com/{url_stub}"
             tracker = self.__class__.__name__
-            yield torrent.Torrent(name, tracker, torrent_url=url)
+            yield torrent.Torrent(name, tracker, torrent=url)
