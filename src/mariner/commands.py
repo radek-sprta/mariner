@@ -24,7 +24,8 @@ class Download(lister.Lister):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument('ID', nargs='+', type=int)
+        parser.add_argument(
+            'ID', nargs='+', help="ID of the torrent to download", type=int)
         return parser
 
     def take_action(self, parsed_args):
@@ -75,7 +76,8 @@ class Magnet(command.Command):
             Instance of argument parser.
         """
         parser = super(Magnet, self).get_parser(prog_name)
-        parser.add_argument('ID', nargs=1, type=int)
+        parser.add_argument(
+            'ID', nargs=1, help='ID of the magnet link to copy', type=int)
         return parser
 
     def take_action(self, parsed_args):
@@ -121,11 +123,13 @@ class Search(lister.Lister):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument('title')
-        parser.add_argument('--limit', '-l', nargs='?', default=50, type=int)
+        parser.add_argument('title', help='Title to search for')
+        parser.add_argument('--limit', '-l', nargs='?', default=50,
+                            help='Limit the number of results shown. Default is 50.',
+                            type=int)
         plugins = self.app.engine.plugins.keys()
         parser.add_argument('--trackers', '-t', action='append', choices=plugins,
-                            default=[])
+                            help='Trackers that should be searched', default=[])
         return parser
 
     def take_action(self, parsed_args):
