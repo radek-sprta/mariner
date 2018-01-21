@@ -21,16 +21,28 @@ Searches a torrent tracker for torrents. It requires one positional argument - t
 
 `mariner search OpenSuse`
 
-By default, it searches Distrowatch. You can use `--tracker` or `-t` flag to use piratebay or tokyotosho instead:
+By default, it searches Distrowatch. You can use `--tracker` or `-t` flag to use Linuxtracker, or some other tracker instead:
 
-`mariner search -t piratebay OpenSuse`
+`mariner search -t linuxtracker OpenSuse`
 
-Only the first ten results are shown. To change that, use the `--limit` or `-l` flag:
+You can list all the available trackers via:
+
+`mariner help search`
+
+Some of them have aliases you can use in place of the full names, for example tpb for PirateBay or kat for KickAssTorrents:
+
+`mariner search -t kat OpenSuse`
+
+You can also search on multiple trackers at once. Just use multiple `-t` flags:
+
+`mariner search -t distrowatch -t linuxtracker OpenSuse`
+
+By default, top 60 results are shown. To change that, use the `--limit` or `-l` flag:
 
 `mariner search -l 20 OpenSuse`
 
 ## Download
-Downloads torrents with given IDs to the download folder (default: ~/Downloads). You candownload multiple torrent files at once:
+Downloads torrents with given IDs to the download folder (default: ~/Downloads). You can download multiple torrent files at once:
 
 `mariner download 1 2 3`
 

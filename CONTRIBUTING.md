@@ -2,7 +2,7 @@
 
 First of all, thank you for contributing to Mariner!
 
-This document provides guidelines for contributing to the project. They are written to ensure its consistency and maintainability. All contributions are welcome, as long as you follow these guidelines. If you have any questions, please [contact me](mailto:mail@radeksprta.eu).
+This document provides guidelines for contributing to the project. They are written to ensure its consistency and maintainability. All contributions are welcome, as long as you follow these guidelines. If you have any questions, please [contact me](incoming+radek-sprta/mariner@gitlab.com).
 
 There are many ways to contribute to the project, including, but not limited to, submitting bug reports and feature requests, improving documentation or writing code.
 

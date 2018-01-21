@@ -1,7 +1,7 @@
 """Utility mixins used in Mariner."""
 
 
-class ComparableMixin(object):
+class ComparableMixin:  # pylint: disable=too-few-public-methods
     """Implement comparisons, using _cmpkey attribute."""
 
     def _compare(self, other, method):
@@ -15,7 +15,7 @@ class ComparableMixin(object):
             Comparison function.
         """
         try:
-            return method(self._cmpkey, other._cmpkey)
+            return method(self._cmpkey, other._cmpkey)  # pylint: disable=protected-access
         except (AttributeError, TypeError):
             # _cmpkey not implemented, or returned different type,
             # so cannot make a comparison with "other".

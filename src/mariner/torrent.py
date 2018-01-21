@@ -3,7 +3,7 @@
 from mariner import mixins
 
 
-class Torrent(mixins.ComparableMixin):
+class Torrent(mixins.ComparableMixin):  # pylint: disable=too-few-public-methods
     """Class representing a Torrent."""
 
     def __init__(self,

@@ -1,4 +1,4 @@
-![PyPI package version][pypi]
+[![PyPI version](https://badge.fury.io/py/mariner.svg)](https://badge.fury.io/py/mariner)
 
 # Mariner
 
@@ -8,9 +8,11 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 ## Features
 
-- Search for torrents on Distrowatch, PirateBay and TokyoTosho.
+- Search for torrents on Distrowatch, Linuxtracker, KickAssTorrents, PirateBay and TokyoTosho.
 - Download torrent files and copy magnet links to clipboard.
 - Asynchronous I/O for better responsiveness.
+
+![Mariner demonstration][demonstration]
 
 ## Installation
 
@@ -18,13 +20,13 @@ Mariner requires Python 3.5 or newer to run.
 
 **Python package**
 
-Since it is written in pure Python, you can easily install it using pip:
+You can easily install Mariner using pip:
 
 `pip3 install mariner`
 
 **Manual**
 
-Alternatively, to get the latest development version, you can clone this repository and then manually install Mariner:
+Alternatively, to get the latest development version, you can clone this repository and then manually install it:
 
 ```
 git clone git@gitlab.com:radek-sprta/mariner.git
@@ -44,7 +46,7 @@ In order to start Mariner in interactive mode, run it without any arguments:
 
 Then search for Ubuntu torrents:
 
-`(mariner) search Ubuntu`
+`(mariner) search Ubuntu -t linuxtracker`
 
 and download the first result on the list:
 
@@ -62,9 +64,9 @@ For more information, check the [documentation][documentation].
 
 ## TODO
 - Add more trackers for searching
-- Allow searching multiple torrent trackers at once
 - Show torrent details
 - Pass torrents directly to Transmission and Deluge
+- Provide installation methods outside of pip
 
 ## Contributing
 For information on how to contribute to the project, please check the [Contributor's Guide][contributing]
@@ -74,10 +76,11 @@ I do not want anyone to act in conflict with their local laws and I do not endor
 
 ## Contact
 [mail@radeksprta.eu](mailto:mail@radeksprta.eu)
+[incoming+radek-sprta/mariner@gitlab.com](incoming+radek-sprta/mariner@gitlab.com)
 
 ## License
 GNU General Public License v3.0
 
 [contributing]: https://gitlab.com/radek-sprta/mariner/blob/master/CONTRIBUTING.md
+[demonstration]: https://gitlab.com/radek-sprta/mariner/blob/master/docs/assets/mariner.gif
 [documentation]: https://radek-sprta.gitlab.io/mariner
-[pypi]: https://badge.fury.oi/py/mariner.png
