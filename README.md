@@ -12,7 +12,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 - Download torrent files and copy magnet links to clipboard.
 - Asynchronous I/O for better responsiveness.
 
-![Mariner demonstration][demonstration]
+![Mariner demonstration](https://gitlab.com/radek-sprta/mariner/blob/master/docs/assets/mariner.gif)
 
 ## Installation
 
@@ -76,11 +76,11 @@ I do not want anyone to act in conflict with their local laws and I do not endor
 
 ## Contact
 [mail@radeksprta.eu](mailto:mail@radeksprta.eu)
+
 [incoming+radek-sprta/mariner@gitlab.com](incoming+radek-sprta/mariner@gitlab.com)
 
 ## License
 GNU General Public License v3.0
 
 [contributing]: https://gitlab.com/radek-sprta/mariner/blob/master/CONTRIBUTING.md
-[demonstration]: https://gitlab.com/radek-sprta/mariner/blob/master/docs/assets/mariner.gif
 [documentation]: https://radek-sprta.gitlab.io/mariner
