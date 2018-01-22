@@ -20,6 +20,24 @@ test:linters:
   script: tox -e linters
   allow_failure: true
 
+build:
+  stage: build
+  script: tox -e build
+  artifacts:
+    paths:
+    - dist
+    expire_in: 1 month
+
+release:
+	image: ruby:latest
+	stage: release
+	script:
+	- gem install dpl
+	- dpl --provider=pypi --distributions='sdist bdist_wheel'
+  only:
+    - tags
+	
+
 pages:
   script:
   - pip install mkdocs

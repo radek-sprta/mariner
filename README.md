@@ -12,7 +12,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 - Download torrent files and copy magnet links to clipboard.
 - Asynchronous I/O for better responsiveness.
 
-![Mariner demonstration](https://gitlab.com/radek-sprta/mariner/blob/master/docs/assets/mariner.gif)
+![Mariner demonstration](docs/assets/mariner.gif)
 
 ## Installation
 
