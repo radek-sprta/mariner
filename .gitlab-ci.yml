@@ -1,50 +1,51 @@
-image: python:latest
+image: python:latest                                                                                                                                                                    
 
 stages:
   - test
+  - build
+  - release
 
 before_script: 
   - apt -y install libxml2-dev libxslt-dev
   - pip install pipenv
-  - pip install tox
+  - pip install tox 
   - pip install codecov
 
 test:python36:
   stage: test
   script: 
-  - tox -e py36
-  - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
+    - tox -e py36
+    - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
 
 test:linters:
   stage: test
   script: tox -e linters
   allow_failure: true
-
-build:
+  
+build:package:
   stage: build
   script: tox -e build
   artifacts:
     paths:
-    - dist
+      - dist
     expire_in: 1 month
 
-release:
-	image: ruby:latest
-	stage: release
-	script:
-	- gem install dpl
-	- dpl --provider=pypi --distributions='sdist bdist_wheel'
+release:pypi:
+  image: ruby:latest
+  stage: release
+  script:
+    - gem install dpl 
+    - dpl --provider=pypi --distributions='sdist bdist_wheel'
   only:
     - tags
-	
 
 pages:
   script:
-  - pip install mkdocs
-  - pip install mkdocs-cinder
-  - mkdocs build -d public/
+    - pip install mkdocs
+    - pip install mkdocs-cinder
+    - mkdocs build -d public/
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
