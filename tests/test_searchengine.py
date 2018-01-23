@@ -14,7 +14,7 @@ class TestSearchEngine:
 
     def test_initialize_plugins(self, engine):
         assert engine.plugins
-        assert 'piratebay' in engine.plugins.keys()
+        assert 'linuxtracker' in engine.plugins.keys()
         assert 'distrowatch' in engine.plugins.keys()
         assert 'tokyotosho' in engine.plugins.keys()
 
@@ -27,7 +27,7 @@ class TestSearchEngine:
     def test_cached_search(self, engine):
         """Search for torrent on given trackers."""
         title = 'Ubuntu'
-        trackers = ['piratebay', 'distrowatch']
+        trackers = ['linuxtracker', 'distrowatch', 'kickasstorrents']
         results = engine._cached_search(title, trackers)
         for result in results:
             assert isinstance(result, torrent.Torrent)
@@ -38,7 +38,7 @@ class TestSearchEngine:
     def test_search(self, engine, limit):
         """Search for torrent on given trackers."""
         title = 'Ubuntu'
-        trackers = ['piratebay', 'distrowatch']
+        trackers = ['linuxtracker', 'distrowatch', 'kickasstorrents']
         results = engine.search(title, trackers, limit=limit)
         assert len(results) == limit
         for __, result in results:
@@ -49,7 +49,7 @@ class TestSearchEngine:
     def test_search_limit_zero(self, engine):
         """Search throws ValueError when limit is zero."""
         title = 'Ubuntu'
-        trackers = ['piratebay', 'distrowatch']
+        trackers = ['linuxtracker', 'distrowatch']
         with pytest.raises(ValueError):
             engine.search(title, trackers, limit=0)
 

@@ -1,10 +1,10 @@
 """Persistent memoization using TinyDB."""
 import functools
 import hashlib
-from typing import Any, Callable, Dict
+import time
+from typing import Any, Callable
 
 import jsonpickle
-import pendulum  # pylint: disable=wrong-import-order
 import tinydb  # pylint: disable=wrong-import-order
 import tinydb_smartcache
 
@@ -38,10 +38,9 @@ class Cache:
         """Clear the cache."""
         self.db.purge()
 
-    def expiry(self) -> pendulum.Pendulum:
+    def expiry(self) -> float:
         """Return expiration time for cached results."""
-        expiry = pendulum.now().add(seconds=self.timeout)
-        return self._serialize_date(expiry)
+        return time.time() + self.timeout
 
     def get(self, key: str) -> Any:
         """Get torrent from database.
@@ -84,25 +83,13 @@ class Cache:
     def _remove_expired(self) -> None:
         """Remove old entries."""
         entry = tinydb.Query()
-        now = self._serialize_date(pendulum.now())
+        now = time.time()
         self.db.remove(entry.time < now)
 
     def _remove_oldest(self) -> None:
         """Remove oldest entry."""
         oldest = self.db.all()[0].key
         self.remove(oldest)
-
-    @staticmethod
-    def _serialize_date(date: pendulum.Pendulum) -> Dict[str, str]:
-        """Serialize date so it can be stored in database.
-
-        Args:
-            date: Date to serialize.
-
-        Returns:
-            Serialized date.
-        """
-        return jsonpickle.encode(date)
 
     def __call__(self, function: Callable[..., Any]):
         """Decorator for caching function results.

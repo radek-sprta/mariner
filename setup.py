@@ -16,7 +16,6 @@ requires = [
     'future-fstrings',
     'jsonpickle',
     'lxml',
-    'pendulum',
     'ruamel.yaml',
     'tinydb',
     'tinydb_smartcache',
