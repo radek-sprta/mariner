@@ -42,11 +42,13 @@ class Distrowatch(searchengine.TrackerPlugin):
             List of torrent names with URLs.
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
-        torrents = soup.find_all('td', 'torrent')
-        for torrent_ in torrents:
+        content = soup.find('table', cellpadding='5').find_all('tr')[1:]
+        for line in content:
+            torrent_ = line.find('td', 'torrent')
             link = torrent_.find('a')
             name = link.string.lower()
             url_stub = link.get('href')
             url = f"https://distrowatch.com/{url_stub}"
             tracker = self.__class__.__name__
-            yield torrent.Torrent(name, tracker, torrent=url)
+            date = str(line.find('td', 'torrentdate').string)
+            yield torrent.Torrent(name, tracker, torrent=url, date=date)

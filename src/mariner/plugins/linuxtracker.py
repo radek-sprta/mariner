@@ -39,10 +39,15 @@ class LinuxTracker(searchengine.TrackerPlugin):
                 stub = links.find_all('a')[1]['href']
                 url = f'http://linuxtracker.org/{stub}'
 
-                raw_seeds = torrent_.find_all(
-                    'tr')[2].get_text().split(' ')[-2]
+                details = torrent_.find_all('tr')
+                date = details[0].get_text().strip().split()[2]
+                size = ' '.join(details[1].get_text().split()[1:])
+                raw_seeds = details[2].get_text().split()[1]
                 seeds = self._parse_number(raw_seeds)
+                raw_leeches = details[3].get_text().split()[1]
+                leeches = self._parse_number(raw_leeches)
 
-                yield torrent.Torrent(name, tracker, torrent=url, magnet=magnet, seeds=seeds)
+                yield torrent.Torrent(name, tracker, torrent=url, magnet=magnet,
+                                      date=date, size=size, seeds=seeds, leeches=leeches)
             except AttributeError:
                 pass

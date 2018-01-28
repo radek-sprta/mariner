@@ -39,8 +39,16 @@ class TokyoTosho(searchengine.TrackerPlugin):
                     name, tracker, magnet=magnet, torrent=url)
             except IndexError:
                 # Odd lines
-                raw_seeds = content.select('td.stats')[0].span.string
+                details = content.select(
+                    'td.desc-bot')[0].get_text().split('|')
+                result.size = details[1].split(':')[1].strip()
+                result.date = details[2].split()[1]
+
+                stats = content.select('td.stats')[0].select('span')
+                raw_seeds = stats[0].string
                 result.seeds = self._parse_number(raw_seeds)
+                raw_leeches = stats[1].string
+                result.leeches = self._parse_number(raw_leeches)
                 yield result
 
     @staticmethod

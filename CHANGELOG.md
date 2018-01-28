@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 ### Added
-- Configure default number of results shown
+- Configure default number of results shown.
+- New 'details' command, that shows additional information about torrent.
 
 ### Changed
-- Refactor cache into separate Cachalot package
+- Refactor cache into separate Cachalot package.
 
 ## [0.2.0] - 2018-01-21
 ### Added

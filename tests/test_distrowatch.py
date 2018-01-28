@@ -15,6 +15,7 @@ class TestDistrowatch:
         """Return Distrowatch instance."""
         async def mock_get(*args, **kwargs):
             return """
+                <table cellpadding="5"><tr><th></th></tr>
                 <tr><td class=torrent><a href="dwres/torrents/ubuntu-16.04.3-desktop-amd64.iso.torrent">ubuntu-16.04.3-desktop-amd64.iso.torrent</a></td>
                 <td class=torrentdate align=center>2017-08-05</td>
                 </tr>
@@ -26,6 +27,7 @@ class TestDistrowatch:
                 </tr>
                 <tr><td class=torrent><a href="dwres/torrents/kubuntu-17.10-alpha1-amd64.iso.torrent">kubuntu-17.10-alpha1-amd64.iso.torrent</a></td>
                 <td class=torrentdate align=center>2017-07-01</td>
+                </table>
                 """
         monkeypatch.setattr(distrowatch.Distrowatch, 'get', mock_get)
         return distrowatch.Distrowatch()

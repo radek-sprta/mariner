@@ -36,9 +36,14 @@ class KickAssTorrents(searchengine.TrackerPlugin):
                 magnet = torrent_.find(
                     'a', {'title': 'Torrent magnet link'})['href']
                 tracker = self.__class__.__name__
+                size = line.find('td', {'data-title': 'Size'}).get_text()
+                date = line.find('td', {'data-title': 'Age'}).get_text()
                 raw_seeds = line.find('td', {'data-title': 'Seed'}).string
                 seeds = self._parse_number(raw_seeds)
-                yield torrent.Torrent(name, tracker, magnet=magnet, seeds=seeds)
+                raw_leeches = line.find('td', {'data-title': 'Leech'}).string
+                leeches = self._parse_number(raw_leeches)
+                yield torrent.Torrent(name, tracker, magnet=magnet, size=size,
+                                      date=date, seeds=seeds, leeches=leeches)
         except AttributeError:
             self.log.debug("No results found")
             yield from ()

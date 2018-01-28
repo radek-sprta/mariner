@@ -3,10 +3,47 @@
 import logging
 import pathlib
 
-from cliff import command, lister
+from cliff import command, lister, show
 import pyperclip
 
 from mariner import downloader, torrent
+
+
+class Details(show.ShowOne):
+    """Show details about torrent with given ID."""
+
+    log = logging.getLogger(__name__)
+
+    def get_parser(self, prog_name):
+        """Add arguments to argument parser.
+
+        Args:
+            prog_name: Application name.
+
+        Returns:
+            Instance of argument parser.
+        """
+        parser = super().get_parser(prog_name)
+        parser.add_argument('ID', help="ID of the torrent to show", type=int)
+        return parser
+
+    def take_action(self, parsed_args):
+        """Show details for chosen torrent.
+
+        Args:
+            parsed_args: List of parsed arguments.
+
+        Returns:
+            List of details about chosen torrent.
+        """
+        tid = parsed_args.ID
+        torrent_ = self.app.engine.result(tid)
+
+        # List of only information, that is not empty
+        details = {d[0].title(): d[1]
+                   for d in torrent_.__dict__.items() if d[1] is not None}
+
+        return (details.keys(), details.values())
 
 
 class Download(lister.Lister):
@@ -77,7 +114,7 @@ class Magnet(command.Command):
         """
         parser = super(Magnet, self).get_parser(prog_name)
         parser.add_argument(
-            'ID', nargs=1, help='ID of the magnet link to copy', type=int)
+            'ID', help='ID of the magnet link to copy', type=int)
         return parser
 
     def take_action(self, parsed_args):
@@ -86,7 +123,7 @@ class Magnet(command.Command):
         Args:
             parsed_args: List of parsed arguments.
         """
-        tid = parsed_args.ID[0]
+        tid = parsed_args.ID
         torrent_ = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent)
         try:

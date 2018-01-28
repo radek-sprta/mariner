@@ -12,13 +12,19 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-few-public-methods
                  *,
                  torrent: str = None,
                  magnet: str = None,
+                 size: str = None,
                  seeds: int = -1,
+                 leeches: int = None,
+                 date: str = None,
                  ) -> None:  # pylint: disable=bad-continuation
         self.name = name
         self.tracker = tracker
         self.torrent = torrent
         self.magnet = magnet
+        self.size = size
         self.seeds = seeds
+        self.leeches = leeches
+        self.date = date
 
     @property
     def _cmpkey(self) -> int:
@@ -31,7 +37,8 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-few-public-methods
         return self.name if '.torrent' in self.name else f'{self.name}.torrent'
 
     def __repr__(self) -> str:
-        return f"Torrent({self.name}, {self.tracker}, {self.torrent}, {self.magnet}, {self.seeds})"
+        return f"Torrent({self.name}, {self.tracker}, {self.torrent}, \
+    {self.magnet}, {self.size}, {self.seeds}, {self.leeches}, {self.date})"
 
     def __str__(self) -> str:
         return self.__repr__()
