@@ -18,7 +18,7 @@ class LinuxTracker(searchengine.TrackerPlugin):
 
     search_url = 'http://linuxtracker.org/index.php?page=torrents&search='
 
-    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
+    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:  # pylint: disable=too-many-locals
         """Parse result page.
 
         Args:

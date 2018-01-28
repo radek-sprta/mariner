@@ -15,7 +15,7 @@ class TokyoTosho(searchengine.TrackerPlugin):
 
     search_url = 'https://www.tokyotosho.info/search.php?terms='
 
-    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
+    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:  # pylint: disable=too-many-locals
         """Parse result page.
 
         Args:

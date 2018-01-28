@@ -16,7 +16,7 @@ class KickAssTorrents(searchengine.TrackerPlugin):
     search_url = 'https://katcr.co/katsearch/page/1/'
     aliases = ['kat']
 
-    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:
+    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:  # pylint: disable=too-many-locals
         """Parse result page.
 
         Args:

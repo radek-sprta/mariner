@@ -27,6 +27,18 @@ class Details(show.ShowOne):
         parser.add_argument('ID', help="ID of the torrent to show", type=int)
         return parser
 
+    @staticmethod
+    def _order_details(unordered):
+        ordered = {}
+        ordered['Name'] = unordered.pop('Name')
+        ordered.update(unordered)
+        # Shorten magnet link
+        try:
+            ordered['Magnet'] = ordered['Magnet'][:80] + '...'
+        except KeyError:
+            pass
+        return ordered
+
     def take_action(self, parsed_args):
         """Show details for chosen torrent.
 
@@ -42,6 +54,7 @@ class Details(show.ShowOne):
         # List of only information, that is not empty
         details = {d[0].title(): d[1]
                    for d in torrent_.__dict__.items() if d[1] is not None}
+        details = self._order_details(details)
 
         return (details.keys(), details.values())
 
