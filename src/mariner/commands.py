@@ -124,7 +124,8 @@ class Search(lister.Lister):
         """
         parser = super().get_parser(prog_name)
         parser.add_argument('title', help='Title to search for')
-        parser.add_argument('--limit', '-l', nargs='?', default=50,
+        parser.add_argument('--limit', '-l', nargs='?',
+                            default=self.app.config['results'],
                             help='Limit the number of results shown. Default is 50.',
                             type=int)
         plugins = self.app.engine.plugins.keys()
