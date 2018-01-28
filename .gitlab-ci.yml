@@ -1,19 +1,19 @@
-image: python:latest                                                                                                                                                                    
+image: python:latest
 
 stages:
   - test
   - build
   - release
 
-before_script: 
+before_script:
   - apt -y install libxml2-dev libxslt-dev
   - pip install pipenv
-  - pip install tox 
+  - pip install tox
   - pip install codecov
 
 test:python36:
   stage: test
-  script: 
+  script:
     - tox -e py36
     - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
   retry: 2
@@ -22,7 +22,7 @@ test:linters:
   stage: test
   script: tox -e linters
   allow_failure: true
-  
+
 build:package:
   stage: build
   script: tox -e build
@@ -34,8 +34,9 @@ build:package:
 release:pypi:
   image: ruby:latest
   stage: release
+  before_script:
+    - gem install dpl
   script:
-    - gem install dpl 
     - dpl --provider=pypi --distributions='sdist bdist_wheel'
   only:
     - tags

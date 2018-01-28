@@ -12,7 +12,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-few-public-methods
                  *,
                  torrent: str = None,
                  magnet: str = None,
-                 size: str = None,
+                 size: str = 'Unknown',
                  seeds: int = -1,
                  leeches: int = None,
                  date: str = None,

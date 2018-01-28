@@ -205,7 +205,7 @@ class Search(lister.Lister):
         self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)
         results = self.app.engine.search(title, trackers, limit)
 
-        headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Available as')
-        columns = ((tid, t.name[:80], t.tracker, t.seeds, self._availability(t))
+        headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Available as')
+        columns = ((tid, t.name[:80], t.tracker, t.seeds, t.size, self._availability(t))
                    for tid, t in results)
         return (headers, columns)
