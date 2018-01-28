@@ -12,13 +12,11 @@ requires = [
     'aiofiles',
     'aiohttp',
     'bs4',
+    'cachalot',
     'cliff',
     'future-fstrings',
-    'jsonpickle',
     'lxml',
     'ruamel.yaml',
-    'tinydb',
-    'tinydb_smartcache',
 ]
 
 tests_require = [

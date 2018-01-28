@@ -16,6 +16,7 @@ test:python36:
   script: 
     - tox -e py36
     - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
+  retry: 3
 
 test:linters:
   stage: test
@@ -28,7 +29,7 @@ build:package:
   artifacts:
     paths:
       - dist
-    expire_in: 1 month
+    expire_in: 1 week
 
 release:pypi:
   image: ruby:latest

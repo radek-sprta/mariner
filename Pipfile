@@ -15,9 +15,9 @@ cliff = "*"
 tinydb = "*"
 tinydb-smartcache = "*"
 jsonpickle = "*"
-pendulum = "*"
 aiofiles = "*"
 future-fstrings = "*"
+cachalot = "*"
 
 
 [dev-packages]

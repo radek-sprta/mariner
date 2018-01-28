@@ -10,8 +10,9 @@ from typing import List, Optional, Tuple, Union
 
 import aiohttp
 import async_timeout
+import cachalot
 
-from mariner import torrent, cache
+from mariner import torrent
 
 Name = str
 Page = str
@@ -27,7 +28,7 @@ class SearchEngine:
 
     def __init__(self) -> None:
         self.plugins = {}
-        self.results = cache.Cache(
+        self.results = cachalot.Cache(
             path='~/.local/share/mariner/results.json', size=1000)
         self.initialize_plugins()
 
@@ -71,7 +72,7 @@ class SearchEngine:
             return torrent_
         raise NoResultException(f"No torrent with ID {tid}")
 
-    @cache.Cache(size=100)
+    @cachalot.Cache(path='.cache/mariner/cache.json', size=100)
     def _cached_search(self,
                        title: str,
                        trackers: List[str],

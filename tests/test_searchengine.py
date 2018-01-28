@@ -34,7 +34,7 @@ class TestSearchEngine:
             assert title.lower() in result.name.lower()
             assert result.tracker.lower() in trackers
 
-    @pytest.mark.parametrize('limit', [10, 20, 30])
+    @pytest.mark.parametrize('limit', [5, 10, 15])
     def test_search(self, engine, limit):
         """Search for torrent on given trackers."""
         title = 'Ubuntu'
