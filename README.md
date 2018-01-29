@@ -10,6 +10,8 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 - Search for torrents on Distrowatch, Linuxtracker, KickAssTorrents, PirateBay and TokyoTosho.
 - Download torrent files and copy magnet links to clipboard.
+- Open torrents in your default torrent application.
+- Show torrent details.
 - Asynchronous I/O for better responsiveness.
 
 ![Mariner demonstration](docs/assets/mariner.gif)
@@ -64,8 +66,8 @@ For more information, check the [documentation][documentation].
 
 ## TODO
 - Add more trackers for searching
-- Show torrent details
 - Pass torrents directly to Transmission and Deluge
+- Offer more configuration options
 - Provide installation methods outside of pip
 
 ## Contributing

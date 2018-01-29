@@ -18,6 +18,7 @@ jsonpickle = "*"
 aiofiles = "*"
 future-fstrings = "*"
 cachalot = "*"
+wheel = "*"
 
 
 [dev-packages]

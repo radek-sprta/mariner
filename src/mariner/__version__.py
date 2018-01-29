@@ -1,5 +1,5 @@
 """Mariner is a command line torrent searcher."""
-VERSION = (0, 2, 0)
+VERSION = (0, 3, 0)
 
 __title__ = 'mariner'
 __description__ = 'Command line torrent searcher'

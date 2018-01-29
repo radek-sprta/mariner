@@ -2,6 +2,7 @@
 """Contain CLI commands."""
 import logging
 import pathlib
+import subprocess
 
 from cliff import command, lister, show
 import pyperclip
@@ -125,7 +126,7 @@ class Magnet(command.Command):
         Returns:
             Instance of argument parser.
         """
-        parser = super(Magnet, self).get_parser(prog_name)
+        parser = super().get_parser(prog_name)
         parser.add_argument(
             'ID', help='ID of the magnet link to copy', type=int)
         return parser
@@ -146,6 +147,47 @@ class Magnet(command.Command):
         except AttributeError:
             self.log.warning(
                 f'{torrent_.name} has no magnet link. Download the torrent.')
+
+
+class Open(command.Command):
+    """Open torrent in the default torrent application."""
+
+    log = logging.getLogger(__name__)
+
+    def get_parser(self, prog_name):
+        """Add arguments to argument parser.
+
+        Args:
+            prog_name: Application name.
+
+        Returns:
+            Instance of argument parser.
+        """
+        parser = super().get_parser(prog_name)
+        parser.add_argument(
+            'ID', help='ID of the torrent to open', type=int)
+        return parser
+
+    def take_action(self, parsed_args):
+        """Open chosen torrent in the default torrent application.
+
+        Args:
+            parsed_args: List of parsed arguments.
+        """
+        tid = parsed_args.ID
+        torrent_ = self.app.engine.result(tid)
+        self.log.debug('tid=%s torrent=%s', tid, torrent)
+        try:
+            self.log.info(f'Opening {torrent_.name} magnet link.')
+            subprocess.call(['xdg-open', torrent_.magnet])
+        except TypeError:
+            self.log.info(f'Opening {torrent_.name}.')
+            torrent_downloader = downloader.Downloader()
+            torrent_downloader.download(
+                [(torrent_.torrent, torrent_.filename)])
+            torrent_file = torrent_downloader.download_path / torrent_.filename
+            subprocess.call(['xdg-open', torrent_file])
+            torrent_file.unlink()
 
 
 class Search(lister.Lister):

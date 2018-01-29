@@ -80,6 +80,7 @@ setuptools.setup(
             'details = mariner.commands:Details',
             'download = mariner.commands:Download',
             'magnet = mariner.commands:Magnet',
+            'open = mariner.commands:Open',
             'search = mariner.commands:Search',
         ],
     },
