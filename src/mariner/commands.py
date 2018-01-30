@@ -10,7 +10,7 @@ import pyperclip
 from mariner import downloader, torrent
 
 
-class Details(show.ShowOne):
+class DetailsCommand(show.ShowOne):
     """Show details about torrent with given ID."""
 
     log = logging.getLogger(__name__)
@@ -60,7 +60,7 @@ class Details(show.ShowOne):
         return (details.keys(), details.values())
 
 
-class Download(lister.Lister):
+class DownloadCommand(lister.Lister):
     """Download torrent with given ID."""
 
     log = logging.getLogger(__name__)
@@ -112,7 +112,7 @@ class Download(lister.Lister):
         return (headers, columns)
 
 
-class Magnet(command.Command):
+class MagnetCommand(command.Command):
     """Copy magnet link with given ID to clipboard."""
 
     log = logging.getLogger(__name__)
@@ -149,7 +149,7 @@ class Magnet(command.Command):
                 f'{torrent_.name} has no magnet link. Download the torrent.')
 
 
-class Open(command.Command):
+class OpenCommand(command.Command):
     """Open torrent in the default torrent application."""
 
     log = logging.getLogger(__name__)
@@ -190,7 +190,7 @@ class Open(command.Command):
             torrent_file.unlink()
 
 
-class Search(lister.Lister):
+class SearchCommand(lister.Lister):
     """Search for torrents."""
 
     log = logging.getLogger(__name__)

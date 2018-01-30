@@ -37,7 +37,7 @@ If this is your first time contributing code on Gitlab, take a look at Gitlab's 
 7. Make a merge request on Gitlab.
 
 ### Code Style
-- Mariner adheres to [Pep 8](https://www.python.org/dev/peps/pep-0008/) and [Pep 257](https://www.python.org/dev/peps/pep-0257/) coding conventions.
+- Mariner adheres to [Pep 8](https://www.python.org/dev/peps/pep-0008/) and [Pep 257](https://www.python.org/dev/peps/pep-0257/) coding conventions with line length up to one 100 characters.
 - It also takes advantage of type hints. For an explanation of how they work, read [Pep 483](https://www.python.org/dev/peps/pep-0483/)
 - Use [Google style docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
 - Use imports for packages and modules only.
