@@ -116,11 +116,11 @@ class SearchEngine:
             List of Torrents returned by the search, up to the limit.
         """
         if not title:
-            raise ValueError('No string to search for.')
+            raise exceptions.InputError('No string to search for.')
         if not trackers:
-            raise ValueError('No torrent trackers to search on')
+            raise exceptions.InputError('No torrent trackers to search on')
         if limit <= 0:
-            raise ValueError('Limit has to be higher than zero.')
+            raise exceptions.InputError('Limit has to be higher than zero.')
 
         torrents = self._cached_search(title, trackers)
         sorted_torrents = list(reversed(sorted(torrents)))
@@ -146,7 +146,7 @@ class TrackerMeta(abc.ABCMeta, type):
     def __new__(mcs, name, bases, namespace, **kwargs):
         if bases != (abc.ABC,):
             if not namespace.get('search_url'):
-                raise ValueError('You must define search_url')
+                raise exceptions.InputError('You must define search_url')
         return type.__new__(mcs, name, bases, namespace)
 
 
@@ -182,7 +182,7 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
             search_url = self.search_url + title
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
-            self.log.error('Cannot reach server')
+            self.log.error('Cannot reach server at %s', search_url)
         else:
             return self._parse(page)
 

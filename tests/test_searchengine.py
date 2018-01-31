@@ -47,10 +47,10 @@ class TestSearchEngine:
             assert result.tracker.lower() in trackers
 
     def test_search_limit_zero(self, engine):
-        """Search throws ValueError when limit is zero."""
+        """Search throws InputError when limit is zero."""
         title = 'Ubuntu'
         trackers = ['linuxtracker', 'distrowatch']
-        with pytest.raises(ValueError):
+        with pytest.raises(exceptions.InputError):
             engine.search(title, trackers, limit=0)
 
     @pytest.mark.parametrize('tid', [1, 2, 3])

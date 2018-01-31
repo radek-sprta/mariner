@@ -23,3 +23,8 @@ class TestExceptions:
         """ConfigurationError exists."""
         exception = exceptions.ConfigurationError()
         assert exception
+
+    def test_input_error(self):
+        """InputError exists."""
+        exception = exceptions.InputError()
+        assert exception

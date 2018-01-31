@@ -11,3 +11,7 @@ class NoResultException(Error):
 
 class ConfigurationError(Error):
     """Illegal option in Configuration."""
+
+
+class InputError(Error):
+    """Wrong input by user."""
