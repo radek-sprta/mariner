@@ -23,7 +23,8 @@ class Mariner(app.App):
             command_manager=commandmanager.CommandManager('mariner.cli'),
             deferred_help=True,
         )
-        self.config = config.Config().load()
+        self.config = config.Config()
+        self.config.load()
         self.engine = searchengine.SearchEngine()
 
     def build_option_parser(self, description, version, argparse_kwargs=None):

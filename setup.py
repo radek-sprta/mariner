@@ -77,6 +77,7 @@ setuptools.setup(
     entry_points={
         'console_scripts': ['mariner = mariner.main:main'],
         'mariner.cli': [
+            'config = mariner.commands:ConfigCommand',
             'details = mariner.commands:DetailsCommand',
             'download = mariner.commands:DownloadCommand',
             'magnet = mariner.commands:MagnetCommand',

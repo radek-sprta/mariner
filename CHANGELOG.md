@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 ### Added
 - Open torrents in default torrent application
+- Configuration Mariner from within the application
 
 ## [0.3.0] - 2018-01-28
 ### Added

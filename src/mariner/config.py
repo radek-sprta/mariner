@@ -112,3 +112,6 @@ class Config(collections.abc.MutableMapping):
 
     def __repr__(self) -> str:
         return repr(self._config)
+
+    def __str__(self) -> str:
+        return str(self.__repr__())
