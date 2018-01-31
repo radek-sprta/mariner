@@ -52,12 +52,12 @@ class ConfigCommand(command.Command):
         """
         key = parsed_args.key
         value = parsed_args.value
-        show = parsed_args.show
-        if not show and not (key and value):
+        show_ = parsed_args.show
+        if not show_ and not (key and value):
             raise ValueError('Provide key and value to update or use --show')
-        if show:
+        if show_:
             self.log.info('Mariner configuration:')
-            pprint.pprint(self.app.config._config)
+            pprint.pprint(self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
             self.log.info(f'Updated {key} to {value}')

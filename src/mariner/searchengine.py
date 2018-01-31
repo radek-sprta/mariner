@@ -12,7 +12,7 @@ import aiohttp
 import async_timeout
 import cachalot
 
-from mariner import torrent
+from mariner import torrent, exceptions
 
 Name = str
 Page = str
@@ -70,7 +70,7 @@ class SearchEngine:
         torrent_ = self.results.get(tid)
         if torrent_:
             return torrent_
-        raise NoResultException(f"No torrent with ID {tid}")
+        raise exceptions.NoResultException(f"No torrent with ID {tid}")
 
     @cachalot.Cache(path='.cache/mariner/cache.json', size=100)
     def _cached_search(self,
@@ -90,11 +90,15 @@ class SearchEngine:
         self.log.debug('Fetching search results')
 
         # Get unique trackers
-        plugins = set(self.plugins[t] for t in trackers)
-        tasks = asyncio.gather(*(p().results(title.lower()) for p in plugins))
-        loop = asyncio.get_event_loop()
-        torrents = loop.run_until_complete(tasks)
-        torrents = self._flatten(torrents)
+        try:
+            plugins = set(self.plugins[t] for t in trackers)
+        except KeyError:
+            raise exceptions.ConfigurationError("Illegal value for default_tracker")
+        else:
+            tasks = asyncio.gather(*(p().results(title.lower()) for p in plugins))
+            loop = asyncio.get_event_loop()
+            torrents = loop.run_until_complete(tasks)
+            torrents = self._flatten(torrents)
         return torrents
 
     def search(self,
@@ -124,7 +128,7 @@ class SearchEngine:
         if results:
             self.save_results(results)
             return results
-        raise NoResultException(f"No results for {title}")
+        raise exceptions.NoResultException(f"No results for {title}")
 
     def save_results(self, torrents: List[Tuple[int, torrent.Torrent]]) -> None:
         """Save results in a database.
@@ -207,11 +211,3 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
         """
         squashed = number.replace(' ', '')
         return int(squashed.replace(',', ''))
-
-
-class Error(Exception):
-    """Base - class for all exceptions raised by this module."""
-
-
-class NoResultException(Error):
-    """No result found for given search string."""

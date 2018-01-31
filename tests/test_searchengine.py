@@ -1,7 +1,7 @@
 import pytest
 
 from .context import mariner
-from mariner import searchengine, torrent
+from mariner import exceptions, searchengine, torrent
 
 
 @pytest.fixture(scope='module')
@@ -62,7 +62,7 @@ class TestSearchEngine:
     @pytest.mark.parametrize('tid', [-1, -9999, 1000000])
     def test_result_nonexistant(self, engine, tid):
         """Asking for nonexistant torrent ID throws NoResultException."""
-        with pytest.raises(searchengine.NoResultException):
+        with pytest.raises(exceptions.NoResultException):
             engine.result(tid)
 
     def test_save_results(self, engine):
@@ -71,19 +71,3 @@ class TestSearchEngine:
         torrent = 'test'
         engine.save_results([(tid, torrent)])
         assert engine.result(tid) == torrent
-
-
-class TestExceptions:
-    """Test exception existance."""
-
-    def test_base_error(self):
-        """Error exists."""
-        exception = searchengine.Error()
-        assert exception
-        assert Exception in exception.__class__.__bases__
-
-    def test_no_result_exception(self):
-        """NoResultException exists."""
-        exception = searchengine.NoResultException()
-        assert exception
-        assert searchengine.Error in exception.__class__.__bases__
