@@ -41,6 +41,15 @@ By default, top 60 results are shown. To change that, use the `--limit` or `-l` 
 
 `mariner search -l 20 OpenSuse`
 
+## Config
+You can configure Mariner to better suit your needs with the `config` command. To list the current configuration, run it with the `--show` or `-s` flag:
+
+`mariner config --show`
+
+The command takes two positional arguments, to adjust the settings - key and value:
+
+`mariner config default_tracker linuxtracker`
+
 ## Download
 Downloads torrents with given IDs to the download folder (default: ~/Downloads). You can download multiple torrent files at once:
 
@@ -50,6 +59,11 @@ Downloads torrents with given IDs to the download folder (default: ~/Downloads).
 The Magnet command copies the magnet link of the torrent with given ID to clipboard.
 
 `mariner magnet 5`
+
+## Open
+Open the torrent in your default torrent application.
+
+`mariner open 5`
 
 ## Interactive mode
 Mariner also supports interactive mode. Start it by running mariner without any arguments:

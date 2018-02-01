@@ -68,7 +68,6 @@ For more information, check the [documentation][documentation].
 
 ## TODO
 - Add more trackers for searching
-- Pass torrents directly to Transmission and Deluge
 - Offer more configuration options
 - Provide installation methods outside of pip
 

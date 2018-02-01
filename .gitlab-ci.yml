@@ -37,7 +37,7 @@ release:pypi:
   before_script:
     - gem install dpl
   script:
-    - dpl --provider=pypi --distributions='sdist bdist_wheel'
+    - dpl --provider=pypi --user=$PYPI_USER --password=$PYPI_PASSWORD --distributions='sdist bdist_wheel'
   only:
     - tags
 
