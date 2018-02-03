@@ -16,6 +16,7 @@ requires = [
     'cliff',
     'future-fstrings',
     'lxml',
+    'maya',
     'ruamel.yaml',
 ]
 

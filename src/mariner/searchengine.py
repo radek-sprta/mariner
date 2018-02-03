@@ -104,7 +104,8 @@ class SearchEngine:
     def search(self,
                title: str,
                trackers: List[str],
-               limit: Optional[int] = 10
+               limit: Optional[int] = 10,
+               sort_by_newest: bool = False,
                ) -> List[torrent.Torrent]:  # pylint: disable=bad-continuation
         """Search for torrents on given site.
 
@@ -123,7 +124,14 @@ class SearchEngine:
             raise exceptions.InputError('Limit has to be higher than zero.')
 
         torrents = self._cached_search(title, trackers)
-        sorted_torrents = list(reversed(sorted(torrents)))
+
+        # Sort the results
+        if sort_by_newest:
+            sorted_torrents = list(reversed(sorted(torrents, key=lambda x: x.date)))
+        else:
+            sorted_torrents = list(reversed(sorted(torrents)))
+
+        # Show only results up to to the limit
         results = [(i, t) for i, t in enumerate(sorted_torrents[:limit])]
         if results:
             self.save_results(results)

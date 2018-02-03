@@ -281,6 +281,8 @@ class SearchCommand(lister.Lister):
                             default=self.app.config['results'],
                             help='Limit the number of results shown. Default is 50.',
                             type=int)
+        parser.add_argument('--newest', '-n', action='store_true',
+                            help='Sort results by newest')
         plugins = self.app.engine.plugins.keys()
         parser.add_argument('--trackers', '-t', action='append', choices=plugins,
                             help='Trackers that should be searched', default=[])
@@ -297,6 +299,7 @@ class SearchCommand(lister.Lister):
         """
         title = parsed_args.title
         limit = parsed_args.limit
+        newest = parsed_args.newest
 
         # If default tracker is used as default argument, the user provided ones
         # are appended to it, instead of replacing it.
@@ -306,9 +309,15 @@ class SearchCommand(lister.Lister):
 
         self.log.info(f'Searching for "{title}".')
         self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)
-        results = self.app.engine.search(title, trackers, limit)
+        results = self.app.engine.search(title, trackers, limit, sort_by_newest=newest)
 
-        headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Available as')
-        columns = ((tid, t.name[:80], t.tracker, t.seeds, t.size, self._availability(t))
-                   for tid, t in results)
+        # Show date only if torrents are sorted by the most recent
+        if newest:
+            headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Uploaded', 'Available as')
+            columns = ((tid, t.name[:80], t.tracker, t.seeds, t.size, t.date.datetime().date(), self._availability(t))
+                       for tid, t in results)
+        else:
+            headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Available as')
+            columns = ((tid, t.name[:80], t.tracker, t.seeds, t.size, self._availability(t))
+                       for tid, t in results)
         return (headers, columns)

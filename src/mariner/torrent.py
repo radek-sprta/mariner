@@ -1,9 +1,11 @@
 # -*- coding: future_fstrings -*-
 """Represent a downloadable torrent."""
+import maya
+
 from mariner import mixins
 
 
-class Torrent(mixins.ComparableMixin):  # pylint: disable=too-few-public-methods,too-many-instance-attributes
+class Torrent(mixins.ComparableMixin):
     """Class representing a Torrent."""
 
     def __init__(self,
@@ -30,6 +32,19 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-few-public-methods
     def _cmpkey(self) -> int:
         """Key to use for torrent comparison."""
         return self.seeds
+
+    @property
+    def date(self) -> maya.core.MayaDT:
+        return self._date
+
+    @date.setter
+    def date(self, value: str) -> None:
+        try:
+            self._date = maya.when(value)
+        except ValueError:
+            self._date = maya.parse(value)
+        except TypeError:
+            self._date = None
 
     @property
     def filename(self) -> str:

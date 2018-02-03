@@ -46,6 +46,17 @@ class TestSearchEngine:
             assert title.lower() in result.name.lower()
             assert result.tracker.lower() in trackers
 
+    def test_search_newest(self, engine):
+        """Search for torrent on given trackers and sort them by newest."""
+        title = 'Ubuntu'
+        trackers = ['linuxtracker', 'distrowatch', 'kickasstorrents']
+        results = engine.search(title, trackers, sort_by_newest=True)
+        for i, result in results[:-1]:
+            assert isinstance(result, torrent.Torrent)
+            assert title.lower() in result.name.lower()
+            assert result.tracker.lower() in trackers
+            assert result.date >= results[i + 1][1].date
+
     def test_search_limit_zero(self, engine):
         """Search throws InputError when limit is zero."""
         title = 'Ubuntu'
