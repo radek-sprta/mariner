@@ -46,16 +46,24 @@ class PyTest(TestCommand):
 
 # 'setup.py publish' shortcut.
 if sys.argv[-1] == 'publish':
-    os.system('python setup.py sdist bdist_wheel')
+    os.system('python3 setup.py sdist bdist_wheel')
     os.system('twine upload dist/*')
     sys.exit()
 
 
+# Load package information from __version__.py
 about = {}
 with pathlib.Path(here, 'src', 'mariner', '__version__.py').open() as f:
     exec(f.read(), about)
-with open('README.md', 'r') as f:
-    readme = '\n' + f.read()
+
+# Convert Readme to .rst, so it looks good on PyPI
+try:
+    import pypandoc
+    pypandoc.pandoc_download.download_pandoc()
+    readme = pypandoc.convert('README.md', 'rst')
+except (ImportError, RuntimeError, OSError):
+    with open('README.md', 'r') as f:
+        readme = '\n' + f.read()
 
 setuptools.setup(
     name=about['__title__'],

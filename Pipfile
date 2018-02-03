@@ -7,22 +7,23 @@ name = "pypi"
 
 [packages]
 
+aiofiles = "*"
 aiohttp = "*"
 "bs4" = "*"
-lxml = "*"
+cachalot = "*"
 cliff = "*"
+future-fstrings = "*"
+jsonpickle = "*"
+lxml = "*"
 "ruamel.yaml" = "*"
 tinydb = "*"
 tinydb-smartcache = "*"
-jsonpickle = "*"
-aiofiles = "*"
-future-fstrings = "*"
-cachalot = "*"
-wheel = "*"
 
 
 [dev-packages]
 
+coverage = "*"
+pypandoc = "*"
 pytest = "*"
 pytest-asyncio = "*"
-coverage = "*"
+wheel = "*"
