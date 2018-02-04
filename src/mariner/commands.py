@@ -277,6 +277,8 @@ class SearchCommand(lister.Lister):
         """
         parser = super().get_parser(prog_name)
         parser.add_argument('title', help='Title to search for')
+        parser.add_argument('--all', '-a', action='store_true',
+                            help='Search all available trackers')
         parser.add_argument('--limit', '-l', nargs='?',
                             default=self.app.config['results'],
                             help='Limit the number of results shown. Default is 50.',
@@ -301,11 +303,15 @@ class SearchCommand(lister.Lister):
         limit = parsed_args.limit
         newest = parsed_args.newest
 
-        # If default tracker is used as default argument, the user provided ones
-        # are appended to it, instead of replacing it.
-        if not parsed_args.trackers:
-            parsed_args.trackers.append(self.app.config['default_tracker'])
-        trackers = [t.lower() for t in set(parsed_args.trackers)]
+        if parsed_args.all:
+            # Use all trackers
+            trackers = self.app.engine.plugins.keys()
+        else:
+            # If default tracker is used as default argument, the user provided ones
+            # are appended to it, instead of replacing it.
+            if not parsed_args.trackers:
+                parsed_args.trackers.append(self.app.config['default_tracker'])
+            trackers = [t.lower() for t in set(parsed_args.trackers)]
 
         self.log.info(f'Searching for "{title}".')
         self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)

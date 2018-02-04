@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 ### Added
-- Option to sort results by upload date
+- Sort results by upload date using --newest/-n flag.
+- Search all available trackers using --all/-a option.
+
 
 ## [0.4.0] - 2018-02-01
 ### Added
