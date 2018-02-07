@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Sort results by upload date using --newest/-n flag.
 - Search all available trackers using --all/-a option.
+- Colored output
 
 
 ## [0.4.0] - 2018-02-01

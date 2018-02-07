@@ -5,7 +5,7 @@ import maya
 from mariner import mixins
 
 
-class Torrent(mixins.ComparableMixin):
+class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attributes
     """Class representing a Torrent."""
 
     def __init__(self,
@@ -35,16 +35,17 @@ class Torrent(mixins.ComparableMixin):
 
     @property
     def date(self) -> maya.core.MayaDT:
+        """Upload date in structured format."""
         return self._date
 
     @date.setter
     def date(self, value: str) -> None:
         try:
-            self._date = maya.when(value)
+            self._date = maya.when(value)  # pylint: disable=attribute-defined-outside-init
         except ValueError:
-            self._date = maya.parse(value)
+            self._date = maya.parse(value)  # pylint: disable=attribute-defined-outside-init
         except TypeError:
-            self._date = None
+            self._date = None  # pylint: disable=attribute-defined-outside-init
 
     @property
     def filename(self) -> str:

@@ -19,6 +19,7 @@ maya = "*"
 "ruamel.yaml" = "*"
 tinydb = "*"
 tinydb-smartcache = "*"
+colorama = "*"
 
 
 [dev-packages]

@@ -6,6 +6,7 @@ import sys
 from typing import List
 
 from cliff import app, commandmanager
+import colorama
 
 from mariner import __version__
 from mariner import searchengine, utils, config
@@ -81,6 +82,8 @@ class Mariner(app.App):
           argv: List[str]: List of command line arguments.
         """
         self.LOG.debug('Initialize Mariner')
+        # Initialize color output
+        colorama.init()
         if self.interactive_mode:
             self.log.info(
                 'Welcome to Mariner, a command line torrent searcher!')

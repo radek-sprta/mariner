@@ -1,5 +1,8 @@
 """Utility functions for Mariner."""
 import pathlib
+from typing import Any
+
+import colorama
 
 
 def check_path(path: pathlib.Path) -> pathlib.Path:
@@ -23,3 +26,50 @@ def check_path(path: pathlib.Path) -> pathlib.Path:
     directory.mkdir(parents=True, exist_ok=True)
 
     return path
+
+
+def color(string: Any, text_color: str) -> str:
+    """Color string in given color.
+
+    Arguments:
+        string: String to color.
+        color: Defaults to yellow. Color to use.
+
+    Returns:
+        Colored string.
+    """
+    colors = {}
+    colors['blue'] = colorama.Fore.BLUE
+    colors['cyan'] = colorama.Fore.CYAN
+    colors['green'] = colorama.Fore.GREEN
+    colors['magenta'] = colorama.Fore.MAGENTA
+    colors['red'] = colorama.Fore.RED
+    colors['yellow'] = colorama.Fore.YELLOW
+    if text_color not in colors.keys():
+        raise ValueError(f'{text_color} is not a supported color.')
+    return ''.join([colors[text_color], str(string), colorama.Style.RESET_ALL])
+
+
+def cyan(string):
+    """Color string cyan."""
+    return color(string, 'cyan')
+
+
+def green(string):
+    """Color string cyan."""
+    return color(string, 'green')
+
+
+def magenta(string):
+    """Color string magenta."""
+    return color(string, 'magenta')
+
+
+def red(string):
+    """Color string red."""
+    return color(string, 'red')
+
+
+def yellow(string):
+    """Color string yellow."""
+    return color(string, 'yellow')

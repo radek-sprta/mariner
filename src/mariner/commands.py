@@ -8,7 +8,7 @@ import subprocess
 from cliff import command, lister, show
 import pyperclip
 
-from mariner import downloader, torrent
+from mariner import downloader, torrent, utils
 
 
 class ConfigCommand(command.Command):
@@ -60,7 +60,7 @@ class ConfigCommand(command.Command):
             pprint.pprint(self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
-            self.log.info(f'Updated {key} to {value}')
+            self.log.info(f'Updated {utils.green(key)} to {utils.green(value)}')
 
 
 class DetailsCommand(show.ShowOne):
@@ -114,11 +114,12 @@ class DetailsCommand(show.ShowOne):
         torrent_ = self.app.engine.result(tid)
 
         # List of only information, that is not empty
-        details = {d[0].title(): d[1]
+        details = {d[0].strip('_').title(): d[1]
                    for d in torrent_.__dict__.items() if d[1] is not None}
         details = self._order_details(details)
 
-        return (details.keys(), details.values())
+        colored_keys = (utils.magenta(key) for key in details)
+        return (colored_keys, details.values())
 
 
 class DownloadCommand(lister.Lister):
@@ -156,10 +157,10 @@ class DownloadCommand(lister.Lister):
             if torrent_.torrent:
                 torrents.append(torrent_)
                 self.log.debug('Torrent appended.')
-                self.log.info(f'Downloading torrent ID {tid}.')
+                self.log.info(f'Downloading torrent ID {utils.cyan(tid)}.')
             else:
-                self.log.warning(
-                    f'No torrent for {torrent_.name}. Use magnet link instead.')
+                self.log.warning(utils.yellow(
+                    f'No torrent for {torrent_.name}. Use magnet link instead.'))
 
         filelist = ((t.torrent, t.filename) for t in torrents)
         path = self.app.config['download_path']
@@ -168,9 +169,11 @@ class DownloadCommand(lister.Lister):
         torrent_downloader.download(filelist)
 
         headers = ('Name', 'Saved to')
-        columns = ((t.name[:60], pathlib.Path(path) / t.filename)
+        colored_headers = (utils.magenta(h) for h in headers)
+
+        columns = ((utils.yellow(t.name[:60]), pathlib.Path(path) / t.filename)
                    for t in torrents)
-        return (headers, columns)
+        return (colored_headers, columns)
 
 
 class MagnetCommand(command.Command):
@@ -203,11 +206,11 @@ class MagnetCommand(command.Command):
         self.log.debug('tid=%s torrent=%s', tid, torrent)
         try:
             pyperclip.copy(torrent_.magnet)
-            self.log.info(f'Copied {torrent_.name} magnet link to clipboard.')
+            self.log.info(f'Copied {utils.green(torrent_.name)} magnet link to clipboard.')
             self.log.debug('magnet=%s', torrent_.magnet)
         except AttributeError:
-            self.log.warning(
-                f'{torrent_.name} has no magnet link. Download the torrent.')
+            self.log.warning(utils.yellow(
+                f'{torrent_.name} has no magnet link. Download the torrent.'))
 
 
 class OpenCommand(command.Command):
@@ -239,10 +242,10 @@ class OpenCommand(command.Command):
         torrent_ = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent)
         try:
-            self.log.info(f'Opening {torrent_.name} magnet link.')
+            self.log.info(f'Opening {utils.cyan(torrent_.name)} magnet link.')
             subprocess.call(['xdg-open', torrent_.magnet])
         except TypeError:
-            self.log.info(f'Opening {torrent_.name}.')
+            self.log.info(f'Opening {utils.cyan(torrent_.name)} torrent.')
             torrent_downloader = downloader.Downloader()
             torrent_downloader.download(
                 [(torrent_.torrent, torrent_.filename)])
@@ -313,17 +316,18 @@ class SearchCommand(lister.Lister):
                 parsed_args.trackers.append(self.app.config['default_tracker'])
             trackers = [t.lower() for t in set(parsed_args.trackers)]
 
-        self.log.info(f'Searching for "{title}".')
+        self.log.info(f'Searching for {utils.cyan(title)}.')
         self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)
         results = self.app.engine.search(title, trackers, limit, sort_by_newest=newest)
 
-        # Show date only if torrents are sorted by the most recent
-        if newest:
-            headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Uploaded', 'Available as')
-            columns = ((tid, t.name[:80], t.tracker, t.seeds, t.size, t.date.datetime().date(), self._availability(t))
-                       for tid, t in results)
-        else:
-            headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Available as')
-            columns = ((tid, t.name[:80], t.tracker, t.seeds, t.size, self._availability(t))
-                       for tid, t in results)
-        return (headers, columns)
+        headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Uploaded', 'Available as')
+        colored_headers = (utils.magenta(h) for h in headers)
+        columns = ((tid,
+                    utils.yellow(t.name[:80]),
+                    t.tracker,
+                    utils.green(t.seeds),
+                    t.size,
+                    t.date.datetime().date(),
+                    self._availability(t))
+                   for tid, t in results)
+        return (colored_headers, columns)

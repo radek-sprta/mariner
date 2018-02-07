@@ -32,12 +32,11 @@ build:package:
     expire_in: 1 week
 
 release:pypi:
-  image: ruby:latest
   stage: release
   before_script:
-    - gem install dpl
+    - pip install twine
   script:
-    - dpl --provider=pypi --user=$PYPI_USER --password=$PYPI_PASSWORD --distributions='sdist bdist_wheel'
+    - twine upload --username $PYPI_USER --password $PYPI_PASSWORD --skip-existing dist/*
   only:
     - tags
 
