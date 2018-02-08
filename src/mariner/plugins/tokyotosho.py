@@ -1,13 +1,9 @@
 """Module for searching torrents on TokyoTosho."""
-from typing import List, Tuple
+from typing import Iterator
 
 import bs4
 
 from mariner import searchengine, torrent
-
-Magnet = str
-Name = str
-Url = str
 
 
 class TokyoTosho(searchengine.TrackerPlugin):
@@ -15,7 +11,7 @@ class TokyoTosho(searchengine.TrackerPlugin):
 
     search_url = 'https://www.tokyotosho.info/search.php?terms='
 
-    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:  # pylint: disable=too-many-locals
+    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
 
         Args:
@@ -52,7 +48,7 @@ class TokyoTosho(searchengine.TrackerPlugin):
                 yield result
 
     @staticmethod
-    def _parse_name(raw: str) -> Name:
+    def _parse_name(raw: bs4.NavigableString) -> str:
         """Parse torrent name.
 
         Args:

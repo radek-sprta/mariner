@@ -1,13 +1,9 @@
 """Module for searching torrents on PirateBay."""
-from typing import List, Tuple
+from typing import Iterator
 
 import bs4
 
 from mariner import searchengine, torrent
-
-Magnet = str
-Name = str
-Url = str
 
 
 class PirateBay(searchengine.TrackerPlugin):
@@ -16,7 +12,7 @@ class PirateBay(searchengine.TrackerPlugin):
     search_url = 'https://thepiratebay.org/search/'
     aliases = ['tpb', 'pb']
 
-    def _parse(self, raw: str) -> List[Tuple[Name, Magnet, Url]]:  # pylint: disable=too-many-locals
+    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
 
         Args:
@@ -56,7 +52,7 @@ class PirateBay(searchengine.TrackerPlugin):
                                       leeches=leeches, date=date, size=size)
 
     @staticmethod
-    def _parse_name(raw: str) -> Name:
+    def _parse_name(raw: bs4.NavigableString) -> str:
         """Parse torrent name.
 
         Args:

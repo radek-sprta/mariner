@@ -2,15 +2,11 @@
 """Module for searching torrents on Distrowatch."""
 import asyncio
 import logging
-from typing import List, Tuple
+from typing import Iterator
 
 import bs4
 
 from mariner import searchengine, torrent
-
-Url = str
-Page = str
-Name = str
 
 
 class Distrowatch(searchengine.TrackerPlugin):
@@ -19,7 +15,7 @@ class Distrowatch(searchengine.TrackerPlugin):
     log = logging.getLogger(__name__)
     search_url = "https://distrowatch.com/dwres.php?resource=bittorrent"
 
-    async def results(self, title: str) -> List[torrent.Torrent]:
+    async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get of list of torrent page urls.
 
         Args:
@@ -29,10 +25,9 @@ class Distrowatch(searchengine.TrackerPlugin):
             page = await self.get(self.search_url)
         except (OSError, asyncio.TimeoutError):
             print('Cannot reach server')
-        else:
-            return (t for t in self._parse(page) if title in t.name)
+        return (t for t in self._parse(page) if title in t.name)
 
-    def _parse(self, raw: str) -> List[Tuple[Name, Url]]:
+    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:
         """Parse result page.
 
         Args:

@@ -98,3 +98,5 @@ site/
 # qtcreator generated files
  *.pro.user*
 
+# Mypy cache
+.mypy_cache/

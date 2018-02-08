@@ -69,7 +69,7 @@ class Config(collections.abc.MutableMapping):
                 self.log.debug('configpath=%s file=%s', self.configpath, file_)
                 self._yaml.dump(self._config, file_)
 
-    def _as_config(self, dict_: Union['Config', Dict]) -> Dict:
+    def _as_config(self, dict_: Union[str, int, List, Dict]) -> Union[str, int, List, 'Config']:
         """Save config inside config.
 
         Args:

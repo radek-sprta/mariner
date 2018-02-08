@@ -1,11 +1,11 @@
 """Utility functions for Mariner."""
 import pathlib
-from typing import Any
+from typing import Any, Union
 
 import colorama
 
 
-def check_path(path: pathlib.Path) -> pathlib.Path:
+def check_path(path: Union[str, pathlib.Path]) -> pathlib.Path:
     """Check if path exists. If not, create it.
 
     Args:
@@ -50,26 +50,26 @@ def color(string: Any, text_color: str) -> str:
     return ''.join([colors[text_color], str(string), colorama.Style.RESET_ALL])
 
 
-def cyan(string):
+def cyan(string: Any) -> str:
     """Color string cyan."""
     return color(string, 'cyan')
 
 
-def green(string):
+def green(string: Any) -> str:
     """Color string cyan."""
     return color(string, 'green')
 
 
-def magenta(string):
+def magenta(string: Any) -> str:
     """Color string magenta."""
     return color(string, 'magenta')
 
 
-def red(string):
+def red(string: Any) -> str:
     """Color string red."""
     return color(string, 'red')
 
 
-def yellow(string):
+def yellow(string: Any) -> str:
     """Color string yellow."""
     return color(string, 'yellow')

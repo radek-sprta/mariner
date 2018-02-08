@@ -6,7 +6,7 @@ import importlib
 import itertools
 import logging
 import pathlib
-from typing import List, Optional, Tuple, Union
+from typing import Iterator, List, Optional, Tuple, Union
 
 import aiohttp
 import async_timeout
@@ -106,7 +106,7 @@ class SearchEngine:
                trackers: List[str],
                limit: Optional[int] = 10,
                sort_by_newest: bool = False,
-               ) -> List[torrent.Torrent]:  # pylint: disable=bad-continuation
+               ) -> List[Tuple[int, torrent.Torrent]]:  # pylint: disable=bad-continuation
         """Search for torrents on given site.
 
         Args:
@@ -163,7 +163,7 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
     log = logging.getLogger(__name__)
     user_agent = {'user-agent': 'Mariner Torrent Downloader'}
     search_url = ''  # To be overwritten by subclasses
-    aliases = []  # Aliases for the tracker name
+    aliases: List[str] = []  # Aliases for the tracker name
 
     async def get(self, url: Url) -> Page:
         """Asynchronous https request.
@@ -180,7 +180,7 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
                     page = await response.text()
         return page
 
-    async def results(self, title: str) -> List[torrent.Torrent]:
+    async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.
 
         Args:
@@ -191,11 +191,10 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
-        else:
-            return self._parse(page)
+        return self._parse(page)
 
     @abc.abstractmethod
-    def _parse(self, raw: str) -> List[Tuple[Name, Url]]:
+    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:
         """Parse result page.
 
         Args:
