@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Search all available trackers using --all/-a option.
 - Colored output
 
+### Changed
+- Switch default tracker to Linuxtracker
+
 
 ## [0.4.0] - 2018-02-01
 ### Added
