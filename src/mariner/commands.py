@@ -29,7 +29,8 @@ class ConfigCommand(command.Command):
         parser = super().get_parser(prog_name)
         parser.add_argument('--show', '-s', action='store_true',
                             help='Show the configuration')
-        parser.add_argument('key', nargs='?', help='Option to change', default=None)
+        parser.add_argument(
+            'key', nargs='?', help='Option to change', default=None)
         parser.add_argument('value', nargs='?', help='New value', default=None)
         return parser
 
@@ -58,10 +59,12 @@ class ConfigCommand(command.Command):
             raise ValueError('Provide key and value to update or use --show')
         if show_:
             self.log.info('Mariner configuration:')
-            pprint.pprint(self.app.config._config)  # pylint: disable=protected-access
+            pprint.pprint(
+                self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
-            self.log.info(f'Updated {utils.green(key)} to {utils.green(value)}')
+            self.log.info(
+                f'Updated {utils.green(key)} to {utils.green(value)}')
 
 
 class DetailsCommand(show.ShowOne):
@@ -102,6 +105,24 @@ class DetailsCommand(show.ShowOne):
             pass
         return ordered
 
+    @staticmethod
+    def _color_details(details):
+        """Color details.
+
+        Args:
+            unordered: Unordered results.
+
+        Returns:
+            colored: Ordered results.
+        """
+        try:
+            details['Name'] = utils.yellow(details['Name'])
+            details['Seeds'] = utils.green(details['Seeds'])
+            details['Leeches'] = utils.red(details['Leeches'])
+        except KeyError:
+            pass
+        return details
+
     def take_action(self, parsed_args):
         """Show details for chosen torrent.
 
@@ -117,10 +138,11 @@ class DetailsCommand(show.ShowOne):
         # List of only information, that is not empty
         details = {d[0].strip('_').title(): d[1]
                    for d in torrent_.__dict__.items() if d[1] is not None}
-        details = self._order_details(details)
+        colored_details = self._color_details(details)
+        ordered_details = self._order_details(colored_details)
 
-        colored_keys = (utils.magenta(key) for key in details)
-        return (colored_keys, details.values())
+        colored_keys = (utils.magenta(key) for key in ordered_details)
+        return (colored_keys, ordered_details.values())
 
 
 class DownloadCommand(lister.Lister):
@@ -207,7 +229,8 @@ class MagnetCommand(command.Command):
         self.log.debug('tid=%s torrent=%s', tid, torrent)
         try:
             pyperclip.copy(torrent_.magnet)
-            self.log.info(f'Copied {utils.green(torrent_.name)} magnet link to clipboard.')
+            self.log.info(
+                f'Copied {utils.green(torrent_.name)} magnet link to clipboard.')
             self.log.debug('magnet=%s', torrent_.magnet)
         except AttributeError:
             self.log.warning(utils.yellow(
@@ -338,10 +361,13 @@ class SearchCommand(lister.Lister):
 
         self.log.info(f'Searching for {utils.cyan(title)}.')
         self.log.debug('title=%s limit=%s trackers=%s', title, limit, trackers)
-        results = self.app.engine.search(title, trackers, limit, sort_by_newest=newest)
+        results = self.app.engine.search(
+            title, trackers, limit, sort_by_newest=newest)
 
-        headers = ('ID', 'Name', 'Tracker', 'Seeds', 'Size', 'Uploaded', 'Available as')
-        colored_headers = (utils.magenta(h) for h in headers)
+        headers = ('ID', 'Name', 'Tracker', 'Seeds',
+                   'Size', 'Uploaded', 'Available as')
+        # Heads cannot be a generator, otherwise it messes up alignment
+        colored_headers = [utils.magenta(h) for h in headers]
         columns = ((tid,
                     utils.yellow(t.name[:80]),
                     t.tracker,
