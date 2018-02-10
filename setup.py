@@ -14,6 +14,7 @@ requires = [
     'bs4',
     'cachalot',
     'cliff',
+    'colorama',
     'future-fstrings',
     'lxml',
     'maya',

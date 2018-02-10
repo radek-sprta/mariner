@@ -12,6 +12,7 @@ aiohttp = "*"
 "bs4" = "*"
 cachalot = "*"
 cliff = "*"
+colorama = "*"
 future-fstrings = "*"
 jsonpickle = "*"
 lxml = "*"
@@ -19,7 +20,6 @@ maya = "*"
 "ruamel.yaml" = "*"
 tinydb = "*"
 tinydb-smartcache = "*"
-colorama = "*"
 
 
 [dev-packages]
