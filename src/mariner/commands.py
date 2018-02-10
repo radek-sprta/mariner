@@ -1,6 +1,7 @@
 # -*- coding: future_fstrings -*-
 """Contain CLI commands."""
 import logging
+import os
 import pathlib
 import pprint
 import subprocess
@@ -232,6 +233,23 @@ class OpenCommand(command.Command):
             'ID', help='ID of the torrent to open', type=int)
         return parser
 
+    @staticmethod
+    def _get_torrent_link(torrent_):
+        """Get a link torrent, that can be opened by xdg-open.
+
+        Args:
+            torrent: Torrent object.
+
+        Returns:
+            Openable torrent link.
+        """
+        if torrent_.torrent:
+            torrent_downloader = downloader.Downloader()
+            torrent_downloader.download(
+                [(torrent_.torrent, torrent_.filename)])
+            return torrent_downloader.download_path / torrent_.filename
+        return torrent_.magnet
+
     def take_action(self, parsed_args):
         """Open chosen torrent in the default torrent application.
 
@@ -241,17 +259,19 @@ class OpenCommand(command.Command):
         tid = parsed_args.ID
         torrent_ = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent)
+        self.log.info(f'Opening {utils.cyan(torrent_.name)}.')
+        link = self._get_torrent_link(torrent_)
+        if self.app.options.verbose_level > 1:
+            subprocess.run(['xdg-open', link])
+        else:
+            with open(os.devnull) as devnull:
+                subprocess.run(['xdg-open', link],
+                               stdout=devnull, stderr=devnull)
         try:
-            self.log.info(f'Opening {utils.cyan(torrent_.name)} magnet link.')
-            subprocess.call(['xdg-open', torrent_.magnet])
-        except TypeError:
-            self.log.info(f'Opening {utils.cyan(torrent_.name)} torrent.')
-            torrent_downloader = downloader.Downloader()
-            torrent_downloader.download(
-                [(torrent_.torrent, torrent_.filename)])
-            torrent_file = torrent_downloader.download_path / torrent_.filename
-            subprocess.call(['xdg-open', torrent_file])
-            torrent_file.unlink()
+            # Try deleting the file, if it exists
+            link.unlink()
+        except AttributeError:
+            pass
 
 
 class SearchCommand(lister.Lister):
