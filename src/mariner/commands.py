@@ -347,7 +347,7 @@ class SearchCommand(lister.Lister):
                     t.tracker,
                     utils.green(t.seeds),
                     t.size,
-                    t.date.datetime().date(),
+                    t.date,
                     self._availability(t))
                    for tid, t in results)
         return (colored_headers, columns)

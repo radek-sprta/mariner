@@ -1,6 +1,6 @@
 # -*- coding: future_fstrings -*-
 """Represent a downloadable torrent."""
-import maya
+import datetime
 
 from mariner import mixins
 
@@ -34,18 +34,23 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
         return self.seeds
 
     @property
-    def date(self) -> maya.core.MayaDT:
+    def date(self) -> datetime.date:
         """Upload date in structured format."""
         return self._date
 
     @date.setter
     def date(self, value: str) -> None:
-        try:
-            self._date = maya.when(value)  # pylint: disable=attribute-defined-outside-init
-        except ValueError:
-            self._date = maya.parse(value)  # pylint: disable=attribute-defined-outside-init
-        except TypeError:
-            self._date = None  # pylint: disable=attribute-defined-outside-init
+        if isinstance(value, (datetime.date, type(None))):
+            self._date = value  # pylint: disable=attribute-defined-outside-init
+        else:
+            # Defer importing maya, as it is a slow import
+            import maya
+            try:
+                self._date = maya.when(value).datetime().date()  # pylint: disable=attribute-defined-outside-init
+            except ValueError:
+                self._date = maya.parse(value).datetime().date()  # pylint: disable=attribute-defined-outside-init
+            except TypeError:
+                self._date = None  # pylint: disable=attribute-defined-outside-init
 
     @property
     def filename(self) -> str:
