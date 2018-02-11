@@ -1,4 +1,5 @@
-import maya
+import datetime
+
 import pytest
 
 from .context import mariner
@@ -40,4 +41,4 @@ class TestTorrent:
 
     def test_date_is_mayadt(self, torrent):
         """Filename is a string."""
-        assert isinstance(torrent.date, maya.core.MayaDT)
+        assert isinstance(torrent.date, datetime.date)

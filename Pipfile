@@ -14,12 +14,9 @@ cachalot = "*"
 cliff = "*"
 colorama = "*"
 future-fstrings = "*"
-jsonpickle = "*"
 lxml = "*"
 maya = "*"
 "ruamel.yaml" = "*"
-tinydb = "*"
-tinydb-smartcache = "*"
 
 
 [dev-packages]
