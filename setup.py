@@ -87,12 +87,12 @@ setuptools.setup(
     entry_points={
         'console_scripts': ['mariner = mariner.main:main'],
         'mariner.cli': [
-            'config = mariner.commands:ConfigCommand',
-            'details = mariner.commands:DetailsCommand',
-            'download = mariner.commands:DownloadCommand',
-            'magnet = mariner.commands:MagnetCommand',
-            'open = mariner.commands:OpenCommand',
-            'search = mariner.commands:SearchCommand',
+            'config = mariner.commands.config:Config',
+            'details = mariner.commands.details:Details',
+            'download = mariner.commands.download:Download',
+            'magnet = mariner.commands.magnet:Magnet',
+            'open = mariner.commands.open:Open',
+            'search = mariner.commands.search:Search',
         ],
     },
     classifiers=[
