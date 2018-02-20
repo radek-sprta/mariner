@@ -24,17 +24,19 @@ class TestDownloader:
     def test_download_coroutine(self, tmp_downloader, files, event_loop):
         session = aiohttp.ClientSession(loop=event_loop)
         url, name = files[0]
-        event_loop.run_until_complete(
+        filelist = event_loop.run_until_complete(
             tmp_downloader.download_coroutine(session, url, name))
-        assert pathlib.Path(tmp_downloader.download_path, name).is_file()
+        assert pathlib.Path(tmp_downloader.download_path, filelist).is_file()
 
     def test_download_filelist(self, tmp_downloader, files, event_loop):
-        event_loop.run_until_complete(
+        filelist = event_loop.run_until_complete(
             tmp_downloader.download_filelist(event_loop, files))
-        for __, name in files:
+        assert len(filelist) == 3
+        for name in filelist:
             assert pathlib.Path(tmp_downloader.download_path, name).is_file()
 
     def test_download(self, tmp_downloader, files):
-        tmp_downloader.download(files)
-        for __, name in files:
+        filelist = tmp_downloader.download(files)
+        assert len(filelist) == 3
+        for name in filelist:
             assert pathlib.Path(tmp_downloader.download_path, name).is_file()

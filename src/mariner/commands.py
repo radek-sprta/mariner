@@ -2,7 +2,6 @@
 """Contain CLI commands."""
 import logging
 import os
-import pathlib
 import pprint
 import subprocess
 
@@ -185,17 +184,15 @@ class DownloadCommand(lister.Lister):
                 self.log.warning(utils.yellow(
                     f'No torrent for {torrent_.name}. Use magnet link instead.'))
 
-        filelist = ((t.torrent, t.filename) for t in torrents)
+        download_list = ((t.torrent, t.filename) for t in torrents)
         path = self.app.config['download_path']
-        self.log.debug('filelist=%s download_path=%s', filelist, path)
+        self.log.debug('download_list=%s download_path=%s', download_list, path)
         torrent_downloader = downloader.Downloader(download_path=path)
-        torrent_downloader.download(filelist)
+        filelist = torrent_downloader.download(download_list)
 
         headers = ('Name', 'Saved to')
-        colored_headers = (utils.magenta(h) for h in headers)
-
-        columns = ((utils.yellow(t.name[:60]), pathlib.Path(path) / t.filename)
-                   for t in torrents)
+        colored_headers = [utils.magenta(h) for h in headers]
+        columns = zip((utils.yellow(t.name) for t in torrents), filelist)
         return (colored_headers, columns)
 
 
