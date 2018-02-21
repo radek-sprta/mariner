@@ -20,7 +20,7 @@ Mariner requires Python 3.5 or newer to run.
 
 **Python package**
 
-You can easily install Mariner using pip:
+You can easily install Mariner using pip. This is the preferred method:
 
 `pip3 install mariner`
 
@@ -33,6 +33,18 @@ git clone git@gitlab.com:radek-sprta/mariner.git
 cd mariner
 python3 setup.py install
 ```
+
+**Docker**
+
+There is now also a Docker image available for Mariner, although I haven't tested it extensively. You can run it with the following command:
+
+`docker run [options] registry.gitlab.com/radek-sprta/mariner [arguments]`
+
+**Snap**
+
+You can also try the Mariner snap from snap store. Its in its, however, so do not be surprised by bugs. Install the snap by running:
+
+`snap install mariner --edge`
 
 ## Usage
 
@@ -56,7 +68,11 @@ Alternatively, copy the magnet link to clipboard:
 
 `(mariner) magnet 0`
 
-And quit:
+Or open it in your torrent application:
+
+`(mariner) open 0`
+
+And quit the program:
 
 `(mariner) quit`
 
@@ -65,7 +81,6 @@ For more information, check the [documentation][documentation].
 ## TODO
 - Add more trackers for searching
 - Offer more configuration options
-- Provide installation methods outside of pip
 
 ## Contributing
 For information on how to contribute to the project, please check the [Contributor's Guide][contributing]

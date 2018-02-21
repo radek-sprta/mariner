@@ -2,8 +2,11 @@
 Mariner has command line interface with the following commands:
 - help
 - search
+- config
+- details
 - download
 - magnet
+- open
 
 You can run them by typing:
 
@@ -37,9 +40,17 @@ You can also search on multiple trackers at once. Just use multiple `-t` flags:
 
 `mariner search -t distrowatch -t linuxtracker OpenSuse`
 
+To search all available trackers, use `--all` or `-a` flag:
+
+`mariner search -a OpenSuse`
+
 By default, top 60 results are shown. To change that, use the `--limit` or `-l` flag:
 
 `mariner search -l 20 OpenSuse`
+
+To order the results by their upload date, you can use the `--newest` or `-n` flag:
+
+`mariner search OpenSuse -n`
 
 ## Config
 You can configure Mariner to better suit your needs with the `config` command. To list the current configuration, run it with the `--show` or `-s` flag:
@@ -49,6 +60,11 @@ You can configure Mariner to better suit your needs with the `config` command. T
 The command takes two positional arguments, to adjust the settings - key and value:
 
 `mariner config default_tracker linuxtracker`
+
+## Details
+Shows the details of chosen torrent, such as upload date and number of seeds and leeches. Give it torrent ID as argument:
+
+`mariner details 10`
 
 ## Download
 Downloads torrents with given IDs to the download folder (default: ~/Downloads). You can download multiple torrent files at once:
@@ -70,6 +86,6 @@ Mariner also supports interactive mode. Start it by running mariner without any 
 
 `mariner`
 
-After that, you will see the `(mariner)` prompt. In interactive mode, you can run multiple commands in succesion and take advantage of command history. When done, use Ctrl+D or the quit command to exit:
+After that, you will see the `(mariner)` prompt. In interactive mode, you can run multiple commands in succession and take advantage of command history. When done, use Ctrl+D or the quit command to exit:
 
 `(mariner) quit`
