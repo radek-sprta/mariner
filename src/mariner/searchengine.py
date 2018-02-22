@@ -163,7 +163,7 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
     log = logging.getLogger(__name__)
     user_agent = {'user-agent': 'Mariner Torrent Downloader'}
     search_url = ''  # To be overwritten by subclasses
-    aliases: List[str] = []  # Aliases for the tracker name
+    aliases = []  # Aliases for the tracker name
 
     async def get(self, url: Url) -> Page:
         """Asynchronous https request.
