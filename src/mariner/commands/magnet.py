@@ -39,7 +39,7 @@ class Magnet(command.Command):
         try:
             pyperclip.copy(torrent_.magnet)
             self.log.info(
-                f'Copied {utils.green(torrent_.name)} magnet link to clipboard.')
+                f'Copied {torrent_.colored().name} magnet link to clipboard.')
             self.log.debug('magnet=%s', torrent_.magnet)
         except AttributeError:
             self.log.warning(utils.yellow(

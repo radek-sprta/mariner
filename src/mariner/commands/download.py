@@ -55,5 +55,5 @@ class Download(lister.Lister):
 
         headers = ('Name', 'Saved to')
         colored_headers = [utils.magenta(h) for h in headers]
-        columns = zip((utils.yellow(t.name) for t in torrents), filelist)
+        columns = zip((t.colored().name for t in torrents), filelist)
         return (colored_headers, columns)

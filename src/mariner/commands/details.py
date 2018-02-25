@@ -44,24 +44,6 @@ class Details(show.ShowOne):
             pass
         return ordered
 
-    @staticmethod
-    def _color_details(details):
-        """Color details.
-
-        Args:
-            unordered: Unordered results.
-
-        Returns:
-            colored: Ordered results.
-        """
-        try:
-            details['Name'] = utils.yellow(details['Name'])
-            details['Seeds'] = utils.green(details['Seeds'])
-            details['Leeches'] = utils.red(details['Leeches'])
-        except KeyError:
-            pass
-        return details
-
     def take_action(self, parsed_args):
         """Show details for chosen torrent.
 
@@ -74,11 +56,10 @@ class Details(show.ShowOne):
         tid = parsed_args.ID
         torrent_ = self.app.engine.result(tid)
 
-        # List of only information, that is not empty
+        # Dictionary of attributes, that are not empty
         details = {d[0].strip('_').title(): d[1]
-                   for d in torrent_.__dict__.items() if d[1] is not None}
-        colored_details = self._color_details(details)
-        ordered_details = self._order_details(colored_details)
+                   for d in torrent_.colored().__dict__.items() if d[1] is not None}
+        ordered_details = self._order_details(details)
 
         colored_keys = (utils.magenta(key) for key in ordered_details)
         return (colored_keys, ordered_details.values())

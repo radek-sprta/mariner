@@ -6,7 +6,7 @@ import subprocess
 
 from cliff import command
 
-from mariner import downloader, utils
+from mariner import downloader
 
 
 class Open(command.Command):
@@ -54,7 +54,7 @@ class Open(command.Command):
         tid = parsed_args.ID
         torrent_ = self.app.engine.result(tid)
         self.log.debug('tid=%s torrent=%s', tid, torrent_)
-        self.log.info(f'Opening {utils.cyan(torrent_.name)}.')
+        self.log.info(f'Opening {torrent_.colored().name}.')
         link = self._get_torrent_link(torrent_)
         if self.app.options.verbose_level > 1:
             subprocess.run(['xdg-open', link])

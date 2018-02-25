@@ -2,7 +2,7 @@
 """Represent a downloadable torrent."""
 import datetime
 
-from mariner import mixins
+from mariner import mixins, utils
 
 
 class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attributes
@@ -56,6 +56,17 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
     def filename(self) -> str:
         """Filename to use for the torrent."""
         return self.name if '.torrent' in self.name else f'{self.name}.torrent'
+
+    def colored(self) -> 'Torrent':
+        """Return Torrent with colored fields."""
+        return Torrent(name=utils.yellow(self.name[:80]),
+                       tracker=self.tracker,
+                       torrent=self.torrent,
+                       magnet=self.magnet,
+                       size=self.size,
+                       seeds=utils.green(self.seeds),
+                       leeches=utils.red(self.leeches) if self.leeches is not None else None,
+                       date=self.date)
 
     def __repr__(self) -> str:
         return f"Torrent({self.name}, {self.tracker}, {self.torrent}, \

@@ -76,14 +76,15 @@ class Search(lister.Lister):
 
         headers = ('ID', 'Name', 'Tracker', 'Seeds',
                    'Size', 'Uploaded', 'Available as')
-        # Heads cannot be a generator, otherwise it messes up alignment
+        # Headers cannot be a generator, as it messes up alignment
         colored_headers = [utils.magenta(h) for h in headers]
+        colored_results = ((tid, t.colored()) for tid, t in results)
         columns = ((tid,
-                    utils.yellow(t.name[:80]),
+                    t.name,
                     t.tracker,
-                    utils.green(t.seeds),
+                    t.seeds,
                     t.size,
                     t.date,
                     self._availability(t))
-                   for tid, t in results)
+                   for tid, t in colored_results)
         return (colored_headers, columns)
