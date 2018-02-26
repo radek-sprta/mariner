@@ -61,7 +61,6 @@ with pathlib.Path(here, 'src', 'mariner', '__version__.py').open() as f:
 # Convert Readme to .rst, so it looks good on PyPI
 try:
     import pypandoc
-    pypandoc.pandoc_download.download_pandoc()
     readme = pypandoc.convert('README.md', 'rst')
 except (ImportError, RuntimeError, OSError):
     with open('README.md', 'r') as f:
