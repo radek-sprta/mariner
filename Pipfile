@@ -22,6 +22,9 @@ maya = ">=0.3.4"
 [dev-packages]
 
 coverage = "*"
+pandoc = "*"
+pypandoc = "*"
 pytest = "*"
 pytest-asyncio = "*"
+setuptools = "*"
 wheel = "*"
