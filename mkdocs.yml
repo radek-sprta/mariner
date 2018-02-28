@@ -7,5 +7,6 @@ pages:
   - Usage: use.md
   - Configuration: config.md
   - Contributing: contributing.md
+  - Changelog: changelog.md
   - License: license.md
 repo_url: https://gitlab.com/radek-sprta/mariner
