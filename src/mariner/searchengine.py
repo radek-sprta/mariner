@@ -40,8 +40,11 @@ class SearchEngine:
     def find_plugins(self) -> None:
         """Find and import tracker plugins."""
         for module in self.plugin_directory.glob('*.py'):  # pylint: disable=no-member
+            # Cast to str as a workaround for Python 3.5
+            name = str(module.stem)
+            module = str(module)
             self.log.debug('Loading module=%s', module)
-            name = module.stem
+
             spec = importlib.util.spec_from_file_location(name, module)
             loaded_module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(loaded_module)
@@ -75,8 +78,7 @@ class SearchEngine:
     @cachalot.Cache(path='.cache/mariner/cache.json', size=100)
     def _cached_search(self,
                        title: str,
-                       trackers: List[str],
-                       ) -> List[torrent.Torrent]:  # pylint: disable=bad-continuation
+                       trackers: List[str]) -> List[torrent.Torrent]:
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily
         serializable, we cannot simply cache TrackerPlugun.results() method.
@@ -105,8 +107,7 @@ class SearchEngine:
                title: str,
                trackers: List[str],
                limit: Optional[int] = 10,
-               sort_by_newest: bool = False,
-               ) -> List[Tuple[int, torrent.Torrent]]:  # pylint: disable=bad-continuation
+               sort_by_newest: bool = False) -> List[Tuple[int, torrent.Torrent]]:
         """Search for torrents on given site.
 
         Args:

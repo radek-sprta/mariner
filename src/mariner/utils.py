@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 """Utility functions for Mariner."""
 import pathlib
 from typing import Any, Union

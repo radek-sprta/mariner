@@ -5,16 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - 2018-02-28
+### Fixed
+- Restore compatibility with Python 3.5
+
 ## [1.0.0] - 2018-02-25
 ### Added
 - Sort results by upload date using --newest/-n flag.
 - Search all available trackers using --all/-a option.
-- Colored output
-- Docker image
-- Support snaps
+- Colored output.
+- Docker image.
+- Support snaps.
 
 ### Changed
-- Switch default tracker to Linuxtracker
+- Switch default tracker to Linuxtracker.
 
 
 ## [0.4.0] - 2018-02-01
@@ -57,3 +61,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [0.3.0]: https://gitlab.com/radek-sprta/mariner/compare/v0.2.0...v0.3.0
 [0.4.0]: https://gitlab.com/radek-sprta/mariner/compare/v0.3.0...v0.4.0
 [1.0.0]: https://gitlab.com/radek-sprta/mariner/compare/v0.4.0...v1.0.0
+[1.0.1]: https://gitlab.com/radek-sprta/mariner/compare/v1.0.0...v1.0.1

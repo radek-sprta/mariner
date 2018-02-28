@@ -37,7 +37,7 @@ class TestConfig:
         assert configuration['download_path'] == '~/Downloads'
 
     def test_roundabout(self, tmpdir, configuration, monkeypatch):
-        directory = tmpdir.mkdir('test')
+        directory = str(tmpdir.mkdir('test'))
         monkeypatch.setenv('XDG_CONFIG_HOME', directory)
         configuration.save()
         assert configuration.configpath.exists()

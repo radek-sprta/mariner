@@ -39,7 +39,8 @@ class Downloader:
         self.log.debug('filename=%s', filename)
         with async_timeout.timeout(10):
             async with session.get(url) as response:
-                async with aiofiles.open(filename, 'wb') as file_:
+                # Cast filename to str as workaround for Python 3.5
+                async with aiofiles.open(str(filename), 'wb') as file_:
                     while True:
                         chunk = await response.content.read(1024)
                         if not chunk:

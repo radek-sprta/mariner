@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 """Module for searching torrents on KickAssTorrents."""
 from typing import Iterator
 

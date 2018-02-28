@@ -11,6 +11,13 @@ before_script:
   - pip install tox
   - pip install codecov
 
+test:python35:
+  stage: test
+  image: python:3.5
+  script:
+    - tox -e py35
+  retry: 2
+
 test:python36:
   stage: test
   script:

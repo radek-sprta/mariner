@@ -10,7 +10,7 @@ class TestDownloader:
     """Test the download manager."""
     @pytest.fixture
     def tmp_downloader(self, tmpdir):
-        tmp = tmpdir.mkdir('test')
+        tmp = str(tmpdir.mkdir('test'))
         return downloader.Downloader(tmp)
 
     @pytest.fixture

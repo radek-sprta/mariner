@@ -7,7 +7,7 @@ from mariner import utils
 
 
 def test_check_path(tmpdir):
-    directory = tmpdir.mkdir('tmp')
+    directory = str(tmpdir.mkdir('tmp'))
     path = pathlib.Path(directory) / 'subdir'
     path2 = pathlib.Path(directory) / 'subdir2' / 'file.txt'
     utils.check_path(path)
