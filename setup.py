@@ -17,7 +17,7 @@ requires = [
     'colorama',
     'future-fstrings',
     'lxml',
-    'maya',
+    'maya >= 0.3.4',
     'ruamel.yaml',
 ]
 
