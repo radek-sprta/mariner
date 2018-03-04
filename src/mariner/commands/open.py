@@ -42,7 +42,7 @@ class Open(command.Command):
             torrent_downloader = downloader.Downloader()
             torrent_downloader.download(
                 [(torrent_.torrent, torrent_.filename)])
-            return torrent_downloader.download_path / torrent_.filename
+            return str(torrent_downloader.download_path / torrent_.filename)
         return torrent_.magnet
 
     def take_action(self, parsed_args):

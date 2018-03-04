@@ -55,7 +55,7 @@ class Mariner(app.App):
         if not self.options.log_file:
             log_dir = os.getenv('XDG_DATA_HOME', '~/.local/share/mariner')
             log_dir = utils.check_path(log_dir)
-            self.options.log_file = pathlib.Path(log_dir) / 'mariner.log'
+            self.options.log_file = str(pathlib.Path(log_dir) / 'mariner.log')
 
         # Monkey patched to use RotatingFileHandler
         file_handler = logging.handlers.RotatingFileHandler(

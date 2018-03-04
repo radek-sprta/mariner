@@ -58,5 +58,4 @@ class Config(command.Command):
                 self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
-            self.log.info(
-                f'Updated {utils.green(key)} to {utils.green(value)}')
+            self.log.info(f'Updated {utils.green(key)} to {utils.green(value)}')
