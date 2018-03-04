@@ -33,7 +33,6 @@ test:linters:
 build:package:
   stage: build
   script: 
-    - apt install pandoc -y
     - tox -e build
   artifacts:
     paths:

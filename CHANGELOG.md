@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2018-03-04
+### Fixed
+- Add missing future_fstring coding to config command
+
 ## [1.0.2] - 2018-03-04
 ### Fixed
 - Fix path problems in Python 3.5
@@ -66,3 +70,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [1.0.0]: https://gitlab.com/radek-sprta/mariner/compare/v0.4.0...v1.0.0
 [1.0.1]: https://gitlab.com/radek-sprta/mariner/compare/v1.0.0...v1.0.1
 [1.0.2]: https://gitlab.com/radek-sprta/mariner/compare/v1.0.1...v1.0.2
+[1.0.3]: https://gitlab.com/radek-sprta/mariner/compare/v1.0.2...v1.0.3

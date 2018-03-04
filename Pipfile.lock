@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c1bbdc3a2fc2c93bf9dce215dabbde805d8bdac93345e8cea73f89a6830e9faa"
+            "sha256": "9337cbc6fe7782ad15e5c9f7d98156785f61f17ed05c300e3e8e11d924671299"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -9,9 +9,9 @@
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
-            "platform_release": "4.15.5-1-default",
+            "platform_release": "4.14.12-1-default",
             "platform_system": "Linux",
-            "platform_version": "#1 SMP PREEMPT Thu Feb 22 21:48:29 UTC 2018 (52ce732)",
+            "platform_version": "#1 SMP PREEMPT Fri Jan 5 18:15:55 UTC 2018 (3cf399e)",
             "python_full_version": "3.6.4",
             "python_version": "3.6",
             "sys_platform": "linux"
@@ -373,9 +373,10 @@
         },
         "tinydb": {
             "hashes": [
-                "sha256:071105c339b44f928968cb4e62f7340a568beb9962a3dcda66eb82da9cab0b0a"
+                "sha256:1c746c7dc8125412d70ca157e86e9230afff4ce2c0bd609197a647d933007f43",
+                "sha256:96bd60c51a34d7844b89197d7f19a855e249635a4e23dbcf5b892a10e301c032"
             ],
-            "version": "==3.7.0"
+            "version": "==3.8.0"
         },
         "tinydb-smartcache": {
             "hashes": [
