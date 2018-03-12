@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import os
-import pathlib
 import sys
 
 import setuptools
@@ -55,10 +54,11 @@ if sys.argv[-1] == 'publish':
 
 # Load package information from __version__.py
 about = {}
-with pathlib.Path(here, 'src', 'mariner', '__version__.py').open() as f:
+with open(os.path.join(here, 'src', 'mariner', '__version__.py')) as f:
     exec(f.read(), about)
 
 # Convert Readme to .rst, so it looks good on PyPI
+# Temporary solution until PEP 566 is accepted
 try:
     import pypandoc
     readme = pypandoc.convert('README.md', 'rst')
@@ -71,6 +71,7 @@ setuptools.setup(
     version=about['__version__'],
     description=about['__description__'],
     long_description=readme,
+    long_description_content_type='text/markdown',
     author=about['__author__'],
     author_email=about['__author_email__'],
     url=about['__url__'],
@@ -79,6 +80,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where='src'),
     package_dir={'': 'src'},
     package_data={'mariner': ['config/*.yaml']},
+    include_package_data=True,
     install_requires=requires,
     tests_require=tests_require,
     python_requires='>=3.5',
