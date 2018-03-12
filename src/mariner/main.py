@@ -66,10 +66,11 @@ class Mariner(app.App):
 
         # Always send higher-level messages to the console via stderr
         console = logging.StreamHandler(self.stderr)
-        console_level = {0: logging.WARNING,
-                         1: logging.INFO,
-                         2: logging.DEBUG,
-                        }.get(self.options.verbose_level, logging.DEBUG)
+        console_level = {
+            0: logging.WARNING,
+            1: logging.INFO,
+            2: logging.DEBUG,
+        }.get(self.options.verbose_level, logging.DEBUG)
         console.setLevel(console_level)
         formatter = logging.Formatter(self.CONSOLE_MESSAGE_FORMAT)
         console.setFormatter(formatter)

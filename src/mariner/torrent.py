@@ -47,9 +47,9 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
             try:
                 self._date = maya.when(value).date  # pylint: disable=attribute-defined-outside-init
             except ValueError:
-                self._date = maya.parse(value).date  # pylint: disable=attribute-defined-outside-init
+                self._date = maya.parse(value).date  # pylint: disable=W0201
             except TypeError:
-                self._date = None  # pylint: disable=attribute-defined-outside-init
+                self._date = None  # pylint: disable=W0201
 
     @property
     def filename(self) -> str:
