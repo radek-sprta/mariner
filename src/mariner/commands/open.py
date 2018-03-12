@@ -2,7 +2,7 @@
 """Mariner open command."""
 import logging
 import os
-import subprocess
+import subprocess  # nosec
 
 from cliff import command
 

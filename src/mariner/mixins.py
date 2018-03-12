@@ -5,7 +5,7 @@ class ComparableMixin:  # pylint: disable=too-few-public-methods
     """Implement comparisons, using _cmpkey attribute."""
 
     def _compare(self, other, method):
-        """Wrapper for rich comparison methods.
+        """Wrap rich comparison methods.
 
         Args:
             other: Object to compare to.
