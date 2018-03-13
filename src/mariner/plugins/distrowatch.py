@@ -6,10 +6,10 @@ from typing import Iterator
 
 import bs4
 
-from mariner import searchengine, torrent
+from mariner import searchengine, torrent, trackerplugin
 
 
-class Distrowatch(searchengine.TrackerPlugin):
+class Distrowatch(trackerplugin.TrackerPlugin):
     """Represent Distrowatch search engine."""
 
     log = logging.getLogger(__name__)

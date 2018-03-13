@@ -1,18 +1,15 @@
 # -*- coding: future_fstrings -*-
 """Handle searching for torrents on torrent trackers."""
-import abc
 import asyncio
 import importlib
 import itertools
 import logging
 import pathlib
-from typing import Iterator, List, Optional, Tuple, Union
+from typing import List, Optional, Tuple, Union
 
-import aiohttp
-import async_timeout
 import cachalot
 
-from mariner import torrent, exceptions
+from mariner import exceptions, torrent, trackerplugin
 
 Name = str
 Page = str
@@ -53,7 +50,7 @@ class SearchEngine:
         """Find engines and register them."""
         self.log.debug('Initializing plugins')
         self.find_plugins()
-        for plugin in TrackerPlugin.__subclasses__():
+        for plugin in trackerplugin.TrackerPlugin.__subclasses__():
             self.log.debug('Adding plugin=%s', plugin)
             name = plugin.__name__.lower()
             self.plugins[name] = plugin
@@ -95,9 +92,11 @@ class SearchEngine:
         try:
             plugins = set(self.plugins[t] for t in trackers)
         except KeyError:
-            raise exceptions.ConfigurationError("Illegal value for default_tracker")
+            raise exceptions.ConfigurationError(
+                "Illegal value for default_tracker")
         else:
-            tasks = asyncio.gather(*(p().results(title.lower()) for p in plugins))
+            tasks = asyncio.gather(
+                *(p().results(title.lower()) for p in plugins))
             loop = asyncio.get_event_loop()
             torrents = loop.run_until_complete(tasks)
             torrents = self._flatten(torrents)
@@ -128,7 +127,8 @@ class SearchEngine:
 
         # Sort the results
         if sort_by_newest:
-            sorted_torrents = list(reversed(sorted(torrents, key=lambda x: x.date)))
+            sorted_torrents = list(
+                reversed(sorted(torrents, key=lambda x: x.date)))
         else:
             sorted_torrents = list(reversed(sorted(torrents)))
 
@@ -148,74 +148,3 @@ class SearchEngine:
         self.results.clear()
         for tid, torrent_ in torrents:
             self.results.insert(tid, torrent_)
-
-
-class TrackerMeta(abc.ABCMeta, type):
-    """Metaclass to check, that Tracket plugins override search_url."""
-    def __new__(mcs, name, bases, namespace, **kwargs):
-        if bases != (abc.ABC,):
-            if not namespace.get('search_url'):
-                raise exceptions.InputError('You must define search_url')
-        return type.__new__(mcs, name, bases, namespace)
-
-
-class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
-    """Represent a search engine."""
-    log = logging.getLogger(__name__)
-    user_agent = {'user-agent': 'Mariner Torrent Downloader'}
-    search_url = ''  # To be overwritten by subclasses
-    aliases = []  # Aliases for the tracker name
-
-    async def get(self, url: Url) -> Page:
-        """Asynchronous https request.
-
-        Args:
-            url: Url of the webpage to fetch.
-
-        Returns:
-            Fetched webpage."""
-        self.log.debug('Fetching url=%s', url)
-        with async_timeout.timeout(10):
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=self.user_agent) as response:
-                    page = await response.text()
-        return page
-
-    async def results(self, title: str) -> Iterator[torrent.Torrent]:
-        """Get a list of torrent name with URLs and magnet links.
-
-        Args:
-            title: String to search for.
-        """
-        try:
-            search_url = self.search_url + title
-            page = await self.get(search_url)
-        except (OSError, asyncio.TimeoutError):
-            self.log.error('Cannot reach server at %s', search_url)
-        return self._parse(page)
-
-    @abc.abstractmethod
-    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:
-        """Parse result page.
-
-        Args:
-            raw: Raw HTML page.
-
-        Returns:
-            List of torrents names with URLs and magnet links.
-
-        """
-        raise NotImplementedError
-
-    @staticmethod
-    def _parse_number(number: str) -> int:
-        """Parse a number string from HTML page and return an interger.
-
-        Args:
-            number: Number string to parse.
-
-        Return:
-            Parsed number.
-        """
-        squashed = number.replace(' ', '')
-        return int(squashed.replace(',', ''))

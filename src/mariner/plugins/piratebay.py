@@ -4,10 +4,10 @@ from typing import Iterator
 
 import bs4
 
-from mariner import searchengine, torrent
+from mariner import searchengine, torrent, trackerplugin
 
 
-class PirateBay(searchengine.TrackerPlugin):
+class PirateBay(trackerplugin.TrackerPlugin):
     """Represents PirateBay search engine."""
 
     search_url = 'https://thepiratebay.org/search/'

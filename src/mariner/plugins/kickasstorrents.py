@@ -4,10 +4,10 @@ from typing import Iterator
 
 import bs4
 
-from mariner import searchengine, torrent
+from mariner import searchengine, torrent, trackerplugin
 
 
-class KickAssTorrents(searchengine.TrackerPlugin):
+class KickAssTorrents(trackerplugin.TrackerPlugin):
     """Represents KickAssTorrents search engine."""
 
     search_url = 'https://katcr.co/katsearch/page/1/'

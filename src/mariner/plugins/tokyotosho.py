@@ -4,10 +4,10 @@ from typing import Iterator
 
 import bs4
 
-from mariner import searchengine, torrent
+from mariner import searchengine, torrent, trackerplugin
 
 
-class TokyoTosho(searchengine.TrackerPlugin):
+class TokyoTosho(trackerplugin.TrackerPlugin):
     """Represents TokyoTosho search engine."""
 
     search_url = 'https://www.tokyotosho.info/search.php?terms='

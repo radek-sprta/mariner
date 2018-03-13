@@ -5,10 +5,10 @@ from typing import Iterator
 
 import bs4
 
-from mariner import searchengine, torrent
+from mariner import searchengine, torrent, trackerplugin
 
 
-class LinuxTracker(searchengine.TrackerPlugin):
+class LinuxTracker(trackerplugin.TrackerPlugin):
     """Represents LinuxTracker search engine."""
 
     log = logging.getLogger(__name__)
