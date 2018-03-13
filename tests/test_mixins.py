@@ -44,3 +44,10 @@ class TestComparableMixin:
         assert torrent2 >= torrent1
         assert torrent2 >= torrent2
         assert not torrent1 >= torrent2
+
+    def test_non_mixing(self, torrent1):
+        """Raise exception when comparing to noncomparable."""
+        class NonComparable:
+            pass
+        noncomparable = NonComparable()
+        assert torrent1 != noncomparable

@@ -46,6 +46,27 @@ class TestSearchEngine:
             assert title.lower() in result.name.lower()
             assert result.tracker.lower() in trackers
 
+    def test_search_no_title(self, engine):
+        """Search for torrent on given trackers."""
+        title = ''
+        trackers = ['linuxtracker', 'distrowatch', 'kickasstorrents']
+        with pytest.raises(exceptions.InputError):
+            engine.search(title, trackers)
+
+    def test_search_no_tracker(self, engine):
+        """Search for torrent on given trackers."""
+        title = 'Ubuntu'
+        trackers = []
+        with pytest.raises(exceptions.InputError):
+            engine.search(title, trackers)
+
+    def test_search_no_result(self, engine):
+        """Search for torrent on given trackers."""
+        title = 'qwertyzxcvb'
+        trackers = ['linuxtracker', 'distrowatch', 'kickasstorrents']
+        with pytest.raises(exceptions.NoResultException):
+            engine.search(title, trackers)
+
     def test_search_newest(self, engine):
         """Search for torrent on given trackers and sort them by newest."""
         title = 'Ubuntu'
