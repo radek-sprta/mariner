@@ -17,6 +17,7 @@ future-fstrings = "*"
 lxml = "*"
 maya = ">=0.3.4"
 "ruamel.yaml" = "*"
+tokenize_rt = "*"
 
 
 [dev-packages]
