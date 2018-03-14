@@ -5,17 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+### Added
+- Support for Nyaa.si tracker.
+
 ## [1.0.3] - 2018-03-04
 ### Fixed
-- Add missing future_fstring coding to config command
+- Add missing future_fstring coding to config command.
 
 ## [1.0.2] - 2018-03-04
 ### Fixed
-- Fix path problems in Python 3.5
+- Fix path problems in Python 3.5.
 
 ## [1.0.1] - 2018-02-28
 ### Fixed
-- Restore compatibility with Python 3.5
+- Restore compatibility with Python 3.5.
 
 ## [1.0.0] - 2018-02-25
 ### Added
