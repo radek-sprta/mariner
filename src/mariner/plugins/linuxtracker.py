@@ -5,7 +5,7 @@ from typing import Iterator
 
 import bs4
 
-from mariner import searchengine, torrent, trackerplugin
+from mariner import torrent, trackerplugin
 
 
 class LinuxTracker(trackerplugin.TrackerPlugin):

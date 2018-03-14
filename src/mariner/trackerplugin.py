@@ -1,3 +1,4 @@
+"""Base class for adding torrent tracker support."""
 import abc
 import asyncio
 import logging
