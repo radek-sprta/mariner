@@ -71,6 +71,10 @@ Downloads torrents with given IDs to the download folder (default: ~/Downloads).
 
 `mariner download 1 2 3`
 
+To specify a download path, use the `--path` or `-p` flag:
+
+`mariner download --path ~ 0`
+
 ## Magnet
 The Magnet command copies the magnet link of the torrent with given ID to clipboard.
 

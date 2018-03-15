@@ -24,6 +24,9 @@ class Download(lister.Lister):
         parser = super().get_parser(prog_name)
         parser.add_argument(
             'ID', nargs='+', help="ID of the torrent to download", type=int)
+        parser.add_argument('--path', '-p', nargs='?',
+                            help="Path to downloads torrent files to",
+                            default=self.app.config['download_path'])
         return parser
 
     def take_action(self, parsed_args):
@@ -35,6 +38,7 @@ class Download(lister.Lister):
         Returns:
             List of downloaded torrents and the location where they were saved.
         """
+        path = parsed_args.path
         torrents = []
         for tid in parsed_args.ID:
             torrent_ = self.app.engine.result(tid)
@@ -48,8 +52,8 @@ class Download(lister.Lister):
                     f'No torrent for {torrent_.name}. Use magnet link instead.'))
 
         download_list = ((t.torrent, t.filename) for t in torrents)
-        path = self.app.config['download_path']
-        self.log.debug('download_list=%s download_path=%s', download_list, path)
+        self.log.debug('download_list=%s download_path=%s',
+                       download_list, path)
         torrent_downloader = downloader.Downloader(download_path=path)
         filelist = torrent_downloader.download(download_list)
 
