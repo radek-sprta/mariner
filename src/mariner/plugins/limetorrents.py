@@ -1,5 +1,5 @@
 # -*- coding: future_fstrings -*-
-"""Module for searching torrents on Nyaa."""
+"""Module for searching torrents on LimeTorrents."""
 from typing import Iterator
 
 import bs4
@@ -7,10 +7,10 @@ import bs4
 from mariner import torrent, trackerplugin
 
 
-class Nyaa(trackerplugin.TrackerPlugin):
-    """Represents Nyaa.si search engine."""
+class LimeTorrents(trackerplugin.TrackerPlugin):
+    """Represents LimeTorrents search engine."""
 
-    search_url = 'https://nyaa.si/?f=0&c=0_0&q={title}'
+    search_url = 'https://limetorrents.cc/search/all/{title}/seeds/1'
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
@@ -23,26 +23,22 @@ class Nyaa(trackerplugin.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         try:
-            contents = soup.select('tr.default')
+            contents = soup.select('table.table2')[0].select('tr')[1:]
             for content in contents:
                 data = content.select('td')
-                name = str(data[1].a.string)
+                name = str(data[0].select('a')[1].string)
                 tracker = self.__class__.__name__
 
-                links = data[2].select('a')
-                url_stub = links[0].get('href')
-                url = f'https://nyaa.si{url_stub}'
-                magnet = links[1].get('href')
+                url = data[0].div.a.get('href')
 
-                size = str(data[3].string)
-                date = str(data[4].string)
-                seeds = int(data[5].string)
-                leeches = int(data[6].string)
+                size = str(data[2].string)
+                date = str(data[1].string.split('-')[0].strip())
+                seeds = self._parse_number(data[3].string)
+                leeches = self._parse_number(data[4].string)
 
                 yield torrent.Torrent(
                     name,
                     tracker,
-                    magnet=magnet,
                     torrent=url,
                     size=size,
                     date=date,

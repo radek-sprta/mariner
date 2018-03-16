@@ -10,7 +10,7 @@ from mariner import torrent, trackerplugin
 class KickAssTorrents(trackerplugin.TrackerPlugin):
     """Represents KickAssTorrents search engine."""
 
-    search_url = 'https://katcr.co/katsearch/page/1/'
+    search_url = 'https://katcr.co/katsearch/page/1/{title}'
     aliases = ['kat']
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals

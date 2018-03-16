@@ -48,7 +48,7 @@ Adding support for another tracker is quite straightforward. First of all, you n
 
 The `TrackerPlugin` base class takes care of most things, such as fetching the results page etc. Under most circumstances, the only things needed, are setting the `search_url` class attribute and defining `_parse` method.
 
-`search_url` is the URL of the result page for search string. You can get it by running a search on your chosen tracker and deleting the search string from the URL.
+`search_url` is the URL of the result page for search string. You can get it by running a search on your chosen tracker and deleting the search string from the URL. `{title}` is the searched string.
 
 The `_parse` method is the hard part. You have to parse the results page for relevant information, such as torrent name, torrent URL, magnet link etc. and return it as a list of Torrent objects from the torrent module. Mariner uses BeautifulSoup library for parsing HTML. You can find more information on its usage in the documentation [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 

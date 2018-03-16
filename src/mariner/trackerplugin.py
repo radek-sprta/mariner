@@ -51,7 +51,7 @@ class TrackerPlugin(abc.ABC, metaclass=TrackerMeta):
             title: String to search for.
         """
         try:
-            search_url = self.search_url + title
+            search_url = self.search_url.format(title=title)
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)

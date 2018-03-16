@@ -10,7 +10,7 @@ from mariner import torrent, trackerplugin
 class PirateBay(trackerplugin.TrackerPlugin):
     """Represents PirateBay search engine."""
 
-    search_url = 'https://thepiratebay.org/search/'
+    search_url = 'https://thepiratebay.org/search/{title}'
     aliases = ['tpb', 'pb']
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals

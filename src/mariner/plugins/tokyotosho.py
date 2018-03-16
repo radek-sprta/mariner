@@ -10,7 +10,7 @@ from mariner import torrent, trackerplugin
 class TokyoTosho(trackerplugin.TrackerPlugin):
     """Represents TokyoTosho search engine."""
 
-    search_url = 'https://www.tokyotosho.info/search.php?terms='
+    search_url = 'https://www.tokyotosho.info/search.php?terms={title}'
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.

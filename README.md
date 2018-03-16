@@ -6,7 +6,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 ## Features
 
-- Search for torrents on Distrowatch, Linuxtracker, KickAssTorrents, PirateBay, TokyoTosho and Nyaa.
+- Search for torrents on Distrowatch, Linuxtracker, KickAssTorrents, PirateBay, TokyoTosho and more.
 - Download torrent files and copy magnet links to clipboard.
 - Open torrents in your default torrent application.
 - Show torrent details.
@@ -80,6 +80,7 @@ For more information, check the [documentation][documentation].
 
 ## TODO
 - Add more trackers for searching
+- Automatically get available proxies
 - Offer more configuration options
 
 ## Contributing
