@@ -21,7 +21,7 @@ class SearchEngine:
     """Search on for a torrent using Tracker plugins."""
 
     log = logging.getLogger(__name__)
-    plugin_directory = pathlib.Path(__file__).parent / 'plugins'
+    plugin_directory = pathlib.Path(__file__).parent / 'trackers'
 
     def __init__(self) -> None:
         self.plugins = {}

@@ -1,8 +1,7 @@
 import pytest
 
-from .context import mariner
-from mariner import searchengine, torrent
-from mariner.plugins import distrowatch
+from mariner import torrent
+from mariner.trackers import distrowatch
 
 
 class TestDistrowatch:
@@ -31,10 +30,6 @@ class TestDistrowatch:
                 """
         monkeypatch.setattr(distrowatch.Distrowatch, 'get', mock_get)
         return distrowatch.Distrowatch()
-
-    def test_distrowatch_search_url_is_string(self):
-        """Search url class attribute is string."""
-        assert isinstance(distrowatch.Distrowatch.search_url, str)
 
     def test_results(self, engine, event_loop):
         """Search returns an iterator of Torrent objects."""

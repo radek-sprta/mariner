@@ -1,6 +1,6 @@
 import pytest
 
-from mariner import torrent
+from mariner import mixins, torrent
 
 
 class TestComparableMixin:
@@ -51,3 +51,12 @@ class TestComparableMixin:
             pass
         noncomparable = NonComparable()
         assert torrent1 != noncomparable
+
+
+class TestGetPageMixin:
+
+    def test_get(self, event_loop):
+        search = event_loop.run_until_complete(
+            mixins.GetPageMixin().get('http://httpbin.org/robots.txt'))
+        expected = "User-agent: *\nDisallow: /deny\n"
+        assert search == expected

@@ -1,18 +1,13 @@
 import pytest
 
-from .context import mariner
-from mariner import searchengine, torrent
-from mariner.plugins import tokyotosho
+from mariner import torrent
+from mariner.trackers import tokyotosho
 
 
 class TestTokyoTosho:
     """
     Class to test TokyoTosho plugin.
     """
-
-    def test_tokyotosho_search_url_is_string(self):
-        """Search url class attribute is string."""
-        assert isinstance(tokyotosho.TokyoTosho.search_url, str)
 
     def test_results(self, engine, event_loop):
         """Search returns an iterator of Torrent objects."""

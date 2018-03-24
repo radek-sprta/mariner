@@ -1,4 +1,6 @@
 """Utility mixins used in Mariner."""
+import aiohttp
+import async_timeout
 
 
 class ComparableMixin:  # pylint: disable=too-few-public-methods
@@ -38,3 +40,22 @@ class ComparableMixin:  # pylint: disable=too-few-public-methods
 
     def __ne__(self, other):
         return self._compare(other, lambda s, o: s != o)
+
+
+class GetPageMixin:
+    """Represt a web scraper."""
+
+    async def get(self, url: str) -> str:
+        """Get the requested page.
+
+        Args:
+            url: Url of the page to get.
+
+        Returns:
+            Raw HTML page.
+        """
+        with async_timeout.timeout(10):
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url) as response:
+                    page = await response.text()
+        return page

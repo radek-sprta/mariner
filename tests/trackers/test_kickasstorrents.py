@@ -1,18 +1,13 @@
 import pytest
 
-from .context import mariner
 from mariner import torrent
-from mariner.plugins import kickasstorrents
+from mariner.trackers import kickasstorrents
 
 
 class TestKickAssTorrents:
     """
     Class to test KickAssTorrents plugin.
     """
-
-    def test_kickasstorrents_search_url_is_string(self):
-        """Search url class attribute is string."""
-        assert isinstance(kickasstorrents.KickAssTorrents.search_url, str)
 
     def test_result(self, engine, event_loop):
         """Search returns an iterator of Torrent objects."""

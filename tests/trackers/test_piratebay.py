@@ -1,8 +1,7 @@
 import pytest
 
-from .context import mariner
-from mariner import searchengine, torrent
-from mariner.plugins import piratebay
+from mariner import torrent
+from mariner.trackers import piratebay
 
 
 class TestPirateBay:
@@ -10,16 +9,17 @@ class TestPirateBay:
     Class to test PirateBay plugin.
     """
 
-    def test_piratebay_search_url_is_string(self):
-        """Search url class attribute is string."""
-        assert isinstance(piratebay.PirateBay.search_url, str)
-
     def test_result(self, engine, event_loop):
         """Search returns an iterator of Torrent objects."""
         search = event_loop.run_until_complete(engine.results('Ubuntu'))
         search = list(search)
         assert isinstance(search[0], torrent.Torrent)
         assert len(search) == 3
+
+    def test_get_proxy(self, engine, event_loop):
+        proxy = event_loop.run_until_complete(engine.get_proxy())
+        assert isinstance(proxy, str)
+        assert 'http' in proxy
 
     @pytest.fixture
     def engine(self, monkeypatch):

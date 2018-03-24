@@ -5,13 +5,26 @@ from typing import Iterator
 import bs4
 
 from mariner import torrent, trackerplugin
+from mariner.proxies import piratebay
 
 
-class PirateBay(trackerplugin.TrackerPlugin):
+class PirateBay(trackerplugin.ProxyTrackerPlugin):
     """Represents PirateBay search engine."""
 
-    search_url = 'https://thepiratebay.org/search/{title}'
+    search_url = '{proxy}/search/{title}'
     aliases = ['tpb', 'pb']
+
+    def __init__(self):
+        super().__init__()
+        self.proxies = piratebay.PirateBayProxy()
+
+    async def get_proxy(self) -> str:
+        """Return a responding proxy.
+
+        Returns:
+            URL for responding proxy.
+        """
+        return await self.proxies.get_proxy()
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
