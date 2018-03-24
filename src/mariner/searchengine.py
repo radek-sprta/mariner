@@ -50,7 +50,12 @@ class SearchEngine:
         """Find engines and register them."""
         self.log.debug('Initializing plugins')
         self.find_plugins()
-        for plugin in trackerplugin.TrackerPlugin.__subclasses__():
+
+        subclasses = trackerplugin.TrackerPlugin.__subclasses__()
+        proxy_subclasses = trackerplugin.ProxyTrackerPlugin.__subclasses__()
+        subclasses.extend(proxy_subclasses)
+
+        for plugin in subclasses:
             self.log.debug('Adding plugin=%s', plugin)
             name = plugin.__name__.lower()
             self.plugins[name] = plugin

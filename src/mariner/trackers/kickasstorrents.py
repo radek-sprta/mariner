@@ -5,13 +5,17 @@ from typing import Iterator
 import bs4
 
 from mariner import torrent, trackerplugin
+from mariner.proxies import kickasstorrents
 
 
-class KickAssTorrents(trackerplugin.TrackerPlugin):
+class KickAssTorrents(trackerplugin.ProxyTrackerPlugin):
     """Represents KickAssTorrents search engine."""
 
-    search_url = 'https://katcr.co/katsearch/page/1/{title}'
+    search_url = '{proxy}/katsearch/page/1/{title}'
     aliases = ['kat']
+
+    def __init__(self):
+        self.proxies = kickasstorrents.KickAssTorrentsProxy()
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
