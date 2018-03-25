@@ -42,7 +42,7 @@ class ComparableMixin:  # pylint: disable=too-few-public-methods
         return self._compare(other, lambda s, o: s != o)
 
 
-class GetPageMixin:
+class GetPageMixin:  # pylint: disable=too-few-public-methods
     """Represt a web scraper."""
 
     async def get(self, url: str) -> str:
@@ -57,5 +57,4 @@ class GetPageMixin:
         with async_timeout.timeout(10):
             async with aiohttp.ClientSession() as session:
                 async with session.get(url) as response:
-                    page = await response.text()
-        return page
+                    return await response.text()

@@ -15,6 +15,7 @@ class KickAssTorrents(trackerplugin.ProxyTrackerPlugin):
     aliases = ['kat']
 
     def __init__(self):
+        super().__init__()
         self.proxies = kickasstorrents.KickAssTorrentsProxy()
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals

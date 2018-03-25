@@ -72,6 +72,7 @@ class ProxyTrackerPlugin(TrackerPlugin, abc.ABC):
     Attributes:
         proxies: Override with instance of ProxyPlugin.
     """
+    default_proxy = ''  # To be overwritten by subclasses
 
     def __init__(self):
         super().__init__()
@@ -98,3 +99,16 @@ class ProxyTrackerPlugin(TrackerPlugin, abc.ABC):
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
         return self._parse(page)
+
+    @abc.abstractmethod
+    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:
+        """Parse result page.
+
+        Args:
+            raw: Raw HTML page.
+
+        Returns:
+            List of torrents names with URLs and magnet links.
+
+        """
+        raise NotImplementedError
