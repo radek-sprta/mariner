@@ -5,7 +5,7 @@ import importlib
 import itertools
 import logging
 import pathlib
-from typing import List, Optional, Tuple, Union
+from typing import List, Iterator, Optional, Tuple, Union
 
 import cachalot
 
@@ -46,16 +46,24 @@ class SearchEngine:
             loaded_module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(loaded_module)
 
+    def get_plugin_classes(self) -> Iterator:
+        """Return a list of tracker plugin classes.
+
+        Returns:
+            List of tracker plugin classes.
+        """
+        subclasses = trackerplugin.TrackerPlugin.__subclasses__()
+        proxy_subclasses = trackerplugin.ProxyTrackerPlugin.__subclasses__()
+        subclasses.extend(proxy_subclasses)
+        # Return everything except the abstract class
+        return (s for s in subclasses if s.__name__ != 'ProxyTrackerPlugin')
+
     def initialize_plugins(self) -> None:
         """Find engines and register them."""
         self.log.debug('Initializing plugins')
         self.find_plugins()
 
-        subclasses = trackerplugin.TrackerPlugin.__subclasses__()
-        proxy_subclasses = trackerplugin.ProxyTrackerPlugin.__subclasses__()
-        subclasses.extend(proxy_subclasses)
-
-        for plugin in subclasses:
+        for plugin in self.get_plugin_classes():
             self.log.debug('Adding plugin=%s', plugin)
             name = plugin.__name__.lower()
             self.plugins[name] = plugin
