@@ -54,9 +54,9 @@ class SearchEngine:
         """
         subclasses = trackerplugin.TrackerPlugin.__subclasses__()
         proxy_subclasses = trackerplugin.ProxyTrackerPlugin.__subclasses__()
-        subclasses.extend(proxy_subclasses)
         # Return everything except the abstract class
-        return (s for s in subclasses if s.__name__ != 'ProxyTrackerPlugin')
+        return (s for s in itertools.chain(subclasses, proxy_subclasses)
+                if s.__name__ != 'ProxyTrackerPlugin')
 
     def initialize_plugins(self) -> None:
         """Find engines and register them."""
