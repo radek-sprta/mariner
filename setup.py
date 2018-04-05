@@ -57,14 +57,8 @@ about = {}
 with open(os.path.join(here, 'src', 'mariner', '__version__.py')) as f:
     exec(f.read(), about)
 
-# Convert Readme to .rst, so it looks good on PyPI
-# Temporary solution until PEP 566 is accepted
-try:
-    import pypandoc
-    readme = pypandoc.convert('README.md', 'rst')
-except (ImportError, RuntimeError, OSError):
-    with open('README.md', 'r') as f:
-        readme = '\n' + f.read()
+with open('README.md', 'r') as f:
+    readme = '\n' + f.read()
 
 setuptools.setup(
     name=about['__title__'],

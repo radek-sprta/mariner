@@ -23,7 +23,6 @@ tokenize_rt = "*"
 [dev-packages]
 
 coverage = "*"
-pypandoc = "*"
 pytest = "*"
 pytest-asyncio = "*"
 wheel = "*"
