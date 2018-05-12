@@ -1,22 +1,49 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on KickAssTorrents."""
+import asyncio
 from typing import Iterator
 
+import aiohttp
+import async_timeout
 import bs4
 
 from mariner import torrent, trackerplugin
-from mariner.proxies import kickasstorrents
 
 
-class KickAssTorrents(trackerplugin.ProxyTrackerPlugin):
+class KickAssTorrents(trackerplugin.TrackerPlugin):
     """Represents KickAssTorrents search engine."""
 
-    search_url = '{proxy}/katsearch/page/1/{title}'
+    search_url = 'https://katcr.co/katsearch/page/1/{title}'
     aliases = ['kat']
 
-    def __init__(self):
-        super().__init__()
-        self.proxies = kickasstorrents.KickAssTorrentsProxy()
+    async def get_cookie(self, url: str) -> str:
+        """Get KickAssTorrents session ID cookie.
+
+        Args:
+            url: Search page to get the cookie from.
+
+        Returns:
+            KickAssTorrents session cookie.
+        """
+        with async_timeout.timeout(10):
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url) as response:
+                    return response.cookies['KATSSESSID_S96x'].key, response.cookies['KATSSESSID_S96x'].value
+
+    async def results(self, title: str) -> Iterator[torrent.Torrent]:
+        """Get a list of torrent name with URLs and magnet links.
+
+        Args:
+            title: String to search for.
+        """
+        try:
+            search_url = self.search_url.format(title=title)
+            cookie_key, cookie_value = await self.get_cookie(search_url)
+            cookie = {cookie_key: cookie_value}
+            page = await self.get(search_url, cookies=cookie)
+        except (OSError, asyncio.TimeoutError):
+            self.log.error('Cannot reach server at %s', search_url)
+        return self._parse(page)
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
