@@ -137,13 +137,7 @@ class SearchEngine:
             raise exceptions.InputError('Limit has to be higher than zero.')
 
         torrents = self._cached_search(title, trackers)
-
-        # Sort the results
-        if sort_by_newest:
-            sorted_torrents = list(
-                reversed(sorted(torrents, key=lambda x: x.date)))
-        else:
-            sorted_torrents = list(reversed(sorted(torrents)))
+        sorted_torrents = self._sort_results(torrents, sort_by_newest)
 
         # Show only results up to to the limit
         results = [(i, t) for i, t in enumerate(sorted_torrents[:limit])]
@@ -161,3 +155,19 @@ class SearchEngine:
         self.results.clear()
         for tid, torrent_ in torrents:
             self.results.insert(tid, torrent_)
+
+    def _sort_results(self, torrents: List[torrent.Torrent], sort_by_newest: bool) -> List[torrent.Torrent]:
+        """Sort torrent results.
+
+        Args:
+            torrents: List of torrents to sort.
+            sort_by_newest: True if torrent should be sorted by recendivity.
+
+        Returns:
+            Sorted list of torrents.
+        """
+        if sort_by_newest:
+            sorted_torrents = list(reversed(sorted(torrents, key=lambda x: x.date)))
+        else:
+            sorted_torrents = list(reversed(sorted(torrents)))
+        return sorted_torrents
