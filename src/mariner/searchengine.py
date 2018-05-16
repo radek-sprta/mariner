@@ -46,7 +46,8 @@ class SearchEngine:
             loaded_module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(loaded_module)
 
-    def get_plugin_classes(self) -> Iterator:
+    @staticmethod
+    def get_plugin_classes() -> Iterator:
         """Return a list of tracker plugin classes.
 
         Returns:
@@ -156,7 +157,9 @@ class SearchEngine:
         for tid, torrent_ in torrents:
             self.results.insert(tid, torrent_)
 
-    def _sort_results(self, torrents: List[torrent.Torrent], sort_by_newest: bool) -> List[torrent.Torrent]:
+    def _sort_results(self,
+                      torrents: List[torrent.Torrent],
+                      sort_by_newest: bool) -> List[torrent.Torrent]:
         """Sort torrent results.
 
         Args:
@@ -166,6 +169,7 @@ class SearchEngine:
         Returns:
             Sorted list of torrents.
         """
+        self.log.debug('Sorting results')
         if sort_by_newest:
             sorted_torrents = list(reversed(sorted(torrents, key=lambda x: x.date)))
         else:

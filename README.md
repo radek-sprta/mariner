@@ -81,8 +81,7 @@ For more information, check the [documentation][documentation].
 
 ## TODO
 - Add more trackers for searching
-- Automatically get available proxies
-- Offer more configuration options
+- Support for MacOS and Windows
 
 ## Contributing
 For information on how to contribute to the project, please check the [Contributor's Guide][contributing]

@@ -45,7 +45,7 @@ class ComparableMixin:  # pylint: disable=too-few-public-methods
 class GetPageMixin:  # pylint: disable=too-few-public-methods
     """Represent a web scraper."""
 
-    async def get(self, url: str, headers: str=None, cookies: str=None) -> str:
+    async def get(self, url: str, headers: str = None, cookies: str = None) -> str:
         """Get the requested page.
 
         Args:

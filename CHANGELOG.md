@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - Fix support for KickAssTorrents.
+- Use cached results immediately, not after second search.
 
 ## [1.0.3] - 2018-03-04
 ### Fixed

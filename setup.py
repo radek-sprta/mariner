@@ -11,7 +11,7 @@ requires = [
     'aiofiles',
     'aiohttp',
     'bs4',
-    'cachalot >= 0.1.2',
+    'cachalot >= 0.1.3',
     'cliff',
     'colorama',
     'future-fstrings',
