@@ -1,7 +1,7 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on KickAssTorrents."""
 import asyncio
-from typing import Iterator
+from typing import Dict, Iterator
 
 import aiohttp
 import async_timeout
@@ -16,7 +16,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
     search_url = 'https://katcr.co/katsearch/page/1/{title}'
     aliases = ['kat']
 
-    async def get_cookie(self, url: str) -> str:
+    async def get_cookie(self, url: str) -> Dict:
         """Get KickAssTorrents session ID cookie.
 
         Args:
@@ -28,7 +28,8 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
         with async_timeout.timeout(10):
             async with aiohttp.ClientSession() as session:
                 async with session.get(url) as response:
-                    return response.cookies['KATSSESSID_S96x'].key, response.cookies['KATSSESSID_S96x'].value
+                    cookie = response.cookies.popitem()
+                    return {cookie[0]: cookie[1].value}
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.
@@ -38,8 +39,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
         """
         try:
             search_url = self.search_url.format(title=title)
-            cookie_key, cookie_value = await self.get_cookie(search_url)
-            cookie = {cookie_key: cookie_value}
+            cookie = await self.get_cookie(search_url)
             page = await self.get(search_url, cookies=cookie)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
