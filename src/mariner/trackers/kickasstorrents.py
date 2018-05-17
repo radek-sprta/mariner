@@ -4,7 +4,6 @@ import asyncio
 from typing import Dict, Iterator
 
 import aiohttp
-import async_timeout
 import bs4
 
 from mariner import torrent, trackerplugin
@@ -25,11 +24,10 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
         Returns:
             KickAssTorrents session cookie.
         """
-        with async_timeout.timeout(10):
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url) as response:
-                    cookie = response.cookies.popitem()
-                    return {cookie[0]: cookie[1].value}
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, timeout=10) as response:
+                cookie = response.cookies.popitem()
+                return {cookie[0]: cookie[1].value}
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.

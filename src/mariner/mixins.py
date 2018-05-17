@@ -1,6 +1,5 @@
 """Utility mixins used in Mariner."""
 import aiohttp
-import async_timeout
 
 
 class ComparableMixin:  # pylint: disable=too-few-public-methods
@@ -54,7 +53,6 @@ class GetPageMixin:  # pylint: disable=too-few-public-methods
         Returns:
             Raw HTML page.
         """
-        with async_timeout.timeout(10):
-            async with aiohttp.ClientSession(headers=headers, cookies=cookies) as session:
-                async with session.get(url) as response:
-                    return await response.text()
+        async with aiohttp.ClientSession(headers=headers, cookies=cookies) as session:
+            async with session.get(url, timeout=10) as response:
+                return await response.text()

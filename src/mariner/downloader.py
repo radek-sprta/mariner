@@ -6,7 +6,6 @@ from typing import List, Tuple, Union
 
 import aiofiles
 import aiohttp
-import async_timeout
 
 from mariner import utils
 
@@ -37,16 +36,15 @@ class Downloader:
         """
         filename = self.download_path / name
         self.log.debug('filename=%s', filename)
-        with async_timeout.timeout(10):
-            async with session.get(url) as response:
-                # Cast filename to str as workaround for Python 3.5
-                async with aiofiles.open(str(filename), 'wb') as file_:
-                    while True:
-                        chunk = await response.content.read(1024)
-                        if not chunk:
-                            self.log.debug('saved=%s', filename)
-                            break
-                        await file_.write(chunk)
+        async with session.get(url, timeout=10) as response:
+            # Cast filename to str as workaround for Python 3.5
+            async with aiofiles.open(str(filename), 'wb') as file_:
+                while True:
+                    chunk = await response.content.read(1024)
+                    if not chunk:
+                        self.log.debug('saved=%s', filename)
+                        break
+                    await file_.write(chunk)
         return filename
 
     async def download_filelist(self, loop: Loop, download_list: List[File]) -> List[Path]:
