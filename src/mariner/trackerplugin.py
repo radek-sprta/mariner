@@ -26,6 +26,10 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     search_url = ''  # To be overwritten by subclasses
     aliases = []  # Aliases for the tracker name
 
+    def __init__(self, timeout: int = 10) -> None:
+        super().__init__()
+        self.timeout = timeout
+
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.
 
@@ -34,7 +38,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         """
         try:
             search_url = self.search_url.format(title=title)
-            page = await self.get(search_url)
+            page = await self.get(search_url, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
         return self._parse(page)

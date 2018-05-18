@@ -89,7 +89,8 @@ class SearchEngine:
     @cachalot.Cache(path='.cache/mariner/cache.json', size=100)
     def _cached_search(self,
                        title: str,
-                       trackers: List[str]) -> List[torrent.Torrent]:
+                       trackers: List[str],
+                       timeout: int) -> List[torrent.Torrent]:
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily
         serializable, we cannot simply cache TrackerPlugun.results() method.
@@ -110,7 +111,7 @@ class SearchEngine:
                 "Illegal value for default_tracker")
         else:
             tasks = asyncio.gather(
-                *(p().results(title.lower()) for p in plugins))
+                *(p(timeout=timeout).results(title.lower()) for p in plugins))
             loop = asyncio.get_event_loop()
             torrents = loop.run_until_complete(tasks)
             torrents = self._flatten(torrents)
@@ -120,7 +121,8 @@ class SearchEngine:
                title: str,
                trackers: List[str],
                limit: Optional[int] = 10,
-               sort_by_newest: bool = False) -> List[Tuple[int, torrent.Torrent]]:
+               sort_by_newest: bool = False,
+               timeout: int = 10) -> List[Tuple[int, torrent.Torrent]]:
         """Search for torrents on given site.
 
         Args:
@@ -136,8 +138,10 @@ class SearchEngine:
             raise exceptions.InputError('No torrent trackers to search on')
         if limit <= 0:
             raise exceptions.InputError('Limit has to be higher than zero.')
+        if timeout < 0:
+            raise exceptions.ConfigurationError('Timeout cannot be negative.')
 
-        torrents = self._cached_search(title, trackers)
+        torrents = self._cached_search(title, trackers, timeout)
         sorted_torrents = self._sort_results(torrents, sort_by_newest)
 
         # Show only results up to to the limit

@@ -28,7 +28,7 @@ class TestSearchEngine:
         """Search for torrent on given trackers."""
         title = 'Ubuntu'
         trackers = ['linuxtracker', 'distrowatch', 'kickasstorrents']
-        results = engine._cached_search(title, trackers)
+        results = engine._cached_search(title, trackers, timeout=10)
         for result in results:
             assert isinstance(result, torrent.Torrent)
             assert title.lower() in result.name.lower()

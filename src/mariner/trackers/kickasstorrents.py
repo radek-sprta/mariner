@@ -25,7 +25,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
             KickAssTorrents session cookie.
         """
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, timeout=10) as response:
+            async with session.get(url, timeout=self.timeout) as response:
                 cookie = response.cookies.popitem()
                 return {cookie[0]: cookie[1].value}
 
