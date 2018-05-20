@@ -23,8 +23,6 @@ class Etree(trackerplugin.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         try:
-            import pdb
-            pdb.set_trace()
             contents = soup.select('table')[5].select('tr')[1:]
             for content in contents:
                 data = content.select('td')

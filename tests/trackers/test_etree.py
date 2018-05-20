@@ -21,6 +21,7 @@ class TestEtree:
         """Return Etree instance."""
         async def mock_get(*args, **kwargs):
             return """
+            <table></table><table></table><table></table><table></table><table></table>
 <table border="0" bgcolor="#CCCCCC" width="100%" cellpadding="3">
 <tbody>
 <tr></tr>
