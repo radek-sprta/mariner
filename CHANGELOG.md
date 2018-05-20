@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 ### Added
 - Make timeout configurable.
-- Sipport for Etree.org tracker.
+- Support for Etree.org tracker.
+- Support for Archive.org tracker.
 
 ## [1.1.0] - 2018-05-16
 ### Added
