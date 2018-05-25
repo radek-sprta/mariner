@@ -14,6 +14,7 @@ class LinuxTracker(trackerplugin.TrackerPlugin):
     log = logging.getLogger(__name__)
 
     search_url = 'http://linuxtracker.org/index.php?page=torrents&search={title}'
+    legal = True
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.

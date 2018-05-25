@@ -25,6 +25,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     user_agent = {'user-agent': 'Mariner Torrent Downloader'}
     search_url = ''  # To be overwritten by subclasses
     aliases = []  # Aliases for the tracker name
+    legal = False
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()

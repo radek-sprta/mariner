@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Make timeout configurable.
 - Support for Etree.org tracker.
 - Support for Archive.org tracker.
+- Search trackers with legal content only using --legal/-L option.
 
 ## [1.1.0] - 2018-05-16
 ### Added

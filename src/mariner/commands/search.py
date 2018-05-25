@@ -35,6 +35,8 @@ class Search(lister.Lister):
         parser.add_argument('title', help='Title to search for')
         parser.add_argument('--all', '-a', action='store_true',
                             help='Search all available trackers')
+        parser.add_argument('--legal', '-L', action='store_true',
+                            help='Search trackers with legal content only')
         parser.add_argument('--limit', '-l', nargs='?',
                             default=self.app.config['results'],
                             help='Limit the number of results shown. Default is 50.',
@@ -45,6 +47,31 @@ class Search(lister.Lister):
         parser.add_argument('--trackers', '-t', action='append', choices=plugins,
                             help='Trackers that should be searched', default=[])
         return parser
+
+    def _parse_trackers(self, parsed_args):
+        """Return a list of trackers to use.
+
+        Args:
+            parsed_args: List of parsed arguments.
+
+        Returns:
+            List of trackers to use.
+        """
+
+        if parsed_args.all:
+            # Use all trackers
+            trackers = self.app.engine.plugins.keys()
+        elif parsed_args.legal:
+            # Use only legal trackers
+            trackers = [t for t in self.app.engine.plugins.keys(
+            ) if self.app.engine.plugins[t].legal]
+        else:
+            # If default tracker is used as default argument, the user provided ones
+            # are appended to it, instead of replacing it.
+            if not parsed_args.trackers:
+                parsed_args.trackers.append(self.app.config['default_tracker'])
+            trackers = [t.lower() for t in set(parsed_args.trackers)]
+        return trackers
 
     def take_action(self, parsed_args):
         """Search for a torrent.
@@ -66,18 +93,11 @@ class Search(lister.Lister):
             timeout = 10
             self.app.config['timeout'] = timeout
 
-        if parsed_args.all:
-            # Use all trackers
-            trackers = self.app.engine.plugins.keys()
-        else:
-            # If default tracker is used as default argument, the user provided ones
-            # are appended to it, instead of replacing it.
-            if not parsed_args.trackers:
-                parsed_args.trackers.append(self.app.config['default_tracker'])
-            trackers = [t.lower() for t in set(parsed_args.trackers)]
+        trackers = self._parse_trackers(parsed_args)
 
         self.log.info(f'Searching for {utils.cyan(title)}.')
-        self.log.debug('title=%s limit=%s trackers=%s timeout=%s', title, limit, trackers, timeout)
+        self.log.debug('title=%s limit=%s trackers=%s timeout=%s',
+                       title, limit, trackers, timeout)
         results = self.app.engine.search(
             title, trackers, limit, sort_by_newest=newest, timeout=timeout)
 
