@@ -59,7 +59,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
                 torrent_ = line.find(
                     'div', class_='torrents_table__torrent_name')
                 name = str(torrent_.find(
-                    'a', class_='torrents_table__torrent_title').string)
+                    'a', class_='torrents_table__torrent_title').b.string.strip())
                 magnet = torrent_.find(
                     'a', {'title': 'Torrent magnet link'})['href']
                 tracker = self.__class__.__name__

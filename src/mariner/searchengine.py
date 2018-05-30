@@ -117,7 +117,7 @@ class SearchEngine:
             torrents = self._flatten(torrents)
         return torrents
 
-    def search(self,
+    def search(self,  # pylint: disable=too-many-arguments
                title: str,
                trackers: List[str],
                limit: Optional[int] = 10,
@@ -175,7 +175,8 @@ class SearchEngine:
         """
         self.log.debug('Sorting results')
         if sort_by_newest:
-            sorted_torrents = list(reversed(sorted(torrents, key=lambda x: x.date)))
+            sorted_torrents = list(
+                reversed(sorted(torrents, key=lambda x: x.date)))
         else:
             sorted_torrents = list(reversed(sorted(torrents)))
         return sorted_torrents
