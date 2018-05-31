@@ -1,6 +1,5 @@
 import pytest
 
-from .context import mariner
 from mariner import exceptions
 
 

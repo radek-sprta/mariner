@@ -23,11 +23,23 @@ class SearchEngine:
     log = logging.getLogger(__name__)
     plugin_directory = pathlib.Path(__file__).parent / 'trackers'
 
-    def __init__(self) -> None:
+    def __init__(self, timeout: int = 10) -> None:
+        self.timeout = timeout
         self.plugins = {}
         self.results = cachalot.Cache(
             path='~/.local/share/mariner/results.json', size=1000)
         self.initialize_plugins()
+
+    @property
+    def timeout(self) -> int:
+        "Timeout for connections."
+        return self._timeout
+
+    @timeout.setter
+    def timeout(self, timeout: int) -> None:
+        if timeout <= 0:
+            raise exceptions.ConfigurationError('Timeout cannot be negative.')
+        self._timeout = timeout  # pylint: disable=attribute-defined-outside-init
 
     @staticmethod
     def _flatten(nested_list: List[List]) -> List:
@@ -56,8 +68,8 @@ class SearchEngine:
         subclasses = trackerplugin.TrackerPlugin.__subclasses__()
         proxy_subclasses = trackerplugin.ProxyTrackerPlugin.__subclasses__()
         # Return everything except the abstract class
-        return (s for s in itertools.chain(subclasses, proxy_subclasses)
-                if s.__name__ != 'ProxyTrackerPlugin')
+        return [s for s in itertools.chain(subclasses, proxy_subclasses)
+                if s.__name__ != 'ProxyTrackerPlugin']
 
     def initialize_plugins(self) -> None:
         """Find engines and register them."""
@@ -89,8 +101,7 @@ class SearchEngine:
     @cachalot.Cache(path='.cache/mariner/cache.json', size=100)
     def _cached_search(self,
                        title: str,
-                       trackers: List[str],
-                       timeout: int) -> List[torrent.Torrent]:
+                       trackers: List[str]) -> List[torrent.Torrent]:
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily
         serializable, we cannot simply cache TrackerPlugun.results() method.
@@ -111,7 +122,7 @@ class SearchEngine:
                 "Illegal value for default_tracker")
         else:
             tasks = asyncio.gather(
-                *(p(timeout=timeout).results(title.lower()) for p in plugins))
+                *(p(timeout=self.timeout).results(title.lower()) for p in plugins))
             loop = asyncio.get_event_loop()
             torrents = loop.run_until_complete(tasks)
             torrents = self._flatten(torrents)
@@ -121,8 +132,7 @@ class SearchEngine:
                title: str,
                trackers: List[str],
                limit: Optional[int] = 10,
-               sort_by_newest: bool = False,
-               timeout: int = 10) -> List[Tuple[int, torrent.Torrent]]:
+               sort_by_newest: bool = False) -> List[Tuple[int, torrent.Torrent]]:
         """Search for torrents on given site.
 
         Args:
@@ -138,10 +148,8 @@ class SearchEngine:
             raise exceptions.InputError('No torrent trackers to search on')
         if limit <= 0:
             raise exceptions.InputError('Limit has to be higher than zero.')
-        if timeout < 0:
-            raise exceptions.ConfigurationError('Timeout cannot be negative.')
 
-        torrents = self._cached_search(title, trackers, timeout)
+        torrents = self._cached_search(title, trackers)
         sorted_torrents = self._sort_results(torrents, sort_by_newest)
 
         # Show only results up to to the limit

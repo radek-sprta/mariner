@@ -1,0 +1,62 @@
+import pathlib
+
+import pytest
+
+from mariner import utils
+
+
+@pytest.fixture(params=['subdir', 'subdir2/file.txt'])
+def path(tmpdir, request):
+    directory = str(tmpdir.mkdir('tmp'))
+    return pathlib.Path(directory) / request.param
+
+
+def test_check_path(path):
+    # GIVEN a filesystem path
+    # WHEN when checking the path
+    result = utils.check_path(path)
+    # THEN the directories should exist
+    assert result.exists() or result.parent.exists()
+    assert isinstance(result, pathlib.Path)
+
+
+def test_check_str_path(path):
+    # GIVEN a string representation of a filesystem path
+    path = str(path)
+    # WHEN when checking the path
+    result = utils.check_path(path)
+    # THEN the directories should exist a be Path
+    assert result.exists() or result.parent.exists()
+    assert isinstance(result, pathlib.Path)
+
+
+def colors():
+    return [('36m', utils.cyan),
+            ('32m', utils.green),
+            ('35m', utils.magenta),
+            ('31m', utils.red),
+            ('33m', utils.yellow)]
+
+
+def colors_ids():
+    return ['cyan', 'green', 'magenta', 'red', 'yellow']
+
+
+@pytest.mark.parametrize('color', colors(), ids=colors_ids())
+def test_colors(color):
+    # GIVEN a color function
+    # WHEN coloring a string
+    colored = color[1]('')
+    # THEN it should contain the color and reset escape sequences
+    assert color[0] in colored
+    assert '0m' in colored
+
+
+def test_invalid_color():
+    # GIVEN an invalid color
+    color = 'turquoise'
+
+    # WHEN coloring a string
+    # THEN a ValueError should be raised
+    with pytest.raises(ValueError):
+        utils.color('', color)

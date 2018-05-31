@@ -79,7 +79,7 @@ class ProxyTrackerPlugin(TrackerPlugin, abc.ABC):
     """
     default_proxy = ''  # To be overwritten by subclasses
 
-    def __init__(self):
+    def __init__(self, timeout: int = 10) -> None:
         super().__init__()
         self.proxies = None
 

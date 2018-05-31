@@ -14,7 +14,7 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
     search_url = '{proxy}/search/{title}'
     aliases = ['tpb', 'pb']
 
-    def __init__(self):
+    def __init__(self, timeout: int = 10):
         super().__init__()
         self.proxies = piratebay.PirateBayProxy()
 

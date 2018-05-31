@@ -3,13 +3,14 @@ import pytest
 from mariner import mixins, torrent
 
 
+@pytest.mark.smoke
 class TestComparableMixin:
 
-    @pytest.fixture
-    def torrent1(self):
-        return torrent.Torrent('name', 'tracker', seeds=10)
+    @pytest.fixture(scope='class', params=[10, 19, -1])
+    def torrent1(self, request):
+        return torrent.Torrent('name', 'tracker', seeds=request.param)
 
-    @pytest.fixture
+    @pytest.fixture(scope='class')
     def torrent2(self):
         return torrent.Torrent('name', 'tracker', seeds=20)
 
@@ -56,7 +57,10 @@ class TestComparableMixin:
 class TestGetPageMixin:
 
     def test_get(self, event_loop):
+        # GIVEN an event_loop
+        # WHEN requesting a url
         search = event_loop.run_until_complete(
             mixins.GetPageMixin().get('http://httpbin.org/robots.txt'))
+        # THEN it should return expected result
         expected = "User-agent: *\nDisallow: /deny\n"
         assert search == expected

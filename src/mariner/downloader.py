@@ -2,7 +2,7 @@
 import asyncio
 import logging
 import pathlib
-from typing import List, Tuple, Union
+from typing import List, Tuple, Union, Generator
 
 import aiofiles
 import aiohttp
@@ -12,7 +12,6 @@ from mariner import utils
 Url = str
 Path = Union[str, pathlib.Path]
 File = Tuple[Url, str]
-Loop = asyncio.selector_events.BaseSelectorEventLoop
 Session = aiohttp.ClientSession
 
 
@@ -48,24 +47,21 @@ class Downloader:
                     await file_.write(chunk)
         return filename
 
-    async def download_filelist(self, loop: Loop, download_list: List[File]) -> List[Path]:
-        """Download all files in the list asychronously.
+    async def _download_all(self, download_list: List[File]) -> Generator:
+        """Run a loop to download all files in the list.
 
         Args:
-            loop: AsyncIO loop.
-            filelist: List of files to download.
+            download_list: List of files to download.
 
-        Returns:
+        Return:
             List of downloaded files.
         """
-        filelist = []
-        async with aiohttp.ClientSession(loop=loop) as session:
-            for url, name in download_list:
-                self.log.debug('Downloading url=%s name=%s', url, name)
-                filelist.append(await self.download_coroutine(session, url, name))
-        return filelist
+        async with aiohttp.ClientSession() as session:
+            tasks = asyncio.as_completed([self.download_coroutine(
+                session, url, name) for url, name in download_list])
+            return await asyncio.gather(*tasks)
 
-    def download(self, download_list: List[File]) -> List[Path]:
+    def download(self, download_list: List[File]) -> Generator:
         """Run a loop to download all files in the list.
 
         Args:
@@ -75,5 +71,4 @@ class Downloader:
             List of downloaded files.
         """
         loop = asyncio.get_event_loop()
-        filelist = loop.run_until_complete(self.download_filelist(loop, download_list))
-        return filelist
+        return loop.run_until_complete(self._download_all(download_list))

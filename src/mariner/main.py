@@ -26,7 +26,15 @@ class Mariner(app.App):
         )
         self.config = config.Config()
         self.config.load()
-        self.engine = searchengine.SearchEngine()
+
+        # Older configurations have no timeout option
+        try:
+            timeout = self.config['timeout']
+        except KeyError:
+            timeout = 10
+            self.config['timeout'] = timeout
+
+        self.engine = searchengine.SearchEngine(timeout=timeout)
 
     def build_option_parser(self, description, version, argparse_kwargs=None):
         """Return an Argparse option parser for Mariner.

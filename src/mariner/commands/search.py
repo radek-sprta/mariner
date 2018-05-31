@@ -86,20 +86,13 @@ class Search(lister.Lister):
         limit = parsed_args.limit
         newest = parsed_args.newest
 
-        # Older configurations have no timeout option
-        try:
-            timeout = self.app.config['timeout']
-        except KeyError:
-            timeout = 10
-            self.app.config['timeout'] = timeout
-
         trackers = self._parse_trackers(parsed_args)
 
         self.log.info(f'Searching for {utils.cyan(title)}.')
-        self.log.debug('title=%s limit=%s trackers=%s timeout=%s',
-                       title, limit, trackers, timeout)
+        self.log.debug('title=%s limit=%s trackers=%s',
+                       title, limit, trackers)
         results = self.app.engine.search(
-            title, trackers, limit, sort_by_newest=newest, timeout=timeout)
+            title, trackers, limit, sort_by_newest=newest)
 
         headers = ('ID', 'Name', 'Tracker', 'Seeds',
                    'Size', 'Uploaded', 'Available as')

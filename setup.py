@@ -23,6 +23,7 @@ requires = [
 tests_require = [
     'pytest',
     'pytest-asyncio',
+    'vcrpy',
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))

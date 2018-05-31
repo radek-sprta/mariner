@@ -64,12 +64,13 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
                        magnet=self.magnet,
                        size=self.size,
                        seeds=utils.green(self.seeds),
-                       leeches=utils.red(self.leeches) if self.leeches is not None else None,
+                       leeches=utils.red(
+                           self.leeches) if self.leeches is not None else None,
                        date=self.date)
 
     def __repr__(self) -> str:
         return f"Torrent({self.name}, {self.tracker}, {self.torrent}, \
-    {self.magnet}, {self.size}, {self.seeds}, {self.leeches}, {self.date})"
+{self.magnet}, {self.size}, {self.seeds}, {self.leeches}, {self.date})"
 
     def __str__(self) -> str:
         return self.__repr__()

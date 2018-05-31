@@ -13,7 +13,7 @@ class LimeTorrents(trackerplugin.ProxyTrackerPlugin):
 
     search_url = '{proxy}/search/all/{title}/seeds/1'
 
-    def __init__(self):
+    def __init__(self, timeout: int = 10) -> None:
         super().__init__()
         self.proxies = limetorrents.LimeTorrentsProxy()
 

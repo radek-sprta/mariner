@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - Update Distrowatch parser.
+- Fix plugins sometimes not getting loaded.
 
 ## [1.1.0] - 2018-05-16
 ### Added
