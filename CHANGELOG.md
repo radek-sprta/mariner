@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Support for Archive.org tracker.
 - Search trackers with legal content only using --legal/-L option.
 
+### Fixed
+- Update Distrowatch parser.
+
 ## [1.1.0] - 2018-05-16
 ### Added
 - Support for Nyaa.si tracker.

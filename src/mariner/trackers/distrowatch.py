@@ -40,11 +40,10 @@ class Distrowatch(trackerplugin.TrackerPlugin):
         soup = bs4.BeautifulSoup(raw, 'lxml')
         content = soup.find('table', cellpadding='5').find_all('tr')[1:]
         for line in content:
-            torrent_ = line.find('td', 'torrent')
-            link = torrent_.find('a')
-            name = link.string.lower()
-            url_stub = link.get('href')
+            info = line.select('td.torrent')[1]
+            name = str(info.a.string.lower())
+            url_stub = info.a.get('href')
             url = f"https://distrowatch.com/{url_stub}"
             tracker = self.__class__.__name__
-            date = str(line.find('td', 'torrentdate').string)
+            date = str(line.select('td.torrentdate')[0].string)
             yield torrent.Torrent(name, tracker, torrent=url, date=date)
