@@ -2,6 +2,7 @@
 """Handle searching for torrents on torrent trackers."""
 import asyncio
 import importlib
+import inspect
 import itertools
 import logging
 import pathlib
@@ -28,6 +29,7 @@ class SearchEngine:
         self.plugins = {}
         self.results = cachalot.Cache(
             path='~/.local/share/mariner/results.json', size=1000)
+        self.modules = []
         self.initialize_plugins()
 
     @property
@@ -56,6 +58,7 @@ class SearchEngine:
 
             spec = importlib.util.spec_from_file_location(name, module)
             loaded_module = importlib.util.module_from_spec(spec)
+            self.modules.append(loaded_module)
             spec.loader.exec_module(loaded_module)
 
     @staticmethod
@@ -76,12 +79,15 @@ class SearchEngine:
         self.log.debug('Initializing plugins')
         self.find_plugins()
 
-        for plugin in self.get_plugin_classes():
-            self.log.debug('Adding plugin=%s', plugin)
-            name = plugin.__name__.lower()
-            self.plugins[name] = plugin
-            for alias in plugin.aliases:
-                self.plugins[alias] = plugin
+        for module in self.modules:
+            classes = inspect.getmembers(module, inspect.isclass)
+            for name, plugin in classes:
+                if not plugin.__module__ == module.__name__:
+                    continue
+                self.log.debug('Adding plugin=%s', plugin)
+                self.plugins[name.lower()] = plugin
+                for alias in plugin.aliases:
+                    self.plugins[alias] = plugin
 
     def result(self, tid: str) -> torrent.Torrent:
         """Get torrent of given id.

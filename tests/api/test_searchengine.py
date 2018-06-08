@@ -15,7 +15,6 @@ class TestSearchEngine:
     def trackers(self, engine):
         return engine.plugins.keys()
 
-    @pytest.mark.skip(reason='Fails only in CI, investigating the reason')
     @pytest.mark.smoke
     def test_initialize_plugins(self, engine):
         # GIVEN that plugins are initialized
