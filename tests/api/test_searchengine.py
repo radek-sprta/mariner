@@ -13,7 +13,8 @@ class TestSearchEngine:
 
     @pytest.fixture(scope='class')
     def trackers(self, engine):
-        return engine.plugins.keys()
+        trackers = engine.plugins.keys()
+        return [t for t in trackers if t not in ['kat', 'kickasstorrents']]
 
     @pytest.mark.smoke
     def test_initialize_plugins(self, engine):
@@ -41,8 +42,7 @@ class TestSearchEngine:
 
     @pytest.mark.smoke
     @pytest.mark.parametrize('limit', [5, 10, 15])
-    # TODO Temporary recording everything until vcr is fixed
-    #@vcr.use_cassette(cassette, record='all')
+    @vcr.use_cassette(cassette)
     def test_search(self, engine, limit, trackers, title):
         # GIVEN a title to search for and a list of trackers
         # WHEN searching for it on various trackers
@@ -74,6 +74,7 @@ class TestSearchEngine:
         with pytest.raises(exceptions.InputError):
             engine.search(title, trackers)
 
+    @vcr.use_cassette(cassette)
     def test_search_no_result(self, engine, trackers):
         # GIVEN a title that will yield no results and list of trackers
         title = 'qwertyzxcvb'
@@ -83,6 +84,7 @@ class TestSearchEngine:
         with pytest.raises(exceptions.NoResultException):
             engine.search(title, trackers)
 
+    @vcr.use_cassette(cassette)
     def test_search_newest(self, engine, trackers, title):
         # GIVEN a title to search for on a list of trackers
         # WHEN search for results sorted by date

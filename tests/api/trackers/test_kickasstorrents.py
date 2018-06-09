@@ -1,7 +1,7 @@
 import pathlib
 
 import pytest
-import vcr
+#import vcr
 
 from mariner import torrent
 
@@ -17,7 +17,8 @@ class TestKickAssTorrents:
     def tracker(self, engine):
         return engine.plugins['kickasstorrents']()
 
-    @vcr.use_cassette(cassette)
+    # FIXME vcr does not work with cookies
+    #@vcr.use_cassette(cassette)
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it

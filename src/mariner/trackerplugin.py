@@ -42,6 +42,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
             page = await self.get(search_url, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
+            return []
         return self._parse(page)
 
     @abc.abstractmethod
@@ -103,6 +104,7 @@ class ProxyTrackerPlugin(TrackerPlugin, abc.ABC):
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
+            return []
         return self._parse(page)
 
     @abc.abstractmethod
