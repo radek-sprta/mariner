@@ -10,7 +10,7 @@ from typing import List, Iterator, Optional, Tuple, Union
 
 import cachalot
 
-from mariner import exceptions, torrent, trackerplugin
+from mariner import exceptions, torrent
 
 Name = str
 Page = str
@@ -29,7 +29,6 @@ class SearchEngine:
         self.plugins = {}
         self.results = cachalot.Cache(
             path='~/.local/share/mariner/results.json', size=1000)
-        self.modules = []
         self.initialize_plugins()
 
     @property
@@ -48,40 +47,26 @@ class SearchEngine:
         """Flatten a list."""
         return list(itertools.chain(*nested_list))
 
-    def find_plugins(self) -> None:
+    def _load_modules(self) -> Iterator:
         """Find and import tracker plugins."""
         for module in self.plugin_directory.glob('*.py'):  # pylint: disable=no-member
             # Cast to str as a workaround for Python 3.5
             name = str(module.stem)
             module = str(module)
-            self.log.debug('Loading module=%s', module)
 
+            self.log.debug('Loading module=%s', module)
             spec = importlib.util.spec_from_file_location(name, module)
             loaded_module = importlib.util.module_from_spec(spec)
-            self.modules.append(loaded_module)
             spec.loader.exec_module(loaded_module)
-
-    @staticmethod
-    def get_plugin_classes() -> Iterator:
-        """Return a list of tracker plugin classes.
-
-        Returns:
-            List of tracker plugin classes.
-        """
-        subclasses = trackerplugin.TrackerPlugin.__subclasses__()
-        proxy_subclasses = trackerplugin.ProxyTrackerPlugin.__subclasses__()
-        # Return everything except the abstract class
-        return [s for s in itertools.chain(subclasses, proxy_subclasses)
-                if s.__name__ != 'ProxyTrackerPlugin']
+            yield loaded_module
 
     def initialize_plugins(self) -> None:
         """Find engines and register them."""
         self.log.debug('Initializing plugins')
-        self.find_plugins()
-
-        for module in self.modules:
+        for module in self._load_modules():
             classes = inspect.getmembers(module, inspect.isclass)
             for name, plugin in classes:
+                # We don't care about classes defined in other modules
                 if not plugin.__module__ == module.__name__:
                     continue
                 self.log.debug('Adding plugin=%s', plugin)
