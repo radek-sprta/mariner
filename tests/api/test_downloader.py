@@ -20,12 +20,11 @@ class TestDownloader:
         tmp = str(tmpdir.mkdir('test'))
         return downloader.Downloader(tmp)
 
-    @pytest.mark.parametrize('file_', files())
-    def test_download_coroutine(self, tmp_downloader, file_, event_loop):
+    @pytest.mark.parametrize('url, name', files())
+    def test_download_coroutine(self, tmp_downloader, url, name, event_loop):
         # GIVEN a session
         session = aiohttp.ClientSession(loop=event_loop)
         # WHEN downloading a file
-        url, name = file_
         downloaded = event_loop.run_until_complete(
             tmp_downloader.download_coroutine(session, url, name))
         # THEN it should be saved to the download path

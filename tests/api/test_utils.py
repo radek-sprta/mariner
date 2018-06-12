@@ -42,13 +42,13 @@ def colors_ids():
     return ['cyan', 'green', 'magenta', 'red', 'yellow']
 
 
-@pytest.mark.parametrize('color', colors(), ids=colors_ids())
-def test_colors(color):
+@pytest.mark.parametrize('color_code, color_function', colors(), ids=colors_ids())
+def test_colors(color_code, color_function):
     # GIVEN a color function
     # WHEN coloring a string
-    colored = color[1]('')
+    colored = color_function('')
     # THEN it should contain the color and reset escape sequences
-    assert color[0] in colored
+    assert color_code in colored
     assert '0m' in colored
 
 
