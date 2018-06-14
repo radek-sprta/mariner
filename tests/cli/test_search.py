@@ -15,7 +15,7 @@ class TestSearch:
     def test_search(self, run, expected):
         # GIVEN a search term
         # WHEN searching for it
-        result = run('search', '-f', 'csv', '-t', 'tokyotosho', 'ubuntu')
+        result = run('search', '-f', 'csv', '-t', 'tokyotosho', 'ubuntu')[0]
 
         # THEN a table of results should be returned
         assert result == ''.join(expected)
@@ -23,7 +23,8 @@ class TestSearch:
     def test_search_newest(self, run):
         # GIVEN a search term
         # WHEN searching for it with the --newest flag
-        result = run('search', '-f', 'csv', '-t', 'tokyotosho', 'ubuntu', '--newest')
+        result = run('search', '-f', 'csv', '-t',
+                     'tokyotosho', 'ubuntu', '--newest')[0]
 
         # THEN the results should be ordered in most recent first order
         expected = \
@@ -37,7 +38,8 @@ class TestSearch:
     def test_search_limit(self, run, limit, expected):
         # GIVEN a search term
         # WHEN searching for it with --limit flag
-        result = run('search', '-f', 'csv', '-t', 'tokyotosho', 'ubuntu', '--limit', str(limit))
+        result = run('search', '-f', 'csv', '-t', 'tokyotosho',
+                     'ubuntu', '--limit', str(limit))[0]
 
         # THEN the number of results should be equal or lower than the limit
         assert result <= ''.join(expected[:limit + 1])
@@ -47,7 +49,7 @@ class TestSearch:
         # GIVEN a search term
         # WHEN searching for it with --legal flag
         result = run('search', '-f', 'csv', '-t', 'tokyotosho',
-                     'plan 9 from outer space', '--legal', '--limit', '3')
+                     'plan 9 from outer space', '--legal', '--limit', '3')[0]
 
         # THEN the results should only come from legal trackers
         expected = \
