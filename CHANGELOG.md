@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Support for Etree.org tracker.
 - Support for Archive.org tracker.
 - Search trackers with legal content only using --legal/-L option.
+- Use uvloop when available.
 
 ### Fixed
 - Update Distrowatch parser.

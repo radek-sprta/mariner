@@ -6,6 +6,11 @@ from typing import List, Tuple, Union, Generator
 
 import aiofiles
 import aiohttp
+try:
+    import uvloop
+    asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+except ImportError:
+    pass
 
 from mariner import utils
 

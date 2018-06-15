@@ -9,6 +9,11 @@ import pathlib
 from typing import List, Iterator, Optional, Tuple, Union
 
 import cachalot
+try:
+    import uvloop
+    asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+except ImportError:
+    pass
 
 from mariner import exceptions, torrent
 
