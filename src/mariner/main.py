@@ -28,8 +28,9 @@ class Mariner(app.App):
         self.config.load()
 
         # Older configurations have no timeout option
+        # Also, cast timeout to int, int case it was string
         try:
-            timeout = self.config['timeout']
+            timeout = int(self.config['timeout'])
         except KeyError:
             timeout = 10
             self.config['timeout'] = timeout

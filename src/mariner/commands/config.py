@@ -5,7 +5,7 @@ import pprint
 
 from cliff import command
 
-from mariner import utils
+from mariner import exceptions, utils
 
 
 class Config(command.Command):
@@ -39,8 +39,18 @@ class Config(command.Command):
             key: Option to update.
             value: New value.
         """
-        dict_[key] = value if key in dict_ else (
-            Config._update_dict(c, key, value) for c in dict_.values())
+        # If the key is in the dictionary, update the value
+        if key in dict_:
+            dict_[key] = value
+            return
+        else:
+            # Otherwise, recursively look for the key
+            for c in dict_.values():
+                if not isinstance(c, dict):
+                    continue
+                Config._update_dict(c, key, value)
+        # If the key is not there, raise an error
+        raise exceptions.InputError('Wrong configuration option')
 
     def take_action(self, parsed_args):
         """Copy chosen magnet link to clipboard.
@@ -59,4 +69,5 @@ class Config(command.Command):
                 self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
-            self.log.info(f'Updated {utils.green(key)} to {utils.green(value)}')
+            self.log.info(
+                f'Updated {utils.green(key)} to {utils.green(value)}')
