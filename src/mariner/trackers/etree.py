@@ -1,5 +1,6 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on Etree."""
+import asyncio
 from typing import Iterator
 
 import bs4
@@ -12,6 +13,19 @@ class Etree(trackerplugin.TrackerPlugin):
 
     search_url = 'http://bt.etree.org/?searchzz={title}'
     legal = True
+
+    async def results(self, title: str) -> Iterator[torrent.Torrent]:
+        """Get a list of torrent name with URLs and magnet links.
+
+        Args:
+            title: String to search for.
+        """
+        try:
+            search_url = self.search_url.format(title=title)
+            page = await self.get(search_url, timeout=self.timeout)
+        except (OSError, asyncio.TimeoutError):
+            self.log.error('Cannot reach server at %s', search_url)
+        return (t for t in self._parse(page) if title in t.name.casefold())
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.

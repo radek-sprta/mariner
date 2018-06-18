@@ -15,7 +15,7 @@ class TestEtree:
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it
-        search = event_loop.run_until_complete(tracker.results('ubuntu'))
+        search = event_loop.run_until_complete(tracker.results('wilco'))
 
         # THEN it should return a list of results
         search = list(search)
