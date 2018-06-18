@@ -19,6 +19,7 @@ maya = ">=0.3.4"
 "ruamel.yaml" = "*"
 tokenize-rt = "*"
 "e1839a8" = {path = ".", editable = true}
+pytest-vcr = "*"
 
 
 [dev-packages]
@@ -26,5 +27,6 @@ tokenize-rt = "*"
 coverage = "*"
 pytest = "*"
 pytest-asyncio = "*"
+pytest-vcr = "*"
 wheel = "*"
 vcrpy = "*"

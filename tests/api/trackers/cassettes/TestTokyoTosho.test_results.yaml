@@ -9,15 +9,15 @@ interactions:
         xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head><meta http-equiv=\"Content-Type\"
         content=\"text/html;charset=utf-8\" />\n<title>Tokyo Toshokan :: #tokyotosho
         @ irc.rizon.net :: Torrent Search</title><link rel=\"stylesheet\" type=\"text/css\"
-        href=\"https://ttcdn.info/css12.php\" title=\"Default\" />\n\t\t<link rel=\"alternate
-        stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/css_inverse.php\"
-        title=\"Inverse\" />\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://ttcdn.info/favicon.png\"
+        href=\"https://ttcdn2.info/css12.php\" title=\"Default\" />\n\t\t<link rel=\"alternate
+        stylesheet\" type=\"text/css\" href=\"https://ttcdn2.info/css_inverse.php\"
+        title=\"Inverse\" />\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://ttcdn2.info/favicon.png\"
         />\n\t\n\t<link rel=\"shortcut icon\" href=\"https://www.tokyotosho.info/favicon.ico\"
-        /><link rel=\"stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/20130401/clippyjs/build/clippy.css\"
+        /><link rel=\"stylesheet\" type=\"text/css\" href=\"https://ttcdn2.info/20130401/clippyjs/build/clippy.css\"
         media=\"all\" /><link rel=\"alternate\" title=\"Tokyo Toshokan RSS\" href=\"rss.php\"
         type=\"application/rss+xml\" />\n\t<link rel=\"search\" type=\"application/opensearchdescription+xml\"
         title=\"Tokyo Toshokan\" href=\"/tokyotosho-search.php\" /></head><body><script
-        type=\"text/javascript\" src=\"https://ttcdn.info/styleswitcher.js\"></script><div
+        type=\"text/javascript\" src=\"https://ttcdn2.info/styleswitcher.js\"></script><div
         id=\"main\">\n<h1>Tokyo <span title=\"Japanese: Libary\">Toshokan</span></h1>\n<div
         class=\"centertext\">\u6771\u4EAC \u56F3\u66F8\u9928</div>\n<h2><a class=\"h2\"
         style=\"font-size: 9pt\" href=\"irc://irc.rizon.net/tokyotosho\">#tokyotosho
@@ -47,7 +47,7 @@ interactions:
         class=\"centertext\" style=\"width: 100%; margin-left: auto; margin-right:
         auto; padding-bottom: 1em; margin: 0;\">\n<tr><td id=\"tsearch\">Torrent Search</td></tr>\n</table>\n<p
         class=\"centertext\"><a href=\"https://www.privateinternetaccess.com/pages/protect-tt/\"><img
-        alt=\"Private Internet Access\" src=\"https://ttcdn.info/pia_wide.png\" /></a></p>\t<form
+        alt=\"Private Internet Access\" src=\"https://ttcdn2.info/pia_wide.png\" /></a></p>\t<form
         style=\"margin: 0; padding; 0\" action=\"/search.php\" method=\"get\" accept-charset=\"utf-8\">\n\t<table
         class=\"centertext\" cellspacing=\"0\" cellpadding=\"0\" style=\"width: 100%;
         padding-bottom: 1em; margin: 0;\">\n\t<tr><td>\n\t<input size=\"60\" type=\"text\"
@@ -69,7 +69,7 @@ interactions:
         id=\"submitter\" size=\"12\" type=\"text\" name=\"username\" value=\"\" /><br
         />\n\t<input type=\"submit\" value=\"Search\" /><br />\n\t</td></tr>\n\t</table>\n\t</form>\n\t<table
         class=\"listing\">\n<tr><td class=\"centertext\" colspan=\"3\"><a href=\"/rss.php?terms=ubuntu\"><img
-        src=\"https://ttcdn.info/feed-icon-14x14.png\" alt=\"RSS\" /> RSS Feed of
+        src=\"https://ttcdn2.info/feed-icon-14x14.png\" alt=\"RSS\" /> RSS Feed of
         these results</a></td></tr><tr class=\"shade category_0\"><td rowspan=\"2\"><a
         href=\"/?cat=5\"><span class=\"sprite_cat-other\"></span></a></td><td class=\"desc-top\"><a
         href=\"magnet:?xt=urn:btih:4UBTDIFIJGOZL34OXVKGCE6NAIJHLSDX&amp;tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fipv6.torrent.ubuntu.com%3A6969%2Fannounce\"><span
@@ -122,18 +122,18 @@ interactions:
         type=\"text\" name=\"username\" value=\"\" id=\"submitter2\" /><br />\n<input
         type=\"submit\" value=\"Search\" /><br />\n</td></tr>\n</table>\n</form>\n</div><p
         class=\"footer\">\r\n<a href=\"https://www.privateinternetaccess.com/pages/protect-tt/\"><img
-        alt=\"Private Internet Access\" src=\"https://ttcdn.info/pia.png\" /></a><br
-        />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [47,515] 60min [3,465]
-        5min [427] 1min [95] - 5 minute rolling average [852]<br />\r\nIPv6: 24h [13,637]
-        60min [775] 5min [93] 1min [22] - 5 minute rolling average [159]\r\n\r\n<br
+        alt=\"Private Internet Access\" src=\"https://ttcdn2.info/pia.png\" /></a><br
+        />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [46,502] 60min [3,508]
+        5min [437] 1min [104] - 5 minute rolling average [831]<br />\r\nIPv6: 24h
+        [12,068] 60min [612] 5min [45] 1min [8] - 5 minute rolling average [86]\r\n\r\n<br
         />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img alt=\"Serious
-        Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br />Page generated
-        in 44ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b> (SNI supported)</b></p></body></html>"}
-    headers: {CF-RAY: 42824d6f1907b835-WAW, Cache-Control: max-age=1800, Connection: keep-alive,
-      Content-Encoding: gzip, Content-Length: '2932', Content-Type: text/html; charset=UTF-8,
-      Date: 'Sat, 09 Jun 2018 08:42:01 GMT', Expect-CT: 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-      Expires: 'Sat, 09 Jun 2018 09:11:33 GMT', Server: cloudflare, Set-Cookie: '__cfduid=dc37ad7df40cd530dc8be2934d487d09c1528533721;
-        expires=Sun, 09-Jun-19 08:42:01 GMT; path=/; domain=.tokyotosho.info; HttpOnly',
+        Tubes\" src=\"https://ttcdn2.info/serioustubes.png\" /></a><br />Page generated
+        in 29ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b> (SNI supported)</b></p></body></html>"}
+    headers: {CF-RAY: 42cf75810996b84d-WAW, Cache-Control: max-age=1800, Connection: keep-alive,
+      Content-Encoding: gzip, Content-Length: '2930', Content-Type: text/html; charset=UTF-8,
+      Date: 'Mon, 18 Jun 2018 17:26:06 GMT', Expect-CT: 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+      Expires: 'Mon, 18 Jun 2018 17:55:59 GMT', Server: cloudflare, Set-Cookie: '__cfduid=d1d13a7dd8c0c66c3d2741e01547afe851529342766;
+        expires=Tue, 18-Jun-19 17:26:06 GMT; path=/; domain=.tokyotosho.info; HttpOnly',
       Strict-Transport-Security: max-age=86400, Vary: Accept-Encoding}
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL

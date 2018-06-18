@@ -23,6 +23,7 @@ requires = [
 tests_require = [
     'pytest',
     'pytest-asyncio',
+    'pytest-vcr',
     'vcrpy',
 ]
 

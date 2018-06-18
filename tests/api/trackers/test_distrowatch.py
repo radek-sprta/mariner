@@ -1,7 +1,4 @@
-import pathlib
-
 import pytest
-import vcr
 
 from mariner import torrent
 
@@ -10,14 +7,11 @@ class TestDistrowatch:
     """
     Class to test Distrowatch plugin.
     """
-    path = pathlib.Path(__file__)
-    cassette = str(path.parent / 'cassettes' / (str(path.stem) + '.yaml'))
-
     @pytest.fixture(scope='module')
     def tracker(self, engine):
         return engine.plugins['distrowatch']()
 
-    @vcr.use_cassette(cassette)
+    @pytest.mark.vcr()
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it

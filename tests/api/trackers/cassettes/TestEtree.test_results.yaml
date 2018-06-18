@@ -371,6 +371,17 @@ interactions:
         MB</td>\n\t<td>97 times</td>\n\t<td><a href=\"details.php?id=597704&dllist=1#seeders\">1</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?id=597704&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
+        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzz=ubuntu&cat=304\">Hotrize</a>\n\t</td>\n\t<td
+        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?id=581303\"><b>Hot
+        Rize, Telluride Bluegrass Festival, Town Park, Telluride, Colo., June 18,
+        2015</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t<a
+        class=\"dblink\" href=\"http://db.etree.org/shn/133916\"><img src=\"/pic/info.gif\"
+        alt=\"[info]\"></a>\t</td>\n\t<td>\n\t\t<a href=\"download.php/581303/Hot%20Rize2015-06-18fm.torrent\"><img
+        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?id=581303&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
+        href=\"details.php?id=581303#startcomments\">2</a>\n\t</td>\n\t<td>08/02 10:53</td>\n\t<td>512.27
+        MB</td>\n\t<td>83 times</td>\n\t<td><a href=\"details.php?id=581303&dllist=1#seeders\">1</a></td>\n\t<td><a
+        class=\"red\" href=\"details.php?id=581303&dllist=1#leechers\">0</a></td>\n
+        \       <td align=\"left\"><a href=\"http://db.etree.org/nolataper\">nolataper</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzz=ubuntu&cat=6\">Other</a>\n\t</td>\n\t<td
         align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?id=580753\"><b>Jerry
         Douglas Band, Telluride Bluegrass Festival, June 18, 2015, FM</b></a>\n        <!--
@@ -413,7 +424,7 @@ interactions:
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"http://bt.etree.org/privacy.php\">Legal</a>\n</TD>\n<TD
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"rss/bt_etree_org.rdf\">RSS Feed</a>\n</TD>\n</tr>\n</table>\n<table
         align=center>\n<tr>\n<td align=center>\n<br>\n        <font face=\"Arial\"
-        align=\"center\" size=\"1\">\n<i>Last refreshed: Sat,  9 Jun 2018 04:41:55
+        align=\"center\" size=\"1\">\n<i>Last refreshed: Mon, 18 Jun 2018 13:25:56
         EDT</i><BR>\n\nContents designed &amp; maintained by the etree.org volunteers<br>\n1998-2014,
         <a href=\"http://etree.org\">etree.org</a>, except where\nnoted. All Rights
         Reserved.<br>\n\nPHP BitTorrent Tracker derived from the bytemonsoon.com tracker
@@ -423,9 +434,9 @@ interactions:
         \n<a href=\"http://www.mysql.com/\"><img src=\"pic/mysql.gif\"></a> \n<a href=\"http://ww.smarty.net/\"><img
         src=\"pic/smarty.gif\"></a>\n\n<br><br>\n\n</font>\n</td>\n</tr>\n</table>\n</body>\n</html>"}
     headers: {Cache-Control: 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
-      Content-Encoding: gzip, Content-Length: '8350', Content-Type: text/html; charset=ISO-8859-1,
-      Date: 'Sat, 09 Jun 2018 08:41:55 GMT', Expires: 'Thu, 19 Nov 1981 08:52:00 GMT',
-      Pragma: no-cache, Server: Apache, Set-Cookie: PHPSESSID=ptl5vu197soc466udpqkmuhdo7;
+      Content-Encoding: gzip, Content-Length: '8457', Content-Type: text/html; charset=ISO-8859-1,
+      Date: 'Mon, 18 Jun 2018 17:25:56 GMT', Expires: 'Thu, 19 Nov 1981 08:52:00 GMT',
+      Pragma: no-cache, Server: Apache, Set-Cookie: PHPSESSID=baeuee8a4b1hm2hicf9hvaq9l7;
         path=/, Vary: Accept-Encoding}
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
