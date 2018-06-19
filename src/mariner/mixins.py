@@ -1,4 +1,6 @@
 """Utility mixins used in Mariner."""
+from typing import Dict
+
 import aiohttp
 
 
@@ -47,7 +49,7 @@ class GetPageMixin:  # pylint: disable=too-few-public-methods
     async def get(self,
                   url: str,
                   headers: str = None,
-                  cookies: str = None,
+                  cookies: Dict[str, str] = None,
                   timeout: int = 10) -> str:
         """Get the requested page.
 

@@ -50,4 +50,4 @@ class LimeTorrents(trackerplugin.ProxyTrackerPlugin):
                     seeds=seeds,
                     leeches=leeches)
         except IndexError:
-            yield from ()
+            yield from []

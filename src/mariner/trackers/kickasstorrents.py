@@ -73,4 +73,4 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
                                       date=date, seeds=seeds, leeches=leeches)
         except AttributeError:
             self.log.debug("No results found")
-            yield from ()
+            yield from []

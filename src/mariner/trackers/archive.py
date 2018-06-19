@@ -51,4 +51,4 @@ class Archive(trackerplugin.TrackerPlugin):
                     tracker,
                     torrent=url)
         except IndexError:
-            yield from ()
+            yield from []

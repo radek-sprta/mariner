@@ -4,7 +4,7 @@ import asyncio
 import logging
 from typing import Iterator
 
-from mariner import exceptions, mixins, torrent
+from mariner import exceptions, mixins, torrent, proxyplugin
 
 Url = str
 Page = str
@@ -32,7 +32,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         super().__init__()
         self.timeout = timeout
 
-    async def results(self, title: str) -> Iterator[torrent.Torrent]:
+    async def results(self, title: str) -> Iterator:
         """Get a list of torrent name with URLs and magnet links.
 
         Args:
@@ -43,7 +43,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
             page = await self.get(search_url, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
-            return []
+            return iter([])
         return self._parse(page)
 
     @abc.abstractmethod
@@ -89,7 +89,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()
-        self.proxies = None
+        self.proxies = proxyplugin.ProxyPlugin()
         self.timeout = timeout
 
     async def get_proxy(self) -> str:
@@ -100,7 +100,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         """
         return await self.proxies.get_proxy()
 
-    async def results(self, title: str) -> Iterator[torrent.Torrent]:
+    async def results(self, title: str) -> Iterator:
         """Get a list of torrent name with URLs and magnet links.
 
         Args:
@@ -112,7 +112,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
-            return []
+            return iter([])
         return self._parse(page)
 
     @abc.abstractmethod

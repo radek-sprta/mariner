@@ -61,4 +61,4 @@ class Etree(trackerplugin.TrackerPlugin):
                     seeds=seeds,
                     leeches=leeches)
         except IndexError:
-            yield from ()
+            yield from []

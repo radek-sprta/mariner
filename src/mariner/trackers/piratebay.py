@@ -14,7 +14,7 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
     search_url = '{proxy}/search/{title}'
     aliases = ['tpb', 'pb']
 
-    def __init__(self, timeout: int = 10):
+    def __init__(self, timeout: int = 10) -> None:
         super().__init__()
         self.proxies = piratebay.PirateBayProxy()
 
@@ -41,7 +41,7 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
             torrents = content.find_all('tr')
         except AttributeError:
             # No search result
-            yield from ()
+            yield from []
         else:
             for torrent_ in torrents[1:]:
                 raw_name = torrent_.find('a', class_='detLink')

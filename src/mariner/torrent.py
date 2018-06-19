@@ -1,6 +1,7 @@
 # -*- coding: future_fstrings -*-
 """Represent a downloadable torrent."""
 import datetime
+from typing import Union
 
 from mariner import mixins, utils
 
@@ -15,8 +16,8 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
                  torrent: str = None,
                  magnet: str = None,
                  size: str = 'Unknown',
-                 seeds: int = -1,
-                 leeches: int = None,
+                 seeds: Union[int, str] = -1,
+                 leeches: Union[int, str] = None,
                  date: str = None) -> None:
         self.name = name
         self.tracker = tracker
@@ -66,7 +67,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
                        seeds=utils.green(self.seeds),
                        leeches=utils.red(
                            self.leeches) if self.leeches is not None else None,
-                       date=self.date)
+                       date=self.date.isoformat())
 
     def __repr__(self) -> str:
         return f"Torrent({self.name}, {self.tracker}, {self.torrent}, \

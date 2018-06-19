@@ -17,7 +17,6 @@ from mariner import utils
 Url = str
 Path = Union[str, pathlib.Path]
 File = Tuple[Url, str]
-Session = aiohttp.ClientSession
 
 
 class Downloader:
@@ -29,7 +28,10 @@ class Downloader:
         self.download_path = utils.check_path(download_path)
         self.timeout = timeout
 
-    async def download_coroutine(self, session: Session, url: Url, name: str) -> Path:
+    async def download_coroutine(self,
+                                 session: aiohttp.ClientSession,
+                                 url: Url,
+                                 name: str) -> Path:
         """Download a single file and asynchronously save it to disk.
 
         Args:
