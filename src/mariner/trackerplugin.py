@@ -23,9 +23,10 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     """Represent a search engine."""
     log = logging.getLogger(__name__)
     user_agent = {'user-agent': 'Mariner Torrent Downloader'}
-    search_url = ''  # To be overwritten by subclasses
     aliases = []  # Aliases for the tracker name
     legal = False
+
+    search_url = ''  # To be overwritten by subclasses
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()
@@ -72,17 +73,24 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         return int(squashed.replace(',', ''))
 
 
-class ProxyTrackerPlugin(TrackerPlugin, abc.ABC):
+class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     """Base class for trackers, that support alternative proxies.
 
     Attributes:
         proxies: Override with instance of ProxyPlugin.
     """
+    log = logging.getLogger(__name__)
+    user_agent = {'user-agent': 'Mariner Torrent Downloader'}
+    aliases = []  # Aliases for the tracker name
+    legal = False
+
+    search_url = ''  # To be overwritten by subclasses
     default_proxy = ''  # To be overwritten by subclasses
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()
         self.proxies = None
+        self.timeout = timeout
 
     async def get_proxy(self) -> str:
         """Return a responding proxy.
@@ -119,3 +127,16 @@ class ProxyTrackerPlugin(TrackerPlugin, abc.ABC):
 
         """
         raise NotImplementedError
+
+    @staticmethod
+    def _parse_number(number: str) -> int:
+        """Parse a number string from HTML page and return an interger.
+
+        Args:
+            number: Number string to parse.
+
+        Return:
+            Parsed number.
+        """
+        squashed = number.replace(' ', '')
+        return int(squashed.replace(',', ''))
