@@ -18,8 +18,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
                  size: str = 'Unknown',
                  seeds: Union[int, str] = -1,
                  leeches: Union[int, str] = None,
-                 date: Union[datetime.date, str] = datetime.date(1, 1, 1)
-                 ) -> None:
+                 date: Union[datetime.date, str] = datetime.date(1, 1, 1)) -> None:
         self.name = name
         self.tracker = tracker
         self.torrent = torrent
