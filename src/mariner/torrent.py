@@ -18,7 +18,8 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
                  size: str = 'Unknown',
                  seeds: Union[int, str] = -1,
                  leeches: Union[int, str] = None,
-                 date: str = None) -> None:
+                 date: Union[datetime.date, str] = datetime.date(1, 1, 1)
+                 ) -> None:
         self.name = name
         self.tracker = tracker
         self.torrent = torrent
@@ -50,7 +51,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
             except ValueError:
                 self._date = maya.parse(value).date  # pylint: disable=W0201
             except TypeError:
-                self._date = None  # pylint: disable=W0201
+                self._date = datetime.date(1, 1, 1)  # pylint: disable=W0201
 
     @property
     def filename(self) -> str:
@@ -67,7 +68,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
                        seeds=utils.green(self.seeds),
                        leeches=utils.red(
                            self.leeches) if self.leeches is not None else None,
-                       date=self.date.isoformat())
+                       date=self.date)
 
     def __repr__(self) -> str:
         return f"Torrent({self.name}, {self.tracker}, {self.torrent}, \

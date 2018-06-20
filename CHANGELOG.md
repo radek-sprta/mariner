@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fix plugins sometimes not getting loaded.
 - Fix config command.
 - Strip whitespace from KickAssTorrents sizes.
+- Fix sorting by newest when some torrents don't have date.
 
 ## [1.1.0] - 2018-05-16
 ### Added
