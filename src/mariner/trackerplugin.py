@@ -22,7 +22,8 @@ class TrackerMeta(abc.ABCMeta, type):
 class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     """Represent a search engine."""
     log = logging.getLogger(__name__)
-    user_agent = {'user-agent': 'Mariner Torrent Downloader'}
+    user_agent = {
+        'user-agent': 'Mozilla/5.0 (compatible; Mariner; https://gitlab.com/radek-sprta/mariner)'}
     aliases = []  # Aliases for the tracker name
     legal = False
 
@@ -80,7 +81,8 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         proxies: Override with instance of ProxyPlugin.
     """
     log = logging.getLogger(__name__)
-    user_agent = {'user-agent': 'Mariner Torrent Downloader'}
+    user_agent = {
+        'user-agent': 'Mozilla/5.0 (compatible; Mariner; https://gitlab.com/radek-sprta/mariner)'}
     aliases = []  # Aliases for the tracker name
     legal = False
 
