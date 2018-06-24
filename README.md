@@ -17,7 +17,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 ## Installation
 
-Mariner requires Python 3.5 or newer to run.
+Mariner requires Python 3.5.3 or newer to run.
 
 **Python package**
 
