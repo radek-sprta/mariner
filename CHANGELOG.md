@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Change user agent to 'Mozilla/5.0 (compatible; Mariner; https://gitlab.com/radek-sprta/mariner)'.
 
+### Fixed
+- Fix getting results from multipage PirateBay results
+
 ## [1.2.0] - 2018-06-20
 ### Added
 - Make timeout configurable.

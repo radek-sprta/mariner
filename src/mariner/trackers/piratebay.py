@@ -43,7 +43,8 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
             # No search result
             yield from []
         else:
-            for torrent_ in torrents[1:]:
+            # First item is table header, last are links to other pages
+            for torrent_ in torrents[1:-1]:
                 raw_name = torrent_.find('a', class_='detLink')
                 name = PirateBay._parse_name(raw_name)
                 links = torrent_.find_all('a')
