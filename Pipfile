@@ -7,6 +7,7 @@ name = "pypi"
 
 [packages]
 
+pyyaml = "3.12"
 aiofiles = "*"
 aiohttp = "<3.3.0"
 "bs4" = "*"
@@ -19,7 +20,6 @@ maya = ">=0.3.4"
 "ruamel.yaml" = "*"
 tokenize-rt = "*"
 "e1839a8" = {path = ".", editable = true}
-pytest-vcr = "*"
 
 
 [dev-packages]
