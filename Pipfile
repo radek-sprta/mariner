@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-pyyaml = "3.12"
+pyyaml = "==3.12"
 aiofiles = "*"
 aiohttp = "<3.3.0"
 "bs4" = "*"
