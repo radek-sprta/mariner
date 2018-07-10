@@ -7,7 +7,7 @@ stages:
 
 before_script:
   - apt -y install libxml2-dev libxslt-dev
-  - pip install pipenv
+  - pip install poetry
   - pip install tox
   - pip install codecov
 
@@ -32,7 +32,7 @@ test:linters:
 
 build:package:
   stage: build
-  script: 
+  script:
     - tox -e build
   artifacts:
     paths:
