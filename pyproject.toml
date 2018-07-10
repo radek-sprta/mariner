@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "Mariner"
+version = "1.2.0"
+description = "Command line torrent searcher"
+authors = ["Radek Sprta <mail@radeksprta.eu>"]
+license = "GPL-3.0"
+
+readme = "README.md"
+# TODO markdown type content
+
+homepage = "https://radek-sprta.gitlab.io/mariner/"
+repository = "https://gitlab.com/radek-sprta/mariner"
+documentation = "https://radek-sprta.gitlab.io/mariner/"
+
+keywords = ["cli", "torrent", "search", "scraper", "downloader"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: POSIX :: Linux",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6"
+]
+
+packages = [
+    { include = "mariner", from = "src" },
+]
+
+include = ["LICENSE", "config/*.yaml"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+aiodns = "*"
+aiofiles = "*"
+aiohttp = "<3.3.0"
+"bs4" = "*"
+cachalot = ">=0.1.3"
+cliff = "*"
+colorama = "*"
+future-fstrings = "*"
+lxml = "*"
+maya = ">=0.3.4"
+"ruamel.yaml" = "*"
+
+[tool.poetry.dev-dependencies]
+coverage = "*"
+pytest = "^3.0"
+pytest-asyncio = "*"
+pytest-vcr = "*"
+wheel = "*"
+vcrpy = "*"
+
+[tool.poetry.scripts]
+mariner = 'mariner.main:main'
+
+[tool.poetry.plugins."mariner.cli"]
+"config" = "mariner.commands.config:Config"
+"details" = "mariner.commands.details:Details"
+"download" = "mariner.commands.download:Download"
+"magnet" = "mariner.commands.magnet:Magnet"
+"open" = "mariner.commands.open:Open"
+"search" = "mariner.commands.search:Search"
