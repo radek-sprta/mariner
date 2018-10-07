@@ -21,8 +21,9 @@ class Config(collections.abc.MutableMapping):
         __name__, 'config/config.yaml')
     log = logging.getLogger(__name__)
 
-    def __init__(self, _parent: 'Config' = None,
+    def __init__(self, configpath: str = None, _parent: 'Config' = None,
                  _config: Union['Config', Dict] = None) -> None:
+        self._configpath = configpath
         self._yaml = ruamel.yaml.YAML()
         self._parent = _parent
 
@@ -41,10 +42,13 @@ class Config(collections.abc.MutableMapping):
         Returns:
             Path to configuration file.
         """
-        directory = os.getenv('XDG_CONFIG_HOME', self.default_directory)
-        directory = utils.check_path(directory)
-        path = pathlib.Path(directory, 'config.yaml')
-        self.log.debug('directory=%s path=%s', directory, path)
+        if self._configpath:
+            path = pathlib.Path(self._configpath)
+        else:
+            directory = os.getenv('XDG_CONFIG_HOME', self.default_directory)
+            directory = utils.check_path(directory)
+            path = pathlib.Path(directory, 'config.yaml')
+        self.log.debug('path=%s', path)
         return path
 
     def load(self) -> Dict:

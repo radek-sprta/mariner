@@ -24,18 +24,8 @@ class Mariner(app.App):
             command_manager=commandmanager.CommandManager('mariner.cli'),
             deferred_help=True,
         )
-        self.config = config.Config()
-        self.config.load()
-
-        # Older configurations have no timeout option
-        # Also, cast timeout to int, int case it was string
-        try:
-            timeout = int(self.config['timeout'])
-        except KeyError:
-            timeout = 10
-            self.config['timeout'] = timeout
-
-        self.engine = searchengine.SearchEngine(timeout=timeout)
+        self.config = None
+        self.engine = None
 
     def build_option_parser(self, description, version, argparse_kwargs=None):
         """Return an Argparse option parser for Mariner.
@@ -53,6 +43,12 @@ class Mariner(app.App):
             default=None,
             help='Specify a file to log output. Default ~/.local/share/mariner/mariner.log.',
         )
+        parser.add_argument('--config-file',
+                            '-c',
+                            action='store',
+                            default=None,
+                            help='Speficy the configuration file. Default ~/.config/mariner/config.yaml',
+                            )
         return parser
 
     def configure_logging(self):
@@ -94,6 +90,23 @@ class Mariner(app.App):
         self.LOG.debug('Initialize Mariner')
         # Initialize color output
         colorama.init()
+
+        if self.options.config_file:
+            self.config = config.Config(configpath=self.options.config_file)
+        else:
+            self.config = config.Config()
+        self.config.load()
+
+        # Older configurations have no timeout option
+        # Also, cast timeout to int, int case it was string
+        try:
+            timeout = int(self.config['timeout'])
+        except KeyError:
+            timeout = 10
+            self.config['timeout'] = timeout
+
+        self.engine = searchengine.SearchEngine(timeout=timeout)
+
         if self.interactive_mode:
             self.log.info(
                 'Welcome to Mariner, a command line torrent searcher!')

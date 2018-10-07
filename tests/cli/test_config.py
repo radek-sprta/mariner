@@ -25,7 +25,7 @@ class TestConfig:
         expected = "{'default_tracker': 'linuxtracker',\n 'download_path': '~/Downloads',\n 'results': 50,\n 'timeout': 10}\n"
 
         # WHEN showing the configuration
-        result = run('config', '-s')[0]
+        result = run('--config-file', config.Config.default_config, 'config', '-s')[0]
 
         # THEN it should properly show configured options
         assert result == expected
