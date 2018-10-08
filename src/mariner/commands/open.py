@@ -25,7 +25,7 @@ class Open(command.Command):
         """
         parser = super().get_parser(prog_name)
         parser.add_argument(
-            'ID', help='ID of the torrent to open', type=int)
+            'ID', nargs='+', help='ID of the torrents to open', type=int)
         return parser
 
     @staticmethod
@@ -51,19 +51,19 @@ class Open(command.Command):
         Args:
             parsed_args: List of parsed arguments.
         """
-        tid = parsed_args.ID
-        torrent_ = self.app.engine.result(tid)
-        self.log.debug('tid=%s torrent=%s', tid, torrent_)
-        self.log.info(f'Opening {torrent_.colored().name}.')
-        link = self._get_torrent_link(torrent_)
-        if self.app.options.verbose_level > 1:
-            subprocess.run(['xdg-open', link])
-        else:
-            with open(os.devnull) as devnull:
-                subprocess.run(['xdg-open', link],
-                               stdout=devnull, stderr=devnull)
-        try:
-            # Try deleting the file, if it exists
-            link.unlink()
-        except AttributeError:
-            pass
+        for tid in parsed_args.ID:
+            torrent_ = self.app.engine.result(tid)
+            self.log.debug('tid=%s torrent=%s', tid, torrent_)
+            self.log.info(f'Opening {torrent_.colored().name}.')
+            link = self._get_torrent_link(torrent_)
+            if self.app.options.verbose_level > 1:
+                subprocess.run(['xdg-open', link])
+            else:
+                with open(os.devnull) as devnull:
+                    subprocess.run(['xdg-open', link],
+                                   stdout=devnull, stderr=devnull)
+            try:
+                # Try deleting the file, if it exists
+                link.unlink()
+            except AttributeError:
+                pass

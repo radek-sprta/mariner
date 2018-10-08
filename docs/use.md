@@ -85,6 +85,10 @@ Open the torrent in your default torrent application.
 
 `mariner open 5`
 
+Similarly to the `download` command, you can open multiple torrents at once:
+
+`mariner open 1 2 3`
+
 ## Interactive mode
 Mariner also supports interactive mode. Start it by running mariner without any arguments:
 
