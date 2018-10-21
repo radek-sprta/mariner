@@ -21,3 +21,7 @@ class TestNyaa:
         search = list(search)
         assert isinstance(search[0], torrent.Torrent)
         assert len(search) > 0
+
+        # AND the results should all have a title
+        for result in search:
+            assert result.name != None

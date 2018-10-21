@@ -26,7 +26,8 @@ class Nyaa(trackerplugin.TrackerPlugin):
             contents = soup.select('tr.default')
             for content in contents:
                 data = content.select('td')
-                name = str(data[1].a.string)
+                # Sometimes title is preceded by comments, so choose the last <a>
+                name = str(data[1].select('a')[-1].string)
                 tracker = self.__class__.__name__
 
                 links = data[2].select('a')
