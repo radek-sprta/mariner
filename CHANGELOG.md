@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Fix getting results from multipage PirateBay results.
 - No Nyaa results should have None for title anymore.
+- Distrowatch should no longer throw error when returning no results.
 
 ## [1.2.0] - 2018-06-20
 ### Added

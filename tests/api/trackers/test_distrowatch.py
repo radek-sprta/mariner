@@ -21,3 +21,13 @@ class TestDistrowatch:
         search = list(search)
         assert isinstance(search[0], torrent.Torrent)
         assert len(search) > 0
+
+    @pytest.mark.vcr()
+    def test_no_results(self, tracker, event_loop):
+        # GIVEN a tracker and a nonexistant title
+        # WHEN searching for it
+        search = event_loop.run_until_complete(tracker.results('zxcvbnm'))
+
+        # THEN it should return an empty list
+        assert isinstance(search, list)
+        assert len(search) == 0

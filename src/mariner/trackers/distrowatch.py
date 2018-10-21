@@ -26,6 +26,7 @@ class Distrowatch(trackerplugin.TrackerPlugin):
             page = await self.get(self.search_url)
         except (OSError, asyncio.TimeoutError):
             print('Cannot reach server')
+            return iter([])
         return (t for t in self._parse(page) if title in t.name)
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:
