@@ -19,7 +19,10 @@ class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
             Urls of proxy websites.
         """
         soup = bs4.BeautifulSoup(page, 'lxml')
-        data = soup.select('table.proxy-list')[0].select('tr')[1:]
+        try:
+            data = soup.select('table.proxy-list')[0].select('tr')[1:]
+        except IndexError:
+            raise exceptions.NoProxyAvailable('Cannot get proxy list.')
 
         for site in data:
             if LimeTorrentsProxy._is_online(site):

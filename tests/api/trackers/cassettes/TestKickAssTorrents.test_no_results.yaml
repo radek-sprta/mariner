@@ -1,0 +1,557 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://katcr.co/katsearch/page/1/zxcvbnm
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n    <meta charset=\"UTF-8\">\n
+        \   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n    <meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no\">\n
+        \   <title>Cookies - JavaScript : Policy &mdash; KickassTorrents</title>\n
+        \   <link rel=\"stylesheet\" href=\"https://statuskatcrco-631f.kxcdn.com/assets/css/_style.min.css\"
+        />\n  </head>\n  <body>\n<header class=\"fixed--top\">\n  <nav><a class=\"header__brand\"
+        href=\"/new/full/\"><span class=\"header__logo\"></span></a>\n  <form class=\"torrent_search\"
+        action=\"/usearch/torrents-search.php\" method=\"get\" accept-charset=\"utf-8\"
+        onsubmit=\"return doSearch(this.search.value)\">\n    <input class=\"torrent_search__input_field
+        form_control\" type=\"text\" name=\"q\" value=\"\" autocomplete=\"off\" placeholder=\"Search
+        query\" required>\n    <span class=\"torrent_search__button_group\"><a class=\"button\"
+        href=\"\" title=\"Advanced search\"><i class=\"kf__gear\"></i></a>\n      <button
+        class=\"button\" type=\"submit\" title=\"Search\"><i class=\"kf__search\"></i></button></span></form>\n
+        \     <input type=\"checkbox\" id=\"navigation\">\n        <label class=\"navbar__toggler\"
+        for=\"navigation\">\n          <span class=\"toggle__closed_label navbar__toggler_icon\">&#9776;</span><span
+        class=\"toggle__opened_label navbar__toggler_icon\">&times;</span>\n        </label>\n
+        \       <ul class=\"navigation\" id=\"js-scrollfix\">\n\n          <li class=\"navigation__item\"><a
+        class=\"navigation__link\" href=\"/gallery/movies/page/\"><i class=\"kf__camera\"></i>
+        Gallery</a></li>\n          <li class=\"navigation__item\">\n            \n
+        \           <a class=\"navigation__link\" href=\"/new/\"><i class=\"kf__torrent\"></i>
+        Browse</a>\n            <ul class=\"navigation__sub_items columns-2\">\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/latest/page/\"><i
+        class=\"kf__torrent button button--icon-button\"></i> Latest</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/movies/page/\"><i
+        class=\"kf__film button button--icon-button\"></i> Movies</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/tv/page/\"><i
+        class=\"kf__film button button--icon-button\"></i> TV</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/music/page/\"><i
+        class=\"kf__note button button--icon-button\"></i> Music</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/games/page/\"><i
+        class=\"kf__gear button button--icon-button\"></i> Games</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/books/page/\"><i
+        class=\"kf__book button button--icon-button\"></i> Books</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/full/\"><i
+        class=\"kf__torrent button button--icon-button\"></i> FULL</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/applications/page/\"><i
+        class=\"kf__gear button button--icon-button\"></i> Apps</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/anime/page/\"><i
+        class=\"kf__film button button--icon-button\"></i> Anime</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/other/page/\"><i
+        class=\"kf__torrent button button--icon-button\"></i> Other</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/xxx/page/\"><i
+        class=\"kf__delete button button--icon-button\"></i> XXX</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/\"><i
+        class=\"kf__plus button button--icon-button\"></i> More</a></li>\n            </ul>\n
+        \         </li>\n          <li class=\"navigation__item\"><a class=\"navigation__link\"
+        href=\"/show/community/\"><i class=\"kf__comments\"></i> Community</a></li>\n
+        \       </ul>\n  </nav>\n</header>    <div class=\"container--fluid\">\n      <div
+        class=\"row\">\n        <div class=\"col\">\n\n        <div class=\"row\">\n
+        \               <div class=\"col-10 col-md-6 mx-auto\">\n                  <h2
+        class=\"mt-4 text--error\">ERROR LOADING CONTENT <a class=\"button button--small\"
+        href=\"\" onClick=\"window.location.reload()\">RELOAD THIS PAGE</a></h2>\n
+        \                 <hr>\n                  <h2 class=\"mt-4\">KickassTorrents
+        Cookies Policy</h2>\n                  <p>\n                    <span class=\"text--muted
+        d-block mb-1\">Accept, usage of our site cookies</span>\n\n<ul>\n  <li>If
+        you do not accept the use of Site Sessions Cookie, please do not use our website,
+        simple.</li>\n  <li>Cookies automatically collect and store the information
+        about your connection to our site.</li>\n  <li>Cookies let you navigate between
+        site pages efficiently, remembering your preferences, generally improving
+        the user experience.</li>\n  <li>Cookies may tell us, whether you have visited
+        the Website before or whether you are a new visitor.</li>\n</ul>\n\n                    <span
+        class=\"text--muted d-block mb-1\">Cookies categories</span>\n\n<ul>\n  <li>Member
+        Session Cookie (identify you as registered account).</li>\n  <li>Computer
+        / Device Session Cookie (your connection to our site). Name KATSESSID</li>\n
+        \ <li>Third party cookies, which are served by a third party on our behalf,
+        set for functionality, performance / analytics, advertising and social media
+        purposes.</li>\n</ul>\n\n                    <span class=\"text--muted d-block
+        mb-1\">Cookies time set</span>\n\n<ul>\n  <li>Cookies can remain on your computer
+        or mobile device for different periods of time.</li>\n  <li>Computer / Device
+        Session Cookie, they exist only while your browser is open.</li>\n  <li>Member
+        Session Cookie, exist depending on each account settings.</li>\n</ul>\n\n
+        \                   <span class=\"text--muted d-block mb-1 text--error\">Notes</span>\n\n<ul>\n
+        \ <li>If the site session cookie gets deleted from your browser: then you
+        will see this page each time you reach our site back again.</li>\n  <li>If
+        the site detects a flood attempts: rather than taking the site offline, session
+        cookie gets re-issue and you will see this page again.</li>\n</ul>\n\n                  </p>\n
+        \                 <h2 class=\"mt-4\">KickassTorrents JavaScript Policy</h2>\n
+        \                 <p>\n                    <span class=\"text--muted d-block
+        mb-1\">Usage of our site JavaScript</span>\n<ul>\n  <li>If you have disabled
+        JavaScript, most of the site pages will refuse to load, be aware.</li>\n</ul>\n
+        \                 </p>\n                  <hr>\n                  <h2 class=\"mt-4\">Changes
+        / Modification to this Policy</h2>\n                  <p>\n                    <span
+        class=\"text--muted d-block mb-1\">Time, Modification or Update</span>\n<ul>\n
+        \ <li>Our site reserves the right, at any time, to modify, alter or update
+        these Policy and you agree to be bound by such modifications, alterations
+        or updates. We recommend that you check this page from time to time to inform
+        yourself of any changes to this Policy.</li>\n</ul>\n                  </p>\n
+        \                 <hr>\n                  <h2 class=\"mt-4\">\n                    Try
+        to <a class=\"button button--small\" href=\"\" onClick=\"window.location.reload()\">Reload
+        page</a> if you have got redirected here.\n                  </h2>\n                </div>\n
+        \             </div>\n        </div>\n      </div>\n    </div>\n  </body>\n</html>"}
+    headers: {Cache-Control: private, Connection: close, Content-Encoding: gzip, Content-Length: '2147',
+      Content-Security-Policy: frame-ancestors 'self' *.statuskatcrco-631f.kxcdn.com
+        ajax.googleapis.com, Content-Type: text/html; charset=UTF-8, Date: 'Mon, 22
+        Oct 2018 16:43:06 GMT', Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Pragma: no-cache,
+      Referrer-Policy: no-referrer-when-downgrade, Server: Apache/2.4.10, Set-Cookie: 'KATSSESS_ID70AT=qe8p9v2oa95u3nmh5gilct31oj5maqaa;
+        expires=Tue, 23-Oct-2018 04:43:07 GMT; Max-Age=43200; path=/; domain=katcr.co;
+        secure; HttpOnly', Strict-Transport-Security: max-age=31536000; includeSubDomains;
+        preload, Vary: Accept-Encoding, X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN,
+      X-XSS-Protection: 1; mode=block}
+    status: {code: 200, message: OK}
+    url: !!python/object/new:yarl.URL
+      state: !!python/tuple
+      - !!python/object/new:urllib.parse.SplitResult [https, katcr.co, /katsearch/page/1/zxcvbnm,
+        '', '']
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://katcr.co/katsearch/page/1/zxcvbnm
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n<meta charset=\"UTF-8\">\n
+        \ <noscript>\n  <meta http-equiv=\"refresh\" content=\"0; url=https://katcr.co/ikickass/\"
+        />\n  </noscript>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0,
+        user-scalable=no\">\n<title>Search results &mdash; KickassTorrents</title>\n<link
+        rel=\"stylesheet\" href=\"https://statuskatcrco-631f.kxcdn.com/assets/css/style.min_2.css\"
+        />\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://statuskatcrco-631f.kxcdn.com/assets/images/favicon.ico\"
+        />\n </head>\n<body>\n<header class=\"fixed--top\"><nav><a class=\"header__brand\"
+        href=\"/new/full/\"><span class=\"header__logo\"></span></a><form class=\"torrent_search\"
+        action=\"/usearch/torrents-search.php\" method=\"get\" accept-charset=\"utf-8\"
+        onsubmit=\"return doSearch(this.search.value)\"><input class=\"torrent_search__input_field
+        form_control\" type=\"text\" name=\"q\" value=\"\" autocomplete=\"off\" placeholder=\"Search
+        torrents\" required><span class=\"torrent_search__button_group\"><a class=\"button\"
+        href=\"\" title=\"Advanced search\"><i class=\"kf__gear\"></i></a><button
+        class=\"button\" type=\"submit\" title=\"Search\"><i class=\"kf__search\"></i></button></span></form><input
+        type=\"checkbox\" id=\"navigation\">\n\n<label class=\"navbar__toggler\" for=\"navigation\">\n
+        \ <span class=\"toggle__closed_label navbar__toggler_icon\">&#9776;</span><span
+        class=\"toggle__opened_label navbar__toggler_icon\">&times;</span></label>\n<ul
+        class=\"navigation\" id=\"js-scrollfix\">\n\n<li class=\"navigation__item\"><a
+        class=\"navigation__link\" href=\"/gallery/movies/page/\"><i class=\"kf__camera\"></i>
+        Gallery</a></li>\n          <li class=\"navigation__item\">\n            \n
+        \           <a class=\"navigation__link\" href=\"/new/\"><i class=\"kf__torrent\"></i>
+        Browse</a>\n            <ul class=\"navigation__sub_items columns-2\">\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/latest/page/\"><i
+        class=\"kf__torrent button button--icon-button\"></i> Latest</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/movies/page/\"><i
+        class=\"kf__film button button--icon-button\"></i> Movies</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/tv/page/\"><i
+        class=\"kf__film button button--icon-button\"></i> TV</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/music/page/\"><i
+        class=\"kf__note button button--icon-button\"></i> Music</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/games/page/\"><i
+        class=\"kf__gear button button--icon-button\"></i> Games</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/books/page/\"><i
+        class=\"kf__book button button--icon-button\"></i> Books</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/full/\"><i
+        class=\"kf__torrent button button--icon-button\"></i> FULL</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/applications/page/\"><i
+        class=\"kf__gear button button--icon-button\"></i> Apps</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/anime/page/\"><i
+        class=\"kf__film button button--icon-button\"></i> Anime</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/other/page/\"><i
+        class=\"kf__torrent button button--icon-button\"></i> Other</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/xxx/page/\"><i
+        class=\"kf__delete button button--icon-button\"></i> XXX</a></li>\n              <li
+        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/\"><i
+        class=\"kf__plus button button--icon-button\"></i> More</a></li>\n            </ul>\n
+        \         </li>\n\n\n\n  <li class=\"navigation__item\"><a class=\"navigation__link\"
+        href=\"/show/community/\"><i class=\"kf__comments\"></i> Community</a></li>\n\n
+        \         <li class=\"navigation__item\"><a class=\"navigation__link\" href=\"https://katcr.co/show/community/index.php?action=login\"><i
+        class=\"kf__user\"></i> Register / Log In</a></li>\n        \n            </ul>\n
+        \         </li>\n          </ul></nav>\n</header>\n\n<div class=\" alert alert--danger\">\n
+        \     <span class=\"alert alert--warning\"> Warning : IP-LOGGED </span>\n
+        \       &nbsp; &nbsp; <a class=\"button button--big button--icon-button button--special_icon\"
+        href=\"https://www.get-express-vpn.com/torrent-vpn?offer=3monthsfree&a_fid=katcr\"
+        title=\"Protect your privacy\" target=\"_blank\"><i class=\"kf__lock button--dark\"></i>
+        <span>Protect your privacy</span> </a> &nbsp; &nbsp; Before you download,
+        search, or do anything online: PLEASE protect your online privacy. Stop ISPs
+        and Hackers Logging Your IP and Everything You Do\n</div>\n<div class=\"container--fluid\">\n<div
+        class=\"row\">\n<div class=\"col\">\n<div class=\"row\">\n<div class=\"col-12
+        col-sm\">\n<div class=\"row justify-content-between\">\n<div class=\"col-12
+        col-sm-auto\">\n\n                    <h2>\n                     <i class=\"text--muted
+        kf__magnet\">\n</i> \n                     <a href=\"https://katcr.co/new/\"
+        title=\"Browse all\">Torrents</a>\n                     <span class=\"text--muted\">
+        &#187; </span> \n                     Search \n                     <span
+        class=\"text--muted\"> &#187; </span> \n                     <a href=\"https://katcr.co/katsearch/page/1/ZXCVBNM\"
+        title=\"Search ZXCVBNM\">\n                      <span class=\"text--muted\">zxcvbnm</span></a>
+        \   \n                    </h2>\n\n    </div>\n<div class=\"col-12 col-sm-auto\">\n<div
+        class=\"row\">\n<div class=\"form_group col-12 col-sm\">\n    <form action='/advanced-usearch/'
+        method='POST' name='form_filter' accept-charset=\"utf-8\" onsubmit=\"return
+        doSearch(this.search.value);\">\n        <select name=\"category\" id=\"torrent_info__categories\"
+        required>\n                      <option selected disabled value=''>Category</option>\n
+        \                     <option data-group='Movies' value=\"Movies\">Movies</option>\n
+        \                     <option data-group='TV' value=\"TV\">TV</option>\n                      <option
+        data-group='Music' value=\"Music\">Music</option>\n                      <option
+        data-group='Games' value=\"Games\">Games</option>\n                      <option
+        data-group='Books' value=\"Books\">Books</option>\n                      <option
+        data-group='Apps' value=\"Apps\">Apps</option>\n                      <option
+        data-group='Anime' value=\"Anime\">Anime</option>\n                      <option
+        data-group='Other' value=\"Other\">Other</option>\n                      <option
+        data-group='XXX' value=\"XXX\">XXX</option>\n        </select>\n        <select
+        name=\"subcategories\" id=\"torrent_info__sub_categories\">\n                      <option
+        data-group='toolshow' selected disabled value=''>Sub-category</option>\n                      <option
+        data-group='Movies' value='69'>3D Movies</option>\n                      <option
+        data-group='Movies' value='80'>Animation</option>\n                      <option
+        data-group='Movies' value='79'>Asian/Bollywood</option>\n                      <option
+        data-group='Movies' value='148'>Blu-Ray ISO</option>\n                      <option
+        data-group='Movies' value='149'>Cam</option>\n                      <option
+        data-group='Movies' value='81'>Documentary</option>\n                      <option
+        data-group='Movies' value='78'>Dubbed Movies</option>\n                      <option
+        data-group='Movies' value='150'>DVD ISO</option>\n                      <option
+        data-group='Movies' value='71'>HD</option>\n                      <option
+        data-group='Movies' value='128'>Other</option>\n                      <option
+        data-group='Movies' value='74'>Screener</option>\n                      <option
+        data-group='Movies' value='75'>UltraHD</option>\n\n                      <option
+        data-group='TV' value='6'>Blu-Ray ISO</option>\n                      <option
+        data-group='TV' value='7'>Documentary</option>\n                      <option
+        data-group='TV' value='5'>DVD ISO</option>\n                      <option
+        data-group='TV' value='41'>HD</option>\n                      <option data-group='TV'
+        value='151'>Other</option>\n                      <option data-group='TV'
+        value='146'>Sport</option>\n                      <option data-group='TV'
+        value='152'>Ultra HD</option>\n                      \n                      <option
+        data-group='Music' value='64'>AAC</option>\n                      <option
+        data-group='Music' value='67'>Karaoke</option>\n                      <option
+        data-group='Music' value='23'>Lossless</option>\n                      <option
+        data-group='Music' value='22'>MP3</option>\n                      <option
+        data-group='Music' value='129'>Other</option>\n                      <option
+        data-group='Music' value='26'>Radio Shows</option>\n                      <option
+        data-group='Music' value='66'>Soundtrack</option>\n                      <option
+        data-group='Music' value='65'>Transcode</option>\n                      <option
+        data-group='Music' value='68'>Videos/Concerts</option>\n\n                      <option
+        data-group='Games' value='92'>Handheld</option>\n                      <option
+        data-group='Games' value='87'>Linux</option>\n                      <option
+        data-group='Games' value='130'>Other</option>\n                      <option
+        data-group='Games' value='97'>Playstation</option>\n                      <option
+        data-group='Games' value='91'>Wii</option>\n                      <option
+        data-group='Games' value='85'>Windows</option>\n                      <option
+        data-group='Games' value='90'>Xbox</option>\n\n                      <option
+        data-group='Books' value='109'>Audio books</option>\n                      <option
+        data-group='Books' value='110'>Biography</option>\n                      <option
+        data-group='Books' value='102'>Children</option>\n                      <option
+        data-group='Books' value='103'>Comics</option>\n                      <option
+        data-group='Books' value='113'>Computers &amp; Technology</option>\n                      <option
+        data-group='Books' value='115'>Cooking</option>\n                      <option
+        data-group='Books' value='114'>Educational</option>\n                      <option
+        data-group='Books' value='107'>Fiction</option>\n                      <option
+        data-group='Books' value='112'>History</option>\n                      <option
+        data-group='Books' value='105'>Magazines</option>\n                      <option
+        data-group='Books' value='104'>Manga</option>\n                      <option
+        data-group='Books' value='108'>Non-fiction</option>\n                      <option
+        data-group='Books' value='132'>Other</option>\n                      <option
+        data-group='Books' value='111'>Religion</option>\n                      <option
+        data-group='Books' value='116'>Sport</option>\n                      <option
+        data-group='Books' value='106'>Textbooks</option>\n\n                      <option
+        data-group='Apps' value='144'>Handheld</option>\n                      <option
+        data-group='Apps' value='142'>Linux</option>\n                      <option
+        data-group='Apps' value='140'>Mac</option>\n                      <option
+        data-group='Apps' value='131'>Other</option>\n                      <option
+        data-group='Apps' value='139'>Windows</option>\n\n                      <option
+        data-group='Anime' value='118'>English Translated</option>\n                      <option
+        data-group='Anime' value='133'>Other</option>\n\n                      <option
+        data-group='Other' value='154'>DazPoser</option>\n                      <option
+        data-group='Other' value='138'>Other</option>\n                      <option
+        data-group='Other' value='136'>Pictures</option>\n                      <option
+        data-group='Other' value='134'>Subtitles</option>\n                      <option
+        data-group='Other' value='145'>Tutorials</option>\n                      <option
+        data-group='Other' value='153'>Wordpress</option>\n\n                      <option
+        data-group='XXX' value='124'>Books</option>\n                      <option
+        data-group='XXX' value='155'>HD</option>\n                      <option data-group='XXX'
+        value='125'>Hentai</option>\n                      <option data-group='XXX'
+        value='123'>Magazines</option>\n                      <option data-group='XXX'
+        value='122'>Pictures</option>\n                      <option data-group='XXX'
+        value='121'>UltraHD</option>\n                      <option data-group='XXX'
+        value='119'>Videos</option>\n                      <option data-group='XXX'
+        value='126'>XXX Games</option>\n        </select>\n        <select name=\"orderby\">\n
+        \                     <option selected disabled value=''>Order by</option>\n
+        \                     <option value=\"seeds-asc\">Seeders Asc</option>\n                      <option
+        value=\"seeds-desc\">Seeders Desc</option>\n                      <option
+        value=\"leechs-asc\">Leechers Asc</option>\n                      <option
+        value=\"leechs-desc\">Leechers Desc</option>\n                      <option
+        value=\"size-asc\">Size Asc</option>\n                      <option value=\"size-desc\">Size
+        Desc</option>\n                      <option value=\"date-asc\">Date Asc</option>\n
+        \                     <option value=\"date-desc\">Date Desc</option>\n        </select>\n
+        \       <select name=\"interval\">\n                      <option selected
+        disabled value=''>Interval</option>\n                      <option value=\"added-anytime\">Any
+        time</option>\n                      <option value=\"added-pasthour\">Past
+        hour</option>\n                      <option value=\"added-pastday\">Past
+        24 hours</option>\n                      <option value=\"added-pastweek\">Past
+        week</option>\n                      <option value=\"added-month\">Past month</option>\n
+        \                     <option value=\"added-pastyear\">Past year</option>\n
+        \       </select>\n    \t<br>\n        <input type='text' name='search' placeholder='Custom
+        Search query (beta) ...' size='50' autocomplete=\"off\" required> <input type='submit'
+        value='Search'>  \n    </form>  </div>\n</div>\n</div>\n</div>\n<div class=\"row
+        justify-content-between\">\n<div class=\"col-12 col-sm-auto\">\n</div>\n<div
+        class=\"col-12 col-sm-auto\">\n</div>\n</div>\n<br>\n</div>\n</div>\n<div
+        class=\"tab_content\" id=\"main\">\n<div class=\"row\">\n<div class=\"col\">\n<div
+        class=\"table--responsive_vertical shadow-z-1\">\n<table class=\"table table--bordered
+        table--striped table--hover torrents_table\">\n<thead>\n<tr>\n<th>Torrent
+        name</th>\n<th class=\"text--center\">Size</th>\n<th class=\"text--center\">Files</th>\n<th
+        class=\"text--center\">Age</th>\n<th class=\"text--center\">Seed</th>\n<th
+        class=\"text--center\">Leech</th>\n</tr>\n</thead>\n<tbody>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row\">\n<div class=\"col-12 col-sm\">\n<div class=\"row justify-content-between\">\n<div
+        class=\"col-12 col-sm-auto\">\n</div>\n<div class=\"col-12 col-sm-auto\">\n</div>\n</div>\n</div>\n</div>
+        \             \n</div>\n<div class=\"col sidebar\">\n \n<style type=\"text/css\">
+        .logo__container{padding: .4rem .25rem .25rem; margin-top: -.5rem; border:
+        1px solid #ddd; border-top: 0;\t}\n</style>  \n<div class=\"logo\">\n\t<small
+        class=\"ad__cta\">\n\t\t<img class=\"text--nowrap text--center\" src=\"https://statuskatcrco-631f.kxcdn.com/assets/images/privacy_warning.gif\"
+        alt=\"Privacy warning\" width=\"65\" height=\"37\">\n\t</small>\n\t<div class=\"logo__container
+        site_logo text--nowrap text--center\">\n\t\t<a class=\"button button--big
+        button--icon-button button--special_icon\" href=\"https://www.get-express-vpn.com/torrent-vpn?offer=3monthsfree&a_fid=katcr\"
+        title=\"Protect your privacy\" target=\"_blank\"><i class=\"kf__lock button--dark\"></i>
+        <span>Protect your privacy</span> </a>\n\t</div>\n</div>\n\n\n\n  <div class=\"list_group
+        list_group--condensed\">\n      <h3 data-title=\"Top 100\">KICKASS MAGAZINE</h3>\n
+        \     <a href=\"https://katcr.co/user/KATalyst/page/1/uploads/\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__book\"></i></span>KATalyst
+        download here</a>\n  </div>\n\n  <div class=\"list_group list_group--condensed\">\n
+        \     <h3 data-title=\"Top 100\">TOP 100 BY SEEDS</h3>\n      <a href=\"https://katcr.co/torrents/top-100-latest-uploads.html\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n  <span
+        class=\"button button--small align-self-start mr-2\">\n  <i class=\"kf__torrent\"></i></span>Mixed-All</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-movies-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__film\"></i></span>Movies</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-tv-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__film\"></i></span>TV</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-music-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__note\"></i></span>Music</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-games-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__gear\"></i></span>Games</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-books-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__book\"></i></span>Books</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-applications-uploads.html\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n  <span
+        class=\"button button--small align-self-start mr-2\">\n  <i class=\"kf__gear\"></i></span>Apps</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-anime-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__film\"></i></span>Anime</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-other-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__torrent\"></i></span>Other</a>\n
+        \     <a href=\"https://katcr.co/torrents/top-100-xxx-uploads.html\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n  <span class=\"button
+        button--small align-self-start mr-2\">\n  <i class=\"kf__delete\"></i></span>XXX</a>\n
+        \ </div>\n\n  <div class=\"list_group list_group--condensed\">\n      <h3
+        data-title=\"Latest Forum Threads\">LATEST FORUM THREADS</h3>\n      \n          <style>\n
+        \         .list_group__list_itemps {\n              position: relative;\n
+        \             display: block;\n              padding-top: .2rem;\n              padding-bottom:
+        .2rem;\n              border-bottom: 1px solid #dfddd7;  \n          </style>\n
+        \   \n            <a href=\"https://katcr.co/show/community/index.php?topic=7854.msg488031;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">The Two Word Game
+        V3</h5>\n                  <small class=\"text--muted\">\n                    <time
+        datetime=\"2018-10-22 18:34:32\" title=\"Monday 22nd of October 2018 06:34:32
+        PM\">06:34:32 PM</time>\n                    by\n                    <span
+        class=\"user_badge user_badge--online acl_123 \" title=\"User is online\">hakimpac</span>\n
+        \                 </small>\n                </div>\n              </div>\n
+        \           </a>\n            \n          <style>\n          .list_group__list_itemps
+        {\n              position: relative;\n              display: block;\n              padding-top:
+        .2rem;\n              padding-bottom: .2rem;\n              border-bottom:
+        1px solid #dfddd7;  \n          </style>\n    \n            <a href=\"https://katcr.co/show/community/index.php?topic=8520.msg488030;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">Last Letter Game
+        (V5)</h5>\n                  <small class=\"text--muted\">\n                    <time
+        datetime=\"2018-10-22 18:34:01\" title=\"Monday 22nd of October 2018 06:34:01
+        PM\">06:34:01 PM</time>\n                    by\n                    <span
+        class=\"user_badge user_badge--online acl_123 \" title=\"User is online\">hakimpac</span>\n
+        \                 </small>\n                </div>\n              </div>\n
+        \           </a>\n            \n          <style>\n          .list_group__list_itemps
+        {\n              position: relative;\n              display: block;\n              padding-top:
+        .2rem;\n              padding-bottom: .2rem;\n              border-bottom:
+        1px solid #dfddd7;  \n          </style>\n    \n            <a href=\"https://katcr.co/show/community/index.php?topic=552.msg488029;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">The Official Movie
+        Request Thread (V1)</h5>\n                  <small class=\"text--muted\">\n
+        \                   <time datetime=\"2018-10-22 18:27:15\" title=\"Monday
+        22nd of October 2018 06:27:15 PM\">06:27:15 PM</time>\n                    by\n
+        \                   <span class=\"user_badge user_badge--online acl_123 \"
+        title=\"User is online\">hakimpac</span>\n                  </small>\n                </div>\n
+        \             </div>\n            </a>\n            \n          <style>\n
+        \         .list_group__list_itemps {\n              position: relative;\n
+        \             display: block;\n              padding-top: .2rem;\n              padding-bottom:
+        .2rem;\n              border-bottom: 1px solid #dfddd7;  \n          </style>\n
+        \   \n            <a href=\"https://katcr.co/show/community/index.php?topic=550.msg488028;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">The Official TV
+        Show Request Thread (V1)</h5>\n                  <small class=\"text--muted\">\n
+        \                   <time datetime=\"2018-10-22 18:22:56\" title=\"Monday
+        22nd of October 2018 06:22:56 PM\">06:22:56 PM</time>\n                    by\n
+        \                   <span class=\"user_badge user_badge--online acl_123 \"
+        title=\"User is online\">fmarais1000</span>\n                  </small>\n
+        \               </div>\n              </div>\n            </a>\n            \n
+        \         <style>\n          .list_group__list_itemps {\n              position:
+        relative;\n              display: block;\n              padding-top: .2rem;\n
+        \             padding-bottom: .2rem;\n              border-bottom: 1px solid
+        #dfddd7;  \n          </style>\n    \n            <a href=\"https://katcr.co/show/community/index.php?topic=7730.msg488024;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">Compound Word
+        Game A - Z</h5>\n                  <small class=\"text--muted\">\n                    <time
+        datetime=\"2018-10-22 18:11:21\" title=\"Monday 22nd of October 2018 06:11:21
+        PM\">06:11:21 PM</time>\n                    by\n                    <span
+        class=\"user_badge user_badge--online acl_123 \" title=\"User is online\">miok</span>\n
+        \                 </small>\n                </div>\n              </div>\n
+        \           </a>\n            \n          <style>\n          .list_group__list_itemps
+        {\n              position: relative;\n              display: block;\n              padding-top:
+        .2rem;\n              padding-bottom: .2rem;\n              border-bottom:
+        1px solid #dfddd7;  \n          </style>\n    \n            <a href=\"https://katcr.co/show/community/index.php?topic=9169.msg488023;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">Count to 2019
+        Before 2019</h5>\n                  <small class=\"text--muted\">\n                    <time
+        datetime=\"2018-10-22 17:46:06\" title=\"Monday 22nd of October 2018 05:46:06
+        PM\">05:46:06 PM</time>\n                    by\n                    <span
+        class=\"user_badge user_badge--online acl_123 \" title=\"User is online\">hakimpac</span>\n
+        \                 </small>\n                </div>\n              </div>\n
+        \           </a>\n            \n          <style>\n          .list_group__list_itemps
+        {\n              position: relative;\n              display: block;\n              padding-top:
+        .2rem;\n              padding-bottom: .2rem;\n              border-bottom:
+        1px solid #dfddd7;  \n          </style>\n    \n            <a href=\"https://katcr.co/show/community/index.php?topic=9034.msg488022;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">Google DSCF Image
+        Game</h5>\n                  <small class=\"text--muted\">\n                    <time
+        datetime=\"2018-10-22 17:45:34\" title=\"Monday 22nd of October 2018 05:45:34
+        PM\">05:45:34 PM</time>\n                    by\n                    <span
+        class=\"user_badge user_badge--online acl_123 \" title=\"User is online\">Lacey</span>\n
+        \                 </small>\n                </div>\n              </div>\n
+        \           </a>\n            \n          <style>\n          .list_group__list_itemps
+        {\n              position: relative;\n              display: block;\n              padding-top:
+        .2rem;\n              padding-bottom: .2rem;\n              border-bottom:
+        1px solid #dfddd7;  \n          </style>\n    \n            <a href=\"https://katcr.co/show/community/index.php?topic=9097.msg488020;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">Please Request
+        Ebooks and Audio Books Here V9</h5>\n                  <small class=\"text--muted\">\n
+        \                   <time datetime=\"2018-10-22 17:43:16\" title=\"Monday
+        22nd of October 2018 05:43:16 PM\">05:43:16 PM</time>\n                    by\n
+        \                   <span class=\"user_badge user_badge--online acl_123 \"
+        title=\"User is online\">SGEE</span>\n                  </small>\n                </div>\n
+        \             </div>\n            </a>\n            \n          <style>\n
+        \         .list_group__list_itemps {\n              position: relative;\n
+        \             display: block;\n              padding-top: .2rem;\n              padding-bottom:
+        .2rem;\n              border-bottom: 1px solid #dfddd7;  \n          </style>\n
+        \   \n            <a href=\"https://katcr.co/show/community/index.php?topic=3311.msg488016;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\"> KAT Academic
+        Group | Academic and Textbook Requests</h5>\n                  <small class=\"text--muted\">\n
+        \                   <time datetime=\"2018-10-22 17:35:26\" title=\"Monday
+        22nd of October 2018 05:35:26 PM\">05:35:26 PM</time>\n                    by\n
+        \                   <span class=\"user_badge user_badge--online acl_123 \"
+        title=\"User is online\">aaminzhash</span>\n                  </small>\n                </div>\n
+        \             </div>\n            </a>\n            \n          <style>\n
+        \         .list_group__list_itemps {\n              position: relative;\n
+        \             display: block;\n              padding-top: .2rem;\n              padding-bottom:
+        .2rem;\n              border-bottom: 1px solid #dfddd7;  \n          </style>\n
+        \   \n            <a href=\"https://katcr.co/show/community/index.php?topic=644.msg488013;topicseen#new\"
+        class=\"list_group__list_itemps list_group__list_item--action flex-column
+        align-items-start\">\n              <div class=\"d-flex\">\n                <span
+        class=\"button button--small align-self-start mr-2\"><i class=\"kf__comments\"></i></span>\n
+        \               <div>\n                  <h5 class=\"mb-1\">Random Cars,Bikes
+        Images Thread</h5>\n                  <small class=\"text--muted\">\n                    <time
+        datetime=\"2018-10-22 17:30:58\" title=\"Monday 22nd of October 2018 05:30:58
+        PM\">05:30:58 PM</time>\n                    by\n                    <span
+        class=\"user_badge user_badge--online acl_123 \" title=\"User is online\">Superbikemike</span>\n
+        \                 </small>\n                </div>\n              </div>\n
+        \           </a>\n              </div>\n\n\n\n\n  <div class=\"list_group
+        list_group--condensed\">\n      <h3 data-title=\"KATs Blog News\">KAT&#39;s
+        BLOG NEWS</h3>\n      <a href=\"https://katcr.co/blog/ikickass/post/happy-torrents-day-2018/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n      <span
+        class=\"button button--small align-self-start mr-2\">\n      <i class=\"kf__comments\"></i></span>Happy
+        Torrents Day 2018!</a>\n  </div>\n  <div class=\"list_group list_group--condensed\">\n
+        \     <span data-title=\"HTD ends\">HTD 2018 uploaded torrents:  2,200</span>\n
+        \     <span data-title=\"HTD ends\">[HTD 2018] Tagged torrents: 1,629</span>\n
+        \ </div>\n  <div class=\"list_group list_group--condensed\">\n      <h3 data-title=\"Uploads
+        count\">HTD 2018 TOP 3 UPLs</h3>\n        <a href=\"https://katcr.co/user/MacAPPS/uploads/page/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n          <span
+        class=\"button button--small align-self-start mr-2\">\n          <i class=\"kf__user\"></i></span><strong>MacAPPS</strong>,
+        Uploaded <span class=\"text--success\">  &nbsp;94</span>.\n        </a>\n
+        \       <a href=\"https://katcr.co/user/shilpa143/uploads/page/\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n          <span class=\"button
+        button--small align-self-start mr-2\">\n          <i class=\"kf__user\"></i></span><strong>shilpa143</strong>,
+        Uploaded <span class=\"text--success\">  &nbsp;89</span>.\n        </a>\n
+        \       <a href=\"https://katcr.co/user/Myob42/uploads/page/\" class=\"d-flex
+        list_group__list_item list_group__list_item--action\">\n          <span class=\"button
+        button--small align-self-start mr-2\">\n          <i class=\"kf__user\"></i></span><strong>Myob42</strong>,
+        Uploaded <span class=\"text--success\">  &nbsp;74</span>.\n        </a>\n
+        \ </div>\n\n  <div class=\"list_group list_group--condensed\">\n      <h3
+        data-title=\"Top Elite\">2017 TOP 3&nbsp;<i class=\"kf__star text--elite\"></i>&nbsp;
+        EUL</h3>\n      <a href=\"https://katcr.co/user/B4ND1T69/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__star
+        text--elite\"></i></span>B4ND1T69\n      </a>\n      <a href=\"https://katcr.co/user/UniTeamCorp./page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__star
+        text--elite\"></i></span>UniTeamCorp.\n      </a>\n      <a href=\"https://katcr.co/user/panosol/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__star
+        text--elite\"></i></span>panosol\n      </a>\n  </div>\n\n  <div class=\"list_group
+        list_group--condensed\">\n      <h3 data-title=\"Top VUL\">2017 TOP 3&nbsp;<i
+        class=\"kf__crown text--verified\"></i>&nbsp; VUL</h3>\n      <a href=\"https://katcr.co/user/Mr.Gooner/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__crown
+        text--verified\"></i></span>Mr.Gooner\n      </a>\n      <a href=\"https://katcr.co/user/Sasidhar/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__crown
+        text--verified\"></i></span>Sasidhar\n      </a>\n      <a href=\"https://katcr.co/user/Braveheart/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__crown
+        text--verified\"></i></span>Braveheart\n      </a>\n  </div>\n\n  <div class=\"list_group
+        list_group--condensed\">\n      <h3 data-title=\"Top UL\">2017 TOP 3&nbsp;<i
+        class=\"kf__crown\"></i>&nbsp; UPLOADERS</h3>\n      <a href=\"https://katcr.co/user/GRiM_R3AP3R/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__crown\"></i></span>GRiM_R3AP3R\n
+        \     </a>\n      <a href=\"https://katcr.co/user/KissToonTv/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__crown\"></i></span>KissToonTv\n
+        \     </a>\n      <a href=\"https://katcr.co/user/CracksNow/page/1/uploads/\"
+        class=\"d-flex list_group__list_item list_group__list_item--action\">\n        <span
+        class=\"button button--small align-self-start mr-2\">\n        <i class=\"kf__crown\"></i></span><s>CracksNow</s>\n
+        \     </a>\n  </div>\n</div></div>\n</div>\n<footer>\n      <hr>\n          <a
+        href=\"https://status.katcr.co/\">KAT status</a>\n           <a href=\"mailto:admin@katcr.co\">Contact:
+        Adminstration</a>\n           <a href=\"mailto:legal@katcr.co\">Contact: Legal</a>\n
+        \         <a href=\"https://katcr.co/show/tos/\">TOS</a>\n          <a href=\"https://katcr.co/show/dmca/\">DMCA</a>\n</footer>\n<script
+        type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://statuskatcrco-631f.kxcdn.com/assets/js/_javascript.min.js\"></script>\n<script>\n
+        \ $(function(){$(\"#torrent_info__categories\").on(\"change\",function(){var
+        t=$(this).val(),n=$(\"#torrent_info__sub_categories\");$(\"option\",n).filter(function(){$(this).attr(\"data-group\")===t||\"toolshow\"===$(this).attr(\"data-group\")?$(this).parent(\"span\").length&&$(this).unwrap():$(this).parent(\"span\").length||$(this).wrap(\"<span>\").parent().hide()})}),$(\"#torrent_info__categories\").trigger(\"change\")});\n</script>\n
+        \ </body>\n</html>\n\n"}
+    headers: {Cache-Control: private, Connection: close, Content-Encoding: gzip, Content-Length: '5345',
+      Content-Security-Policy: frame-ancestors 'self' *.statuskatcrco-631f.kxcdn.com
+        ajax.googleapis.com, Content-Type: text/html; charset=UTF-8, Date: 'Mon, 22
+        Oct 2018 16:43:07 GMT', Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Pragma: no-cache,
+      Referrer-Policy: no-referrer-when-downgrade, Server: Apache/2.4.10, Strict-Transport-Security: max-age=31536000;
+        includeSubDomains; preload, Vary: Accept-Encoding, X-Content-Type-Options: nosniff,
+      X-Frame-Options: SAMEORIGIN, X-XSS-Protection: 1; mode=block}
+    status: {code: 200, message: OK}
+    url: !!python/object/new:yarl.URL
+      state: !!python/tuple
+      - !!python/object/new:urllib.parse.SplitResult [https, katcr.co, /katsearch/page/1/zxcvbnm,
+        '', '']
+version: 1

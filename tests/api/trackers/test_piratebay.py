@@ -22,6 +22,21 @@ class TestPirateBay:
         assert isinstance(search[0], torrent.Torrent)
         assert len(search) > 0
 
+        # AND the results should all have a title
+        for result in search:
+            assert result.name != None
+
+    @pytest.mark.vcr()
+    def test_no_results(self, tracker, event_loop):
+        # GIVEN a tracker
+        # WHEN searching for nonexistant title
+        search = event_loop.run_until_complete(tracker.results('zxcvbnm'))
+
+        # THEN it should return an empty list
+        search = list(search)
+        assert search == []
+        assert len(search) == 0
+
     def test_get_proxy(self, tracker, event_loop):
         proxy = event_loop.run_until_complete(tracker.get_proxy())
         assert isinstance(proxy, str)

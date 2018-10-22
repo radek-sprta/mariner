@@ -113,7 +113,10 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
             search_url = self.search_url.format(proxy=proxy, title=title)
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
-            self.log.error('Cannot reach server at %s', search_url)
+            try:
+                self.log.error('Cannot reach server  %s', search_url)
+            except NameError:
+                self.log.error('Cannot get proxy list')
             return iter([])
         return self._parse(page)
 
