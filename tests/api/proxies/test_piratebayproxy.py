@@ -23,6 +23,13 @@ class TestPirateBayProxy:
             '<td class="status"><img alt="up" src="assets/img/down.png"></td>', 'lxml')
         assert engine._is_online(offline) == False
 
+    def test_no_proxy_list(self, engine, monkeypatch, event_loop):
+        async def no_results(*args, **kwargs):
+            return ''
+        monkeypatch.setattr(piratebay.PirateBayProxy, 'get', no_results)
+        proxy = event_loop.run_until_complete(engine.get_proxy())
+        assert proxy == engine.default_proxy
+
     @pytest.fixture
     def engine(self, monkeypatch):
         """Return PirateBay instance."""

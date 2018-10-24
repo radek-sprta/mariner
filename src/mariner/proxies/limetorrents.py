@@ -6,6 +6,7 @@ from mariner import exceptions, proxyplugin
 
 class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
     """LimeTorrents proxy list."""
+    default_proxy = 'https://limetorrents.info'
     proxy_page_url = 'https://limetorrents-proxy.ga/'
 
     @staticmethod

@@ -41,6 +41,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
             page = await self.get(search_url, cookies=cookie)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
+            return iter([])
         return self._parse(page)
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals

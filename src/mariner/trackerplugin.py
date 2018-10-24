@@ -87,7 +87,6 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     legal = False
 
     search_url = ''  # To be overwritten by subclasses
-    default_proxy = ''  # To be overwritten by subclasses
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()
@@ -108,15 +107,12 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         Args:
             title: String to search for.
         """
+        proxy = await self.get_proxy()
+        search_url = self.search_url.format(proxy=proxy, title=title)
         try:
-            proxy = await self.get_proxy()
-            search_url = self.search_url.format(proxy=proxy, title=title)
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
-            try:
-                self.log.error('Cannot reach server  %s', search_url)
-            except NameError:
-                self.log.error('Cannot get proxy list')
+            self.log.error('Cannot reach server %s', search_url)
             return iter([])
         return self._parse(page)
 

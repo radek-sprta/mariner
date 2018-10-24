@@ -23,6 +23,13 @@ class TestLimeTorrentsProxy:
             '<span class="label label-success">Offline</span>', 'lxml')
         assert engine._is_online(offline) == False
 
+    def test_no_proxy_list(self, engine, monkeypatch, event_loop):
+        async def no_results(*args, **kwargs):
+            return ''
+        monkeypatch.setattr(limetorrents.LimeTorrentsProxy, 'get', no_results)
+        proxy = event_loop.run_until_complete(engine.get_proxy())
+        assert proxy == engine.default_proxy
+
     @pytest.fixture
     def engine(self, monkeypatch):
         """Return LimeTorrents instance."""

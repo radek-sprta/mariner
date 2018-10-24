@@ -6,6 +6,7 @@ from mariner import exceptions, proxyplugin
 
 class PirateBayProxy(proxyplugin.ProxyPlugin):
     """PirateBay proxy list."""
+    default_proxy = 'https://thepiratebay.org'
     proxy_page_url = 'https://proxybay.github.io'
 
     @staticmethod
@@ -19,7 +20,10 @@ class PirateBayProxy(proxyplugin.ProxyPlugin):
             Urls of proxy websites.
         """
         soup = bs4.BeautifulSoup(page, 'lxml')
-        data = soup.select('table')[0].select('tr')[1:]
+        try:
+            data = soup.select('table')[0].select('tr')[1:]
+        except IndexError:
+            raise exceptions.NoProxyAvailable('Cannot get proxy list')
 
         for site in data:
             if PirateBayProxy._is_online(site):
