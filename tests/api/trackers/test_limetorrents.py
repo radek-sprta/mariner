@@ -26,7 +26,6 @@ class TestLimeTorrents:
         for result in search:
             assert result.name != None
 
-    @pytest.mark.xfail(reason='Fails when no proxy is available.')
     @pytest.mark.vcr()
     def test_no_results(self, tracker, event_loop):
         # GIVEN a tracker
