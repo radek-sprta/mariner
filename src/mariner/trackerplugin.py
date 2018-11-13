@@ -23,7 +23,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     """Represent a search engine."""
     log = logging.getLogger(__name__)
     user_agent = {
-        'user-agent': 'Mozilla/5.0 (compatible; Mariner; https://gitlab.com/radek-sprta/mariner)'}
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0'}
     aliases = []  # Aliases for the tracker name
     legal = False
 
@@ -82,9 +82,9 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     """
     log = logging.getLogger(__name__)
     user_agent = {
-        'user-agent': 'Mozilla/5.0 (compatible; Mariner; https://gitlab.com/radek-sprta/mariner)'}
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0'}
     aliases = []  # Aliases for the tracker name
-    legal = False
+    legaL = False
 
     search_url = ''  # To be overwritten by subclasses
 
@@ -112,7 +112,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         try:
             page = await self.get(search_url)
         except (OSError, asyncio.TimeoutError):
-            self.log.error('Cannot reach server %s', search_url)
+            self.log.error('Cannot reach server at %s', search_url)
             return iter([])
         return self._parse(page)
 

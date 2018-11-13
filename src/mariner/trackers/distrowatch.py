@@ -25,7 +25,7 @@ class Distrowatch(trackerplugin.TrackerPlugin):
         try:
             page = await self.get(self.search_url)
         except (OSError, asyncio.TimeoutError):
-            print('Cannot reach server')
+            self.log.error('Cannot reach server at %s', self.search_url)
             return iter([])
         return (t for t in self._parse(page) if title in t.name)
 

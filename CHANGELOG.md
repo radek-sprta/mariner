@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Open multiple torrents at once with the open command.
 
 ### Changed
-- Change user agent to 'Mozilla/5.0 (compatible; Mariner; https://gitlab.com/radek-sprta/mariner)'.
+- Change user agent to Firefox 62 to avoid blocking.
 - Proxy plugins use a fallback, if they cannot get an online proxy.
 
 ### Fixed
