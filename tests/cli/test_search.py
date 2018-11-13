@@ -44,7 +44,6 @@ class TestSearch:
         # THEN the number of results should be equal or lower than the limit
         assert result <= ''.join(expected[:limit + 1])
 
-    @pytest.mark.xfail(reason='Etree returns bogus results, have to fix that first')
     def test_search_legal(self, run):
         # GIVEN a search term
         # WHEN searching for it with --legal flag
@@ -54,7 +53,6 @@ class TestSearch:
         # THEN the results should only come from legal trackers
         expected = \
             '"\x1b[35mID\x1b[0m","\x1b[35mName\x1b[0m","\x1b[35mTracker\x1b[0m","\x1b[35mSeeds\x1b[0m","\x1b[35mSize\x1b[0m","\x1b[35mUploaded\x1b[0m","\x1b[35mAvailable as\x1b[0m"\n' \
-            '0,"\x1b[33mgd1988-09-30.142152.UltraMatrix.cm.sbd.miller.flac16\x1b[0m","Etree","\x1b[32m58\x1b[0m","782.43 MB","2018-06-08","Torrent"\n' \
-            '1,"\x1b[33mgd1987-08-23.142157.UltraMatrix.sbd.bm.miller.flac16\x1b[0m","Etree","\x1b[32m56\x1b[0m","803.59 MB","2018-06-08","Torrent"\n' \
-            '2,"\x1b[33mgd1987-04-19.142134.UltraMatrix.sbd.cm.miller.flac16\x1b[0m","Etree","\x1b[32m55\x1b[0m","866.96 MB","2018-06-04","Torrent"\n'
+            '0,"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n' \
+            '1,"\x1b[33mPlan 9 from Outer Space (1958)\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n2,"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n'
         assert result == expected

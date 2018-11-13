@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fix getting results from multipage PirateBay results.
 - No Nyaa results should have None for title anymore.
 - Distrowatch, Limetorrents and TPB should no longer throw error when returning no results.
+- Fix Etree search.
 
 ## [1.2.0] - 2018-06-20
 ### Added

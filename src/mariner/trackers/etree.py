@@ -11,7 +11,7 @@ from mariner import torrent, trackerplugin
 class Etree(trackerplugin.TrackerPlugin):
     """Represents Etree search engine."""
 
-    search_url = 'http://bt.etree.org/?searchzz={title}'
+    search_url = 'https://bt.etree.org/?searchzzzz={title}'
     legal = True
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
