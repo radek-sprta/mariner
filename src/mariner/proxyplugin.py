@@ -13,13 +13,13 @@ Url = str
 
 class ProxyMeta(abc.ABCMeta, type):
     """Metaclass to check that ProxyList plugins override proxy_page_url."""
-    def __new__(mcs, name, bases, namespace, **kwargs):
+    def __new__(cls, name, bases, namespace, **kwargs):
         if abc.ABC not in bases:
             if not namespace.get('default_proxy'):
                 raise exceptions.PluginError('You must define default_proxy')
             if not namespace.get('proxy_page_url'):
                 raise exceptions.PluginError('You must define proxy_page_url')
-        return type.__new__(mcs, name, bases, namespace)
+        return type.__new__(cls, name, bases, namespace)
 
 
 class ProxyPlugin(mixins.GetPageMixin, abc.ABC, metaclass=ProxyMeta):

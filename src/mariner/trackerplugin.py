@@ -12,11 +12,11 @@ Page = str
 
 class TrackerMeta(abc.ABCMeta, type):
     """Metaclass to check that Tracker plugins override search_url."""
-    def __new__(mcs, name, bases, namespace, **kwargs):
+    def __new__(cls, name, bases, namespace, **kwargs):
         if abc.ABC not in bases:
             if not namespace.get('search_url'):
                 raise exceptions.PluginError('You must define search_url')
-        return type.__new__(mcs, name, bases, namespace)
+        return type.__new__(cls, name, bases, namespace)
 
 
 class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):

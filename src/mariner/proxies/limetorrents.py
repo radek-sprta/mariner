@@ -42,4 +42,4 @@ class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
         Returns:
             True if site is listed online."""
         status = soup.select('span.label')[0].string
-        return True if 'Online' in status else False
+        return 'Online' in status

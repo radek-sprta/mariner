@@ -41,4 +41,4 @@ class PirateBayProxy(proxyplugin.ProxyPlugin):
         Returns:
             True if site is listed online."""
         status = soup.select('td.status')[0].img.get('src')
-        return True if 'up' in status else False
+        return 'up' in status

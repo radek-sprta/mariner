@@ -43,12 +43,11 @@ class Config(command.Command):
         if key in dict_:
             dict_[key] = value
             return
-        else:
-            # Otherwise, recursively look for the key
-            for c in dict_.values():
-                if not isinstance(c, dict):
-                    continue
-                Config._update_dict(c, key, value)
+        # Otherwise, recursively look for the key
+        for c in dict_.values():
+            if not isinstance(c, dict):
+                continue
+            Config._update_dict(c, key, value)
         # If the key is not there, raise an error
         raise exceptions.InputError('Wrong configuration option')
 
