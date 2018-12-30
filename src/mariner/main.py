@@ -47,7 +47,7 @@ class Mariner(app.App):
                             '-c',
                             action='store',
                             default=None,
-                            help='Speficy the configuration file. Default ~/.config/mariner/config.yaml',
+                            help='Path to config file. Default ~/.config/mariner/config.yaml',
                             )
         return parser
 

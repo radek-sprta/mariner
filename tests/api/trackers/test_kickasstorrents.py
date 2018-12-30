@@ -14,6 +14,7 @@ class TestKickAssTorrents:
 
     # FIXME vcr does not work with cookies
     #@pytest.mark.vcr()
+    @pytest.mark.xfail(reason='Some kind of connectin limit makes the test randomly fail.')
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it
