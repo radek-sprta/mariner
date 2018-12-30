@@ -64,98 +64,98 @@ interactions:
         Mirror</a></p>\n          <p style=\"text-align:left;font-weight:200\" id=\"dateText\">The
         list was last updated on <span id=\"statusDate\">Wed Feb 21 23:01:46 UTC 2018</span></p>\n
         \         <div id=\"social\"></div>\n      </div>\n      <table id=\"proxyList\"><thead><tr><th>Site</th><th>Country</th><th>Status</th><th>Speed</th><th>Report</th></tr></thead>\n<script
-        type='text/javascript'>document.getElementById('statusDate').innerHTML='Sat
-        Dec 29 13:01:59 UTC 2018';</script>\n<tr><td class=\"site\"><a rel=\"nofollow\"
+        type='text/javascript'>document.getElementById('statusDate').innerHTML='Sun
+        Dec 30 11:01:49 UTC 2018';</script>\n<tr><td class=\"site\"><a rel=\"nofollow\"
         class=\"t1\" href=\"https://pirateproxy.app\">pirateproxy.app</a></td><td
         class=\"country\"><img src=\"assets/img/flags/uk.gif\" alt=\"uk\" title=\"uk\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.136</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.112</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('pirateproxy.app')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb.ukpass.co\">ukpass.co</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.045</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.002</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('ukpass.co')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.vip\">thepiratebay.vip</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.084</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.026</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('thepiratebay.vip')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t2\"
         href=\"https://theproxybay.net\">theproxybay.net</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.195</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('theproxybay.net')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.gdn\">thepiratebay.gdn</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.651</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.695</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('thepiratebay.gdn')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t2\"
         href=\"https://proxybay.ga\">proxybay.ga</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.049</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.950</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('proxybay.ga')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t2\" href=\"https://thepiratebay.tips\">thepiratebay.tips</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.249</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.761</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('thepiratebay.tips')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
         href=\"https://thepiratebay-org.prox.icu\">prox.icu</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.956</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.909</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('prox.icu')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.myunblock.com\">myunblock.com</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.935</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.912</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('myunblock.com')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://pirateproxy.life\">pirateproxy.life</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.860</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.726</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('pirateproxy.life')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
         href=\"https://piratebae.co.uk\">piratebae.co.uk</a></td><td class=\"country\"><img
         src=\"assets/img/flags/gb.gif\" alt=\"gb\" title=\"gb\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.223</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.207</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('piratebae.co.uk')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t2\" href=\"https://thepiratebay.berhampore-gateway.ml\">berhampore-gateway.ml</a></td><td
         class=\"country\"><img src=\"assets/img/flags/in.gif\" alt=\"in\" title=\"in\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.292</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.283</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('berhampore-gateway.ml')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
         href=\"https://ikwilthepiratebay.org\">ikwilthepiratebay.org</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.608</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.724</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('ikwilthepiratebay.org')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
         href=\"https://piratebayblocked.com\">piratebayblocked.com</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.149</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.165</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('piratebayblocked.com')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
         href=\"https://thepiratebay.unblockthe.net\">unblockthe.net</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.523</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.792</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('unblockthe.net')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://cruzing.xyz\">cruzing.xyz</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.194</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.207</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('cruzing.xyz')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://esxrewbxj65niv2s.onion.ly/\">onion.ly</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.734</td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.666</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('onion.ly')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
         class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"http://tpb.host4free.org\">host4free.org</a></td><td
@@ -176,7 +176,7 @@ interactions:
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
         href=\"https://bayfortaiwan.online\">bayfortaiwan.online</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.262</td><td
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">2.113</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('bayfortaiwan.online')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n</table>\n    </div>\n    <div id=\"feedbackContainer\"
@@ -221,14 +221,43 @@ interactions:
         for setting up a simple proxy (using a PHP script) and advanced method using
         NGINX as a reverse proxy. See the instructions <a href=\"setup.html\" title=\"Set
         up your own proxy\">here</a></p>\n      </div>\n    </div>\n  </div>\n</body>\n</html>\n"}
-    headers: {Accept-Ranges: bytes, Access-Control-Allow-Origin: '*', Age: '509',
-      Cache-Control: max-age=600, Connection: keep-alive, Content-Encoding: gzip,
-      Content-Length: '3232', Content-Type: text/html; charset=utf-8, Date: 'Sat,
-        29 Dec 2018 14:16:58 GMT', ETag: W/"5c27706e-451b", Expires: 'Sat, 29 Dec
-        2018 13:12:51 GMT', Last-Modified: 'Sat, 29 Dec 2018 13:02:38 GMT', Server: GitHub.com,
-      Vary: Accept-Encoding, Via: 1.1 varnish, X-Cache: HIT, X-Cache-Hits: '1', X-Fastly-Request-ID: 37597ae4b3d61612d749dd4cb92329cabd82bbd1,
-      X-GitHub-Request-Id: 'A154:4FEB:3D71A2D:50C4019:5C27707A', X-Served-By: cache-hhn1534-HHN,
-      X-Timer: 'S1546093018.102839,VS0,VE14'}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Accept-Ranges]
+      : bytes
+      ? !!python/object/new:multidict._istr.istr [Access-Control-Allow-Origin]
+      : '*'
+      ? !!python/object/new:multidict._istr.istr [Age]
+      : '120'
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : max-age=600
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Length]
+      : '3226'
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=utf-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:16 GMT
+      ? !!python/object/new:multidict._istr.istr [Etag]
+      : W/"5c28a5c6-4519"
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Sun, 30 Dec 2018 11:12:41 GMT
+      ? !!python/object/new:multidict._istr.istr [Last-Modified]
+      : Sun, 30 Dec 2018 11:02:30 GMT
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : GitHub.com
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
+      ? !!python/object/new:multidict._istr.istr [Via]
+      : 1.1 varnish
+      X-Cache: HIT
+      X-Cache-Hits: '1'
+      X-Fastly-Request-ID: 77ab197f0ea25d57a494e336e112b60ca9448cdc
+      X-GitHub-Request-Id: 36B8:4FEB:3F7943D:5367EAF:5C28A5D1
+      X-Served-By: cache-hhn1544-HHN
+      X-Timer: S1546170076.142234,VS0,VE0
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple
@@ -236,7 +265,8 @@ interactions:
         '', '']
 - request:
     body: null
-    headers: {}
+    headers:
+      user-agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
     uri: https://pirateproxy.app/search/ubuntu
   response:
@@ -355,8 +385,8 @@ interactions:
         alt=\"This torrent has 2 comments.\" title=\"This torrent has 2 comments.\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         07-13&nbsp;16:41, Size 1.04&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/tuts756/\"
-        title=\"Browse tuts756\">tuts756</a></font>\n\t\t</td>\n\t\t<td align=\"right\">35</td>\n\t\t<td
-        align=\"right\">1</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        title=\"Browse tuts756\">tuts756</a></font>\n\t\t</td>\n\t\t<td align=\"right\">26</td>\n\t\t<td
+        align=\"right\">4</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
         href=\"/browse/208\" title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/27378352/Aerial_Africa_Series_1_2of6_Spirit_of_Ubuntu_1080p_x264_AAC_HDTV\"
@@ -368,21 +398,22 @@ interactions:
         alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         />\n\t\t\t<font class=\"detDesc\">Uploaded 12-15&nbsp;12:34, Size 1.5&nbsp;GiB,
         ULed by <a class=\"detDesc\" href=\"/user/MVGroup/\" title=\"Browse MVGroup\">MVGroup</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">23</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
-        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
-        title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/25120275/Ubuntu_18.04.1_Desktop_64_bit\"
-        class=\"detLink\" title=\"Details for Ubuntu 18.04.1 Desktop 64 bit\">Ubuntu
-        18.04.1 Desktop 64 bit</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:e84213a794f3ccd890382a54a64ca68b7e925433&dn=Ubuntu+18.04.1+Desktop+64+bit&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        align=\"right\">24</td>\n\t\t<td align=\"right\">5</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
+        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/601\" title=\"More
+        from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/24207898/A_Practical_Guide_to_Ubuntu_Linux__3rd_Edition_(PDF)\"
+        class=\"detLink\" title=\"Details for A Practical Guide to Ubuntu Linux, 3rd
+        Edition (PDF)\">A Practical Guide to Ubuntu Linux, 3rd Edition (PDF)</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:7c65e0559714eaba85f078e0aadd0c01b62aeacf&dn=A+Practical+Guide+to+Ubuntu+Linux%2C+3rd+Edition+%28PDF%29&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
         title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
         alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        09-24&nbsp;11:32, Size 1.82&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">22</td>\n\t\t<td align=\"right\">5</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
-        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
-        title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        08-12&nbsp;21:56, Size 77.01&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/bookflare/\"
+        title=\"Browse bookflare\">bookflare</a></font>\n\t\t</td>\n\t\t<td align=\"right\">20</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/15496322/Ubuntu_16.04.1_LTS_Desktop_64-bit\"
         class=\"detLink\" title=\"Details for Ubuntu 16.04.1 LTS Desktop 64-bit\">Ubuntu
         16.04.1 LTS Desktop 64-bit</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:9f9165d9a281a9b8e782cd5176bbcc8256fd1871&dn=Ubuntu+16.04.1+LTS+Desktop+64-bit&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
@@ -391,7 +422,7 @@ interactions:
         alt=\"This torrent has 2 comments.\" title=\"This torrent has 2 comments.\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         08-06&nbsp;2016, Size 1.41&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/SeuPirate/\"
-        title=\"Browse SeuPirate\">SeuPirate</a></font>\n\t\t</td>\n\t\t<td align=\"right\">20</td>\n\t\t<td
+        title=\"Browse SeuPirate\">SeuPirate</a></font>\n\t\t</td>\n\t\t<td align=\"right\">19</td>\n\t\t<td
         align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/300\" title=\"More from this category\">Applications</a><br
         />\n\t\t\t\t(<a href=\"/browse/301\" title=\"More from this category\">Windows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
@@ -403,31 +434,33 @@ interactions:
         alt=\"This torrent has 1 comments.\" title=\"This torrent has 1 comments.\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         08-01&nbsp;2017, Size 1.5&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/spyder86/\"
-        title=\"Browse spyder86\">spyder86</a></font>\n\t\t</td>\n\t\t<td align=\"right\">18</td>\n\t\t<td
-        align=\"right\">3</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        title=\"Browse spyder86\">spyder86</a></font>\n\t\t</td>\n\t\t<td align=\"right\">19</td>\n\t\t<td
+        align=\"right\">2</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
-        href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/24207898/A_Practical_Guide_to_Ubuntu_Linux__3rd_Edition_(PDF)\"
-        class=\"detLink\" title=\"Details for A Practical Guide to Ubuntu Linux, 3rd
-        Edition (PDF)\">A Practical Guide to Ubuntu Linux, 3rd Edition (PDF)</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:7c65e0559714eaba85f078e0aadd0c01b62aeacf&dn=A+Practical+Guide+to+Ubuntu+Linux%2C+3rd+Edition+%28PDF%29&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        08-12&nbsp;21:56, Size 77.01&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/bookflare/\"
-        title=\"Browse bookflare\">bookflare</a></font>\n\t\t</td>\n\t\t<td align=\"right\">17</td>\n\t\t<td
-        align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
-        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/17809088/ubuntu-17.04-desktop-amd64.iso\"
-        class=\"detLink\" title=\"Details for ubuntu-17.04-desktop-amd64.iso\">ubuntu-17.04-desktop-amd64.iso</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:59066769b9ad42da2e508611c33d7c4480b3857b&dn=ubuntu-17.04-desktop-amd64.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        href=\"/browse/699\" title=\"More from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/14431396/Udemy_-_Ubuntu_Linux_-_Go_from_Beginner_to_Power_User\"
+        class=\"detLink\" title=\"Details for Udemy - Ubuntu Linux - Go from Beginner
+        to Power User\">Udemy - Ubuntu Linux - Go from Beginner to Power User</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:5f90af9933d5613520487fafbaae79f91d1711ed&dn=Udemy+-+Ubuntu+Linux+-+Go+from+Beginner+to+Power+User&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
         title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
         alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
         alt=\"This torrent has 1 comments.\" title=\"This torrent has 1 comments.\"
+        /><a href=\"/user/Horisarte\"><img src=\"//pirateproxy.app/static/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
+        class=\"detDesc\">Uploaded 04-25&nbsp;2016, Size 2.43&nbsp;GiB, ULed by <a
+        class=\"detDesc\" href=\"/user/Horisarte/\" title=\"Browse Horisarte\">Horisarte</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">15</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
+        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
+        title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/25120275/Ubuntu_18.04.1_Desktop_64_bit\"
+        class=\"detLink\" title=\"Details for Ubuntu 18.04.1 Desktop 64 bit\">Ubuntu
+        18.04.1 Desktop 64 bit</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:e84213a794f3ccd890382a54a64ca68b7e925433&dn=Ubuntu+18.04.1+Desktop+64+bit&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        05-18&nbsp;2017, Size 1.5&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">16</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        09-24&nbsp;11:32, Size 1.82&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">15</td>\n\t\t<td align=\"right\">4</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
         class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
         from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/299\" title=\"More
         from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
@@ -441,44 +474,19 @@ interactions:
         alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
         class=\"detDesc\">Uploaded 03-01&nbsp;2014, Size 810.69&nbsp;MiB, ULed by
         <a class=\"detDesc\" href=\"/user/NepsterJay/\" title=\"Browse NepsterJay\">NepsterJay</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">13</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
-        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/699\" title=\"More
-        from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/14431396/Udemy_-_Ubuntu_Linux_-_Go_from_Beginner_to_Power_User\"
-        class=\"detLink\" title=\"Details for Udemy - Ubuntu Linux - Go from Beginner
-        to Power User\">Udemy - Ubuntu Linux - Go from Beginner to Power User</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:5f90af9933d5613520487fafbaae79f91d1711ed&dn=Udemy+-+Ubuntu+Linux+-+Go+from+Beginner+to+Power+User&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        align=\"right\">13</td>\n\t\t<td align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
+        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
+        title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/17809088/ubuntu-17.04-desktop-amd64.iso\"
+        class=\"detLink\" title=\"Details for ubuntu-17.04-desktop-amd64.iso\">ubuntu-17.04-desktop-amd64.iso</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:59066769b9ad42da2e508611c33d7c4480b3857b&dn=ubuntu-17.04-desktop-amd64.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
         title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
         alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
         alt=\"This torrent has 1 comments.\" title=\"This torrent has 1 comments.\"
-        /><a href=\"/user/Horisarte\"><img src=\"//pirateproxy.app/static/img/vip.gif\"
-        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
-        class=\"detDesc\">Uploaded 04-25&nbsp;2016, Size 2.43&nbsp;GiB, ULed by <a
-        class=\"detDesc\" href=\"/user/Horisarte/\" title=\"Browse Horisarte\">Horisarte</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">12</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
-        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/699\" title=\"More
-        from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/24124986/Lynda_-__Learning_Ubuntu_Desktop\"
-        class=\"detLink\" title=\"Details for Lynda -  Learning Ubuntu Desktop\">Lynda
-        -  Learning Ubuntu Desktop</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:64f82e718f1ca599fcc7b2931b45a9ea7104e032&dn=Lynda+-++Learning+Ubuntu+Desktop&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        08-10&nbsp;11:49, Size 523.75&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/xHOBBiTx/\"
-        title=\"Browse xHOBBiTx\">xHOBBiTx</a></font>\n\t\t</td>\n\t\t<td align=\"right\">12</td>\n\t\t<td
-        align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
-        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/11274073/Ubuntu_14.10_desktop__x64\"
-        class=\"detLink\" title=\"Details for Ubuntu 14.10 desktop  x64\">Ubuntu 14.10
-        desktop  x64</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:b415c913643e5ff49fe37d304bbb5e6e11ad5101&dn=Ubuntu+14.10+desktop++x64&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        10-24&nbsp;2014, Size 1.08&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">11</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        05-18&nbsp;2017, Size 1.5&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">13</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
         class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
         from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
         title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
@@ -489,8 +497,30 @@ interactions:
         alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         11-17&nbsp;2008, Size 1.94&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/dark240293/\"
-        title=\"Browse dark240293\">dark240293</a></font>\n\t\t</td>\n\t\t<td align=\"right\">9</td>\n\t\t<td
-        align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        title=\"Browse dark240293\">dark240293</a></font>\n\t\t</td>\n\t\t<td align=\"right\">10</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/11274073/Ubuntu_14.10_desktop__x64\"
+        class=\"detLink\" title=\"Details for Ubuntu 14.10 desktop  x64\">Ubuntu 14.10
+        desktop  x64</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:b415c913643e5ff49fe37d304bbb5e6e11ad5101&dn=Ubuntu+14.10+desktop++x64&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        10-24&nbsp;2014, Size 1.08&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">10</td>\n\t\t<td align=\"right\">1</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
+        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/699\" title=\"More
+        from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/24124986/Lynda_-__Learning_Ubuntu_Desktop\"
+        class=\"detLink\" title=\"Details for Lynda -  Learning Ubuntu Desktop\">Lynda
+        -  Learning Ubuntu Desktop</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:64f82e718f1ca599fcc7b2931b45a9ea7104e032&dn=Lynda+-++Learning+Ubuntu+Desktop&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        08-10&nbsp;11:49, Size 523.75&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/xHOBBiTx/\"
+        title=\"Browse xHOBBiTx\">xHOBBiTx</a></font>\n\t\t</td>\n\t\t<td align=\"right\">10</td>\n\t\t<td
+        align=\"right\">2</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
         href=\"/browse/204\" title=\"More from this category\">Movie clips</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/8846062/CBT_Nuggets_-_Ubuntu\"
@@ -503,10 +533,57 @@ interactions:
         alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
         class=\"detDesc\">Uploaded 08-25&nbsp;2013, Size 1.91&nbsp;GiB, ULed by <a
         class=\"detDesc\" href=\"/user/y7/\" title=\"Browse y7\">y7</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">8</td>\n\t\t<td align=\"right\">2</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
-        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
-        title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        align=\"right\">6</td>\n\t\t<td align=\"right\">1</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
+        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/601\" title=\"More
+        from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/19624104/Ubuntu_Server_Essentials_-_6685_[ECLiPSE]\"
+        class=\"detLink\" title=\"Details for Ubuntu Server Essentials - 6685 [ECLiPSE]\">Ubuntu
+        Server Essentials - 6685 [ECLiPSE]</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:93ef55c5e147bc107310bc81a0add74707e290f7&dn=Ubuntu+Server+Essentials+-+6685+%5BECLiPSE%5D&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        01-11&nbsp;05:17, Size 3.6&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/samcode4u/\"
+        title=\"Browse samcode4u\">samcode4u</a></font>\n\t\t</td>\n\t\t<td align=\"right\">6</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/7218806/Ubuntu-12.04-desktop-i386.iso\"
+        class=\"detLink\" title=\"Details for Ubuntu-12.04-desktop-i386.iso\">Ubuntu-12.04-desktop-i386.iso</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:bbb6db69965af769f664b6636e7914f8735141b3&dn=Ubuntu-12.04-desktop-i386.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 6 comments.\" title=\"This torrent has 6 comments.\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        04-26&nbsp;2012, Size 701.29&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/suryamukhi/\"
+        title=\"Browse suryamukhi\">suryamukhi</a></font>\n\t\t</td>\n\t\t<td align=\"right\">5</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/9983918/Ubuntu_Server_14.04_LTS_64-bit\"
+        class=\"detLink\" title=\"Details for Ubuntu Server 14.04 LTS 64-bit\">Ubuntu
+        Server 14.04 LTS 64-bit</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:757b25d9681d493167b8d3759dbfddc983e80646&dn=Ubuntu+Server+14.04+LTS+64-bit&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 1 comments.\" title=\"This torrent has 1 comments.\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        04-17&nbsp;2014, Size 564&nbsp;MiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">5</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
+        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/601\" title=\"More
+        from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/11365849/The_Official_Ubuntu_Server_Book_3rd_Edition(2013)pdf\"
+        class=\"detLink\" title=\"Details for The Official Ubuntu Server Book 3rd
+        Edition(2013)pdf\">The Official Ubuntu Server Book 3rd Edition(2013)pdf</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:d297c0c2c18afd613bd1e7c28b83fdd003e38c86&dn=The+Official+Ubuntu+Server+Book+3rd+Edition%282013%29pdf&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        11-03&nbsp;2014, Size 19.32&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/eboneezer/\"
+        title=\"Browse eboneezer\">eboneezer</a></font>\n\t\t</td>\n\t\t<td align=\"right\">5</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/14385197/Ubuntu_16.04_LTS_[Linux_i386_amd64]_[TNT_Village]\"
         class=\"detLink\" title=\"Details for Ubuntu 16.04 LTS [Linux i386/amd64]
         [TNT Village]\">Ubuntu 16.04 LTS [Linux i386/amd64] [TNT Village]</a>\n</div>\n<a
@@ -515,8 +592,45 @@ interactions:
         alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         04-21&nbsp;2016, Size 2.78&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/ab_760/\"
-        title=\"Browse ab_760\">ab_760</a></font>\n\t\t</td>\n\t\t<td align=\"right\">7</td>\n\t\t<td
+        title=\"Browse ab_760\">ab_760</a></font>\n\t\t</td>\n\t\t<td align=\"right\">5</td>\n\t\t<td
+        align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/399\" title=\"More from this category\">Other
+        OS</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div class=\"detName\">\t\t\t<a
+        href=\"/torrent/5140002/ubuntu-9.10-desktop-i386.iso\" class=\"detLink\" title=\"Details
+        for ubuntu-9.10-desktop-i386.iso\">ubuntu-9.10-desktop-i386.iso</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:98c5c361d0be5f2a07ea8fa5052e5aa48097e7f6&dn=ubuntu-9.10-desktop-i386.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 13 comments.\" title=\"This torrent has 13 comments.\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        10-29&nbsp;2009, Size 689.97&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/nikonoel/\"
+        title=\"Browse nikonoel\">nikonoel</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
+        href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/7234724/A.PRACTICAL.GUIDE.TO.UBUNTU.LINUX.3rd.EDITION.EBOOK.PAPU\"
+        class=\"detLink\" title=\"Details for A.PRACTICAL.GUIDE.TO.UBUNTU.LINUX.3rd.EDITION.EBOOK.PAPU\">A.PRACTICAL.GUIDE.TO.UBUNTU.LINUX.3rd.EDITION.EBOOK.PAPU</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:ea5dc64a24c7a98e9b57f433b898b8caac6c1b4c&dn=A.PRACTICAL.GUIDE.TO.UBUNTU.LINUX.3rd.EDITION.EBOOK.PAPU&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 2 comments.\" title=\"This torrent has 2 comments.\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        05-02&nbsp;2012, Size 56.72&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/suddhaman/\"
+        title=\"Browse suddhaman\">suddhaman</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
         align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/9059448/Ubuntu_13.10_Desktop_Live_ISO_i386\"
+        class=\"detLink\" title=\"Details for Ubuntu 13.10 Desktop Live ISO i386\">Ubuntu
+        13.10 Desktop Live ISO i386</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:597a92f6eeed29e6028b70b416c847e51ba76c38&dn=Ubuntu+13.10+Desktop+Live+ISO+i386&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 3 comments.\" title=\"This torrent has 3 comments.\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        10-17&nbsp;2013, Size 895&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/Plan9x128/\"
+        title=\"Browse Plan9x128\">Plan9x128</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
         href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/18259238/Ubuntu_Unleashed_2017_Edition__12th_Edition_by_Matthew_Helmke_-_\"
@@ -530,33 +644,10 @@ interactions:
         alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
         class=\"detDesc\">Uploaded 07-31&nbsp;2017, Size 85.48&nbsp;MiB, ULed by <a
         class=\"detDesc\" href=\"/user/zeke23/\" title=\"Browse zeke23\">zeke23</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">7</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        align=\"right\">4</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
         class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
         from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
         title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/9983918/Ubuntu_Server_14.04_LTS_64-bit\"
-        class=\"detLink\" title=\"Details for Ubuntu Server 14.04 LTS 64-bit\">Ubuntu
-        Server 14.04 LTS 64-bit</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:757b25d9681d493167b8d3759dbfddc983e80646&dn=Ubuntu+Server+14.04+LTS+64-bit&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
-        alt=\"This torrent has 1 comments.\" title=\"This torrent has 1 comments.\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        04-17&nbsp;2014, Size 564&nbsp;MiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">5</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/600\" title=\"More
-        from this category\">Other</a><br />\n\t\t\t\t(<a href=\"/browse/601\" title=\"More
-        from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/19624104/Ubuntu_Server_Essentials_-_6685_[ECLiPSE]\"
-        class=\"detLink\" title=\"Details for Ubuntu Server Essentials - 6685 [ECLiPSE]\">Ubuntu
-        Server Essentials - 6685 [ECLiPSE]</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:93ef55c5e147bc107310bc81a0add74707e290f7&dn=Ubuntu+Server+Essentials+-+6685+%5BECLiPSE%5D&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        01-11&nbsp;05:17, Size 3.6&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/samcode4u/\"
-        title=\"Browse samcode4u\">samcode4u</a></font>\n\t\t</td>\n\t\t<td align=\"right\">5</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
-        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/25120296/Ubuntu_18.04.1_Server_64_bit\"
         class=\"detLink\" title=\"Details for Ubuntu 18.04.1 Server 64 bit\">Ubuntu
         18.04.1 Server 64 bit</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:9635cabd201a92fda5d6c70d35cbfb707e290589&dn=Ubuntu+18.04.1+Server+64+bit&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
@@ -564,94 +655,7 @@ interactions:
         alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         09-24&nbsp;11:35, Size 812&nbsp;MiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">5</td>\n\t\t<td align=\"right\">2</td>\n\t</tr>\n\t<tr>\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
-        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/399\"
-        title=\"More from this category\">Other OS</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/5140002/ubuntu-9.10-desktop-i386.iso\"
-        class=\"detLink\" title=\"Details for ubuntu-9.10-desktop-i386.iso\">ubuntu-9.10-desktop-i386.iso</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:98c5c361d0be5f2a07ea8fa5052e5aa48097e7f6&dn=ubuntu-9.10-desktop-i386.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
-        alt=\"This torrent has 13 comments.\" title=\"This torrent has 13 comments.\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        10-29&nbsp;2009, Size 689.97&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/nikonoel/\"
-        title=\"Browse nikonoel\">nikonoel</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
-        href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/11365849/The_Official_Ubuntu_Server_Book_3rd_Edition(2013)pdf\"
-        class=\"detLink\" title=\"Details for The Official Ubuntu Server Book 3rd
-        Edition(2013)pdf\">The Official Ubuntu Server Book 3rd Edition(2013)pdf</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:d297c0c2c18afd613bd1e7c28b83fdd003e38c86&dn=The+Official+Ubuntu+Server+Book+3rd+Edition%282013%29pdf&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        11-03&nbsp;2014, Size 19.32&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/eboneezer/\"
-        title=\"Browse eboneezer\">eboneezer</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
-        href=\"/browse/299\" title=\"More from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/12303404/Udemy_-_Ubuntu_Linux_Server_Troubleshooting\"
-        class=\"detLink\" title=\"Details for Udemy - Ubuntu Linux Server Troubleshooting\">Udemy
-        - Ubuntu Linux Server Troubleshooting</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:01c666cf5796f22414ca08f50404ba0d0fe6b814&dn=Udemy+-+Ubuntu+Linux+Server+Troubleshooting&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><a href=\"/user/The_Abee\"><img src=\"//pirateproxy.app/static/img/trusted.png\"
-        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a><img
-        src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        08-28&nbsp;2015, Size 1.37&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/The_Abee/\"
-        title=\"Browse The_Abee\">The_Abee</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
-        align=\"right\">2</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
-        href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/16579069/Linux._Biblia._Ubuntu__Fedora__Debian_i_15_innych_dystrybucji\"
-        class=\"detLink\" title=\"Details for Linux. Biblia. Ubuntu, Fedora, Debian
-        i 15 innych dystrybucji\">Linux. Biblia. Ubuntu, Fedora, Debian i 15 innych
-        dystrybucji</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:f38cb9b8c5c5e10f8dfdea317d2b67c0d94dcefe&dn=Linux.+Biblia.+Ubuntu%2C+Fedora%2C+Debian+i+15+innych+dystrybucji&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        12-23&nbsp;2016, Size 22.71&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/BanchMon2/\"
-        title=\"Browse BanchMon2\">BanchMon2</a></font>\n\t\t</td>\n\t\t<td align=\"right\">4</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
-        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/4476718/ubuntu-8.10-desktop-i386.iso\"
-        class=\"detLink\" title=\"Details for ubuntu-8.10-desktop-i386.iso\">ubuntu-8.10-desktop-i386.iso</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:33820db6dd5e5928d23bc811bbac2f4ae94cb882&dn=ubuntu-8.10-desktop-i386.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
-        alt=\"This torrent has 19 comments.\" title=\"This torrent has 19 comments.\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        10-30&nbsp;2008, Size 698.82&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/anders44311/\"
-        title=\"Browse anders44311\">anders44311</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
-        href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/6172889/The_Official_Ubuntu_Server_Book_-_2nd_Edition_-_July_2010\"
-        class=\"detLink\" title=\"Details for The Official Ubuntu Server Book - 2nd
-        Edition - July 2010\">The Official Ubuntu Server Book - 2nd Edition - July
-        2010</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:7e6d5810517d86fac2b1f36607da678b688e6550&dn=The+Official+Ubuntu+Server+Book+-+2nd+Edition+-+July+2010&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
-        alt=\"This torrent has 3 comments.\" title=\"This torrent has 3 comments.\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        02-14&nbsp;2011, Size 5.14&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/TSRloader/\"
-        title=\"Browse TSRloader\">TSRloader</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
-        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/6489408/Ubuntu_11.04_Desktop_dvd_amd64_(x64)_.iso\"
-        class=\"detLink\" title=\"Details for Ubuntu 11.04 Desktop dvd amd64 (x64)
-        .iso\">Ubuntu 11.04 Desktop dvd amd64 (x64) .iso</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:e8b7331a45924868f8a1720fb5da9c4ea9d4fba8&dn=Ubuntu+11.04+Desktop+dvd+amd64+%28x64%29+.iso&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
-        alt=\"This torrent has 3 comments.\" title=\"This torrent has 3 comments.\"
-        /><a href=\"/user/L3G3ND\"><img src=\"//pirateproxy.app/static/img/trusted.png\"
-        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
-        class=\"detDesc\">Uploaded 06-23&nbsp;2011, Size 698.2&nbsp;MiB, ULed by <a
-        class=\"detDesc\" href=\"/user/L3G3ND/\" title=\"Browse L3G3ND\">L3G3ND</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">3</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        align=\"right\">4</td>\n\t\t<td align=\"right\">2</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
         class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
         from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/303\"
         title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
@@ -665,6 +669,45 @@ interactions:
         04-25&nbsp;2013, Size 794&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/markuzmx/\"
         title=\"Browse markuzmx\">markuzmx</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
         align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
+        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/11887231/Ubuntu_15.04_Desktop_Amd64__[Iso_-_MultiLang]_[TNTVillage]\"
+        class=\"detLink\" title=\"Details for Ubuntu 15.04 Desktop Amd64, [Iso - MultiLang]
+        [TNTVillage]\">Ubuntu 15.04 Desktop Amd64, [Iso - MultiLang] [TNTVillage]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:fc8a15a2faf2734dbb1dc5f7afdc5c9beaeb1f59&dn=Ubuntu+15.04+Desktop+Amd64%2C+%5BIso+-+MultiLang%5D+%5BTNTVillage%5D&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 1 comments.\" title=\"This torrent has 1 comments.\"
+        /><a href=\"/user/mykons\"><img src=\"//pirateproxy.app/static/img/trusted.png\"
+        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
+        class=\"detDesc\">Uploaded 05-05&nbsp;2015, Size 1.07&nbsp;GiB, ULed by <a
+        class=\"detDesc\" href=\"/user/mykons/\" title=\"Browse mykons\">mykons</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">3</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/299\" title=\"More
+        from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12303404/Udemy_-_Ubuntu_Linux_Server_Troubleshooting\"
+        class=\"detLink\" title=\"Details for Udemy - Ubuntu Linux Server Troubleshooting\">Udemy
+        - Ubuntu Linux Server Troubleshooting</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:01c666cf5796f22414ca08f50404ba0d0fe6b814&dn=Udemy+-+Ubuntu+Linux+Server+Troubleshooting&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/The_Abee\"><img src=\"//pirateproxy.app/static/img/trusted.png\"
+        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a><img
+        src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        08-28&nbsp;2015, Size 1.37&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/The_Abee/\"
+        title=\"Browse The_Abee\">The_Abee</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
+        href=\"/browse/601\" title=\"More from this category\">E-books</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/16579069/Linux._Biblia._Ubuntu__Fedora__Debian_i_15_innych_dystrybucji\"
+        class=\"detLink\" title=\"Details for Linux. Biblia. Ubuntu, Fedora, Debian
+        i 15 innych dystrybucji\">Linux. Biblia. Ubuntu, Fedora, Debian i 15 innych
+        dystrybucji</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:f38cb9b8c5c5e10f8dfdea317d2b67c0d94dcefe&dn=Linux.+Biblia.+Ubuntu%2C+Fedora%2C+Debian+i+15+innych+dystrybucji&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        12-23&nbsp;2016, Size 22.71&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/BanchMon2/\"
+        title=\"Browse BanchMon2\">BanchMon2</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
         href=\"/browse/699\" title=\"More from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
         class=\"detName\">\t\t\t<a href=\"/torrent/21083385/Ubuntu_17.10.1_Desktop_(amd64)\"
@@ -676,6 +719,19 @@ interactions:
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         04-15&nbsp;02:39, Size 1.4&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/rob22uk/\"
         title=\"Browse rob22uk\">rob22uk</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
+        align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/600\" title=\"More from this category\">Other</a><br />\n\t\t\t\t(<a
+        href=\"/browse/699\" title=\"More from this category\">Other</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/3716824/Icon_Pack_[500.000_icone_Windows_Vista__XP__Linux__Ubuntu__Mac__\"
+        class=\"detLink\" title=\"Details for Icon Pack [500.000 icone Windows Vista,
+        XP, Linux, Ubuntu, Mac, \">Icon Pack [500.000 icone Windows Vista, XP, Linux,
+        Ubuntu, Mac, </a>\n</div>\n<a href=\"magnet:?xt=urn:btih:3c3a6bc48bc12f1d111837df761cd3ab3b193e91&dn=Icon+Pack+%5B500.000+icone+Windows+Vista%2C+XP%2C+Linux%2C+Ubuntu%2C+Mac%2C+&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
+        alt=\"This torrent has 14 comments.\" title=\"This torrent has 14 comments.\"
+        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        06-17&nbsp;2007, Size 392.82&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/Hitman079/\"
+        title=\"Browse Hitman079\">Hitman079</a></font>\n\t\t</td>\n\t\t<td align=\"right\">2</td>\n\t\t<td
         align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
         href=\"/browse/300\" title=\"More from this category\">Applications</a><br
         />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
@@ -688,32 +744,6 @@ interactions:
         /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
         10-18&nbsp;2007, Size 695.81&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/KIM
         JONG IL/\" title=\"Browse KIM JONG IL\">KIM JONG IL</a></font>\n\t\t</td>\n\t\t<td
-        align=\"right\">2</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
-        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/300\" title=\"More
-        from this category\">Applications</a><br />\n\t\t\t\t(<a href=\"/browse/301\"
-        title=\"More from this category\">Windows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/4811256/cd2usb_0.4.3_(Ubuntu_Live_USB_Creator_for_Windows)\"
-        class=\"detLink\" title=\"Details for cd2usb 0.4.3 (Ubuntu Live USB Creator
-        for Windows)\">cd2usb 0.4.3 (Ubuntu Live USB Creator for Windows)</a>\n</div>\n<a
-        href=\"magnet:?xt=urn:btih:c0fc5d1607229709e2fcd2760112dd614e610c46&dn=cd2usb+0.4.3+%28Ubuntu+Live+USB+Creator+for+Windows%29&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/11x11p.png\"
-        /><img src=\"//pirateproxy.app/static/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
-        03-30&nbsp;2009, Size 1.19&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/hacktolive/\"
-        title=\"Browse hacktolive\">hacktolive</a></font>\n\t\t</td>\n\t\t<td align=\"right\">2</td>\n\t\t<td
-        align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
-        href=\"/browse/300\" title=\"More from this category\">Applications</a><br
-        />\n\t\t\t\t(<a href=\"/browse/303\" title=\"More from this category\">UNIX</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
-        class=\"detName\">\t\t\t<a href=\"/torrent/5140007/Ubuntu_9.10_AMD64_Standard_Install\"
-        class=\"detLink\" title=\"Details for Ubuntu 9.10 AMD64 Standard Install\">Ubuntu
-        9.10 AMD64 Standard Install</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:d5de047dcca45306305a03a8801430dff26017c6&dn=Ubuntu+9.10+AMD64+Standard+Install&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
-        title=\"Download this torrent using magnet\"><img src=\"//pirateproxy.app/static/img/icon-magnet.gif\"
-        alt=\"Magnet link\" /></a><img src=\"//pirateproxy.app/static/img/icon_comment.gif\"
-        alt=\"This torrent has 4 comments.\" title=\"This torrent has 4 comments.\"
-        /><a href=\"/user/lan3y\"><img src=\"//pirateproxy.app/static/img/trusted.png\"
-        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a>\n\t\t\t<font
-        class=\"detDesc\">Uploaded 10-29&nbsp;2009, Size 690.8&nbsp;MiB, ULed by <a
-        class=\"detDesc\" href=\"/user/lan3y/\" title=\"Browse lan3y\">lan3y</a></font>\n\t\t</td>\n\t\t<td
         align=\"right\">2</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\n</table>\n</div>\n<div
         align=\"center\">1&nbsp;<a href=\"/search/ubuntu/1/7//\">2</a>&nbsp;<a href=\"/search/ubuntu/2/7//\">3</a>&nbsp;<a
         href=\"/search/ubuntu/3/7//\">4</a>&nbsp;<a href=\"/search/ubuntu/4/7//\">5</a>&nbsp;<a
@@ -753,13 +783,31 @@ interactions:
         = {\n  popunder: {\n    url: \t\t\t'https://traffic.adxprtz.com/?placement=289748&redirect',\n
         \   times: \t\t2,\n    hours: \t\t12.000000,\n    cookie: \t'tpbpop',\n    fastbind:true\n
         \ }\n};\n\n</script>\n\n\n\n</body>\n</html>"}
-    headers: {CF-RAY: 490ce3342cfec2ba-FRA, Cache-Control: 'private, max-age=10800,
-        pre-check=10800', Connection: keep-alive, Content-Encoding: gzip, Content-Type: text/html;
-        charset=UTF-8, Date: 'Sat, 29 Dec 2018 14:17:03 GMT', Expect-CT: 'max-age=604800,
-        report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-      Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Server: cloudflare, Set-Cookie: '__cfduid=d11205881fe30250e4434e1c005df0d0c1546093018;
-        expires=Sun, 29-Dec-19 14:16:58 GMT; path=/; domain=.pirateproxy.app; HttpOnly;
-        Secure', Transfer-Encoding: chunked, Vary: Accept-Encoding, X-Content-Type-Options: nosniff}
+    headers:
+      CF-RAY: 49143c80da839816-FRA
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : private, max-age=10800, pre-check=10800
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:17 GMT
+      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Thu, 19 Nov 1981 08:52:00 GMT
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : cloudflare
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : __cfduid=d0288864d125f2ef97f6830c3565b784c1546170076; expires=Mon, 30-Dec-19
+        11:41:16 GMT; path=/; domain=.pirateproxy.app; HttpOnly; Secure
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
+      X-Content-Type-Options: nosniff
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

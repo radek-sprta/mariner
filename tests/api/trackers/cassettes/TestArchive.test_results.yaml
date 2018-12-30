@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://archive.org/details/feature_films
+    uri: https://archive.org/details/feature_films?and%5B%5D=plan+9&sin=
   response:
     body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n<!-- __ _ _ _ __| |_ (_)__
         _____\n    / _` | '_/ _| ' \\| |\\ V / -_)\n    \\__,_|_| \\__|_||_|_| \\_/\\___|
@@ -71,9 +71,9 @@ interactions:
         but we need your help. If you find our site useful, please chip in. Thank
         you.<br>\n\u2014<i>Brewster Kahle, Founder, Internet Archive</i>      <div\n
         \       class=\"thermometer\"\n        role=\"progressbar\"\n        aria-valuemin=\"0\"\n
-        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n        <div class=\"dpad  hidden-xs
         hidden-sm hidden-lg\"><!--md-->\n          <p class=\"donate-notification
@@ -92,9 +92,9 @@ interactions:
         we need your help. If you find our site useful, please chip in. Thank you.<br>\n\u2014<i>Brewster
         Kahle, Founder, Internet Archive</i>      <div\n        class=\"thermometer\"\n
         \       role=\"progressbar\"\n        aria-valuemin=\"0\"\n        aria-valuemax=\"6000000\"\n
-        \       aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n        <div class=\"dpad hidden-xs
         hidden-md hidden-lg\"><!--sm-->\n          <p class=\"donate-notification
@@ -113,9 +113,9 @@ interactions:
         we need your help. If you find our site useful, please chip in. Thank you.<br>\n\u2014<i>Brewster
         Kahle, Founder, Internet Archive</i>      <div\n        class=\"thermometer\"\n
         \       role=\"progressbar\"\n        aria-valuemin=\"0\"\n        aria-valuemax=\"6000000\"\n
-        \       aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n        <div class=\"dpad hidden-sm
         hidden-md hidden-lg\"><!--xs-->\n            <p class=\"donate-notification
@@ -132,9 +132,9 @@ interactions:
         is a bargain, but we need your help. If you find our site useful, please chip
         in. <br>\n\u2014<i>Brewster Kahle, Founder, Internet Archive</i>      <div\n
         \       class=\"thermometer\"\n        role=\"progressbar\"\n        aria-valuemin=\"0\"\n
-        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n      </div>\n\n      <div\n
         \       class=\"donate-form\"\n        itemscope\n        itemtype=\"http://schema.org/DonateAction\"\n
@@ -751,7 +751,7 @@ interactions:
         \             <a\n          href=\"https://archive.org/advancedsearch.php\"\n
         \         class=\"search-options__advanced-search-link\"\n          onclick=\"return
         AJS.advanced_search(this)\"\n        >Advanced Search</a>\n          </div>\n
-        \   \n                              <script>AJS.cgi_args = {\"ands\":[],\"minday\":\"06/04/2009\",\"maxday\":\"12/29/2018\"}</script>\n
+        \   \n                              <script>AJS.cgi_args = {\"ands\":[],\"minday\":\"06/04/2009\",\"maxday\":\"12/30/2018\"}</script>\n
         \   \n                        <input type=\"submit\" value=\"Search\"/>\n
         \                     </form>\n                    </div><!--/.searchbar -->\n
         \                 </li>\n                \n                <li class=\"dropdown
@@ -787,7 +787,7 @@ interactions:
         col-sm-10 welcome-left\">\n                  <div id=\"file-dropper-wrap\">\n
         \           <div id=\"file-dropper\"> </div>\n            <img id=\"file-dropper-img\"
         class=\"img-responsive\"\n                 style=\"max-width:350px; margin:0
-        10px 5px 0;\" src=\"https://ia600300.us.archive.org/26/items/feature_films/feature_films.jpg\">\n
+        10px 5px 0;\" src=\"https://ia800300.us.archive.org/26/items/feature_films/feature_films.jpg\">\n
         \         </div>\n                <h1>Feature Films</h1>\n                  <h4>Internet
         Archive</h4>\n                <div id=\"descript\" style=\"max-height:43px;cursor:pointer;\"\n
         \        onclick=\"event && event.target && event.target.nodeName.toLowerCase()!='a'
@@ -1111,7 +1111,7 @@ interactions:
         \         <div class=\"item-parent-img\" style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n
         \         <div class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">13,411</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">13,415</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">13K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/Plan9FromOuterSpace1958\"
@@ -1128,7 +1128,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>13,411</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>13,415</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           15          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1204,7 +1204,7 @@ interactions:
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">86,403</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">86,410</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">86K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/Plan9FromOuterSpace_811\"
@@ -1224,7 +1224,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>86,403</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>86,410</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           56          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1291,7 +1291,7 @@ interactions:
         \         <div class=\"item-parent-img\" style=\"background-image: url('/services/img/feature_films_picfixer')\"></div>\n
         \         <div class=\"item-parent-ttl\">Picfixer Feature Film Collection</div>\n
         \       </div><!--/.item-parent-->\n      </a>\n      \n\n      <div class=\"hidden-tiles
-        views C C1\">\n                  <nobr class=\"hidden-xs\">4,961</nobr>\n
+        views C C1\">\n                  <nobr class=\"hidden-xs\">4,976</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">5.0K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1312,7 +1312,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>4,961</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>4,976</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           1          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1375,7 +1375,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films_picfixer')\"></div>\n
         \         <div class=\"item-parent-ttl\">Picfixer Feature Film Collection</div>\n
         \       </div><!--/.item-parent-->\n      </a>\n      \n\n      <div class=\"hidden-tiles
-        views C C1\">\n                  <nobr class=\"hidden-xs\">11,237</nobr>\n
+        views C C1\">\n                  <nobr class=\"hidden-xs\">11,244</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">11K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1396,7 +1396,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>11,237</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>11,244</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           28          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1424,7 +1424,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">79,969</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">79,991</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">80K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1443,7 +1443,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>79,969</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>79,991</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           84          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1463,63 +1463,16 @@ interactions:
         class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
         class=\"sr-only\">favorite</span></span> ( 22 reviews )<br/>          Topics:
         Horror, Crime, Comedy<br/>                            </div>\n            <div
-        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"BulldogDrummondComesBack\"\n
-        \     data-mediatype=\"movies\"\n       data-year=\"1937\">\n\n            <a
+        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"UcanDairelerIstanbuldaflyingSaucersOverIstanbul\"\n
+        \     data-mediatype=\"movies\"\n       data-year=\"1955\">\n\n            <a
         class=\"stealth\" tabindex=\"-1\" href=\"/details/feature_films\">\n        <div
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/feature_films')\"></div>\n          <div class=\"item-parent-ttl\">Feature
         Films</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n      <div
-        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">16,073</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">16K</nobr>\n              </div>\n\n\n\n
+        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">6,071</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">6.1K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/BulldogDrummondComesBack\"
-        title=\"Bulldog Drummond Comes Back\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/BulldogDrummondComesBack\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                Bulldog
-        Drummond Comes Back              </div>\n            </a>\n          </div>\n
-        \               <div class=\"hidden-tiles pubdate C C3\">\n          <nobr
-        class=\"hidden-xs\">1937</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">1937</nobr>\n        </div>\n        <div class=\"by C C4\">\n
-        \                                                               </div><!--/.C4-->\n
-        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
-        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
-        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>16,073</nobr>\n
-        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
-        \           11          </h6>\n\n                      <h6 class=\"stat\">\n
-        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              2            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>Irena
-        Soldanis, the wife of a man Captain Hugh (Bulldog) Drummond sent to the gallows
-        the year before, has kidnapped Drummond's perennial fianc\xE9e, Phyllis Clavering.
-        Drummond must rescue Phyllis, and the riddles Irena provides send him and
-        his friends on one wild goose chase after another in a plan to eventually
-        trap him and kill he and Phyllis. IMDb Page Stars: John Howard, Louise Campbell,
-        Reginald Denny, E. E. Clive, and John Barrymore Bulldog Drummond Movies Bulldog
-        Drummond Escapes...</span><br/>          <span alt=\"4.50 out of 5 stars\"
-        title=\"4.50 out of 5 stars\"><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">favorite</span></span> ( 2 reviews )<br/>          Topics:
-        Adventure, Mystery, Kidnapping, Crime, Bulldog Drummond<br/>                            </div>\n
-        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
-        data-id=\"UcanDairelerIstanbuldaflyingSaucersOverIstanbul\"\n      data-mediatype=\"movies\"\n
-        \      data-year=\"1955\">\n\n            <a class=\"stealth\" tabindex=\"-1\"
-        href=\"/details/feature_films\">\n        <div class=\"item-parent\">\n          <div
-        class=\"item-parent-img\" style=\"background-image: url('/services/img/feature_films')\"></div>\n
-        \         <div class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
-        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">6,071</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">6.1K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
-        \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/UcanDairelerIstanbuldaflyingSaucersOverIstanbul\"
         title=\"Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) (English Subtitles)\"
         data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n                              <div
@@ -1552,16 +1505,63 @@ interactions:
         Monroe imitator. and a robot made...</span><br/>                    Topics:
         Turkish, cult, movie, Kilink, psychotronic, plan, 9, sexy, belly, dancing,
         sci, fi, sci-fi, flying,...<br/>                            </div>\n            <div
-        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"BaytekinFezadaCarpinsanlarflashGordonsBattleInSpace\"\n
-        \     data-mediatype=\"movies\"\n       data-year=\"1967\">\n\n            <a
+        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"BulldogDrummondComesBack\"\n
+        \     data-mediatype=\"movies\"\n       data-year=\"1937\">\n\n            <a
         class=\"stealth\" tabindex=\"-1\" href=\"/details/feature_films\">\n        <div
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/feature_films')\"></div>\n          <div class=\"item-parent-ttl\">Feature
         Films</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n      <div
-        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">4,913</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">4.9K</nobr>\n              </div>\n\n\n\n
+        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">16,077</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">16K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/BulldogDrummondComesBack\"
+        title=\"Bulldog Drummond Comes Back\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/BulldogDrummondComesBack\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                Bulldog
+        Drummond Comes Back              </div>\n            </a>\n          </div>\n
+        \               <div class=\"hidden-tiles pubdate C C3\">\n          <nobr
+        class=\"hidden-xs\">1937</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">1937</nobr>\n        </div>\n        <div class=\"by C C4\">\n
+        \                                                               </div><!--/.C4-->\n
+        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
+        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
+        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>16,077</nobr>\n
+        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
+        \           11          </h6>\n\n                      <h6 class=\"stat\">\n
+        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              2            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>Irena
+        Soldanis, the wife of a man Captain Hugh (Bulldog) Drummond sent to the gallows
+        the year before, has kidnapped Drummond's perennial fianc\xE9e, Phyllis Clavering.
+        Drummond must rescue Phyllis, and the riddles Irena provides send him and
+        his friends on one wild goose chase after another in a plan to eventually
+        trap him and kill he and Phyllis. IMDb Page Stars: John Howard, Louise Campbell,
+        Reginald Denny, E. E. Clive, and John Barrymore Bulldog Drummond Movies Bulldog
+        Drummond Escapes...</span><br/>          <span alt=\"4.50 out of 5 stars\"
+        title=\"4.50 out of 5 stars\"><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">favorite</span><span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">favorite</span></span> ( 2 reviews )<br/>          Topics:
+        Adventure, Mystery, Kidnapping, Crime, Bulldog Drummond<br/>                            </div>\n
+        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
+        data-id=\"BaytekinFezadaCarpinsanlarflashGordonsBattleInSpace\"\n      data-mediatype=\"movies\"\n
+        \      data-year=\"1967\">\n\n            <a class=\"stealth\" tabindex=\"-1\"
+        href=\"/details/feature_films\">\n        <div class=\"item-parent\">\n          <div
+        class=\"item-parent-img\" style=\"background-image: url('/services/img/feature_films')\"></div>\n
+        \         <div class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
+        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
+        class=\"hidden-xs\">4,914</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">4.9K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
+        \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/BaytekinFezadaCarpinsanlarflashGordonsBattleInSpace\"
         title=\"Baytekin Fezada Carpinsanlar (Flash Gordon's Battle In Space)\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
         \                             <div class=\"tile-img\">\n                  <img
@@ -1577,7 +1577,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>4,913</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>4,914</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           15          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1605,7 +1605,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">219,420</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">219,485</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">219K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1624,7 +1624,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>219,420</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>219,485</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           53          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1652,7 +1652,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">39,824</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">39,834</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">40K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1672,7 +1672,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>39,824</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>39,834</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           39          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1698,7 +1698,7 @@ interactions:
         style=\"background-image: url('/services/img/TheVideoCellarCollection')\"></div>\n
         \         <div class=\"item-parent-ttl\">The Video Cellar Collection</div>\n
         \       </div><!--/.item-parent-->\n      </a>\n      \n\n      <div class=\"hidden-tiles
-        views C C1\">\n                  <nobr class=\"hidden-xs\">9,675</nobr>\n
+        views C C1\">\n                  <nobr class=\"hidden-xs\">9,680</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">9.7K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1718,7 +1718,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>9,675</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>9,680</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           21          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1739,7 +1739,7 @@ interactions:
         \         <div class=\"item-parent-img\" style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n
         \         <div class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">12,534</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">12,538</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">13K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TheBeastOfYuccaFlats1961\"
@@ -1756,7 +1756,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>12,534</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>12,538</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           7          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1776,7 +1776,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">9,339</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">9,341</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">9.3K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/SubmarineBase\"
@@ -1795,7 +1795,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>9,339</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>9,341</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           11          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1821,7 +1821,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">20,167</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">20,172</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">20K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/A.Shriek.in.the.Night\"
@@ -1841,7 +1841,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>20,167</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>20,172</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           18          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1866,7 +1866,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">27,996</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">28,005</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">28K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/panthers_claw\"
@@ -1885,7 +1885,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>27,996</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>28,005</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           16          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1907,7 +1907,7 @@ interactions:
         style=\"background-image: url('/services/img/TheVideoCellarCollection')\"></div>\n
         \         <div class=\"item-parent-ttl\">The Video Cellar Collection</div>\n
         \       </div><!--/.item-parent-->\n      </a>\n      \n\n      <div class=\"hidden-tiles
-        views C C1\">\n                  <nobr class=\"hidden-xs\">75,677</nobr>\n
+        views C C1\">\n                  <nobr class=\"hidden-xs\">75,721</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">76K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -1927,7 +1927,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>75,677</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>75,721</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           74          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -1946,52 +1946,13 @@ interactions:
         ( 16 reviews )<br/>          Topics: Edward D Wood Jr, Mystery, Crime Thriller,
         Steve Reeves, Delores Fuller, Lyle Talbot, Ed Wood<br/>                            </div>\n
         \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
-        data-id=\"Beast_of_Yucca_Flats_movie\"\n      data-mediatype=\"movies\"\n
-        \      data-year=\"1961\">\n\n            <a class=\"stealth\" tabindex=\"-1\"
-        href=\"/details/SciFi_Horror\">\n        <div class=\"item-parent\">\n          <div
-        class=\"item-parent-img\" style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n
-        \         <div class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
-        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">30,942</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">31K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
-        \                 <div\n            class=\"\n              item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/Beast_of_Yucca_Flats_movie\"
-        title=\"Beast of Yucca Flats\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/Beast_of_Yucca_Flats_movie\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                Beast
-        of Yucca Flats              </div>\n            </a>\n          </div>\n                <div
-        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1961</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1961</nobr>\n        </div>\n
-        \       <div class=\"by C C4\">\n                                                                </div><!--/.C4-->\n
-        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
-        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
-        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>30,942</nobr>\n
-        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
-        \           25          </h6>\n\n                      <h6 class=\"stat\">\n
-        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              12            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>Tor
-        Johnson is a defecting Russian scientist who is transformed into a deranged
-        caveman by the detonation of an atomic bomb. The IMDB entry is here .</span><br/>
-        \         <span alt=\"2.82 out of 5 stars\" title=\"2.82 out of 5 stars\"><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
-        ( 12 reviews )<br/>          Topics: Tor Johnson, horror<br/>                            </div>\n
-        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
         data-id=\"The_Bloody_Brood_movie\"\n      data-mediatype=\"movies\"\n       data-year=\"1959\">\n\n
         \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/feature_films\">\n
         \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">11,733</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">11,739</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">12K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/The_Bloody_Brood_movie\"
@@ -2008,7 +1969,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>11,733</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>11,739</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           14          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2023,16 +1984,55 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 9 reviews )<br/>                                      </div>\n            <div
-        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"atom_age_vampire\"\n
-        \     data-mediatype=\"movies\"\n       data-year=\"1960\">\n\n            <a
+        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"Beast_of_Yucca_Flats_movie\"\n
+        \     data-mediatype=\"movies\"\n       data-year=\"1961\">\n\n            <a
         class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">49,461</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">49K</nobr>\n              </div>\n\n\n\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">30,953</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">31K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/Beast_of_Yucca_Flats_movie\"
+        title=\"Beast of Yucca Flats\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/Beast_of_Yucca_Flats_movie\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                Beast
+        of Yucca Flats              </div>\n            </a>\n          </div>\n                <div
+        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1961</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1961</nobr>\n        </div>\n
+        \       <div class=\"by C C4\">\n                                                                </div><!--/.C4-->\n
+        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
+        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
+        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>30,953</nobr>\n
+        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
+        \           25          </h6>\n\n                      <h6 class=\"stat\">\n
+        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              12            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>Tor
+        Johnson is a defecting Russian scientist who is transformed into a deranged
+        caveman by the detonation of an atomic bomb. The IMDB entry is here .</span><br/>
+        \         <span alt=\"2.82 out of 5 stars\" title=\"2.82 out of 5 stars\"><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
+        ( 12 reviews )<br/>          Topics: Tor Johnson, horror<br/>                            </div>\n
+        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
+        data-id=\"atom_age_vampire\"\n      data-mediatype=\"movies\"\n       data-year=\"1960\">\n\n
+        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
+        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
+        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
+        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
+        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
+        class=\"hidden-xs\">49,468</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">49K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
+        \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/atom_age_vampire\"
         title=\"Atom Age Vampire\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
         \                             <div class=\"tile-img\">\n                  <img
@@ -2049,7 +2049,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>49,461</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>49,468</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           23          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2073,7 +2073,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">56,644</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">56,657</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">57K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/mr_motos_last_warning\"
@@ -2091,7 +2091,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>56,644</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>56,657</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           51          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2108,100 +2108,15 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 11 reviews )<br/>          Topics: Mystery, Crime, Suspense<br/>                            </div>\n
         \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
-        data-id=\"TeenagersFromOuterSpace\"\n      data-mediatype=\"movies\"\n       data-year=\"1959\">\n\n
+        data-id=\"one_body_too_many_ipod\"\n      data-mediatype=\"movies\"\n       data-year=\"1944\">\n\n
         \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
         \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">25,027</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">25K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
+        class=\"hidden-xs\">33,791</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">34K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/TeenagersFromOuterSpace\"
-        title=\"Teenagers From Outer Space\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/TeenagersFromOuterSpace\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                Teenagers
-        From Outer Space              </div>\n            </a>\n          </div>\n
-        \               <div class=\"hidden-tiles pubdate C C3\">\n          <nobr
-        class=\"hidden-xs\">1959</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">1959</nobr>\n        </div>\n        <div class=\"by C C4\">\n
-        \                                               <span class=\"hidden-lists\">by</span>\n
-        \             <span class=\"byv\"\n                    title=\"Tom Graeff\">Tom
-        Graeff</span>\n                                          </div><!--/.C4-->\n
-        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
-        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
-        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>25,027</nobr>\n
-        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
-        \           28          </h6>\n\n                      <h6 class=\"stat\">\n
-        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              7            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>A
-        young alien (David Love) falls for a pretty teenage Earth girl (Dawn Anderson)
-        and they team up to try to stop the plans of his invading cohorts. NOTE: This
-        is the MPEG2 (and derivative versions). An AVI version is available here .</span><br/>
-        \         <span alt=\"4.14 out of 5 stars\" title=\"4.14 out of 5 stars\"><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
-        ( 7 reviews )<br/>          Topics: sci-fi, horror, MST3K<br/>                            </div>\n
-        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
-        data-id=\"One_Body_Too_Many_1944\"\n      data-mediatype=\"movies\"\n       data-year=\"1944\">\n\n
-        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
-        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
-        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
-        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
-        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">18,863</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">19K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
-        \                 <div\n            class=\"\n              item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/One_Body_Too_Many_1944\"
-        title=\"One Body Too Many\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/One_Body_Too_Many_1944\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                One
-        Body Too Many              </div>\n            </a>\n          </div>\n                <div
-        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1944</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1944</nobr>\n        </div>\n
-        \       <div class=\"by C C4\">\n                                                <span
-        class=\"hidden-lists\">by</span>\n              <span class=\"byv\"\n                    title=\"William
-        H. Pine &amp; William C. Thomas\">William H. Pine &amp; William C. Thomas</span>\n
-        \                                         </div><!--/.C4-->\n      </div><!--/.C234-->\n\n
-        \     <div class=\"statbar \">\n        <div class=\"mt-icon C C5\">\n                                <span
-        class=\"iconochive-movies\"  aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>
-        \                 </div>\n\n                  <h6 class=\"stat \">\n            <span
-        class=\"iconochive-eye\"  aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>
-        \           <nobr>18,863</nobr>\n          </h6>\n        \n                  <h6
-        class=\"stat\">\n            <span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">favorite</span>            27          </h6>\n\n                      <h6
-        class=\"stat\">\n              <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              2            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>Jack
-        Haley, Bela Lugosi, Jean Parker, and Lyle Talbot in an old-dark-house film.</span><br/>
-        \         <span alt=\"2.50 out of 5 stars\" title=\"2.50 out of 5 stars\"><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
-        ( 2 reviews )<br/>          Topics: Jack Haley, Bela Lugosi, Lyle Talbot,
-        Jean Parker, old dark house<br/>                            </div>\n            <div
-        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"one_body_too_many_ipod\"\n
-        \     data-mediatype=\"movies\"\n       data-year=\"1944\">\n\n            <a
-        class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
-        class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
-        url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
-        / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">33,788</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">34K</nobr>\n              </div>\n\n\n\n
-        \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
-        \             item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/one_body_too_many_ipod\"
         title=\"One Body Too Many\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
         \                             <div class=\"tile-img\">\n                  <img
@@ -2218,7 +2133,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>33,788</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>33,791</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           29          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2246,7 +2161,7 @@ interactions:
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">16,525</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">16,529</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">17K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TrappedByTelevision1936\"
@@ -2263,7 +2178,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>16,525</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>16,529</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           32          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2285,13 +2200,98 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 5 reviews )<br/>          Topics: comedy, scifi, television, feature films<br/>
         \                           </div>\n            <div class=\"C5\"></div>\n
-        \   </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"RC_SwampWomen\"\n
+        \   </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"TeenagersFromOuterSpace\"\n
+        \     data-mediatype=\"movies\"\n       data-year=\"1959\">\n\n            <a
+        class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
+        class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
+        url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
+        / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">25,041</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">25K</nobr>\n              </div>\n\n\n\n
+        \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
+        \             item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/TeenagersFromOuterSpace\"
+        title=\"Teenagers From Outer Space\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/TeenagersFromOuterSpace\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                Teenagers
+        From Outer Space              </div>\n            </a>\n          </div>\n
+        \               <div class=\"hidden-tiles pubdate C C3\">\n          <nobr
+        class=\"hidden-xs\">1959</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">1959</nobr>\n        </div>\n        <div class=\"by C C4\">\n
+        \                                               <span class=\"hidden-lists\">by</span>\n
+        \             <span class=\"byv\"\n                    title=\"Tom Graeff\">Tom
+        Graeff</span>\n                                          </div><!--/.C4-->\n
+        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
+        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
+        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>25,041</nobr>\n
+        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
+        \           28          </h6>\n\n                      <h6 class=\"stat\">\n
+        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              7            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>A
+        young alien (David Love) falls for a pretty teenage Earth girl (Dawn Anderson)
+        and they team up to try to stop the plans of his invading cohorts. NOTE: This
+        is the MPEG2 (and derivative versions). An AVI version is available here .</span><br/>
+        \         <span alt=\"4.14 out of 5 stars\" title=\"4.14 out of 5 stars\"><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
+        ( 7 reviews )<br/>          Topics: sci-fi, horror, MST3K<br/>                            </div>\n
+        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
+        data-id=\"One_Body_Too_Many_1944\"\n      data-mediatype=\"movies\"\n       data-year=\"1944\">\n\n
+        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
+        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
+        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
+        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
+        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
+        class=\"hidden-xs\">18,869</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">19K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
+        \                 <div\n            class=\"\n              item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/One_Body_Too_Many_1944\"
+        title=\"One Body Too Many\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/One_Body_Too_Many_1944\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                One
+        Body Too Many              </div>\n            </a>\n          </div>\n                <div
+        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1944</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1944</nobr>\n        </div>\n
+        \       <div class=\"by C C4\">\n                                                <span
+        class=\"hidden-lists\">by</span>\n              <span class=\"byv\"\n                    title=\"William
+        H. Pine &amp; William C. Thomas\">William H. Pine &amp; William C. Thomas</span>\n
+        \                                         </div><!--/.C4-->\n      </div><!--/.C234-->\n\n
+        \     <div class=\"statbar \">\n        <div class=\"mt-icon C C5\">\n                                <span
+        class=\"iconochive-movies\"  aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>
+        \                 </div>\n\n                  <h6 class=\"stat \">\n            <span
+        class=\"iconochive-eye\"  aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>
+        \           <nobr>18,869</nobr>\n          </h6>\n        \n                  <h6
+        class=\"stat\">\n            <span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">favorite</span>            27          </h6>\n\n                      <h6
+        class=\"stat\">\n              <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              2            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>Jack
+        Haley, Bela Lugosi, Jean Parker, and Lyle Talbot in an old-dark-house film.</span><br/>
+        \         <span alt=\"2.50 out of 5 stars\" title=\"2.50 out of 5 stars\"><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
+        ( 2 reviews )<br/>          Topics: Jack Haley, Bela Lugosi, Lyle Talbot,
+        Jean Parker, old dark house<br/>                            </div>\n            <div
+        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"RC_SwampWomen\"\n
         \     data-mediatype=\"movies\"\n       data-year=\"1955\">\n\n            <a
         class=\"stealth\" tabindex=\"-1\" href=\"/details/feature_films\">\n        <div
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/feature_films')\"></div>\n          <div class=\"item-parent-ttl\">Feature
         Films</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n      <div
-        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">44,132</nobr>\n
+        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">44,151</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">44K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -2311,7 +2311,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>44,132</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>44,151</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           36          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2338,7 +2338,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">314,992</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">315,047</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">315K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -2359,7 +2359,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>314,992</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>315,047</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           99          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2383,7 +2383,7 @@ interactions:
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">120,084</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">120,105</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">120K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/DrillerKillerUncut1979\"
@@ -2400,7 +2400,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>120,084</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>120,105</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           84          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2427,7 +2427,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">28,791</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">28,796</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">29K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -2448,7 +2448,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>28,791</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>28,796</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           49          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2470,7 +2470,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">16,987</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">16,992</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">17K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -2490,7 +2490,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>16,987</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>16,992</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           28          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2514,7 +2514,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/feature_films')\"></div>\n          <div class=\"item-parent-ttl\">Feature
         Films</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n      <div
-        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">25,466</nobr>\n
+        class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">25,472</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">25K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -2535,7 +2535,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>25,466</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>25,472</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           30          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2553,14 +2553,96 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 11 reviews )<br/>          Topics: murder, reporters, Ginger Rogers, Lyle
         Talbot<br/>                            </div>\n            <div class=\"C5\"></div>\n
+        \   </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"phantom_planet_ipod\"\n
+        \     data-mediatype=\"movies\"\n       data-year=\"1961\">\n\n            <a
+        class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
+        class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
+        url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
+        / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">46,484</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">46K</nobr>\n              </div>\n\n\n\n
+        \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
+        \             item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/phantom_planet_ipod\"
+        title=\"Phantom Planet\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/phantom_planet_ipod\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                Phantom
+        Planet              </div>\n            </a>\n          </div>\n                <div
+        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1961</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1961</nobr>\n        </div>\n
+        \       <div class=\"by C C4\">\n                                                <span
+        class=\"hidden-lists\">by</span>\n              <span class=\"byv\"\n                    title=\"Fred
+        Gebhardt\">Fred Gebhardt</span>\n                                          </div><!--/.C4-->\n
+        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
+        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
+        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>46,484</nobr>\n
+        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
+        \           39          </h6>\n\n                      <h6 class=\"stat\">\n
+        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              6            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>After
+        an invisible asteroid draws an astronaut and his ship to its surface, he is
+        miniaturized by the phantom planet's exotic atmosphere.</span><br/>          <span
+        alt=\"4.17 out of 5 stars\" title=\"4.17 out of 5 stars\"><span class=\"iconochive-favorite\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
+        ( 6 reviews )<br/>          Topic: Sci-Fi<br/>                            </div>\n
+        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
+        data-id=\"Night.Fright.movie\"\n      data-mediatype=\"movies\"\n      >\n\n
+        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
+        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
+        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
+        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
+        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
+        class=\"hidden-xs\">29,044</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">29K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
+        \                 <div\n            class=\"\n              item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/Night.Fright.movie\"
+        title=\"Night Fright\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/Night.Fright.movie\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                Night
+        Fright              </div>\n            </a>\n          </div>\n                <div
+        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">-</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">-</nobr>\n        </div>\n
+        \       <div class=\"by C C4\">\n                                                                </div><!--/.C4-->\n
+        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
+        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
+        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>29,044</nobr>\n
+        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
+        \           38          </h6>\n\n                      <h6 class=\"stat\">\n
+        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              9            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>A
+        rocket crashes and a mutant monster is on the loose! It's John Agar to the
+        rescue in this low budget chiller</span><br/>          <span alt=\"2.89 out
+        of 5 stars\" title=\"2.89 out of 5 stars\"><span class=\"iconochive-favorite\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
+        ( 9 reviews )<br/>          Topics: horror, scifi, John Agar, feature films<br/>
+        \                           </div>\n            <div class=\"C5\"></div>\n
         \   </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"santa_claus_conquers_the_martians_ipod\"\n
         \     data-mediatype=\"movies\"\n       data-year=\"1964\">\n\n            <a
         class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">83,387</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">83K</nobr>\n              </div>\n\n\n\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">83,596</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">84K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/santa_claus_conquers_the_martians_ipod\"
@@ -2580,7 +2662,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>83,387</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>83,596</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           42          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2607,7 +2689,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">393,932</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">394,019</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">394K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/new_adventures_of_tarzan\"
@@ -2624,7 +2706,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>393,932</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>394,019</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           53          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2639,16 +2721,63 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 6 reviews )<br/>                                      </div>\n            <div
-        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"MesaOfLostWomen\"\n
-        \     data-mediatype=\"movies\"\n       data-year=\"1953\">\n\n            <a
+        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"BodyOfThePrey1966\"\n
+        \     data-mediatype=\"movies\"\n       data-year=\"1966\">\n\n            <a
         class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">68,075</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">68K</nobr>\n              </div>\n\n\n\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">22,041</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">22K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
+        C2\n            \"\n          >\n            <a href=\"/details/BodyOfThePrey1966\"
+        title=\"BODY OF THE PREY\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
+        \                             <div class=\"tile-img\">\n                  <img
+        class=\"item-img \"\n                    source=\"/services/img/BodyOfThePrey1966\"
+        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
+        \             \n              \n              <div class=\"ttl\">\n                BODY
+        OF THE PREY              </div>\n            </a>\n          </div>\n                <div
+        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1966</nobr>\n
+        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1966</nobr>\n        </div>\n
+        \       <div class=\"by C C4\">\n                                                <span
+        class=\"hidden-lists\">by</span>\n              <span class=\"byv\"\n                    title=\"L.
+        D. Moore\">L. D. Moore</span>\n                                          </div><!--/.C4-->\n
+        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
+        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
+        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>22,041</nobr>\n
+        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
+        \           22          </h6>\n\n                      <h6 class=\"stat\">\n
+        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
+        class=\"sr-only\">comment</span>              9            </h6>\n                                  </div><!--/.statbar-->\n\n
+        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
+        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>From
+        the IMDb: &quot;The credits on the version of this movie which exists today
+        are actually for the movie &quot;Mad Doctor of Blood Island&quot; and bear
+        no relation to this film. This comes from when they were originally intended
+        to be released as a double feature. &quot;Contrary to popular belief, this
+        film was not directed by Kenneth G. Crane, was not made in 1970, was not produced
+        by Toei Company, and was not titled &quot;The Double Garden&quot;. It was
+        originally filmed in 1966 as...</span><br/>          <span alt=\"3.57 out
+        of 5 stars\" title=\"3.57 out of 5 stars\"><span class=\"iconochive-favorite\"
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
+        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
+        ( 9 reviews )<br/>          Topics: Sci-Fi, Horror, B-Movie<br/>                            </div>\n
+        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
+        data-id=\"MesaOfLostWomen\"\n      data-mediatype=\"movies\"\n       data-year=\"1953\">\n\n
+        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
+        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
+        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
+        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
+        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
+        class=\"hidden-xs\">68,097</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        hidden-lg\">68K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
+        \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/MesaOfLostWomen\"
         title=\"Mesa of Lost Women\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
         \                             <div class=\"tile-img\">\n                  <img
@@ -2665,7 +2794,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>68,075</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>68,097</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           55          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2688,7 +2817,7 @@ interactions:
         style=\"background-image: url('/services/img/feature_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Feature Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">27,822</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">27,826</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">28K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/thirteenth_guest\"
@@ -2705,7 +2834,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>27,822</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>27,826</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           48          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2720,95 +2849,13 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 11 reviews )<br/>                                      </div>\n            <div
-        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"phantom_planet_ipod\"\n
-        \     data-mediatype=\"movies\"\n       data-year=\"1961\">\n\n            <a
-        class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div
-        class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
-        url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
-        / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">46,470</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">46K</nobr>\n              </div>\n\n\n\n
-        \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
-        \             item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/phantom_planet_ipod\"
-        title=\"Phantom Planet\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/phantom_planet_ipod\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                Phantom
-        Planet              </div>\n            </a>\n          </div>\n                <div
-        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1961</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1961</nobr>\n        </div>\n
-        \       <div class=\"by C C4\">\n                                                <span
-        class=\"hidden-lists\">by</span>\n              <span class=\"byv\"\n                    title=\"Fred
-        Gebhardt\">Fred Gebhardt</span>\n                                          </div><!--/.C4-->\n
-        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
-        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
-        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>46,470</nobr>\n
-        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
-        \           39          </h6>\n\n                      <h6 class=\"stat\">\n
-        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              6            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>After
-        an invisible asteroid draws an astronaut and his ship to its surface, he is
-        miniaturized by the phantom planet's exotic atmosphere.</span><br/>          <span
-        alt=\"4.17 out of 5 stars\" title=\"4.17 out of 5 stars\"><span class=\"iconochive-favorite\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
-        ( 6 reviews )<br/>          Topic: Sci-Fi<br/>                            </div>\n
-        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
-        data-id=\"Night.Fright.movie\"\n      data-mediatype=\"movies\"\n      >\n\n
-        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
-        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
-        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
-        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
-        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">29,021</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">29K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
-        \                 <div\n            class=\"\n              item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/Night.Fright.movie\"
-        title=\"Night Fright\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/Night.Fright.movie\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                Night
-        Fright              </div>\n            </a>\n          </div>\n                <div
-        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">-</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">-</nobr>\n        </div>\n
-        \       <div class=\"by C C4\">\n                                                                </div><!--/.C4-->\n
-        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
-        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
-        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>29,021</nobr>\n
-        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
-        \           38          </h6>\n\n                      <h6 class=\"stat\">\n
-        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              9            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>A
-        rocket crashes and a mutant monster is on the loose! It's John Agar to the
-        rescue in this low budget chiller</span><br/>          <span alt=\"2.89 out
-        of 5 stars\" title=\"2.89 out of 5 stars\"><span class=\"iconochive-favorite\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
-        ( 9 reviews )<br/>          Topics: horror, scifi, John Agar, feature films<br/>
-        \                           </div>\n            <div class=\"C5\"></div>\n
-        \   </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"TheNakedWitch\"\n
+        class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\" data-id=\"TheNakedWitch\"\n
         \     data-mediatype=\"movies\"\n      >\n\n            <a class=\"stealth\"
         tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n        <div class=\"item-parent\">\n
         \         <div class=\"item-parent-img\" style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n
         \         <div class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">278,600</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">278,760</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">279K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TheNakedWitch\"
@@ -2825,7 +2872,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>278,600</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>278,760</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           103          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2842,60 +2889,13 @@ interactions:
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
         ( 9 reviews )<br/>          Topics: Horror, Larry Buchanan, schlock<br/>                            </div>\n
         \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
-        data-id=\"BodyOfThePrey1966\"\n      data-mediatype=\"movies\"\n       data-year=\"1966\">\n\n
-        \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
-        \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
-        style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
-        class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
-        \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">22,033</nobr>\n          <nobr class=\"hidden-sm hidden-md
-        hidden-lg\">22K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
-        \                 <div\n            class=\"\n              item-ttl\n                                                        C
-        C2\n            \"\n          >\n            <a href=\"/details/BodyOfThePrey1966\"
-        title=\"BODY OF THE PREY\" data-event-click-tracking=\"GenericNonCollection|ItemTile\">\n
-        \                             <div class=\"tile-img\">\n                  <img
-        class=\"item-img \"\n                    source=\"/services/img/BodyOfThePrey1966\"
-        style=\"height:124px\">\n                </div><!--/.tile-img-->\n              \n
-        \             \n              \n              <div class=\"ttl\">\n                BODY
-        OF THE PREY              </div>\n            </a>\n          </div>\n                <div
-        class=\"hidden-tiles pubdate C C3\">\n          <nobr class=\"hidden-xs\">1966</nobr>\n
-        \         <nobr class=\"hidden-sm hidden-md hidden-lg\">1966</nobr>\n        </div>\n
-        \       <div class=\"by C C4\">\n                                                <span
-        class=\"hidden-lists\">by</span>\n              <span class=\"byv\"\n                    title=\"L.
-        D. Moore\">L. D. Moore</span>\n                                          </div><!--/.C4-->\n
-        \     </div><!--/.C234-->\n\n      <div class=\"statbar \">\n        <div
-        class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
-        \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>22,033</nobr>\n
-        \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
-        \           22          </h6>\n\n                      <h6 class=\"stat\">\n
-        \             <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
-        class=\"sr-only\">comment</span>              9            </h6>\n                                  </div><!--/.statbar-->\n\n
-        \         </div><!--/.item-ia-->\n\n\n    <div class=\"details-ia hidden-tiles\">\n
-        \     <div class=\"C1\"></div>\n              <div class=\"C234\">\n          <span>From
-        the IMDb: &quot;The credits on the version of this movie which exists today
-        are actually for the movie &quot;Mad Doctor of Blood Island&quot; and bear
-        no relation to this film. This comes from when they were originally intended
-        to be released as a double feature. &quot;Contrary to popular belief, this
-        film was not directed by Kenneth G. Crane, was not made in 1970, was not produced
-        by Toei Company, and was not titled &quot;The Double Garden&quot;. It was
-        originally filmed in 1966 as...</span><br/>          <span alt=\"3.57 out
-        of 5 stars\" title=\"3.57 out of 5 stars\"><span class=\"iconochive-favorite\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span><span
-        class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span></span>
-        ( 9 reviews )<br/>          Topics: Sci-Fi, Horror, B-Movie<br/>                            </div>\n
-        \           <div class=\"C5\"></div>\n    </div>\n\n    \n\n    <div class=\"item-ia\"
         data-id=\"TheCorpseVanishes\"\n      data-mediatype=\"movies\"\n       data-year=\"1942\">\n\n
         \           <a class=\"stealth\" tabindex=\"-1\" href=\"/details/SciFi_Horror\">\n
         \       <div class=\"item-parent\">\n          <div class=\"item-parent-img\"
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">62,307</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">62,320</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">62K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TheCorpseVanishes\"
@@ -2916,7 +2916,7 @@ interactions:
         class=\"iconochive-movies\"  aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>
         \                 </div>\n\n                  <h6 class=\"stat \">\n            <span
         class=\"iconochive-eye\"  aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>
-        \           <nobr>62,307</nobr>\n          </h6>\n        \n                  <h6
+        \           <nobr>62,320</nobr>\n          </h6>\n        \n                  <h6
         class=\"stat\">\n            <span class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span
         class=\"sr-only\">favorite</span>            68          </h6>\n\n                      <h6
         class=\"stat\">\n              <span class=\"iconochive-comment\"  aria-hidden=\"true\"></span><span
@@ -2939,7 +2939,7 @@ interactions:
         \         <div class=\"item-parent-img\" style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n
         \         <div class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">83,115</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">83,172</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">83K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TheYesterdayMachine1963\"
@@ -2956,7 +2956,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>83,115</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>83,172</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           79          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -2978,7 +2978,7 @@ interactions:
         style=\"background-image: url('/services/img/silent_films')\"></div>\n          <div
         class=\"item-parent-ttl\">Silent Films</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">224,474</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">224,489</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">224K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TheGeneral\"
@@ -2997,7 +2997,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>224,474</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>224,489</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           68          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -3025,7 +3025,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">213,781</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">213,814</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">214K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -3046,7 +3046,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>213,781</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>213,814</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           159          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -3074,7 +3074,7 @@ interactions:
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">110,418</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">110,451</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">110K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/daughter_of_horror\"
@@ -3093,7 +3093,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>110,418</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>110,451</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           99          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -3115,7 +3115,7 @@ interactions:
         style=\"background-image: url('/services/img/SciFi_Horror')\"></div>\n          <div
         class=\"item-parent-ttl\">Sci-Fi / Horror</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">81,082</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">81,098</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">81K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/TheTerror\"
@@ -3134,7 +3134,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>81,082</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>81,098</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           81          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -3157,7 +3157,7 @@ interactions:
         style=\"background-image: url('/services/img/Film_Noir')\"></div>\n          <div
         class=\"item-parent-ttl\">Film Noir</div>\n        </div><!--/.item-parent-->\n
         \     </a>\n      \n\n      <div class=\"hidden-tiles views C C1\">\n                  <nobr
-        class=\"hidden-xs\">241,655</nobr>\n          <nobr class=\"hidden-sm hidden-md
+        class=\"hidden-xs\">241,719</nobr>\n          <nobr class=\"hidden-sm hidden-md
         hidden-lg\">242K</nobr>\n              </div>\n\n\n\n      \n      <div class=\"C234\">\n
         \                 <div\n            class=\"\n              item-ttl\n                                                        C
         C2\n            \"\n          >\n            <a href=\"/details/Detour\" title=\"Detour\"
@@ -3173,7 +3173,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>241,655</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>241,719</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           123          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -3199,7 +3199,7 @@ interactions:
         class=\"item-parent\">\n          <div class=\"item-parent-img\" style=\"background-image:
         url('/services/img/SciFi_Horror')\"></div>\n          <div class=\"item-parent-ttl\">Sci-Fi
         / Horror</div>\n        </div><!--/.item-parent-->\n      </a>\n      \n\n
-        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">307,953</nobr>\n
+        \     <div class=\"hidden-tiles views C C1\">\n                  <nobr class=\"hidden-xs\">308,006</nobr>\n
         \         <nobr class=\"hidden-sm hidden-md hidden-lg\">308K</nobr>\n              </div>\n\n\n\n
         \     \n      <div class=\"C234\">\n                  <div\n            class=\"\n
         \             item-ttl\n                                                        C
@@ -3217,7 +3217,7 @@ interactions:
         class=\"mt-icon C C5\">\n                                <span class=\"iconochive-movies\"
         \ aria-hidden=\"true\"></span><span class=\"sr-only\">movies</span>                  </div>\n\n
         \                 <h6 class=\"stat \">\n            <span class=\"iconochive-eye\"
-        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>307,953</nobr>\n
+        \ aria-hidden=\"true\"></span><span class=\"sr-only\">eye</span>            <nobr>308,006</nobr>\n
         \         </h6>\n        \n                  <h6 class=\"stat\">\n            <span
         class=\"iconochive-favorite\"  aria-hidden=\"true\"></span><span class=\"sr-only\">favorite</span>
         \           227          </h6>\n\n                      <h6 class=\"stat\">\n
@@ -3347,7 +3347,7 @@ interactions:
         Gabis</a><br/><small>Member</small></div></div>                  </div>\n
         \       \n        <div class=\"grafs about-box\">\n          <div>VIEWS &mdash;
         <a href=\"https://blog.archive.org/2018/12/19/new-views-stats-for-the-new-year/\">About
-        the New Statistics</a></div>\n          <p>Total Views 168,419,023</p>\n          <div
+        the New Statistics</a></div>\n          <p>Total Views 168,469,641</p>\n          <div
         id=\"grafs_views_api\" class=\"grafs-content\" data-id=\"feature_films\"></div>\n
         \         <div id=\"cviews_legend\" class=\"grafs-legend\"> </div>\n        </div>\n\n
         \       <div class=\"grafs about-box\">\n        <div>DISCONTINUED VIEWS</div>\n
@@ -3888,20 +3888,20 @@ interactions:
         more forum posts</a></b>          </div>\n        </div>\n            </div><!--/#.tabby-forum-->\n
         \ </div><!--/.container-ia-->\n\n  <script type=\"text/javascript\">\narchive_setup.push(function()
         {\n    });\n</script>\n        </div><!--/.container-->\n      </main>\n    </div><!--/#wrap-->\n
-        \   \n    <!-- Timing ...\n     rendered on: www21.us.archive.org\n seconds
+        \   \n    <!-- Timing ...\n     rendered on: www20.us.archive.org\n seconds
         diff sec                       message   stack(file:line:function)\n=========================================================\n
         \ 0.0000   0.0000                 petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require\n
         \                                            |common/ia:55:require_once\n
-        \                                            |setup.php:344:log\n  0.0008
-        \  0.0008              call get_redis()   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |setup.php:344:log\n  0.0012
+        \  0.0012              call get_redis()   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:182:getItem\n                                             |common/Item.inc:77:parseMetadata\n
         \                                            |Item.inc:132:get_obj\n                                             |Metadata.inc:422:get_json_obj\n
         \                                            |Metadata.inc:1794:direct\n                                             |Caching/AbstractReactiveCache.inc:281:do_recompute\n
         \                                            |AbstractReactiveCache.inc:392:call_user_func_array\n
         \                                            |./unknown:unknown:{closure}\n
         \                                            |/var/cache/petabox/petabox/www/common/Metadata.inc:1833:_get_json_obj\n
-        \                                            |Metadata.inc:1953:log\n  0.0041
-        \  0.0033              redis_read start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |Metadata.inc:1953:log\n  0.0064
+        \  0.0052              redis_read start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:182:getItem\n                                             |common/Item.inc:77:parseMetadata\n
         \                                            |Item.inc:132:get_obj\n                                             |Metadata.inc:422:get_json_obj\n
         \                                            |Metadata.inc:1794:direct\n                                             |Caching/AbstractReactiveCache.inc:281:do_recompute\n
@@ -3910,7 +3910,7 @@ interactions:
         \                                            |/var/cache/petabox/petabox/www/common/Metadata.inc:1833:_get_json_obj\n
         \                                            |Metadata.inc:2026:fetch\n                                             |Metadata/RecordServer.inc:137:execute\n
         \                                            |RecordServer/FetchRecordOp.inc:44:log\n
-        \ 0.0064   0.0022             redis_read finish   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \ 0.0096   0.0032             redis_read finish   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:182:getItem\n                                             |common/Item.inc:77:parseMetadata\n
         \                                            |Item.inc:132:get_obj\n                                             |Metadata.inc:422:get_json_obj\n
         \                                            |Metadata.inc:1794:direct\n                                             |Caching/AbstractReactiveCache.inc:281:do_recompute\n
@@ -3919,53 +3919,165 @@ interactions:
         \                                            |/var/cache/petabox/petabox/www/common/Metadata.inc:1833:_get_json_obj\n
         \                                            |Metadata.inc:2026:fetch\n                                             |Metadata/RecordServer.inc:137:execute\n
         \                                            |RecordServer/FetchRecordOp.inc:50:log\n
-        \ 0.0737   0.0673           begin session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \ 0.0222   0.0127           begin session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:227:head\n
         \                                            |common/Nav.inc:116:__construct\n
         \                                            |Nav.inc:185:session_start\n
-        \                                            |Cookies.inc:61:log\n  0.0739
-        \  0.0002            done session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |Cookies.inc:61:log\n  0.0225
+        \  0.0003            done session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:227:head\n
         \                                            |common/Nav.inc:116:__construct\n
         \                                            |Nav.inc:185:session_start\n
-        \                                            |Cookies.inc:67:log\n  4.4993
-        \  4.4254              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |Cookies.inc:67:log\n  6.0203
+        \  5.9979              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:247:main\n
         \                                            |collection.php:1183:table\n
         \                                            |common/Forum.inc:162:escape\n
         \                                            |DB.inc:721:connect\n                                             |DB.inc:105:conn\n
-        \                                            |DB.inc:856:log\n  4.5068   0.0075
+        \                                            |DB.inc:856:log\n  6.0284   0.0081
         \                       got db   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:247:main\n
         \                                            |collection.php:1183:table\n
         \                                            |common/Forum.inc:162:escape\n
         \                                            |DB.inc:721:connect\n                                             |DB.inc:105:conn\n
-        \                                            |DB.inc:901:log\n  4.6229   0.1160
+        \                                            |DB.inc:901:log\n  6.0478   0.0194
         \  cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:247:main\n
-        \                                            |collection.php:1198:has_items_with_searchable_text\n
-        \                                            |collection.php:343:value\n                                             |common/Cache.inc:92:value\n
-        \                                            |RedisCache.inc:447:log\n  4.6534
-        \  0.0305    cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:372:query\n
+        \                                            |Cache.inc:112:value\n                                             |Cache.inc:92:value\n
+        \                                            |RedisCache.inc:447:log\n  6.0483
+        \  0.0005              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:247:main\n
-        \                                            |collection.php:1198:has_items_with_searchable_text\n
-        \                                            |collection.php:343:value\n                                             |common/Cache.inc:92:value\n
-        \                                            |RedisCache.inc:483:log\n  5.1839
-        \  0.5305                      bug dump   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:372:query\n
+        \                                            |Cache.inc:112:value\n                                             |Cache.inc:92:value\n
+        \                                            |RedisCache.inc:476:{closure}\n
+        \                                            |Cache.inc:101:connectReadOnly\n
+        \                                            |DB.inc:106:conn\n                                             |DB.inc:856:log\n
+        \ 6.0540   0.0057    cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:372:query\n
+        \                                            |Cache.inc:112:value\n                                             |Cache.inc:92:value\n
+        \                                            |RedisCache.inc:483:log\n  6.0676
+        \  0.0136   cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:372:query\n
+        \                                            |Cache.inc:112:value\n                                             |Cache.inc:92:value\n
+        \                                            |RedisCache.inc:447:log\n  6.0681
+        \  0.0005              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:372:query\n
+        \                                            |Cache.inc:112:value\n                                             |Cache.inc:92:value\n
+        \                                            |RedisCache.inc:476:{closure}\n
+        \                                            |Cache.inc:101:connectReadOnly\n
+        \                                            |DB.inc:106:conn\n                                             |DB.inc:856:log\n
+        \ 6.0730   0.0050    cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:372:query\n
+        \                                            |Cache.inc:112:value\n                                             |Cache.inc:92:value\n
+        \                                            |RedisCache.inc:483:log\n  6.0914
+        \  0.0184   cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:447:log\n
+        \ 6.0919   0.0004              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:476:{closure}\n
+        \                                            |Cache.inc:101:connectReadOnly\n
+        \                                            |DB.inc:106:conn\n                                             |DB.inc:856:log\n
+        \ 6.0963   0.0044    cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:483:log\n
+        \ 6.1121   0.0158   cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:447:log\n
+        \ 6.1126   0.0005              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:476:{closure}\n
+        \                                            |Cache.inc:101:connectReadOnly\n
+        \                                            |DB.inc:106:conn\n                                             |DB.inc:856:log\n
+        \ 6.1172   0.0046    cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:380:get_posts\n                                             |Forum.inc:380:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:483:log\n
+        \ 6.2886   0.1714                      bug dump   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:282:footer\n
         \                                            |common/setup.php:147:footer\n
         \                                            |Nav.inc:1425:dump\n                                             |Bug.inc:114:log\n
         \   -->\n    <script type=\"text/javascript\">\nif (window.archive_analytics)
         {\n  var vs = window.archive_analytics.get_data_packets();\n  for (var i in
-        vs) {\n    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=5183;\n
-        \   vs[i]['server_name']=\"www21.us.archive.org\";\n      }\n\n  if ($(\".more_search\").size()>0)
+        vs) {\n    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=6288;\n
+        \   vs[i]['server_name']=\"www20.us.archive.org\";\n      }\n\n  if ($(\".more_search\").size()>0)
         {\n    window.archive_analytics.send_scroll_fetch_base_event();\n  }\n}\n</script>\n
         \     </div>\n  </body>\n</html>\n    "}
-    headers: {Connection: keep-alive, Content-Encoding: gzip, Content-Type: text/html;
-        charset=utf-8, Date: 'Sat, 29 Dec 2018 14:16:00 GMT', Server: nginx/1.4.6
-        (Ubuntu), Set-Cookie: 'collections=feature_films; expires=Thu, 27-Jun-2019
-        14:15:59 GMT; Max-Age=15552000; path=/; domain=.archive.org', Strict-Transport-Security: max-age=15724800,
-      Transfer-Encoding: chunked}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=utf-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:40:09 GMT
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : nginx/1.4.6 (Ubuntu)
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : collections=feature_films; expires=Fri, 28-Jun-2019 11:40:09 GMT; Max-Age=15552000;
+        path=/; domain=.archive.org
+      Strict-Transport-Security: max-age=15724800
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

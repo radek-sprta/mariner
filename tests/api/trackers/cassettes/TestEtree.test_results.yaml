@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://bt.etree.org/
+    uri: https://bt.etree.org/?searchzzzz=wilco
   response:
     body: {string: "<!-- SKIP :  -->\n<!DOCTYPE html\n    PUBLIC \"-//W3C//DTD XHTML
         1.0 Transitional//EN\"\n    \"DTD/xhtml1-strict.dtd\">\n<html><head>\n<title>bt.etree.org
@@ -36,7 +36,7 @@ interactions:
         \          <TD width=10 height=20></TD>\n          <TD width=110 height=20><a
         target=_blank href=http://wiki.etree.org/index.php?page=BitTorrent><IMG height=17\n
         \           src=\"pic/bt_faq.gif\" width=110 border=0></a></TD>\n          <TD
-        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#be9b898d9b888b9b898c9b89889b888b9b898c9b8a8e9b888b9b898a9b898c9b888b9b888b9b8cdb9b88d89b898c9b8889\"><IMG
+        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#d5f0e2e6f0e3e0f0e2e7f0e2e3f0e3e0f0e2e7f0e1e5f0e3e0f0e2e1f0e2e7f0e3e0f0e3e0f0e7b0f0e3b3f0e2e7f0e3e2\"><IMG
         height=17\n            src=\"pic/b_contact.gif\" width=110 border=0></a></TD></TR>\n
         \       <TR height=20>\n          <TD width=20 height=20></TD>\n          <TD
         width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
@@ -416,15 +416,6 @@ interactions:
         \ 1:51</td>\n\t<td>206.23 MB</td>\n\t<td>99 times</td>\n\t<td><a href=\"details.php?torrentId=597956&dllist=1#seeders\">1</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=597956&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597917\"><b>Wilco
-        2002-05-26_Melweg - Amsterdam,NL  (Matrix)</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/597917/Wilco%202002-05-26_Melweg%20-%20Amsterdam%2CNL%20%20%28Matrix%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597917&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597917#startcomments\">4</a>\n\t</td>\n\t<td>02/09
-        15:12</td>\n\t<td>672.24 MB</td>\n\t<td>121 times</td>\n\t<td><a href=\"details.php?torrentId=597917&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597917&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\">Jeff
         Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"
         href=\"details.php?torrentId=597892\"><b>Jeff Tweedy 1994-12-29_ Lounge Ax_
@@ -442,7 +433,7 @@ interactions:
         href=\"download.php/597836/Wilco1999-11-06%20%20Newport%20Music%20Hall%20-%20%20Columbus%2C%20OH%20--%20SBD%20--.torrent\"><img
         src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597836&filelist=1#filelist\">30</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=597836#startcomments\">1</a>\n\t</td>\n\t<td>02/05
-        16:02</td>\n\t<td>631.71 MB</td>\n\t<td>187 times</td>\n\t<td><a href=\"details.php?torrentId=597836&dllist=1#seeders\">6</a></td>\n\t<td><a
+        16:02</td>\n\t<td>631.71 MB</td>\n\t<td>188 times</td>\n\t<td><a href=\"details.php?torrentId=597836&dllist=1#seeders\">7</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=597836&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
@@ -480,7 +471,7 @@ interactions:
         class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/596100/Wilco%202002-10-22%20Electric%20Factory%20%20--%20EPIC%20SBD%20--.torrent\"><img
         src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596100&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=596100#startcomments\">5</a>\n\t</td>\n\t<td>11/05
-        \ 1:31</td>\n\t<td>712.12 MB</td>\n\t<td>220 times</td>\n\t<td><a href=\"details.php?torrentId=596100&dllist=1#seeders\">2</a></td>\n\t<td><a
+        \ 1:31</td>\n\t<td>712.12 MB</td>\n\t<td>220 times</td>\n\t<td><a href=\"details.php?torrentId=596100&dllist=1#seeders\">1</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=596100&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
@@ -489,7 +480,7 @@ interactions:
         class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/596095/Wilco%201997-05-18%20Fox%20Theatre%20and%20Cafe%20-Boulder%20CO%20-%20SBD-.torrent\"><img
         src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596095&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=596095#startcomments\">2</a>\n\t</td>\n\t<td>11/04
-        12:06</td>\n\t<td>603.26 MB</td>\n\t<td>132 times</td>\n\t<td><a href=\"details.php?torrentId=596095&dllist=1#seeders\">1</a></td>\n\t<td><a
+        12:06</td>\n\t<td>603.26 MB</td>\n\t<td>132 times</td>\n\t<td><a href=\"details.php?torrentId=596095&dllist=1#seeders\">2</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=596095&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
@@ -547,7 +538,7 @@ interactions:
         class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/596010/Wilco%201996-11-05%20Liberty%20Lunch%20-%20Austin%2CTX%20-%20SBD.torrent\"><img
         src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596010&filelist=1#filelist\">22</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=596010#startcomments\">3</a>\n\t</td>\n\t<td>11/01
-        23:37</td>\n\t<td>378.26 MB</td>\n\t<td>143 times</td>\n\t<td><a href=\"details.php?torrentId=596010&dllist=1#seeders\">3</a></td>\n\t<td><a
+        23:37</td>\n\t<td>378.26 MB</td>\n\t<td>143 times</td>\n\t<td><a href=\"details.php?torrentId=596010&dllist=1#seeders\">4</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=596010&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
@@ -788,7 +779,7 @@ interactions:
         href=\"download.php/593916/WILCO-2017-06-23.torrent\"><img src=\"/pic/disk.gif\"
         alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593916&filelist=1#filelist\">35</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=593916#startcomments\">16</a>\n\t</td>\n\t<td>06/27
-        \ 1:11</td>\n\t<td>656.15 MB</td>\n\t<td>343 times</td>\n\t<td><a href=\"details.php?torrentId=593916&dllist=1#seeders\">2</a></td>\n\t<td><a
+        \ 1:11</td>\n\t<td>656.15 MB</td>\n\t<td>343 times</td>\n\t<td><a href=\"details.php?torrentId=593916&dllist=1#seeders\">3</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=593916&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/bob100\">bob100</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
@@ -834,7 +825,7 @@ interactions:
         -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/591934/WILCO2017-03-19.torrent\"><img
         src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=591934&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=591934#startcomments\">10</a>\n\t</td>\n\t<td>03/20
-        \ 3:21</td>\n\t<td>667.86 MB</td>\n\t<td>285 times</td>\n\t<td><a href=\"details.php?torrentId=591934&dllist=1#seeders\">3</a></td>\n\t<td><a
+        \ 3:21</td>\n\t<td>667.86 MB</td>\n\t<td>286 times</td>\n\t<td><a href=\"details.php?torrentId=591934&dllist=1#seeders\">2</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=591934&dllist=1#leechers\">0</a></td>\n
         \       <td align=\"left\"><a href=\"http://db.etree.org/bob100\">bob100</a></td>\n</tr>\n<tr
         align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
@@ -862,9 +853,18 @@ interactions:
         href=\"download.php/590599/mmh2016-12-29.mg21.torrent\"><img src=\"/pic/disk.gif\"
         alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=590599&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
         href=\"details.php?torrentId=590599#startcomments\">4</a>\n\t</td>\n\t<td>12/31
-        16:37</td>\n\t<td>867.45 MB</td>\n\t<td>150 times</td>\n\t<td><a href=\"details.php?torrentId=590599&dllist=1#seeders\">3</a></td>\n\t<td><a
+        16:37</td>\n\t<td>867.45 MB</td>\n\t<td>150 times</td>\n\t<td><a href=\"details.php?torrentId=590599&dllist=1#seeders\">2</a></td>\n\t<td><a
         class=\"red\" href=\"details.php?torrentId=590599&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/boacom\">boacom</a></td>\n</tr>\n\n</table><center>\r\n<br>\r\n\r\n<b>Filters:</b>
+        \       <td align=\"left\"><a href=\"http://db.etree.org/boacom\">boacom</a></td>\n</tr>\n<tr
+        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
+        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=589811\"><b>Wilco_2016.Nov.14
+        _ MuseumsQuartier Halle E - Vienna, Austria</b></a>\n        <!--        &nbsp;<span
+        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/589811/Wilco_2016.Nov.14.torrent\"><img
+        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=589811&filelist=1#filelist\">34</a>\n\t</td>\n\t<td>\n\t\t<a
+        href=\"details.php?torrentId=589811#startcomments\">4</a>\n\t</td>\n\t<td>11/15
+        18:12</td>\n\t<td>694.95 MB</td>\n\t<td>117 times</td>\n\t<td><a href=\"details.php?torrentId=589811&dllist=1#seeders\">1</a></td>\n\t<td><a
+        class=\"red\" href=\"details.php?torrentId=589811&dllist=1#leechers\">0</a></td>\n
+        \       <td align=\"left\"><a href=\"http://db.etree.org/musicfreak\">musicfreak</a></td>\n</tr>\n\n</table><center>\r\n<br>\r\n\r\n<b>Filters:</b>
         &nbsp; &nbsp;<a href=/index.php?searchzzzz=wilco&filter=noreseed>Hide *RESEEDS*</a>
         &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nodead>Hide
         Grateful Dead</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophish>Hide
@@ -894,19 +894,38 @@ interactions:
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"http://db.etree.org/privacy.php\">Legal</a>\n</TD>\n<TD
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"rss/bt_etree_org.rdf\">RSS Feed</a>\n</TD>\n</tr>\n</table>\n<table
         align=center>\n<tr>\n<td align=center>\n<br>\n        <font face=\"Arial\"
-        align=\"center\" size=\"1\">\n<i>Last refreshed: Sat, 29 Dec 2018 09:16:52
+        align=\"center\" size=\"1\">\n<i>Last refreshed: Sun, 30 Dec 2018 06:41:03
         EST</i><BR>\n\nContents designed &amp; maintained by the etree.org volunteers<br>\n\xA9
         1998-2018, <a href=\"http://etree.org\">etree.org</a>, except where\nnoted.
         All Rights Reserved.<br>\n\nPHP BitTorrent Tracker derived from the bytemonsoon.com
         tracker by dfx.<br>\n\n\n<br><br>\n\n</font>\n</td>\n</tr>\n</table>\n</body>\n</html>\n"}
-    headers: {CF-RAY: 490ce3095d892762-FRA, Cache-Control: 'no-store, no-cache, must-revalidate,
-        post-check=0, pre-check=0', Connection: keep-alive, Content-Encoding: gzip,
-      Content-Type: text/html; charset=UTF-8, Date: 'Sat, 29 Dec 2018 14:16:52 GMT',
-      Expect-CT: 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-      Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Pragma: no-cache, Server: cloudflare,
-      Set-Cookie: '__cfduid=db88f6b366deab29c54d7b61da86f709a1546093011; expires=Sun,
-        29-Dec-19 14:16:51 GMT; path=/; domain=.etree.org; HttpOnly', Transfer-Encoding: chunked,
-      Vary: Accept-Encoding, X-Powered-By: PHP/5.3.29}
+    headers:
+      CF-RAY: 49143c2ccdadc274-FRA
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:03 GMT
+      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Thu, 19 Nov 1981 08:52:00 GMT
+      ? !!python/object/new:multidict._istr.istr [Pragma]
+      : no-cache
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : cloudflare
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : __cfduid=d08fff8ebd07338aa5d9ffeb4710f754e1546170062; expires=Mon, 30-Dec-19
+        11:41:02 GMT; path=/; domain=.etree.org; HttpOnly
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
+      X-Powered-By: PHP/5.3.29
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

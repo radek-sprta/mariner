@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://archive.org/details/feature_films
+    uri: https://archive.org/details/feature_films?and%5B%5D=zxcvbnm&sin=
   response:
     body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n<!-- __ _ _ _ __| |_ (_)__
         _____\n    / _` | '_/ _| ' \\| |\\ V / -_)\n    \\__,_|_| \\__|_||_|_| \\_/\\___|
@@ -71,9 +71,9 @@ interactions:
         but we need your help. If you find our site useful, please chip in. Thank
         you.<br>\n\u2014<i>Brewster Kahle, Founder, Internet Archive</i>      <div\n
         \       class=\"thermometer\"\n        role=\"progressbar\"\n        aria-valuemin=\"0\"\n
-        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n        <div class=\"dpad  hidden-xs
         hidden-sm hidden-lg\"><!--md-->\n          <p class=\"donate-notification
@@ -92,9 +92,9 @@ interactions:
         we need your help. If you find our site useful, please chip in. Thank you.<br>\n\u2014<i>Brewster
         Kahle, Founder, Internet Archive</i>      <div\n        class=\"thermometer\"\n
         \       role=\"progressbar\"\n        aria-valuemin=\"0\"\n        aria-valuemax=\"6000000\"\n
-        \       aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n        <div class=\"dpad hidden-xs
         hidden-md hidden-lg\"><!--sm-->\n          <p class=\"donate-notification
@@ -113,9 +113,9 @@ interactions:
         we need your help. If you find our site useful, please chip in. Thank you.<br>\n\u2014<i>Brewster
         Kahle, Founder, Internet Archive</i>      <div\n        class=\"thermometer\"\n
         \       role=\"progressbar\"\n        aria-valuemin=\"0\"\n        aria-valuemax=\"6000000\"\n
-        \       aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n        <div class=\"dpad hidden-sm
         hidden-md hidden-lg\"><!--xs-->\n            <p class=\"donate-notification
@@ -132,9 +132,9 @@ interactions:
         is a bargain, but we need your help. If you find our site useful, please chip
         in. <br>\n\u2014<i>Brewster Kahle, Founder, Internet Archive</i>      <div\n
         \       class=\"thermometer\"\n        role=\"progressbar\"\n        aria-valuemin=\"0\"\n
-        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5133882\"\n        aria-valuetext=\"$5,133,882\"\n
+        \       aria-valuemax=\"6000000\"\n        aria-valuenow=\"5245455\"\n        aria-valuetext=\"$5,245,455\"\n
         \     >\n        <div class=\"donate-progress-bar\">\n          <div class=\"donate-filler-blue\"
-        style=\"width: 85.5647%\">\n            <span class=\"progress-value\">$5,133,882</span>\n
+        style=\"width: 87.42425%\">\n            <span class=\"progress-value\">$5,245,455</span>\n
         \         </div>\n        </div>\n        <span class=\"donate-goal\">$6M
         GOAL</span>\n      </div>\n            </div>\n      </div>\n\n      <div\n
         \       class=\"donate-form\"\n        itemscope\n        itemtype=\"http://schema.org/DonateAction\"\n
@@ -751,7 +751,7 @@ interactions:
         \             <a\n          href=\"https://archive.org/advancedsearch.php\"\n
         \         class=\"search-options__advanced-search-link\"\n          onclick=\"return
         AJS.advanced_search(this)\"\n        >Advanced Search</a>\n          </div>\n
-        \   \n                              <script>AJS.cgi_args = {\"ands\":[],\"minday\":\"06/04/2009\",\"maxday\":\"12/29/2018\"}</script>\n
+        \   \n                              <script>AJS.cgi_args = {\"ands\":[],\"minday\":\"06/04/2009\",\"maxday\":\"12/30/2018\"}</script>\n
         \   \n                        <input type=\"submit\" value=\"Search\"/>\n
         \                     </form>\n                    </div><!--/.searchbar -->\n
         \                 </li>\n                \n                <li class=\"dropdown
@@ -1041,7 +1041,7 @@ interactions:
         Gabis</a><br/><small>Member</small></div></div>                  </div>\n
         \       \n        <div class=\"grafs about-box\">\n          <div>VIEWS &mdash;
         <a href=\"https://blog.archive.org/2018/12/19/new-views-stats-for-the-new-year/\">About
-        the New Statistics</a></div>\n          <p>Total Views 168,419,023</p>\n          <div
+        the New Statistics</a></div>\n          <p>Total Views 168,469,641</p>\n          <div
         id=\"grafs_views_api\" class=\"grafs-content\" data-id=\"feature_films\"></div>\n
         \         <div id=\"cviews_legend\" class=\"grafs-legend\"> </div>\n        </div>\n\n
         \       <div class=\"grafs about-box\">\n        <div>DISCONTINUED VIEWS</div>\n
@@ -1582,20 +1582,20 @@ interactions:
         more forum posts</a></b>          </div>\n        </div>\n            </div><!--/#.tabby-forum-->\n
         \ </div><!--/.container-ia-->\n\n  <script type=\"text/javascript\">\narchive_setup.push(function()
         {\n    });\n</script>\n        </div><!--/.container-->\n      </main>\n    </div><!--/#wrap-->\n
-        \   \n    <!-- Timing ...\n     rendered on: www21.us.archive.org\n seconds
-        diff sec               message   stack(file:line:function)\n=========================================================\n
-        \ 0.0000   0.0000         petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require\n
+        \   \n    <!-- Timing ...\n     rendered on: www20.us.archive.org\n seconds
+        diff sec                       message   stack(file:line:function)\n=========================================================\n
+        \ 0.0000   0.0000                 petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require\n
         \                                            |common/ia:55:require_once\n
-        \                                            |setup.php:344:log\n  0.0009
-        \  0.0009      call get_redis()   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |setup.php:344:log\n  0.0007
+        \  0.0007              call get_redis()   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:182:getItem\n                                             |common/Item.inc:77:parseMetadata\n
         \                                            |Item.inc:132:get_obj\n                                             |Metadata.inc:422:get_json_obj\n
         \                                            |Metadata.inc:1794:direct\n                                             |Caching/AbstractReactiveCache.inc:281:do_recompute\n
         \                                            |AbstractReactiveCache.inc:392:call_user_func_array\n
         \                                            |./unknown:unknown:{closure}\n
         \                                            |/var/cache/petabox/petabox/www/common/Metadata.inc:1833:_get_json_obj\n
-        \                                            |Metadata.inc:1953:log\n  0.0064
-        \  0.0055      redis_read start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |Metadata.inc:1953:log\n  0.0047
+        \  0.0040              redis_read start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:182:getItem\n                                             |common/Item.inc:77:parseMetadata\n
         \                                            |Item.inc:132:get_obj\n                                             |Metadata.inc:422:get_json_obj\n
         \                                            |Metadata.inc:1794:direct\n                                             |Caching/AbstractReactiveCache.inc:281:do_recompute\n
@@ -1604,7 +1604,7 @@ interactions:
         \                                            |/var/cache/petabox/petabox/www/common/Metadata.inc:1833:_get_json_obj\n
         \                                            |Metadata.inc:2026:fetch\n                                             |Metadata/RecordServer.inc:137:execute\n
         \                                            |RecordServer/FetchRecordOp.inc:44:log\n
-        \ 0.0097   0.0033     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \ 0.0074   0.0027             redis_read finish   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:182:getItem\n                                             |common/Item.inc:77:parseMetadata\n
         \                                            |Item.inc:132:get_obj\n                                             |Metadata.inc:422:get_json_obj\n
         \                                            |Metadata.inc:1794:direct\n                                             |Caching/AbstractReactiveCache.inc:281:do_recompute\n
@@ -1613,43 +1613,75 @@ interactions:
         \                                            |/var/cache/petabox/petabox/www/common/Metadata.inc:1833:_get_json_obj\n
         \                                            |Metadata.inc:2026:fetch\n                                             |Metadata/RecordServer.inc:137:execute\n
         \                                            |RecordServer/FetchRecordOp.inc:50:log\n
-        \ 0.0253   0.0155   begin session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \ 0.0190   0.0115           begin session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:227:head\n
         \                                            |common/Nav.inc:116:__construct\n
         \                                            |Nav.inc:185:session_start\n
-        \                                            |Cookies.inc:61:log\n  0.0258
-        \  0.0005    done session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |Cookies.inc:61:log\n  0.0191
+        \  0.0002            done session_start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:227:head\n
         \                                            |common/Nav.inc:116:__construct\n
         \                                            |Nav.inc:185:session_start\n
-        \                                            |Cookies.inc:67:log\n  0.2838
-        \  0.2580      start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |Cookies.inc:67:log\n  0.3600
+        \  0.3409              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:247:main\n
         \                                            |collection.php:1183:table\n
         \                                            |common/Forum.inc:162:escape\n
         \                                            |DB.inc:721:connect\n                                             |DB.inc:105:conn\n
-        \                                            |DB.inc:856:log\n  0.2962   0.0124
-        \               got db   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |DB.inc:856:log\n  0.3682   0.0082
+        \                       got db   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:247:main\n
         \                                            |collection.php:1183:table\n
         \                                            |common/Forum.inc:162:escape\n
         \                                            |DB.inc:721:connect\n                                             |DB.inc:105:conn\n
-        \                                            |DB.inc:901:log\n  0.4118   0.1156
-        \             bug dump   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |DB.inc:901:log\n  0.3832   0.0150
+        \  cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:447:log\n
+        \ 0.3835   0.0003              start db connect   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:476:{closure}\n
+        \                                            |Cache.inc:101:connectReadOnly\n
+        \                                            |DB.inc:106:conn\n                                             |DB.inc:856:log\n
+        \ 0.3890   0.0055    cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
+        \                                            |details.php:196:include\n                                             |collection.php:247:main\n
+        \                                            |collection.php:1183:table\n
+        \                                            |common/Forum.inc:202:get_posts\n
+        \                                            |Forum.inc:372:query\n                                             |Cache.inc:112:value\n
+        \                                            |Cache.inc:92:value\n                                             |RedisCache.inc:483:log\n
+        \ 0.4919   0.1030                      bug dump   var/cache/petabox/petabox/www/sf/details.php:61:getItem\n
         \                                            |details.php:196:include\n                                             |collection.php:282:footer\n
         \                                            |common/setup.php:147:footer\n
         \                                            |Nav.inc:1425:dump\n                                             |Bug.inc:114:log\n
         \   -->\n    <script type=\"text/javascript\">\nif (window.archive_analytics)
         {\n  var vs = window.archive_analytics.get_data_packets();\n  for (var i in
-        vs) {\n    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=411;\n
-        \   vs[i]['server_name']=\"www21.us.archive.org\";\n      }\n\n  if ($(\".more_search\").size()>0)
+        vs) {\n    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=491;\n
+        \   vs[i]['server_name']=\"www20.us.archive.org\";\n      }\n\n  if ($(\".more_search\").size()>0)
         {\n    window.archive_analytics.send_scroll_fetch_base_event();\n  }\n}\n</script>\n
         \     </div>\n  </body>\n</html>\n    "}
-    headers: {Connection: keep-alive, Content-Encoding: gzip, Content-Type: text/html;
-        charset=utf-8, Date: 'Sat, 29 Dec 2018 14:16:07 GMT', Server: nginx/1.4.6
-        (Ubuntu), Set-Cookie: 'collections=feature_films; expires=Thu, 27-Jun-2019
-        14:16:07 GMT; Max-Age=15552000; path=/; domain=.archive.org', Strict-Transport-Security: max-age=15724800,
-      Transfer-Encoding: chunked}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=utf-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:40:18 GMT
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : nginx/1.4.6 (Ubuntu)
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : collections=feature_films; expires=Fri, 28-Jun-2019 11:40:18 GMT; Max-Age=15552000;
+        path=/; domain=.archive.org
+      Strict-Transport-Security: max-age=15724800
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

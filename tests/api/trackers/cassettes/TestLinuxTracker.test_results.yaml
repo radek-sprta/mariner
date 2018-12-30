@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://linuxtracker.org/index.php
+    uri: https://linuxtracker.org/index.php?page=torrents&search=ubuntu
   response:
     body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
@@ -970,13 +970,13 @@ interactions:
         </td></tr>\n  <tr> <td><strong>Size:</strong> 38.78 GB </td><td></td></tr>\n<tr>
         <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
         <a href=\"index.php?page=peers&amp;id=46c1dd173f334f19e02a330943ca5592faeeabb2\"
-        title=\"Click here to view peers details\">15</a> </td><td></td></tr>\n<tr>
+        title=\"Click here to view peers details\">14</a> </td><td></td></tr>\n<tr>
         <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         <a href=\"index.php?page=peers&amp;id=46c1dd173f334f19e02a330943ca5592faeeabb2\"
-        title=\"Click here to view peers details\">2</a> </td><td></td></tr>\n<tr>
+        title=\"Click here to view peers details\">0</a> </td><td></td></tr>\n<tr>
         <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
         <a href=\"index.php?page=torrent_history&amp;id=46c1dd173f334f19e02a330943ca5592faeeabb2\"
-        title=\"History - Ubuntu DesktopPack 18.04 Combination Pack\">35</a> </td><td
+        title=\"History - Ubuntu DesktopPack 18.04 Combination Pack\">36</a> </td><td
         align=right><a href=magnet:?xt=urn:btih:I3A52FZ7GNHRTYBKGMEUHSSVSL5O5K5S><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=46c1dd173f334f19e02a330943ca5592faeeabb2\"><img
         src=\"images/download.gif\" border=\"0\"  alt=\"torrent\"/></a>\n</td></tr>\n</table>\n<hr>\n<table
@@ -1001,7 +1001,7 @@ interactions:
         <br />\n<hr>\n   <table width=100%>\n<tr><td>   \n   <strong>Added On:</strong>
         21/10/2018</td><td> </td></tr>\n  <tr> <td><strong>Size:</strong> 2.93 GB
         </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
-        191 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
+        190 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         2 </td><td></td></tr>\n<tr> <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
         3199 </td><td align=right><a href=magnet:?xt=urn:btih:YLZUONIBQ4AJLDMJ5HRBHJENKPWFJRXT><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=c2f34735018700958d89e9e213a48d53ec54c6f3\"><img
@@ -1138,7 +1138,7 @@ interactions:
         width=100%>\n<tr><td>   \n   <strong>Added On:</strong> 21/10/2018</td><td>
         </td></tr>\n  <tr> <td><strong>Size:</strong> 1.96 GB </td><td></td></tr>\n<tr>
         <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
-        255 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
+        254 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         4 </td><td></td></tr>\n<tr> <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
         3402 </td><td align=right><a href=magnet:?xt=urn:btih:MHW5Q2LVKEG3NA6YT7S2RRUC5SUYN56W><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=61edd86975510db683d89fe5a8c682eca986f7d6\"><img
@@ -1166,7 +1166,7 @@ interactions:
         1.59 GB </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
         131 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         3 </td><td></td></tr>\n<tr> <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
-        2396 </td><td align=right><a href=magnet:?xt=urn:btih:4ZREWIDYVJP65HJGKIMO7YH7TDLJB63T><img
+        2397 </td><td align=right><a href=magnet:?xt=urn:btih:4ZREWIDYVJP65HJGKIMO7YH7TDLJB63T><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=e6624b2078aa5fee9d265218efe0ff98d690fb73\"><img
         src=\"images/download.gif\" border=\"0\"  alt=\"torrent\"/></a>\n</td></tr>\n</table>\n<hr>\n<table
         width=100%>\n<tr>\n<td>\n---</td><td> <a href=\"index.php?page=userdetails&amp;id=9892\"><span
@@ -1194,7 +1194,7 @@ interactions:
         \  \n   <strong>Added On:</strong> 21/10/2018</td><td> </td></tr>\n  <tr>
         <td><strong>Size:</strong> 881.00 MB </td><td></td></tr>\n<tr> <td><strong><a
         href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
-        801 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
+        800 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         7 </td><td></td></tr>\n<tr> <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
         4088 </td><td align=right><a href=magnet:?xt=urn:btih:RRFNX6PL4ZXR3ACPW2SPXG3USZWDVNQJ><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=8c4adbf9ebe66f1d804fb6a4fb9b74966c3ab609\"><img
@@ -1252,7 +1252,7 @@ interactions:
         \  \n   <strong>Added On:</strong> 20/10/2018</td><td> </td></tr>\n  <tr>
         <td><strong>Size:</strong> 1.58 GB </td><td></td></tr>\n<tr> <td><strong><a
         href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
-        293 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
+        292 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         10 </td><td></td></tr>\n<tr> <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
         1520 </td><td align=right><a href=magnet:?xt=urn:btih:HC2T7IUKSZHPYONHYY6AKPBAREABQXJL><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=38b53fa28a964efc39a7c63c053c208900185d2b\"><img
@@ -1281,7 +1281,7 @@ interactions:
         \  \n   <strong>Added On:</strong> 18/10/2018</td><td> </td></tr>\n  <tr>
         <td><strong>Size:</strong> 1.81 GB </td><td></td></tr>\n<tr> <td><strong><a
         href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=5&amp;by=2\">Seeds</a></strong>
-        348 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
+        349 </td><td></td></tr>\n<tr> <td><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=6&amp;by=2\">Leechers</a></strong>
         1 </td><td></td></tr>\n<tr> <td width=90%><strong><a href=\"/index.php?page=torrents&amp;active=1&amp;search=ubuntu&amp;&amp;order=7&amp;by=1\">Completed</a></strong>
         5141 </td><td align=right><a href=magnet:?xt=urn:btih:KYDB7NBOETE55UDBOOEIXIFUNQDL4YEI><img
         src=\"images/azureus.gif\" border=\"0\"  alt=\"Magnet Link\"/></a> <a href=\"index.php?page=downloadcheck&amp;id=56061fb42e24c9ded06173888ba0b46c06be6088\"><img
@@ -1413,7 +1413,7 @@ interactions:
         /><br /><br /><br /><br />[&nbsp;&nbsp;<u>Design By</u>: <a href=\"http://linuxtracker.org\"
         target=\"_blank\">Linuxtracker.org</a> - 2008 - 2012&nbsp;&nbsp;]&nbsp;&nbsp;[&nbsp;&nbsp;<u>xbtit
         2.3.0 By</u>: <a href=\"http://www.btiteam.org/\" target=\"_blank\">Btiteam</a>&nbsp;]<br
-        />\r\n         [ Queries: 103|0 ] - [ Script Execution: 0.1809 sec. ] - [
+        />\r\n         [ Queries: 103|0 ] - [ Script Execution: 0.1952 sec. ] - [
         GZIP: enabled ]</td>\r\n        </tr><tr>\r\n                <td class=\"footer\"
         align=\"center\" valign=\"bottom\"><br /><br /><br /><a href='#'>Back To Top</a></td>\r\n
         \        </table>\r\n      </div>\r\n\r\n\r\n</div>\r\n<!--  ########################################################################
@@ -1432,11 +1432,27 @@ interactions:
         ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';\r\n    var s
         = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
         s);\r\n  })();\r\n\r\n</script>\r\n<!--<![endif]-->\r\n</body>\r\n</html>\r\n"}
-    headers: {Cache-Control: 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
-      Content-Encoding: gzip, Content-Type: text/html; charset=UTF-8, Date: 'Sun,
-        30 Dec 2018 08:38:20 GMT', Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Pragma: no-cache,
-      Server: Apache/2.4.10 (Debian), Set-Cookie: xbtit=58gptjd9l03b6kqbnjhlgmolj6;
-        path=/, Transfer-Encoding: chunked, Vary: Accept-Encoding}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:13 GMT
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Thu, 19 Nov 1981 08:52:00 GMT
+      ? !!python/object/new:multidict._istr.istr [Pragma]
+      : no-cache
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : Apache/2.4.10 (Debian)
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : xbtit=8066rgd8ei3fvg61gvbj5bj3i4; path=/
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

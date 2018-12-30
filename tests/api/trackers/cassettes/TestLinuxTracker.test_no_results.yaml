@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://linuxtracker.org/index.php
+    uri: https://linuxtracker.org/index.php?page=torrents&search=zxcvbnm
   response:
     body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
@@ -234,7 +234,7 @@ interactions:
         size=\"10\">Feren OS - 12</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=181\"><font
         size=\"10\">Finnix - 6</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=190\"><font
         size=\"10\">FreeBSD - 57</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=194\"><font
-        size=\"10\">FreeNAS - 9</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=197\"><font
+        size=\"10\">FreeNAS - 10</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=197\"><font
         size=\"10\">Freespire - 4</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=1210\"><font
         size=\"10\">Fuduntu - 5</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2046\"><font
         size=\"10\">Fuguita - 1</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2235\"><font
@@ -383,7 +383,7 @@ interactions:
         size=\"10\">Solus - 18</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2127\"><font
         size=\"10\">Solydxk - 21</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2128\"><font
         size=\"10\">Sonar - 4</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=1236\"><font
-        size=\"10\">Sparkylinux - 207</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2131\"><font
+        size=\"10\">Sparkylinux - 213</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2131\"><font
         size=\"10\">Springdale - 2</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2225\"><font
         size=\"10\">Star - 5</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2132\"><font
         size=\"10\">Steamos - 1</font>\n<option value=\"http://linuxtracker.org/index.php?page=torrents&category=2133\"><font
@@ -536,8 +536,8 @@ interactions:
         src=\"images/download.gif\" border=\"0\"  alt=\"torrent\"/></a></td>\n          <td
         align=\"center\" class=\"lista\"><center>21/12/2018</td>\n          <td align=\"center\"
         class=\"lista\"><center>1.32 GB</td>\n          <td align=\"center\" class=\"lista\"><center>PCNetSpec</td>\n
-        \         <td align=\"center\" class=\"#FFFF00\">101</a></td>\n          <td
-        align=\"center\" class=\"#FFFF00\">2</a></td>\n          <td align=\"center\"
+        \         <td align=\"center\" class=\"#FF0000\">95</a></td>\n          <td
+        align=\"center\" class=\"#FF0000\">0</a></td>\n          <td align=\"center\"
         class=\"lista\"><center>DEMONLORD</td>\n          <tag:tora[].rp20 />\n               </tr>\n
         \   <tag:tora[].rp0 /> \n               <tr>\n          <tag:tora[].rp1 />\n
         \         <tag:tora[].rp2 />\n          <tag:tora[].rp3 />\n          <tag:tora[].rp4
@@ -948,7 +948,7 @@ interactions:
         By</u>: <a href=\"http://linuxtracker.org\" target=\"_blank\">Linuxtracker.org</a>
         - 2008 - 2012&nbsp;&nbsp;]&nbsp;&nbsp;[&nbsp;&nbsp;<u>xbtit 2.3.0 By</u>:
         <a href=\"http://www.btiteam.org/\" target=\"_blank\">Btiteam</a>&nbsp;]<br
-        />\r\n         [ Queries: 25|0 ] - [ Script Execution: 0.1135 sec. ] - [ GZIP:
+        />\r\n         [ Queries: 25|0 ] - [ Script Execution: 0.1103 sec. ] - [ GZIP:
         enabled ]</td>\r\n        </tr><tr>\r\n                <td class=\"footer\"
         align=\"center\" valign=\"bottom\"><br /><br /><br /><a href='#'>Back To Top</a></td>\r\n
         \        </table>\r\n      </div>\r\n\r\n\r\n</div>\r\n<!--  ########################################################################
@@ -967,11 +967,27 @@ interactions:
         ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';\r\n    var s
         = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
         s);\r\n  })();\r\n\r\n</script>\r\n<!--<![endif]-->\r\n</body>\r\n</html>\r\n"}
-    headers: {Cache-Control: 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
-      Content-Encoding: gzip, Content-Type: text/html; charset=UTF-8, Date: 'Sat,
-        29 Dec 2018 14:16:56 GMT', Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Pragma: no-cache,
-      Server: Apache/2.4.10 (Debian), Set-Cookie: xbtit=64c22nnus4qihonljmh6isnv32;
-        path=/, Transfer-Encoding: chunked, Vary: Accept-Encoding}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:14 GMT
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Thu, 19 Nov 1981 08:52:00 GMT
+      ? !!python/object/new:multidict._istr.istr [Pragma]
+      : no-cache
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : Apache/2.4.10 (Debian)
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : xbtit=sar3cqkqlaeb08djh5kfkabih2; path=/
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

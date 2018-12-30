@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://distrowatch.com/dwres.php
+    uri: https://distrowatch.com/dwres.php?resource=bittorrent
   response:
     body: {string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"
         \"http://www.w3.org/TR/html4/loose.dtd\"><html><head>\n<title>DistroWatch.com:
@@ -234,9 +234,9 @@ interactions:
         style=\"vertical-align: middle\" src=\"images/lbxfnbfzbi/cz.png\" border=\"0\"
         title=\"Czech\" /></a> &bull; <a href=\"https://distrowatch.com/?language=JP\"><img
         style=\"vertical-align: middle\" src=\"images/lbxfnbfzbi/jp.png\" border=\"0\"
-        title=\"Japanese\" /></a> &bull; <a href=\"https://distrowatch.com/?language=AR\"><img
-        style=\"vertical-align: middle\" src=\"images/lbxfnbfzbi/ar.png\" border=\"0\"
-        title=\"Arabic\" /></a>          </td>\n        </tr>\n      </table>\n      <table
+        title=\"Japanese\" /></a> &bull; <a href=\"https://distrowatch.com/?language=PK\"><img
+        style=\"vertical-align: middle\" src=\"images/lbxfnbfzbi/pk.png\" border=\"0\"
+        title=\"Urdu\" /></a>          </td>\n        </tr>\n      </table>\n      <table
         style=\"table-layout: auto; width: 100%\">\n        <tr>\n          <th class=\"NavMenu\">\n
         \           &nbsp;&bull; <a href=\"./\">Home Page</a>, <a href=\"/dwres.php?resource=headlines\">Headlines</a><br
         />\n            &nbsp;&bull; <a href=\"weekly.php?issue=current\">DW Weekly</a>,
@@ -6224,9 +6224,19 @@ interactions:
         /><br />Contact, corrections and suggestions: <a href=\"mailto:&#100;&#105;&#115;&#116;&#114;&#111;&#64;&#100;&#105;&#115;&#116;&#114;&#111;&#119;&#97;&#116;&#99;&#104;&#46;&#99;&#111;&#109;\">Jesse
         Smith</a><br />\nTips: BTC 1J5s35r7v8L3k2zmr3JmUfydzvdnsiNXm2 &bull; <a href=\"https://www.paypal.me/distrowatchweekly\">PayPal.me/distrowatchweekly</a>
         \   </td>\n  </tr>\n</table><br />\n<br /><br /><br /><br /><br />\n</body>\n</html>\n"}
-    headers: {Content-Encoding: gzip, Content-Length: '48400', Content-Type: text/html;
-        charset=UTF-8, Date: 'Sat, 29 Dec 2018 14:16:29 GMT', Server: Apache/2.4.10
-        (Debian), Vary: Accept-Encoding}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Length]
+      : '48399'
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:40:41 GMT
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : Apache/2.4.10 (Debian)
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://nyaa.si/
+    uri: https://nyaa.si/?f=0&c=0_0&q=ubuntu
   response:
     body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>ubuntu
         :: Nyaa</title>\n\n\t\t<meta name=\"viewport\" content=\"width=480px\">\n\t\t<meta
@@ -191,10 +191,25 @@ interactions:
         find what you were looking for.</div>\n\t\n</div>\n\t\t</div> <!-- /container
         -->\n\n\t\t<footer style=\"text-align: center;\">\n\t\t\t<p>Dark Mode: <a
         href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/b2ddba994ca5e78fa5dcbc0e00d6171a44b0b338\">b2ddba9</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
-    headers: {Cache-Control: 'no-cache, no-store, must-revalidate', Connection: keep-alive,
-      Content-Encoding: gzip, Content-Type: text/html; charset=utf-8, Date: 'Sat,
-        29 Dec 2018 14:16:57 GMT', Referrer-Policy: same-origin, Server: Sucuri/Cloudproxy,
-      Transfer-Encoding: chunked, X-Proxy-Cache: EXPIRED, X-Sucuri-Cache: MISS, X-Sucuri-ID: '15008'}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : no-cache, no-store, must-revalidate
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=utf-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:15 GMT
+      Referrer-Policy: same-origin
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : Sucuri/Cloudproxy
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
+      X-Proxy-Cache: EXPIRED
+      X-Sucuri-Cache: MISS
+      X-Sucuri-ID: '15008'
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

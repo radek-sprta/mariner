@@ -4,7 +4,7 @@ interactions:
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
-    uri: https://www.tokyotosho.info/search.php
+    uri: https://www.tokyotosho.info/search.php?terms=zxcvbnm
   response:
     body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html
         xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head><meta http-equiv=\"Content-Type\"
@@ -75,19 +75,37 @@ interactions:
         returned. Please try to broaden your search.</p></div><p class=\"footer\">\r\n<a
         href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
         alt=\"Private Internet Access\" src=\"https://ttcdn.info/N8pv99MNcc.jpg\"
-        /></a><br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [59,129]
-        60min [5,556] 5min [615] 1min [143] - 5 minute rolling average [1079]<br />\r\nIPv6:
-        24h [15,275] 60min [1,157] 5min [113] 1min [26] - 5 minute rolling average
-        [185]\r\n\r\n<br />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img
-        alt=\"Serious Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br
-        />Page generated in 42ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b>
-        (SNI supported)</b></p></body></html>"}
-    headers: {CF-RAY: 490ce3694e5c63eb-FRA, Cache-Control: max-age=1800, Connection: keep-alive,
-      Content-Encoding: gzip, Content-Length: '2198', Content-Type: text/html; charset=UTF-8,
-      Date: 'Sat, 29 Dec 2018 14:17:06 GMT', Expect-CT: 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-      Expires: 'Sat, 29 Dec 2018 14:46:38 GMT', Server: cloudflare, Set-Cookie: '__cfduid=d2bb65d29515b9f9c2eb2fef0d79a76241546093026;
-        expires=Sun, 29-Dec-19 14:17:06 GMT; path=/; domain=.tokyotosho.info; HttpOnly',
-      Strict-Transport-Security: max-age=86400, Vary: Accept-Encoding}
+        /></a><br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [64,328]
+        60min [4,370] 5min [515] 1min [114] - 5 minute rolling average [1041]<br />\r\nIPv6:
+        24h [16,088] 60min [943] 5min [91] 1min [23] - 5 minute rolling average [163]\r\n\r\n<br
+        />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img alt=\"Serious
+        Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br />Page generated
+        in 40ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b> (SNI supported)</b></p></body></html>"}
+    headers:
+      CF-RAY: 49143c9a0deb63f7-FRA
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : max-age=1800
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Length]
+      : '2193'
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:41:20 GMT
+      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Sun, 30 Dec 2018 12:11:18 GMT
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : cloudflare
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : __cfduid=d70a4fd2f4cedeed04389532f44b1fb2e1546170080; expires=Mon, 30-Dec-19
+        11:41:20 GMT; path=/; domain=.tokyotosho.info; HttpOnly
+      Strict-Transport-Security: max-age=86400
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

@@ -5,7 +5,6 @@ import pytest
 from mariner import downloader
 
 
-@pytest.fixture(scope='module')
 def files():
     files = [('http://httpbin.org/image/png', 'png'),
              ('http://httpbin.org/image/jpeg', 'jpeg'),
@@ -31,10 +30,10 @@ class TestDownloader:
         assert pathlib.Path(tmp_downloader.download_path, downloaded).is_file()
 
     @pytest.mark.smoke
-    def test_download(self, tmp_downloader, files):
+    def test_download(self, tmp_downloader):
         # GIVEN a list of files
         # WHEN downloading the files
-        downloaded = tmp_downloader.download(files)
+        downloaded = tmp_downloader.download(files())
         # THEN all of them should be downloaded
         count = 0
         for filename in downloaded:

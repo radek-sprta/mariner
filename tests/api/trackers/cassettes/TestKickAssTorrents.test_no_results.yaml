@@ -111,13 +111,33 @@ interactions:
         page</a> if you have got redirected here.\n                      </h2>\n                    </div>\n
         \                 </div>\n            </div>\n          </div>\n        </div>\n
         \     </body>\n    </html>"}
-    headers: {Cache-Control: max-age=300, Connection: close, Content-Encoding: gzip,
-      Content-Length: '2278', Content-Type: text/html; charset=UTF-8, Date: 'Sat,
-        29 Dec 2018 14:46:19 GMT', Expires: 'Sat, 29 Dec 2018 14:51:19 GMT', Referrer-Policy: no-referrer-when-downgrade,
-      Server: Apache/2.4.10, Set-Cookie: 'katsearch=35381ca3b3b75c29bfda1cfe094bcf17;
-        expires=Sat, 29-Dec-2018 18:56:19 GMT; Max-Age=15000; path=/', Strict-Transport-Security: max-age=31536000;
-        includeSubDomains; preload, Vary: Accept-Encoding, X-Content-Type-Options: nosniff,
-      X-Frame-Options: SAMEORIGIN, X-XSS-Protection: 1; mode=block}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : max-age=300
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : close
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Length]
+      : '2278'
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:40:06 GMT
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Sun, 30 Dec 2018 11:45:06 GMT
+      Referrer-Policy: no-referrer-when-downgrade
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : Apache/2.4.10
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : katsearch=0fc490a6c846123d7d60c014d893f8d5; expires=Sun, 30-Dec-2018 15:50:06
+        GMT; Max-Age=15000; path=/
+      Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: 1; mode=block
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple
@@ -207,13 +227,35 @@ interactions:
         id=\"main\">\n                <div class=\"row\">\n                  <div
         class=\"col\">\n                    <div class=\"table--responsive_vertical
         shadow-z-1\">\n\n\n                      loading........"}
-    headers: {Cache-Control: private, Connection: close, Content-Encoding: gzip, Content-Length: '1686',
-      Content-Type: text/html; charset=UTF-8, Date: 'Sat, 29 Dec 2018 14:46:19 GMT',
-      Expires: 'Thu, 19 Nov 1981 08:52:00 GMT', Pragma: no-cache, Referrer-Policy: no-referrer-when-downgrade,
-      Server: Apache/2.4.10, Set-Cookie: 'katsearch=da76c3ef4b2a6129617a92865de89c6f;
-        expires=Sat, 29-Dec-2018 18:56:19 GMT; Max-Age=15000; path=/', Strict-Transport-Security: max-age=31536000;
-        includeSubDomains; preload, Vary: Accept-Encoding, X-Content-Type-Options: nosniff,
-      X-Frame-Options: SAMEORIGIN, X-XSS-Protection: 1; mode=block}
+    headers:
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : private
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : close
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Length]
+      : '1686'
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Sun, 30 Dec 2018 11:40:06 GMT
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : Thu, 19 Nov 1981 08:52:00 GMT
+      ? !!python/object/new:multidict._istr.istr [Pragma]
+      : no-cache
+      Referrer-Policy: no-referrer-when-downgrade
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : Apache/2.4.10
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : katsearch=da76c3ef4b2a6129617a92865de89c6f; expires=Sun, 30-Dec-2018 15:50:06
+        GMT; Max-Age=15000; path=/
+      Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+      ? !!python/object/new:multidict._istr.istr [Vary]
+      : Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: 1; mode=block
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple
