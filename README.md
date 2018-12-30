@@ -6,12 +6,21 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 ## Features
 
-- Search for torrents on Distrowatch, Linuxtracker, KickAssTorrents, PirateBay, TokyoTosho and more.
 - Automatically get a working proxy for trackers that have them.
 - Download torrent files and copy magnet links to clipboard.
 - Open torrents in your default torrent application.
 - Show torrent details.
 - Asynchronous I/O for better responsiveness.
+- Supports the following trackers:
+  - Archive.org
+  - Distrowatch
+  - Etree
+  - KickAssTorrents
+  - LimeTorrents
+  - Linuxtracker
+  - Nyaa
+  - ThePirateBay
+  - TokyoTosho
 
 ![Mariner demonstration](docs/assets/mariner.gif)
 
