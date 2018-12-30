@@ -13,7 +13,7 @@ class LinuxTracker(trackerplugin.TrackerPlugin):
 
     log = logging.getLogger(__name__)
 
-    search_url = 'http://linuxtracker.org/index.php?page=torrents&search={title}'
+    search_url = 'https://linuxtracker.org/index.php?page=torrents&search={title}'
     legal = True
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
@@ -27,7 +27,7 @@ class LinuxTracker(trackerplugin.TrackerPlugin):
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
         content = soup.find_all('table', {'class': 'lista', 'width': '100%'})
-        for torrent_ in content[4]:
+        for torrent_ in content[3].select('td.lista'):
             try:
                 name = str(torrent_.font.a.string)
                 tracker = self.__class__.__name__

@@ -1,7 +1,8 @@
 interactions:
 - request:
     body: null
-    headers: {}
+    headers:
+      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
     uri: https://www.tokyotosho.info/search.php
   response:
@@ -9,15 +10,15 @@ interactions:
         xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head><meta http-equiv=\"Content-Type\"
         content=\"text/html;charset=utf-8\" />\n<title>Tokyo Toshokan :: #tokyotosho
         @ irc.rizon.net :: Torrent Search</title><link rel=\"stylesheet\" type=\"text/css\"
-        href=\"https://ttcdn2.info/css12.php\" title=\"Default\" />\n\t\t<link rel=\"alternate
-        stylesheet\" type=\"text/css\" href=\"https://ttcdn2.info/css_inverse.php\"
-        title=\"Inverse\" />\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://ttcdn2.info/favicon.png\"
+        href=\"https://ttcdn.info/css12.php\" title=\"Default\" />\n\t\t<link rel=\"alternate
+        stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/css_inverse.php\"
+        title=\"Inverse\" />\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://ttcdn.info/favicon.png\"
         />\n\t\n\t<link rel=\"shortcut icon\" href=\"https://www.tokyotosho.info/favicon.ico\"
-        /><link rel=\"stylesheet\" type=\"text/css\" href=\"https://ttcdn2.info/20130401/clippyjs/build/clippy.css\"
+        /><link rel=\"stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/20130401/clippyjs/build/clippy.css\"
         media=\"all\" /><link rel=\"alternate\" title=\"Tokyo Toshokan RSS\" href=\"rss.php\"
         type=\"application/rss+xml\" />\n\t<link rel=\"search\" type=\"application/opensearchdescription+xml\"
         title=\"Tokyo Toshokan\" href=\"/tokyotosho-search.php\" /></head><body><script
-        type=\"text/javascript\" src=\"https://ttcdn2.info/styleswitcher.js\"></script><div
+        type=\"text/javascript\" src=\"https://ttcdn.info/styleswitcher.js\"></script><div
         id=\"main\">\n<h1>Tokyo <span title=\"Japanese: Libary\">Toshokan</span></h1>\n<div
         class=\"centertext\">\u6771\u4EAC \u56F3\u66F8\u9928</div>\n<h2><a class=\"h2\"
         style=\"font-size: 9pt\" href=\"irc://irc.rizon.net/tokyotosho\">#tokyotosho
@@ -46,13 +47,13 @@ interactions:
         href=\"http://status.tokyotosho.info\">Status Page</a></li>\n</ul>\n<table
         class=\"centertext\" style=\"width: 100%; margin-left: auto; margin-right:
         auto; padding-bottom: 1em; margin: 0;\">\n<tr><td id=\"tsearch\">Torrent Search</td></tr>\n</table>\n<p
-        class=\"centertext\"><a href=\"https://www.privateinternetaccess.com/pages/protect-tt/\"><img
-        alt=\"Private Internet Access\" src=\"https://ttcdn2.info/pia_wide.png\" /></a></p>\t<form
-        style=\"margin: 0; padding; 0\" action=\"/search.php\" method=\"get\" accept-charset=\"utf-8\">\n\t<table
-        class=\"centertext\" cellspacing=\"0\" cellpadding=\"0\" style=\"width: 100%;
-        padding-bottom: 1em; margin: 0;\">\n\t<tr><td>\n\t<input size=\"60\" type=\"text\"
-        name=\"terms\" value=\"zxcvbnm\" />\n\t<select name=\"type\">\n\t<option value=\"0\">All</option>\n\t<option
-        value=\"1\">Anime</option><option value=\"10\">Non-English</option><option
+        class=\"centertext\"><a href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
+        alt=\"Private Internet Access\" src=\"https://ttcdn.info/quxcTUTqlQ.jpg\"
+        /></a></p>\t<form style=\"margin: 0; padding; 0\" action=\"/search.php\" method=\"get\"
+        accept-charset=\"utf-8\">\n\t<table class=\"centertext\" cellspacing=\"0\"
+        cellpadding=\"0\" style=\"width: 100%; padding-bottom: 1em; margin: 0;\">\n\t<tr><td>\n\t<input
+        size=\"60\" type=\"text\" name=\"terms\" value=\"zxcvbnm\" />\n\t<select name=\"type\">\n\t<option
+        value=\"0\">All</option>\n\t<option value=\"1\">Anime</option><option value=\"10\">Non-English</option><option
         value=\"3\">Manga</option><option value=\"8\">Drama</option><option value=\"2\">Music</option><option
         value=\"9\">Music Video</option><option value=\"7\">Raws</option><option value=\"4\">Hentai</option><option
         value=\"12\">Hentai (Anime)</option><option value=\"13\">Hentai (Manga)</option><option
@@ -69,22 +70,23 @@ interactions:
         id=\"submitter\" size=\"12\" type=\"text\" name=\"username\" value=\"\" /><br
         />\n\t<input type=\"submit\" value=\"Search\" /><br />\n\t</td></tr>\n\t</table>\n\t</form>\n\t<table
         class=\"listing\">\n<tr><td class=\"centertext\" colspan=\"3\"><a href=\"/rss.php?terms=zxcvbnm\"><img
-        src=\"https://ttcdn2.info/feed-icon-14x14.png\" alt=\"RSS\" /> RSS Feed of
+        src=\"https://ttcdn.info/feed-icon-14x14.png\" alt=\"RSS\" /> RSS Feed of
         these results</a></td></tr></table><p style=\"text-align: center\">No results
         returned. Please try to broaden your search.</p></div><p class=\"footer\">\r\n<a
-        href=\"https://www.privateinternetaccess.com/pages/protect-tt/\"><img alt=\"Private
-        Internet Access\" src=\"https://ttcdn2.info/pia.png\" /></a><br />\r\n<br
-        />\r\nRolling visitor numbers <br />IPv4: 24h [51,518] 60min [4,974] 5min
-        [483] 1min [113] - 5 minute rolling average [991]<br />\r\nIPv6: 24h [13,350]
-        60min [769] 5min [76] 1min [13] - 5 minute rolling average [133]\r\n\r\n<br
-        />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img alt=\"Serious
-        Tubes\" src=\"https://ttcdn2.info/serioustubes.png\" /></a><br />Page generated
-        in 31ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b> (SNI supported)</b></p></body></html>"}
-    headers: {CF-RAY: 46dd84f9e841235a-FRA, Cache-Control: max-age=1800, Connection: keep-alive,
-      Content-Encoding: gzip, Content-Length: '2159', Content-Type: text/html; charset=UTF-8,
-      Date: 'Mon, 22 Oct 2018 17:00:18 GMT', Expect-CT: 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-      Expires: 'Mon, 22 Oct 2018 17:30:11 GMT', Server: cloudflare, Set-Cookie: '__cfduid=d9ef57ac167f42e7f05d78e0eb15145f41540227618;
-        expires=Tue, 22-Oct-19 17:00:18 GMT; path=/; domain=.tokyotosho.info; HttpOnly',
+        href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
+        alt=\"Private Internet Access\" src=\"https://ttcdn.info/N8pv99MNcc.jpg\"
+        /></a><br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [59,129]
+        60min [5,556] 5min [615] 1min [143] - 5 minute rolling average [1079]<br />\r\nIPv6:
+        24h [15,275] 60min [1,157] 5min [113] 1min [26] - 5 minute rolling average
+        [185]\r\n\r\n<br />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img
+        alt=\"Serious Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br
+        />Page generated in 42ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b>
+        (SNI supported)</b></p></body></html>"}
+    headers: {CF-RAY: 490ce3694e5c63eb-FRA, Cache-Control: max-age=1800, Connection: keep-alive,
+      Content-Encoding: gzip, Content-Length: '2198', Content-Type: text/html; charset=UTF-8,
+      Date: 'Sat, 29 Dec 2018 14:17:06 GMT', Expect-CT: 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+      Expires: 'Sat, 29 Dec 2018 14:46:38 GMT', Server: cloudflare, Set-Cookie: '__cfduid=d2bb65d29515b9f9c2eb2fef0d79a76241546093026;
+        expires=Sun, 29-Dec-19 14:17:06 GMT; path=/; domain=.tokyotosho.info; HttpOnly',
       Strict-Transport-Security: max-age=86400, Vary: Accept-Encoding}
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL

@@ -23,7 +23,7 @@ class Distrowatch(trackerplugin.TrackerPlugin):
             title: String to search for.
         """
         try:
-            page = await self.get(self.search_url)
+            page = await self.get(self.search_url, headers=self.user_agent)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', self.search_url)
             return iter([])
@@ -39,12 +39,15 @@ class Distrowatch(trackerplugin.TrackerPlugin):
             List of torrent names with URLs.
         """
         soup = bs4.BeautifulSoup(raw, 'lxml')
-        content = soup.find('table', cellpadding='5').find_all('tr')[1:]
-        for line in content:
-            info = line.select('td.torrent')[1]
-            name = str(info.a.string.lower())
-            url_stub = info.a.get('href')
-            url = f"https://distrowatch.com/{url_stub}"
-            tracker = self.__class__.__name__
-            date = str(line.select('td.torrentdate')[0].string)
-            yield torrent.Torrent(name, tracker, torrent=url, date=date)
+        try:
+            content = soup.find('table', cellpadding='5').find_all('tr')[1:]
+            for line in content:
+                info = line.select('td.torrent')[1]
+                name = str(info.a.string.lower())
+                url_stub = info.a.get('href')
+                url = f"https://distrowatch.com/{url_stub}"
+                tracker = self.__class__.__name__
+                date = str(line.select('td.torrentdate')[0].string)
+                yield torrent.Torrent(name, tracker, torrent=url, date=date)
+        except AttributeError:
+            yield from ()

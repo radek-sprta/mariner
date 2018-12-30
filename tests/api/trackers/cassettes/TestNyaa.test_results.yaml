@@ -1,7 +1,8 @@
 interactions:
 - request:
     body: null
-    headers: {}
+    headers:
+      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
     method: GET
     uri: https://nyaa.si/
   response:
@@ -40,7 +41,7 @@ interactions:
         integrity=\"sha256-3WZyZQOe+ql3pLo90lrkRtALrlniGdnf//gRpW0UQks=\" crossorigin=\"anonymous\"></script>\n\t\t<!--
         Modified to not apply border-radius to selectpickers and stuff so our navbar
         looks cool -->\n\t\t<script src=\"/static/js/bootstrap-select.min.js?t=1522850768\"></script>\n\t\t<script
-        src=\"/static/js/main.min.js?t=1529193495\"></script>\n\n\t\t<script async
+        src=\"/static/js/main.min.js?t=1533264185\"></script>\n\n\t\t<script async
         src=\"https://www.googletagmanager.com/gtag/js?id=UA-107733743-2\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer
         = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments)};\n\t\t\tgtag('js',
         new Date());\n\n\t\t\tgtag('config', 'UA-107733743-2');\n\t\t</script>\n\n\t\t<!--
@@ -152,10 +153,11 @@ interactions:
         value=\"ubuntu\" />\n\t\t\t\t\t\t\t<div class=\"input-group-btn search-btn\">\n\t\t\t\t\t\t\t\t<button
         class=\"btn btn-primary\" type=\"submit\">\n\t\t\t\t\t\t\t\t\t<i class=\"fa
         fa-search fa-fw\"></i>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</form>\n\t\t\t\t</div><!--/.nav-collapse
-        -->\n\t\t\t</div><!--/.container -->\n\t\t</nav>\n\n\t\t<div class=\"container\">\n\n\n\n\n\n<div
-        class=\"table-responsive\">\n\t<table class=\"table table-bordered table-hover
-        table-striped torrent-list\">\n\t\t<thead>\n\t\t\t<tr>\n<th  class=\"hdr-category
-        text-center\"  style=\"width:80px;\">\n\t\t\t\t\t\t<div>Category</div>\n\n</th>\n<th
+        -->\n\t\t\t</div><!--/.container -->\n\t\t</nav>\n\n\t\t<div class=\"container\">\n\n\n\n\n<div
+        class=\"alert alert-info\">\n\t<a href=\"/user/ubuntu?f=0&amp;c=0_0&amp;q=\">Click
+        here to see only results uploaded by ubuntu</a>\n</div>\n\n<div class=\"table-responsive\">\n\t<table
+        class=\"table table-bordered table-hover table-striped torrent-list\">\n\t\t<thead>\n\t\t\t<tr>\n<th
+        \ class=\"hdr-category text-center\"  style=\"width:80px;\">\n\t\t\t\t\t\t<div>Category</div>\n\n</th>\n<th
         \ class=\"hdr-name\"  style=\"width:auto;\">\n\t\t\t\t\t\t<div>Name</div>\n\n</th>\n<th
         \ class=\"hdr-comments sorting text-center\" title=\"Comments\" style=\"width:50px;\">\n\t<a
         href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=comments&amp;o=desc\"></a>\n\t\t\t\t\t\t<i
@@ -179,7 +181,7 @@ interactions:
         3 (3.0.4 Ubuntu 9.10 Desktop x86)\">Koha Live CD Release 3 (3.0.4 Ubuntu 9.10
         Desktop x86)</a>\n\t\t\t\t</td>\n\t\t\t\t<td class=\"text-center\" style=\"white-space:
         nowrap;\">\n<a href=\"/download/96659.torrent\"><i class=\"fa fa-fw fa-download\"></i></a>\t\t\t\t\t<a
-        href=\"magnet:?xt=urn:btih:IUAI4SGIQAFX25SDGN5S44FGGTSMNH3K&amp;dn=Koha+Live+CD+Release+3+%283.0.4+Ubuntu+9.10+Desktop+x86%29&amp;tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce\"><i
+        href=\"magnet:?xt=urn:btih:45008e48c8800b7d7643337b2e70a634e4c69f6a&amp;dn=Koha%20Live%20CD%20Release%203%20%283.0.4%20Ubuntu%209.10%20Desktop%20x86%29&amp;tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce\"><i
         class=\"fa fa-fw fa-magnet\"></i></a>\n\t\t\t\t</td>\n\t\t\t\t<td class=\"text-center\">624.0
         MiB</td>\n\t\t\t\t<td class=\"text-center\" data-timestamp=\"1257231780\">2009-11-03
         07:03</td>\n\n\t\t\t\t<td class=\"text-center\" style=\"color: green;\">0</td>\n\t\t\t\t<td
@@ -188,10 +190,11 @@ interactions:
         1-1 out of 1 results.<br>\nPlease refine your search results if you can't
         find what you were looking for.</div>\n\t\n</div>\n\t\t</div> <!-- /container
         -->\n\n\t\t<footer style=\"text-align: center;\">\n\t\t\t<p>Dark Mode: <a
-        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/f04e0fd2ae9e520987efb843fe8ff982dedaef60\">f04e0fd</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
+        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/b2ddba994ca5e78fa5dcbc0e00d6171a44b0b338\">b2ddba9</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
     headers: {Cache-Control: 'no-cache, no-store, must-revalidate', Connection: keep-alive,
-      Content-Encoding: gzip, Content-Type: text/html; charset=utf-8, Date: 'Mon,
-        18 Jun 2018 17:26:03 GMT', Server: nginx, Transfer-Encoding: chunked, X-Proxy-Cache: EXPIRED}
+      Content-Encoding: gzip, Content-Type: text/html; charset=utf-8, Date: 'Sat,
+        29 Dec 2018 14:16:57 GMT', Referrer-Policy: same-origin, Server: Sucuri/Cloudproxy,
+      Transfer-Encoding: chunked, X-Proxy-Cache: EXPIRED, X-Sucuri-Cache: MISS, X-Sucuri-ID: '15008'}
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

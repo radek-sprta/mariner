@@ -21,7 +21,7 @@ class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
         """
         soup = bs4.BeautifulSoup(page, 'lxml')
         try:
-            data = soup.select('table.proxy-list')[0].select('tr')[1:]
+            data = soup.select('table.proxy-list')[0].select('tr')[2:]
         except IndexError:
             raise exceptions.NoProxyAvailable('Cannot get proxy list.')
 

@@ -47,8 +47,7 @@ class TestSearch:
     def test_search_legal(self, run):
         # GIVEN a search term
         # WHEN searching for it with --legal flag
-        result = run('search', '-f', 'csv', '-t', 'tokyotosho',
-                     'plan 9 from outer space', '--legal', '--limit', '3')[0]
+        result = run('search', '-f', 'csv', 'plan 9 from outer space', '--legal', '--limit', '3')[0]
 
         # THEN the results should only come from legal trackers
         expected = \

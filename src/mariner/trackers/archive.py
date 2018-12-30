@@ -22,7 +22,7 @@ class Archive(trackerplugin.TrackerPlugin):
         """
         try:
             search_url = self.search_url.format(title=title)
-            page = await self.get(search_url, timeout=self.timeout)
+            page = await self.get(search_url, headers=self.user_agent, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
             return iter([])

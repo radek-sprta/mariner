@@ -38,7 +38,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
         try:
             search_url = self.search_url.format(title=title)
             cookie = await self.get_cookie(search_url)
-            page = await self.get(search_url, cookies=cookie)
+            page = await self.get(search_url, headers=self.user_agent, cookies=cookie)
         except (OSError, asyncio.TimeoutError):
             self.log.error('Cannot reach server at %s', search_url)
             return iter([])
