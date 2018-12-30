@@ -1,12 +1,11 @@
 [tool.poetry]
 name = "Mariner"
-version = "1.2.0"
+version = "1.3.0"
 description = "Command line torrent searcher"
 authors = ["Radek Sprta <mail@radeksprta.eu>"]
 license = "GPL-3.0"
 
 readme = "README.md"
-# TODO markdown type content
 
 homepage = "https://radek-sprta.gitlab.io/mariner/"
 repository = "https://gitlab.com/radek-sprta/mariner"
@@ -35,26 +34,26 @@ include = ["LICENSE", "config/*.yaml"]
 
 [tool.poetry.dependencies]
 python = "^3.5"
-
-aiodns = "*"
-aiofiles = "*"
-aiohttp = "<3.3.0"
-"bs4" = "*"
+aiodns = "^1.1.1"
+aiofiles = "^0.4.0"
+aiohttp = "^3.5.1"
+"bs4" = "^0.0.1"
 cachalot = ">=0.1.3"
-cliff = "*"
-colorama = "*"
-future-fstrings = "*"
-lxml = "*"
-maya = ">=0.3.4"
-"ruamel.yaml" = "*"
+cliff = "^2.14.0"
+colorama = "^0.4.1"
+future-fstrings = "^0.4.4"
+lxml = "^4.2.5"
+maya = "^0.6.0"
+"ruamel.yaml" = "^0.15.82"
+tokenize-rt = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
-coverage = "*"
-pytest = "^3.0"
-pytest-asyncio = "*"
-pytest-vcr = "*"
+coverage = "^4.5.2"
+pytest = "^4.0.2"
+pytest-asyncio = "^0.9.0"
+pytest-vcr = "^1.0.1"
 wheel = "*"
-vcrpy = "*"
+vcrpy = "^2.0.1"
 
 [tool.poetry.scripts]
 mariner = 'mariner.main:main'
