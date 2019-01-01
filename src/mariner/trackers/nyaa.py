@@ -10,7 +10,7 @@ from mariner import torrent, trackerplugin
 class Nyaa(trackerplugin.TrackerPlugin):
     """Represents Nyaa.si search engine."""
 
-    search_url = 'https://nyaa.si/?f=0&c=0_0&q={title}'
+    search_url = "https://nyaa.si/?f=0&c=0_0&q={title}"
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
@@ -21,19 +21,19 @@ class Nyaa(trackerplugin.TrackerPlugin):
         Returns:
             List of torrent names with magnet links and URLs.
         """
-        soup = bs4.BeautifulSoup(raw, 'lxml')
+        soup = bs4.BeautifulSoup(raw, "lxml")
         try:
-            contents = soup.select('tr.default')
+            contents = soup.select("tr.default")
             for content in contents:
-                data = content.select('td')
+                data = content.select("td")
                 # Sometimes title is preceded by comments, so choose the last <a>
-                name = str(data[1].select('a')[-1].string)
+                name = str(data[1].select("a")[-1].string)
                 tracker = self.__class__.__name__
 
-                links = data[2].select('a')
-                url_stub = links[0].get('href')
-                url = f'https://nyaa.si{url_stub}'
-                magnet = links[1].get('href')
+                links = data[2].select("a")
+                url_stub = links[0].get("href")
+                url = f"https://nyaa.si{url_stub}"
+                magnet = links[1].get("href")
 
                 size = str(data[3].string)
                 date = str(data[4].string)
@@ -48,6 +48,7 @@ class Nyaa(trackerplugin.TrackerPlugin):
                     size=size,
                     date=date,
                     seeds=seeds,
-                    leeches=leeches)
+                    leeches=leeches,
+                )
         except IndexError:
             yield from []

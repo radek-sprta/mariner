@@ -23,11 +23,9 @@ class Config(command.Command):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument('--show', '-s', action='store_true',
-                            help='Show the configuration')
-        parser.add_argument(
-            'key', nargs='?', help='Option to change', default=None)
-        parser.add_argument('value', nargs='?', help='New value', default=None)
+        parser.add_argument("--show", "-s", action="store_true", help="Show the configuration")
+        parser.add_argument("key", nargs="?", help="Option to change", default=None)
+        parser.add_argument("value", nargs="?", help="New value", default=None)
         return parser
 
     @staticmethod
@@ -49,7 +47,7 @@ class Config(command.Command):
                 continue
             Config._update_dict(c, key, value)
         # If the key is not there, raise an error
-        raise exceptions.InputError('Wrong configuration option')
+        raise exceptions.InputError("Wrong configuration option")
 
     def take_action(self, parsed_args):
         """Copy chosen magnet link to clipboard.
@@ -61,12 +59,10 @@ class Config(command.Command):
         value = parsed_args.value
         show_ = parsed_args.show
         if not show_ and not (key and value):
-            raise ValueError('Provide key and value to update or use --show')
+            raise ValueError("Provide key and value to update or use --show")
         if show_:
-            self.log.info('Mariner configuration:')
-            pprint.pprint(
-                self.app.config._config)  # pylint: disable=protected-access
+            self.log.info("Mariner configuration:")
+            pprint.pprint(self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
-            self.log.info(
-                f'Updated {utils.green(key)} to {utils.green(value)}')
+            self.log.info(f"Updated {utils.green(key)} to {utils.green(value)}")

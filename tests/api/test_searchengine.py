@@ -4,11 +4,10 @@ from mariner import exceptions, torrent
 
 
 class TestSearchEngine:
-
-    @pytest.fixture(scope='class')
+    @pytest.fixture(scope="class")
     def trackers(self, engine):
         trackers = engine.plugins.keys()
-        return [t for t in trackers if t not in ['kat', 'kickasstorrents']]
+        return [t for t in trackers if t not in ["kat", "kickasstorrents"]]
 
     @pytest.mark.smoke
     def test_initialize_plugins(self, engine):
@@ -16,26 +15,30 @@ class TestSearchEngine:
         assert engine.plugins
 
         # WHEN adding checking plugins from the plugins directory
-        plugins = [str(p.stem) for p in engine.plugin_directory.glob('*.py')]
+        plugins = [str(p.stem) for p in engine.plugin_directory.glob("*.py")]
 
         # THEN they should be loaded
         for plugin in plugins:
-            if plugin == '__init__':
+            if plugin == "__init__":
                 continue
             assert plugin in engine.plugins.keys()
 
-    @pytest.mark.parametrize('lists',
-                             [{'nested': [[1, 2, 3], [4], [5, 6]], 'flat': [1, 2, 3, 4, 5, 6]},
-                              {'nested': [[]], 'flat': []},
-                                 {'nested': [[1], [2], [3], [4], [5], [6]], 'flat': [1, 2, 3, 4, 5, 6]}])
+    @pytest.mark.parametrize(
+        "lists",
+        [
+            {"nested": [[1, 2, 3], [4], [5, 6]], "flat": [1, 2, 3, 4, 5, 6]},
+            {"nested": [[]], "flat": []},
+            {"nested": [[1], [2], [3], [4], [5], [6]], "flat": [1, 2, 3, 4, 5, 6]},
+        ],
+    )
     def test_flatten(self, engine, lists):
         # GIVEN a nested list
         # WHEN using _flatten
         # THEN it should be flatteneted
-        assert engine._flatten(lists['nested']) == lists['flat']
+        assert engine._flatten(lists["nested"]) == lists["flat"]
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize('limit', [5, 10, 15])
+    @pytest.mark.parametrize("limit", [5, 10, 15])
     @pytest.mark.vcr()
     def test_search(self, engine, limit, trackers, title):
         # GIVEN a title to search for and a list of trackers
@@ -52,7 +55,7 @@ class TestSearchEngine:
 
     def test_search_no_title(self, engine, trackers):
         # GIVEN no title
-        title = ''
+        title = ""
 
         # WHEN searching for it on a list of trackers
         # THEN it should raise exception
@@ -71,7 +74,7 @@ class TestSearchEngine:
     @pytest.mark.vcr()
     def test_search_no_result(self, engine, trackers):
         # GIVEN a title that will yield no results and list of trackers
-        title = 'qwertyzxcvb'
+        title = "qwertyzxcvb"
 
         # WHEN searching for results
         # THEN an exception should be raised
@@ -98,7 +101,7 @@ class TestSearchEngine:
             engine.search(title, trackers, limit=0)
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize('tid', [1, 2, 3])
+    @pytest.mark.parametrize("tid", [1, 2, 3])
     def test_result(self, engine, tid):
         # GIVEN an id
         # WHEN searching the results for the that id
@@ -108,7 +111,7 @@ class TestSearchEngine:
         assert isinstance(result, torrent.Torrent)
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize('tid', [-1, -9999, 1000000])
+    @pytest.mark.parametrize("tid", [-1, -9999, 1000000])
     def test_result_nonexistant(self, engine, tid):
         # GIVEN a nonexistant id
         # WHEN searching the results for that id
@@ -117,10 +120,10 @@ class TestSearchEngine:
             engine.result(tid)
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize('tid', [100, 1000, 10000])
+    @pytest.mark.parametrize("tid", [100, 1000, 10000])
     def test_save_results(self, engine, tid):
         # GIVEN a torrent with id
-        torrent = 'test'
+        torrent = "test"
 
         # WHEN saving the torrent
         engine.save_results([(tid, torrent)])
@@ -128,7 +131,7 @@ class TestSearchEngine:
         # THEN it should be in the database
         assert engine.results.get(tid) == torrent
 
-    @pytest.mark.parametrize('timeout', [0, -1, -100])
+    @pytest.mark.parametrize("timeout", [0, -1, -100])
     def test_negative_timeout(self, engine, timeout):
         # GIVEN a search engine
         # WHEN trying to set a negative timeout
@@ -139,7 +142,7 @@ class TestSearchEngine:
     def test_nonexistant_tracker(self, title, engine):
         # GIVEN a search engine
         # WHEN trying to search on a nonexistant tracker
-        trackers = ['nonsense', 'invalid']
+        trackers = ["nonsense", "invalid"]
 
         # THEN an exception should be raised
         with pytest.raises(exceptions.ConfigurationError):

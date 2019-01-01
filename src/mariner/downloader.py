@@ -6,8 +6,10 @@ from typing import List, Tuple, Union, Generator
 
 import aiofiles
 import aiohttp
+
 try:
     import uvloop
+
     asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 except ImportError:
     pass
@@ -24,14 +26,11 @@ class Downloader:
 
     log = logging.getLogger(__name__)
 
-    def __init__(self, download_path: Path = '~/Downloads', timeout: int = 10) -> None:
+    def __init__(self, download_path: Path = "~/Downloads", timeout: int = 10) -> None:
         self.download_path = utils.check_path(download_path)
         self.timeout = timeout
 
-    async def download_coroutine(self,
-                                 session: aiohttp.ClientSession,
-                                 url: Url,
-                                 name: str) -> Path:
+    async def download_coroutine(self, session: aiohttp.ClientSession, url: Url, name: str) -> Path:
         """Download a single file and asynchronously save it to disk.
 
         Args:
@@ -42,14 +41,14 @@ class Downloader:
             Path of downloaded file.
         """
         filename = self.download_path / name
-        self.log.debug('filename=%s', filename)
+        self.log.debug("filename=%s", filename)
         async with session.get(url, timeout=self.timeout) as response:
             # Cast filename to str as workaround for Python 3.5
-            async with aiofiles.open(str(filename), 'wb') as file_:
+            async with aiofiles.open(str(filename), "wb") as file_:
                 while True:
                     chunk = await response.content.read(1024)
                     if not chunk:
-                        self.log.debug('saved=%s', filename)
+                        self.log.debug("saved=%s", filename)
                         break
                     await file_.write(chunk)
         return filename
@@ -64,8 +63,9 @@ class Downloader:
             List of downloaded files.
         """
         async with aiohttp.ClientSession() as session:
-            tasks = asyncio.as_completed([self.download_coroutine(
-                session, url, name) for url, name in download_list])
+            tasks = asyncio.as_completed(
+                [self.download_coroutine(session, url, name) for url, name in download_list]
+            )
             return await asyncio.gather(*tasks)
 
     def download(self, download_list: List[File]) -> Generator:

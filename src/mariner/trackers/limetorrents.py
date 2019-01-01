@@ -11,7 +11,7 @@ from mariner.proxies import limetorrents
 class LimeTorrents(trackerplugin.ProxyTrackerPlugin):
     """Represents LimeTorrents search engine."""
 
-    search_url = '{proxy}/search/all/{title}/seeds/1'
+    search_url = "{proxy}/search/all/{title}/seeds/1"
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()
@@ -26,28 +26,23 @@ class LimeTorrents(trackerplugin.ProxyTrackerPlugin):
         Returns:
             List of torrent names with magnet links and URLs.
         """
-        soup = bs4.BeautifulSoup(raw, 'lxml')
+        soup = bs4.BeautifulSoup(raw, "lxml")
         try:
-            contents = soup.select('table.table2')[0].select('tr')[1:]
+            contents = soup.select("table.table2")[0].select("tr")[1:]
             for content in contents:
-                data = content.select('td')
-                name = str(data[0].select('a')[1].string)
+                data = content.select("td")
+                name = str(data[0].select("a")[1].string)
                 tracker = self.__class__.__name__
 
-                url = data[0].div.a.get('href')
+                url = data[0].div.a.get("href")
 
                 size = str(data[2].string)
-                date = str(data[1].string.split('-')[0].strip())
+                date = str(data[1].string.split("-")[0].strip())
                 seeds = self._parse_number(data[3].string)
                 leeches = self._parse_number(data[4].string)
 
                 yield torrent.Torrent(
-                    name,
-                    tracker,
-                    torrent=url,
-                    size=size,
-                    date=date,
-                    seeds=seeds,
-                    leeches=leeches)
+                    name, tracker, torrent=url, size=size, date=date, seeds=seeds, leeches=leeches
+                )
         except IndexError:
             yield from []

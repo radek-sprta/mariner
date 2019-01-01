@@ -9,16 +9,18 @@ from mariner import mixins, utils
 class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attributes
     """Class representing a Torrent."""
 
-    def __init__(self,
-                 name: str,
-                 tracker: str,
-                 *,
-                 torrent: str = None,
-                 magnet: str = None,
-                 size: str = 'Unknown',
-                 seeds: Union[int, str] = -1,
-                 leeches: Union[int, str] = None,
-                 date: Union[datetime.date, str] = datetime.date(1, 1, 1)) -> None:
+    def __init__(
+        self,
+        name: str,
+        tracker: str,
+        *,
+        torrent: str = None,
+        magnet: str = None,
+        size: str = "Unknown",
+        seeds: Union[int, str] = -1,
+        leeches: Union[int, str] = None,
+        date: Union[datetime.date, str] = datetime.date(1, 1, 1)
+    ) -> None:
         self.name = name
         self.tracker = tracker
         self.torrent = torrent
@@ -45,6 +47,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
         else:
             # Defer importing maya, as it is a slow import
             import maya
+
             try:
                 self._date = maya.when(value).date  # pylint: disable=attribute-defined-outside-init
             except ValueError:
@@ -55,19 +58,20 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
     @property
     def filename(self) -> str:
         """Filename to use for the torrent."""
-        return self.name if '.torrent' in self.name else f'{self.name}.torrent'
+        return self.name if ".torrent" in self.name else f"{self.name}.torrent"
 
-    def colored(self) -> 'Torrent':
+    def colored(self) -> "Torrent":
         """Return Torrent with colored fields."""
-        return Torrent(name=utils.yellow(self.name[:80]),
-                       tracker=self.tracker,
-                       torrent=self.torrent,
-                       magnet=self.magnet,
-                       size=self.size,
-                       seeds=utils.green(self.seeds),
-                       leeches=utils.red(
-                           self.leeches) if self.leeches is not None else None,
-                       date=self.date)
+        return Torrent(
+            name=utils.yellow(self.name[:80]),
+            tracker=self.tracker,
+            torrent=self.torrent,
+            magnet=self.magnet,
+            size=self.size,
+            seeds=utils.green(self.seeds),
+            leeches=utils.red(self.leeches) if self.leeches is not None else None,
+            date=self.date,
+        )
 
     def __repr__(self) -> str:
         return f"Torrent({self.name}, {self.tracker}, {self.torrent}, \

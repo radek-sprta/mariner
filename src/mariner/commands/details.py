@@ -21,7 +21,7 @@ class Details(show.ShowOne):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument('ID', help="ID of the torrent to show", type=int)
+        parser.add_argument("ID", help="ID of the torrent to show", type=int)
         return parser
 
     @staticmethod
@@ -35,11 +35,11 @@ class Details(show.ShowOne):
             ordered: Ordered results.
         """
         ordered = {}
-        ordered['Name'] = unordered.pop('Name')
+        ordered["Name"] = unordered.pop("Name")
         ordered.update(unordered)
         # Shorten magnet link
         try:
-            ordered['Magnet'] = ordered['Magnet'][:80] + '...'
+            ordered["Magnet"] = ordered["Magnet"][:80] + "..."
         except KeyError:
             pass
         return ordered
@@ -57,8 +57,11 @@ class Details(show.ShowOne):
         torrent_ = self.app.engine.result(tid)
 
         # Dictionary of attributes, that are not empty
-        details = {d[0].strip('_').title(): d[1]
-                   for d in torrent_.colored().__dict__.items() if d[1] is not None}
+        details = {
+            d[0].strip("_").title(): d[1]
+            for d in torrent_.colored().__dict__.items()
+            if d[1] is not None
+        }
         ordered_details = self._order_details(details)
 
         colored_keys = (utils.magenta(key) for key in ordered_details)

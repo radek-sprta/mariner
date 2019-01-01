@@ -16,13 +16,17 @@ Value = Union[str, int, Dict, List]
 
 class Config(collections.abc.MutableMapping):
     """Class to hold config settings using yaml. Behaves like a dictionary."""
-    default_directory = '~/.config/mariner/'
-    default_config = pkg_resources.resource_filename(
-        __name__, 'config/config.yaml')
+
+    default_directory = "~/.config/mariner/"
+    default_config = pkg_resources.resource_filename(__name__, "config/config.yaml")
     log = logging.getLogger(__name__)
 
-    def __init__(self, configpath: str = None, _parent: 'Config' = None,
-                 _config: Union['Config', Dict] = None) -> None:
+    def __init__(
+        self,
+        configpath: str = None,
+        _parent: "Config" = None,
+        _config: Union["Config", Dict] = None,
+    ) -> None:
         self._configpath = configpath
         self._yaml = ruamel.yaml.YAML()
         self._parent = _parent
@@ -45,10 +49,10 @@ class Config(collections.abc.MutableMapping):
         if self._configpath:
             path = pathlib.Path(self._configpath)
         else:
-            directory = os.getenv('XDG_CONFIG_HOME', self.default_directory)
+            directory = os.getenv("XDG_CONFIG_HOME", self.default_directory)
             directory = utils.check_path(directory)
-            path = pathlib.Path(directory, 'config.yaml')
-        self.log.debug('path=%s', path)
+            path = pathlib.Path(directory, "config.yaml")
+        self.log.debug("path=%s", path)
         return path
 
     def load(self) -> Dict:
@@ -69,11 +73,11 @@ class Config(collections.abc.MutableMapping):
         if self._parent:
             self._parent.save()
         else:
-            with self.configpath.open('w', encoding='utf-8') as file_:
-                self.log.debug('configpath=%s file=%s', self.configpath, file_)
+            with self.configpath.open("w", encoding="utf-8") as file_:
+                self.log.debug("configpath=%s file=%s", self.configpath, file_)
                 self._yaml.dump(self._config, file_)
 
-    def _as_config(self, dict_: Union[str, int, List, Dict]) -> Union[str, int, List, 'Config']:
+    def _as_config(self, dict_: Union[str, int, List, Dict]) -> Union[str, int, List, "Config"]:
         """Save config inside config.
 
         Args:

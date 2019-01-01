@@ -6,8 +6,9 @@ from mariner import exceptions, proxyplugin
 
 class PirateBayProxy(proxyplugin.ProxyPlugin):
     """PirateBay proxy list."""
-    default_proxy = 'https://thepiratebay.org'
-    proxy_page_url = 'https://proxybay.github.io'
+
+    default_proxy = "https://thepiratebay.org"
+    proxy_page_url = "https://proxybay.github.io"
 
     @staticmethod
     def _parse(page: str) -> str:
@@ -19,17 +20,17 @@ class PirateBayProxy(proxyplugin.ProxyPlugin):
         Returns:
             Urls of proxy websites.
         """
-        soup = bs4.BeautifulSoup(page, 'lxml')
+        soup = bs4.BeautifulSoup(page, "lxml")
         try:
-            data = soup.select('table')[0].select('tr')[1:]
+            data = soup.select("table")[0].select("tr")[1:]
         except IndexError:
-            raise exceptions.NoProxyAvailable('Cannot get proxy list')
+            raise exceptions.NoProxyAvailable("Cannot get proxy list")
 
         for site in data:
             if PirateBayProxy._is_online(site):
-                return site.select('td.site')[0].a.get('href')
+                return site.select("td.site")[0].a.get("href")
 
-        raise exceptions.NoProxyAvailable('No proxy available for PirateBay')
+        raise exceptions.NoProxyAvailable("No proxy available for PirateBay")
 
     @staticmethod
     def _is_online(soup: bs4.Tag) -> bool:
@@ -40,5 +41,5 @@ class PirateBayProxy(proxyplugin.ProxyPlugin):
 
         Returns:
             True if site is listed online."""
-        status = soup.select('td.status')[0].img.get('src')
-        return 'up' in status
+        status = soup.select("td.status")[0].img.get("src")
+        return "up" in status

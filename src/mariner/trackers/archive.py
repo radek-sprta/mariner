@@ -11,7 +11,7 @@ from mariner import torrent, trackerplugin
 class Archive(trackerplugin.TrackerPlugin):
     """Represents Archive search engine."""
 
-    search_url = 'https://archive.org/details/feature_films?and[]={title}&sin='
+    search_url = "https://archive.org/details/feature_films?and[]={title}&sin="
     legal = True
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
@@ -24,7 +24,7 @@ class Archive(trackerplugin.TrackerPlugin):
             search_url = self.search_url.format(title=title)
             page = await self.get(search_url, headers=self.user_agent, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError):
-            self.log.error('Cannot reach server at %s', search_url)
+            self.log.error("Cannot reach server at %s", search_url)
             return iter([])
         return (t for t in self._parse(page) if title in t.name.casefold())
 
@@ -37,19 +37,16 @@ class Archive(trackerplugin.TrackerPlugin):
         Returns:
             List of torrent names with magnet links and URLs.
         """
-        soup = bs4.BeautifulSoup(raw, 'lxml')
+        soup = bs4.BeautifulSoup(raw, "lxml")
         try:
-            contents = soup.select('div.results')[0].select('div.item-ia')[1:]
+            contents = soup.select("div.results")[0].select("div.item-ia")[1:]
             for content in contents:
-                name = str(content.select('div.ttl')[0].string.strip())
+                name = str(content.select("div.ttl")[0].string.strip())
                 tracker = self.__class__.__name__
 
-                url_stub = content.get('data-id')
-                url = f'https://archive.org/download/{url_stub}/{url_stub}_archive.torrent'
+                url_stub = content.get("data-id")
+                url = f"https://archive.org/download/{url_stub}/{url_stub}_archive.torrent"
 
-                yield torrent.Torrent(
-                    name,
-                    tracker,
-                    torrent=url)
+                yield torrent.Torrent(name, tracker, torrent=url)
         except IndexError:
             yield from []

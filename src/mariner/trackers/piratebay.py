@@ -11,8 +11,8 @@ from mariner.proxies import piratebay
 class PirateBay(trackerplugin.ProxyTrackerPlugin):
     """Represents PirateBay search engine."""
 
-    search_url = '{proxy}/search/{title}'
-    aliases = ['tpb', 'pb']
+    search_url = "{proxy}/search/{title}"
+    aliases = ["tpb", "pb"]
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()
@@ -35,36 +35,36 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
         Returns:
             List of torrent names with magnet links.
         """
-        soup = bs4.BeautifulSoup(raw, 'lxml')
-        content = soup.find('table', id='searchResult')
+        soup = bs4.BeautifulSoup(raw, "lxml")
+        content = soup.find("table", id="searchResult")
         try:
-            torrents = content.find_all('tr')
+            torrents = content.find_all("tr")
         except AttributeError:
             # No search result
             yield from []
         else:
             # First item is table header, last are links to other pages
             for torrent_ in torrents[1:-1]:
-                raw_name = torrent_.find('a', class_='detLink')
+                raw_name = torrent_.find("a", class_="detLink")
                 name = PirateBay._parse_name(raw_name)
-                links = torrent_.find_all('a')
-                magnet = links[3].get('href')
+                links = torrent_.find_all("a")
+                magnet = links[3].get("href")
                 tracker = self.__class__.__name__
 
-                numbers = torrent_.find_all('td', align='right')
+                numbers = torrent_.find_all("td", align="right")
                 raw_seeds = numbers[0].string
                 seeds = self._parse_number(raw_seeds)
                 raw_leeches = numbers[1].string
                 leeches = self._parse_number(raw_leeches)
 
-                description = torrent_.find(
-                    'font', class_="detDesc").get_text()
-                fields = description.split(',')
-                date = ' '.join(fields[0].split()[1:])
-                size = ' '.join(fields[1].split()[-2:])
+                description = torrent_.find("font", class_="detDesc").get_text()
+                fields = description.split(",")
+                date = " ".join(fields[0].split()[1:])
+                size = " ".join(fields[1].split()[-2:])
 
-                yield torrent.Torrent(name, tracker, magnet=magnet, seeds=seeds,
-                                      leeches=leeches, date=date, size=size)
+                yield torrent.Torrent(
+                    name, tracker, magnet=magnet, seeds=seeds, leeches=leeches, date=date, size=size
+                )
 
     @staticmethod
     def _parse_name(raw: bs4.NavigableString) -> str:
@@ -78,6 +78,6 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
         """
         name = raw.string
         if name is None:
-            name = raw['title'].split(" ")[2:]
-            name = ' '.join(str(x) for x in name)
+            name = raw["title"].split(" ")[2:]
+            name = " ".join(str(x) for x in name)
         return name.strip()

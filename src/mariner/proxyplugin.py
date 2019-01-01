@@ -13,22 +13,25 @@ Url = str
 
 class ProxyMeta(abc.ABCMeta, type):
     """Metaclass to check that ProxyList plugins override proxy_page_url."""
+
     def __new__(cls, name, bases, namespace, **kwargs):
         if abc.ABC not in bases:
-            if not namespace.get('default_proxy'):
-                raise exceptions.PluginError('You must define default_proxy')
-            if not namespace.get('proxy_page_url'):
-                raise exceptions.PluginError('You must define proxy_page_url')
+            if not namespace.get("default_proxy"):
+                raise exceptions.PluginError("You must define default_proxy")
+            if not namespace.get("proxy_page_url"):
+                raise exceptions.PluginError("You must define proxy_page_url")
         return type.__new__(cls, name, bases, namespace)
 
 
 class ProxyPlugin(mixins.GetPageMixin, abc.ABC, metaclass=ProxyMeta):
     """Get a list of proxies for given website."""
+
     log = logging.getLogger(__name__)
-    default_proxy = ''  # To be overwritten by subclasses
-    proxy_page_url = ''  # To be overwritten by subclasses
+    default_proxy = ""  # To be overwritten by subclasses
+    proxy_page_url = ""  # To be overwritten by subclasses
     user_agent = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0'}
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0"
+    }
 
     async def get_proxy(self) -> Url:
         """Return the first working proxy.
@@ -36,7 +39,7 @@ class ProxyPlugin(mixins.GetPageMixin, abc.ABC, metaclass=ProxyMeta):
         Returns:
             The first working proxy.
         """
-        self.log.debug('Getting list of proxies.')
+        self.log.debug("Getting list of proxies.")
         try:
             proxy_page = await self.get(self.proxy_page_url, headers=self.user_agent)
             return self._parse(proxy_page)

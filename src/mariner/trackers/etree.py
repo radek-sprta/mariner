@@ -11,7 +11,7 @@ from mariner import torrent, trackerplugin
 class Etree(trackerplugin.TrackerPlugin):
     """Represents Etree search engine."""
 
-    search_url = 'https://bt.etree.org/?searchzzzz={title}'
+    search_url = "https://bt.etree.org/?searchzzzz={title}"
     legal = True
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
@@ -24,7 +24,7 @@ class Etree(trackerplugin.TrackerPlugin):
             search_url = self.search_url.format(title=title)
             page = await self.get(search_url, headers=self.user_agent, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError):
-            self.log.error('Cannot reach server at %s', search_url)
+            self.log.error("Cannot reach server at %s", search_url)
             return iter([])
         return (t for t in self._parse(page) if title in t.name.casefold())
 
@@ -37,16 +37,16 @@ class Etree(trackerplugin.TrackerPlugin):
         Returns:
             List of torrent names with magnet links and URLs.
         """
-        soup = bs4.BeautifulSoup(raw, 'lxml')
+        soup = bs4.BeautifulSoup(raw, "lxml")
         try:
-            contents = soup.select('table')[5].select('tr')[1:]
+            contents = soup.select("table")[5].select("tr")[1:]
             for content in contents:
-                data = content.select('td')
+                data = content.select("td")
                 name = str(data[1].a.string)
                 tracker = self.__class__.__name__
 
-                url_stub = data[2].a.get('href')
-                url = f'http://bt.etree.org/{url_stub}'
+                url_stub = data[2].a.get("href")
+                url = f"http://bt.etree.org/{url_stub}"
 
                 size = str(data[6].string)
                 date = str(data[5].string)
@@ -54,12 +54,7 @@ class Etree(trackerplugin.TrackerPlugin):
                 leeches = self._parse_number(data[9].a.string)
 
                 yield torrent.Torrent(
-                    name,
-                    tracker,
-                    torrent=url,
-                    size=size,
-                    date=date,
-                    seeds=seeds,
-                    leeches=leeches)
+                    name, tracker, torrent=url, size=size, date=date, seeds=seeds, leeches=leeches
+                )
         except IndexError:
             yield from []

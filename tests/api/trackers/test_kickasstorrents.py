@@ -8,17 +8,17 @@ class TestKickAssTorrents:
     Class to test KickAssTorrents plugin.
     """
 
-    @pytest.fixture(scope='module')
+    @pytest.fixture(scope="module")
     def tracker(self, engine):
-        return engine.plugins['kickasstorrents']()
+        return engine.plugins["kickasstorrents"]()
 
     # FIXME vcr does not work with cookies
-    #@pytest.mark.vcr()
-    @pytest.mark.xfail(reason='Some kind of connectin limit makes the test randomly fail.')
+    # @pytest.mark.vcr()
+    @pytest.mark.xfail(reason="Some kind of connectin limit makes the test randomly fail.")
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it
-        search = event_loop.run_until_complete(tracker.results('ubuntu'))
+        search = event_loop.run_until_complete(tracker.results("ubuntu"))
 
         # THEN it should return a list of results
         search = list(search)
@@ -31,15 +31,15 @@ class TestKickAssTorrents:
 
     def test_parse_number(self, tracker):
         """Returns an integer out of number string."""
-        assert tracker._parse_number('1,000,000') == 1000000
-        assert tracker._parse_number('1 000 000') == 1000000
+        assert tracker._parse_number("1,000,000") == 1000000
+        assert tracker._parse_number("1 000 000") == 1000000
 
-    @pytest.mark.xfail(reason='Cannot get KAT cookie.')
+    @pytest.mark.xfail(reason="Cannot get KAT cookie.")
     @pytest.mark.vcr()
     def test_no_results(self, tracker, event_loop):
         # GIVEN a tracker
         # WHEN searching for nonexistant title
-        search = event_loop.run_until_complete(tracker.results('zxcvbnm'))
+        search = event_loop.run_until_complete(tracker.results("zxcvbnm"))
 
         # THEN it should return an empty list
         search = list(search)

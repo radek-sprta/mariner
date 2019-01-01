@@ -7,11 +7,10 @@ from mariner import config
 
 
 class TestConfig:
-
-    @pytest.fixture(autouse=True, scope='class')
+    @pytest.fixture(autouse=True, scope="class")
     def tmp_config(self):
         configpath = pathlib.Path(config.Config().configpath)
-        tmp = str(configpath.parent / 'tmp5643216.yaml')
+        tmp = str(configpath.parent / "tmp5643216.yaml")
         try:
             shutil.copy(str(configpath), tmp)
             yield
@@ -25,7 +24,7 @@ class TestConfig:
         expected = "{'default_tracker': 'linuxtracker',\n 'download_path': '~/Downloads',\n 'results': 50,\n 'timeout': 10}\n"
 
         # WHEN showing the configuration
-        result = run('--config-file', config.Config.default_config, 'config', '-s')[0]
+        result = run("--config-file", config.Config.default_config, "config", "-s")[0]
 
         # THEN it should properly show configured options
         assert result == expected
@@ -35,17 +34,17 @@ class TestConfig:
         expected = "Updated \x1b[32mtimeout\x1b[0m to \x1b[32m100\x1b[0m\n"
 
         # WHEN changing an option
-        result = run('config', 'timeout', '100')[1]
+        result = run("config", "timeout", "100")[1]
 
         # THEN the configuration should change
         assert result == expected
 
     def test_change_wrong_config(self, run):
         # GIVEN a configuration
-        expected = 'Wrong configuration option\n'
+        expected = "Wrong configuration option\n"
 
         # WHEN changing a non-existant option
-        result = run('config', 'test', 'test')[1]
+        result = run("config", "test", "test")[1]
 
         # THEN an error should be shown
         assert result == expected

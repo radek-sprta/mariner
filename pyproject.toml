@@ -1,3 +1,7 @@
+[tool.black]
+line-length = 100
+py36 = false
+
 [tool.poetry]
 name = "Mariner"
 version = "1.3.0"

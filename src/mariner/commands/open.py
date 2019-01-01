@@ -24,8 +24,7 @@ class Open(command.Command):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument(
-            'ID', nargs='+', help='ID of the torrents to open', type=int)
+        parser.add_argument("ID", nargs="+", help="ID of the torrents to open", type=int)
         return parser
 
     @staticmethod
@@ -40,8 +39,7 @@ class Open(command.Command):
         """
         if torrent_.torrent:
             torrent_downloader = downloader.Downloader()
-            torrent_downloader.download(
-                [(torrent_.torrent, torrent_.filename)])
+            torrent_downloader.download([(torrent_.torrent, torrent_.filename)])
             return str(torrent_downloader.download_path / torrent_.filename)
         return torrent_.magnet
 
@@ -53,15 +51,14 @@ class Open(command.Command):
         """
         for tid in parsed_args.ID:
             torrent_ = self.app.engine.result(tid)
-            self.log.debug('tid=%s torrent=%s', tid, torrent_)
-            self.log.info(f'Opening {torrent_.colored().name}.')
+            self.log.debug("tid=%s torrent=%s", tid, torrent_)
+            self.log.info(f"Opening {torrent_.colored().name}.")
             link = self._get_torrent_link(torrent_)
             if self.app.options.verbose_level > 1:
-                subprocess.run(['xdg-open', link])
+                subprocess.run(["xdg-open", link])
             else:
                 with open(os.devnull) as devnull:
-                    subprocess.run(['xdg-open', link],
-                                   stdout=devnull, stderr=devnull)
+                    subprocess.run(["xdg-open", link], stdout=devnull, stderr=devnull)
             try:
                 # Try deleting the file, if it exists
                 link.unlink()

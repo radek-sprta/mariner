@@ -6,8 +6,9 @@ from mariner import exceptions, proxyplugin
 
 class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
     """LimeTorrents proxy list."""
-    default_proxy = 'https://limetorrents.info'
-    proxy_page_url = 'https://limetorrents-proxy.ga/'
+
+    default_proxy = "https://limetorrents.info"
+    proxy_page_url = "https://limetorrents-proxy.ga/"
 
     @staticmethod
     def _parse(page: str) -> str:
@@ -19,18 +20,17 @@ class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
         Returns:
             Urls of proxy websites.
         """
-        soup = bs4.BeautifulSoup(page, 'lxml')
+        soup = bs4.BeautifulSoup(page, "lxml")
         try:
-            data = soup.select('table.proxy-list')[0].select('tr')[2:]
+            data = soup.select("table.proxy-list")[0].select("tr")[2:]
         except IndexError:
-            raise exceptions.NoProxyAvailable('Cannot get proxy list.')
+            raise exceptions.NoProxyAvailable("Cannot get proxy list.")
 
         for site in data:
             if LimeTorrentsProxy._is_online(site):
-                return site.select('td.plc-1')[0].a.get('href')
+                return site.select("td.plc-1")[0].a.get("href")
 
-        raise exceptions.NoProxyAvailable(
-            'No proxy available for LimeTorrents')
+        raise exceptions.NoProxyAvailable("No proxy available for LimeTorrents")
 
     @staticmethod
     def _is_online(soup: bs4.Tag) -> bool:
@@ -41,5 +41,5 @@ class LimeTorrentsProxy(proxyplugin.ProxyPlugin):
 
         Returns:
             True if site is listed online."""
-        status = soup.select('span.label')[0].string
-        return 'Online' in status
+        status = soup.select("span.label")[0].string
+        return "Online" in status

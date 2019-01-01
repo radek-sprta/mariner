@@ -21,7 +21,7 @@ class Mariner(app.App):
         super().__init__(
             description=__version__.__description__,
             version=__version__.__version__,
-            command_manager=commandmanager.CommandManager('mariner.cli'),
+            command_manager=commandmanager.CommandManager("mariner.cli"),
             deferred_help=True,
         )
         self.config = None
@@ -35,47 +35,47 @@ class Mariner(app.App):
             version: Mariner version.
         """
         # Override the help message for log output
-        kwargs = {'conflict_handler': 'resolve'}
+        kwargs = {"conflict_handler": "resolve"}
         parser = super().build_option_parser(description, version, kwargs)
         parser.add_argument(
-            '--log-file',
-            action='store',
+            "--log-file",
+            action="store",
             default=None,
-            help='Specify a file to log output. Default ~/.local/share/mariner/mariner.log.',
+            help="Specify a file to log output. Default ~/.local/share/mariner/mariner.log.",
         )
-        parser.add_argument('--config-file',
-                            '-c',
-                            action='store',
-                            default=None,
-                            help='Path to config file. Default ~/.config/mariner/config.yaml',
-                            )
+        parser.add_argument(
+            "--config-file",
+            "-c",
+            action="store",
+            default=None,
+            help="Path to config file. Default ~/.config/mariner/config.yaml",
+        )
         return parser
 
     def configure_logging(self):
         """Create logging handlers for any log output."""
-        root_logger = logging.getLogger('')
+        root_logger = logging.getLogger("")
         root_logger.setLevel(logging.DEBUG)
 
         # Set logging to file by default.
         if not self.options.log_file:
-            log_dir = os.getenv('XDG_DATA_HOME', '~/.local/share/mariner')
+            log_dir = os.getenv("XDG_DATA_HOME", "~/.local/share/mariner")
             log_dir = utils.check_path(log_dir)
-            self.options.log_file = str(pathlib.Path(log_dir) / 'mariner.log')
+            self.options.log_file = str(pathlib.Path(log_dir) / "mariner.log")
 
         # Monkey patched to use RotatingFileHandler
         file_handler = logging.handlers.RotatingFileHandler(
-            filename=self.options.log_file, maxBytes=1000000, backupCount=1)
+            filename=self.options.log_file, maxBytes=1000000, backupCount=1
+        )
         formatter = logging.Formatter(self.LOG_FILE_MESSAGE_FORMAT)
         file_handler.setFormatter(formatter)
         root_logger.addHandler(file_handler)
 
         # Always send higher-level messages to the console via stderr
         console = logging.StreamHandler(self.stderr)
-        console_level = {
-            0: logging.WARNING,
-            1: logging.INFO,
-            2: logging.DEBUG,
-        }.get(self.options.verbose_level, logging.DEBUG)
+        console_level = {0: logging.WARNING, 1: logging.INFO, 2: logging.DEBUG}.get(
+            self.options.verbose_level, logging.DEBUG
+        )
         console.setLevel(console_level)
         formatter = logging.Formatter(self.CONSOLE_MESSAGE_FORMAT)
         console.setFormatter(formatter)
@@ -87,7 +87,7 @@ class Mariner(app.App):
         Args:
           argv: List[str]: List of command line arguments.
         """
-        self.LOG.debug('Initialize Mariner')
+        self.LOG.debug("Initialize Mariner")
         # Initialize color output
         colorama.init()
 
@@ -100,18 +100,16 @@ class Mariner(app.App):
         # Older configurations have no timeout option
         # Also, cast timeout to int, int case it was string
         try:
-            timeout = int(self.config['timeout'])
+            timeout = int(self.config["timeout"])
         except KeyError:
             timeout = 10
-            self.config['timeout'] = timeout
+            self.config["timeout"] = timeout
 
         self.engine = searchengine.SearchEngine(timeout=timeout)
 
         if self.interactive_mode:
-            self.log.info(
-                'Welcome to Mariner, a command line torrent searcher!')
-            self.log.info(
-                'Type "help" or see http://radek-sprta.gitlab.io/mariner to get started.')
+            self.log.info("Welcome to Mariner, a command line torrent searcher!")
+            self.log.info('Type "help" or see http://radek-sprta.gitlab.io/mariner to get started.')
 
     def prepare_to_run_command(self, cmd) -> None:
         """Code to run before command.
@@ -119,7 +117,7 @@ class Mariner(app.App):
         Args:
           cmd: Command to run.
         """
-        self.LOG.debug('Preparing to run command %s', cmd.__class__.__name__)
+        self.LOG.debug("Preparing to run command %s", cmd.__class__.__name__)
 
     def clean_up(self, cmd, result, err) -> None:
         """Code to run after command.
@@ -129,9 +127,9 @@ class Mariner(app.App):
           result: Result of the command.
           err: Errors caught while running the command.
         """
-        self.LOG.debug('Clean up %s', cmd.__class__.__name__)
+        self.LOG.debug("Clean up %s", cmd.__class__.__name__)
         if err:
-            self.LOG.debug('Got an error: %s', err)
+            self.LOG.debug("Got an error: %s", err)
 
 
 def main(argv=sys.argv[1:]):  # pylint: disable=dangerous-default-value
@@ -144,5 +142,5 @@ def main(argv=sys.argv[1:]):  # pylint: disable=dangerous-default-value
     return mariner.run(argv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))

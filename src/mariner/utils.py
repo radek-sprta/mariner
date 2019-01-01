@@ -40,37 +40,37 @@ def color(string: Any, text_color: str) -> str:
         Colored string.
     """
     colors = {}
-    colors['blue'] = colorama.Fore.BLUE
-    colors['cyan'] = colorama.Fore.CYAN
-    colors['green'] = colorama.Fore.GREEN
-    colors['magenta'] = colorama.Fore.MAGENTA
-    colors['red'] = colorama.Fore.RED
-    colors['yellow'] = colorama.Fore.YELLOW
+    colors["blue"] = colorama.Fore.BLUE
+    colors["cyan"] = colorama.Fore.CYAN
+    colors["green"] = colorama.Fore.GREEN
+    colors["magenta"] = colorama.Fore.MAGENTA
+    colors["red"] = colorama.Fore.RED
+    colors["yellow"] = colorama.Fore.YELLOW
     if text_color not in colors.keys():
-        raise ValueError(f'{text_color} is not a supported color.')
-    return ''.join([colors[text_color], str(string), colorama.Style.RESET_ALL])
+        raise ValueError(f"{text_color} is not a supported color.")
+    return "".join([colors[text_color], str(string), colorama.Style.RESET_ALL])
 
 
 def cyan(string: Any) -> str:
     """Color string cyan."""
-    return color(string, 'cyan')
+    return color(string, "cyan")
 
 
 def green(string: Any) -> str:
     """Color string cyan."""
-    return color(string, 'green')
+    return color(string, "green")
 
 
 def magenta(string: Any) -> str:
     """Color string magenta."""
-    return color(string, 'magenta')
+    return color(string, "magenta")
 
 
 def red(string: Any) -> str:
     """Color string red."""
-    return color(string, 'red')
+    return color(string, "red")
 
 
 def yellow(string: Any) -> str:
     """Color string yellow."""
-    return color(string, 'yellow')
+    return color(string, "yellow")
