@@ -12,12 +12,24 @@ before_script:
   - pip install tox
   - pip install codecov
 
+.code:
+  only:
+    changes:
+      - src/**/*
+      - tests/**/*
+      - pyproject.toml
+      - pylintrc
+      - pytest.ini
+      - tox.ini
+
 lint:bandit:
   stage: lint
+  extends: .code
   script: tox -e bandit
 
 lint:flake8:
   stage: lint
+  extends: .code
   script: tox -e flake8
 
 lint:markdown:
@@ -26,12 +38,11 @@ lint:markdown:
   before_script:
     - gem install mdl
   script:
-    - mdl -s mdl.rb *.md docs/*.md
+    - mdl -s mdl.rb *.md docs/use.md docs/config.md
   only:
     changes:
       - '*.md'
-      - docs/use.md
-      - docs/config.md
+      - docs/*.md
 
 lint:pylint:
   stage: lint
@@ -39,18 +50,20 @@ lint:pylint:
   script: tox -e pylint
 
 test:python35:
-  stage: test
   image: python:3.5
+  stage: test
+  extends: .code
   script:
     - tox -e py35
-  retry: 2
+  retry: 1
 
 test:python36:
   stage: test
+  extends: .code
   script:
     - tox -e py36
     - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
-  retry: 2
+  retry: 1
 
 build:package:
   stage: build
