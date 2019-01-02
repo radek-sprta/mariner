@@ -1,5 +1,7 @@
 # Usage
+
 Mariner has command line interface with the following commands:
+
 - help
 - search
 - config
@@ -15,11 +17,13 @@ You can run them by typing:
 Let's take a look at them one by one.
 
 ## Help
+
 Help lists all of Mariner's commands and optional arguments. You can pass it a command as an argument, to see more information about it.
 
 `mariner help help`
 
 ## Search
+
 Searches a torrent tracker for torrents. It requires one positional argument - the search phrase:
 
 `mariner search OpenSuse`
@@ -53,6 +57,7 @@ To order the results by their upload date, you can use the `--newest` or `-n` fl
 `mariner search OpenSuse -n`
 
 ## Config
+
 You can configure Mariner to better suit your needs with the `config` command. To list the current configuration, run it with the `--show` or `-s` flag:
 
 `mariner config --show`
@@ -62,11 +67,13 @@ The command takes two positional arguments, to adjust the settings - key and val
 `mariner config default_tracker linuxtracker`
 
 ## Details
+
 Shows the details of chosen torrent, such as upload date and number of seeds and leeches. Give it torrent ID as argument:
 
 `mariner details 10`
 
 ## Download
+
 Downloads torrents with given IDs to the download folder (default: ~/Downloads). You can download multiple torrent files at once:
 
 `mariner download 1 2 3`
@@ -76,11 +83,13 @@ To specify a download path, use the `--path` or `-p` flag:
 `mariner download --path ~ 0`
 
 ## Magnet
+
 The Magnet command copies the magnet link of the torrent with given ID to clipboard.
 
 `mariner magnet 5`
 
 ## Open
+
 Open the torrent in your default torrent application.
 
 `mariner open 5`
@@ -90,6 +99,7 @@ Similarly to the `download` command, you can open multiple torrents at once:
 `mariner open 1 2 3`
 
 ## Interactive mode
+
 Mariner also supports interactive mode. Start it by running mariner without any arguments:
 
 `mariner`

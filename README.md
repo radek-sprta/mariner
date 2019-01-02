@@ -28,29 +28,29 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 Mariner requires Python 3.5.3 or newer to run.
 
-**Python package**
+### Python package
 
 You can easily install Mariner using pip. This is the preferred method:
 
 `pip3 install mariner`
 
-**Manual**
+### Manual
 
 Alternatively, to get the latest development version, you can clone this repository and then manually install it:
 
-```
+``` bash
 git clone git@gitlab.com:radek-sprta/mariner.git
 cd mariner
 python3 setup.py install
 ```
 
-**Docker**
+### Docker
 
 There is now also a Docker image available for Mariner, although I haven't tested it extensively. You can run it with the following command:
 
 `docker run [options] registry.gitlab.com/radek-sprta/mariner [arguments]`
 
-**Snap**
+### Snap
 
 You can also try the Mariner snap from snap store. Its in its, however, so do not be surprised by bugs. Install the snap by running:
 
@@ -89,21 +89,26 @@ And quit the program:
 For more information, check the [documentation][documentation].
 
 ## TODO
+
 - Add more trackers for searching
 - Support for MacOS and Windows
 
 ## Contributing
+
 For information on how to contribute to the project, please check the [Contributor's Guide][contributing]
 
 ## Disclaimer
+
 I do not want anyone to act in conflict with their local laws and I do not endorse any illegal activity. Some content in the search results provided be Mariner might be illegal in your country and it is up to you to check your local laws before using it. Neither I, nor Mariner can be held liable for any action taken against you as the result of using it.
 
 ## Contact
+
 [mail@radeksprta.eu](mailto:mail@radeksprta.eu)
 
 [incoming+radek-sprta/mariner@gitlab.com](incoming+radek-sprta/mariner@gitlab.com)
 
 ## License
+
 GNU General Public License v3.0
 
 [contributing]: https://gitlab.com/radek-sprta/mariner/blob/master/CONTRIBUTING.md

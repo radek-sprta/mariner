@@ -1,6 +1,7 @@
 image: python:3.6
 
 stages:
+  - lint
   - test
   - build
   - release
@@ -10,6 +11,32 @@ before_script:
   - pip install poetry
   - pip install tox
   - pip install codecov
+
+lint:bandit:
+  stage: lint
+  script: tox -e bandit
+
+lint:flake8:
+  stage: lint
+  script: tox -e flake8
+
+lint:markdown:
+  image: ruby:2.6
+  stage: lint
+  before_script:
+    - gem install mdl
+  script:
+    - mdl -s mdl.rb *.md docs/*.md
+  only:
+    changes:
+      - '*.md'
+      - docs/use.md
+      - docs/config.md
+
+lint:pylint:
+  stage: lint
+  extends: .code
+  script: tox -e pylint
 
 test:python35:
   stage: test
@@ -24,11 +51,6 @@ test:python36:
     - tox -e py36
     - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
   retry: 2
-
-test:linters:
-  stage: test
-  script: tox -e linters
-  allow_failure: true
 
 build:package:
   stage: build
