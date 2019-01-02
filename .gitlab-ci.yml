@@ -49,6 +49,11 @@ lint:pylint:
   extends: .code
   script: tox -e pylint
 
+lint:radon:
+  stage: lint
+  extends: .code
+  script: tox -e radon
+
 test:python35:
   image: python:3.5
   stage: test
