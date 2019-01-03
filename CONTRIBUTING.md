@@ -35,7 +35,7 @@ Note that I reserve a right to reject a feature request, if I feel it does not a
 If this is your first time contributing code on Gitlab, take a look at Gitlab's [How to create a merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html). After you read it, you follow this checklist to make a merge request:
 
 1. Fork the repository.
-2. Setup development environment using `pipenv install --dev`
+2. Setup development environment using `poetry install && pre-commit install`
 3. Run the tests using `pytest tests` to make sure they pass on your system.
 4. Write tests for the feature you are adding. They should fail.
 5. Add your feature.
@@ -60,7 +60,7 @@ The `TrackerPlugin` base class takes care of most things, such as fetching the r
 
 The `_parse` method is the hard part. You have to parse the results page for relevant information, such as torrent name, torrent URL, magnet link etc. and return it as a list of Torrent objects from the torrent module. Mariner uses BeautifulSoup library for parsing HTML. You can find more information on its usage in the documentation [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-Optionally, you can provide the `aliases` class attribute. `aliases` is a list of alternative names, which can users use to refer to the plugins. An example would be the `PirateBay` module, which has the following aliases:
+Optionally, you can provide `aliases` class attribute. `aliases` is a list of alternative names, which can users use to refer to the plugins. An example would be the `PirateBay` module, which has the following aliases:
 
 ```python
 aliases = ['tpb', 'pb']

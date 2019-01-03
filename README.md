@@ -41,7 +41,8 @@ Alternatively, to get the latest development version, you can clone this reposit
 ``` bash
 git clone git@gitlab.com:radek-sprta/mariner.git
 cd mariner
-python3 setup.py install
+poetry build
+pip install dist/*.whl
 ```
 
 ### Docker
@@ -52,9 +53,13 @@ There is now also a Docker image available for Mariner, although I haven't teste
 
 ### Snap
 
-You can also try the Mariner snap from snap store. Its in its, however, so do not be surprised by bugs. Install the snap by running:
+You can also try the Mariner snap from snap store. It's not tested as well though, so please report any bugs you might encounter. Install the snap by running:
 
 `snap install mariner --edge`
+
+Or, for stable version:
+
+`snap install mariner`
 
 ## Usage
 
@@ -99,7 +104,7 @@ For information on how to contribute to the project, please check the [Contribut
 
 ## Disclaimer
 
-I do not want anyone to act in conflict with their local laws and I do not endorse any illegal activity. Some content in the search results provided be Mariner might be illegal in your country and it is up to you to check your local laws before using it. Neither I, nor Mariner can be held liable for any action taken against you as the result of using it.
+I do not encourage anyone to act in conflict with their local laws and I do not endorse any illegal activity. Some content in the search results provided be Mariner might be illegal in your country and it is up to you to check your local laws before using it. Neither I, nor Mariner can be held liable for any action taken against you as the result of using it.
 
 ## Contact
 
