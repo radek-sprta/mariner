@@ -49,7 +49,7 @@ class Download(lister.Lister):
             if torrent_.torrent:
                 torrents.append(torrent_)
                 self.log.debug("Torrent appended.")
-                self.log.info(f"Downloading torrent ID {utils.cyan(tid)}.")
+                self.log.info(f"Downloading torrent {utils.yellow(torrent_.name)}.")
             else:
                 self.log.warning(
                     utils.yellow(f"No torrent for {torrent_.name}. Use magnet link instead.")

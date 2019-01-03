@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Change user agent to Firefox 62 to avoid blocking.
 - Proxy plugins use a fallback, if they cannot get an online proxy.
+- Improved download command display.
 
 ### Fixed
 
