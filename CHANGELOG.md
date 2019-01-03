@@ -26,6 +26,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fix Etree search.
 - Fix Linuxtracker plugin.
 
+### Removed
+
+- Remove Docker image.
+
 ## [1.2.0] - 2018-06-20
 
 ### Added

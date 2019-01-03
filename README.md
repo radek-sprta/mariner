@@ -45,12 +45,6 @@ poetry build
 pip install dist/*.whl
 ```
 
-### Docker
-
-There is now also a Docker image available for Mariner, although I haven't tested it extensively. You can run it with the following command:
-
-`docker run [options] registry.gitlab.com/radek-sprta/mariner [arguments]`
-
 ### Snap
 
 You can also try the Mariner snap from snap store. It's not tested as well though, so please report any bugs you might encounter. Install the snap by running:
