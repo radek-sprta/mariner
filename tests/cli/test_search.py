@@ -50,9 +50,9 @@ class TestSearch:
         # THEN the results should only come from legal trackers
         expected = [
             '"\x1b[35mID\x1b[0m","\x1b[35mName\x1b[0m","\x1b[35mTracker\x1b[0m","\x1b[35mSeeds\x1b[0m","\x1b[35mSize\x1b[0m","\x1b[35mUploaded\x1b[0m","\x1b[35mAvailable as\x1b[0m"\n',
-            '0,"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
-            '1,"\x1b[33mPlan 9 from Outer Space (1958)\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
-            '2,"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
+            '"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
+            '"\x1b[33mPlan 9 from Outer Space (1958)\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
+            '"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
         ]
         for line in expected:
             assert line in result

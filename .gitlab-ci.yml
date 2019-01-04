@@ -4,6 +4,7 @@ stages:
   - lint
   - test
   - build
+  - deploy
   - release
 
 before_script:
@@ -87,16 +88,8 @@ build:package:
       - dist
     expire_in: 1 week
 
-release:pypi:
-  stage: release
-  before_script:
-    - pip install twine
-  script:
-    - twine upload --skip-existing dist/*
-  only:
-    - tags
-
 pages:
+  stage: deploy
   script:
     - pip install mkdocs
     - pip install mkdocs-cinder

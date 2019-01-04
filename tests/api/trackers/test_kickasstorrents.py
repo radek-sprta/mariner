@@ -12,9 +12,7 @@ class TestKickAssTorrents:
     def tracker(self, engine):
         return engine.plugins["kickasstorrents"]()
 
-    # FIXME vcr does not work with cookies
-    # @pytest.mark.vcr()
-    @pytest.mark.xfail(reason="Some kind of connectin limit makes the test randomly fail.")
+    @pytest.mark.vcr()
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it
@@ -34,7 +32,6 @@ class TestKickAssTorrents:
         assert tracker._parse_number("1,000,000") == 1000000
         assert tracker._parse_number("1 000 000") == 1000000
 
-    @pytest.mark.xfail(reason="Cannot get KAT cookie.")
     @pytest.mark.vcr()
     def test_no_results(self, tracker, event_loop):
         # GIVEN a tracker
