@@ -12,7 +12,6 @@ class TestLimeTorrents:
     def tracker(self, engine):
         return engine.plugins["limetorrents"]()
 
-    @pytest.mark.skip(reason="Currently blocked by Cloudflare")
     @pytest.mark.vcr()
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for

@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 
 - Remove Docker image.
+- Remove LimeTorrents proxies, as they blocked Mariner using Cloudflare.
 
 ## [1.2.0] - 2018-06-20
 

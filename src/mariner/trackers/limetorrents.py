@@ -5,17 +5,12 @@ from typing import Iterator
 import bs4
 
 from mariner import torrent, trackerplugin
-from mariner.proxies import limetorrents
 
 
-class LimeTorrents(trackerplugin.ProxyTrackerPlugin):
+class LimeTorrents(trackerplugin.TrackerPlugin):
     """Represents LimeTorrents search engine."""
 
-    search_url = "{proxy}/search/all/{title}/seeds/1"
-
-    def __init__(self, timeout: int = 10) -> None:
-        super().__init__()
-        self.proxies = limetorrents.LimeTorrentsProxy()
+    search_url = "https://limetorrents.info/search/all/{title}/seeds/1"
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
