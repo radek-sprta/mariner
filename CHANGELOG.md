@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Define path to configuration file using --config-file option.
 - Open multiple torrents at once with the open command.
 - Support for Python 3.7.
+- Alises for Limetorrents (lime) and TokyoTosho (tt).
 
 ### Changed
 
