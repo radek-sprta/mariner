@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Distrowatch, Limetorrents and TPB should no longer throw error when returning no results.
 - Fix Etree search.
 - Fix Linuxtracker plugin.
+- Save results in $HOME/.cache/mariner directory.
 
 ### Removed
 
