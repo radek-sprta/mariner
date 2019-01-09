@@ -1,5 +1,6 @@
 name: mariner
 version: git
+license: GPL-3.0-only
 summary: Command line torrent searcher.
 description: |
   Mariner is a command line torrent searcher. It offers simple interface and a streamlined experience.
