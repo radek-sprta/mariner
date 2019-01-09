@@ -106,3 +106,10 @@ pages:
       - public
   only:
     - master
+
+release:pypi:
+  stage: release
+  script:
+    - poetry publish -u $PYPI_USERNAME -p $PYPI_PASSWORD
+  only:
+    - tags
