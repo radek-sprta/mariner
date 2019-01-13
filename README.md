@@ -45,16 +45,6 @@ poetry build
 pip install dist/*.whl
 ```
 
-### Snap
-
-You can also try the Mariner snap from snap store. It's not tested as well though, so please report any bugs you might encounter. Install the snap by running:
-
-`snap install mariner --edge`
-
-Or, for stable version:
-
-`snap install mariner`
-
 ## Usage
 
 Mariner supports both interactive and non-interactive modes. To see the list of commands, simply type:
