@@ -22,7 +22,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
   - ThePirateBay
   - TokyoTosho
 
-![Mariner demonstration](docs/assets/mariner.gif)
+![Mariner demonstration](docs/assets/mariner.svg)
 
 ## Installation
 
@@ -95,6 +95,15 @@ I do not encourage anyone to act in conflict with their local laws and I do not 
 [mail@radeksprta.eu](mailto:mail@radeksprta.eu)
 
 [incoming+radek-sprta/mariner@gitlab.com](incoming+radek-sprta/mariner@gitlab.com)
+
+## Acknowledgements
+
+Mariner uses many excellent open-source libraries. But I would particularly like to mention the following, as without them, Mariner might not have been possible:
+
+- [Aiohttp](https://github.com/aio-libs/aiohttp)
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- [Cliff](https://github.com/openstack/cliff/tree/master/cliff)
+- [TinyDB](https://github.com/msiemens/tinydb)
 
 ## License
 
