@@ -29,9 +29,6 @@ class ProxyPlugin(mixins.GetPageMixin, abc.ABC, metaclass=ProxyMeta):
     log = logging.getLogger(__name__)
     default_proxy = ""  # To be overwritten by subclasses
     proxy_page_url = ""  # To be overwritten by subclasses
-    user_agent = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0"
-    }
 
     async def get_proxy(self) -> Url:
         """Return the first working proxy.
@@ -41,7 +38,7 @@ class ProxyPlugin(mixins.GetPageMixin, abc.ABC, metaclass=ProxyMeta):
         """
         self.log.debug("Getting list of proxies.")
         try:
-            proxy_page = await self.get(self.proxy_page_url, headers=self.user_agent)
+            proxy_page = await self.get(self.proxy_page_url)
             return self._parse(proxy_page)
         except (OSError, asyncio.TimeoutError, exceptions.NoProxyAvailable):
             return self.default_proxy

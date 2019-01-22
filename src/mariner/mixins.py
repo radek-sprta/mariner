@@ -46,8 +46,16 @@ class ComparableMixin:  # pylint: disable=too-few-public-methods
 class GetPageMixin:  # pylint: disable=too-few-public-methods
     """Represent a web scraper."""
 
+    user_agent = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0"
+    }
+
     async def get(
-        self, url: str, headers: str = None, cookies: Dict[str, str] = None, timeout: int = 10
+        self,
+        url: str,
+        headers: Dict[str, str] = None,
+        cookies: Dict[str, str] = None,
+        timeout: int = 10,
     ) -> str:
         """Get the requested page.
 
@@ -57,6 +65,8 @@ class GetPageMixin:  # pylint: disable=too-few-public-methods
         Returns:
             Raw HTML page.
         """
+        headers = {**headers, **self.user_agent} if headers else self.user_agent
+
         async with aiohttp.ClientSession(headers=headers, cookies=cookies) as session:
             async with session.get(url, timeout=timeout) as response:
                 return await response.text()
