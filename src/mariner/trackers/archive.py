@@ -12,7 +12,7 @@ class Archive(trackerplugin.TrackerPlugin):
     """Represents Archive search engine."""
 
     search_url = "https://archive.org/details/feature_films?and[]={title}&sin="
-    legal = True
+    filters = "legal"
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.

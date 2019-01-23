@@ -75,7 +75,9 @@ class Search(lister.Lister):
         elif parsed_args.legal:
             # Use only legal trackers
             trackers = [
-                t for t in self.app.engine.plugins.keys() if self.app.engine.plugins[t].legal
+                t
+                for t in self.app.engine.plugins.keys()
+                if "legal" in self.app.engine.plugins[t].filters
             ]
         else:
             # If default tracker is used as default argument, the user provided ones

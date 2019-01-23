@@ -12,7 +12,7 @@ class Etree(trackerplugin.TrackerPlugin):
     """Represents Etree search engine."""
 
     search_url = "https://bt.etree.org/?searchzzzz={title}"
-    legal = True
+    filters = "legal"
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.

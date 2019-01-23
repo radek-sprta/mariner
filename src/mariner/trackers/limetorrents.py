@@ -10,7 +10,7 @@ from mariner import torrent, trackerplugin
 class LimeTorrents(trackerplugin.TrackerPlugin):
     """Represents LimeTorrents search engine."""
 
-    aliases = ['lime']
+    aliases = ["lime"]
     search_url = "https://limetorrents.info/search/all/{title}/seeds/1"
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals

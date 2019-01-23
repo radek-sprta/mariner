@@ -25,7 +25,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
 
     log = logging.getLogger(__name__)
     aliases = []  # Aliases for the tracker name
-    legal = False
+    filters = ()
 
     search_url = ""  # To be overwritten by subclasses
 
@@ -84,7 +84,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
 
     log = logging.getLogger(__name__)
     aliases = []  # Aliases for the tracker name
-    legal = False
+    filters = ()
 
     search_url = ""  # To be overwritten by subclasses
 
