@@ -37,6 +37,9 @@ class Search(lister.Lister):
             "--all", "-a", action="store_true", help="Search all available trackers"
         )
         parser.add_argument(
+            "--anime", "-A", action="store_true", help="Search trackers with anime content only"
+        )
+        parser.add_argument(
             "--legal", "-L", action="store_true", help="Search trackers with legal content only"
         )
         parser.add_argument(
@@ -78,6 +81,13 @@ class Search(lister.Lister):
                 t
                 for t in self.app.engine.plugins.keys()
                 if "legal" in self.app.engine.plugins[t].filters
+            ]
+        elif parsed_args.anime:
+            # Use only anime trackers
+            trackers = [
+                t
+                for t in self.app.engine.plugins.keys()
+                if "anime" in self.app.engine.plugins[t].filters
             ]
         else:
             # If default tracker is used as default argument, the user provided ones
