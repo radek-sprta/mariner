@@ -11,7 +11,7 @@ class Nyaa(trackerplugin.TrackerPlugin):
     """Represents Nyaa.si search engine."""
 
     search_url = "https://nyaa.si/?f=0&c=0_0&q={title}"
-    filters = "anime"
+    filters = {"anime"}
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.

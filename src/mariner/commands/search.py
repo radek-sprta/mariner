@@ -40,6 +40,13 @@ class Search(lister.Lister):
             "--anime", "-A", action="store_true", help="Search trackers with anime content only"
         )
         parser.add_argument(
+            "--filter",
+            "-F",
+            choices=self.app.engine.filters,
+            help="Filter trackers that should be searched",
+            default=[],
+        )
+        parser.add_argument(
             "--legal", "-L", action="store_true", help="Search trackers with legal content only"
         )
         parser.add_argument(
@@ -51,16 +58,34 @@ class Search(lister.Lister):
             type=int,
         )
         parser.add_argument("--newest", "-n", action="store_true", help="Sort results by newest")
-        plugins = self.app.engine.plugins.keys()
         parser.add_argument(
             "--trackers",
             "-t",
             action="append",
-            choices=plugins,
+            choices=self.app.engine.plugins,
             help="Trackers that should be searched",
             default=[],
         )
         return parser
+
+    @staticmethod
+    def _parse_filters(parsed_args):
+        """Return a list of filters to use.
+
+        Args:
+            parsed_args: List of parsed arguments.
+
+        Returns:
+            List of filters to use.
+        """
+        filters = []
+        if parsed_args.legal:
+            filters.append("legal")
+        if parsed_args.anime:
+            filters.append("anime")
+        if parsed_args.filter:
+            filters.append(parsed_args.filter)
+        return set(filters)
 
     def _parse_trackers(self, parsed_args):
         """Return a list of trackers to use.
@@ -71,23 +96,15 @@ class Search(lister.Lister):
         Returns:
             List of trackers to use.
         """
+        filters = self._parse_filters(parsed_args)
 
         if parsed_args.all:
             # Use all trackers
             trackers = self.app.engine.plugins.keys()
-        elif parsed_args.legal:
-            # Use only legal trackers
+        elif filters:
+            # Filter trackers to chosen filters
             trackers = [
-                t
-                for t in self.app.engine.plugins.keys()
-                if "legal" in self.app.engine.plugins[t].filters
-            ]
-        elif parsed_args.anime:
-            # Use only anime trackers
-            trackers = [
-                t
-                for t in self.app.engine.plugins.keys()
-                if "anime" in self.app.engine.plugins[t].filters
+                t for t in self.app.engine.plugins if filters <= self.app.engine.plugins[t].filters
             ]
         else:
             # If default tracker is used as default argument, the user provided ones

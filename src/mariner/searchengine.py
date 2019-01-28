@@ -6,7 +6,7 @@ import inspect
 import itertools
 import logging
 import pathlib
-from typing import List, Iterator, Optional, Tuple, Union
+from typing import List, Iterator, Optional, Set, Tuple, Union
 
 import cachalot
 
@@ -36,6 +36,14 @@ class SearchEngine:
         self.plugins = {}
         self.results = cachalot.Cache(path="~/.local/share/mariner/results.json", size=1000)
         self.initialize_plugins()
+
+    @property
+    def filters(self) -> Set[str]:
+        "Available filters."
+        filters = set()
+        for plugin in self.plugins.values():
+            filters = filters.union(plugin.filters)
+        return filters
 
     @property
     def timeout(self) -> int:

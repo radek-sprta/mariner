@@ -12,7 +12,7 @@ class TokyoTosho(trackerplugin.TrackerPlugin):
 
     aliases = ["tt"]
     search_url = "https://www.tokyotosho.info/search.php?terms={title}"
-    filters = "anime"
+    filters = {"anime"}
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.

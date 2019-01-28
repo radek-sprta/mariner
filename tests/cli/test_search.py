@@ -60,14 +60,48 @@ class TestSearch:
     def test_search_anime(self, run):
         # GIVEN a search term
         # WHEN searching for it with --anime flag
-        result = run("search", "-f", "csv", "ubuntu", "--anime", "--limit", "3")[0]
+        result = run("search", "-f", "csv", "ubuntu", "--anime", "--newest", "--limit", "3")[0]
 
-        # THEN the results should only come from legal trackers
+        # THEN the results should only come from anime trackers
         expected = [
             '"\x1b[35mID\x1b[0m","\x1b[35mName\x1b[0m","\x1b[35mTracker\x1b[0m","\x1b[35mSeeds\x1b[0m","\x1b[35mSize\x1b[0m","\x1b[35mUploaded\x1b[0m","\x1b[35mAvailable as\x1b[0m"\n',
             '"\x1b[33mubuntustudio-12.04-dvd-amd64.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","1.92GB","2012-07-14","Magnet link, Torrent"\n',
             '"\x1b[33mubuntu-13.04-desktop-i386.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","794MB","2013-04-25","Magnet link, Torrent"\n',
-            '"\x1b[33mubuntu-13.04-server-amd64.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","701MB","2013-04-25","Magnet link, Torrent"\n'
+            '"\x1b[33mubuntu-13.04-server-amd64.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","701MB","2013-04-25","Magnet link, Torrent"\n',
+        ]
+        for line in expected:
+            assert line in result
+
+    def test_search_filter_legal(self, run):
+        # GIVEN a search term
+        # WHEN searching for it with --filter legal flag
+        result = run(
+            "search", "-f", "csv", "plan 9 from outer space", "--filter", "legal", "--limit", "3"
+        )[0]
+
+        # THEN the results should only come from legal trackers
+        expected = [
+            '"\x1b[35mID\x1b[0m","\x1b[35mName\x1b[0m","\x1b[35mTracker\x1b[0m","\x1b[35mSeeds\x1b[0m","\x1b[35mSize\x1b[0m","\x1b[35mUploaded\x1b[0m","\x1b[35mAvailable as\x1b[0m"\n',
+            '"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
+            '"\x1b[33mPlan 9 from Outer Space (1958)\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
+            '"\x1b[33mPlan 9 from Outer Space\x1b[0m","Archive","\x1b[32m-1\x1b[0m","Unknown","0001-01-01","Torrent"\n',
+        ]
+        for line in expected:
+            assert line in result
+
+    def test_search_filter_anime(self, run):
+        # GIVEN a search term
+        # WHEN searching for it with --filter anime flag
+        result = run(
+            "search", "-f", "csv", "ubuntu", "--filter", "anime", "--newest", "--limit", "3"
+        )[0]
+
+        # THEN the results should only come from anime trackers
+        expected = [
+            '"\x1b[35mID\x1b[0m","\x1b[35mName\x1b[0m","\x1b[35mTracker\x1b[0m","\x1b[35mSeeds\x1b[0m","\x1b[35mSize\x1b[0m","\x1b[35mUploaded\x1b[0m","\x1b[35mAvailable as\x1b[0m"\n',
+            '"\x1b[33mubuntustudio-12.04-dvd-amd64.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","1.92GB","2012-07-14","Magnet link, Torrent"\n',
+            '"\x1b[33mubuntu-13.04-desktop-i386.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","794MB","2013-04-25","Magnet link, Torrent"\n',
+            '"\x1b[33mubuntu-13.04-server-amd64.iso\x1b[0m","TokyoTosho","\x1b[32m0\x1b[0m","701MB","2013-04-25","Magnet link, Torrent"\n',
         ]
         for line in expected:
             assert line in result
