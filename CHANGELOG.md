@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - New --anime/-A flag to search only on anime trackers.
 - New --filter/-F flag to search on trackers with certain tags. Enables general filters on trackers.
 
+## [1.3.1] - 2019-01-25
+
+### Added
+
+- Install correct Cachalot version.
+
 ## [1.3.0] - 2019-01-14
 
 ### Added
@@ -164,3 +170,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [1.1.0]: https://gitlab.com/radek-sprta/mariner/compare/v1.0.3...v1.1.0
 [1.2.0]: https://gitlab.com/radek-sprta/mariner/compare/v1.1.0...v1.2.0
 [1.3.0]: https://gitlab.com/radek-sprta/mariner/compare/v1.2.0...v1.3.0
+[1.3.1]: https://gitlab.com/radek-sprta/mariner/compare/v1.3.0...v1.3.1
