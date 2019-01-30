@@ -1,5 +1,6 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on Nyaa."""
+import logging
 from typing import Iterator
 
 import bs4
@@ -10,8 +11,10 @@ from mariner import torrent, trackerplugin
 class Nyaa(trackerplugin.TrackerPlugin):
     """Represents Nyaa.si search engine."""
 
-    search_url = "https://nyaa.si/?f=0&c=0_0&q={title}"
+    log = logging.getLogger(__name__)
+
     filters = {"anime"}
+    search_url = "https://nyaa.si/?f=0&c=0_0&q={title}"
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.

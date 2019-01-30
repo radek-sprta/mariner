@@ -1,6 +1,7 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on Archive."""
 import asyncio
+import logging
 from typing import Iterator
 
 import bs4
@@ -11,8 +12,10 @@ from mariner import torrent, trackerplugin
 class Archive(trackerplugin.TrackerPlugin):
     """Represents Archive search engine."""
 
-    search_url = "https://archive.org/details/feature_films?and[]={title}&sin="
+    log = logging.getLogger(__name__)
+
     filters = {"legal"}
+    search_url = "https://archive.org/details/feature_films?and[]={title}&sin="
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.

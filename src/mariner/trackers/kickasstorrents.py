@@ -1,6 +1,7 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on KickAssTorrents."""
 import asyncio
+import logging
 from typing import Dict, Iterator
 
 import aiohttp
@@ -12,8 +13,10 @@ from mariner import torrent, trackerplugin
 class KickAssTorrents(trackerplugin.TrackerPlugin):
     """Represents KickAssTorrents search engine."""
 
-    search_url = "https://katcr.co/katsearch/page/1/{title}"
+    log = logging.getLogger(__name__)
+
     aliases = ["kat"]
+    search_url = "https://katcr.co/katsearch/page/1/{title}"
 
     async def get_cookie(self, url: str) -> Dict:
         """Get KickAssTorrents session ID cookie.

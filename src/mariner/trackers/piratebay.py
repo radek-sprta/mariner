@@ -1,5 +1,6 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on PirateBay."""
+import logging
 from typing import Iterator
 
 import bs4
@@ -11,8 +12,10 @@ from mariner.proxies import piratebay
 class PirateBay(trackerplugin.ProxyTrackerPlugin):
     """Represents PirateBay search engine."""
 
-    search_url = "{proxy}/search/{title}"
+    log = logging.getLogger(__name__)
+
     aliases = ["tpb", "pb"]
+    search_url = "{proxy}/search/{title}"
 
     def __init__(self, timeout: int = 10) -> None:
         super().__init__()

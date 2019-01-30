@@ -1,5 +1,6 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on LimeTorrents."""
+import logging
 from typing import Iterator
 
 import bs4
@@ -9,6 +10,8 @@ from mariner import torrent, trackerplugin
 
 class LimeTorrents(trackerplugin.TrackerPlugin):
     """Represents LimeTorrents search engine."""
+
+    log = logging.getLogger(__name__)
 
     aliases = ["lime"]
     search_url = "https://limetorrents.info/search/all/{title}/seeds/1"

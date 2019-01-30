@@ -1,6 +1,7 @@
 # -*- coding: future_fstrings -*-
 """Module for searching torrents on Etree."""
 import asyncio
+import logging
 from typing import Iterator
 
 import bs4
@@ -11,8 +12,10 @@ from mariner import torrent, trackerplugin
 class Etree(trackerplugin.TrackerPlugin):
     """Represents Etree search engine."""
 
-    search_url = "https://bt.etree.org/?searchzzzz={title}"
+    log = logging.getLogger(__name__)
+
     filters = {"legal"}
+    search_url = "https://bt.etree.org/?searchzzzz={title}"
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get a list of torrent name with URLs and magnet links.

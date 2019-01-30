@@ -13,8 +13,9 @@ class Distrowatch(trackerplugin.TrackerPlugin):
     """Represent Distrowatch search engine."""
 
     log = logging.getLogger(__name__)
-    search_url = "https://distrowatch.com/dwres.php?resource=bittorrent"
+
     filters = {"legal"}
+    search_url = "https://distrowatch.com/dwres.php?resource=bittorrent"
 
     async def results(self, title: str) -> Iterator[torrent.Torrent]:
         """Get of list of torrent page urls.
