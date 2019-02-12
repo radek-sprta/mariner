@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - New --anime/-A flag to search only on anime trackers.
 - New --filter/-F flag to search on trackers with certain tags. Enables general filters on trackers.
 
+### Changed
+
+- Lower cache validity to 4 hours.
+
 ## [1.3.1] - 2019-01-25
 
 ### Added
