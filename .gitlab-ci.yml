@@ -1,4 +1,4 @@
-image: python:3.6
+image: python:3.7
 
 stages:
   - lint
@@ -64,6 +64,7 @@ test:python35:
   retry: 1
 
 test:python36:
+  image: python:3.6
   stage: test
   extends: .code
   script:
@@ -72,7 +73,6 @@ test:python36:
   retry: 1
 
 test:python37:
-  image: python:3.7
   stage: test
   extends: .code
   script:
