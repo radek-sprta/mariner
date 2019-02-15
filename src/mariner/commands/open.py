@@ -2,6 +2,7 @@
 """Mariner open command."""
 import logging
 import os
+import shlex
 import subprocess  # nosec
 
 from cliff import command
@@ -53,7 +54,7 @@ class Open(command.Command):
             torrent_ = self.app.engine.result(tid)
             self.log.debug("tid=%s torrent=%s", tid, torrent_)
             self.log.info(f"Opening {torrent_.colored().name}.")
-            link = self._get_torrent_link(torrent_)
+            link = shlex.quote(self._get_torrent_link(torrent_))
             if self.app.options.verbose_level > 1:
                 subprocess.run(["xdg-open", link])
             else:
