@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Lower cache validity to 4 hours.
 
 ### Fixed
+
 - Quote URL when opening torrent, so it cannot be interpreted as shell command.
 
 ## [1.3.1] - 2019-01-25
