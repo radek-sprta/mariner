@@ -69,7 +69,6 @@ test:python36:
   extends: .code
   script:
     - tox -e py36
-    - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
   retry: 1
 
 test:python37:
@@ -77,7 +76,17 @@ test:python37:
   extends: .code
   script:
     - tox -e py37
+    - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
   retry: 1
+
+test:python38:
+  image: python:3.8-rc-stretch
+  stage: test
+  extends: .code
+  script:
+    - tox -e py38
+  retry: 1
+  allow_failure: true
 
 build:package:
   stage: build
