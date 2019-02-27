@@ -1,8 +1,8 @@
-name: mariner
+name: Mariner
 version: git
-summary: Command line torrent searcher.
+summary: Navigate torrents in CLI.
 description: |
-  Mariner is a command line torrent searcher. It offers simple interface and a streamlined experience.
+  Navigate torrents in CLI with Mariner. It offers simple interface and a streamlined experience.
 
 grade: stable
 confinement: strict

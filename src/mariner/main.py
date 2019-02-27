@@ -108,7 +108,7 @@ class Mariner(app.App):
         self.engine = searchengine.SearchEngine(timeout=timeout)
 
         if self.interactive_mode:
-            self.log.info("Welcome to Mariner, a command line torrent searcher!")
+            self.log.info("Welcome to Mariner. Navigate torrents with CLI!")
             self.log.info('Type "help" or see http://radek-sprta.gitlab.io/mariner to get started.')
 
     def prepare_to_run_command(self, cmd) -> None:

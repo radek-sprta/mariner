@@ -9,7 +9,7 @@ py36 = false
 [tool.poetry]
 name = "Mariner"
 version = "1.3.0"
-description = "Command line torrent searcher"
+description = "Navigate torrents in CLI"
 authors = ["Radek Sprta <mail@radeksprta.eu>"]
 license = "GPL-3.0"
 
