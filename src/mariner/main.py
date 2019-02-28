@@ -9,7 +9,7 @@ from cliff import app, commandmanager
 import colorama
 
 from mariner import __version__
-from mariner import searchengine, utils, config
+from mariner import interactive, searchengine, utils, config
 
 
 class Mariner(app.App):
@@ -23,6 +23,7 @@ class Mariner(app.App):
             version=__version__.__version__,
             command_manager=commandmanager.CommandManager("mariner.cli"),
             deferred_help=True,
+            interactive_app_factory=interactive.MarinerInteractive,
         )
         self.config = None
         self.engine = None
