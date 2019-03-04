@@ -39,7 +39,7 @@ class Magnet(command.Command):
             pyperclip.copy(torrent_.magnet)
             self.log.info(f"Copied {torrent_.colored().name} magnet link to clipboard.")
             self.log.debug("magnet=%s", torrent_.magnet)
-        except AttributeError:
-            self.log.warning(
-                utils.yellow(f"{torrent_.name} has no magnet link. Download the torrent.")
-            )
+        except pyperclip.PyperclipException:
+            pyperclip.copy(torrent_.torrent)
+            self.log.warning(utils.yellow(f"{torrent_.name} has no magnet link."))
+            self.log.info(f"Copied {torrent_.colored().name} torrent URL to clipboard instead.")

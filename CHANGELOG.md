@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Lower cache validity to 4 hours.
+- With torrents that have no magnet link, magnet command copies torrent URL instead.
 
 ### Fixed
 
