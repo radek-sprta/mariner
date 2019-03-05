@@ -12,6 +12,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 - Show torrent details.
 - Asynchronous I/O for better responsiveness.
 - Supports the following trackers:
+  - Anirena
   - Archive.org
   - Distrowatch
   - Etree

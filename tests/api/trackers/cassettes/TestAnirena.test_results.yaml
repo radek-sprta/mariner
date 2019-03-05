@@ -1,0 +1,255 @@
+interactions:
+- request:
+    body: null
+    headers:
+      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+    method: GET
+    uri: https://www.anirena.com/?s=linux
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\" lang=\"en-gb\" xml:lang=\"en-gb\">\n<head>\n<meta
+        http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n<meta
+        http-equiv=\"content-style-type\" content=\"text/css\" />\n<meta http-equiv=\"content-language\"
+        content=\"en-gb\" />\n<meta http-equiv=\"imagetoolbar\" content=\"no\" />\n<meta
+        name=\"resource-type\" content=\"document\" />\n<meta name=\"distribution\"
+        content=\"global\" />\n<meta name=\"description\" content='AniRena - Your
+        source for latest Anime/Japanese related torrents !' />\n<meta keywords=\"anime,
+        manga, music, Japan, Japanese, hentai, bittorrent, torrent, download, upload,
+        forum, community\" />\n<meta name=\"google-site-verification\" content=\"zcEG6b4sClFk7j7IOFKfEA1SHU84ADDpfKW76DFjMLE\"
+        />\n<meta name=\"robots\" content=\"index, follow\" />\n<title>AniRena &bull;
+        Torrent List</title>\n<link href=\"./styles/tracker/theme/torrents.css\" rel=\"stylesheet\"
+        type=\"text/css\" />\n<link href=\"./styles/tracker/theme/jquery-ui.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n<link rel=\"stylesheet\" href=\"./styles/tracker/theme/autosuggest.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"alternalte\"
+        type=\"application/rss+xml\" title=\"AniRena RSS Feed\" href=\"./rss.php?s=linux\"
+        />\n<script src=\"./styles/tracker/theme/jquery.js\" type=\"text/javascript\"></script>\n<script
+        src=\"./styles/tracker/theme/jquery.total-storage.js\" type=\"text/javascript\"></script>\n<script
+        src=\"./styles/tracker/theme/jquery-ui.js\" type=\"text/javascript\"></script>\n<script
+        type=\"text/javascript\" src=\"./styles/tracker/theme/autosuggest.js\" charset=\"utf-8\"></script>\n</head>\n<body
+        id=\"phpbb\" class=\"section-index ltr\" style=\"background-color: #EEEEEE;\">\n\n<script
+        id=\"sid0020000043016082283\">(function() {function async_load(){s.id=\"cid0020000043016082283\";s.src='//st.chatango.com/js/gz/emb.js';s.style.cssText=\"width:200px;height:300px;\";s.async=true;s.text='{\"handle\":\"anirena\",\"arch\":\"js\",\"styles\":{\"a\":\"000000\",\"b\":100,\"c\":\"FFFFFF\",\"d\":\"FFFFFF\",\"k\":\"000000\",\"l\":\"000000\",\"m\":\"000000\",\"n\":\"FFFFFF\",\"q\":\"000000\",\"r\":100,\"pos\":\"br\",\"cv\":1,\"cvfntsz\":\"15px\",\"cvbg\":\"000000\",\"cvfg\":\"ff0000\",\"cvw\":166,\"cvh\":58}}';var
+        ss = document.getElementsByTagName('script');for (var i=0, l=ss.length; i
+        < l; i++){if (ss[i].id=='sid0020000043016082283'){ss[i].id +='_';ss[i].parentNode.insertBefore(s,
+        ss[i]);break;}}}var s=document.createElement('script');if (s.async==undefined){if
+        (window.addEventListener) {addEventListener('load',async_load,false);}else
+        if (window.attachEvent) {attachEvent('onload',async_load);}}else {async_load();}})();</script>\n<div
+        style=\"z-index: 1000; width: 950px; position: fixed; top: 0px; left: 50%;
+        margin-left: -475px; padding: 0px 0px 0px 0px; background: rgba(0, 0, 0, 0.00);\">\n<div
+        id=\"topbar\" style=\"display: none; z-index: 1000; text-align: center; width:
+        950px; margin-bottom: 0px; position: relative; top: 0px; left: 50%; margin-left:
+        -475px; padding: 5px 5px 5px 5px; background: rgba(0, 0, 0, 0.80); border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px; -moz-border-bottom-left-radius:5px; -moz-border-bottom-right-radius:5px;\">\n<div
+        style=\"text-align: center; width: 950px; color: #FFFFFF;\">\nAniRena has
+        <font color=\"chartreuse\"><big><b>&nbsp;14360&nbsp;</b></big></font> torrents.
+        We are tracking <font color=\"cyan\"><big><b>&nbsp;3493&nbsp;</b></big></font>
+        downloaders, where <font color=\"deeppink\"><big><b>&nbsp;6354&nbsp;</b></big></font>
+        are uploaders. A total of <font color=\"orange\"><big><b>&nbsp;45019765&nbsp;</b></big></font>
+        downloads have been completed.<br />\nA total of <font color=\"greenyellow\"><big><b>&nbsp;69.08
+        PB&nbsp;</b></big></font> data has been transfered to users.\n</div>\n<div
+        style=\"text-align: center; width: 950px; color: #FFFFFF;\">\n<table cellpadding=\"0\"
+        cellspacing=\"0\" style=\"margin-left:auto;margin-right:auto;text-align:left\">\n<tr>\n<td>\n<span
+        class=\"buttons\"><button id=\"background_toggle\" class=\"disabled\">Checking
+        ...</button></span>\n</td>\n</tr>\n</table>\n\n</div>\n</div>\n<div id=\"topbar2\"
+        style=\"z-index: 1000; text-align: center; width: 950px; margin-bottom: 0px;
+        height: 0px; position: relative; top: 0px; left: 50%; margin-left: -475px;
+        padding: 0px 0px 0px 0px; background: rgba(0, 0, 0, 0.00);\">&nbsp;</div>\n<div
+        id=\"topbarbutton\" style=\"cursor: pointer; z-index: 1000; text-align: center;
+        width: 50px; margin-bottom: 0px; position: relative; top: 0px; float: left;
+        left: 50%; margin-left: -25px; padding: 2px 5px 5px 5px; background: rgba(0,
+        0, 0, 0.80); border-bottom-left-radius:5px; border-bottom-right-radius:5px;
+        -moz-border-bottom-left-radius:5px; -moz-border-bottom-right-radius:5px;\">\n<font
+        style=\"color: #FFFFFF;\">[ MENU ]</font>\n</div>\n</div>\n<script type=\"text/javascript\">\n\t//<![CDATA[\n\t\t/*
+        $('#nojavascript').hide(); */\n\t\t\n\t\t$(\"#topbarbutton\").click(function
+        () {\n\t\t\t$(\"#topbar\").toggle(\"slow\");\n\t\t});\n\n\t\tvar background_disabled
+        = $.totalStorage(\"background_disabled\");\n\t\tif (background_disabled !=
+        \"1\") {\n\t\t\ttoday = new Date();\n\t\t\tday = today.getDay();\n\t\t\tarday
+        = new Array(\"background1.jpg\", \"background2.jpg\", \"background3.jpg\",
+        \"background4.jpg\", \"background5.jpg\", \"background6.jpg\", \"background7.jpg\");\n\t\t\tdocument.body.style.background
+        = \"url(/images/\" + arday[day] + \") no-repeat center center fixed\";\n\t\t\tdocument.getElementById(\"background_toggle\").setAttribute(\"class\",
+        \"positive\");\n\t\t\tdocument.getElementById(\"background_toggle\").innerHTML=\"Background
+        Enabled\";\n\t\t}\n\t\telse {\n\t\t\tdocument.body.style.background = \"\";\n\t\t\tdocument.getElementById(\"background_toggle\").setAttribute(\"class\",
+        \"negative\");\n\t\t\tdocument.getElementById(\"background_toggle\").innerHTML=\"Background
+        Disabled\";\n\t\t}\n\t\t$(\"#background_toggle\").click(function () {\n\t\t\tvar
+        background_disabled = $.totalStorage(\"background_disabled\");\n\t\t\tif (background_disabled
+        != \"1\") {\n\t\t\t\t$.totalStorage(\"background_disabled\", \"1\");\n\t\t\t\tdocument.body.style.background
+        = \"\";\n\t\t\t\tdocument.getElementById(\"background_toggle\").setAttribute(\"class\",
+        \"negative\");\n\t\t\t\tdocument.getElementById(\"background_toggle\").innerHTML=\"Background
+        Disabled\";\n\t\t\t}\n\t\t\telse {\n\t\t\t\t$.totalStorage(\"background_disabled\",
+        \"0\");\n\t\t\t\ttoday = new Date();\n\t\t\t\tday = today.getDay();\n\t\t\t\tarday
+        = new Array(\"background1.jpg\", \"background2.jpg\", \"background3.jpg\",
+        \"background4.jpg\", \"background5.jpg\", \"background6.jpg\", \"background7.jpg\");\n\t\t\t\tdocument.body.style.background
+        = \"url(/images/\" + arday[day] + \") no-repeat center center fixed\";\n\t\t\t\tdocument.getElementById(\"background_toggle\").setAttribute(\"class\",
+        \"positive\");\n\t\t\t\tdocument.getElementById(\"background_toggle\").innerHTML=\"Background
+        Enabled\";\n\t\t\t}\n\t\t});\n\t//]]>\n\t</script>\n<div id=\"content\" class=\"content\">\n<div
+        id=\"header\">\n<p id=\"top_info\"><span style=\"font-size: 20px;\"><b><a
+        href=\"./\">Browse Torrents</a></b>&nbsp;&bull;&nbsp;<b><a href=\"./torrent_upload.php\">Upload
+        Torrent</a></b></span><br /><a href=\"./statistics.php\" title=\"Server Statistics\">Server
+        Statistics</a>&nbsp;&bull;&nbsp;<a href=\"./ucp.php?mode=register&amp;sid=5475152aee4504c3eb43f1294d897884\">Register</a>&nbsp;&bull;&nbsp;<a
+        href=\"./ucp.php?mode=login&amp;sid=5475152aee4504c3eb43f1294d897884\" title=\"Login\"
+        accesskey=\"x\">Login</a></p>\n<div id=\"logo\">\n<h1><a href=\"/\" title=\"\">AniRena
+        <span class=\"title\">Torrent Tracker</span></a></h1>\n<p>Your source for
+        latest Anime/Japanese related torrents !</p>\n</div>\n</div>\n<div id=\"tabs\">\n<ul>\n<li><a
+        href=\"./index.php?t=1&s=linux\">RAW</a></li><li><a href=\"./index.php?t=2&s=linux\">Anime</a></li><li><a
+        href=\"./index.php?t=3&s=linux\">Hentai</a></li><li><a href=\"./index.php?t=4&s=linux\">Drama</a></li><li><a
+        href=\"./index.php?t=5&s=linux\">DVD/ISO</a></li><li><a href=\"./index.php?t=6&s=linux\">Hentai-Game</a></li><li><a
+        href=\"./index.php?t=7&s=linux\">Manga</a></li><li><a href=\"./index.php?t=8&s=linux\">Music</a></li><li><a
+        href=\"./index.php?t=9&s=linux\">AMV</a></li><li><a href=\"./index.php?t=10&s=linux\">Non-English</a></li><li><a
+        href=\"./index.php?t=11&s=linux\">Other</a></li>\n</ul>\n<div id=\"search\">\n<form
+        method=\"get\" action=\"./\">\n<p>\n<span class=\"buttons\">\n<input type=\"text\"
+        name=\"s\" class=\"search\" id=\"search_input\" value=\"linux\" />\n<button
+        type=\"submit\" class=\"positive\" style=\"float: right; margin-right: 50px;\">Search</button>\n</span>\n</p>\n</form>\n</div>\n<div
+        id=\"rss\">\n<a title=\"RSS Feed (can be used for uTorrent and other compatible
+        clients !)\" href=\"./rss.php?s=linux\"><img src=\"./styles/tracker/imageset/rss-icon.png\"
+        border=\"0\" /></a>\n</div>\n<div id=\"twit\">\n<a title=\"Twitter Feed\"
+        href=\"http://twitter.com/anirena\" target=\"_BLANK\"><img src=\"./styles/tracker/imageset/twit-icon.png\"
+        border=\"0\" /></a>\n</div>\n</div>\n<div></div>\n<script type=\"text/javascript\">\n\t\t//<![CDATA[\n\t\t\tvar
+        options = {\n\t\t\t\tscript:\"/search_json.php?\",\n\t\t\t\tvarname:\"s\",\n\t\t\t\tjson:true,\n\t\t\t\tshownoresults:false,\n\t\t\t\tmaxresults:6,\n\t\t\t\ttimeout:5000,\n\t\t\t\tcache:false,\n\t\t\t};\n\t\t\tvar
+        as_json = new bsn.AutoSuggest('search_input', options);\n\t\t//]]>\n\t\t</script>\n<script
+        type=\"text/javascript\">\n//<![CDATA[\n\tvar current_block = false;\n\tvar
+        details_layout1 = '<div class=\"full2\" id=\"';\n\tvar details_layout2 = '\"><div
+        class=\"torrent_details\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"
+        frame=\"void\" rules=\"none\" width=\"100%\">';\n\tvar details_layout3 = '<tr
+        style=\"border-bottom: 1px solid #DDDDDD;\"><td width=\"15%\";\"><b>Torrent
+        Hash:</b></td><td width=\"85%\" style=\"font-family: courier-new, monospace;
+        font-size: 11px;\">';\n\tvar details_layout4 = '</td></tr><tr style=\"border-bottom:
+        1px solid #DDDDDD;\"><td width=\"15%\"><b>Uploaded By:</b></td><td width=\"85%\"
+        style=\"font-family: courier-new, monospace; font-size: 11px;\">';\n\tvar
+        details_layout5 = '</td></tr><tr style=\"border-bottom: 1px solid #DDDDDD;\"><td
+        width=\"15%\"><b>Uploaded At:</b></td><td width=\"85%\" style=\"font-family:
+        courier-new, monospace; font-size: 11px;\">';\n\tvar details_layout6 = '</td></tr><tr
+        style=\"border-bottom: 1px solid #DDDDDD;\"><td width=\"15%\"><b>Created By
+        Client:</b></td><td width=\"85%\" style=\"font-family: courier-new, monospace;
+        font-size: 11px;\">';\n\tvar details_layout7 = '</td></tr><tr style=\"border-bottom:
+        1px solid #DDDDDD;\"><td width=\"15%\"><b>Created At:</b></td><td width=\"85%\"
+        style=\"font-family: courier-new, monospace; font-size: 11px;\">';\n\tvar
+        details_layout9 = '</td></tr><tr style=\"border-bottom: 1px solid #DDDDDD;\"><td
+        width=\"15%\" valign=\"top\"><b>Comment:</b></td><td width=\"85%\" style=\"font-family:
+        courier-new, monospace; font-size: 11px;\"><div style=\"width: 100%; max-height:
+        150px; overflow-y: scroll;\">';\n\tvar details_layout10 = '</div></td></tr></table></div></div>';\n\tvar
+        details_layout11 = '</td></tr></table></div></div>';\n\tvar details_layout12
+        = '</td></tr><tr style=\"border-bottom: 1px solid #DDDDDD;\"><td width=\"15%\"><b>File
+        CRC:</b></td><td width=\"85%\" style=\"font-family: courier-new, monospace;
+        font-size: 11px;\">';\n\tvar details_layout13 = '</td></tr><tr style=\"border-bottom:
+        1px solid #DDDDDD;\"><td width=\"15%\" valign=\"top\"><b>Files:</b></td><td
+        width=\"85%\" style=\"font-family: courier-new, monospace; font-size: 11px;\">';\n\tvar
+        details_layout14 = '</td></tr><tr style=\"border-bottom: 1px solid #DDDDDD;\"><td
+        width=\"15%\" valign=\"top\"><b>Foreign Announces:</b></td><td width=\"85%\"
+        style=\"font-family: courier-new, monospace; font-size: 11px;\">';\n\tvar
+        URL_grab_json = './torrent_details.php?id=';\n\tfunction get_details(name,
+        id) {\n\t\tif (current_block != false) {\n\t\t\tif (current_block == name)
+        {\n\t\t\t\tname_block = \"#\" + current_block;\n\t\t\t\tif ($(name_block).is(\":visible\"))
+        {\n\t\t\t\t\t$(name_block).hide('slow', function() { });\n\t\t\t\t\tcurrent_block
+        = false;\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\t$.getJSON(URL_grab_json + id,\n\t\t\t\t\t\tfunction(data)
+        {\n\t\t\t\t\t\t\tcontent = details_layout1 + current_block + details_layout2
+        + details_layout3 + data.INFO_HASH + details_layout12 + data.CRC + details_layout4
+        + data.OWNER_NAME + details_layout5 + data.UPLOADED + details_layout6 + data.CREATED_BY
+        + details_layout7 + data.TORRENT_CREATED + details_layout13 + data.FILE_LIST;\n\t\t\t\t\t\t\tif
+        (data.ANNOUNCE_LIST != \"\") {\n\t\t\t\t\t\t\t\tcontent = content + details_layout14
+        + data.ANNOUNCE_LIST;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\tif (data.COMMENT !=
+        \"\") {\n\t\t\t\t\t\t\t\tcontent = content + details_layout9 + data.COMMENT
+        + details_layout10;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\telse {\n\t\t\t\t\t\t\t\tcontent
+        = content + details_layout11;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t$(name_block).replaceWith(content);\n\t\t\t\t\t\t}\n\t\t\t\t\t);\n\t\t\t\t\t$(name_block).show('slow',
+        function() { });\n\t\t\t\t\tcurrent_block = name;\n\t\t\t\t}\n\t\t\t\treturn;\n\t\t\t}\n\t\t\telse
+        {\n\t\t\t\tname_block = \"#\" + current_block;\n\t\t\t\tnew_name_block = \"#\"
+        + name;\n\t\t\t\tif ($(name_block).is(\":visible\")) {\n\t\t\t\t\t$(name_block).hide('slow',
+        function() { });\n\t\t\t\t\tcurrent_block = false;\n\t\t\t\t}\n\t\t\t\tif
+        ($(new_name_block).is(\":visible\")) {\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\t$.getJSON(URL_grab_json
+        + id,\n\t\t\t\t\t\tfunction(data) {\n\t\t\t\t\t\t\tcontent = details_layout1
+        + name + details_layout2 + details_layout3 + data.INFO_HASH + details_layout12
+        + data.CRC + details_layout4 + data.OWNER_NAME + details_layout5 + data.UPLOADED
+        + details_layout6 + data.CREATED_BY + details_layout7 + data.TORRENT_CREATED
+        + details_layout13 + data.FILE_LIST;\n\t\t\t\t\t\t\tif (data.ANNOUNCE_LIST
+        != \"\") {\n\t\t\t\t\t\t\t\tcontent = content + details_layout14 + data.ANNOUNCE_LIST;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\tif
+        (data.COMMENT != \"\") {\n\t\t\t\t\t\t\t\tcontent = content + details_layout9
+        + data.COMMENT + details_layout10;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\telse {\n\t\t\t\t\t\t\t\tcontent
+        = content + details_layout11;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t$(new_name_block).replaceWith(content);\n\t\t\t\t\t\t}\n\t\t\t\t\t);\n\t\t\t\t\t$(new_name_block).show('slow',
+        function() { });\n\t\t\t\t\tcurrent_block = name;\n\t\t\t\t}\n\t\t\t\tcurrent_block
+        = name;\n\t\t\t\treturn;\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\tnew_name_block
+        = \"#\" + name;\n\t\t\tif ($(new_name_block).is(\":visible\")) {\n\t\t\t}\n\t\t\telse
+        {\n\t\t\t\t$.getJSON(URL_grab_json + id,\n\t\t\t\t\tfunction(data) {\n\t\t\t\t\t\tcontent
+        = details_layout1 + name + details_layout2 + details_layout3 + data.INFO_HASH
+        + details_layout12 + data.CRC + details_layout4 + data.OWNER_NAME + details_layout5
+        + data.UPLOADED + details_layout6 + data.CREATED_BY + details_layout7 + data.TORRENT_CREATED
+        + details_layout13 + data.FILE_LIST;\n\t\t\t\t\t\tif (data.ANNOUNCE_LIST !=
+        \"\") {\n\t\t\t\t\t\t\tcontent = content + details_layout14 + data.ANNOUNCE_LIST;\n\t\t\t\t\t\t}\n\t\t\t\t\t\t\tif
+        (data.COMMENT != \"\") {\n\t\t\t\t\t\t\tcontent = content + details_layout9
+        + data.COMMENT + details_layout10;\n\t\t\t\t\t\t}\n\t\t\t\t\t\telse {\n\t\t\t\t\t\t\tcontent
+        = content + details_layout11;\n\t\t\t\t\t\t}\n\t\t\t\t\t\t$(new_name_block).replaceWith(content);\n\t\t\t\t\t}\n\t\t\t\t);\n\t\t\t\t$(new_name_block).show('slow',
+        function() { });\n\t\t\t\tcurrent_block = name;\n\t\t\t}\n\t\t\treturn;\n\t\t}\n\t};\n\tfunction
+        delete_box(message, url) {\n\t\tvar check = confirm(message);\n\t\tif (check
+        == true) {\n\t\t\tdocument.location.href = url;\n\t\t}\n\t}\n//]]>\n</script>\n<div
+        class=\"full3\" style=\"text-align: center; color: red;\">\n<table style=\"margin-left:
+        auto; margin-right: auto;\">\n<tr>\n<td style=\"text-align: right;\">\n<b>Tracker
+        URL:</b>\n</td>\n<td style=\"text-align: left;\">\nhttp://tracker.anirena.com:80/announce\n</td>\n</tr>\n<tr>\n<td
+        style=\"text-align: right;\">\n<b>Discord:</b>\n</td>\n<td style=\"text-align:
+        left;\">\n<a href=\"//discord.gg/ys9pb4w\" target=\"_blank\">https://discord.gg/ys9pb4w</a>\n</td>\n</tr>\n<tr>\n<td
+        style=\"text-align: right;\">\n<b>IRC:</b>\n</td>\n<td style=\"text-align:
+        left;\">\n<a href=\"irc://irc.rizon.net:6667/anirena\" target=\"_blank\">irc.Rizon.net
+        @ #AniRena</a> <a href=\"https://qchat.rizon.net/?channels=anirena\" target=\"_BLANK\">[Rizon
+        Applet]</a>\n</td>\n</tr>\n</table>\n</div>\n<div class=\"full3 buttons\">\n</div>\n<div
+        class=\"full2\">\n<span class=\"torrents torrents_type\"><b>Type:</b></span>\n<span
+        class=\"torrents torrents_info\"><b>Torrent Info:</b></span>\n<span class=\"torrents
+        torrents_size\"><b>Size:</b></span>\n<span class=\"torrents torrents_seeders\"><b>Seeders:</b></span>\n<span
+        class=\"torrents torrents_leechers\"><b>Leechers:</b></span>\n<span class=\"torrents
+        torrents_downloads\"><b>Downloads:</b></span>\n</div>\n<div class=\"full2\">\n<div
+        class=\"full_spacer\"></div>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"
+        frame=\"void\" rules=\"none\">\n<tr>\n<td class=\"torrents_small_type_data1\"
+        valign=\"middle\"><img src=\"./styles/tracker/imageset/cat_other_small.png\"
+        title=\"Anime\" /></td>\n<td class=\"torrents_small_info_data1\" valign=\"middle\"><div
+        class=\"torrents_small_info_data1\" style=\"white-space: nowrap;\"><a nohref
+        title=\"MAME 0.72 Full Roms Home Version www.ToyKim.com for Windows iOS Linux
+        Xbox360 Homebrew etc\" onClick=\"get_details('details56270', 56270);\">MAME
+        0.72 Full Roms Home Version www.ToyKim.com for Windows iOS Linux Xbox360 Homebrew
+        etc</a></div></td>\n<td class=\"torrents_small_info_data2\" valign=\"middle\"><div
+        class=\"torrents_small_info_data2b\"><a href=\"./dl/56270\" title=\"Download
+        Torrent\"><img src=\"./styles/tracker/imageset/download.png\" border=\"0px\"
+        /></a>&nbsp;<a href=\"magnet:?xt=urn:btih:9f022eae969aeb22d73db1496a5f9ed6ad20376d&dn=MAME+0.72+Full+Roms+Home+Version+www.ToyKim.com+for+Windows+iOS+Linux+Xbox360+Homebrew+etc&tr=http%3A%2F%2Ftracker.anirena.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.btzoo.eu%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2770%2Fannounce&tr=http%3A%2F%2Ftracker1.torrentino.com%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.ohys.net%2Fannounce&tr=http%3A%2F%2Ftracker.nwps.ws%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.mg64.net%3A6881%2Fannounce&tr=http%3A%2F%2Ftracker.flashtorrents.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.anime-miako.to%3A6969%2Fannounce&tr=http%3A%2F%2Fserver2.9sheng.cn%3A6969%2Fannounce&tr=http%3A%2F%2Fretracker.uln-ix.ru%2Fannounce&tr=http%3A%2F%2Fretracker.telecom.kz%2Fannounce&tr=http%3A%2F%2Fretracker.adminko.org%2Fannounce&tr=http%3A%2F%2Fmgtracker.org%3A2710%2Fannounce&tr=http%3A%2F%2Fmegapeer.org%3A6969%2Fannounce&tr=http%3A%2F%2Fi.bandito.org%2Fannounce&tr=http%3A%2F%2Fbttracker.crunchbanglinux.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbigfoot1942.sektori.org%3A6969%2Fannounce&tr=http%3A%2F%2Fanisaishuu.de%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce\"
+        title=\"Magnet Link\"><img src=\"./styles/tracker/imageset/magnet.png\" border=\"0px\"
+        /></a>&nbsp;<a href=\"#\" title=\"Report a torrent\"><img src=\"./styles/tracker/imageset/exclamation.png\"
+        border=\"0px\" /></a></div></td>\n<td class=\"torrents_small_size_data1\"
+        valign=\"middle\">5.89 GB</td>\n<td class=\"torrents_small_seeders_data1\"
+        valign=\"middle\"><b><big>0</big></b><br /></td>\n<td class=\"torrents_small_leechers_data1\"
+        valign=\"middle\"><b><big>0</big></b><br /></td>\n<td class=\"torrents_small_downloads_data1\"
+        valign=\"middle\">7</td>\n</tr>\n</table>\n</div>\n<div class=\"full2\" id=\"details56270\"></div>\n<script
+        type=\"text/javascript\">\n//<![CDATA[\n\t$('#details56270').hide();\n//]]>\n</script>\n<div
+        class=\"full3 buttons\">\n</div>\n<div class=\"footer\">\n<p><a href=\"./ucp.php?mode=terms\">Rules</a>
+        &middot; <a href=\"#\">API</a> &middot; <a href=\"#\">About</a> &middot; <a
+        href=\"./ucp.php?mode=privacy\">Privacy</a> &middot; <a href=\"#\">Contacts</a>
+        &middot; <a href=\"http://piratepad.net/anirena\">IdeaBox</a> &middot; <a
+        href=\"#\">Chat</a><br />\n&copy; Copyright 2012 AniRena &bull; Modified by
+        Power2All &bull; Orginal design by Luka Cvrk<br />\nAniRena version 1.01 &bull;
+        DMCA messages can be sent to <a href=\"mailto:info@power2all.com\">info@power2all.com</a></p>\n</div>\n</div>\n</body>\n</html>"}
+    headers:
+      CF-RAY: 4b2ec11fdf456445-FRA
+      ? !!python/object/new:multidict._istr.istr [Cache-Control]
+      : private, no-cache="set-cookie"
+      ? !!python/object/new:multidict._istr.istr [Connection]
+      : keep-alive
+      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
+      : gzip
+      ? !!python/object/new:multidict._istr.istr [Content-Type]
+      : text/html; charset=UTF-8
+      ? !!python/object/new:multidict._istr.istr [Date]
+      : Tue, 05 Mar 2019 20:14:07 GMT
+      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      ? !!python/object/new:multidict._istr.istr [Expires]
+      : '0'
+      ? !!python/object/new:multidict._istr.istr [Pragma]
+      : no-cache
+      ? !!python/object/new:multidict._istr.istr [Server]
+      : cloudflare
+      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
+      : __cfduid=d93a103f3655c4c1600fee0bd8810085b1551816847; expires=Wed, 04-Mar-20
+        20:14:07 GMT; path=/; domain=.anirena.com; HttpOnly
+      Strict-Transport-Security: max-age=315360000; includeSubdomains; preload
+      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
+      : chunked
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: DENY
+      X-Xss-Protection: 1; mode=block
+    status: {code: 200, message: OK}
+    url: !!python/object/new:yarl.URL
+      state: !!python/tuple
+      - !!python/object/new:urllib.parse.SplitResult [https, www.anirena.com, /, s=linux,
+        '']
+version: 1
