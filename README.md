@@ -13,6 +13,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 - Asynchronous I/O for better responsiveness.
 - Supports the following trackers:
   - Anirena
+  - Anidex
   - Archive.org
   - Distrowatch
   - Etree
