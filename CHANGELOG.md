@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - New --filter/-F flag to search on trackers with certain tags. Enables general filters on trackers.
 - Support for Anirena.com tracker.
 - Support for Anidex.info tracker.
+- Support for Nyaa.pantsu.cat tracker.
 
 ### Changed
 

@@ -21,6 +21,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
   - LimeTorrents
   - Linuxtracker
   - Nyaa
+  - NyaaPantsu
   - ThePirateBay
   - TokyoTosho
 
