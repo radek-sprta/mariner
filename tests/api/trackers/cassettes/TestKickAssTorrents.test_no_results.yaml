@@ -5,112 +5,106 @@ interactions:
     method: GET
     uri: https://katcr.co/katsearch/page/1/zxcvbnm
   response:
-    body: {string: "    <!DOCTYPE html>\n    <html lang=\"en-us\">\n    <head>\n        <meta
-        name=\"robots\" content=\"noindex\" />\n        <meta charset=\"UTF-8\">\n
-        \       <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n        <meta
-        name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0,
-        user-scalable=no\">\n        <title>Cookies - JavaScript : Policy &mdash;
-        KickassTorrents</title>\n        <link rel=\"stylesheet\" href=\"https://katcr.co/assets/css/_style.min.css\"
-        />\n        <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://katcr.co/assets/images/favicon.ico\"
-        />\n      </head>\n      <body>\n                <header class=\"fixed--top\">\n
-        \                 <nav><a class=\"header__brand\" href=\"/new/full/\"><span
-        class=\"header__logo\"></span></a>\n                  <form class=\"torrent_search\"
-        action=\"/usearch/torrents-search.php\" method=\"get\" accept-charset=\"utf-8\"
-        onsubmit=\"return doSearch(this.search.value)\">\n                    <input
-        class=\"torrent_search__input_field form_control\" type=\"text\" name=\"q\"
-        value=\"\" autocomplete=\"off\" placeholder=\"Search query\" required>\n                    <span
-        class=\"torrent_search__button_group\"><a class=\"button\" href=\"\" title=\"Advanced
-        search\"><i class=\"kf__gear\"></i></a>\n                      <button class=\"button\"
-        type=\"submit\" title=\"Search\"><i class=\"kf__search\"></i></button></span></form>\n
-        \                     <input type=\"checkbox\" id=\"navigation\">\n                        <label
-        class=\"navbar__toggler\" for=\"navigation\">\n                          <span
-        class=\"toggle__closed_label navbar__toggler_icon\">&#9776;</span><span class=\"toggle__opened_label
-        navbar__toggler_icon\">&times;</span>\n                        </label>\n
-        \                       <ul class=\"navigation\" id=\"js-scrollfix\">\n                          <li
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n    <meta name=\"robots\"
+        content=\"noindex\" />\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=Edge\">\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\">\n    <title>Cookies - JavaScript : Policy &mdash; KickassTorrents</title>\n
+        \   <link rel=\"stylesheet\" href=\"/assestss/css/_style.min.css\" />\n    <link
+        rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/assestss/images/favicon.ico\"
+        />\n</head>\n<body>\n    <header class=\"fixed--top\">\n        <nav><a class=\"header__brand\"
+        href=\"/new/full/\"><span class=\"header__logo\"></span></a>\n            <form
+        class=\"torrent_search\" action=\"/usearch/torrents-search.php\" method=\"get\"
+        accept-charset=\"utf-8\" onsubmit=\"return doSearch(this.search.value)\">\n
+        \               <input class=\"torrent_search__input_field form_control\"
+        type=\"text\" name=\"q\" value=\"\" autocomplete=\"off\" placeholder=\"Search
+        query\" required>\n                <span class=\"torrent_search__button_group\"><a
+        class=\"button\" href=\"\" title=\"Advanced search\"><i class=\"kf__gear\"></i></a>\n
+        \            <button class=\"button\" type=\"submit\" title=\"Search\"><i
+        class=\"kf__search\"></i></button></span></form>\n            <input type=\"checkbox\"
+        id=\"navigation\">\n            <label class=\"navbar__toggler\" for=\"navigation\">\n
+        \                <span class=\"toggle__closed_label navbar__toggler_icon\">&#9776;</span><span
+        class=\"toggle__opened_label navbar__toggler_icon\">&times;</span>\n               </label>\n
+        \           <ul class=\"navigation\" id=\"js-scrollfix\">\n                <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/gallery/movies/page/\"><i
-        class=\"kf__camera\"></i> Gallery</a></li>\n                          <li
-        class=\"navigation__item\">\n                            \n                            <a
-        class=\"navigation__link\" href=\"/new/\"><i class=\"kf__torrent\"></i> Browse</a>\n
-        \                           <ul class=\"navigation__sub_items columns-2\">\n
-        \                             <li class=\"navigation__item\"><a class=\"navigation__link\"
+        class=\"kf__camera\"></i> Gallery</a></li>\n                <li class=\"navigation__item\">\n\n
+        \                   <a class=\"navigation__link\" href=\"/new/\"><i class=\"kf__torrent\"></i>
+        Browse</a>\n                    <ul class=\"navigation__sub_items columns-2\">\n
+        \                       <li class=\"navigation__item\"><a class=\"navigation__link\"
         href=\"/category/latest/page/\"><i class=\"kf__torrent button button--icon-button\"></i>
-        Latest</a></li>\n                              <li class=\"navigation__item\"><a
+        Latest</a></li>\n                        <li class=\"navigation__item\"><a
         class=\"navigation__link\" href=\"/category/movies/page/\"><i class=\"kf__film
-        button button--icon-button\"></i> Movies</a></li>\n                              <li
+        button button--icon-button\"></i> Movies</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/tv/page/\"><i
-        class=\"kf__film button button--icon-button\"></i> TV</a></li>\n                              <li
+        class=\"kf__film button button--icon-button\"></i> TV</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/music/page/\"><i
-        class=\"kf__note button button--icon-button\"></i> Music</a></li>\n                              <li
+        class=\"kf__note button button--icon-button\"></i> Music</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/games/page/\"><i
-        class=\"kf__gear button button--icon-button\"></i> Games</a></li>\n                              <li
+        class=\"kf__gear button button--icon-button\"></i> Games</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/books/page/\"><i
-        class=\"kf__book button button--icon-button\"></i> Books</a></li>\n                              <li
+        class=\"kf__book button button--icon-button\"></i> Books</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/full/\"><i
-        class=\"kf__torrent button button--icon-button\"></i> FULL</a></li>\n                              <li
+        class=\"kf__torrent button button--icon-button\"></i> FULL</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/applications/page/\"><i
-        class=\"kf__gear button button--icon-button\"></i> Apps</a></li>\n                              <li
+        class=\"kf__gear button button--icon-button\"></i> Apps</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/anime/page/\"><i
-        class=\"kf__film button button--icon-button\"></i> Anime</a></li>\n                              <li
+        class=\"kf__film button button--icon-button\"></i> Anime</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/other/page/\"><i
-        class=\"kf__torrent button button--icon-button\"></i> Other</a></li>\n                              <li
+        class=\"kf__torrent button button--icon-button\"></i> Other</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/xxx/page/\"><i
-        class=\"kf__delete button button--icon-button\"></i> XXX</a></li>\n                              <li
+        class=\"kf__delete button button--icon-button\"></i> XXX</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/\"><i
-        class=\"kf__plus button button--icon-button\"></i> More</a></li>\n                            </ul>\n
-        \                         </li>\n                          <li class=\"navigation__item\"><a
-        class=\"navigation__link\" href=\"/show/community/\"><i class=\"kf__comments\"></i>
-        Community</a></li>\n                        </ul>\n                  </nav>\n
-        \               </header>\n        <div class=\"container--fluid\">\n          <div
-        class=\"row\">\n            <div class=\"col\">\n\n            <div class=\"row\">\n
-        \                   <div class=\"col-10 col-md-6 mx-auto\">\n                      <h2
-        class=\"mt-4 text--error\">ERROR LOADING CONTENT &mdash; USE RELOAD <strong>&#8635;</strong>
-        TOOL FROM YOUR BROWSER</a></h2>\n                      <hr>\n                      <h2
-        class=\"mt-4\">KickassTorrents Cookies Policy</h2>\n                      <p>\n
-        \                       <span class=\"text--muted d-block mb-1\">Accept, usage
-        of our site cookies</span>\n\n                          <ul>\n                            <li>If
-        you do not accept the use of Site Sessions Cookie, please do not use our website,
-        simple.</li>\n                            <li>Cookies automatically collect
-        and store the information about your connection to our site.</li>\n                            <li>Cookies
-        let you navigate between site pages efficiently, remembering your preferences,
-        generally improving the user experience.</li>\n                            <li>Cookies
-        may tell us, whether you have visited the Website before or whether you are
-        a new visitor.</li>\n                          </ul>\n\n                        <span
-        class=\"text--muted d-block mb-1\">Cookies categories</span>\n\n                          <ul>\n
-        \                           <li>Member Session Cookie (identify you as registered
-        account).</li>\n                            <li>Computer / Device Session
-        Cookie (your connection to our site). Name KATSESSID</li>\n                            <li>Third
-        party cookies, which are served by a third party on our behalf, set for functionality,
-        performance / analytics, advertising and social media purposes.</li>\n                          </ul>\n\n
+        class=\"kf__plus button button--icon-button\"></i> More</a></li>\n                    </ul>\n
+        \               </li>\n                <li class=\"navigation__item\"><a class=\"navigation__link\"
+        href=\"/show/community/\"><i class=\"kf__comments\"></i> Community</a></li>\n
+        \           </ul>\n        </nav>\n    </header>\n    <div class=\"container--fluid\">\n
+        \       <div class=\"row\">\n            <div class=\"col\">\n                <div
+        class=\"row\">\n\n                    <div class=\"col-10 col-md-6 mx-auto\">\n
+        \                       <h2 class=\"mt-4 text--error\">ERROR LOADING CONTENT
+        &mdash; USE RELOAD <strong>&#8635;</strong> TOOL FROM YOUR BROWSER</h2>\n
+        \                       <hr>\n                        <h2 class=\"mt-4\">KickassTorrents
+        Cookies Policy</h2>\n                        <span class=\"text--muted d-block
+        mb-1\">Accept, usage of our site cookies</span>\n                        <ul>\n
+        \                           <li>If you do not accept the use of Site Sessions
+        Cookie, please do not use our website, simple.</li>\n                            <li>Cookies
+        automatically collect and store the information about your connection to our
+        site.</li>\n                            <li>Cookies let you navigate between
+        site pages efficiently, remembering your preferences, generally improving
+        the user experience.</li>\n                            <li>Cookies may tell
+        us, whether you have visited the Website before or whether you are a new visitor.</li>\n
+        \                       </ul>\n                        <span class=\"text--muted
+        d-block mb-1\">Cookies categories</span>\n                        <ul>\n                            <li>Member
+        Session Cookie (identify you as registered account).</li>\n                            <li>Computer
+        / Device Session Cookie (your connection to our site). Name KATSESSID</li>\n
+        \                           <li>Third party cookies, which are served by a
+        third party on our behalf, set for functionality, performance / analytics,
+        advertising and social media purposes.</li>\n                        </ul>\n
         \                       <span class=\"text--muted d-block mb-1\">Cookies time
-        set</span>\n\n                        <ul>\n                          <li>Cookies
+        set</span>\n                        <ul>\n                            <li>Cookies
         can remain on your computer or mobile device for different periods of time.</li>\n
-        \                         <li>Computer / Device Session Cookie, they exist
-        only while your browser is open.</li>\n                          <li>Member
-        Session Cookie, exist depending on each account settings.</li>\n                        </ul>\n\n
-        \                       <span class=\"text--muted d-block mb-1 text--error\">Notes</span>\n\n
-        \                       <ul>\n                          <li>If the site session
-        cookie gets deleted from your browser: then you will see this page each time
-        you reach our site back again.</li>\n                          <li>If the
-        site detects a flood attempts: rather than taking the site offline, session
-        cookie gets re-issue and you will see this page again.</li>\n                        </ul>\n\n
-        \                     </p>\n                      <h2 class=\"mt-4\">KickassTorrents
-        JavaScript Policy</h2>\n                      <p>\n                        <span
-        class=\"text--muted d-block mb-1\">Usage of our site JavaScript</span>\n                          <ul>\n
-        \                           <li>If you have disabled JavaScript, most of the
-        site pages will refuse to load, be aware.</li>\n                          </ul>\n
-        \                     </p>\n                      <hr>\n                      <h2
-        class=\"mt-4\">Changes / Modification to this Policy</h2>\n                      <p>\n
-        \                       <span class=\"text--muted d-block mb-1\">Time, Modification
-        or Update</span>\n                          <ul>\n                            <li>Our
+        \                           <li>Computer / Device Session Cookie, they exist
+        only while your browser is open.</li>\n                            <li>Member
+        Session Cookie, exist depending on each account settings.</li>\n                        </ul>\n
+        \                       <span class=\"text--muted d-block mb-1 text--error\">Notes</span>\n
+        \                       <ul>\n                            <li>If the site
+        session cookie gets deleted from your browser: then you will see this page
+        each time you reach our site back again.</li>\n                            <li>If
+        the site detects a flood attempts: rather than taking the site offline, session
+        cookie gets re-issue and you will see this page again.</li>\n                        </ul>\n
+        \                       <h2 class=\"mt-4\">KickassTorrents JavaScript Policy</h2>\n
+        \                       <span class=\"text--muted d-block mb-1\">Usage of
+        our site JavaScript</span>\n                        <ul>\n                            <li>If
+        you have disabled JavaScript, most of the site pages will refuse to load,
+        be aware.</li>\n                        </ul>\n                        <hr>\n
+        \                       <h2 class=\"mt-4\">Changes / Modification to this
+        Policy</h2>\n                        <span class=\"text--muted d-block mb-1\">Time,
+        Modification or Update</span>\n                        <ul>\n                            <li>Our
         site reserves the right, at any time, to modify, alter or update these Policy
         and you agree to be bound by such modifications, alterations or updates. We
-        recommend that you check this page from time to time to inform yourself of
-        any changes to this Policy.</li>\n                          </ul>\n                      </p>\n
-        \                     <hr>\n                      <h2 class=\"mt-4\">\n                        Try
-        to <a class=\"button button--small\" href=\"\" onClick=\"window.location.reload()\">Reload
-        page</a> if you have got redirected here.\n                      </h2>\n                    </div>\n
-        \                 </div>\n            </div>\n          </div>\n        </div>\n
-        \     </body>\n    </html>"}
+        recommend that you check this page from time to time to inform yourself\n
+        \                               of any changes to this Policy.</li>\n                        </ul>\n
+        \                       <hr>\n                        <h2 class=\"mt-4 text--error\">USE
+        RELOAD <strong>&#8635;</strong> TOOL FROM YOUR BROWSER</h2>\n                    </div>\n\n
+        \               </div>\n            </div>\n        </div>\n    </div>\n</body>\n</html>"}
     headers:
       ? !!python/object/new:multidict._istr.istr [Cache-Control]
       : max-age=300
@@ -119,19 +113,19 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Content-Encoding]
       : gzip
       ? !!python/object/new:multidict._istr.istr [Content-Length]
-      : '2278'
+      : '2143'
       ? !!python/object/new:multidict._istr.istr [Content-Type]
       : text/html; charset=UTF-8
       ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 04 Jan 2019 17:50:35 GMT
+      : Fri, 08 Mar 2019 20:34:31 GMT
       ? !!python/object/new:multidict._istr.istr [Expires]
-      : Fri, 04 Jan 2019 17:55:35 GMT
+      : Fri, 08 Mar 2019 20:39:31 GMT
       Referrer-Policy: no-referrer-when-downgrade
       ? !!python/object/new:multidict._istr.istr [Server]
       : Apache/2.4.10
       ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : katsearch=0fc490a6c846123d7d60c014d893f8d5; expires=Fri, 04-Jan-2019 22:00:35
-        GMT; Max-Age=15000; path=/
+      : kators=81cbf68a1b76a4aac1fdc8be9593dc70; expires=Fri, 08-Mar-2019 21:54:31
+        GMT; Max-Age=4800; path=/; domain=katcr.co; secure
       Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
       ? !!python/object/new:multidict._istr.istr [Vary]
       : Accept-Encoding
@@ -147,109 +141,130 @@ interactions:
     body: null
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
-    method: GET
+    method: get
     uri: https://katcr.co/katsearch/page/1/zxcvbnm
   response:
-    body: {string: "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n  <meta charset=\"UTF-8\">\n
-        \ <noscript>\n  <meta http-equiv=\"refresh\" content=\"0; url=https://katcr.co/ikickass/\"
-        />\n  </noscript>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n
-        \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0,
-        user-scalable=no\">\n  <title>Search results &mdash; KickassTorrents</title>
-        \ \n  <link rel=\"stylesheet\" href=\"https://katcr.co/assets/css/style.min_2.css\"
-        />\n  <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://katcr.co/assets/images/favicon.ico\"
-        />\n</head>\n<body>\n<header class=\"fixed--top\">\n      <nav>\n          <a
-        class=\"header__brand\" href=\"/new/full/\"><span class=\"header__logo\"></span></a>\n
-        \         <form class=\"torrent_search\" action=\"/usearch/torrents-search.php\"
-        method=\"get\" accept-charset=\"utf-8\" onsubmit=\"return doSearch(this.search.value)\">\n
-        \         <input class=\"torrent_search__input_field form_control\" type=\"text\"
-        name=\"q\" value=\"\" autocomplete=\"off\" placeholder=\"Search torrents\"
-        required>\n          <span class=\"torrent_search__button_group\">\n          <a
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n    <meta name=\"robots\"
+        content=\"noindex\" />\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=Edge\">\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\">\n    <title>Cookies - JavaScript : Policy &mdash; KickassTorrents</title>\n
+        \   <link rel=\"stylesheet\" href=\"/assestss/css/_style.min.css\" />\n    <link
+        rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/assestss/images/favicon.ico\"
+        />\n</head>\n<body>\n    <header class=\"fixed--top\">\n        <nav><a class=\"header__brand\"
+        href=\"/new/full/\"><span class=\"header__logo\"></span></a>\n            <form
+        class=\"torrent_search\" action=\"/usearch/torrents-search.php\" method=\"get\"
+        accept-charset=\"utf-8\" onsubmit=\"return doSearch(this.search.value)\">\n
+        \               <input class=\"torrent_search__input_field form_control\"
+        type=\"text\" name=\"q\" value=\"\" autocomplete=\"off\" placeholder=\"Search
+        query\" required>\n                <span class=\"torrent_search__button_group\"><a
         class=\"button\" href=\"\" title=\"Advanced search\"><i class=\"kf__gear\"></i></a>\n
-        \         <button class=\"button\" type=\"submit\" title=\"Search\"><i class=\"kf__search\"></i></button>\n
-        \         </span></form><input type=\"checkbox\" id=\"navigation\">\n\n            <label
-        class=\"navbar__toggler\" for=\"navigation\">\n            <span class=\"toggle__closed_label
-        navbar__toggler_icon\">&#9776;</span><span class=\"toggle__opened_label navbar__toggler_icon\">&times;</span></label>\n
+        \            <button class=\"button\" type=\"submit\" title=\"Search\"><i
+        class=\"kf__search\"></i></button></span></form>\n            <input type=\"checkbox\"
+        id=\"navigation\">\n            <label class=\"navbar__toggler\" for=\"navigation\">\n
+        \                <span class=\"toggle__closed_label navbar__toggler_icon\">&#9776;</span><span
+        class=\"toggle__opened_label navbar__toggler_icon\">&times;</span>\n               </label>\n
         \           <ul class=\"navigation\" id=\"js-scrollfix\">\n                <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/gallery/movies/page/\"><i
-        class=\"kf__camera\"></i> Gallery</a></li>\n            \n                <li
-        class=\"navigation__item\">\n                  <a class=\"navigation__link\"
-        href=\"/new/\"><i class=\"kf__torrent\"></i> Browse</a>\n                  <ul
-        class=\"navigation__sub_items columns-2\">\n                    <li class=\"navigation__item\"><a
-        class=\"navigation__link\" href=\"/category/latest/page/\"><i class=\"kf__torrent
-        button button--icon-button\"></i> Latest</a></li>\n                    <li
-        class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/movies/page/\"><i
-        class=\"kf__film button button--icon-button\"></i> Movies</a></li>\n                    <li
+        class=\"kf__camera\"></i> Gallery</a></li>\n                <li class=\"navigation__item\">\n\n
+        \                   <a class=\"navigation__link\" href=\"/new/\"><i class=\"kf__torrent\"></i>
+        Browse</a>\n                    <ul class=\"navigation__sub_items columns-2\">\n
+        \                       <li class=\"navigation__item\"><a class=\"navigation__link\"
+        href=\"/category/latest/page/\"><i class=\"kf__torrent button button--icon-button\"></i>
+        Latest</a></li>\n                        <li class=\"navigation__item\"><a
+        class=\"navigation__link\" href=\"/category/movies/page/\"><i class=\"kf__film
+        button button--icon-button\"></i> Movies</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/tv/page/\"><i
-        class=\"kf__film button button--icon-button\"></i> TV</a></li>\n                    <li
+        class=\"kf__film button button--icon-button\"></i> TV</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/music/page/\"><i
-        class=\"kf__note button button--icon-button\"></i> Music</a></li>\n                    <li
+        class=\"kf__note button button--icon-button\"></i> Music</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/games/page/\"><i
-        class=\"kf__gear button button--icon-button\"></i> Games</a></li>\n                    <li
+        class=\"kf__gear button button--icon-button\"></i> Games</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/books/page/\"><i
-        class=\"kf__book button button--icon-button\"></i> Books</a></li>\n                    <li
+        class=\"kf__book button button--icon-button\"></i> Books</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/full/\"><i
-        class=\"kf__torrent button button--icon-button\"></i> FULL</a></li>\n                    <li
+        class=\"kf__torrent button button--icon-button\"></i> FULL</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/applications/page/\"><i
-        class=\"kf__gear button button--icon-button\"></i> Apps</a></li>\n                    <li
+        class=\"kf__gear button button--icon-button\"></i> Apps</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/anime/page/\"><i
-        class=\"kf__film button button--icon-button\"></i> Anime</a></li>\n                    <li
+        class=\"kf__film button button--icon-button\"></i> Anime</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/other/page/\"><i
-        class=\"kf__torrent button button--icon-button\"></i> Other</a></li>\n                    <li
+        class=\"kf__torrent button button--icon-button\"></i> Other</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/category/xxx/page/\"><i
-        class=\"kf__delete button button--icon-button\"></i> XXX</a></li>\n                    <li
+        class=\"kf__delete button button--icon-button\"></i> XXX</a></li>\n                        <li
         class=\"navigation__item\"><a class=\"navigation__link\" href=\"/new/\"><i
-        class=\"kf__plus button button--icon-button\"></i> More</a></li>\n                  </ul>\n
+        class=\"kf__plus button button--icon-button\"></i> More</a></li>\n                    </ul>\n
         \               </li>\n                <li class=\"navigation__item\"><a class=\"navigation__link\"
         href=\"/show/community/\"><i class=\"kf__comments\"></i> Community</a></li>\n
-        \           </ul>\n      </nav>\n</header>   \n<div class=\" alert alert--danger\">\n
-        \     <span class=\"alert alert--warning\"> Warning : IP-LOGGED </span>\n
-        \       &nbsp; &nbsp; <a class=\"button button--big button--icon-button button--special_icon\"
-        href=\"https://www.get-express-vpn.com/torrent-vpn?offer=3monthsfree&amp;a_fid=katcr\"
-        title=\"Protect your privacy\" target=\"_blank\"><i class=\"kf__lock button--dark\"></i>
-        <span>Protect your privacy</span> </a> &nbsp; &nbsp; Before you download,
-        search, or do anything online: PLEASE protect your online privacy. Stop ISPs
-        and Hackers Logging Your IP and Everything You Do\n</div>    <div class=\"container--fluid\">\n
-        \     <div class=\"row\">\n        <div class=\"col\">\n          <div class=\"row\">\n
-        \           <div class=\"col-12 col-sm\">\n              <div class=\"row
-        justify-content-between\"><div class=\"col-12 col-sm-auto\">\n                    <h2>\n
-        \                     <i class=\"text--muted kf__magnet\"></i> \n                      <a
-        href=\"https://katcr.co/new/\" title=\"Browse all\">Torrents</a>\n                      <span
-        class=\"text--muted\"> &#187; </span> \n                      Search \n                      <span
-        class=\"text--muted\"> &#187; </span> \n                      <a href=\"/katsearch/page/1/zxcvbnm\"
-        title=\"Search zxcvbnm\">\n                      <span class=\"text--muted\">zxcvbnm</a>
-        \ (Search last modified: Now)</span>                        \n                    </h2>\n
-        \               </div><div class=\"col-12 col-sm-auto\"><div class=\"row\"><div
-        class=\"form_group col-12 col-sm\">\n                custom-search is temp
-        disabled. </div></div></div>\n              </div>\n              <div class=\"row
-        justify-content-between\"><div class=\"col-12 col-sm-auto\"></div>\n              <div
-        class=\"col-12 col-sm-auto\"></div>\n              </div>\n              <br>\n
-        \           </div>\n          </div>\n              <div class=\"tab_content\"
-        id=\"main\">\n                <div class=\"row\">\n                  <div
-        class=\"col\">\n                    <div class=\"table--responsive_vertical
-        shadow-z-1\">\n\n\n                      loading........"}
+        \           </ul>\n        </nav>\n    </header>\n    <div class=\"container--fluid\">\n
+        \       <div class=\"row\">\n            <div class=\"col\">\n                <div
+        class=\"row\">\n\n                    <div class=\"col-10 col-md-6 mx-auto\">\n
+        \                       <h2 class=\"mt-4 text--error\">ERROR LOADING CONTENT
+        &mdash; USE RELOAD <strong>&#8635;</strong> TOOL FROM YOUR BROWSER</h2>\n
+        \                       <hr>\n                        <h2 class=\"mt-4\">KickassTorrents
+        Cookies Policy</h2>\n                        <span class=\"text--muted d-block
+        mb-1\">Accept, usage of our site cookies</span>\n                        <ul>\n
+        \                           <li>If you do not accept the use of Site Sessions
+        Cookie, please do not use our website, simple.</li>\n                            <li>Cookies
+        automatically collect and store the information about your connection to our
+        site.</li>\n                            <li>Cookies let you navigate between
+        site pages efficiently, remembering your preferences, generally improving
+        the user experience.</li>\n                            <li>Cookies may tell
+        us, whether you have visited the Website before or whether you are a new visitor.</li>\n
+        \                       </ul>\n                        <span class=\"text--muted
+        d-block mb-1\">Cookies categories</span>\n                        <ul>\n                            <li>Member
+        Session Cookie (identify you as registered account).</li>\n                            <li>Computer
+        / Device Session Cookie (your connection to our site). Name KATSESSID</li>\n
+        \                           <li>Third party cookies, which are served by a
+        third party on our behalf, set for functionality, performance / analytics,
+        advertising and social media purposes.</li>\n                        </ul>\n
+        \                       <span class=\"text--muted d-block mb-1\">Cookies time
+        set</span>\n                        <ul>\n                            <li>Cookies
+        can remain on your computer or mobile device for different periods of time.</li>\n
+        \                           <li>Computer / Device Session Cookie, they exist
+        only while your browser is open.</li>\n                            <li>Member
+        Session Cookie, exist depending on each account settings.</li>\n                        </ul>\n
+        \                       <span class=\"text--muted d-block mb-1 text--error\">Notes</span>\n
+        \                       <ul>\n                            <li>If the site
+        session cookie gets deleted from your browser: then you will see this page
+        each time you reach our site back again.</li>\n                            <li>If
+        the site detects a flood attempts: rather than taking the site offline, session
+        cookie gets re-issue and you will see this page again.</li>\n                        </ul>\n
+        \                       <h2 class=\"mt-4\">KickassTorrents JavaScript Policy</h2>\n
+        \                       <span class=\"text--muted d-block mb-1\">Usage of
+        our site JavaScript</span>\n                        <ul>\n                            <li>If
+        you have disabled JavaScript, most of the site pages will refuse to load,
+        be aware.</li>\n                        </ul>\n                        <hr>\n
+        \                       <h2 class=\"mt-4\">Changes / Modification to this
+        Policy</h2>\n                        <span class=\"text--muted d-block mb-1\">Time,
+        Modification or Update</span>\n                        <ul>\n                            <li>Our
+        site reserves the right, at any time, to modify, alter or update these Policy
+        and you agree to be bound by such modifications, alterations or updates. We
+        recommend that you check this page from time to time to inform yourself\n
+        \                               of any changes to this Policy.</li>\n                        </ul>\n
+        \                       <hr>\n                        <h2 class=\"mt-4 text--error\">USE
+        RELOAD <strong>&#8635;</strong> TOOL FROM YOUR BROWSER</h2>\n                    </div>\n\n
+        \               </div>\n            </div>\n        </div>\n    </div>\n</body>\n</html>"}
     headers:
       ? !!python/object/new:multidict._istr.istr [Cache-Control]
-      : private
+      : max-age=300
       ? !!python/object/new:multidict._istr.istr [Connection]
       : close
       ? !!python/object/new:multidict._istr.istr [Content-Encoding]
       : gzip
       ? !!python/object/new:multidict._istr.istr [Content-Length]
-      : '1686'
+      : '2143'
       ? !!python/object/new:multidict._istr.istr [Content-Type]
       : text/html; charset=UTF-8
       ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 04 Jan 2019 17:50:35 GMT
+      : Fri, 08 Mar 2019 20:34:32 GMT
       ? !!python/object/new:multidict._istr.istr [Expires]
-      : Thu, 19 Nov 1981 08:52:00 GMT
-      ? !!python/object/new:multidict._istr.istr [Pragma]
-      : no-cache
+      : Fri, 08 Mar 2019 20:39:32 GMT
       Referrer-Policy: no-referrer-when-downgrade
       ? !!python/object/new:multidict._istr.istr [Server]
       : Apache/2.4.10
       ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : katsearch=da76c3ef4b2a6129617a92865de89c6f; expires=Fri, 04-Jan-2019 22:00:35
-        GMT; Max-Age=15000; path=/
+      : kators=7b733b07d3945769b46aea25b7df926a; expires=Fri, 08-Mar-2019 21:54:32
+        GMT; Max-Age=4800; path=/; domain=katcr.co; secure
       Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
       ? !!python/object/new:multidict._istr.istr [Vary]
       : Accept-Encoding

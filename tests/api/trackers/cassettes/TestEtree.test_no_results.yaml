@@ -3,7 +3,7 @@ interactions:
     body: null
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
-    method: GET
+    method: get
     uri: https://bt.etree.org/?searchzzzz=zxcvbnm
   response:
     body: {string: "<!-- SKIP :  -->\n<!DOCTYPE html\n    PUBLIC \"-//W3C//DTD XHTML
@@ -36,7 +36,7 @@ interactions:
         \          <TD width=10 height=20></TD>\n          <TD width=110 height=20><a
         target=_blank href=http://wiki.etree.org/index.php?page=BitTorrent><IMG height=17\n
         \           src=\"pic/bt_faq.gif\" width=110 border=0></a></TD>\n          <TD
-        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#66435155435053435154435150435053435154435256435053435152435154435053435053435403435000435154435051\"><IMG
+        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#1d382a2e382b28382a2f382a2b382b28382a2f38292d382b28382a29382a2f382b28382b28382f78382b7b382a2f382b2a\"><IMG
         height=17\n            src=\"pic/b_contact.gif\" width=110 border=0></a></TD></TR>\n
         \       <TR height=20>\n          <TD width=20 height=20></TD>\n          <TD
         width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
@@ -403,13 +403,13 @@ interactions:
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"http://db.etree.org/privacy.php\">Legal</a>\n</TD>\n<TD
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"rss/bt_etree_org.rdf\">RSS Feed</a>\n</TD>\n</tr>\n</table>\n<table
         align=center>\n<tr>\n<td align=center>\n<br>\n        <font face=\"Arial\"
-        align=\"center\" size=\"1\">\n<i>Last refreshed: Sun, 30 Dec 2018 06:41:05
+        align=\"center\" size=\"1\">\n<i>Last refreshed: Fri,  8 Mar 2019 15:36:10
         EST</i><BR>\n\nContents designed &amp; maintained by the etree.org volunteers<br>\n\xA9
         1998-2018, <a href=\"http://etree.org\">etree.org</a>, except where\nnoted.
         All Rights Reserved.<br>\n\nPHP BitTorrent Tracker derived from the bytemonsoon.com
         tracker by dfx.<br>\n\n\n<br><br>\n\n</font>\n</td>\n</tr>\n</table>\n</body>\n</html>\n"}
     headers:
-      CF-RAY: 49143c3aef4796b8-FRA
+      CF-RAY: 4b47998cdcdbc300-FRA
       ? !!python/object/new:multidict._istr.istr [Cache-Control]
       : no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       ? !!python/object/new:multidict._istr.istr [Connection]
@@ -419,7 +419,7 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Content-Type]
       : text/html; charset=UTF-8
       ? !!python/object/new:multidict._istr.istr [Date]
-      : Sun, 30 Dec 2018 11:41:05 GMT
+      : Fri, 08 Mar 2019 20:36:10 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       ? !!python/object/new:multidict._istr.istr [Expires]
       : Thu, 19 Nov 1981 08:52:00 GMT
@@ -428,8 +428,8 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Server]
       : cloudflare
       ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : __cfduid=df6580de503fed4f5d96b2904a002fdde1546170065; expires=Mon, 30-Dec-19
-        11:41:05 GMT; path=/; domain=.etree.org; HttpOnly
+      : __cfduid=d303014eeeb215e6c1ad213c8c987b49d1552077370; expires=Sat, 07-Mar-20
+        20:36:10 GMT; path=/; domain=.etree.org; HttpOnly
       ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
       : chunked
       ? !!python/object/new:multidict._istr.istr [Vary]

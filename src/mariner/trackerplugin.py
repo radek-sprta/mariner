@@ -20,12 +20,13 @@ class TrackerMeta(abc.ABCMeta, type):
         return type.__new__(cls, name, bases, namespace)
 
 
-class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
+class TrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
     """Represent a search engine."""
 
     log = logging.getLogger(__name__)
     aliases = []  # Aliases for the tracker name
     filters = set()
+    request_method = "get"
 
     search_url = ""  # To be overwritten by subclasses
 
@@ -41,7 +42,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         """
         try:
             search_url = self.search_url.format(title=title)
-            page = await self.get(search_url, timeout=self.timeout)
+            page = await self.request(self.request_method, search_url, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError) as e:
             print(e)
             self.log.error("Cannot reach server at %s", search_url)
@@ -75,7 +76,7 @@ class TrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         return int(squashed.replace(",", ""))
 
 
-class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
+class ProxyTrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
     """Base class for trackers, that support alternative proxies.
 
     Attributes:
@@ -85,6 +86,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
     log = logging.getLogger(__name__)
     aliases = []  # Aliases for the tracker name
     filters = set()
+    request_method = "get"
 
     search_url = ""  # To be overwritten by subclasses
 
@@ -110,7 +112,7 @@ class ProxyTrackerPlugin(mixins.GetPageMixin, abc.ABC, metaclass=TrackerMeta):
         proxy = await self.get_proxy()
         search_url = self.search_url.format(proxy=proxy, title=title)
         try:
-            page = await self.get(search_url, timeout=self.timeout)
+            page = await self.request(self.request_method, search_url, timeout=self.timeout)
         except (OSError, asyncio.TimeoutError) as e:
             print(e)
             self.log.error("Cannot reach server at %s", search_url)

@@ -18,7 +18,7 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
     aliases = ["kat"]
     search_url = "https://katcr.co/katsearch/page/1/{title}"
 
-    async def get_cookie(self, url: str) -> Dict:
+    async def get_cookie(self, url: str, cookie) -> Dict:
         """Get KickAssTorrents session ID cookie.
 
         Args:
@@ -28,7 +28,12 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
             KickAssTorrents session cookie.
         """
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, timeout=self.timeout) as response:
+            async with session.get(
+                url,
+                headers=self.user_agent,
+                timeout=self.timeout,
+                cookies=cookie
+            ) as response:
                 cookie = response.cookies.popitem()
                 return {cookie[0]: cookie[1].value}
 
@@ -41,7 +46,9 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
         try:
             search_url = self.search_url.format(title=title)
             try:
-                cookie = await self.get_cookie(search_url)
+                # Kat needs two reloads to give the right cookie now
+                cookie = await self.get_cookie(search_url, None)
+                cookie = await self.get_cookie(search_url, cookie)
             except KeyError:
                 # Couldn't get cookie
                 cookie = None

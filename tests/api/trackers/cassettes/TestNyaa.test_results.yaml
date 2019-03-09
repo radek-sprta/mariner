@@ -3,7 +3,7 @@ interactions:
     body: null
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
-    method: GET
+    method: get
     uri: https://nyaa.si/?f=0&c=0_0&q=ubuntu
   response:
     body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>ubuntu
@@ -176,7 +176,7 @@ interactions:
         class=\"fa fa-check\" aria-hidden=\"true\"></i>\n\n</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr
         class=\"default\">\n\t\t\t\t<td style=\"padding:0 4px;\">\n\t\t\t\t<a href=\"/?c=6_1\"
         title=\"Software - Applications\">\n\t\t\t\t\t<img src=\"/static/img/icons/nyaa/6_1.png\"
-        alt=\"Software - Applications\">\n\t\t\t\t</a>\n\t\t\t\t</td>\n\t\t\t\t<td
+        alt=\"Software - Applications\" style=\"width: 80px; height: 28px;\">\n\t\t\t\t</a>\n\t\t\t\t</td>\n\t\t\t\t<td
         colspan=\"2\">\n\t\t\t\t\t<a href=\"/view/96659\" title=\"Koha Live CD Release
         3 (3.0.4 Ubuntu 9.10 Desktop x86)\">Koha Live CD Release 3 (3.0.4 Ubuntu 9.10
         Desktop x86)</a>\n\t\t\t\t</td>\n\t\t\t\t<td class=\"text-center\" style=\"white-space:
@@ -190,7 +190,7 @@ interactions:
         1-1 out of 1 results.<br>\nPlease refine your search results if you can't
         find what you were looking for.</div>\n\t\n</div>\n\t\t</div> <!-- /container
         -->\n\n\t\t<footer style=\"text-align: center;\">\n\t\t\t<p>Dark Mode: <a
-        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/b2ddba994ca5e78fa5dcbc0e00d6171a44b0b338\">b2ddba9</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
+        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/6a63ee241afc032ce332d9832b775f601905db08\">6a63ee2</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
     headers:
       ? !!python/object/new:multidict._istr.istr [Cache-Control]
       : no-cache, no-store, must-revalidate
@@ -201,15 +201,13 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Content-Type]
       : text/html; charset=utf-8
       ? !!python/object/new:multidict._istr.istr [Date]
-      : Sun, 30 Dec 2018 11:41:15 GMT
+      : Fri, 08 Mar 2019 20:36:18 GMT
       Referrer-Policy: same-origin
       ? !!python/object/new:multidict._istr.istr [Server]
-      : Sucuri/Cloudproxy
+      : nginx
       ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
       : chunked
       X-Proxy-Cache: EXPIRED
-      X-Sucuri-Cache: MISS
-      X-Sucuri-ID: '15008'
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

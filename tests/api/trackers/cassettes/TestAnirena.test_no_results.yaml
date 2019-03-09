@@ -3,7 +3,7 @@ interactions:
     body: null
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
-    method: GET
+    method: get
     uri: https://www.anirena.com/?s=zxcvbnm
   response:
     body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
@@ -84,8 +84,8 @@ interactions:
         id=\"header\">\n<p id=\"top_info\"><span style=\"font-size: 20px;\"><b><a
         href=\"./\">Browse Torrents</a></b>&nbsp;&bull;&nbsp;<b><a href=\"./torrent_upload.php\">Upload
         Torrent</a></b></span><br /><a href=\"./statistics.php\" title=\"Server Statistics\">Server
-        Statistics</a>&nbsp;&bull;&nbsp;<a href=\"./ucp.php?mode=register&amp;sid=0f95820ee4f218a802980d57d1a44a67\">Register</a>&nbsp;&bull;&nbsp;<a
-        href=\"./ucp.php?mode=login&amp;sid=0f95820ee4f218a802980d57d1a44a67\" title=\"Login\"
+        Statistics</a>&nbsp;&bull;&nbsp;<a href=\"./ucp.php?mode=register&amp;sid=dc43206cb24b06d3ab51413df6e81221\">Register</a>&nbsp;&bull;&nbsp;<a
+        href=\"./ucp.php?mode=login&amp;sid=dc43206cb24b06d3ab51413df6e81221\" title=\"Login\"
         accesskey=\"x\">Login</a></p>\n<div id=\"logo\">\n<h1><a href=\"/\" title=\"\">AniRena
         <span class=\"title\">Torrent Tracker</span></a></h1>\n<p>Your source for
         latest Anime/Japanese related torrents !</p>\n</div>\n</div>\n<div id=\"tabs\">\n<ul>\n<li><a
@@ -115,7 +115,7 @@ interactions:
         Power2All &bull; Orginal design by Luka Cvrk<br />\nAniRena version 1.01 &bull;
         DMCA messages can be sent to <a href=\"mailto:info@power2all.com\">info@power2all.com</a></p>\n</div>\n</div>\n</body>\n</html>"}
     headers:
-      CF-RAY: 4b2ec136bff26343-FRA
+      CF-RAY: 4b4797aa7be0641b-FRA
       ? !!python/object/new:multidict._istr.istr [Cache-Control]
       : private, no-cache="set-cookie"
       ? !!python/object/new:multidict._istr.istr [Connection]
@@ -125,7 +125,7 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Content-Type]
       : text/html; charset=UTF-8
       ? !!python/object/new:multidict._istr.istr [Date]
-      : Tue, 05 Mar 2019 20:14:11 GMT
+      : Fri, 08 Mar 2019 20:34:53 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       ? !!python/object/new:multidict._istr.istr [Expires]
       : '0'
@@ -134,8 +134,8 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Server]
       : cloudflare
       ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : __cfduid=d7c7e548873897d1e07087342ff43c3171551816851; expires=Wed, 04-Mar-20
-        20:14:11 GMT; path=/; domain=.anirena.com; HttpOnly
+      : __cfduid=d560576bf37e736372f7aa5e2970f3c5b1552077293; expires=Sat, 07-Mar-20
+        20:34:53 GMT; path=/; domain=.anirena.com; HttpOnly
       Strict-Transport-Security: max-age=315360000; includeSubdomains; preload
       ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
       : chunked
