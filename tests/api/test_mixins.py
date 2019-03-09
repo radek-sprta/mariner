@@ -55,13 +55,32 @@ class TestComparableMixin:
         assert torrent1 != noncomparable
 
 
-class TestGetPageMixin:
+class TestRequestMixin:
     def test_get(self, event_loop):
         # GIVEN an event_loop
         # WHEN requesting a url
         search = event_loop.run_until_complete(
-            mixins.GetPageMixin().get("http://httpbin.org/robots.txt")
+            mixins.RequestMixin().get("http://httpbin.org/robots.txt")
         )
         # THEN it should return expected result
         expected = "User-agent: *\nDisallow: /deny\n"
         assert search == expected
+
+    def test_request_get(self, event_loop):
+        # GIVEN an event_loop
+        # WHEN requesting a url
+        search = event_loop.run_until_complete(
+            mixins.RequestMixin().request("get", "http://httpbin.org/robots.txt")
+        )
+        # THEN it should return expected result
+        expected = "User-agent: *\nDisallow: /deny\n"
+        assert search == expected
+
+    def test_request_post(self, event_loop):
+        # GIVEN an event_loop
+        # WHEN posting to url
+        response = event_loop.run_until_complete(
+            mixins.RequestMixin().request("post", "http://httpbin.org/anything", data='hello')
+        )
+        # THEN it should post the payload
+        assert 'hello' in response

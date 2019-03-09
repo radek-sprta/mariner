@@ -3,7 +3,7 @@ interactions:
     body: null
     headers:
       User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
-    method: GET
+    method: get
     uri: https://nyaa.si/?f=0&c=0_0&q=zxcvbnm
   response:
     body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>zxcvbnm
@@ -160,7 +160,7 @@ interactions:
         results 0-0 out of 0 results.<br>\nPlease refine your search results if you
         can't find what you were looking for.</div>\n\t\n</div>\n\t\t</div> <!-- /container
         -->\n\n\t\t<footer style=\"text-align: center;\">\n\t\t\t<p>Dark Mode: <a
-        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/b2ddba994ca5e78fa5dcbc0e00d6171a44b0b338\">b2ddba9</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
+        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/6a63ee241afc032ce332d9832b775f601905db08\">6a63ee2</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
     headers:
       ? !!python/object/new:multidict._istr.istr [Cache-Control]
       : no-cache, no-store, must-revalidate
@@ -171,15 +171,13 @@ interactions:
       ? !!python/object/new:multidict._istr.istr [Content-Type]
       : text/html; charset=utf-8
       ? !!python/object/new:multidict._istr.istr [Date]
-      : Sun, 30 Dec 2018 11:41:15 GMT
+      : Fri, 08 Mar 2019 20:36:20 GMT
       Referrer-Policy: same-origin
       ? !!python/object/new:multidict._istr.istr [Server]
-      : Sucuri/Cloudproxy
+      : nginx
       ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
       : chunked
       X-Proxy-Cache: MISS
-      X-Sucuri-Cache: MISS
-      X-Sucuri-ID: '15008'
     status: {code: 200, message: OK}
     url: !!python/object/new:yarl.URL
       state: !!python/tuple

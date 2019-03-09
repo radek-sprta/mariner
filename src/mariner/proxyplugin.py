@@ -23,7 +23,7 @@ class ProxyMeta(abc.ABCMeta, type):
         return type.__new__(cls, name, bases, namespace)
 
 
-class ProxyPlugin(mixins.GetPageMixin, abc.ABC, metaclass=ProxyMeta):
+class ProxyPlugin(mixins.RequestMixin, abc.ABC, metaclass=ProxyMeta):
     """Get a list of proxies for given website."""
 
     log = logging.getLogger(__name__)

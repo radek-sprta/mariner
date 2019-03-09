@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Support for Anirena.com tracker.
 - Support for Anidex.info tracker.
 - Support for Nyaa.pantsu.cat tracker.
+- Extend plugins framework to enable other request types than get.
 
 ### Changed
 
@@ -23,6 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - Quote URL when opening torrent, so it cannot be interpreted as shell command.
+- Fix KickAssTorrents tracker.
 
 ## [1.3.1] - 2019-01-25
 
