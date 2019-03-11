@@ -15,6 +15,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
   - Anirena
   - Anidex
   - Archive.org
+  - BTKitty
   - Distrowatch
   - Etree
   - KickAssTorrents
