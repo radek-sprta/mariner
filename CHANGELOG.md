@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Support for Anidex.info tracker.
 - Support for Nyaa.pantsu.cat tracker.
 - Extend plugins framework to enable other request types than get.
+- Preliminary support for BTKitty.pet.
 
 ### Changed
 

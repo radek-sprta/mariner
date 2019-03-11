@@ -26,8 +26,9 @@ class TrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
     log = logging.getLogger(__name__)
     aliases = []  # Aliases for the tracker name
     filters = set()
-    request_method = "get"
 
+    data = {}
+    request_method = "get"
     search_url = ""  # To be overwritten by subclasses
 
     def __init__(self, timeout: int = 10) -> None:
@@ -41,8 +42,15 @@ class TrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
             title: String to search for.
         """
         try:
+            if self.data:
+                self.data['keyword'] = self.data.get('keyword').format(title=title)
             search_url = self.search_url.format(title=title)
-            page = await self.request(self.request_method, search_url, timeout=self.timeout)
+            page = await self.request(
+                self.request_method,
+                search_url,
+                data=self.data,
+                timeout=self.timeout
+            )
         except (OSError, asyncio.TimeoutError) as e:
             print(e)
             self.log.error("Cannot reach server at %s", search_url)
