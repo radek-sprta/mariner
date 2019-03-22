@@ -5,6 +5,7 @@ build-backend = "poetry.masonry.api"
 [tool.black]
 line-length = 100
 py36 = false
+target-version = "py34"  # Solves https://github.com/ambv/black/issues/759
 
 [tool.poetry]
 name = "Mariner"

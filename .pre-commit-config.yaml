@@ -5,4 +5,10 @@ repos:
     hooks:
       - id: flake8
         exclude: tests
+        types: [python]
       - id: trailing-whitespace
+  - repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+    - id: black
+      types: [python]
