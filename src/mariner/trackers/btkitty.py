@@ -41,13 +41,7 @@ class BTKitty(trackerplugin.TrackerPlugin):
                 seeds = int(int(data[6].select("b")[0].string) / 100)
 
                 yield torrent.Torrent(
-                    name,
-                    tracker,
-                    magnet=magnet,
-                    torrent=None,
-                    size=size,
-                    date=date,
-                    seeds=seeds,
+                    name, tracker, magnet=magnet, torrent=None, size=size, date=date, seeds=seeds
                 )
         except IndexError:
             yield from []

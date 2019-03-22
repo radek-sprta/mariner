@@ -56,7 +56,7 @@ class RequestMixin:  # pylint: disable=too-few-public-methods
         *,
         headers: Dict[str, str] = None,
         cookies: Dict[str, str] = None,
-        timeout: int = None
+        timeout: int = None,
     ) -> str:
         """Get the requested page.
 
@@ -69,7 +69,7 @@ class RequestMixin:  # pylint: disable=too-few-public-methods
         Returns:
             Raw HTML page.
         """
-        return await self.request('get', url, headers=headers, cookies=cookies, timeout=timeout)
+        return await self.request("get", url, headers=headers, cookies=cookies, timeout=timeout)
 
     async def request(
         self,
@@ -79,7 +79,7 @@ class RequestMixin:  # pylint: disable=too-few-public-methods
         data: Union[Dict, bytes] = None,
         headers: Dict[str, str] = None,
         cookies: Dict[str, str] = None,
-        timeout: int = 10
+        timeout: int = 10,
     ) -> str:
         """Make a request.
 
