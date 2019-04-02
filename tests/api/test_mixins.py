@@ -80,7 +80,7 @@ class TestRequestMixin:
         # GIVEN an event_loop
         # WHEN posting to url
         response = event_loop.run_until_complete(
-            mixins.RequestMixin().request("post", "http://httpbin.org/anything", data='hello')
+            mixins.RequestMixin().request("post", "http://httpbin.org/anything", data="hello")
         )
         # THEN it should post the payload
-        assert 'hello' in response
+        assert "hello" in response

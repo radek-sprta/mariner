@@ -69,7 +69,7 @@ class RequestMixin:  # pylint: disable=too-few-public-methods
         Returns:
             Raw HTML page.
         """
-        return await self.request('get', url, headers=headers, cookies=cookies, timeout=timeout)
+        return await self.request("get", url, headers=headers, cookies=cookies, timeout=timeout)
 
     async def request(
         self,

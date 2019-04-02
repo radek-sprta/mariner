@@ -43,13 +43,10 @@ class TrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
         """
         try:
             if self.data:
-                self.data['keyword'] = self.data.get('keyword').format(title=title)
+                self.data["keyword"] = self.data.get("keyword").format(title=title)
             search_url = self.search_url.format(title=title)
             page = await self.request(
-                self.request_method,
-                search_url,
-                data=self.data,
-                timeout=self.timeout
+                self.request_method, search_url, data=self.data, timeout=self.timeout
             )
         except (OSError, asyncio.TimeoutError) as e:
             print(e)
