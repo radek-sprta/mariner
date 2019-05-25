@@ -151,3 +151,17 @@ class ProxyTrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
         """
         squashed = number.replace(" ", "")
         return int(squashed.replace(",", ""))
+
+    @staticmethod
+    def _parse_date(date: str) -> str:
+        """Parse exotic date format, that Maya can't handle.
+
+        Args:
+            date: Date string to parse.
+
+        Return:
+            Parsed date.
+        """
+        if date.casefold() == 'y-day':
+            return 'yesterday'
+        return date

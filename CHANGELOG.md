@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Quote URL when opening torrent, so it cannot be interpreted as shell command.
 - Fix KickAssTorrents tracker.
 - Correctly interpret '-' as number of seeds/leeches.
+- Translate Y-day to yesterday, so it's parsed correctly.
 
 ## [1.3.1] - 2019-01-25
 

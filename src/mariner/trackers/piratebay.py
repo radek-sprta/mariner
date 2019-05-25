@@ -62,7 +62,7 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
 
                 description = torrent_.find("font", class_="detDesc").get_text()
                 fields = description.split(",")
-                date = " ".join(fields[0].split()[1:])
+                date = self._parse_date(" ".join(fields[0].split()[1:]))
                 size = " ".join(fields[1].split()[-2:])
 
                 yield torrent.Torrent(
