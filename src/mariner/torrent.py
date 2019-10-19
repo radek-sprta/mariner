@@ -46,8 +46,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
             self._date = value  # pylint: disable=attribute-defined-outside-init
         else:
             # Defer importing maya, as it is a slow import
-            import maya
-
+            import maya # pylint: disable=import-outside-toplevel
             try:
                 self._date = maya.when(value).date  # pylint: disable=attribute-defined-outside-init
             except ValueError:
