@@ -80,13 +80,11 @@ test:python37:
   retry: 1
 
 test:python38:
-  image: python:3.8-rc-stretch
+  image: python:3.8
   stage: test
   extends: .code
   script:
     - tox -e py38
-  retry: 1
-  allow_failure: true
 
 build:package:
   stage: build

@@ -22,7 +22,7 @@ documentation = "https://radek-sprta.gitlab.io/mariner/"
 keywords = ["cli", "torrent", "search", "scraper", "downloader"]
 
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Operating System :: POSIX :: Linux",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Natural Language :: English",
@@ -32,7 +32,8 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
-    "Programming Language :: Python :: 3.7"
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8"
 ]
 
 packages = [
@@ -47,7 +48,7 @@ aiodns = "^1.1.1"
 aiofiles = "^0.4.0"
 aiohttp = "^3.5.1"
 "bs4" = "^0.0.1"
-cachalot = "^1.0.0"
+cachalot = "^1.0"
 cliff = "=2.9.1"
 cmd2 = "=0.7.8"
 colorama = "^0.4.1"
@@ -62,11 +63,11 @@ coverage = "^4.5.2"
 flake8 = "^3.6.0"
 pre-commit = "^1.13.0"
 pylint="^2.2"
-pytest = "4.0.2"
-pytest-asyncio = "^0.9.0"
-pytest-vcr = "^1.0.1"
+pytest = "^5.0"
+pytest-asyncio = "^0.10.0"
+pytest-vcr = "^1.0"
 wheel = "*"
-vcrpy = "^2.0.1"
+vcrpy = "^2.0"
 
 [tool.poetry.scripts]
 mariner = 'mariner.main:main'
