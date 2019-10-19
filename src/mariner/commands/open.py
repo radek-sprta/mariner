@@ -56,10 +56,10 @@ class Open(command.Command):
             self.log.info(f"Opening {torrent_.colored().name}.")
             link = shlex.quote(self._get_torrent_link(torrent_))
             if self.app.options.verbose_level > 1:
-                subprocess.run(["xdg-open", link])
+                subprocess.run(["xdg-open", link], check=False)
             else:
                 with open(os.devnull) as devnull:
-                    subprocess.run(["xdg-open", link], stdout=devnull, stderr=devnull)
+                    subprocess.run(["xdg-open", link], stdout=devnull, stderr=devnull, check=False)
             try:
                 # Try deleting the file, if it exists
                 link.unlink()

@@ -1,4 +1,4 @@
 [MESSAGES CONTROL]
 
 # Does not play nice with type hint aliases
-disable=invalid-name,duplicate-code,logging-fstring-interpolation,bad-continuation
+disable=invalid-name,duplicate-code,logging-fstring-interpolation,bad-continuation,logging-format-interpolation

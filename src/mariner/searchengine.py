@@ -158,7 +158,7 @@ class SearchEngine:
         sorted_torrents = self._sort_results(torrents, sort_by_newest)
 
         # Show only results up to to the limit
-        results = [(i, t) for i, t in enumerate(sorted_torrents[:limit])]
+        results = list((i, t) for i, t in enumerate(sorted_torrents[:limit]))
         if results:
             self.save_results(results)
             return results
