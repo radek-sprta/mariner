@@ -2,12 +2,14 @@ interactions:
 - request:
     body: null
     headers:
-      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
     uri: https://bt.etree.org/?searchzzzz=zxcvbnm
   response:
-    body: {string: "<!-- SKIP :  -->\n<!DOCTYPE html\n    PUBLIC \"-//W3C//DTD XHTML
-        1.0 Transitional//EN\"\n    \"DTD/xhtml1-strict.dtd\">\n<html><head>\n<title>bt.etree.org
+    body:
+      string: "<!-- SKIP :  -->\n<!DOCTYPE html\n    PUBLIC \"-//W3C//DTD XHTML 1.0
+        Transitional//EN\"\n    \"DTD/xhtml1-strict.dtd\">\n<html><head>\n<title>bt.etree.org
         | Community Tracker</title>\n<link rel=\"stylesheet\" href=\"torrent.css\"
         type=\"text/css\" />\n\t<link rel=\"alternate stylesheet\" href=\"/lib/bt_411.css\"
         title=\":p\" type=\"text/css\">\n</head>\n\n\n\n<BODY bgColor=#bfd5ba leftMargin=0
@@ -15,7 +17,7 @@ interactions:
         cellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n  <TBODY>\n  <TR>\n
         \   <TD width=\"100%\" align=left vAlign=top>\n      <TABLE height=80 cellSpacing=0
         cellPadding=0 width=\"100%\" bgColor=white\n      border=0>\n        <TBODY>\n
-        \       <TR>\n          <TD width=10></TD>\n          <TD><A href=\"http://bt.etree.org/\">\n\t\t<IMG
+        \       <TR>\n          <TD width=10></TD>\n          <TD><A href=\"https://bt.etree.org/\">\n\t\t<IMG
         alt=\"bt.etree.org\" src=\"pic/logo.gif\" border=0></a>\n\t  </TD>\n\t<td
         align=\"right\">\n\t<div style=\"text-align:right;\"><span id=\"freetext_1\"></span>\n\n</div>\n\t</td>\n\t</TR></TBODY></TABLE>\n
         \     <TABLE cellSpacing=0 cellPadding=0 border=0>\n        <TBODY>\n        <TR
@@ -36,7 +38,7 @@ interactions:
         \          <TD width=10 height=20></TD>\n          <TD width=110 height=20><a
         target=_blank href=http://wiki.etree.org/index.php?page=BitTorrent><IMG height=17\n
         \           src=\"pic/bt_faq.gif\" width=110 border=0></a></TD>\n          <TD
-        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#1d382a2e382b28382a2f382a2b382b28382a2f38292d382b28382a29382a2f382b28382b28382f78382b7b382a2f382b2a\"><IMG
+        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#7d584a4e584b48584a4f584a4b584b48584a4f58494d584b48584a49584a4f584b48584b48584f18584b1b584a4f584b4a\"><IMG
         height=17\n            src=\"pic/b_contact.gif\" width=110 border=0></a></TD></TR>\n
         \       <TR height=20>\n          <TD width=20 height=20></TD>\n          <TD
         width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
@@ -63,11 +65,11 @@ interactions:
         language=\"javascript\">\r\n<!--\r\nif (parent.frames.length > 0) {\r\n    parent.location.href
         = self.document.location;\r\n}\r\n// -->\r\n</script>\r\n\r\n<br>\r\n\r\n<!--
         Request: a:1:{s:10:\"searchzzzz\";s:7:\"zxcvbnm\";} -->\r\n<!-- Search:  -->\r\n<h2><font
-        color=\"red\">NOTE:</font> bt.etree.org and <a href=\"http://db.etree.org/\">db.etree.org</a>
-        are back!  These are the offical etree.org websites, accept no substitutes!
-        \ <a href=http://pro.etree.org style=\"text-decoration:underline\">More updates
-        to come!</a></h2>\r\n<p><font size=\"2\">This site is provided by the <a\r\nhref=\"http://etree.org/\">etree.org</a>
-        community for sharing the live\r\nconcert recordings of <a\r\nhref=http://wiki.etree.org/index.php?page=TradeFriendly>trade\r\nfriendly</a>
+        color=\"red\">NOTE:</font> Comments have been\r\ndisabled due to a few bad
+        apples using them to harass others. (you\r\nknow who you are and should be
+        ashamed) --phrog </h2>\r\n<p><font size=\"2\">This site is provided by the
+        <a\r\nhref=\"http://etree.org/\">etree.org</a> community for sharing the live\r\nconcert
+        recordings of <a\r\nhref=http://wiki.etree.org/index.php?page=TradeFriendly>trade\r\nfriendly</a>
         artists.  Please tell your friends and family about new\r\nbands that catch
         your ear, and support these artists by going to see\r\nthem live and buying
         their CDs!</font></p>\r\n\r\n<h3>Please Help!</h3>\r\n<blockquote>\r\nFrom
@@ -383,7 +385,9 @@ interactions:
         Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=zxcvbnm&filter=nophgd>Hide
         Grateful Dead and Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=zxcvbnm&filter=none>Hide
         None</a> &nbsp;\r\n\r\n<br>\r\n</center>\r\n\r\n\r\n\r\n<p align=\"center\">\r\n<a
-        href=\"browse.php\">Browse all shows at once.</a>\r\n</p>\r\n\r\n\n<h3>News</h3>\n<ul>\n<li>24
+        href=\"browse.php\">Browse all shows at once.</a>\r\n</p>\r\n\r\n\n<h3>News</h3>\n<ul>\n\n<li>21
+        AUG 2019 - comments have been disabled due to a few bad apples\nusing them
+        to harass others. (you know who you are and should be\nashamed) --phrog\n<li>24
         NOV 2018 - torrents 602890-602907 have been removed\naccidentally. Please
         re-upload,\nsorry  --phrog\n<li>03 OCT 2018 - bt.etree.org has been restored.
         --phrog\n</ul>\r\n<BR></TD>\n                    <TD width=5 bgColor=white></TD>\n
@@ -403,41 +407,29 @@ interactions:
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"http://db.etree.org/privacy.php\">Legal</a>\n</TD>\n<TD
         width=6>:</TD>\n<TD>\n<a target=_blank href=\"rss/bt_etree_org.rdf\">RSS Feed</a>\n</TD>\n</tr>\n</table>\n<table
         align=center>\n<tr>\n<td align=center>\n<br>\n        <font face=\"Arial\"
-        align=\"center\" size=\"1\">\n<i>Last refreshed: Fri,  8 Mar 2019 15:36:10
-        EST</i><BR>\n\nContents designed &amp; maintained by the etree.org volunteers<br>\n\xA9
+        align=\"center\" size=\"1\">\n<i>Last refreshed: Sat, 19 Oct 2019 06:26:20
+        EDT</i><BR>\n\nContents designed &amp; maintained by the etree.org volunteers<br>\n\xA9
         1998-2018, <a href=\"http://etree.org\">etree.org</a>, except where\nnoted.
         All Rights Reserved.<br>\n\nPHP BitTorrent Tracker derived from the bytemonsoon.com
-        tracker by dfx.<br>\n\n\n<br><br>\n\n</font>\n</td>\n</tr>\n</table>\n</body>\n</html>\n"}
+        tracker by dfx.<br>\n\n\n<br><br>\n\n</font>\n</td>\n</tr>\n</table>\n</body>\n</html>\n"
     headers:
-      CF-RAY: 4b47998cdcdbc300-FRA
-      ? !!python/object/new:multidict._istr.istr [Cache-Control]
-      : no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-      ? !!python/object/new:multidict._istr.istr [Connection]
-      : keep-alive
-      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
-      : gzip
-      ? !!python/object/new:multidict._istr.istr [Content-Type]
-      : text/html; charset=UTF-8
-      ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 08 Mar 2019 20:36:10 GMT
+      CF-Cache-Status: DYNAMIC
+      CF-RAY: 52820d9ecf04d417-BUD
+      Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=UTF-8
+      Date: Sat, 19 Oct 2019 10:26:20 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      ? !!python/object/new:multidict._istr.istr [Expires]
-      : Thu, 19 Nov 1981 08:52:00 GMT
-      ? !!python/object/new:multidict._istr.istr [Pragma]
-      : no-cache
-      ? !!python/object/new:multidict._istr.istr [Server]
-      : cloudflare
-      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : __cfduid=d303014eeeb215e6c1ad213c8c987b49d1552077370; expires=Sat, 07-Mar-20
-        20:36:10 GMT; path=/; domain=.etree.org; HttpOnly
-      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
-      : chunked
-      ? !!python/object/new:multidict._istr.istr [Vary]
-      : Accept-Encoding
+      Expires: Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma: no-cache
+      Server: cloudflare
+      Set-Cookie: PHPSESSID=dnvu1una7qfona5j9l43i8fki1; path=/
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
       X-Powered-By: PHP/5.3.29
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, bt.etree.org, /, searchzzzz=zxcvbnm,
-        '']
+    status:
+      code: 200
+      message: OK
+    url: https://bt.etree.org/?searchzzzz=zxcvbnm
 version: 1

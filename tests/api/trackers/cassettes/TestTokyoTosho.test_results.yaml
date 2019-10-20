@@ -1,12 +1,14 @@
 interactions:
 - request:
-    body: null
+    body: {}
     headers:
-      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
     uri: https://www.tokyotosho.info/search.php?terms=ubuntu
   response:
-    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html
+    body:
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html
         xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head><meta http-equiv=\"Content-Type\"
         content=\"text/html;charset=utf-8\" />\n<title>Tokyo Toshokan :: #tokyotosho
         @ irc.rizon.net :: Torrent Search</title><link rel=\"stylesheet\" type=\"text/css\"
@@ -48,7 +50,7 @@ interactions:
         class=\"centertext\" style=\"width: 100%; margin-left: auto; margin-right:
         auto; padding-bottom: 1em; margin: 0;\">\n<tr><td id=\"tsearch\">Torrent Search</td></tr>\n</table>\n<p
         class=\"centertext\"><a href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
-        alt=\"Private Internet Access\" src=\"https://ttcdn.info/quxcTUTqlQ.jpg\"
+        alt=\"Private Internet Access\" src=\"https://ttcdn.info/7To8dfYNQi.png\"
         /></a></p>\t<form style=\"margin: 0; padding; 0\" action=\"/search.php\" method=\"get\"
         accept-charset=\"utf-8\">\n\t<table class=\"centertext\" cellspacing=\"0\"
         cellpadding=\"0\" style=\"width: 100%; padding-bottom: 1em; margin: 0;\">\n\t<tr><td>\n\t<input
@@ -124,40 +126,31 @@ interactions:
         type=\"submit\" value=\"Search\" /><br />\n</td></tr>\n</table>\n</form>\n</div><p
         class=\"footer\">\r\n<a href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
         alt=\"Private Internet Access\" src=\"https://ttcdn.info/N8pv99MNcc.jpg\"
-        /></a><br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [39,788]
-        60min [2,505] 5min [354] 1min [89] - 5 minute rolling average [811]<br />\r\nIPv6:
-        24h [12,647] 60min [540] 5min [53] 1min [8] - 5 minute rolling average [103]\r\n\r\n<br
-        />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img alt=\"Serious
-        Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br />Page generated
-        in 46ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b> (SNI supported)</b></p></body></html>"}
+        /></a><br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [41,551]
+        60min [3,297] 5min [424] 1min [114] - 5 minute rolling average [964]<br />\r\nIPv6:
+        24h [15,988] 60min [1,014] 5min [108] 1min [28] - 5 minute rolling average
+        [186]\r\n\r\n<br />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img
+        alt=\"Serious Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br
+        />Page generated in 46ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b>
+        (SNI supported)</b></p></body></html>"
     headers:
-      CF-RAY: 4b4799f82dffc2a6-FRA
-      ? !!python/object/new:multidict._istr.istr [Cache-Control]
-      : max-age=1800
-      ? !!python/object/new:multidict._istr.istr [Connection]
-      : keep-alive
-      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
-      : gzip
-      ? !!python/object/new:multidict._istr.istr [Content-Length]
-      : '2965'
-      ? !!python/object/new:multidict._istr.istr [Content-Type]
-      : text/html; charset=UTF-8
-      ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 08 Mar 2019 20:36:27 GMT
+      CF-Cache-Status: DYNAMIC
+      CF-RAY: 52820e8f9af3cb9c-VIE
+      Cache-Control: max-age=1800
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=UTF-8
+      Date: Sat, 19 Oct 2019 10:26:59 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      ? !!python/object/new:multidict._istr.istr [Expires]
-      : Fri, 08 Mar 2019 21:06:02 GMT
-      ? !!python/object/new:multidict._istr.istr [Server]
-      : cloudflare
-      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : __cfduid=d8899b98f6516fa0944cf2a5c208e2f371552077387; expires=Sat, 07-Mar-20
-        20:36:27 GMT; path=/; domain=.tokyotosho.info; HttpOnly
+      Expires: Sat, 19 Oct 2019 10:56:30 GMT
+      Server: cloudflare
+      Set-Cookie: __cfduid=db656ffcecd9963a8fd2ac20bd67435ee1571480819; expires=Sun,
+        18-Oct-20 10:26:59 GMT; path=/; domain=.tokyotosho.info; HttpOnly
       Strict-Transport-Security: max-age=86400
-      ? !!python/object/new:multidict._istr.istr [Vary]
-      : Accept-Encoding
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, www.tokyotosho.info,
-        /search.php, terms=ubuntu, '']
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+    status:
+      code: 200
+      message: OK
+    url: https://www.tokyotosho.info/search.php?terms=ubuntu
 version: 1

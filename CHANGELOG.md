@@ -11,11 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - New --anime/-A flag to search only on anime trackers.
 - New --filter/-F flag to search on trackers with certain tags. Enables general filters on trackers.
-- Support for Anirena.com tracker.
 - Support for Anidex.info tracker.
 - Support for Nyaa.pantsu.cat tracker.
 - Extend plugins framework to enable other request types than get.
-- Preliminary support for BTKitty.pet.
+- Support for Python 3.8.
 
 ### Changed
 

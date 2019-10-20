@@ -1,18 +1,20 @@
 interactions:
 - request:
-    body: null
+    body: {}
     headers:
-      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
     uri: https://anidex.info/?q=linux&s=seeders&o=desc
   response:
-    body: {string: "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n\t<meta
+    body:
+      string: "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n\t<meta
         charset=\"utf-8\">\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n\t<meta
         name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\t<!--
         The above 3 meta tags *must* come first in the head; any other head content
         must come *after* these tags -->\r\n\t<meta name=\"author\" content=\"AniDex\">\r\n\t<meta
-        name=\"description\" content=A torrent tracker specialising in content from
-        East Asia, including anime, manga, music, adult videos and more.>\r\n\t<meta
+        name=\"description\" content=\"A torrent tracker specialising in content from
+        East Asia, including anime, manga, music, adult videos and more.\">\r\n\t<meta
         name=\"keywords\" content=\"torrents, bittorrent, torrent, tracker, anime,
         manga, jav, download, anidex, magnet, magnets\">\r\n\t<meta name=\"google-site-verification\"
         content=\"gLKc5Bo31XuJgukTOp5rpaFlxK6lHsoav7HP5L9WdiM\" />\r\n\r\n\t<meta
@@ -104,12 +106,15 @@ interactions:
         title=''></span></button>\r\n\t\t\t\t\t\t</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</form>
         \             \r\n                \r\n\t\t\t</div><!--/.nav-collapse -->\r\n\t\t</div>\r\n\t</nav>\r\n\r\n\t<div
         class=\"container\" role=\"main\">\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"alert
-        alert-success alert-dismissible text-center\" role=\"alert\">\r\n        \t\t\t\t<strong>Update
-        (11-Sept):</strong> Sign ups were broken for the past few days. It's now fixed.
-        </div>\r\n\t\t\t\t\r\n\t\t<div id=\"content\">\r\n\t\t\t\r\n<ul id=\"tabs\"
-        class=\"nav nav-tabs\">\r\n\t<li><a href=\"/?page=search\"><span class='fas
-        fa-search-plus fa-lg' aria-hidden='true' title='Advanced search'></span></a></li>\r\n\t\r\n\t<li
-        role=\"presentation\" class=\"active\" id=\"0\" data-src=\"0\"><a href=\"/?q=linux&\">All</a></li>\r\n\t\r\n\t<li
+        alert-info alert-dismissible text-center\" role=\"alert\">\r\n        \t\t\t\t<strong>Update
+        (01-July):</strong> In the coming month, we are looking to raise some funds
+        for upgrading the server, which is long overdue, via our long running seedbox
+        service <a target=\"_blank\" href=\"https://sdbx.moe\">sdbx.moe</a>. Free
+        trials are available if you would like to test out the service.</div>\r\n\t\t\t\t\r\n\t\t<div
+        id=\"content\">\r\n\t\t\t\r\n<ul id=\"tabs\" class=\"nav nav-tabs\">\r\n\t<li><a
+        href=\"/?page=search\"><span class='fas fa-search-plus fa-lg' aria-hidden='true'
+        title='Advanced search'></span></a></li>\r\n\t\r\n\t<li role=\"presentation\"
+        class=\"active\" id=\"0\" data-src=\"0\"><a href=\"/?q=linux&\">All</a></li>\r\n\t\r\n\t<li
         role='presentation' class='' id='2' data-src='1,2,3' data-title='Anime'><a
         href='?q=linux&id=1,2,3'>Anime</a></li><li role='presentation' class='' id='3'
         data-src='4,5' data-title='Live Action'><a href='?q=linux&id=4,5'>Live Action</a></li><li
@@ -165,24 +170,177 @@ interactions:
         middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
         title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
         class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
-        \                   \t<a class=\"torrent\" id=\"210524\" href=\"/torrent/210524\">\r\n
-        \                   \t\t<span class=\"span-1440\" title=\"[ADV] Smiteless
-        Jungle with Evelynn [English-Uncen] (Win/Mac/Linux)\">[ADV] Smiteless Jungle
-        with Evelynn [English-Uncen] (Win/Mac/Linux)</span>\r\n                            <span
-        class=\"span-not-1440\" title=\"[ADV] Smiteless Jungle with Evelynn [English-Uncen]
-        (Win/Mac/Linux)\">[ADV] Smiteless Jungle with Evelynn [English-Uncen] ...</span>\r\n
+        \                   \t<a class=\"torrent\" id=\"275427\" href=\"/torrent/275427\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] The Grim Reaper
+        who reaped my Heart! ver.2019-10-10 [English-Uncen] (Windows, Linux, Mac,
+        Android)\">[VN] The Grim Reaper who reaped my Heart! ver.2019-10-10 [English-Uncen]
+        (Windows, Linux, Mac, Android)</span>\r\n                            <span
+        class=\"span-not-1440\" title=\"[VN] The Grim Reaper who reaped my Heart!
+        ver.2019-10-10 [English-Uncen] (Windows, Linux, Mac, Android)\">[VN] The Grim
+        Reaper who reaped my Heart! ver.2019-1...</span>\r\n                        </a>\r\n
+        \                        <span class='label label-danger' title='Hentai'>H</span>
+        \                   </td>\r\n\t\t\t\t\t<td class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/275427\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:DFKGGRRNERGYDWAZHI3C5NLKQOI3PNNJ&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">156 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-10-15 03:32:04 UTC\">4d</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 4h\"> 30</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 4h\">7</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"70.3 GB\">462</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"254815\" href=\"/torrent/254815\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Heroes Rise:
+        Prison Break [English-Uncen] (Win,Mac,Linux)\">[VN] Heroes Rise: Prison Break
+        [English-Uncen] (Win,Mac,Linux)</span>\r\n                            <span
+        class=\"span-not-1440\" title=\"[VN] Heroes Rise: Prison Break [English-Uncen]
+        (Win,Mac,Linux)\">[VN] Heroes Rise: Prison Break [English-Uncen] (Win,...</span>\r\n
         \                       </a>\r\n                         <span class='label
         label-danger' title='Hentai'>H</span>                    </td>\r\n\t\t\t\t\t<td
         class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
-        class=\"text-center\"><a href=\"/dl/210524\"><span class='fas fa-download
+        class=\"text-center\"><a href=\"/dl/254815\"><span class='fas fa-download
         fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
-        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:K2AGD6LOD3DSPUIGVYWEMITQUVKBVB7Z&tr=http://anidex.moe:6969/announce\"><span
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:PRFRUB2DM7AYJNNMEYS7ZTY2TTZK25QG&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
-        class=\"text-center td-992\">148 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2018-12-09 04:23:39 UTC\">3mo</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 2d\"> 9</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        class=\"text-center td-992\">535 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-07-07 01:25:40 UTC\">3mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 1h\"> 7</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 1h\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"392 GB\">750</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"258728\" href=\"/torrent/258728\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Sunrider Academy
+        ver.1.02 [English-Uncen] (Win,Mac,Linux)\">[VN] Sunrider Academy ver.1.02
+        [English-Uncen] (Win,Mac,Linux)</span>\r\n                            <span
+        class=\"span-not-1440\" title=\"[VN] Sunrider Academy ver.1.02 [English-Uncen]
+        (Win,Mac,Linux)\">[VN] Sunrider Academy ver.1.02 [English-Uncen] (Win,...</span>\r\n
+        \                       </a>\r\n                         <span class='label
+        label-danger' title='Hentai'>H</span>                    </td>\r\n\t\t\t\t\t<td
+        class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/258728\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:HMAVHRYIMEQP2JZGTOCFOEX6WU7GSVQ7&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">644 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-08-01 05:05:27 UTC\">3mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 5</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 2d\">1</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"376 GB\">598</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"242613\" href=\"/torrent/242613\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Kilmonger [English-Uncen]
+        (Win, Mac, Linux)\">[VN] Kilmonger [English-Uncen] (Win, Mac, Linux)</span>\r\n
+        \                           <span class=\"span-not-1440\" title=\"[VN] Kilmonger
+        [English-Uncen] (Win, Mac, Linux)\">[VN] Kilmonger [English-Uncen] (Win, Mac,
+        Linux)</span>\r\n                        </a>\r\n                         <span
+        class='label label-danger' title='Hentai'>H</span>                    </td>\r\n\t\t\t\t\t<td
+        class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/242613\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:4Z3QXQLQL4HYWD62WFVPXOPQ5ME6D7OQ&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">261 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-05-03 02:31:35 UTC\">6mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 6h\"> 5</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 6h\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"88.4 GB\">347</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"246746\" href=\"/torrent/246746\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Starlight Drifter
+        [English-Uncen] (Win, Mac, Linux)\">[VN] Starlight Drifter [English-Uncen]
+        (Win, Mac, Linux)</span>\r\n                            <span class=\"span-not-1440\"
+        title=\"[VN] Starlight Drifter [English-Uncen] (Win, Mac, Linux)\">[VN] Starlight
+        Drifter [English-Uncen] (Win, Mac, Li...</span>\r\n                        </a>\r\n
+        \                        <span class='label label-danger' title='Hentai'>H</span>
+        \                   </td>\r\n\t\t\t\t\t<td class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/246746\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:AM3G73QCL7L2SRLOR7IKII3B4A3AYVCA&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">690 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-05-23 04:41:13 UTC\">5mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 5</td>\r\n\t\t\t\t\t<td class=\"text-danger
         text-right\" title=\"Last updated: 2d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
-        text-right td-992\" title=\"117 GB\">811</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        text-right td-992\" title=\"310 GB\">461</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"251212\" href=\"/torrent/251212\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Kiss the Cock
+        ver.1.1 [English-Uncen] (Win, Linux, Mac)\">[VN] Kiss the Cock ver.1.1 [English-Uncen]
+        (Win, Linux, Mac)</span>\r\n                            <span class=\"span-not-1440\"
+        title=\"[VN] Kiss the Cock ver.1.1 [English-Uncen] (Win, Linux, Mac)\">[VN]
+        Kiss the Cock ver.1.1 [English-Uncen] (Win, Lin...</span>\r\n                        </a>\r\n
+        \                        <span class='label label-danger' title='Hentai'>H</span>
+        \                   </td>\r\n\t\t\t\t\t<td class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/251212\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:3ZEDTHHMZWGANEFY42IGO3KM4RPW2N2L&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">84.6 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-06-15 03:41:17 UTC\">4mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 4</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 2d\">1</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"26.6 GB\">322</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"246388\" href=\"/torrent/246388\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Sakura Sweetheart
+        [English-Uncen] (Win, Mac, Linux)\">[VN] Sakura Sweetheart [English-Uncen]
+        (Win, Mac, Linux)</span>\r\n                            <span class=\"span-not-1440\"
+        title=\"[VN] Sakura Sweetheart [English-Uncen] (Win, Mac, Linux)\">[VN] Sakura
+        Sweetheart [English-Uncen] (Win, Mac, Li...</span>\r\n                        </a>\r\n
+        \                        <span class='label label-danger' title='Hentai'>H</span>
+        \                   </td>\r\n\t\t\t\t\t<td class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/246388\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:ZW5UVVP3TPFZNRLW2A2HI2HA2EWTWW24&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">87.4 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-05-21 04:49:24 UTC\">5mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 5d\"> 4</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 5d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"34.1 GB\">400</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
         class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
         #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
         bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
@@ -204,8 +362,8 @@ interactions:
         class=\"text-center\"><a href=\"magnet:?xt=urn:btih:XVRDSMWGZV5UN32GF4XO42KUAHJYRHHN&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
         class=\"text-center td-992\">230 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2019-01-29 04:01:58 UTC\">1mo</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 2d\"> 7</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        td-992\" title=\"2019-01-29 04:01:58 UTC\">9mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 3</td>\r\n\t\t\t\t\t<td class=\"text-danger
         text-right\" title=\"Last updated: 2d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
         text-right td-992\" title=\"97.8 GB\">435</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
         class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
@@ -216,25 +374,75 @@ interactions:
         middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
         title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
         class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
-        \                   \t<a class=\"torrent\" id=\"124944\" href=\"/torrent/124944\">\r\n
-        \                   \t\t<span class=\"span-1440\" title=\"[RPG] Tales Of Androgyny
-        v0.1.29.0 [English-Uncen] (Win/Linux/Mac/Android)\">[RPG] Tales Of Androgyny
-        v0.1.29.0 [English-Uncen] (Win/Linux/Mac/Android)</span>\r\n                            <span
-        class=\"span-not-1440\" title=\"[RPG] Tales Of Androgyny v0.1.29.0 [English-Uncen]
-        (Win/Linux/Mac/Android)\">[RPG] Tales Of Androgyny v0.1.29.0 [English-Uncen]
-        (...</span>\r\n                        </a>\r\n                         <span
-        class='label label-danger' title='Hentai'>H</span>                    </td>\r\n\t\t\t\t\t<td
-        class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"label
-        label-success\" title=\"1 likes\">+1</span></td>\r\n\t\t\t\t\t<td class=\"text-center\"><a
-        href=\"/dl/124944\"><span class='fas fa-download fa-lg' aria-hidden='true'
-        title='Torrent'></span></a></td>\r\n                    <td class=\"text-center\"><a
-        href=\"magnet:?xt=urn:btih:XHKJKJECM6YQY4SNV7LVAP2BOGSC73NY&tr=http://anidex.moe:6969/announce\"><span
+        \                   \t<a class=\"torrent\" id=\"210524\" href=\"/torrent/210524\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[ADV] Smiteless
+        Jungle with Evelynn [English-Uncen] (Win/Mac/Linux)\">[ADV] Smiteless Jungle
+        with Evelynn [English-Uncen] (Win/Mac/Linux)</span>\r\n                            <span
+        class=\"span-not-1440\" title=\"[ADV] Smiteless Jungle with Evelynn [English-Uncen]
+        (Win/Mac/Linux)\">[ADV] Smiteless Jungle with Evelynn [English-Uncen] ...</span>\r\n
+        \                       </a>\r\n                         <span class='label
+        label-danger' title='Hentai'>H</span>                    </td>\r\n\t\t\t\t\t<td
+        class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/210524\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:K2AGD6LOD3DSPUIGVYWEMITQUVKBVB7Z&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
-        class=\"text-center td-992\">1.6 GB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2018-03-03 03:24:16 UTC\">1y</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 7d\"> 2</td>\r\n\t\t\t\t\t<td class=\"text-danger
-        text-right\" title=\"Last updated: 7d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
-        text-right td-992\" title=\"1.2 TB\">769</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">148 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2018-12-09 04:23:39 UTC\">10mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 10d\"> 3</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 10d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"117 GB\">811</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"264417\" href=\"/torrent/264417\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Frequent Flyer:
+        A Long Distance Love Story [English-Uncen] (Win-Mac-Linux)\">[VN] Frequent
+        Flyer: A Long Distance Love Story [English-Uncen] (Win-Mac-Linux)</span>\r\n
+        \                           <span class=\"span-not-1440\" title=\"[VN] Frequent
+        Flyer: A Long Distance Love Story [English-Uncen] (Win-Mac-Linux)\">[VN] Frequent
+        Flyer: A Long Distance Love Story [Eng...</span>\r\n                        </a>\r\n
+        \                        <span class='label label-danger' title='Hentai'>H</span>
+        \                   </td>\r\n\t\t\t\t\t<td class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/264417\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:LCZLRCQAD44JBUYZCSQX7FR654ECVJUP&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">282 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-09-03 04:50:43 UTC\">2mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 3</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 2d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"57.5 GB\">209</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"242411\" href=\"/torrent/242411\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[VN] Echo Tokyo:
+        Phoenix [English] (Win, Mac, Linux)\">[VN] Echo Tokyo: Phoenix [English] (Win,
+        Mac, Linux)</span>\r\n                            <span class=\"span-not-1440\"
+        title=\"[VN] Echo Tokyo: Phoenix [English] (Win, Mac, Linux)\">[VN] Echo Tokyo:
+        Phoenix [English] (Win, Mac, Linux)</span>\r\n                        </a>\r\n
+        \                        <span class='label label-danger' title='Hentai'>H</span>
+        \                   </td>\r\n\t\t\t\t\t<td class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a href=\"/dl/242411\"><span class='fas fa-download
+        fa-lg' aria-hidden='true' title='Torrent'></span></a></td>\r\n                    <td
+        class=\"text-center\"><a href=\"magnet:?xt=urn:btih:WCTQC4EYZX3QIW7UANFJ66I2KPXK6L5X&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">438 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2019-05-02 04:08:16 UTC\">6mo</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 2</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 2d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"174 GB\">406</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
         class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
         #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
         bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
@@ -258,10 +466,37 @@ interactions:
         href=\"magnet:?xt=urn:btih:EI74QNK7V3D27OZD5XP4J4EZM3U5RZAA&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
         class=\"text-center td-992\">202 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2018-03-31 03:30:18 UTC\">11mo</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 4d\"> 2</td>\r\n\t\t\t\t\t<td class=\"text-danger
-        text-right\" title=\"Last updated: 4d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        td-992\" title=\"2018-03-31 03:30:18 UTC\">2y</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 20h\"> 1</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 20h\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
         text-right td-992\" title=\"210 GB\">1066</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
+        class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
+        #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
+        bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
+        vertical-align: middle; text-align: center; padding: 0 3px; border-radius:
+        10px 0px 0px 10px;'>Games</div></a><img style='display: inline-block; vertical-align:
+        middle; border-radius: 0px 10px 10px 0px;' src='/images/flags/gb.png' alt='English'
+        title='English' /></td>\r\n\t\t\t\t\t<td class=\"text-left text-success\"><span
+        class='far fa-smile fa-fw text-success' aria-hidden='true' title='Trusted'></span></td>\r\n\t\t\t\t\t<td>\r\n
+        \                   \t<a class=\"torrent\" id=\"124944\" href=\"/torrent/124944\">\r\n
+        \                   \t\t<span class=\"span-1440\" title=\"[RPG] Tales Of Androgyny
+        v0.1.29.0 [English-Uncen] (Win/Linux/Mac/Android)\">[RPG] Tales Of Androgyny
+        v0.1.29.0 [English-Uncen] (Win/Linux/Mac/Android)</span>\r\n                            <span
+        class=\"span-not-1440\" title=\"[RPG] Tales Of Androgyny v0.1.29.0 [English-Uncen]
+        (Win/Linux/Mac/Android)\">[RPG] Tales Of Androgyny v0.1.29.0 [English-Uncen]
+        (...</span>\r\n                        </a>\r\n                         <span
+        class='label label-danger' title='Hentai'>H</span>                    </td>\r\n\t\t\t\t\t<td
+        class=\"text-right td-992\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"label
+        label-success\" title=\"1 likes\">+1</span></td>\r\n\t\t\t\t\t<td class=\"text-center\"><a
+        href=\"/dl/124944\"><span class='fas fa-download fa-lg' aria-hidden='true'
+        title='Torrent'></span></a></td>\r\n                    <td class=\"text-center\"><a
+        href=\"magnet:?xt=urn:btih:XHKJKJECM6YQY4SNV7LVAP2BOGSC73NY&tr=http://anidex.moe:6969/announce\"><span
+        class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
+        class=\"text-center td-992\">1.6 GB</td>\r\n\t\t\t\t\t<td class=\"text-center
+        td-992\" title=\"2018-03-03 03:24:16 UTC\">2y</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 3d\"> 0</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 3d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        text-right td-992\" title=\"1.2 TB\">769</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
         class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
         #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
         bold; background-color: #ff9; width: 80px; height: 18px; display: inline-block;
@@ -284,9 +519,9 @@ interactions:
         class=\"text-center\"><a href=\"magnet:?xt=urn:btih:DXEKVAXTGCMU2KYMG3AXOKKBUMBZVYAI&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
         class=\"text-center td-992\">1.5 GB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2018-02-23 02:16:36 UTC\">1y</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 23h\"> 0</td>\r\n\t\t\t\t\t<td class=\"text-danger
-        text-right\" title=\"Last updated: 23h\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        td-992\" title=\"2018-02-23 02:16:36 UTC\">2y</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"> 0</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 2d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
         text-right td-992\" title=\"1.0 TB\">673</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
         class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
         #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
@@ -311,9 +546,9 @@ interactions:
         class=\"text-center\"><a href=\"magnet:?xt=urn:btih:RVZQGJGKYBRXLVXOZEN5Z25SE4WVZMNH&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
         class=\"text-center td-992\">152 MB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2017-10-13 15:32:56 UTC\">1y</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 1d\"> 0</td>\r\n\t\t\t\t\t<td class=\"text-danger
-        text-right\" title=\"Last updated: 1d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
+        td-992\" title=\"2017-10-13 15:32:56 UTC\">2y</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 7d\"> 0</td>\r\n\t\t\t\t\t<td class=\"text-danger
+        text-right\" title=\"Last updated: 7d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
         text-right td-992\" title=\"35.5 GB\">239</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td
         class=\"text-center\"><a style=\"color: #000\" href=\"/?id=12\"><div style='color:
         #000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); font-size: 11px; font-weight:
@@ -337,22 +572,23 @@ interactions:
         class=\"text-center\"><a href=\"magnet:?xt=urn:btih:QTM4FCDZ7NOPKSGEKEPTZQJJARMHPTOD&tr=http://anidex.moe:6969/announce\"><span
         class='fas fa-magnet fa-lg' aria-hidden='true' title='Magnet'></span></a></td>\r\n\t\t\t\t\t<td
         class=\"text-center td-992\">1.7 GB</td>\r\n\t\t\t\t\t<td class=\"text-center
-        td-992\" title=\"2018-04-14 03:23:42 UTC\">11mo</td>\r\n\t\t\t\t\t<td class=\"text-success
-        text-right\" title=\"Last updated: 2d\"> 0</td>\r\n\t\t\t\t\t<td class=\"text-danger
-        text-right\" title=\"Last updated: 2d\">0</td>\r\n\t\t\t\t\t<td class=\"text-info
-        text-right td-992\" title=\"837 GB\">494</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\r\n\t\t\t</tbody>\r\n\t\t</table>\r\n\t</div>\r\n\t<p
-        class=\"text-center\">Showing 1 to 7 of 7 torrents</p>\r\n\t<nav class=\"text-center\">\r\n\t\t<ul
+        td-992\" title=\"2018-04-14 03:23:42 UTC\">2y</td>\r\n\t\t\t\t\t<td class=\"text-success
+        text-right\" title=\"Last updated: 2d\"><span class='fas fa-exclamation-triangle
+        text-warning' aria-hidden='true' title='Needs reseed'></span> 0</td>\r\n\t\t\t\t\t<td
+        class=\"text-danger text-right\" title=\"Last updated: 2d\">1</td>\r\n\t\t\t\t\t<td
+        class=\"text-info text-right td-992\" title=\"837 GB\">494</td>\r\n\t\t\t\t\t<td></td>\r\n\r\n\t\t\t\t</tr>\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\r\n\t\t\t</tbody>\r\n\t\t</table>\r\n\t</div>\r\n\t<p
+        class=\"text-center\">Showing 1 to 17 torrents</p>\r\n\t<nav class=\"text-center\">\r\n\t\t<ul
         style=\"margin: 0; cursor: pointer;\" class=\"pagination\">\r\n\t\t\t\t\t\t\r\n\t\t\t<li
         class=\"disabled\" id=\"0\"><a href=\"/?q=linux&s=seeders&o=desc&offset=0\"><span
         class='fas fa-angle-double-left fa-fw' aria-hidden='true' title='Jump to first
-        page'></span></a></li>\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t<li class=\"active\"><a>1</a></li>\r\n\t\t\t\r\n\t\t\t\t\t\t<li
-        class=\"disabled\"><a href=\"/?q=linux&s=seeders&o=desc&offset=0\"><span class='fas
-        fa-angle-double-right fa-fw' aria-hidden='true' title='Jump to last page'></span></a></li>\r\n\t\t</ul>\r\n\t</nav>\r\n\t\r\n\t\t\t</div>\r\n\t\t\r\n\t</div>
+        page'></span></a></li>\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t<li class=\"active\"><a>1</a></li>\r\n\t\t\t\r\n\t\t\t<li
+        class='paging'><a href='/?q=linux&s=seeders&o=desc&offset=50'>2</a></li><li
+        class='paging'><a href='/?q=linux&s=seeders&o=desc&offset=100'>3</a></li>\t\t</ul>\r\n\t</nav>\r\n\t\r\n\t\t\t</div>\r\n\t\t\r\n\t</div>
         <!-- /container -->\r\n\r\n\t<!-- message_container -->\r\n\t<div id=\"message_container\"
         class=\"display-none\"></div>\r\n\t<!-- /container -->\t\r\n\t\r\n\t<footer
         class=\"footer\">\r\n\t\t<p class=\"text-center text-muted\">Copyright &copy;
-        2011 - 2019 <a title=\"\" href=\"/\">AniDex Tracker</a> - <a href=\"https://hologfx.com\"
-        target=\"_blank\" title=\"Project AniDex Portal\">Project AniDex</a></p>\r\n\t</footer>\r\n\t\r\n\r\n\t<!--
+        2011 - 2019 <a title=\"\" href=\"/\">AniDex Tracker</a> - <a href=\"https://sdbx.moe\"
+        target=\"_blank\" title=\"Seedboxes\">sdbx.moe</a></p>\r\n\t</footer>\r\n\t\r\n\r\n\t<!--
         Bootstrap core JavaScript\r\n\t==================================================
         -->\r\n\t<!-- Placed at the end of the document so the pages load faster -->\r\n\t<script
         src=\"/scripts/jquery.min.js\"></script>\r\n\t<script src=\"/bootstrap/js/bootstrap.min.js\"></script>\r\n\t<script
@@ -377,34 +613,23 @@ interactions:
         = \"/\";\r\n\t\t\t\t\t//alert(data);\r\n\t\t\t\t},\r\n\t\t\t\tcache: false,\r\n\t\t\t\tcontentType:
         false,\r\n\t\t\t\tprocessData: false\r\n\t\t\t\t\r\n\t\t\t});\r\n\t\t\tlocation.reload();\r\n\t\t});\r\n\t\t\r\n\t\t$(\"#logout\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\ttype:
         \"POST\",\r\n\t\t\t\turl: \"/ajax/actions.ajax.php?function=logout\",\r\n\t\t\t\tsuccess:
-        function(data) {\r\n\t\t\t\t\t$(\"#message_container\").html(data).show().delay(1500).fadeOut();\r\n\t\t\t\t\tlocation.reload();\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\t\r\n\r\n\t\t\t\t\r\n\t});\r\n\t\r\n\t</script>\r\n</body>\r\n</html>\r\n"}
+        function(data) {\r\n\t\t\t\t\t$(\"#message_container\").html(data).show().delay(1500).fadeOut();\r\n\t\t\t\t\tlocation.reload();\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\t\r\n\r\n\t\t\t\t\r\n\t});\r\n\t\r\n\t</script>\r\n</body>\r\n</html>\r\n"
     headers:
-      CF-RAY: 4b4c96e4c96d26de-FRA
-      ? !!python/object/new:multidict._istr.istr [Cache-Control]
-      : no-store, no-cache, must-revalidate
-      ? !!python/object/new:multidict._istr.istr [Connection]
-      : keep-alive
-      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
-      : gzip
-      ? !!python/object/new:multidict._istr.istr [Content-Type]
-      : text/html; charset=UTF-8
-      ? !!python/object/new:multidict._istr.istr [Date]
-      : Sat, 09 Mar 2019 11:08:26 GMT
+      CF-Cache-Status: DYNAMIC
+      CF-RAY: 52820a4cda56d42b-BUD
+      Cache-Control: no-store, no-cache, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=UTF-8
+      Date: Sat, 19 Oct 2019 10:24:05 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      ? !!python/object/new:multidict._istr.istr [Expires]
-      : Thu, 19 Nov 1981 08:52:00 GMT
-      ? !!python/object/new:multidict._istr.istr [Pragma]
-      : no-cache
-      ? !!python/object/new:multidict._istr.istr [Server]
-      : cloudflare
-      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : __cfduid=d6b2fb455663edc6a25d7552d126cc46c1552129690; expires=Sun, 08-Mar-20
-        11:08:10 GMT; path=/; domain=.anidex.info; HttpOnly
-      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
-      : chunked
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, anidex.info, /, q=linux&s=seeders&o=desc,
-        '']
+      Expires: Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma: no-cache
+      Server: cloudflare
+      Set-Cookie: PHPSESSID=20kqmbpvjoovb9b6mmosptvlol; path=/; domain=.anidex.info
+      Transfer-Encoding: chunked
+    status:
+      code: 200
+      message: OK
+    url: https://anidex.info/?q=linux&s=seeders&o=desc
 version: 1

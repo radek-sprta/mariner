@@ -1,12 +1,14 @@
 interactions:
 - request:
-    body: null
+    body: {}
     headers:
-      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
     uri: https://nyaa.si/?f=0&c=0_0&q=zxcvbnm
   response:
-    body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>zxcvbnm
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>zxcvbnm
         :: Nyaa</title>\n\n\t\t<meta name=\"viewport\" content=\"width=480px\">\n\t\t<meta
         http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<link rel=\"shortcut
         icon\" type=\"image/png\" href=\"/static/favicon.png\">\n\t\t<link rel=\"icon\"
@@ -32,7 +34,7 @@ interactions:
         integrity=\"sha256-an4uqLnVJ2flr7w0U74xiF4PJjO2N5Df91R2CUmCLCA=\" crossorigin=\"anonymous\"
         />\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"
         integrity=\"sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\" crossorigin=\"anonymous\"
-        />\n\n\t\t<!-- Custom styles for this template -->\n\t\t<link href=\"/static/css/main.css?t=1524630038\"
+        />\n\n\t\t<!-- Custom styles for this template -->\n\t\t<link href=\"/static/css/main.css?t=1565727484\"
         rel=\"stylesheet\">\n\n\t\t<!-- Core JavaScript -->\n\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"
         integrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>\n\t\t<script
         src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js\"
@@ -41,7 +43,7 @@ interactions:
         integrity=\"sha256-3WZyZQOe+ql3pLo90lrkRtALrlniGdnf//gRpW0UQks=\" crossorigin=\"anonymous\"></script>\n\t\t<!--
         Modified to not apply border-radius to selectpickers and stuff so our navbar
         looks cool -->\n\t\t<script src=\"/static/js/bootstrap-select.min.js?t=1522850768\"></script>\n\t\t<script
-        src=\"/static/js/main.min.js?t=1533264185\"></script>\n\n\t\t<script async
+        src=\"/static/js/main.min.js?t=1565727484\"></script>\n\n\t\t<script async
         src=\"https://www.googletagmanager.com/gtag/js?id=UA-107733743-2\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer
         = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments)};\n\t\t\tgtag('js',
         new Date());\n\n\t\t\tgtag('config', 'UA-107733743-2');\n\t\t</script>\n\n\t\t<!--
@@ -160,27 +162,22 @@ interactions:
         results 0-0 out of 0 results.<br>\nPlease refine your search results if you
         can't find what you were looking for.</div>\n\t\n</div>\n\t\t</div> <!-- /container
         -->\n\n\t\t<footer style=\"text-align: center;\">\n\t\t\t<p>Dark Mode: <a
-        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/6a63ee241afc032ce332d9832b775f601905db08\">6a63ee2</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
+        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/97c32a483f2e5c553b8a01e147d441b06b48a195\">97c32a4</a></p>\n\t\t</footer>\n\t</body>\n</html>"
     headers:
-      ? !!python/object/new:multidict._istr.istr [Cache-Control]
-      : no-cache, no-store, must-revalidate
-      ? !!python/object/new:multidict._istr.istr [Connection]
-      : keep-alive
-      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
-      : gzip
-      ? !!python/object/new:multidict._istr.istr [Content-Type]
-      : text/html; charset=utf-8
-      ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 08 Mar 2019 20:36:20 GMT
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=utf-8
+      Date: Sat, 19 Oct 2019 10:26:33 GMT
+      Keep-Alive: timeout=60
       Referrer-Policy: same-origin
-      ? !!python/object/new:multidict._istr.istr [Server]
-      : nginx
-      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
-      : chunked
+      Server: ngjit
+      Set-Cookie: __ddg1=6558E3A1657E41B9F8193EACECC6CF776FDA03A7; Domain=.nyaa.si;
+        HttpOnly; Path=/; Max-Age=31536000
+      Transfer-Encoding: chunked
       X-Proxy-Cache: MISS
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, nyaa.si, /, f=0&c=0_0&q=zxcvbnm,
-        '']
+    status:
+      code: 200
+      message: OK
+    url: https://nyaa.si/?f=0&c=0_0&q=zxcvbnm
 version: 1
