@@ -1,135 +1,188 @@
 interactions:
 - request:
-    body: null
+    body: &id001 {}
     headers:
-      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
     uri: https://nyaa.pantsu.cat/search?c=_&q=ubuntu
   response:
-    body: {string: "\n<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n<meta charset=\"utf-8\">\n<meta
-        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\"
-        content=\"width=device-width, initial-scale=1\" />\n<meta name=\"keywords\"
+    body: {}
+    headers:
+      CF-Cache-Status: DYNAMIC
+      CF-RAY: 52820df1bc53d43b-BUD
+      Connection: keep-alive
+      Content-Type: text/html
+      Date: Sat, 19 Oct 2019 10:26:33 GMT
+      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Location: https://nyaa.net/search?c=_&q=ubuntu
+      Server: cloudflare
+      Set-Cookie: __cfduid=de3756f18d7418e1bacd531b348016cd51571480793; expires=Sun,
+        18-Oct-20 10:26:33 GMT; path=/; domain=.pantsu.cat; HttpOnly
+      Transfer-Encoding: chunked
+    status:
+      code: 302
+      message: Moved Temporarily
+    url: https://nyaa.pantsu.cat/search?c=_&q=ubuntu
+- request:
+    body: *id001
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+    method: get
+    uri: https://nyaa.pantsu.cat/search?c=_&q=ubuntu
+  response:
+    body:
+      string: "\n<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n  <meta charset=\"utf-8\">\n
+        \ <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n  <meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1\"/>\n  <meta name=\"keywords\"
         content=\"nyaa, torrents, pantsu, anime, manga, sukebei, nyaapassu, horriblesubs,
-        dlsite\" />\n<meta name=\"description\" content='The leading open-source community-based
-        nyaa.se successor, suitable for all anime and manga needs. \u306B\u3083\u3093\u3071\u3059~!'
-        />\n\n<title>Nyaa Pantsu - ubuntu </title>\n\n<script src=\"/cdn-cgi/apps/head/8H1Mota-TfWpO6AVggoi-nhjggk.js\"></script><link
-        rel=\"icon\" type=\"image/png\" href=\"/img/favicon.png\" />\n<link rel=\"shortcut
-        icon\" type=\"image/png\" href=\"/img/favicon.png\" />\n\n<meta property=\"og:site_name\"
-        content=\"Nyaa Pantsu\" />\n<meta property=\"og:title\" content=\" - ubuntu
-        \ - Nyaa Pantsu\" />\n<meta property=\"og:image\" content=\"/img/favicon.png\"
-        />\n<meta property=\"og:description\" content=\"Nyaa Pantsu Homepage\" />\n<meta
-        name=\"clckd\" content=\"04eb5245cbd11ba2e0fd541dfd5c93ce\" />\n\n<link rel=\"alternate\"
-        type=\"application/rss+xml\" title=\"Nyaa Pantsu - Latest torrents RSS Feed\"
-        href=\"/feed?c=_&q=ubuntu\" />\n<link rel=\"alternate\" type=\"application/rss+xml\"
-        title=\"Nyaa Pantsu - Latest torrents Torznab RSS Feed\" href=\"/feed/torznab?c=_&q=ubuntu&t=search\"
-        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Nyaa Pantsu
-        - Latest torrents EZTV RSS Feed\" href=\"/feed/eztv?c=_&q=ubuntu\" />\n\n<link
-        rel=\"stylesheet\" href=\"/css/simplemde.min.css?v=1.1.0\" />\n\n<link rel=\"stylesheet\"
-        id=\"style\" href=\"/css/main.css?v=1.1.0\" />\n\n<link rel=\"stylesheet\"
-        href=\"/css/nyacon.css?v=1.1.0\" />\n\n<link rel=\"stylesheet\" id=\"theme\"
-        href=\"/css/themes/g.css?v=1.1.0\" />\n\n<link rel=\"stylesheet\" href=\"/css/flags/flags.min.css\"
-        />\n\n<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://nyaa.pantsu.cat/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://nyaa.pantsu.cat/search?q={search_term_string}\",\"query-input\":\"required
-        name=search_term_string\"} }</script>\n<script>window.popns = 'TsanPop';</script>\n<script
-        src=\"/src/nmjrov.js\"></script>\n<script src=\"/scr/wtixyd.js\"></script>\n</head>\n<body>\n<nav
-        id=\"header\" class=\"header\">\n<div class=\"container\">\n<div class=\"h-left\">\n<div
-        class=\"h-logo\">\n<a href=\"/\">\n<img class=\"hide-md\" src=\"/img/logo.png\"
-        alt=\"Nyaa Pantsu\" />\n<img class=\"visible-md\" src=\"/img/logo_s.png\"
-        alt=\"Nyaa Pantsu\" />\n</a>\n</div>\n<div class=\"h-nav\">\n<a href=\"/\"
-        class=\"nav-btn\" id=\"browse-link\" style=\"display: none;\">\n<div class=\"icon-upload
-        visible-md\"></div>\n<span class=\"hide-md\">Browse</span>\n</a>\n<a href=\"/upload\"
-        class=\"nav-btn\">\n<div class=\"icon-upload visible-md\"></div>\n<span class=\"hide-md\">Upload</span>\n
-        </a>\n<a href=\"/feed?c=_&q=ubuntu\" class=\"nav-btn\">\n<div class=\"icon-rss-squared
-        visible-md\"></div>\n<span class=\"hide-md\">RSS</span>\n</a>\n<a href=\"/faq\"
-        class=\"nav-btn\">\n<div class=\"icon-help-circled visible-md\"></div>\n<span
-        class=\"hide-md\">FAQ</span>\n</a>\n<a href=\"https://sukebei.nyaa.pt\" class=\"nav-btn\">\n<div
-        class=\"icon-heart visible-md\"></div>\n<span class=\"hide-md\">Fap</span>\n</a>\n<a
-        href=\"https://discord.gg/HGZacke\" class=\"nav-btn\">\n<div class=\"icon-upload
-        visible-md\"></div>\n<span class=\"hide-md\">Discord</span>\n</a>\n<a href=\"https://twitter.com/NyaaPantsu\"
-        class=\"nav-btn\">\n<div class=\"icon-upload visible-md\"></div>\n<span class=\"hide-md\">Twitter</span>\n</a>\n<a
-        href=\"https://www.gaming-adult.com/048edfdd-f88a-4e10-b7d9-5d75de342337?deaf=hh\"
-        class=\"nav-btn\">\n<div class=\"icon-upload visible-md\"></div>\n<span class=\"hide-md\">Games</span>\n</a>\n</div>\n</div>\n<div
-        class=\"h-right\">\n<div class=\"h-user \">\n<a href=\"/login?redirectTo=/search?c=_&amp;q=ubuntu\"
-        class=\"nav-btn log-in\" style=\"width:auto;\" title=\"Sign In\">\n<div class=\"icon-user\"></div>\n<span>Sign
-        In</span>\n</a>\n</div>\n<div class=\"h-search\">\n<form role=\"search\" action=\"/search\"
-        id=\"header-form\" method=\"get\">\n<select name=\"c\" class=\"form-input
-        form-category\">\n<option value=\"_\">All categories</option>\n<option value=\"3_\">Anime</option>\n<option
-        value=\"3_12\">Anime - Anime Music Video</option>\n<option value=\"3_5\">Anime
-        - English-translated</option>\n<option value=\"3_13\">Anime - Non-English-translated</option>\n<option
-        value=\"3_6\">Anime - Raw</option>\n<option value=\"2_\">Audio</option>\n<option
-        value=\"2_3\">Audio - Lossless</option>\n<option value=\"2_4\">Audio - Lossy</option>\n<option
-        value=\"4_\">Literature</option>\n<option value=\"4_7\">Literature - English-translated</option>\n<option
-        value=\"4_14\">Literature - Non-English-translated</option>\n<option value=\"4_8\">Literature
-        - Raw</option>\n<option value=\"5_\">Live Action</option>\n<option value=\"5_9\">Live
-        Action - English-translated</option>\n<option value=\"5_10\">Live Action -
-        Idol/Promotional Video</option>\n<option value=\"5_18\">Live Action - Non-English-translated</option>\n<option
-        value=\"5_11\">Live Action - Raw</option>\n<option value=\"6_\">Pictures</option>\n<option
-        value=\"6_15\">Pictures - Graphics</option>\n<option value=\"6_16\">Pictures
-        - Photos</option>\n<option value=\"1_\">Software</option>\n<option value=\"1_1\">Software
-        - Applications</option>\n<option value=\"1_2\">Software - Games</option>\n</select>\n<input
+        dlsite\"/>\n  <meta name=\"description\" content='The leading open-source
+        community-based nyaa.se successor, suitable for all anime and manga needs.
+        \u306B\u3083\u3093\u3071\u3059~!'/>\n\n  <!-- The above 3 meta tags *must*
+        come first in the head; any other head content must come *after* these tags
+        -->\n  <title>Nyaa Pantsu - ubuntu </title>\n  <!-- Flavicons and icons -->\n
+        \ <link rel=\"icon\" type=\"image/png\" href=\"/img/favicon.png\" />\n  <link
+        rel=\"shortcut icon\" type=\"image/png\" href=\"/img/favicon.png\"/>\n\n  <!--
+        SMO -->\n  <meta property=\"og:site_name\" content=\"Nyaa Pantsu\"/>\n  <meta
+        property=\"og:title\" content=\" - ubuntu  - Nyaa Pantsu\"/>\n  <meta property=\"og:image\"
+        content=\"/img/favicon.png\"/>\n  <meta property=\"og:description\" content=\"Nyaa
+        Pantsu Homepage\"/>\n<meta name=\"clckd\" content=\"04eb5245cbd11ba2e0fd541dfd5c93ce\"
+        />\n\n  <!-- RSS Feed with Context -->\n  <link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"Nyaa Pantsu - Latest torrents RSS Feed\" href=\"/feed?c=_&q=ubuntu\"
+        \ />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Nyaa
+        Pantsu - Latest torrents Torznab RSS Feed\" href=\"/feed/torznab?c=_&q=ubuntu&t=search\"
+        \ />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Nyaa
+        Pantsu - Latest torrents EZTV RSS Feed\" href=\"/feed/eztv?c=_&q=ubuntu\"
+        \ />\n  <!-- do NOT move -->\n  <link rel=\"stylesheet\" href=\"/css/simplemde.min.css?v=1.1.0\"/>\n
+        \ <!-- Base theme -->\n  <link rel=\"stylesheet\" id=\"style\" href=\"/css/main.css?v=1.1.0\"/>\n
+        \ <!-- nyaacon, custom icon set -->\n  <link rel=\"stylesheet\" href=\"/css/nyacon.css?v=1.1.0\"/>\n
+        \ <!-- User selected theme, if empty defaults to theme in nyaa.yml -->\n  <link
+        rel=\"stylesheet\" id=\"theme\" href=\"/css/themes/g.css?v=1.1.0\"/>\n  <!--
+        Flags css -->\n  <link rel=\"stylesheet\" href=\"/css/flags/flags.min.css\"/>\n
+        \ <!-- Search Box for Google -->\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://nyaa.net/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://nyaa.net/search?q={search_term_string}\",\"query-input\":\"required
+        name=search_term_string\"} }</script>\n  \n  </head>\n\n<body >\n  <nav id=\"header\"
+        class=\"header\">\n    \n\n<div class=\"container\">\n  <div class=\"h-left\">\n
+        \   <div class=\"h-logo\">\n      <a href=\"/\">\n        <img class=\"hide-md\"
+        src=\"/img/logo.png\" alt=\"Nyaa Pantsu\"/>\n        <img class=\"visible-md\"
+        src=\"/img/logo_s.png\" alt=\"Nyaa Pantsu\"/>\n      </a>\n    </div>\n    <div
+        class=\"h-nav\">\n      <a href=\"/\" class=\"nav-btn\" id=\"browse-link\"
+        style=\"display: none;\">\n        <div class=\"icon-upload visible-md\"></div>\n
+        \       <span class=\"hide-md\">Browse</span>\n      </a>\n      <a href=\"/upload\"
+        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
+        \       <span class=\"hide-md\">Upload</span>\n      </a>\n      <a href=\"/feed?c=_&q=ubuntu\"
+        class=\"nav-btn\">\n        <div class=\"icon-rss-squared visible-md\"></div>\n
+        \       <span class=\"hide-md\">RSS</span>\n      </a>\n      <a href=\"/faq\"
+        class=\"nav-btn\">\n        <div class=\"icon-help-circled visible-md\"></div>\n
+        \       <span class=\"hide-md\">FAQ</span>\n      </a>\n      \n      <a href=\"https://sukebei.nyaa.net\"
+        class=\"nav-btn\">\n        <div class=\"icon-heart visible-md\"></div>\n
+        \       <span class=\"hide-md\">Fap</span>\n      </a>\n      \n\t<a href=\"https://discord.gg/HGZacke\"
+        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
+        \       <span class=\"hide-md\">Discord</span>\n      </a>\n\t<a href=\"https://twitter.com/NyaaPantsu\"
+        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
+        \       <span class=\"hide-md\">Twitter</span>\n      </a>\n\t<a href=\"https://transparency.pantsu.cat/\"
+        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
+        \       <span class=\"hide-md\">Transparency</span>\n      </a>\n    </div>\n
+        \ </div>\n  <div class=\"h-right\">\n    \n<div class=\"h-user \">\n  \n  <a
+        href=\"/login?redirectTo=/search?c=_&amp;q=ubuntu\" class=\"nav-btn log-in\"
+        style=\"width:auto;\" title=\"Sign In\">\n    <div class=\"icon-user\"></div>\n
+        \   <span>Sign In</span>\n  </a> \n</div>\n\n\n    <div class=\"h-search\">\n
+        \     <form role=\"search\" action=\"/search\" id=\"header-form\" method=\"get\">\n
+        \       \n<select name=\"c\" class=\"form-input form-category\">\n  <option
+        value=\"_\">All categories</option>\n  \n  <option value=\"3_\" >Anime</option>\n
+        \ \n  <option value=\"3_12\" >Anime - Anime Music Video</option>\n  \n  <option
+        value=\"3_5\" >Anime - English-translated</option>\n  \n  <option value=\"3_13\"
+        >Anime - Non-English-translated</option>\n  \n  <option value=\"3_6\" >Anime
+        - Raw</option>\n  \n  <option value=\"2_\" >Audio</option>\n  \n  <option
+        value=\"2_3\" >Audio - Lossless</option>\n  \n  <option value=\"2_4\" >Audio
+        - Lossy</option>\n  \n  <option value=\"4_\" >Literature</option>\n  \n  <option
+        value=\"4_7\" >Literature - English-translated</option>\n  \n  <option value=\"4_14\"
+        >Literature - Non-English-translated</option>\n  \n  <option value=\"4_8\"
+        >Literature - Raw</option>\n  \n  <option value=\"5_\" >Live Action</option>\n
+        \ \n  <option value=\"5_9\" >Live Action - English-translated</option>\n  \n
+        \ <option value=\"5_10\" >Live Action - Idol/Promotional Video</option>\n
+        \ \n  <option value=\"5_18\" >Live Action - Non-English-translated</option>\n
+        \ \n  <option value=\"5_11\" >Live Action - Raw</option>\n  \n  <option value=\"6_\"
+        >Pictures</option>\n  \n  <option value=\"6_15\" >Pictures - Graphics</option>\n
+        \ \n  <option value=\"6_16\" >Pictures - Photos</option>\n  \n  <option value=\"1_\"
+        >Software</option>\n  \n  <option value=\"1_1\" >Software - Applications</option>\n
+        \ \n  <option value=\"1_2\" >Software - Games</option>\n  \n</select>\n \n<input
         class=\"form-input search-box\" name=\"q\" placeholder=\"Search\" type=\"text\"
-        value=\"ubuntu\" />\n<button type=\"submit\" class=\"form-input icon-search\"></button><button
-        type=\"submit\" class=\"form-input refine\" name=\"refine\" value=\"1\">Refine</button>\n</form>\n</div>\n</div>\n</div>\n</nav>\n<div
-        id=\"header-height-offset\"></div>\n<div id=\"content\" class=\"\">\n<div
-        class=\"content container center\">\n<div class=\"centered\">\n\n<iframe id='a7d9d122'
-        name='a7d9d122' src='https://eki.trafficsan.com/server/www/uchi/sugoiafr.php?baka=13&zoneid=159&amp;cb={random}&amp;ct0={clickurl_enc}'
-        frameborder='0' scrolling='no' width='728' height='90'><a href='https://eki.trafficsan.com/server/www/uchi/sugoick.php?n=ae68670a&amp;cb={random}'
-        target='_blank'><img src='https://eki.trafficsan.com/server/www/uchi/sugoiavw.php?zoneid=159&amp;cb={random}&amp;n=ae68670a&amp;ct0={clickurl_enc}'
-        border='0' alt='' /></a></iframe>\n</div>\n<div class=\"box refine\" style=\"display:
-        none;\">\n<form method=\"GET\" action=\"/search\">\n<h3>Refine your search</h3>\n<div>\n<div
-        class=\"refine-container-1\">\n<span class=\"form-refine\">\n<span class=\"spacing\">Search
-        for:</span>\n<input type=\"text\" class=\"form-input refine-searchbox\" size=\"30\"
-        name=\"q\" value=\"ubuntu\" placeholder=\"Search for\" /><select name=\"c\"
-        class=\"form-input refine-category\">\n<option value=\"_\">All categories</option>\n<option
-        value=\"3_\">Anime</option>\n<option value=\"3_12\">Anime - Anime Music Video</option>\n<option
-        value=\"3_5\">Anime - English-translated</option>\n<option value=\"3_13\">Anime
-        - Non-English-translated</option>\n<option value=\"3_6\">Anime - Raw</option>\n<option
-        value=\"2_\">Audio</option>\n<option value=\"2_3\">Audio - Lossless</option>\n<option
-        value=\"2_4\">Audio - Lossy</option>\n<option value=\"4_\">Literature</option>\n<option
-        value=\"4_7\">Literature - English-translated</option>\n<option value=\"4_14\">Literature
-        - Non-English-translated</option>\n<option value=\"4_8\">Literature - Raw</option>\n<option
-        value=\"5_\">Live Action</option>\n<option value=\"5_9\">Live Action - English-translated</option>\n<option
-        value=\"5_10\">Live Action - Idol/Promotional Video</option>\n<option value=\"5_18\">Live
-        Action - Non-English-translated</option>\n<option value=\"5_11\">Live Action
-        - Raw</option>\n<option value=\"6_\">Pictures</option>\n<option value=\"6_15\">Pictures
-        - Graphics</option>\n<option value=\"6_16\">Pictures - Photos</option>\n<option
-        value=\"1_\">Software</option>\n<option value=\"1_1\">Software - Applications</option>\n<option
-        value=\"1_2\">Software - Games</option>\n</select>\n</span>\n<span class=\"form-refine\">\n<span
-        class=\"spacing\">Show:</span>\n<select name=\"s\" class=\"form-input spacing\"
-        style=\"max-width: 21%;min-width: 100px;\">\n<option value=\"0\">Show all</option>\n<option
-        value=\"2\">Filter Remakes</option>\n<option value=\"3\">Torrents uploaded
-        by trusted users.</option>\n<option value=\"4\">A+</option>\n</select>\nLimit:
-        <input type=\"number\" name=\"limit\" value=\"50\" class=\"form-input spacing\"
-        min=\"1\" max=\"500\" />\nFrom: <input type=\"text\" name=\"user\" placeholder=\"Username/#ID\"
-        value=\"\" class=\"form-input refine-user\" />\n</span>\n<span class=\"form-refine\">\n<span
-        class=\"spacing\">Between</span>\n<input class=\"form-input\" size=\"7\" name=\"minSize\"
-        type=\"text\" value=\"\" />\nand\n<input size=\"7\" class=\"form-input\" name=\"maxSize\"
-        type=\"text\" value=\"\" />\n<select name=\"sizeType\" class=\"form-input\">\n<option
-        value=\"b\">B</option>\n<option value=\"k\">KiB</option>\n<option value=\"m\"
-        selected>MiB</option>\n<option value=\"g\">GiB</option>\n</select>\nlarge.\n</span>\n<span
-        class=\"form-refine\">\n<span class=\"spacing\">From</span>\n<input class=\"form-input
-        refine-date\" name=\"fromDate\" type=\"text\" value=\"\" placeholder=\"YYYY/MM/DD\"
-        />\nto\n<input class=\"form-input refine-date spacing\" size=\"7\" name=\"toDate\"
-        type=\"text\" value=\"\" placeholder=\"YYYY/MM/DD\" />\n</span>\n<span class=\"form-refine\"
-        style=\"margin-bottom: 2px;\">\n<span class=\"spacing\">Sort by</span>\n<select
-        name=\"sort\" class=\"form-input\">\n<option value=\"1\">Name</option>\n<option
-        value=\"4\">Size</option>\n<option value=\"5\">Seeders</option>\n<option value=\"6\">Leechers</option>\n<option
-        value=\"7\">Completed</option>\n<option value=\"2\" selected>Date</option>\n</select>\n<select
-        name=\"order\" class=\"form-input\">\n<option value=\"true\">Ascending</option>\n<option
-        value=\"false\" selected>Descending</option>\n</select>\nExclude: <input type=\"text\"
-        name=\"nuserID\" placeholder=\"UserID\" value=\"\" class=\"form-input refine-userid\"
-        style=\"width: 62px;\">\n</span>\n</div>\n<div class=\"refine-container-2\">\n<span
-        class=\"form-refine\">\n<span class=\"spacing\">Quality:</span>\n<select name=\"vq\"
-        class=\"form-input\">\n<option value=\"\">Show all</option>\n<option value=\"bluray\">Bluray</option>\n<option
-        value=\"full_hd\">1080p</option>\n<option value=\"hd\">720p</option>\n<option
-        value=\"sd\">480p</option>\n</select>\n<span style=\"margin: 0 5px;\">Hash:</span>\n<input
-        type=\"text\" name=\"hash\" placeholder=\"Torrent hash\" class=\"form-input\">\n</span>\n<span
-        class=\"form-refine\">\n<span class=\"spacing\">Tags:</span>\n<input type=\"text\"
-        name=\"anidb\" placeholder=\"AniDB\" title=\"AniDB\" value=\"\" class=\"form-input\"
-        />\n<input type=\"text\" name=\"vgm\" placeholder=\"VGMdb\" title=\"VGMdb\"
-        value=\"\" class=\"form-input\" />\n<input type=\"text\" name=\"vndb\" placeholder=\"VnDB\"
-        title=\"VnDB\" value=\"\" class=\"form-input\" />\n<input type=\"text\" name=\"dlsite\"
-        placeholder=\"DLsite\" title=\"DLsite\" value=\"\" class=\"form-input\" />\n</span>\n<div
-        class=\"form-refine form-input language\">\n<span class=\"input-group\">\n<span
+        value=\"ubuntu\"/>\n<button type=\"submit\" class=\"form-input icon-search\"></button><button
+        type=\"submit\" class=\"form-input refine\" name=\"refine\" value=\"1\">Refine</button>\n\n
+        \     </form>\n    </div>\n  </div>\n</div>\n\n\n  </nav>\n  <div id=\"header-height-offset\"></div>\n
+        \ <div id=\"content\" class=\"\">\n    <div class=\"content container center\">\n
+        \     \n    \n\n      \n    \n\n      \n<div class=\"centered\">\n\n\n\n\n
+        </div>\n      \n    \n\n<div class=\"box refine\" style=\"display: none;\">\n
+        \ <form method=\"GET\" action=\"/search\">\n    <h3>Refine your search</h3>\n\t<div>\n\t
+        \ <div class=\"refine-container-1\">\n    <span class=\"form-refine\">\n      <span
+        class=\"spacing\">Search for:</span>\n      <input type=\"text\" class=\"form-input
+        refine-searchbox\" size=\"30\" name=\"q\" value=\"ubuntu\" placeholder=\"Search
+        for\"/><select name=\"c\" class=\"form-input refine-category\">\n      <option
+        value=\"_\">All categories</option>\n      \n      <option value=\"3_\" >Anime</option>\n
+        \     \n      <option value=\"3_12\" >Anime - Anime Music Video</option>\n
+        \     \n      <option value=\"3_5\" >Anime - English-translated</option>\n
+        \     \n      <option value=\"3_13\" >Anime - Non-English-translated</option>\n
+        \     \n      <option value=\"3_6\" >Anime - Raw</option>\n      \n      <option
+        value=\"2_\" >Audio</option>\n      \n      <option value=\"2_3\" >Audio -
+        Lossless</option>\n      \n      <option value=\"2_4\" >Audio - Lossy</option>\n
+        \     \n      <option value=\"4_\" >Literature</option>\n      \n      <option
+        value=\"4_7\" >Literature - English-translated</option>\n      \n      <option
+        value=\"4_14\" >Literature - Non-English-translated</option>\n      \n      <option
+        value=\"4_8\" >Literature - Raw</option>\n      \n      <option value=\"5_\"
+        >Live Action</option>\n      \n      <option value=\"5_9\" >Live Action -
+        English-translated</option>\n      \n      <option value=\"5_10\" >Live Action
+        - Idol/Promotional Video</option>\n      \n      <option value=\"5_18\" >Live
+        Action - Non-English-translated</option>\n      \n      <option value=\"5_11\"
+        >Live Action - Raw</option>\n      \n      <option value=\"6_\" >Pictures</option>\n
+        \     \n      <option value=\"6_15\" >Pictures - Graphics</option>\n      \n
+        \     <option value=\"6_16\" >Pictures - Photos</option>\n      \n      <option
+        value=\"1_\" >Software</option>\n      \n      <option value=\"1_1\" >Software
+        - Applications</option>\n      \n      <option value=\"1_2\" >Software - Games</option>\n
+        \     \n    </select>\n  </span>\n  <span class=\"form-refine\">\n    <span
+        class=\"spacing\">Show:</span>\n    <select name=\"s\" class=\"form-input
+        spacing\" style=\"max-width: 21%;min-width: 100px;\">\n      <option value=\"0\">Show
+        all</option>\n      <option value=\"2\" >Filter Remakes</option>\n      <option
+        value=\"3\" >Torrents uploaded by trusted users.</option>\n      <option value=\"4\"
+        >A+</option>\n    </select>\n    Limit: <input type=\"number\" name=\"limit\"
+        value=\"50\" class=\"form-input spacing\" min=\"1\" max=\"500\"/>\n    From:
+        <input type=\"text\" name=\"user\" placeholder=\"Username/#ID\" value=\"\"
+        class=\"form-input refine-user\"/>\n  </span>\n  <span class=\"form-refine\">\n
+        \   <span class=\"spacing\">Between</span>\n    <input class=\"form-input\"
+        size=\"7\" name=\"minSize\" type=\"text\" value=\"\"/>\n    and\n    <input
+        size=\"7\" class=\"form-input\" name=\"maxSize\" type=\"text\" value=\"\"/>\n
+        \   <select name=\"sizeType\" class=\"form-input\">\n      <option value=\"b\"
+        >B</option>\n      <option value=\"k\" >KiB</option>\n      <option value=\"m\"
+        \ selected>MiB</option>\n      <option value=\"g\" >GiB</option>\n    </select>\n
+        \   large.\n  </span>\n  <span class=\"form-refine\">\n    <span class=\"spacing\">From</span>\n
+        \   <input class=\"form-input refine-date\" name=\"fromDate\" type=\"text\"
+        value=\"\" placeholder=\"YYYY/MM/DD\"/>\n    to\n    <input class=\"form-input
+        refine-date spacing\" size=\"7\" name=\"toDate\" type=\"text\" value=\"\"
+        placeholder=\"YYYY/MM/DD\"/>\n    </span>\n\t<span class=\"form-refine\" style=\"margin-bottom:
+        2px;\">\n\t\t<span class=\"spacing\">Sort by</span>\n\t\t<select name=\"sort\"
+        class=\"form-input\">\n\t\t\t<option value=\"1\" >Name</option>\n\t\t\t<option
+        value=\"4\" >Size</option>\n\t\t\t<option value=\"5\" >Seeders</option>\n\t\t\t<option
+        value=\"6\" >Leechers</option>\n\t\t\t<option value=\"7\" >Completed</option>\n\t\t\t<option
+        value=\"2\" selected>Date</option>\n\t\t</select>\n\t\t<select name=\"order\"
+        class=\"form-input\">\n\t\t\t<option value=\"true\">Ascending</option>\n\t\t\t<option
+        value=\"false\" selected>Descending</option>\n\t\t</select>\n    Exclude:
+        <input type=\"text\" name=\"nuserID\" placeholder=\"UserID\" value=\"\" class=\"form-input
+        refine-userid\" style=\"width: 62px;\">\n\t</span>\n    </div>\n\t  <div class=\"refine-container-2\">\n\t\t
+        \ <span class=\"form-refine\">\n\t\t\t<span class=\"spacing\">Quality:</span>\n\t\t\t<select
+        name=\"vq\" class=\"form-input\">\n\t\t\t  <option value=\"\">Show all</option>\n\t\t\t
+        \ \n\t\t\t  <option value=\"bluray\">Bluray</option>\n\t\t\t  \n\t\t\t  <option
+        value=\"full_hd\">1080p</option>\n\t\t\t  \n\t\t\t  <option value=\"hd\">720p</option>\n\t\t\t
+        \ \n\t\t\t  <option value=\"sd\">480p</option>\n\t\t\t  \n\t\t\t</select>\n\t\t\t<span
+        style=\"margin: 0 5px;\">Hash:</span>\n\t\t\t<input type=\"text\" name=\"hash\"
+        placeholder=\"Torrent hash\" class=\"form-input\">\n\t\t  </span>\n\t\t  <span
+        class=\"form-refine\">\n\t\t\t<span class=\"spacing\">Tags:</span>\n\t\t\t
+        \ <input type=\"text\" name=\"anidb\" placeholder=\"AniDB\" title=\"AniDB\"
+        value=\"\" class=\"form-input\"/>\n\t\t\t  <input type=\"text\" name=\"vgm\"
+        placeholder=\"VGMdb\" title=\"VGMdb\" value=\"\" class=\"form-input\"/>\n\t\t\t
+        \ <input type=\"text\" name=\"vndb\" placeholder=\"VnDB\" title=\"VnDB\" value=\"\"
+        class=\"form-input\"/>\n\t\t\t  <input type=\"text\" name=\"dlsite\" placeholder=\"DLsite\"
+        title=\"DLsite\" value=\"\" class=\"form-input\"/>\n\t\t  </span>\n\t\t  <div
+        class=\"form-refine form-input language\">\n\t\t\t\n\n<span class=\"input-group\">\n<span
         class=\"refine-search-languagename\">Catalan</span>\n<input type=\"checkbox\"
         name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ca\" value=\"ca\"><label
         for=\"refine-search-ca\" class=\"flag flag-ca\" title=\"Catalan\"></label>\n</span><span
@@ -192,147 +245,106 @@ interactions:
         class=\"input-group\">\n<span class=\"refine-search-languagename\">Traditional
         Chinese</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
         id=\"refine-search-zh-Hant\" value=\"zh-Hant\"><label for=\"refine-search-zh-Hant\"
-        class=\"flag flag-Hant\" title=\"Traditional Chinese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Catalan</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ca\"
-        value=\"ca\"><label for=\"refine-search-ca\" class=\"flag flag-ca\" title=\"Catalan\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">German</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-de\"
-        value=\"de\"><label for=\"refine-search-de\" class=\"flag flag-de\" title=\"German\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">English</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-en\"
-        value=\"en\"><label for=\"refine-search-en\" class=\"flag flag-en\" title=\"English\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Spanish,
-        Mexican Spanish</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
-        id=\"refine-search-es\" value=\"es\"><label for=\"refine-search-es\" class=\"flag
-        flag-es\" title=\"Spanish, Mexican Spanish\"></label>\n</span><span class=\"input-group\">\n<span
-        class=\"refine-search-languagename\">French</span>\n<input type=\"checkbox\"
-        name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-fr\" value=\"fr\"><label
-        for=\"refine-search-fr\" class=\"flag flag-fr\" title=\"French\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Hungarian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-hu\"
-        value=\"hu\"><label for=\"refine-search-hu\" class=\"flag flag-hu\" title=\"Hungarian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Indonesian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-id\"
-        value=\"id\"><label for=\"refine-search-id\" class=\"flag flag-id\" title=\"Indonesian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Icelandic</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-is\"
-        value=\"is\"><label for=\"refine-search-is\" class=\"flag flag-is\" title=\"Icelandic\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Italian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-it\"
-        value=\"it\"><label for=\"refine-search-it\" class=\"flag flag-it\" title=\"Italian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Japanese</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ja\"
-        value=\"ja\"><label for=\"refine-search-ja\" class=\"flag flag-ja\" title=\"Japanese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Korean</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ko\"
-        value=\"ko\"><label for=\"refine-search-ko\" class=\"flag flag-ko\" title=\"Korean\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Norwegian
-        Bokm\xE5l</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
-        id=\"refine-search-nb\" value=\"nb\"><label for=\"refine-search-nb\" class=\"flag
-        flag-nb\" title=\"Norwegian Bokm\xE5l\"></label>\n</span><span class=\"input-group\">\n<span
-        class=\"refine-search-languagename\">Dutch</span>\n<input type=\"checkbox\"
-        name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-nl\" value=\"nl\"><label
-        for=\"refine-search-nl\" class=\"flag flag-nl\" title=\"Dutch\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Portuguese</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-pt\"
-        value=\"pt\"><label for=\"refine-search-pt\" class=\"flag flag-pt\" title=\"Portuguese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Romanian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ro\"
-        value=\"ro\"><label for=\"refine-search-ro\" class=\"flag flag-ro\" title=\"Romanian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Russian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ru\"
-        value=\"ru\"><label for=\"refine-search-ru\" class=\"flag flag-ru\" title=\"Russian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Swedish</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-sv\"
-        value=\"sv\"><label for=\"refine-search-sv\" class=\"flag flag-sv\" title=\"Swedish\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Thai</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-th\"
-        value=\"th\"><label for=\"refine-search-th\" class=\"flag flag-th\" title=\"Thai\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Chinese</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-zh\"
-        value=\"zh\"><label for=\"refine-search-zh\" class=\"flag flag-zh\" title=\"Chinese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Traditional
-        Chinese</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
-        id=\"refine-search-zh-Hant\" value=\"zh-Hant\"><label for=\"refine-search-zh-Hant\"
-        class=\"flag flag-Hant\" title=\"Traditional Chinese\"></label>\n</span>\n</div>\n<button
-        type=\"submit\" class=\"form-input refine-btn\" name=\"refine\" value=\"1\">Refine</button>\n</div>\n</div>\n</form>\n</div>\n<div
-        class=\"box refine website-nav\">\n<table id=\"nav-category-list\">\n<tbody>\n<tr><td
-        colspan=\"3\"><b>All categories</b></td></tr>\n<tr>\n<td><a href=\"/search?c=3_&amp;q=ubuntu\">Anime</a></td>\n<td><a
-        href=\"/search?c=2_&amp;q=ubuntu\">Audio</a></td>\n<td><a href=\"/search?c=4_&amp;q=ubuntu\">Literature</a></td>\n</tr>\n<tr>\n<td><a
-        href=\"/search?c=5_&amp;q=ubuntu\">Live Action</a></td>\n<td><a href=\"/search?c=6_&amp;q=ubuntu\">Pictures</a></td>\n<td><a
-        href=\"/search?c=1_&amp;q=ubuntu\">Software</a></td>\n</tr>\n</tbody>\n</table>\n<table
-        id=\"sort-list-order\">\n<tbody>\n<tr>\n<td>\n<b>Date</b> /\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=5\">Seeders</a>
-        /\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=6\">Leechers</a>
-        /\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=7\">Completed</a>
-        /\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=4\">Size</a>
-        /\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=1\">Name</a>\n</td>\n<td
-        style=\"padding: 0 0.35em!important;\"> | </td>\n<td>\n<b>Ascending</b> /\n<a
-        href=\"/search?c=_&amp;order=true&amp;q=ubuntu&amp;sort=2\">Descending</a>\n</td>\n</tr>\n</tbody>\n</table>\n<div
-        class=\"pagination\">\n<a class=\"page-prev\" style=\"display:none;\" aria-label=\"Previous\"><span
-        aria-hidden=\"true\">&laquo;</span></a><a aria-label=\"Page 1\" href=\"/search/1?c=_&q=ubuntu\"><span
-        class=\"active\">1</span></a><a class=\"page-next\" style=\"display:none;\"
-        aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a><p>1-1/1</p>\n</div>\n</div>\n\n<div
-        class=\"results box old-nav\">\n<table>\n<thead class=\"torrent-info\">\n<tr>\n<th
-        class=\"tr-cat\">Category</th>\n<th class=\"tr-name\">\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=1\">\nName\n<span
-        class=\"sort-arrows\"><span class=\"sortarrowleft sortarrowdim\">\u25BC</span><span
-        class=\"sortarrowdim\">\u25B2</span></span>\n</a>\n</th>\n<th class=\"tr-cs\"
-        style=\"font-size: 0px;\">Msg</th>\n<th class=\"tr-links\"></th>\n<th class=\"tr-size
+        class=\"flag flag-Hant\" title=\"Traditional Chinese\"></label>\n</span>\n\n\n\t\t
+        \ </div>\n\t\t  <button type=\"submit\" class=\"form-input refine-btn\" name=\"refine\"
+        value=\"1\">Refine</button>\n\t  </div>\n\t</div>\n</form>\n</div>\n\n\n\n
+        \ <div class=\"box refine website-nav\">\n<table id=\"nav-category-list\">\n\t<tbody>\n\t\t<tr><td
+        colspan=\"3\"><b>All categories</b></td></tr>\n\t\t<tr>\n\t\t\n\t\t\t<td><a
+        href=\"/search?c=3_&amp;q=ubuntu\">Anime</a></td>\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t<td><a
+        href=\"/search?c=2_&amp;q=ubuntu\">Audio</a></td>\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t<td><a
+        href=\"/search?c=4_&amp;q=ubuntu\">Literature</a></td>\n\t\t\t\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t<td><a
+        href=\"/search?c=5_&amp;q=ubuntu\">Live Action</a></td>\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t<td><a
+        href=\"/search?c=6_&amp;q=ubuntu\">Pictures</a></td>\n\t\t\t\n\t\t\t\n\t\t\n\t\t\t<td><a
+        href=\"/search?c=1_&amp;q=ubuntu\">Software</a></td>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t</tr>\n\t\t\n\t</tbody>\n</table>\n\n<table
+        id=\"sort-list-order\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<b>Date</b>
+        / \n\t\t\t\t<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=5\">Seeders</a>
+        / \n\t\t\t\t<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=6\">Leechers</a>
+        / \n\t\t\t\t<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=7\">Completed</a>
+        \ / \n\t\t\t\t<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=4\">Size</a>
+        \ / \n\t\t\t\t<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=1\">Name</a>
+        \ \n\t\t\t</td>\n\t\t\t<td style=\"padding: 0 0.35em!important;\"> | </td>\n\t\t\t<td>\n\t\t\t\t<b>Ascending</b>
+        / \n\t\t\t\t<a href=\"/search?c=_&amp;order=true&amp;q=ubuntu&amp;sort=2\">Descending</a>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n
+        \   \n    <div class=\"pagination\">\n      <a class=\"page-prev\" style=\"display:none;\"
+        aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a><a aria-label=\"Page
+        1\" href=\"/search/1?c=_&q=ubuntu\"><span class=\"active\">1</span></a><a
+        class=\"page-next\" style=\"display:none;\" aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a><p>1-1/1</p>\n
+        \   </div>\n</div>\n\n\n<!-- Contain the table within a grid, as for better
+        sizing  -->\n<div class=\"results box old-nav\" >\n  <table>\n    <thead class=\"torrent-info\">\n
+        \     <tr>\n        \n        <th class=\"tr-cat\">Category</th>\n        <th
+        class=\"tr-name\">\n          <a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=1\">\n
+        \           Name\n            <span class=\"sort-arrows\"><span class=\"sortarrowleft
+        sortarrowdim\">\u25BC</span><span class=\"sortarrowdim\">\u25B2</span></span>\n
+        \         </a>\n        </th>\n        <th class=\"tr-cs\" style=\"font-size:
+        0px;\">Msg</th>\n        <th class=\"tr-links\"></th>\n        <th class=\"tr-size
         hide-xs\"><a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=4\">Size<span
         class=\"sort-arrows\"><span class=\"sortarrowleft sortarrowdim\">\u25BC</span><span
-        class=\"sortarrowdim\">\u25B2</span></span></a></th>\n<th class=\"tr-se hide-smol\">\n<a
-        href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=5\">\nS\n<span class=\"sort-arrows\"><span
-        class=\"sortarrowleft sortarrowdim\">\u25BC</span><span class=\"sortarrowdim\">\u25B2</span></span>\n</a>\n</th>\n<th
-        class=\"tr-le hide-smol\">\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=6\">\nL\n<span
-        class=\"sort-arrows\"><span class=\"sortarrowleft sortarrowdim\">\u25BC</span><span
-        class=\"sortarrowdim\">\u25B2</span></span>\n </a>\n</th>\n<th class=\"tr-dl
-        hide-xs\">\n<a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=7\">\nD\n<span
-        class=\"sort-arrows\"><span class=\"sortarrowleft sortarrowdim\">\u25BC</span><span
-        class=\"sortarrowdim\">\u25B2</span></span>\n</a>\n</th>\n\n<th class=\"tr-date
-        hide-xs\"><a href=\"/search?c=_&amp;order=true&amp;q=ubuntu&amp;sort=2\">\nDate\n<span
-        class=\"sort-arrows\"><span class=\"sortarrowleft \">\u25BC</span><span class=\"sortarrowdim\">\u25B2</span></span>\n</a>\n</th>\n</tr>\n</thead>\n<tbody
-        id=\"torrentListResults\" class=\"alt-colors\">\n<tr id=\"torrent_96659\"
-        class=\"torrent-info \">\n<td class=\"tr-cat home-td\">\n<div class=\"nyaa-cat
-        nyaa-cat-1\">\n<a href=\"/search?c=1_1\" title=\"Software - Applications\"
-        class=\"category\">\n</a>\n</div>\n</td>\n<td class=\"tr-name home-td\" colspan=\"2\">\n<a
-        href=\"/view/96659\">\nKoha Live CD Release 3 (3.0.4 Ubuntu 9.10 Desktop x86)\n</a>\n</td>\n<td
-        class=\"tr-links home-td\">\n<a href=\"magnet:?xt=urn:btih:45008E48C8800B7D7643337B2E70A634E4C69F6A&amp;dn=Koha+Live+CD+Release+3+%283.0.4+Ubuntu+9.10+Desktop+x86%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce\"
-        title=\"Magnet Link\">\n<div class=\"icon-magnet\"></div>\n</a>\n<a href=\"http://anicache.com/torrent/45008E48C8800B7D7643337B2E70A634E4C69F6A.torrent\"
-        title=\"Torrent file\" class=\"hidden\">\n<div class=\"icon-floppy\"></div>\n</a>\n</td>\n<td
-        class=\"tr-size home-td hide-xs\">\n624.0 MiB\n</td>\n<td class=\"tr-se home-td
-        hide-smol\">0</td>\n<td class=\"tr-le home-td hide-smol\">1</td>\n<td class=\"tr-dl
-        home-td hide-xs\">0</td>\n<td class=\"tr-date home-td date-short hide-xs\"
-        title=\"11/3/2009, 1:03:00 PM UTC+0\">Nov 3, 2009</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div
-        id=\"mascot\" class=\"hide-xs\" onclick=\"playVoice();\"></div>\n<audio id=\"nyanpassu\"
-        hidden preload=\"none\">\n<source src=\"https://a.doko.moe/sewang.mp3\" type=\"audio/mpeg\">\n</audio>\n<div
-        class=\"container bottom\">\n<div class=\"pagination\">\n<a class=\"page-prev\"
-        style=\"display:none;\" aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a><a
-        aria-label=\"Page 1\" href=\"/search/1?c=_&q=ubuntu\"><span class=\"active\">1</span></a><a
-        class=\"page-next\" style=\"display:none;\" aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a><p>1-1/1</p>\n</div>\n</div>\n<div
-        id=\"cookie-warning\"><span id=\"cookie-warning-close\" class=\"close\">\xD7</span>By
-        using this website, you agree to the usage of cookies for purposes such as
-        customizing content.<br />This message will be hidden at the next page load.</div>\n<div
-        class=\"centered\">\n\n<iframe id='a1ac8db1' name='a1ac8db1' src='https://eki.trafficsan.com/server/www/uchi/sugoiafr.php?baka=13&zoneid=160&amp;cb={random}&amp;ct0={clickurl_enc}'
-        frameborder='0' scrolling='no' width='728' height='90'><a href='https://eki.trafficsan.com/server/www/uchi/sugoick.php?n=ad627fb5&amp;cb={random}'
-        target='_blank'><img src='https://eki.trafficsan.com/server/www/uchi/sugoiavw.php?zoneid=160&amp;cb={random}&amp;n=ad627fb5&amp;ct0={clickurl_enc}'
-        border='0' alt='' /></a></iframe>\n</div>\n<footer id=\"footer\">\n<div class=\"container
-        footer center\">\n<div class=\"footer-opt\">\n<p><a href=\"/settings\">Change
-        Appearance/Settings</a><a id=\"dark-toggle\" href=\"/dark/search?c=_&amp;q=ubuntu\">
-        - Toggle Dark Mode</a></p>\n</div>\n<span><i>Powered by <a href=\"#\">Nyaa
-        Pantsu</a> v1.1.0 - commit <a id=\"commit\" href=\"https://github.com/NyaaPantsu/nyaa/commit/\"></a></i></span>\n</div>\n</footer>\n</div>\n<script
-        type=\"text/javascript\">\n          var commitVersion = \"\",\n              websiteVersion
-        = \"1.1.0\",\n              UserID = 0,\n              domain = \".pantsu.cat,
-        .nyaa.pt, .nyoo.moe\",\n              darkTheme = \"tomorrow\",\n              hmFmt
-        = \"{0} hours {1} minutes ago\",\n              dhFmt = \"{0} days {1} hours
-        ago\";\n        </script>\n<script type=\"text/javascript\" src=\"/js/query.js?v=1.1.0\"></script>\n<script
-        type=\"text/javascript\" charset=\"utf-8\" src=\"/js/main.js?v=1.1.0\" async></script>\n<script
+        class=\"sortarrowdim\">\u25B2</span></span></a></th>\n\n        <th class=\"tr-se
+        hide-smol\">\n          <a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=5\">\n
+        \           S\n            <span class=\"sort-arrows\"><span class=\"sortarrowleft
+        sortarrowdim\">\u25BC</span><span class=\"sortarrowdim\">\u25B2</span></span>\n
+        \         </a>\n        </th>\n        <th class=\"tr-le hide-smol\">\n          <a
+        href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=6\">\n            L\n
+        \           <span class=\"sort-arrows\"><span class=\"sortarrowleft sortarrowdim\">\u25BC</span><span
+        class=\"sortarrowdim\">\u25B2</span></span>\n          </a>\n        </th>\n
+        \       <th class=\"tr-dl hide-xs\">\n          <a href=\"/search?c=_&amp;order=false&amp;q=ubuntu&amp;sort=7\">\n
+        \           D\n            <span class=\"sort-arrows\"><span class=\"sortarrowleft
+        sortarrowdim\">\u25BC</span><span class=\"sortarrowdim\">\u25B2</span></span>\n
+        \         </a>\n        </th>\n        <!-- <th><span class=\"glyphicon glyphicon-comment\"></span></th>
+        -->\n        <th class=\"tr-date hide-xs\"><a href=\"/search?c=_&amp;order=true&amp;q=ubuntu&amp;sort=2\">\n
+        \         Date\n          <span class=\"sort-arrows\"><span class=\"sortarrowleft
+        \">\u25BC</span><span class=\"sortarrowdim\">\u25B2</span></span>\n        </a>\n
+        \     </th>\n    </tr>\n  </thead>\n  <tbody id=\"torrentListResults\" class=\"alt-colors\">\n
+        \   \n    <tr id=\"torrent_96659\" class=\"torrent-info \">\n      \n      <td
+        class=\"tr-cat home-td\">\n        <div class=\"nyaa-cat nyaa-cat-1\">\n          <a
+        href=\"/search?c=1_1\" title=\"Software - Applications\" class=\"category\">\n
+        \         </a>\n          \n        </div>\n      </td>\n        <td class=\"tr-name
+        home-td\" colspan=\"2\">\n          <a href=\"/view/96659\">\n            Koha
+        Live CD Release 3 (3.0.4 Ubuntu 9.10 Desktop x86)\n          </a>\n        </td>\n
+        \       \n        <td class=\"tr-links home-td\">\n          <a href=\"magnet:?xt=urn:btih:45008E48C8800B7D7643337B2E70A634E4C69F6A&amp;dn=Koha+Live+CD+Release+3+%283.0.4+Ubuntu+9.10+Desktop+x86%29&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce&amp;tr=udp://tracker.uw0.xyz:6969/announce&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;tr=udp://tracker.zer0day.to:1337/announce&amp;tr=udp://tracker.leechers-paradise.org:6969&amp;tr=udp://explodie.org:6969&amp;tr=udp://tracker.opentrackr.org:1337&amp;tr=udp://tracker.internetwarriors.net:1337/announce&amp;tr=http://mgtracker.org:6969/announce&amp;tr=udp://ipv6.leechers-paradise.org:6969/announce&amp;tr=http://nyaa.tracker.wf:7777/announce&amp;tr=http://sukebei.tracker.wf:7777/announce&amp;tr=http://tracker.anirena.com:80/announce&amp;tr=http://anidex.moe:6969/announce\"
+        title=\"Magnet Link\">\n            <div class=\"icon-magnet\"></div>\n          </a>\n
+        \         <a href=\"http://anicache.com/torrent/45008E48C8800B7D7643337B2E70A634E4C69F6A.torrent\"
+        title=\"Torrent file\" class=\"hidden\">\n            <div class=\"icon-floppy\"></div>\n
+        \         </a>\n        </td>\n        <td class=\"tr-size home-td hide-xs\">\n
+        \         624.0 MiB\n        </td>\n        \n        <td class=\"tr-se home-td
+        hide-smol\">0</td>\n        <td class=\"tr-le home-td hide-smol\">1</td>\n
+        \       <td class=\"tr-dl home-td hide-xs\">0</td>\n        \n        <td
+        class=\"tr-date home-td date-short hide-xs\" title=\"11/3/2009, 1:03:00 PM
+        UTC+0\">Nov 3, 2009</td>\n      </tr>\n      \n    </tbody>\n  </table>\n</div>\n\n\n\n
+        \   </div>\n    \n    \n    <div id=\"mascot\" class=\"hide-xs\" onclick=\"playVoice();\"
+        ></div>\n    \n    \n    \n    <audio id=\"nyanpassu\" hidden preload=\"none\">\n
+        \     <source src=\"https://a.uchi.moe/sewang.mp3\" type=\"audio/mpeg\">\n
+        \   </audio>\n    \n    \n    \n    \n    \n    <div class=\"container bottom\">\n
+        \       <div class=\"pagination\">\n          <a class=\"page-prev\" style=\"display:none;\"
+        aria-label=\"Previous\"><span aria-hidden=\"true\">&laquo;</span></a><a aria-label=\"Page
+        1\" href=\"/search/1?c=_&q=ubuntu\"><span class=\"active\">1</span></a><a
+        class=\"page-next\" style=\"display:none;\" aria-label=\"Next\"><span aria-hidden=\"true\">&raquo;</span></a><p>1-1/1</p>\n
+        \       </div>\n    </div>\n    \n    <div id=\"cookie-warning\"><span id=\"cookie-warning-close\"
+        class=\"close\">\xD7</span>By using this website, you agree to the usage of
+        cookies for purposes such as customizing content.<br/>This message will be
+        hidden at the next page load.</div>\n    <div class=\"centered\">\n\n<!--\n<a
+        href=\"http://bit.ly/sukasuka-anime\"><img alt=\"NyaaPantsu Ads\" class=\"wb-w\"
+        src=\"https://a.doko.moe/kvchvg.jpg\"></a>\n-->\n\n\n </div>\n    <footer
+        id=\"footer\">\n      <div class=\"container footer center\">\n        <div
+        class=\"footer-opt\">\n          <p><a href=\"/settings\">Change Appearance/Settings</a><a
+        id=\"dark-toggle\" href=\"/dark/search?c=_&amp;q=ubuntu\"> - Toggle Dark Mode</a></p>\n
+        \       </div>\n        <span><i>Powered by <a href=\"#\">Nyaa Pantsu</a>
+        v1.1.0 - commit <a id=\"commit\" href=\"https://github.com/NyaaPantsu/nyaa/commit/\"></a></i></span>\n
+        \     </div>\n    </footer>\n  </div>\n  <script type=\"text/javascript\">\n
+        \         var commitVersion = \"\",\n              websiteVersion = \"1.1.0\",\n
+        \             UserID = 0,\n              domain = \".pantsu.cat, .nyaa.pt,
+        .nyoo.moe, .nyaa.net, nyaa.net\",\n              darkTheme = \"tomorrow\",\n
+        \             hmFmt = \"{0} hours {1} minutes ago\",\n              dhFmt
+        = \"{0} days {1} hours ago\";\n        </script>\n  <script type=\"text/javascript\"
+        src=\"/js/query.js?v=1.1.0\"></script>\n  <script type=\"text/javascript\"
+        charset=\"utf-8\" src=\"/js/main.js?v=1.1.0\" async></script>\n  \n<script
         type=\"text/javascript\" src=\"/js/template.js\"></script>\n<script type=\"text/javascript\"
         src=\"/js/modal.js\"></script>\n<script type=\"text/javascript\" src=\"/js/torrents.js\"></script>\n<script
-        type=\"text/javascript\" src=\"/js/translation.js\"></script>\n\n<script type=\"text/javascript\">\n//
-        \nT.Add(\"3_12\", \"Anime - Anime Music Video\")\n// \nT.Add(\"3_5\", \"Anime
-        - English-translated\")\n// \nT.Add(\"3_13\", \"Anime - Non-English-translated\")\n//
-        \nT.Add(\"3_6\", \"Anime - Raw\")\n// \nT.Add(\"2_3\", \"Audio - Lossless\")\n//
-        \nT.Add(\"2_4\", \"Audio - Lossy\")\n// \nT.Add(\"4_7\", \"Literature - English-translated\")\n//
+        type=\"text/javascript\" src=\"/js/translation.js\"></script>\n\n<!-- JS Template
+        for torrents ajax -->\n<script type=\"text/javascript\">\n// \nT.Add(\"3_12\",
+        \"Anime - Anime Music Video\")\n// \nT.Add(\"3_5\", \"Anime - English-translated\")\n//
+        \nT.Add(\"3_13\", \"Anime - Non-English-translated\")\n// \nT.Add(\"3_6\",
+        \"Anime - Raw\")\n// \nT.Add(\"2_3\", \"Audio - Lossless\")\n// \nT.Add(\"2_4\",
+        \"Audio - Lossy\")\n// \nT.Add(\"4_7\", \"Literature - English-translated\")\n//
         \nT.Add(\"4_14\", \"Literature - Non-English-translated\")\n// \nT.Add(\"4_8\",
         \"Literature - Raw\")\n// \nT.Add(\"5_9\", \"Live Action - English-translated\")\n//
         \nT.Add(\"5_10\", \"Live Action - Idol/Promotional Video\")\n// \nT.Add(\"5_18\",
@@ -340,17 +352,6 @@ interactions:
         - Raw\")\n// \nT.Add(\"6_15\", \"Pictures - Graphics\")\n// \nT.Add(\"6_16\",
         \"Pictures - Photos\")\n// \nT.Add(\"1_1\", \"Software - Applications\")\n//
         \nT.Add(\"1_2\", \"Software - Games\")\n// \n// \nT.Add(\"ca\", \"Catalan\")\n//
-        \n// \nT.Add(\"de\", \"German\")\n// \n// \nT.Add(\"en\", \"English\")\n//
-        \n// \nT.Add(\"es\", \"Spanish, Mexican Spanish\")\n// \nT.Add(\"es, es-mx\",
-        \"Spanish, Mexican Spanish\")\n// \n// \nT.Add(\"fr\", \"French\")\n// \n//
-        \nT.Add(\"hu\", \"Hungarian\")\n// \n// \nT.Add(\"id\", \"Indonesian\")\n//
-        \n// \nT.Add(\"is\", \"Icelandic\")\n// \n// \nT.Add(\"it\", \"Italian\")\n//
-        \n// \nT.Add(\"ja\", \"Japanese\")\n// \n// \nT.Add(\"ko\", \"Korean\")\n//
-        \n// \nT.Add(\"nb\", \"Norwegian Bokm\xE5l\")\n// \n// \nT.Add(\"nl\", \"Dutch\")\n//
-        \n// \nT.Add(\"pt\", \"Portuguese\")\n// \n// \nT.Add(\"ro\", \"Romanian\")\n//
-        \n// \nT.Add(\"ru\", \"Russian\")\n// \n// \nT.Add(\"sv\", \"Swedish\")\n//
-        \n// \nT.Add(\"th\", \"Thai\")\n// \n// \nT.Add(\"zh\", \"Chinese\")\n// \n//
-        \nT.Add(\"zh-Hant\", \"Traditional Chinese\")\n// \n// \nT.Add(\"ca\", \"Catalan\")\n//
         \n// \nT.Add(\"de\", \"German\")\n// \n// \nT.Add(\"en\", \"English\")\n//
         \n// \nT.Add(\"es\", \"Spanish, Mexican Spanish\")\n// \nT.Add(\"es, es-mx\",
         \"Spanish, Mexican Spanish\")\n// \n// \nT.Add(\"fr\", \"French\")\n// \n//
@@ -394,41 +395,31 @@ interactions:
         \       <td class=\"tr-le home-td hide-smol\">` + stats[1] + `</td>\n        <td
         class=\"tr-dl home-td hide-xs\">` + stats[2] + `</td>\n        <td class=\"tr-date
         home-td date-short hide-xs\" title=\"` + torrent.date + `\">` + torrent.date
-        + `</td>\n    </tr>`;\n});\n</script>\n<script type=\"text/javascript\">\nTorrents.LastID
-        = 96659;\nif (Torrents.LastID > 0) Torrents.CanRefresh = true;\n</script>\n</body>\n</html>\n"}
+        + `</td>\n    </tr>`;\n});\n</script>\n\n<script type=\"text/javascript\">\nTorrents.LastID
+        = 96659;\nif (Torrents.LastID > 0) Torrents.CanRefresh = true;\n</script>\n\n\n</body>\n</html>\n"
     headers:
-      ? !!python/object/new:multidict._istr.istr [Access-Control-Allow-Origin]
-      : '*'
-      CF-RAY: 4b4799cb6c6e97ec-FRA
-      ? !!python/object/new:multidict._istr.istr [Connection]
-      : keep-alive
-      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
-      : gzip
+      Access-Control-Allow-Origin: '*'
+      CF-Cache-Status: DYNAMIC
+      CF-RAY: 52820df74e5ad41f-BUD
+      Connection: keep-alive
+      Content-Encoding: gzip
       Content-Security-Policy: default-src 'self'; img-src * data:; media-src *; style-src
         'self' maxcdn.bootstrapcdn.com fonts.googleapis.com * 'unsafe-inline'; script-src
         'self' 'unsafe-inline' 'unsafe-eval' go.ero-advertising.com juicyads.com *.juicyads.com
-        crate.widgetbot.io *.pantsu.cat * ; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com;
-        child-src juicyads.com *.juicyads.com widgetbot.io *; connect-src 'self' r.remarketingpixel.com
-        *.urldelivery.com go.ero-advertising.com etahub.com n.pc1ads.com native.propellerads.com
-        syndication.exosrv.com *.exosrv.com *.widgetbot.io pagead2.googlesyndication.com
-        *.googlesyndication.com;
-      ? !!python/object/new:multidict._istr.istr [Content-Type]
-      : text/html; charset=utf-8
-      ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 08 Mar 2019 20:36:20 GMT
+        crate.widgetbot.io *.pantsu.cat * ; font-src 'self' * fonts.gstatic.com maxcdn.bootstrapcdn.com;
+        child-src juicyads.com *.juicyads.com widgetbot.io *; connect-src 'self' servedby.revive-adserver.net
+        *.revive-adserver.net r.remarketingpixel.com *.urldelivery.com go.ero-advertising.com
+        etahub.com n.pc1ads.com native.propellerads.com syndication.exosrv.com *.exosrv.com
+        *.widgetbot.io pagead2.googlesyndication.com *.googlesyndication.com;
+      Content-Type: text/html; charset=utf-8
+      Date: Sat, 19 Oct 2019 10:26:34 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      ? !!python/object/new:multidict._istr.istr [Server]
-      : cloudflare
-      ? !!python/object/new:multidict._istr.istr [Set-Cookie]
-      : __cfduid=d44c395405ae96f92006f7117b9af8be81552077380; expires=Sat, 07-Mar-20
-        20:36:20 GMT; path=/; domain=.pantsu.cat; HttpOnly
-      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
-      : chunked
-      ? !!python/object/new:multidict._istr.istr [Vary]
-      : Accept-Encoding
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, nyaa.pantsu.cat, /search,
-        c=_&q=ubuntu, '']
+      Server: cloudflare
+      Set-Cookie: EU_Cookie=true; Path=/; Expires=Sun, 18 Oct 2020 10:24:51 GMT
+      Transfer-Encoding: chunked
+      Vary: Cookie
+    status:
+      code: 200
+      message: OK
+    url: https://nyaa.net/search?c=_&q=ubuntu
 version: 1

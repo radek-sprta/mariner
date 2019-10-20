@@ -1,12 +1,14 @@
 interactions:
 - request:
-    body: null
+    body: {}
     headers:
-      User-Agent: ['Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
     uri: https://nyaa.si/?f=0&c=0_0&q=ubuntu
   response:
-    body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>ubuntu
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>ubuntu
         :: Nyaa</title>\n\n\t\t<meta name=\"viewport\" content=\"width=480px\">\n\t\t<meta
         http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<link rel=\"shortcut
         icon\" type=\"image/png\" href=\"/static/favicon.png\">\n\t\t<link rel=\"icon\"
@@ -32,7 +34,7 @@ interactions:
         integrity=\"sha256-an4uqLnVJ2flr7w0U74xiF4PJjO2N5Df91R2CUmCLCA=\" crossorigin=\"anonymous\"
         />\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"
         integrity=\"sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\" crossorigin=\"anonymous\"
-        />\n\n\t\t<!-- Custom styles for this template -->\n\t\t<link href=\"/static/css/main.css?t=1524630038\"
+        />\n\n\t\t<!-- Custom styles for this template -->\n\t\t<link href=\"/static/css/main.css?t=1565727484\"
         rel=\"stylesheet\">\n\n\t\t<!-- Core JavaScript -->\n\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"
         integrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>\n\t\t<script
         src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js\"
@@ -41,7 +43,7 @@ interactions:
         integrity=\"sha256-3WZyZQOe+ql3pLo90lrkRtALrlniGdnf//gRpW0UQks=\" crossorigin=\"anonymous\"></script>\n\t\t<!--
         Modified to not apply border-radius to selectpickers and stuff so our navbar
         looks cool -->\n\t\t<script src=\"/static/js/bootstrap-select.min.js?t=1522850768\"></script>\n\t\t<script
-        src=\"/static/js/main.min.js?t=1533264185\"></script>\n\n\t\t<script async
+        src=\"/static/js/main.min.js?t=1565727484\"></script>\n\n\t\t<script async
         src=\"https://www.googletagmanager.com/gtag/js?id=UA-107733743-2\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer
         = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments)};\n\t\t\tgtag('js',
         new Date());\n\n\t\t\tgtag('config', 'UA-107733743-2');\n\t\t</script>\n\n\t\t<!--
@@ -156,61 +158,55 @@ interactions:
         -->\n\t\t\t</div><!--/.container -->\n\t\t</nav>\n\n\t\t<div class=\"container\">\n\n\n\n\n<div
         class=\"alert alert-info\">\n\t<a href=\"/user/ubuntu?f=0&amp;c=0_0&amp;q=\">Click
         here to see only results uploaded by ubuntu</a>\n</div>\n\n<div class=\"table-responsive\">\n\t<table
-        class=\"table table-bordered table-hover table-striped torrent-list\">\n\t\t<thead>\n\t\t\t<tr>\n<th
-        \ class=\"hdr-category text-center\"  style=\"width:80px;\">\n\t\t\t\t\t\t<div>Category</div>\n\n</th>\n<th
-        \ class=\"hdr-name\"  style=\"width:auto;\">\n\t\t\t\t\t\t<div>Name</div>\n\n</th>\n<th
-        \ class=\"hdr-comments sorting text-center\" title=\"Comments\" style=\"width:50px;\">\n\t<a
-        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=comments&amp;o=desc\"></a>\n\t\t\t\t\t\t<i
-        class=\"fa fa-comments-o\"></i>\n\n</th>\n<th  class=\"hdr-link text-center\"
-        \ style=\"width:70px;\">\n\t\t\t\t\t\t<div>Link</div>\n\n</th>\n<th  class=\"hdr-size
-        sorting text-center\"  style=\"width:100px;\">\n\t<a href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=size&amp;o=desc\"></a>\n\t\t\t\t\t\t<div>Size</div>\n\n</th>\n<th
-        \ class=\"hdr-date sorting_desc text-center\" title=\"In UTC\" style=\"width:140px;\">\n\t<a
-        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=id&amp;o=asc\"></a>\n\t\t\t\t\t\t<div>Date</div>\n\n</th>\n\n<th
-        \ class=\"hdr-seeders sorting text-center\" title=\"Seeders\" style=\"width:50px;\">\n\t<a
-        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=seeders&amp;o=desc\"></a>\n\t\t\t\t\t\t<i
-        class=\"fa fa-arrow-up\" aria-hidden=\"true\"></i>\n\n</th>\n<th  class=\"hdr-leechers
-        sorting text-center\" title=\"Leechers\" style=\"width:50px;\">\n\t<a href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=leechers&amp;o=desc\"></a>\n\t\t\t\t\t\t<i
-        class=\"fa fa-arrow-down\" aria-hidden=\"true\"></i>\n\n</th>\n<th  class=\"hdr-downloads
-        sorting text-center\" title=\"Completed downloads\" style=\"width:50px;\">\n\t<a
-        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=downloads&amp;o=desc\"></a>\n\t\t\t\t\t\t<i
-        class=\"fa fa-check\" aria-hidden=\"true\"></i>\n\n</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr
-        class=\"default\">\n\t\t\t\t<td style=\"padding:0 4px;\">\n\t\t\t\t<a href=\"/?c=6_1\"
-        title=\"Software - Applications\">\n\t\t\t\t\t<img src=\"/static/img/icons/nyaa/6_1.png\"
-        alt=\"Software - Applications\" style=\"width: 80px; height: 28px;\">\n\t\t\t\t</a>\n\t\t\t\t</td>\n\t\t\t\t<td
+        class=\"table table-bordered table-hover table-striped torrent-list\">\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th
+        class=\"hdr-category text-center\" style=\"width:80px;\">Category</th>\n\t\t\t\t<th
+        class=\"hdr-name\" style=\"width:auto;\">Name</th>\n\t\t\t\t<th class=\"hdr-comments
+        sorting text-center\" title=\"Comments\" style=\"width:50px;\"><a href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=comments&amp;o=desc\"></a><i
+        class=\"fa fa-comments-o\"></i></th>\n\t\t\t\t<th class=\"hdr-link text-center\"
+        style=\"width:70px;\">Link</th>\n\t\t\t\t<th class=\"hdr-size sorting text-center\"
+        style=\"width:100px;\"><a href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=size&amp;o=desc\"></a>Size</th>\n\t\t\t\t<th
+        class=\"hdr-date sorting_desc text-center\" title=\"In UTC\" style=\"width:140px;\"><a
+        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=id&amp;o=asc\"></a>Date</th>\n\n\t\t\t\t<th
+        class=\"hdr-seeders sorting text-center\" title=\"Seeders\" style=\"width:50px;\"><a
+        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=seeders&amp;o=desc\"></a><i class=\"fa
+        fa-arrow-up\" aria-hidden=\"true\"></i></th>\n\t\t\t\t<th class=\"hdr-leechers
+        sorting text-center\" title=\"Leechers\" style=\"width:50px;\"><a href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=leechers&amp;o=desc\"></a><i
+        class=\"fa fa-arrow-down\" aria-hidden=\"true\"></i></th>\n\t\t\t\t<th class=\"hdr-downloads
+        sorting text-center\" title=\"Completed downloads\" style=\"width:50px;\"><a
+        href=\"/?f=0&amp;c=0_0&amp;q=ubuntu&amp;s=downloads&amp;o=desc\"></a><i class=\"fa
+        fa-check\" aria-hidden=\"true\"></i></th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr
+        class=\"default\">\n\t\t\t\t<td>\n\t\t\t\t\t<a href=\"/?c=6_1\" title=\"Software
+        - Applications\">\n\t\t\t\t\t\t<img src=\"/static/img/icons/nyaa/6_1.png\"
+        alt=\"Software - Applications\" class=\"category-icon\">\n\t\t\t\t\t</a>\n\t\t\t\t</td>\n\t\t\t\t<td
         colspan=\"2\">\n\t\t\t\t\t<a href=\"/view/96659\" title=\"Koha Live CD Release
         3 (3.0.4 Ubuntu 9.10 Desktop x86)\">Koha Live CD Release 3 (3.0.4 Ubuntu 9.10
-        Desktop x86)</a>\n\t\t\t\t</td>\n\t\t\t\t<td class=\"text-center\" style=\"white-space:
-        nowrap;\">\n<a href=\"/download/96659.torrent\"><i class=\"fa fa-fw fa-download\"></i></a>\t\t\t\t\t<a
+        Desktop x86)</a>\n\t\t\t\t</td>\n\t\t\t\t<td class=\"text-center\">\n\t\t\t\t\t<a
+        href=\"/download/96659.torrent\"><i class=\"fa fa-fw fa-download\"></i></a>\n\t\t\t\t\t<a
         href=\"magnet:?xt=urn:btih:45008e48c8800b7d7643337b2e70a634e4c69f6a&amp;dn=Koha%20Live%20CD%20Release%203%20%283.0.4%20Ubuntu%209.10%20Desktop%20x86%29&amp;tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce\"><i
         class=\"fa fa-fw fa-magnet\"></i></a>\n\t\t\t\t</td>\n\t\t\t\t<td class=\"text-center\">624.0
         MiB</td>\n\t\t\t\t<td class=\"text-center\" data-timestamp=\"1257231780\">2009-11-03
-        07:03</td>\n\n\t\t\t\t<td class=\"text-center\" style=\"color: green;\">0</td>\n\t\t\t\t<td
-        class=\"text-center\" style=\"color: red;\">0</td>\n\t\t\t\t<td class=\"text-center\">0</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div>\n\n<div
+        07:03</td>\n\n\t\t\t\t<td class=\"text-center\">0</td>\n\t\t\t\t<td class=\"text-center\">0</td>\n\t\t\t\t<td
+        class=\"text-center\">0</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div>\n\n<div
         class=\"center\">\n\t<div class=\"pagination-page-info\">Displaying results
         1-1 out of 1 results.<br>\nPlease refine your search results if you can't
         find what you were looking for.</div>\n\t\n</div>\n\t\t</div> <!-- /container
         -->\n\n\t\t<footer style=\"text-align: center;\">\n\t\t\t<p>Dark Mode: <a
-        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/6a63ee241afc032ce332d9832b775f601905db08\">6a63ee2</a></p>\n\t\t</footer>\n\t</body>\n</html>"}
+        href=\"#\" id=\"themeToggle\">Toggle</a></p>\n\t\t\t<p>Commit: <a href=\"https://github.com/nyaadevs/nyaa/tree/97c32a483f2e5c553b8a01e147d441b06b48a195\">97c32a4</a></p>\n\t\t</footer>\n\t</body>\n</html>"
     headers:
-      ? !!python/object/new:multidict._istr.istr [Cache-Control]
-      : no-cache, no-store, must-revalidate
-      ? !!python/object/new:multidict._istr.istr [Connection]
-      : keep-alive
-      ? !!python/object/new:multidict._istr.istr [Content-Encoding]
-      : gzip
-      ? !!python/object/new:multidict._istr.istr [Content-Type]
-      : text/html; charset=utf-8
-      ? !!python/object/new:multidict._istr.istr [Date]
-      : Fri, 08 Mar 2019 20:36:18 GMT
+      Cache-Control: no-cache, no-store, must-revalidate
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=utf-8
+      Date: Sat, 19 Oct 2019 10:26:32 GMT
+      Keep-Alive: timeout=60
       Referrer-Policy: same-origin
-      ? !!python/object/new:multidict._istr.istr [Server]
-      : nginx
-      ? !!python/object/new:multidict._istr.istr [Transfer-Encoding]
-      : chunked
-      X-Proxy-Cache: EXPIRED
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, nyaa.si, /, f=0&c=0_0&q=ubuntu,
-        '']
+      Server: ngjit
+      Set-Cookie: __ddg1=88E0960BC76080D3D919818024D80D5C7C8F7B5C; Domain=.nyaa.si;
+        HttpOnly; Path=/; Max-Age=31536000
+      Transfer-Encoding: chunked
+      X-Proxy-Cache: MISS
+    status:
+      code: 200
+      message: OK
+    url: https://nyaa.si/?f=0&c=0_0&q=ubuntu
 version: 1

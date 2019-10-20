@@ -1,5 +1,5 @@
 """Mariner - navigate torrents in CLI."""
-VERSION = (1, 3, 0)
+VERSION = (1, 4, 0)
 
 __title__ = "Mariner"
 __description__ = "Navigate torrents in CLI"
