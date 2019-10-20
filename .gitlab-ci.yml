@@ -76,7 +76,6 @@ test:python37:
   extends: .code
   script:
     - tox -e py37
-    - codecov --token=69b7f6f2-c281-4b78-862d-396e8e6f8b1b
   retry: 1
 
 test:python38:
@@ -85,6 +84,8 @@ test:python38:
   extends: .code
   script:
     - tox -e py38
+    - codecov --token=$COVERAGE_TOKEN
+  retry: 1
 
 build:package:
   stage: build
