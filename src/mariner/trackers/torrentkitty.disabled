@@ -1,0 +1,48 @@
+# -*- coding: future_fstrings -*-
+"""Module for searching torrents on TorrentKitty."""
+import logging
+from typing import Iterator
+
+import bs4
+
+from mariner import torrent, trackerplugin
+
+
+class TorrentKitty(trackerplugin.TrackerPlugin):
+    """Represents TorrentKitty.tv search engine."""
+
+    log = logging.getLogger(__name__)
+
+    filters = {"dht"}
+    search_url = "https://torrentkitty.tv/search/{title}"
+
+    def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
+        """Parse result page.
+
+        Args:
+          raw: Raw HTML results to parse.
+
+        Returns:
+            List of torrent names with magnet links and URLs.
+        """
+        soup = bs4.BeautifulSoup(raw, "lxml")
+        try:
+            contents = soup.select("table.archiveResult tr")[1:]
+            for content in contents:
+                data = content.select("td")
+                name = str(data[0].string)
+                tracker = self.__class__.__name__
+
+                date = str(data[2].string)
+
+                links = data[4].select("a")
+                magnet = links[1].get("href")
+
+                yield torrent.Torrent(
+                    name,
+                    tracker,
+                    magnet=magnet,
+                    date=date,
+                )
+        except IndexError:
+            yield from []
