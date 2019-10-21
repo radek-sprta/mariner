@@ -39,8 +39,8 @@ class Anidex(trackerplugin.TrackerPlugin):
 
                 size = str(data[6].string)
                 date = str(data[7].string)
-                seeds = int(data[8].text)
-                leeches = int(data[9].string)
+                seeds = self._parse_number(data[8].text)
+                leeches = self._parse_number(data[9].string)
 
                 yield torrent.Torrent(
                     name,
