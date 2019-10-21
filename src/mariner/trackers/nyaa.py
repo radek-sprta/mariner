@@ -41,8 +41,8 @@ class Nyaa(trackerplugin.TrackerPlugin):
 
                 size = str(data[3].string)
                 date = str(data[4].string)
-                seeds = int(data[5].string)
-                leeches = int(data[6].string)
+                seeds = self._parse_number(data[5].string)
+                leeches = self._parse_number(data[6].string)
 
                 yield torrent.Torrent(
                     name,
