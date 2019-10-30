@@ -62,3 +62,9 @@ def test_invalid_color():
     # THEN a ValueError should be raised
     with pytest.raises(ValueError):
         utils.color("", color)
+
+def test_parse_number():
+    """Returns an integer out of number string."""
+    assert utils.parse_number("1,000,000") == 1000000
+    assert utils.parse_number("1 000 000") == 1000000
+    assert utils.parse_number("-") == 0
