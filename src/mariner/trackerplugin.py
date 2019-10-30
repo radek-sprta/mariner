@@ -149,6 +149,8 @@ class ProxyTrackerPlugin(mixins.RequestMixin, abc.ABC, metaclass=TrackerMeta):
         Return:
             Parsed number.
         """
+        if number == "-":
+            return 0
         squashed = number.replace(" ", "")
         return int(squashed.replace(",", ""))
 
