@@ -5,7 +5,7 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin
+from mariner import torrent, trackerplugin, utils
 
 
 class TokyoTosho(trackerplugin.TrackerPlugin):
@@ -46,9 +46,9 @@ class TokyoTosho(trackerplugin.TrackerPlugin):
 
                 stats = content.select("td.stats")[0].select("span")
                 raw_seeds = stats[0].string
-                result.seeds = self._parse_number(raw_seeds)
+                result.seeds = utils.parse_number(raw_seeds)
                 raw_leeches = stats[1].string
-                result.leeches = self._parse_number(raw_leeches)
+                result.leeches = utils.parse_number(raw_leeches)
                 yield result
 
     @staticmethod

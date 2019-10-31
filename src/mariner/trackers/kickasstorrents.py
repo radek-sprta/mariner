@@ -7,7 +7,7 @@ from typing import Dict, Iterator
 import aiohttp
 import bs4
 
-from mariner import torrent, trackerplugin
+from mariner import torrent, trackerplugin, utils
 
 
 class KickAssTorrents(trackerplugin.TrackerPlugin):
