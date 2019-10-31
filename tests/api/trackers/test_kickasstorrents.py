@@ -27,11 +27,6 @@ class TestKickAssTorrents:
         for result in search:
             assert result.name != None
 
-    def test_parse_number(self, tracker):
-        """Returns an integer out of number string."""
-        assert tracker._parse_number("1,000,000") == 1000000
-        assert tracker._parse_number("1 000 000") == 1000000
-
     @pytest.mark.vcr()
     def test_no_results(self, tracker, event_loop):
         # GIVEN a tracker
