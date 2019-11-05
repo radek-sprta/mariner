@@ -31,7 +31,7 @@ class TestConfig:
 
     def test_change_config(self, run):
         # GIVEN a configuration
-        expected = "Updated \x1b[32mtimeout\x1b[0m to \x1b[32m100\x1b[0m\n"
+        expected = "Updated timeout to 100\n"
 
         # WHEN changing an option
         result = run("config", "timeout", "100")[1]
