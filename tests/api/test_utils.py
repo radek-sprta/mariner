@@ -34,14 +34,13 @@ def colors():
     return [
         ("36m", utils.cyan),
         ("32m", utils.green),
-        ("35m", utils.magenta),
         ("31m", utils.red),
         ("33m", utils.yellow),
     ]
 
 
 def colors_ids():
-    return ["cyan", "green", "magenta", "red", "yellow"]
+    return ["cyan", "green", "red", "yellow"]
 
 
 @pytest.mark.parametrize("color_code, color_function", colors(), ids=colors_ids())
@@ -62,6 +61,7 @@ def test_invalid_color():
     # THEN a ValueError should be raised
     with pytest.raises(ValueError):
         utils.color("", color)
+
 
 def test_parse_number():
     """Returns an integer out of number string."""

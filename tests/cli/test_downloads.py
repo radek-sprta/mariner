@@ -8,15 +8,15 @@ class TestDownloads:
         [
             (
                 "0",
-                '"\x1b[35mName\x1b[0m","\x1b[35mSaved to\x1b[0m"\n"\x1b[33mubuntu-13.04-desktop-i386.iso\x1b[0m"',
+                '"Name","Saved to"\n"ubuntu-13.04-desktop-i386.iso"',
             ),
             (
                 "1",
-                '"\x1b[35mName\x1b[0m","\x1b[35mSaved to\x1b[0m"\n"\x1b[33mubuntu-13.04-server-amd64.iso\x1b[0m"',
+                '"Name","Saved to"\n"ubuntu-13.04-server-amd64.iso"',
             ),
             (
                 "2",
-                '"\x1b[35mName\x1b[0m","\x1b[35mSaved to\x1b[0m"\n"\x1b[33mubuntustudio-12.04-dvd-amd64.iso\x1b[0m"',
+                '"Name","Saved to"\n"ubuntustudio-12.04-dvd-amd64.iso"',
             ),
         ],
         ids=["0", "1", "2"],

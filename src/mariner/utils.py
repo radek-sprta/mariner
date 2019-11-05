@@ -43,7 +43,6 @@ def color(string: Any, text_color: str) -> str:
     colors["blue"] = colorama.Fore.BLUE
     colors["cyan"] = colorama.Fore.CYAN
     colors["green"] = colorama.Fore.GREEN
-    colors["magenta"] = colorama.Fore.MAGENTA
     colors["red"] = colorama.Fore.RED
     colors["yellow"] = colorama.Fore.YELLOW
     if text_color not in colors.keys():
@@ -59,11 +58,6 @@ def cyan(string: Any) -> str:
 def green(string: Any) -> str:
     """Color string cyan."""
     return color(string, "green")
-
-
-def magenta(string: Any) -> str:
-    """Color string magenta."""
-    return color(string, "magenta")
 
 
 def red(string: Any) -> str:
