@@ -88,8 +88,6 @@ class Mariner(app.App):
           argv: List[str]: List of command line arguments.
         """
         self.LOG.debug("Initialize Mariner")
-        # Initialize color output
-        colorama.init()
 
         if self.options.config_file:
             self.config = config.Config(configpath=self.options.config_file)
@@ -138,6 +136,9 @@ def main(argv=sys.argv[1:]):  # pylint: disable=dangerous-default-value
     Args:
       argv: Defaults to sys.argv[1:]. Command line argument list.
     """
+    # Initialize color output
+    colorama.init()
+
     mariner = Mariner()
     return mariner.run(argv)
 
