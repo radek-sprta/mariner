@@ -1,6 +1,9 @@
 # -*- coding: future_fstrings -*-
 """Utility functions for Mariner."""
+import os
 import pathlib
+import platform
+import subprocess  # nosec
 from typing import Any, Union
 
 import colorama
@@ -68,6 +71,23 @@ def red(string: Any) -> str:
 def yellow(string: Any) -> str:
     """Color string yellow."""
     return color(string, "yellow")
+
+
+def open_file(path: str, *, verbose=False) -> None:
+    """Open file in OS's default application.
+
+    Args:
+        path: Path to the file.
+        verbose: Print verbose output.
+    """
+    if platform.system() == "Linux":
+        if verbose:
+            subprocess.run(["xdg-open", path], check=False)
+        else:
+            with open(os.devnull) as devnull:
+                subprocess.run(["xdg-open", path], stdout=devnull, stderr=devnull, check=False)
+    elif platform.system() == "Windows":
+        os.startfile(path)
 
 
 def parse_number(number: str) -> int:
