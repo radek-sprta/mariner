@@ -1,13 +1,11 @@
 # -*- coding: future_fstrings -*-
 """Mariner open command."""
 import logging
-import os
 import shlex
-import subprocess  # nosec
 
 from cliff import command
 
-from mariner import downloader
+from mariner import downloader, utils
 
 
 class Open(command.Command):
@@ -39,7 +37,7 @@ class Open(command.Command):
             Openable torrent link.
         """
         if torrent_.torrent:
-            torrent_downloader = downloader.Downloader()
+            torrent_downloader = downloader.Downloader(download_path=utils.cache_path())
             torrent_downloader.download([(torrent_.torrent, torrent_.filename)])
             return str(torrent_downloader.download_path / torrent_.filename)
         return torrent_.magnet
@@ -56,10 +54,9 @@ class Open(command.Command):
             self.log.info(f"Opening {torrent_.colored().name}.")
             link = shlex.quote(self._get_torrent_link(torrent_))
             if self.app.options.verbose_level > 1:
-                subprocess.run(["xdg-open", link], check=False)
+                utils.open_file(link, verbose=True)
             else:
-                with open(os.devnull) as devnull:
-                    subprocess.run(["xdg-open", link], stdout=devnull, stderr=devnull, check=False)
+                utils.open_file(link)
             try:
                 # Try deleting the file, if it exists
                 link.unlink()

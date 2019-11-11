@@ -17,7 +17,7 @@ try:
 except ImportError:
     pass
 
-from mariner import exceptions, torrent
+from mariner import exceptions, torrent, utils
 
 Name = str
 Page = str
@@ -30,11 +30,13 @@ class SearchEngine:
 
     log = logging.getLogger(__name__)
     plugin_directory = pathlib.Path(__file__).parent / "trackers"
+    results_file = utils.data_path() / "results.json"
 
     def __init__(self, timeout: int = 10) -> None:
         self.timeout = timeout
         self.plugins = {}
-        self.results = cachalot.Cache(path="~/.local/share/mariner/results.json", size=1000)
+        # Cast to str because of Python 3.5
+        self.results = cachalot.Cache(path=str(self.results_file), size=1000)
         self.initialize_plugins()
 
     @property
@@ -103,7 +105,8 @@ class SearchEngine:
             return torrent_
         raise exceptions.NoResultException(f"No torrent with ID {tid}")
 
-    @cachalot.Cache(path="~/.cache/mariner/cache.json", timeout=14400, size=100)
+    # Cast to str because of Python 3.5
+    @cachalot.Cache(path=str(utils.cache_path()), timeout=14400, size=100)
     def _cached_search(self, title: str, trackers: List[str]) -> List[torrent.Torrent]:
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily

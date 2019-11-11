@@ -2,7 +2,6 @@
 import atexit
 import collections
 import logging
-import os
 import pathlib
 from typing import Dict, List, Union
 
@@ -49,7 +48,7 @@ class Config(collections.abc.MutableMapping):
         if self._configpath:
             path = pathlib.Path(self._configpath)
         else:
-            directory = os.getenv("XDG_CONFIG_HOME", self.default_directory)
+            directory = utils.config_path()
             directory = utils.check_path(directory)
             path = pathlib.Path(directory, "config.yaml")
         self.log.debug("path=%s", path)

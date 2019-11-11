@@ -10,6 +10,7 @@ from mariner import config
 def configuration(monkeypatch):
     """Mock configuration."""
     monkeypatch.setenv("XDG_CONFIG_HOME", "tests/api/data")
+    monkeypatch.setenv("APPDATA", "tests/api/data")
     monkeypatch.setattr(atexit, "register", lambda *args: None)
     return config.Config()
 
@@ -24,7 +25,7 @@ class TestConfig:
         # GIVEN configuration with XDG_CONFIG_HOME set
 
         # WHEN checking the config path
-        test_path = pathlib.Path("tests/api/data/config.yaml")
+        test_path = pathlib.Path("tests/api/data/mariner/config.yaml")
 
         # THEN it should be in the XDG_CONFIG_HOME
         assert configuration.configpath.exists()

@@ -1,6 +1,5 @@
 """Entrance point for Mariner application."""
 import logging
-import os
 import pathlib
 import sys
 from typing import List
@@ -59,7 +58,7 @@ class Mariner(app.App):
 
         # Set logging to file by default.
         if not self.options.log_file:
-            log_dir = os.getenv("XDG_DATA_HOME", "~/.local/share/mariner")
+            log_dir = utils.log_path()
             log_dir = utils.check_path(log_dir)
             self.options.log_file = str(pathlib.Path(log_dir) / "mariner.log")
 

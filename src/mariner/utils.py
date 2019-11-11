@@ -1,6 +1,9 @@
 # -*- coding: future_fstrings -*-
 """Utility functions for Mariner."""
+import os
 import pathlib
+import platform
+import subprocess  # nosec
 from typing import Any, Union
 
 import colorama
@@ -27,6 +30,71 @@ def check_path(path: Union[str, pathlib.Path]) -> pathlib.Path:
     directory.mkdir(parents=True, exist_ok=True)
 
     return path
+
+
+def cache_path() -> pathlib.Path:
+    """Cache path for the application.
+
+    Returns:
+        Cache path for the application.
+    """
+    if platform.system() == "Linux":
+        config_dir = os.getenv("XDG_CACHE_HOME", "~/.cache")
+        cache_dir = ""
+    elif platform.system() == "Windows":
+        config_dir = os.getenv("APPDATA")
+        cache_dir = "Cache"
+    return pathlib.Path(config_dir, "mariner", cache_dir, "cache.json")
+
+
+def config_path() -> pathlib.Path:
+    """Configuration path for the application.
+
+    Returns:
+        Configuration path for the application.
+    """
+    if platform.system() == "Linux":
+        config_dir = os.getenv("XDG_CONFIG_HOME", "~/.config")
+    elif platform.system() == "Windows":
+        config_dir = os.getenv("APPDATA")
+    return pathlib.Path(config_dir, "mariner")
+
+
+def data_path() -> pathlib.Path:
+    """Data path for the application.
+
+    Returns:
+        Data path for the application.
+    """
+    if platform.system() == "Linux":
+        data_dir = os.getenv("XDG_DATA_HOME", "~/.local/share")
+    elif platform.system() == "Windows":
+        data_dir = os.getenv("APPDATA")
+    return pathlib.Path(data_dir, "mariner")
+
+
+def download_path() -> pathlib.Path:
+    """User's download path.
+
+    Returns:
+        User's download path.
+    """
+    return pathlib.Path("~/Downloads").expanduser()
+
+
+def log_path() -> pathlib.Path:
+    """Log path for the application.
+
+    Returns:
+        Log path for the application.
+    """
+    if platform.system() == "Linux":
+        data_dir = os.getenv("XDG_DATA_HOME", "~/.local/share")
+        log_dir = "log"
+    elif platform.system() == "Windows":
+        data_dir = os.getenv("APPDATA")
+        log_dir = "Logs"
+    return pathlib.Path(data_dir, "mariner", log_dir)
 
 
 def color(string: Any, text_color: str) -> str:
@@ -68,6 +136,23 @@ def red(string: Any) -> str:
 def yellow(string: Any) -> str:
     """Color string yellow."""
     return color(string, "yellow")
+
+
+def open_file(path: str, *, verbose=False) -> None:
+    """Open file in OS's default application.
+
+    Args:
+        path: Path to the file.
+        verbose: Print verbose output.
+    """
+    if platform.system() == "Linux":
+        if verbose:
+            subprocess.run(["xdg-open", path], check=False)
+        else:
+            with open(os.devnull) as devnull:
+                subprocess.run(["xdg-open", path], stdout=devnull, stderr=devnull, check=False)
+    elif platform.system() == "Windows":
+        os.startfile(path)  # pylint: disable=no-member
 
 
 def parse_number(number: str) -> int:
