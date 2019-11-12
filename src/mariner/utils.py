@@ -87,7 +87,7 @@ def open_file(path: str, *, verbose=False) -> None:
             with open(os.devnull) as devnull:
                 subprocess.run(["xdg-open", path], stdout=devnull, stderr=devnull, check=False)
     elif platform.system() == "Windows":
-        os.startfile(path)
+        os.startfile(path)  # pylint: disable=no-member
 
 
 def parse_number(number: str) -> int:
