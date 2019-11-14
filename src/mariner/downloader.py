@@ -26,7 +26,7 @@ class Downloader:
 
     log = logging.getLogger(__name__)
 
-    def __init__(self, download_path: Path = "~/Downloads", timeout: int = 10) -> None:
+    def __init__(self, download_path: Path = utils.download_path(), timeout: int = 10) -> None:
         self.download_path = utils.check_path(download_path)
         self.timeout = timeout
 

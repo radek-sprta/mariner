@@ -37,7 +37,7 @@ class Open(command.Command):
             Openable torrent link.
         """
         if torrent_.torrent:
-            torrent_downloader = downloader.Downloader()
+            torrent_downloader = downloader.Downloader(download_path=utils.cache_dir())
             torrent_downloader.download([(torrent_.torrent, torrent_.filename)])
             return str(torrent_downloader.download_path / torrent_.filename)
         return torrent_.magnet
