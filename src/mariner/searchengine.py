@@ -10,8 +10,6 @@ from typing import List, Iterator, Optional, Set, Tuple, Union
 
 import cachalot
 
-from mariner import utils
-
 try:
     import uvloop
 
@@ -19,7 +17,7 @@ try:
 except ImportError:
     pass
 
-from mariner import exceptions, torrent
+from mariner import exceptions, torrent, utils
 
 Name = str
 Page = str
