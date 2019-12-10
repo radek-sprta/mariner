@@ -35,7 +35,8 @@ class SearchEngine:
     def __init__(self, timeout: int = 10) -> None:
         self.timeout = timeout
         self.plugins = {}
-        self.results = cachalot.Cache(path=self.results_file, size=1000)
+        # Cast to str because of Python 3.5
+        self.results = cachalot.Cache(path=str(self.results_file), size=1000)
         self.initialize_plugins()
 
     @property
