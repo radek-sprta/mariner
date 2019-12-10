@@ -104,7 +104,8 @@ class SearchEngine:
             return torrent_
         raise exceptions.NoResultException(f"No torrent with ID {tid}")
 
-    @cachalot.Cache(path=utils.cache_path(), timeout=14400, size=100)
+    # Cast to str because of Python 3.5
+    @cachalot.Cache(path=str(utils.cache_path()), timeout=14400, size=100)
     def _cached_search(self, title: str, trackers: List[str]) -> List[torrent.Torrent]:
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily
