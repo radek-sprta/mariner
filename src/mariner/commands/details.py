@@ -3,7 +3,7 @@ import logging
 
 from cliff import show
 
-from mariner import utils
+from mariner.utils import color
 
 
 class Details(show.ShowOne):
@@ -64,5 +64,5 @@ class Details(show.ShowOne):
         }
         ordered_details = self._order_details(details)
 
-        colored_keys = (utils.cyan(key) for key in ordered_details)
+        colored_keys = (color.cyan(key) for key in ordered_details)
         return (colored_keys, ordered_details.values())

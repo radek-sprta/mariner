@@ -5,7 +5,7 @@ import logging
 from cliff import command
 import pyperclip
 
-from mariner import utils
+from mariner.utils import color
 
 
 class Magnet(command.Command):
@@ -41,5 +41,5 @@ class Magnet(command.Command):
             self.log.debug("magnet=%s", torrent_.magnet)
         except pyperclip.PyperclipException:
             pyperclip.copy(torrent_.torrent)
-            self.log.warning(utils.yellow(f"{torrent_.name} has no magnet link."))
+            self.log.warning(color.yellow(f"{torrent_.name} has no magnet link."))
             self.log.info(f"Copied {torrent_.colored().name} torrent URL to clipboard instead.")

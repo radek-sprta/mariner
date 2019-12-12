@@ -7,7 +7,8 @@ from typing import Dict, Iterator
 import aiohttp
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class KickAssTorrents(trackerplugin.TrackerPlugin):
@@ -77,9 +78,9 @@ class KickAssTorrents(trackerplugin.TrackerPlugin):
                 size = line.find("td", {"data-title": "Size"}).get_text().strip()
                 date = line.find("td", {"data-title": "Age"}).get_text()
                 raw_seeds = line.find("td", {"data-title": "Seed"}).string
-                seeds = utils.parse_number(raw_seeds)
+                seeds = parse.number(raw_seeds)
                 raw_leeches = line.find("td", {"data-title": "Leech"}).string
-                leeches = utils.parse_number(raw_leeches)
+                leeches = parse.number(raw_leeches)
                 yield torrent.Torrent(
                     name, tracker, magnet=magnet, size=size, date=date, seeds=seeds, leeches=leeches
                 )

@@ -5,7 +5,8 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class LimeTorrents(trackerplugin.TrackerPlugin):
@@ -37,8 +38,8 @@ class LimeTorrents(trackerplugin.TrackerPlugin):
 
                 size = str(data[2].string)
                 date = str(data[1].string.split("-")[0].strip())
-                seeds = utils.parse_number(data[3].string)
-                leeches = utils.parse_number(data[4].string)
+                seeds = parse.number(data[3].string)
+                leeches = parse.number(data[4].string)
 
                 yield torrent.Torrent(
                     name, tracker, torrent=url, size=size, date=date, seeds=seeds, leeches=leeches

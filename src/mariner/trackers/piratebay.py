@@ -5,8 +5,9 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
 from mariner.proxies import piratebay
+from mariner.utils import parse
 
 
 class PirateBay(trackerplugin.ProxyTrackerPlugin):
@@ -56,13 +57,13 @@ class PirateBay(trackerplugin.ProxyTrackerPlugin):
 
                 numbers = torrent_.find_all("td", align="right")
                 raw_seeds = numbers[0].string
-                seeds = utils.parse_number(raw_seeds)
+                seeds = parse.number(raw_seeds)
                 raw_leeches = numbers[1].string
-                leeches = utils.parse_number(raw_leeches)
+                leeches = parse.number(raw_leeches)
 
                 description = torrent_.find("font", class_="detDesc").get_text()
                 fields = description.split(",")
-                date = utils.parse_date(" ".join(fields[0].split()[1:]))
+                date = parse.date(" ".join(fields[0].split()[1:]))
                 size = " ".join(fields[1].split()[-2:])
 
                 yield torrent.Torrent(

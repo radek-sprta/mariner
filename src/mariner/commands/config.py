@@ -5,7 +5,8 @@ import pprint
 
 from cliff import command
 
-from mariner import exceptions, utils
+from mariner import exceptions
+from mariner.utils import color
 
 
 class Config(command.Command):
@@ -65,4 +66,4 @@ class Config(command.Command):
             pprint.pprint(self.app.config._config)  # pylint: disable=protected-access
         else:
             self._update_dict(self.app.config, key, value)
-            self.log.info(f"Updated {utils.green(key)} to {utils.green(value)}")
+            self.log.info(f"Updated {color.green(key)} to {color.green(value)}")

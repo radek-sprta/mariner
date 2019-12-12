@@ -5,7 +5,8 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class LinuxTracker(trackerplugin.TrackerPlugin):
@@ -41,9 +42,9 @@ class LinuxTracker(trackerplugin.TrackerPlugin):
                 date = details[0].get_text().strip().split()[2]
                 size = " ".join(details[1].get_text().split()[1:])
                 raw_seeds = details[2].get_text().split()[1]
-                seeds = utils.parse_number(raw_seeds)
+                seeds = parse.number(raw_seeds)
                 raw_leeches = details[3].get_text().split()[1]
-                leeches = utils.parse_number(raw_leeches)
+                leeches = parse.number(raw_leeches)
 
                 yield torrent.Torrent(
                     name,

@@ -8,7 +8,7 @@ from typing import Dict, List, Union
 import pkg_resources
 import ruamel.yaml
 
-from mariner import utils
+from mariner.utils import path
 
 Value = Union[str, int, Dict, List]
 
@@ -46,13 +46,13 @@ class Config(collections.abc.MutableMapping):
             Path to configuration file.
         """
         if self._configpath:
-            path = pathlib.Path(self._configpath)
+            configpath = pathlib.Path(self._configpath)
         else:
-            directory = utils.config_path()
-            directory = utils.check_path(directory)
-            path = pathlib.Path(directory, "config.yaml")
+            directory = path.config()
+            directory = path.check(directory)
+            configpath = pathlib.Path(directory, "config.yaml")
         self.log.debug("path=%s", path)
-        return path
+        return configpath
 
     def load(self) -> Dict:
         """Load configuration saved in given path.

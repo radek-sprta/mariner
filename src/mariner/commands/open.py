@@ -1,11 +1,11 @@
 # -*- coding: future_fstrings -*-
 """Mariner open command."""
 import logging
-import shlex
 
 from cliff import command
 
-from mariner import downloader, utils
+from mariner import downloader
+from mariner.utils import path
 
 
 class Open(command.Command):
@@ -37,7 +37,7 @@ class Open(command.Command):
             Openable torrent link.
         """
         if torrent_.torrent:
-            torrent_downloader = downloader.Downloader(download_path=utils.cache_path())
+            torrent_downloader = downloader.Downloader(download_path=path.cache())
             torrent_downloader.download([(torrent_.torrent, torrent_.filename)])
             return str(torrent_downloader.download_path / torrent_.filename)
         return torrent_.magnet
@@ -52,11 +52,11 @@ class Open(command.Command):
             torrent_ = self.app.engine.result(tid)
             self.log.debug("tid=%s torrent=%s", tid, torrent_)
             self.log.info(f"Opening {torrent_.colored().name}.")
-            link = shlex.quote(self._get_torrent_link(torrent_))
+            link = self._get_torrent_link(torrent_)
             if self.app.options.verbose_level > 1:
-                utils.open_file(link, verbose=True)
+                path.open_with_default_app(link, verbose=True)
             else:
-                utils.open_file(link)
+                path.open_with_default_app(link)
             try:
                 # Try deleting the file, if it exists
                 link.unlink()

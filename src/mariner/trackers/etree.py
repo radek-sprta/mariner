@@ -6,7 +6,8 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class Etree(trackerplugin.TrackerPlugin):
@@ -53,8 +54,8 @@ class Etree(trackerplugin.TrackerPlugin):
 
                 size = str(data[6].string)
                 date = str(data[5].string)
-                seeds = utils.parse_number(data[8].a.string)
-                leeches = utils.parse_number(data[9].a.string)
+                seeds = parse.number(data[8].a.string)
+                leeches = parse.number(data[9].a.string)
 
                 yield torrent.Torrent(
                     name, tracker, torrent=url, size=size, date=date, seeds=seeds, leeches=leeches

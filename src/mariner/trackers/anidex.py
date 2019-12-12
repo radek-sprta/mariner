@@ -5,7 +5,8 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class Anidex(trackerplugin.TrackerPlugin):
@@ -39,8 +40,8 @@ class Anidex(trackerplugin.TrackerPlugin):
 
                 size = str(data[6].string)
                 date = str(data[7].string)
-                seeds = utils.parse_number(data[8].text)
-                leeches = utils.parse_number(data[9].string)
+                seeds = parse.number(data[8].text)
+                leeches = parse.number(data[9].string)
 
                 yield torrent.Torrent(
                     name,

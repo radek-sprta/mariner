@@ -4,7 +4,8 @@ import logging
 
 from cliff import lister
 
-from mariner import torrent, utils
+from mariner import torrent
+from mariner.utils import color
 
 
 class Search(lister.Lister):
@@ -129,13 +130,13 @@ class Search(lister.Lister):
 
         trackers = self._parse_trackers(parsed_args)
 
-        self.log.info(f"Searching for {utils.cyan(title)}.")
+        self.log.info(f"Searching for {color.cyan(title)}.")
         self.log.debug("title=%s limit=%s trackers=%s", title, limit, trackers)
         results = self.app.engine.search(title, trackers, limit, sort_by_newest=newest)
 
         headers = ("ID", "Name", "Tracker", "Seeds", "Size", "Uploaded", "Available as")
         # Headers cannot be a generator, as it messes up alignment
-        colored_headers = [utils.cyan(h) for h in headers]
+        colored_headers = [color.cyan(h) for h in headers]
         colored_results = ((tid, t.colored()) for tid, t in results)
         columns = (
             (tid, t.name, t.tracker, t.seeds, t.size, t.date, self._availability(t))
