@@ -4,7 +4,8 @@ import logging
 
 from cliff import lister
 
-from mariner import downloader, utils
+from mariner import downloader
+from mariner.utils import color
 
 
 class Download(lister.Lister):
@@ -49,10 +50,10 @@ class Download(lister.Lister):
             if torrent_.torrent:
                 torrents.append(torrent_)
                 self.log.debug("Torrent appended.")
-                self.log.info(f"Downloading torrent {utils.yellow(torrent_.name)}.")
+                self.log.info(f"Downloading torrent {color.yellow(torrent_.name)}.")
             else:
                 self.log.warning(
-                    utils.yellow(f"No torrent for {torrent_.name}. Use magnet link instead.")
+                    color.yellow(f"No torrent for {torrent_.name}. Use magnet link instead.")
                 )
 
         download_list = ((t.torrent, t.filename) for t in torrents)
@@ -61,6 +62,6 @@ class Download(lister.Lister):
         filelist = torrent_downloader.download(download_list)
 
         headers = ("Name", "Saved to")
-        colored_headers = [utils.cyan(h) for h in headers]
+        colored_headers = [color.cyan(h) for h in headers]
         columns = zip((t.colored().name for t in torrents), filelist)
         return (colored_headers, columns)

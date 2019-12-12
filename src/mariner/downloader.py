@@ -14,7 +14,8 @@ try:
 except ImportError:
     pass
 
-from mariner import utils
+from mariner.utils import path
+
 
 Url = str
 Path = Union[str, pathlib.Path]
@@ -26,8 +27,8 @@ class Downloader:
 
     log = logging.getLogger(__name__)
 
-    def __init__(self, download_path: Path = utils.download_path(), timeout: int = 10) -> None:
-        self.download_path = utils.check_path(download_path)
+    def __init__(self, download_path: Path = path.download(), timeout: int = 10) -> None:
+        self.download_path = path.check(download_path)
         self.timeout = timeout
 
     async def download_coroutine(self, session: aiohttp.ClientSession, url: Url, name: str) -> Path:

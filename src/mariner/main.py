@@ -8,7 +8,8 @@ from cliff import app, commandmanager
 import colorama
 
 from mariner import __version__
-from mariner import searchengine, utils, config
+from mariner import config, searchengine
+from mariner.utils import path
 
 
 class Mariner(app.App):
@@ -58,8 +59,8 @@ class Mariner(app.App):
 
         # Set logging to file by default.
         if not self.options.log_file:
-            log_dir = utils.log_path()
-            log_dir = utils.check_path(log_dir)
+            log_dir = path.log()
+            log_dir = path.check(log_dir)
             self.options.log_file = str(pathlib.Path(log_dir) / "mariner.log")
 
         # Monkey patched to use RotatingFileHandler

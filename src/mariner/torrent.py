@@ -3,7 +3,8 @@
 import datetime
 from typing import Union
 
-from mariner import mixins, utils
+from mariner import mixins
+from mariner.utils import color
 
 
 class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attributes
@@ -46,7 +47,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
             self._date = value  # pylint: disable=attribute-defined-outside-init
         else:
             # Defer importing maya, as it is a slow import
-            import maya # pylint: disable=import-outside-toplevel
+            import maya  # pylint: disable=import-outside-toplevel
             try:
                 self._date = maya.when(value).date  # pylint: disable=attribute-defined-outside-init
             except ValueError:
@@ -62,13 +63,13 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
     def colored(self) -> "Torrent":
         """Return Torrent with colored fields."""
         return Torrent(
-            name=utils.yellow(self.name[:80]),
+            name=color.yellow(self.name[:80]),
             tracker=self.tracker,
             torrent=self.torrent,
             magnet=self.magnet,
             size=self.size,
-            seeds=utils.green(self.seeds),
-            leeches=utils.red(self.leeches) if self.leeches is not None else None,
+            seeds=color.green(self.seeds),
+            leeches=color.red(self.leeches) if self.leeches is not None else None,
             date=self.date,
         )
 

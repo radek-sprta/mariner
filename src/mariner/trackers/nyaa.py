@@ -5,7 +5,8 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class Nyaa(trackerplugin.TrackerPlugin):
@@ -41,8 +42,8 @@ class Nyaa(trackerplugin.TrackerPlugin):
 
                 size = str(data[3].string)
                 date = str(data[4].string)
-                seeds = utils.parse_number(data[5].string)
-                leeches = utils.parse_number(data[6].string)
+                seeds = parse.number(data[5].string)
+                leeches = parse.number(data[6].string)
 
                 yield torrent.Torrent(
                     name,

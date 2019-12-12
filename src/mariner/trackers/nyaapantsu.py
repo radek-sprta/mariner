@@ -5,7 +5,8 @@ from typing import Iterator
 
 import bs4
 
-from mariner import torrent, trackerplugin, utils
+from mariner import torrent, trackerplugin
+from mariner.utils import parse
 
 
 class NyaaPantsu(trackerplugin.TrackerPlugin):
@@ -38,8 +39,8 @@ class NyaaPantsu(trackerplugin.TrackerPlugin):
                 url = links[1].get("href")
 
                 size = str(data[3].string).strip()
-                seeds = utils.parse_number(data[4].text)
-                leeches = utils.parse_number(data[5].text)
+                seeds = parse.number(data[4].text)
+                leeches = parse.number(data[5].text)
                 date = str(data[7].string)
 
                 yield torrent.Torrent(
