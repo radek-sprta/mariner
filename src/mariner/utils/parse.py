@@ -2,30 +2,32 @@
 """Generla parse functions for Mariner."""
 
 
-def number(number: str) -> int:
+def number(unparsed_number: str) -> int:
     """Parse a number string from HTML page and return an integer.
 
     Args:
-        number: Number string to parse.
+        unparsed_number: Number string to parse.
 
     Return:
         Parsed number.
     """
-    if number == "-":
+    if unparsed_number == "-":
         return 0
-    squashed = number.replace(" ", "")
+    squashed = unparsed_number.replace(" ", "")
     return int(squashed.replace(",", ""))
 
 
-def date(date: str) -> str:
+def date(unparsed_date: str) -> str:
     """Parse exotic date formats that Maya can't handle.
 
     Args:
-        date: Date string to parse.
+        unparsed_date: Date string to parse.
 
     Return:
         Parsed date.
     """
-    if date.casefold() == 'y-day':
-        return 'yesterday'
-    return date
+    if unparsed_date.casefold() == 'y-day':
+        parsed_date = 'yesterday'
+    else:
+        parsed_date = unparsed_date
+    return parsed_date

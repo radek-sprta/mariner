@@ -30,7 +30,7 @@ def check(path: Union[str, pathlib.Path]) -> pathlib.Path:
     return path
 
 
-def open(path: str, *, verbose=False) -> None:
+def open_with_default_app(path: str, *, verbose=False) -> None:
     """Open file in OS's default application.
 
     Args:

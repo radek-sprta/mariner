@@ -55,9 +55,9 @@ class Open(command.Command):
             self.log.info(f"Opening {torrent_.colored().name}.")
             link = shlex.quote(self._get_torrent_link(torrent_))
             if self.app.options.verbose_level > 1:
-                path.open(link, verbose=True)
+                path.open_with_default_app(link, verbose=True)
             else:
-                path.open(link)
+                path.open_with_default_app(link)
             try:
                 # Try deleting the file, if it exists
                 link.unlink()
