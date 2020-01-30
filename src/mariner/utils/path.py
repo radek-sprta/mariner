@@ -59,7 +59,7 @@ def cache() -> pathlib.Path:
     elif platform.system() == "Windows":
         config_dir = os.getenv("APPDATA")
         cache_dir = "Cache"
-    return pathlib.Path(config_dir, "mariner", cache_dir, "cache.json")
+    return pathlib.Path(config_dir, "mariner", cache_dir)
 
 
 def config() -> pathlib.Path:
