@@ -1,7 +1,6 @@
 # -*- coding: future_fstrings -*-
 """Mariner open command."""
 import logging
-import shlex
 
 from cliff import command
 
@@ -53,7 +52,7 @@ class Open(command.Command):
             torrent_ = self.app.engine.result(tid)
             self.log.debug("tid=%s torrent=%s", tid, torrent_)
             self.log.info(f"Opening {torrent_.colored().name}.")
-            link = shlex.quote(self._get_torrent_link(torrent_))
+            link = self._get_torrent_link(torrent_)
             if self.app.options.verbose_level > 1:
                 path.open_with_default_app(link, verbose=True)
             else:
