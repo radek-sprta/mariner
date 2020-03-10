@@ -87,6 +87,14 @@ test:python38:
     - codecov --token=$COVERAGE_TOKEN
   retry: 1
 
+test:windows:
+  image: python:3.7-windowsservercore
+  stage: test
+  extends: .code
+  script:
+    - tox -e pywin
+  retry: 1
+
 build:package:
   stage: build
   script:
