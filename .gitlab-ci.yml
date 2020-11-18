@@ -87,6 +87,15 @@ test:python38:
     - codecov --token=$COVERAGE_TOKEN
   retry: 1
 
+test:python39:
+  image: python:3.9
+  stage: test
+  extends: .code
+  script:
+    - tox -e py39
+    - codecov --token=$COVERAGE_TOKEN
+  retry: 1
+
 build:package:
   stage: build
   script:
