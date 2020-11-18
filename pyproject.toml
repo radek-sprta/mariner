@@ -61,6 +61,7 @@ tokenize-rt = "^2.1.0"
 [tool.poetry.dev-dependencies]
 coverage = "^4.5.2"
 flake8 = "^3.6.0"
+flake8-spellcheck = "*"
 pre-commit = "^1.13.0"
 pylint="^2.2"
 pytest = "^5.0"
