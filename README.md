@@ -12,16 +12,13 @@ It is currently under heavy development, so expect breaking changes. Currently o
 - Show torrent details.
 - Asynchronous I/O for better responsiveness.
 - Supports the following trackers:
-  - Anidex
   - Archive.org
   - Distrowatch
   - Etree
-  - KickAssTorrents
   - LimeTorrents
   - Linuxtracker
   - Nyaa
   - NyaaPantsu
-  - ThePirateBay
   - TokyoTosho
 
 ![Mariner demonstration](docs/assets/mariner.svg)
