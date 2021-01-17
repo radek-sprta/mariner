@@ -13,10 +13,10 @@ Bug reports are hugely important, but please make sure to avoid duplicate report
 When filing an issue, include answers to the following five questions:
 
 1. What version of Mariner are you using?
-2. What operating system and Python version are you using?
-3. What did you do?
-4. What was the expected result?
-5. What was the actual result?
+1. What operating system and Python version are you using?
+1. What did you do?
+1. What was the expected result?
+1. What was the actual result?
 
 In addition, consider providing logs (by default in ~/.local/share/mariner/mariner.log).
 
@@ -25,8 +25,8 @@ In addition, consider providing logs (by default in ~/.local/share/mariner/marin
 If you have a suggestion for a feature or an enhancement, please feel free to [open an issue](https://gitlab.com/radek-sprta/mariner/issues). In your feature request, include the following:
 
 1. What should the feature do?
-2. Why do you need it?
-3. How should it work?
+1. Why do you need it?
+1. How should it work?
 
 Note that I reserve a right to reject a feature request, if I feel it does not align with the project's goals.
 
@@ -35,12 +35,12 @@ Note that I reserve a right to reject a feature request, if I feel it does not a
 If this is your first time contributing code on Gitlab, take a look at Gitlab's [How to create a merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html). After you read it, you follow this checklist to make a merge request:
 
 1. Fork the repository.
-2. Setup development environment using `poetry install && pre-commit install`
-3. Run the tests using `pytest tests` to make sure they pass on your system.
-4. Write tests for the feature you are adding. They should fail.
-5. Add your feature.
-6. Run the test suite again, ensuring all tests, including the ones you have written, pass.
-7. Make a merge request on Gitlab.
+1. Setup development environment using `poetry install && pre-commit install`
+1. Run the tests using `pytest tests` to make sure they pass on your system.
+1. Write tests for the feature you are adding. They should fail.
+1. Add your feature.
+1. Run the test suite again, ensuring all tests, including the ones you have written, pass.
+1. Make a merge request on Gitlab.
 
 ### Code Style
 

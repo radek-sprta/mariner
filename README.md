@@ -37,7 +37,7 @@ You can easily install Mariner using pip. This is the preferred method:
 
 Alternatively, to get the latest development version, you can clone this repository and then manually install it:
 
-``` bash
+```bash
 git clone git@gitlab.com:radek-sprta/mariner.git
 cd mariner
 poetry build
@@ -74,7 +74,7 @@ And quit the program:
 
 `(mariner) quit`
 
-For more information, check the [documentation][documentation].
+For more information, check the [documentation].
 
 ## Contributing
 
