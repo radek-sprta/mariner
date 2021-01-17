@@ -124,8 +124,8 @@ class SearchEngine:
         # Get unique trackers
         try:
             plugins = set(self.plugins[t] for t in trackers)
-        except KeyError:
-            raise exceptions.ConfigurationError("Illegal value for default_tracker")
+        except KeyError as e:
+            raise exceptions.ConfigurationError("Illegal value for default_tracker") from e
         else:
             tasks = asyncio.gather(
                 *(p(timeout=self.timeout).results(title.lower()) for p in plugins)

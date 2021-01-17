@@ -23,8 +23,8 @@ class PirateBayProxy(proxyplugin.ProxyPlugin):
         soup = bs4.BeautifulSoup(page, "lxml")
         try:
             data = soup.select("table")[0].select("tr")[1:]
-        except IndexError:
-            raise exceptions.NoProxyAvailable("Cannot get proxy list")
+        except IndexError as e:
+            raise exceptions.NoProxyAvailable("Cannot get proxy list") from e
 
         for site in data:
             if PirateBayProxy._is_online(site):
