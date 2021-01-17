@@ -25,8 +25,8 @@ def date(unparsed_date: str) -> str:
     Return:
         Parsed date.
     """
-    if unparsed_date.casefold() == 'y-day':
-        parsed_date = 'yesterday'
+    if unparsed_date.casefold() == "y-day":
+        parsed_date = "yesterday"
     else:
         parsed_date = unparsed_date
     return parsed_date

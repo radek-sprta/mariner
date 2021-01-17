@@ -19,7 +19,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
         size: str = "Unknown",
         seeds: Union[int, str] = -1,
         leeches: Union[int, str] = None,
-        date: Union[datetime.date, str] = datetime.date(1, 1, 1)
+        date: Union[datetime.date, str] = datetime.date(1, 1, 1),
     ) -> None:
         self.name = name
         self.tracker = tracker
@@ -47,6 +47,7 @@ class Torrent(mixins.ComparableMixin):  # pylint: disable=too-many-instance-attr
         else:
             # Defer importing maya, as it is a slow import
             import maya  # pylint: disable=import-outside-toplevel
+
             try:
                 self._date = maya.when(value).date  # pylint: disable=attribute-defined-outside-init
             except ValueError:
