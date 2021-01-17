@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Mariner search command."""
 import logging
 

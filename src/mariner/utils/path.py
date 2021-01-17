@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Platform-independent paths for Mariner."""
 import os
 import pathlib

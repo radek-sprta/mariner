@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Mariner open command."""
 import logging
 

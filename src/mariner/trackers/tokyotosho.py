@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Module for searching torrents on TokyoTosho."""
 import logging
 from typing import Iterator

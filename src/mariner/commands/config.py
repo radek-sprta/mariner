@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """CLI config command."""
 import logging
 import pprint

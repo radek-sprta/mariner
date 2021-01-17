@@ -30,10 +30,10 @@ classifiers = [
     "Intended Audience :: End Users/Desktop",
     "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8"
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9"
 ]
 
 packages = [
@@ -52,7 +52,6 @@ cachalot = "^1.0"
 cliff = "=2.9.1"
 cmd2 = "=0.7.8"
 colorama = "^0.4.1"
-future-fstrings = "^0.4.4"
 lxml = "^4.2.5"
 maya = "^0.6.0"
 "ruamel.yaml" = "^0.15.82"

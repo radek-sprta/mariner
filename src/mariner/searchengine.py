@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Handle searching for torrents on torrent trackers."""
 import asyncio
 import importlib
@@ -36,8 +35,7 @@ class SearchEngine:
     def __init__(self, timeout: int = 10) -> None:
         self.timeout = timeout
         self.plugins = {}
-        # Cast to str because of Python 3.5
-        self.results = cachalot.Cache(path=str(self.results_file), size=1000)
+        self.results = cachalot.Cache(path=self.results_file, size=1000)
         self.initialize_plugins()
 
     @property
@@ -67,11 +65,8 @@ class SearchEngine:
     def _load_modules(self) -> Iterator:
         """Find and import tracker plugins."""
         for module in self.plugin_directory.glob("*.py"):  # pylint: disable=no-member
-            # Cast to str as a workaround for Python 3.5
-            name = str(module.stem)
-            module = str(module)
-
             self.log.debug("Loading module=%s", module)
+            name = module.stem
             spec = importlib.util.spec_from_file_location(name, module)
             loaded_module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(loaded_module)
@@ -106,8 +101,7 @@ class SearchEngine:
             return torrent_
         raise exceptions.NoResultException(f"No torrent with ID {tid}")
 
-    # Cast to str because of Python 3.5
-    @cachalot.Cache(path=str(path.cache() / "cache.json"), timeout=14400, size=100)
+    @cachalot.Cache(path=path.cache() / "cache.json", timeout=14400, size=100)
     def _cached_search(self, title: str, trackers: List[str]) -> List[torrent.Torrent]:
         """Search for torrents on given site and cache to results. This
         method is an implementation detail. As coroutines are not easily

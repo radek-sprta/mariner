@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Module for searching torrents on LimeTorrents."""
 import logging
 from typing import Iterator

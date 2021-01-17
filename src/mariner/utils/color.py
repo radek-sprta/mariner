@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Color functions for Mariner."""
 from typing import Any
 

@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Module for searching torrents on Distrowatch."""
 import asyncio
 import logging

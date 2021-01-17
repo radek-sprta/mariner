@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Represent a downloadable torrent."""
 import datetime
 from typing import Union

@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Generla parse functions for Mariner."""
 
 

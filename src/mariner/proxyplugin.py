@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 """Module for declaring list of tracker proxies."""
 import abc
 import asyncio
