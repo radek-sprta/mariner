@@ -28,18 +28,6 @@ lint:flake8:
   extends: .code
   script: tox -e flake8
 
-lint:markdown:
-  image: ruby:2.6
-  stage: lint
-  before_script:
-    - gem install mdl
-  script:
-    - mdl -s mdl.rb *.md docs/use.md docs/config.md
-  only:
-    changes:
-      - '*.md'
-      - docs/*.md
-
 lint:pylint:
   stage: lint
   extends: .code
