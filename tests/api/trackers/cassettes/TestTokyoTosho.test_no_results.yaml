@@ -8,98 +8,108 @@ interactions:
     uri: https://www.tokyotosho.info/search.php?terms=zxcvbnm
   response:
     body:
-      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html
-        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head><meta http-equiv=\"Content-Type\"
-        content=\"text/html;charset=utf-8\" />\n<title>Tokyo Toshokan :: #tokyotosho
-        @ irc.rizon.net :: Torrent Search</title><link rel=\"stylesheet\" type=\"text/css\"
-        href=\"https://ttcdn.info/css12.php\" title=\"Default\" />\n\t\t<link rel=\"alternate
-        stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/css_inverse.php\"
-        title=\"Inverse\" />\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://ttcdn.info/favicon.png\"
-        />\n\t\n\t<link rel=\"shortcut icon\" href=\"https://www.tokyotosho.info/favicon.ico\"
-        /><link rel=\"stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/20130401/clippyjs/build/clippy.css\"
-        media=\"all\" /><link rel=\"alternate\" title=\"Tokyo Toshokan RSS\" href=\"rss.php\"
-        type=\"application/rss+xml\" />\n\t<link rel=\"search\" type=\"application/opensearchdescription+xml\"
-        title=\"Tokyo Toshokan\" href=\"/tokyotosho-search.php\" /></head><body><script
-        type=\"text/javascript\" src=\"https://ttcdn.info/styleswitcher.js\"></script><div
-        id=\"main\">\n<h1>Tokyo <span title=\"Japanese: Libary\">Toshokan</span></h1>\n<div
-        class=\"centertext\">\u6771\u4EAC \u56F3\u66F8\u9928</div>\n<h2><a class=\"h2\"
-        style=\"font-size: 9pt\" href=\"irc://irc.rizon.net/tokyotosho\">#tokyotosho
-        @ irc.rizon.net</a><br />\n<span style=\"font-size: 8pt\"><a href=\"http://tokyotosho.info\">http://tokyotosho.info</a>
-        <a href=\"http://tokyotosho.se\">http://tokyotosho.se</a> <a href=\"http://tokyo-tosho.net\">http://tokyo-tosho.net</a></span>\n</h2>\n<h3>A
-        BitTorrent <span title=\"English: Toshokan\">Library</span> for Japanese Media</h3>\n\n<ul
-        class=\"menuwrapper\">\n<li class=\"menu\"><a class=\"head\" title=\"Lost?\"
-        href=\"index.php\">Home</a> (<a class=\"head\" href=\"https://www.tokyotosho.info/\">SSL</a>)
-        ::</li>\n<li class=\"menu\"><a class=\"head\" href=\"settings.php\">Customize</a>
-        ::</li>\n<li class=\"menu\"><a class=\"head\" href=\"login.php\">Register/Login</a>
-        ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"Tell us about a torrent
-        we don't know about\" href=\"new.php\">Submit New Torrent</a> ::</li>\n<li
-        class=\"menu\"><a class=\"head\" title=\"We probably have what you're looking
-        for!\" href=\"search.php\">Search</a> ::</li>\n<li class=\"menu\"><a class=\"head\"
-        title=\"Keep on top of the releases\" href=\"rss.php\">RSS</a> (<a class=\"head\"
-        title=\"Or just some of the releases\" href=\"rss_customize.php\">Customize</a>)<br
-        /></li>\n<li class=\"menu\"><a class=\"head\" title=\"Documents!\" href=\"/pico\">Docs</a>
-        ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"Chat or idle with us
-        on IRC\" href=\"irc://irc.rizon.net/tokyotosho\">Chat</a> ::</li>\n<li class=\"menu\"><a
-        class=\"head\" title=\"It's teh moniez\" href=\"/donate.php\">Donate!</a>
-        ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"Let's hear from you!\"
-        href=\"/contact.php\">Contact</a> ::</li>\n<li class=\"menu\"><strong><a class=\"head\"
-        href=\"https://www.privateinternetaccess.com/pages/protect-tt/\">VPN Service</a></strong>
-        ::</li>\n<li class=\"menu\"><a class=\"head\" href=\"http://idlerpg.tokyotosho.info\">IdleRPG</a>
-        ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"Off site status page\"
-        href=\"http://status.tokyotosho.info\">Status Page</a></li>\n</ul>\n<table
-        class=\"centertext\" style=\"width: 100%; margin-left: auto; margin-right:
-        auto; padding-bottom: 1em; margin: 0;\">\n<tr><td id=\"tsearch\">Torrent Search</td></tr>\n</table>\n<p
-        class=\"centertext\"><a href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
-        alt=\"Private Internet Access\" src=\"https://ttcdn.info/7To8dfYNQi.png\"
-        /></a></p>\t<form style=\"margin: 0; padding; 0\" action=\"/search.php\" method=\"get\"
-        accept-charset=\"utf-8\">\n\t<table class=\"centertext\" cellspacing=\"0\"
-        cellpadding=\"0\" style=\"width: 100%; padding-bottom: 1em; margin: 0;\">\n\t<tr><td>\n\t<input
-        size=\"60\" type=\"text\" name=\"terms\" value=\"zxcvbnm\" />\n\t<select name=\"type\">\n\t<option
-        value=\"0\">All</option>\n\t<option value=\"1\">Anime</option><option value=\"10\">Non-English</option><option
-        value=\"3\">Manga</option><option value=\"8\">Drama</option><option value=\"2\">Music</option><option
-        value=\"9\">Music Video</option><option value=\"7\">Raws</option><option value=\"4\">Hentai</option><option
-        value=\"12\">Hentai (Anime)</option><option value=\"13\">Hentai (Manga)</option><option
-        value=\"14\">Hentai (Games)</option><option value=\"11\">Batch</option><option
-        value=\"15\">JAV</option><option value=\"5\">Other</option>\t</select><br
-        />\n\t<input type=\"checkbox\" name=\"searchName\" value=\"true\"  id=\"searchName\"
-        /><label for=\"searchName\">Search name</label>\n\t<span style=\"font-variant:
-        small-caps;\">Or</span>\n\t<input type=\"checkbox\" name=\"searchComment\"
-        value=\"true\"  id=\"searchComment\" /><label for=\"searchComment\">Search
-        comment</label><br />\n\t<label for=\"minMB\">Torrent Size (Min MB):</label>\n\t<input
-        id=\"minMB\" size=\"4\" type=\"text\" name=\"size_min\" value=\"\" />\n\t<label
-        for=\"maxMB\">(Max MB):</label>\n\t<input size=\"4\" type=\"text\" name=\"size_max\"
-        id=\"maxMB\" value=\"\" />\n\t<br /><label for=\"submitter\">Submitter:</label>\n\t<input
-        id=\"submitter\" size=\"12\" type=\"text\" name=\"username\" value=\"\" /><br
-        />\n\t<input type=\"submit\" value=\"Search\" /><br />\n\t</td></tr>\n\t</table>\n\t</form>\n\t<table
-        class=\"listing\">\n<tr><td class=\"centertext\" colspan=\"3\"><a href=\"/rss.php?terms=zxcvbnm\"><img
-        src=\"https://ttcdn.info/feed-icon-14x14.png\" alt=\"RSS\" /> RSS Feed of
-        these results</a></td></tr></table><p style=\"text-align: center\">No results
-        returned. Please try to broaden your search.</p></div><p class=\"footer\">\r\n<a
-        href=\"https://www.privateinternetaccess.com/pages/pia-2yr-deal/TT001\"><img
-        alt=\"Private Internet Access\" src=\"https://ttcdn.info/N8pv99MNcc.jpg\"
-        /></a><br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [41,551]
-        60min [3,297] 5min [424] 1min [114] - 5 minute rolling average [964]<br />\r\nIPv6:
-        24h [15,988] 60min [1,014] 5min [108] 1min [28] - 5 minute rolling average
-        [186]\r\n\r\n<br />Hosted at:<br />\r\n<a href=\"http://serioustubes.org/\"><img
-        alt=\"Serious Tubes\" src=\"https://ttcdn.info/serioustubes.png\" /></a><br
-        />Page generated in 26ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b>
-        (SNI supported)</b></p></body></html>"
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\"\
+        >\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head><meta\
+        \ http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" />\n<title>Tokyo\
+        \ Toshokan :: #tokyotosho @ irc.rizon.net :: Torrent Search</title><link rel=\"\
+        stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/css12.php\" title=\"\
+        Default\" />\n\t\t<link rel=\"alternate stylesheet\" type=\"text/css\" href=\"\
+        https://ttcdn.info/css_inverse.php\" title=\"Inverse\" />\n\t<link rel=\"\
+        icon\" type=\"image/png\" href=\"https://ttcdn.info/favicon.png\" />\n\t\n\
+        \t<link rel=\"shortcut icon\" href=\"https://www.tokyotosho.info/favicon.ico\"\
+        \ /><link rel=\"stylesheet\" type=\"text/css\" href=\"https://ttcdn.info/20130401/clippyjs/build/clippy.css\"\
+        \ media=\"all\" /><link rel=\"alternate\" title=\"Tokyo Toshokan RSS\" href=\"\
+        rss.php\" type=\"application/rss+xml\" />\n\t<link rel=\"search\" type=\"\
+        application/opensearchdescription+xml\" title=\"Tokyo Toshokan\" href=\"/tokyotosho-search.php\"\
+        \ /></head><body><script type=\"text/javascript\" src=\"https://ttcdn.info/styleswitcher.js\"\
+        ></script><div id=\"main\">\n<h1>Tokyo <span title=\"Japanese: Libary\">Toshokan</span></h1>\n\
+        <div class=\"centertext\">\u6771\u4EAC \u56F3\u66F8\u9928</div>\n<h2><a class=\"\
+        h2\" style=\"font-size: 9pt\" href=\"irc://irc.rizon.net/tokyotosho\">#tokyotosho\
+        \ @ irc.rizon.net</a><br />\n<span style=\"font-size: 8pt\"><a href=\"http://tokyotosho.info\"\
+        >http://tokyotosho.info</a> <a href=\"http://tokyotosho.se\">http://tokyotosho.se</a>\
+        \ <a href=\"http://tokyo-tosho.net\">http://tokyo-tosho.net</a></span>\n</h2>\n\
+        <h3>A BitTorrent <span title=\"English: Toshokan\">Library</span> for Japanese\
+        \ Media</h3>\n\n<ul class=\"menuwrapper\">\n<li class=\"menu\"><a class=\"\
+        head\" title=\"Lost?\" href=\"index.php\">Home</a> (<a class=\"head\" href=\"\
+        https://www.tokyotosho.info/\">SSL</a>) ::</li>\n<li class=\"menu\"><a class=\"\
+        head\" href=\"settings.php\">Customize</a> ::</li>\n<li class=\"menu\"><a\
+        \ class=\"head\" href=\"login.php\">Register/Login</a> ::</li>\n<li class=\"\
+        menu\"><a class=\"head\" title=\"Tell us about a torrent we don't know about\"\
+        \ href=\"new.php\">Submit New Torrent</a> ::</li>\n<li class=\"menu\"><a class=\"\
+        head\" title=\"We probably have what you're looking for!\" href=\"search.php\"\
+        >Search</a> ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"Keep on\
+        \ top of the releases\" href=\"rss.php\">RSS</a> (<a class=\"head\" title=\"\
+        Or just some of the releases\" href=\"rss_customize.php\">Customize</a>)<br\
+        \ /></li>\n<li class=\"menu\"><a class=\"head\" title=\"Documents!\" href=\"\
+        /pico\">Docs</a> ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"Chat\
+        \ or idle with us on IRC\" href=\"irc://irc.rizon.net/tokyotosho\">Chat</a>\
+        \ ::</li>\n<li class=\"menu\"><a class=\"head\" title=\"It's teh moniez\"\
+        \ href=\"/donate.php\">Donate!</a> ::</li>\n<li class=\"menu\"><a class=\"\
+        head\" title=\"Let's hear from you!\" href=\"/contact.php\">Contact</a> ::</li>\n\
+        <li class=\"menu\"><strong><a class=\"head\" href=\"https://www.privateinternetaccess.com/pages/protect-tt/\"\
+        \ rel=\"nofollow\">VPN Service</a></strong> ::</li>\n<li class=\"menu\"><a\
+        \ class=\"head\" href=\"http://idlerpg.tokyotosho.info\">IdleRPG</a> ::</li>\n\
+        <li class=\"menu\"><a class=\"head\" title=\"Off site status page\" href=\"\
+        http://status.tokyotosho.info\">Status Page</a></li>\n</ul>\n<table class=\"\
+        centertext\" style=\"width: 100%; margin-left: auto; margin-right: auto; padding-bottom:\
+        \ 1em; margin: 0;\">\n<tr><td id=\"tsearch\">Torrent Search</td></tr>\n</table>\n\
+        <p class=\"centertext\"><a href=\"https://www.privateinternetaccess.com/pages/buy-vpn/TT001\"\
+        \ rel=\"nofollow\"><img alt=\"Private Internet Access\" src=\"https://ttcdn.info/7To8dfYNQi.png\"\
+        \ /></a></p>\n\t<form style=\"margin: 0; padding; 0\" action=\"/search.php\"\
+        \ method=\"get\" accept-charset=\"utf-8\">\n\t<table class=\"centertext\"\
+        \ cellspacing=\"0\" cellpadding=\"0\" style=\"width: 100%; padding-bottom:\
+        \ 1em; margin: 0;\">\n\t<tr><td>\n\t<input size=\"60\" type=\"text\" name=\"\
+        terms\" value=\"zxcvbnm\" />\n\t<select name=\"type\">\n\t<option value=\"\
+        0\">All</option>\n\t<option value=\"1\">Anime</option><option value=\"10\"\
+        >Non-English</option><option value=\"3\">Manga</option><option value=\"8\"\
+        >Drama</option><option value=\"2\">Music</option><option value=\"9\">Music\
+        \ Video</option><option value=\"7\">Raws</option><option value=\"4\">Hentai</option><option\
+        \ value=\"12\">Hentai (Anime)</option><option value=\"13\">Hentai (Manga)</option><option\
+        \ value=\"14\">Hentai (Games)</option><option value=\"11\">Batch</option><option\
+        \ value=\"15\">JAV</option><option value=\"5\">Other</option>\t</select><br\
+        \ />\n\t<input type=\"checkbox\" name=\"searchName\" value=\"true\"  id=\"\
+        searchName\" /><label for=\"searchName\">Search name</label>\n\t<span style=\"\
+        font-variant: small-caps;\">Or</span>\n\t<input type=\"checkbox\" name=\"\
+        searchComment\" value=\"true\"  id=\"searchComment\" /><label for=\"searchComment\"\
+        >Search comment</label><br />\n\t<label for=\"minMB\">Torrent Size (Min MB):</label>\n\
+        \t<input id=\"minMB\" size=\"4\" type=\"text\" name=\"size_min\" value=\"\"\
+        \ />\n\t<label for=\"maxMB\">(Max MB):</label>\n\t<input size=\"4\" type=\"\
+        text\" name=\"size_max\" id=\"maxMB\" value=\"\" />\n\t<br /><label for=\"\
+        submitter\">Submitter:</label>\n\t<input id=\"submitter\" size=\"12\" type=\"\
+        text\" name=\"username\" value=\"\" /><br />\n\t<input type=\"submit\" value=\"\
+        Search\" /><br />\n\t</td></tr>\n\t</table>\n\t</form>\n\t<table class=\"\
+        listing\">\n<tr><td class=\"centertext\" colspan=\"3\"><a href=\"/rss.php?terms=zxcvbnm\"\
+        ><img src=\"https://ttcdn.info/feed-icon-14x14.png\" alt=\"RSS\" /> RSS Feed\
+        \ of these results</a></td></tr></table><p style=\"text-align: center\">No\
+        \ results returned. Please try to broaden your search.</p></div><p class=\"\
+        footer\">\r\n<a href=\"https://www.privateinternetaccess.com/pages/buy-vpn/TT001\"\
+        \ rel=\"nofollow\"><img alt=\"Private Internet Access\" src=\"https://ttcdn.info/YidHqCh8.png\"\
+        \ /></a>\r\n<br />\r\n<br />\r\nRolling visitor numbers <br />IPv4: 24h [44,943]\
+        \ 60min [4,588] 5min [659] 1min [148] - 5 minute rolling average [1201]<br\
+        \ />\r\nIPv6: 24h [21,660] 60min [1,572] 5min [159] 1min [32] - 5 minute rolling\
+        \ average [273]\r\n\r\n<br />Hosted at:<br />\r\n\r\n<br />Page generated\
+        \ in 46ms.<br />You are connecting from: 109.183.23.246 <b>SSL</b><b> (SNI\
+        \ supported)</b></p></body></html>"
     headers:
       CF-Cache-Status: DYNAMIC
-      CF-RAY: 52820e923b278cbc-VIE
+      CF-RAY: 61308ae43fb0278c-PRG
       Cache-Control: max-age=1800
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html; charset=UTF-8
-      Date: Sat, 19 Oct 2019 10:26:59 GMT
+      Date: Sun, 17 Jan 2021 13:49:57 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Expires: Sat, 19 Oct 2019 10:56:31 GMT
+      Expires: Sun, 17 Jan 2021 14:19:55 GMT
+      NEL: '{"report_to":"cf-nel","max_age":604800}'
+      Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=37W5o73TA61JKGyk%2BxHuqrtPs6rQVrxF0lC84%2FE%2BYjSi8EihcSm5TPdbwgzZqmgnQ7w7dmcHb70O7IjMg8IgjzC1WOqTyQb4Xov8UfncqmTT4ySi"}],"group":"cf-nel","max_age":604800}'
       Server: cloudflare
-      Set-Cookie: __cfduid=d3361357798ae67dded392007776e30441571480819; expires=Sun,
-        18-Oct-20 10:26:59 GMT; path=/; domain=.tokyotosho.info; HttpOnly
+      Set-Cookie: __cfduid=d082f238ae5255ad5899077a4d58453301610891397; expires=Tue,
+        16-Feb-21 13:49:57 GMT; path=/; domain=.tokyotosho.info; HttpOnly; SameSite=Lax;
+        Secure
       Strict-Transport-Security: max-age=86400
       Transfer-Encoding: chunked
       Vary: Accept-Encoding
+      cf-request-id: 07b235229f0000278cba304000000001
     status:
       code: 200
       message: OK

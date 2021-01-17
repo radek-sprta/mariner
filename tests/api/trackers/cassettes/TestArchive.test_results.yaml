@@ -4836,14 +4836,14 @@ interactions:
         \     </div><!--/#.tabby-forum-->\n  </div><!--/.container-ia-->\n  \n  <script\
         \ type=\"text/javascript\">\narchive_setup.push(function() {\n    });\n</script>\n\
         \        </div><!--/.container-->\n              </main>\n    </div><!--/#wrap-->\n\
-        \    \n    \n    <!-- Timing ...\n     rendered on: www13.us.archive.org\n\
+        \    \n    \n    <!-- Timing ...\n     rendered on: www30.us.archive.org\n\
         \ seconds diff sec                                                       \
         \                         message   stack(file:line:function)\n=========================================================\n\
         \  0.0000   0.0000                                                       \
         \                   petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require\n\
         \                                             |common/ia:66:require_once\n\
-        \                                             |setup.php:381:log\n  0.0053\
-        \   0.0053                                                               \
+        \                                             |setup.php:381:log\n  0.0115\
+        \   0.0115                                                               \
         \        redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:183:getItem\n \
         \                                            |common/Item.inc:77:parseMetadata\n\
@@ -4857,7 +4857,7 @@ interactions:
         \                                             |AdapterPipeline.inc:639:fetch\n\
         \                                             |RecordServer.inc:148:execute\n\
         \                                             |RecordServer/FetchRecordOp.inc:57:log\n\
-        \  0.0072   0.0020                                                       \
+        \  0.0176   0.0061                                                       \
         \               redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:183:getItem\n \
         \                                            |common/Item.inc:77:parseMetadata\n\
@@ -4871,35 +4871,35 @@ interactions:
         \                                             |AdapterPipeline.inc:639:fetch\n\
         \                                             |RecordServer.inc:148:execute\n\
         \                                             |RecordServer/FetchRecordOp.inc:63:log\n\
-        \  0.0232   0.0159                                                       \
+        \  0.0482   0.0305                                                       \
         \             begin session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:223:head\n  \
         \                                           |common/Nav.inc:129:__construct\n\
         \                                             |Nav.inc:221:session_start\n\
-        \                                             |Cookies.inc:56:log\n  0.0234\
-        \   0.0002                                                               \
+        \                                             |Cookies.inc:56:log\n  0.0483\
+        \   0.0001                                                               \
         \      done session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:223:head\n  \
         \                                           |common/Nav.inc:129:__construct\n\
         \                                             |Nav.inc:221:session_start\n\
-        \                                             |Cookies.inc:62:log\n  0.0357\
-        \   0.0123                      going to SE (collection:feature_films OR mediatype:feature_films)\
+        \                                             |Cookies.inc:62:log\n  0.0687\
+        \   0.0204                      going to SE (collection:feature_films OR mediatype:feature_films)\
         \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
         \                                 |details.php:197:include\n             \
         \                                |collection.php:243:main\n              \
         \                               |collection.php:1137:tolist\n            \
         \                                 |common/Search.inc:2491:__construct\n  \
-        \                                           |Search.inc:583:log\n  7.1296\
-        \   7.0939   gone to SE (collection:feature_films OR mediatype:feature_films)\
+        \                                           |Search.inc:583:log\n  6.3018\
+        \   6.2331   gone to SE (collection:feature_films OR mediatype:feature_films)\
         \ (one body too many)   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:243:main\n  \
         \                                           |collection.php:1137:tolist\n\
         \                                             |common/Search.inc:2491:__construct\n\
-        \                                             |Search.inc:935:log\n  7.1302\
-        \   0.0007                                                               \
+        \                                             |Search.inc:935:log\n  6.3021\
+        \   0.0004                                                               \
         \        start db connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:243:main\n  \
@@ -4907,7 +4907,7 @@ interactions:
         \                                            |common/Forum.inc:176:escape\n\
         \                                             |DB.inc:731:connect\n      \
         \                                       |DB.inc:105:conn\n               \
-        \                              |DB.inc:867:log\n  7.1388   0.0086        \
+        \                              |DB.inc:867:log\n  6.3154   0.0133        \
         \                                                                        \
         \ got db   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n     \
         \                                        |details.php:197:include\n      \
@@ -4916,7 +4916,275 @@ interactions:
         \                                       |common/Forum.inc:176:escape\n   \
         \                                          |DB.inc:731:connect\n         \
         \                                    |DB.inc:105:conn\n                  \
-        \                           |DB.inc:914:log\n  7.2780   0.1391           \
+        \                           |DB.inc:914:log\n  6.3339   0.0185           \
+        \                                                 cache_calling_closure start\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:404:query\n            \
+        \                                 |Cache.inc:140:value\n                 \
+        \                            |Cache.inc:120:value\n                      \
+        \                       |RedisCache.inc:321:log\n  6.3339   0.0001       \
+        \                                                                start db\
+        \ connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n    \
+        \                                         |details.php:197:include\n     \
+        \                                        |collection.php:243:main\n      \
+        \                                       |collection.php:1163:table\n     \
+        \                                        |common/Forum.inc:222:get_posts\n\
+        \                                             |Forum.inc:404:query\n     \
+        \                                        |Cache.inc:140:value\n          \
+        \                                   |Cache.inc:120:value\n               \
+        \                              |RedisCache.inc:350:{closure}\n           \
+        \                                  |Cache.inc:129:connectReadOnly\n      \
+        \                                       |DB.inc:106:conn\n               \
+        \                              |DB.inc:867:log\n  6.3340   0.0001        \
+        \                                                     got existing db connection\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:404:query\n            \
+        \                                 |Cache.inc:140:value\n                 \
+        \                            |Cache.inc:120:value\n                      \
+        \                       |RedisCache.inc:350:{closure}\n                  \
+        \                           |Cache.inc:129:connectReadOnly\n             \
+        \                                |DB.inc:106:conn\n                      \
+        \                       |DB.inc:872:log\n  6.3374   0.0034               \
+        \                                              cache_calling_closure done\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:404:query\n            \
+        \                                 |Cache.inc:140:value\n                 \
+        \                            |Cache.inc:120:value\n                      \
+        \                       |RedisCache.inc:357:log\n  6.3497   0.0123       \
+        \                                                     cache_calling_closure\
+        \ start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n      \
+        \                                       |details.php:197:include\n       \
+        \                                      |collection.php:243:main\n        \
+        \                                     |collection.php:1163:table\n       \
+        \                                      |common/Forum.inc:222:get_posts\n \
+        \                                            |Forum.inc:413:get_posts\n  \
+        \                                           |Forum.inc:404:query\n       \
+        \                                      |Cache.inc:140:value\n            \
+        \                                 |Cache.inc:120:value\n                 \
+        \                            |RedisCache.inc:321:log\n  6.3498   0.0001  \
+        \                                                                     start\
+        \ db connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n \
+        \                                            |details.php:197:include\n  \
+        \                                           |collection.php:243:main\n   \
+        \                                          |collection.php:1163:table\n  \
+        \                                           |common/Forum.inc:222:get_posts\n\
+        \                                             |Forum.inc:413:get_posts\n \
+        \                                            |Forum.inc:404:query\n      \
+        \                                       |Cache.inc:140:value\n           \
+        \                                  |Cache.inc:120:value\n                \
+        \                             |RedisCache.inc:350:{closure}\n            \
+        \                                 |Cache.inc:129:connectReadOnly\n       \
+        \                                      |DB.inc:106:conn\n                \
+        \                             |DB.inc:867:log\n  6.3499   0.0001         \
+        \                                                    got existing db connection\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:404:query\n             \
+        \                                |Cache.inc:140:value\n                  \
+        \                           |Cache.inc:120:value\n                       \
+        \                      |RedisCache.inc:350:{closure}\n                   \
+        \                          |Cache.inc:129:connectReadOnly\n              \
+        \                               |DB.inc:106:conn\n                       \
+        \                      |DB.inc:872:log\n  6.3535   0.0036                \
+        \                                             cache_calling_closure done \
+        \  var/cache/petabox/petabox/www/sf/details.php:62:getItem\n             \
+        \                                |details.php:197:include\n              \
+        \                               |collection.php:243:main\n               \
+        \                              |collection.php:1163:table\n              \
+        \                               |common/Forum.inc:222:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:404:query\n              \
+        \                               |Cache.inc:140:value\n                   \
+        \                          |Cache.inc:120:value\n                        \
+        \                     |RedisCache.inc:357:log\n  6.3666   0.0130         \
+        \                                                   cache_calling_closure\
+        \ start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n      \
+        \                                       |details.php:197:include\n       \
+        \                                      |collection.php:243:main\n        \
+        \                                     |collection.php:1163:table\n       \
+        \                                      |common/Forum.inc:222:get_posts\n \
+        \                                            |Forum.inc:413:get_posts\n  \
+        \                                           |Forum.inc:413:get_posts\n   \
+        \                                          |Forum.inc:404:query\n        \
+        \                                     |Cache.inc:140:value\n             \
+        \                                |Cache.inc:120:value\n                  \
+        \                           |RedisCache.inc:321:log\n  6.3667   0.0002   \
+        \                                                                    start\
+        \ db connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n \
+        \                                            |details.php:197:include\n  \
+        \                                           |collection.php:243:main\n   \
+        \                                          |collection.php:1163:table\n  \
+        \                                           |common/Forum.inc:222:get_posts\n\
+        \                                             |Forum.inc:413:get_posts\n \
+        \                                            |Forum.inc:413:get_posts\n  \
+        \                                           |Forum.inc:404:query\n       \
+        \                                      |Cache.inc:140:value\n            \
+        \                                 |Cache.inc:120:value\n                 \
+        \                            |RedisCache.inc:350:{closure}\n             \
+        \                                |Cache.inc:129:connectReadOnly\n        \
+        \                                     |DB.inc:106:conn\n                 \
+        \                            |DB.inc:867:log\n  6.3669   0.0001          \
+        \                                                   got existing db connection\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:404:query\n              \
+        \                               |Cache.inc:140:value\n                   \
+        \                          |Cache.inc:120:value\n                        \
+        \                     |RedisCache.inc:350:{closure}\n                    \
+        \                         |Cache.inc:129:connectReadOnly\n               \
+        \                              |DB.inc:106:conn\n                        \
+        \                     |DB.inc:872:log\n  6.3710   0.0041                 \
+        \                                            cache_calling_closure done  \
+        \ var/cache/petabox/petabox/www/sf/details.php:62:getItem\n              \
+        \                               |details.php:197:include\n               \
+        \                              |collection.php:243:main\n                \
+        \                             |collection.php:1163:table\n               \
+        \                              |common/Forum.inc:222:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:413:get_posts\n           \
+        \                                  |Forum.inc:404:query\n                \
+        \                             |Cache.inc:140:value\n                     \
+        \                        |Cache.inc:120:value\n                          \
+        \                   |RedisCache.inc:357:log\n  6.3812   0.0102           \
+        \                                                 cache_calling_closure start\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:404:query\n               \
+        \                              |Cache.inc:140:value\n                    \
+        \                         |Cache.inc:120:value\n                         \
+        \                    |RedisCache.inc:321:log\n  6.3813   0.0002          \
+        \                                                             start db connect\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:404:query\n               \
+        \                              |Cache.inc:140:value\n                    \
+        \                         |Cache.inc:120:value\n                         \
+        \                    |RedisCache.inc:350:{closure}\n                     \
+        \                        |Cache.inc:129:connectReadOnly\n                \
+        \                             |DB.inc:106:conn\n                         \
+        \                    |DB.inc:867:log\n  6.3815   0.0001                  \
+        \                                           got existing db connection   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
+        \                                             |details.php:197:include\n \
+        \                                            |collection.php:243:main\n  \
+        \                                           |collection.php:1163:table\n \
+        \                                            |common/Forum.inc:222:get_posts\n\
+        \                                             |Forum.inc:413:get_posts\n \
+        \                                            |Forum.inc:413:get_posts\n  \
+        \                                           |Forum.inc:413:get_posts\n   \
+        \                                          |Forum.inc:404:query\n        \
+        \                                     |Cache.inc:140:value\n             \
+        \                                |Cache.inc:120:value\n                  \
+        \                           |RedisCache.inc:350:{closure}\n              \
+        \                               |Cache.inc:129:connectReadOnly\n         \
+        \                                    |DB.inc:106:conn\n                  \
+        \                           |DB.inc:872:log\n  6.3856   0.0042           \
+        \                                                  cache_calling_closure done\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:404:query\n               \
+        \                              |Cache.inc:140:value\n                    \
+        \                         |Cache.inc:120:value\n                         \
+        \                    |RedisCache.inc:357:log\n  6.3976   0.0120          \
+        \                                                  cache_calling_closure start\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:413:get_posts\n           \
+        \                                  |Forum.inc:404:query\n                \
+        \                             |Cache.inc:140:value\n                     \
+        \                        |Cache.inc:120:value\n                          \
+        \                   |RedisCache.inc:321:log\n  6.3978   0.0002           \
+        \                                                            start db connect\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:413:get_posts\n           \
+        \                                  |Forum.inc:404:query\n                \
+        \                             |Cache.inc:140:value\n                     \
+        \                        |Cache.inc:120:value\n                          \
+        \                   |RedisCache.inc:350:{closure}\n                      \
+        \                       |Cache.inc:129:connectReadOnly\n                 \
+        \                            |DB.inc:106:conn\n                          \
+        \                   |DB.inc:867:log\n  6.3980   0.0002                   \
+        \                                          got existing db connection   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
+        \                                             |details.php:197:include\n \
+        \                                            |collection.php:243:main\n  \
+        \                                           |collection.php:1163:table\n \
+        \                                            |common/Forum.inc:222:get_posts\n\
+        \                                             |Forum.inc:413:get_posts\n \
+        \                                            |Forum.inc:413:get_posts\n  \
+        \                                           |Forum.inc:413:get_posts\n   \
+        \                                          |Forum.inc:413:get_posts\n    \
+        \                                         |Forum.inc:404:query\n         \
+        \                                    |Cache.inc:140:value\n              \
+        \                               |Cache.inc:120:value\n                   \
+        \                          |RedisCache.inc:350:{closure}\n               \
+        \                              |Cache.inc:129:connectReadOnly\n          \
+        \                                   |DB.inc:106:conn\n                   \
+        \                          |DB.inc:872:log\n  6.4014   0.0034            \
+        \                                                 cache_calling_closure done\
+        \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
+        \                                 |details.php:197:include\n             \
+        \                                |collection.php:243:main\n              \
+        \                               |collection.php:1163:table\n             \
+        \                                |common/Forum.inc:222:get_posts\n       \
+        \                                      |Forum.inc:413:get_posts\n        \
+        \                                     |Forum.inc:413:get_posts\n         \
+        \                                    |Forum.inc:413:get_posts\n          \
+        \                                   |Forum.inc:413:get_posts\n           \
+        \                                  |Forum.inc:404:query\n                \
+        \                             |Cache.inc:140:value\n                     \
+        \                        |Cache.inc:120:value\n                          \
+        \                   |RedisCache.inc:357:log\n  6.5673   0.1659           \
         \                                                                    bug dump\
         \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
         \                                 |details.php:197:include\n             \
@@ -4927,11 +5195,11 @@ interactions:
         text/javascript\">\nif (window.archive_analytics) {\n  window.archive_analytics.send_pageview_on_load(window.archive_analytics);\n\
         \  window.archive_analytics.process_url_events(window.location);\n  var vs\
         \ = window.archive_analytics.get_data_packets();\n  for (var i in vs) {\n\
-        \    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=7277;\n  \
-        \  vs[i]['server_name']=\"www13.us.archive.org\";\n      }\n\n  if (document.querySelectorAll('.more_search').length)\
+        \    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=6567;\n  \
+        \  vs[i]['server_name']=\"www30.us.archive.org\";\n      }\n\n  if (document.querySelectorAll('.more_search').length)\
         \ {\n    window.archive_analytics.send_scroll_fetch_base_event();\n  }\n}\n\
-        </script>\n              <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1074243748\"\
-        \ alt=\"\" />\n          <noscript>\n        <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1915310885\"\
+        </script>\n              <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1134285598\"\
+        \ alt=\"\" />\n          <noscript>\n        <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1201670959\"\
         \ />\n      </noscript>\n          <script>\n        document.addEventListener('DOMContentLoaded',\
         \ function() {\n          if (typeof AJS === 'undefined') {\n            return;\n\
         \          }\n          AJS.createTrackingImage('in_page_executes');\n   \
@@ -4940,9 +5208,9 @@ interactions:
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html; charset=utf-8
-      Date: Sun, 17 Jan 2021 12:35:49 GMT
+      Date: Sun, 17 Jan 2021 13:49:35 GMT
       Server: nginx/1.16.1 (Ubuntu)
-      Set-Cookie: PHPSESSID=le4ai96ecuvndeoct5hlqrehf3; path=/; domain=.archive.org
+      Set-Cookie: PHPSESSID=65sh3gea2dhjcl7367lj5votm4; path=/; domain=.archive.org
       Strict-Transport-Security: max-age=15724800
       Transfer-Encoding: chunked
     status:

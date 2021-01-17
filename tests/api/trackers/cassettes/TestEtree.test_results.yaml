@@ -8,923 +8,1141 @@ interactions:
     uri: https://bt.etree.org/?searchzzzz=wilco
   response:
     body:
-      string: "<!-- SKIP :  -->\n<!DOCTYPE html\n    PUBLIC \"-//W3C//DTD XHTML 1.0
-        Transitional//EN\"\n    \"DTD/xhtml1-strict.dtd\">\n<html><head>\n<title>bt.etree.org
-        | Community Tracker</title>\n<link rel=\"stylesheet\" href=\"torrent.css\"
-        type=\"text/css\" />\n\t<link rel=\"alternate stylesheet\" href=\"/lib/bt_411.css\"
-        title=\":p\" type=\"text/css\">\n</head>\n\n\n\n<BODY bgColor=#bfd5ba leftMargin=0
-        topMargin=0 marginwidth=\"0\" marginheight=\"0\">\n<TABLE height=\"100%\"
-        cellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n  <TBODY>\n  <TR>\n
-        \   <TD width=\"100%\" align=left vAlign=top>\n      <TABLE height=80 cellSpacing=0
-        cellPadding=0 width=\"100%\" bgColor=white\n      border=0>\n        <TBODY>\n
-        \       <TR>\n          <TD width=10></TD>\n          <TD><A href=\"https://bt.etree.org/\">\n\t\t<IMG
-        alt=\"bt.etree.org\" src=\"pic/logo.gif\" border=0></a>\n\t  </TD>\n\t<td
-        align=\"right\">\n\t<div style=\"text-align:right;\"><span id=\"freetext_1\"></span>\n\n</div>\n\t</td>\n\t</TR></TBODY></TABLE>\n
-        \     <TABLE cellSpacing=0 cellPadding=0 border=0>\n        <TBODY>\n        <TR
-        height=20>\n          <TD width=20 height=20></TD>\n          <TD width=110
-        height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD width=110
-        height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD width=110
-        height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD width=110
-        height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD width=110
-        height=20></TD></TR>\n        <TR height=20>\n          <TD width=20 height=20></TD>\n
-        \         <TD width=110 height=20><a href=\"index.php\"><IMG height=17\n            src=\"pic/b_new.gif\"
-        width=110 border=0></a></TD>\n          <TD width=10 height=20></TD>\n          <TD
-        width=110 height=20><a href=\"upload.php\"><IMG height=17\n            src=\"pic/b_artist.gif\"
-        width=110 border=0></TD>\n          <TD width=10 height=20></a></TD>\n\n                        <TD
-        width=110 height=20><a href=\"login.php\"><IMG height=17\n            src=\"pic/b_fan.gif\"
-        width=110 border=0></a></TD>\n                      <TD width=10 height=20></TD>\n
-        \         <TD width=110 height=20><a target=_blank href=https://transmissionbt.com/><IMG
-        height=17\n            src=\"pic/b_corp.gif\" width=110 border=0></a></TD>\n
-        \          <TD width=10 height=20></TD>\n          <TD width=110 height=20><a
-        target=_blank href=http://wiki.etree.org/index.php?page=BitTorrent><IMG height=17\n
-        \           src=\"pic/bt_faq.gif\" width=110 border=0></a></TD>\n          <TD
-        width=10 height=20></TD>\n          <TD width=110 height=20><a href=\"/cdn-cgi/l/email-protection#dbfeece8feedeefeece9feecedfeedeefeece9feefebfeedeefeeceffeece9feedeefeedeefee9befeedbdfeece9feedec\"><IMG
-        height=17\n            src=\"pic/b_contact.gif\" width=110 border=0></a></TD></TR>\n
-        \       <TR height=20>\n          <TD width=20 height=20></TD>\n          <TD
-        width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
-        width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
-        width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
-        width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n          <TD
-        width=110 height=20></TD></TR></TBODY></TABLE>\n      <TABLE cellSpacing=0
-        cellPadding=0 width=100% border=0>\n        <!--DWLayoutTable-->\n        <TBODY>\n
-        \       <TR>\n          <TD width=100% height=\"500\" align=left vAlign=top>\n
-        \           <TABLE cellSpacing=0 cellPadding=0 width=100% border=0>\n                <!--DWLayoutTable-->\n
-        \                 \n                  <TR height=30>\n                    <td
-        width=\"10\"></td>\n                    <TD vAlign=top align=left colSpan=2
-        rowSpan=2><IMG height=33\n                  src=\"pic/cc1.gif\" width=10 border=0></TD>\n
-        \                   <TD width=100% bgColor=#89aa80 height=30><FONT face=Verdana\n
-        \                 color=white size=2><B>etree.org Community Bittorrent Tracker</B></FONT></TD>\n
-        \                   <TD vAlign=top colSpan=2 rowSpan=2><IMG height=33\n                  src=\"pic/cc2.gif\"
-        width=10 border=0></TD>\n                    <td width=\"167\"></td>\n                  </TR>\n
-        \                 <TR height=3>\n                    <td></td>\n                    <TD
-        bgColor=white height=3></TD>\n                    <td></td>\n                  </TR>\n
-        \                 <TR>\n                    <td></td>\n                    <TD
-        width=5 bgColor=#89aa80></TD>\n                    <TD width=5 bgColor=white></TD>\n
-        \                   <TD bgColor=white>\n\r\n<script data-cfasync=\"false\"
-        src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script
-        language=\"javascript\">\r\n<!--\r\nif (parent.frames.length > 0) {\r\n    parent.location.href
-        = self.document.location;\r\n}\r\n// -->\r\n</script>\r\n\r\n<br>\r\n\r\n<!--
-        Request: a:1:{s:10:\"searchzzzz\";s:5:\"wilco\";} -->\r\n<!-- Search:  -->\r\n<h2><font
-        color=\"red\">NOTE:</font> Comments have been\r\ndisabled due to a few bad
-        apples using them to harass others. (you\r\nknow who you are and should be
-        ashamed) --phrog </h2>\r\n<p><font size=\"2\">This site is provided by the
-        <a\r\nhref=\"http://etree.org/\">etree.org</a> community for sharing the live\r\nconcert
-        recordings of <a\r\nhref=http://wiki.etree.org/index.php?page=TradeFriendly>trade\r\nfriendly</a>
-        artists.  Please tell your friends and family about new\r\nbands that catch
-        your ear, and support these artists by going to see\r\nthem live and buying
-        their CDs!</font></p>\r\n\r\n<h3>Please Help!</h3>\r\n<blockquote>\r\nFrom
-        time to time, all the seeders will jump off a torrent leaving a few folks
-        stuck with a partially downloaded show.  <a href=\"stranded.php\">Click here</a>
-        to see if you can help someone out.  If you have already completed one of
-        the shows please open your window back up until they have completed.\r\n</blockquote>\r\n\r\n\r\n<hr>\r\n\r\n<p>Please
-        keep your BitTorrent download windows open as long as possible! This will
-        speed up the downloads of others and help them finish their downloads faster.</p>\r\n\r\n<form
-        method=\"get\" action=\"./\">\r\n<p align=\"center\">\r\nSearch:\r\n<input
-        type=\"text\" name=\"searchzzzz\" size=\"40\" value=\"wilco\">\r\nin\r\n<select
-        name=\"cat\">\r\n\t<option value=\"0\">(all bands)</option>\r\n\t<option label=\"311\"
-        value=\"217\">311</option>\n<option label=\"Addison Groove Project\" value=\"196\">Addison
-        Groove Project</option>\n<option label=\"Adienne Young and Little Sadie\"
-        value=\"296\">Adienne Young and Little Sadie</option>\n<option label=\"Agents
-        of Good Roots\" value=\"14\">Agents of Good Roots</option>\n<option label=\"ALO\"
-        value=\"336\">ALO</option>\n<option label=\"American Babies\" value=\"337\">American
-        Babies</option>\n<option label=\"Amfibian\" value=\"18\">Amfibian</option>\n<option
-        label=\"Amy Helm\" value=\"338\">Amy Helm</option>\n<option label=\"Ancient
-        Harmony\" value=\"19\">Ancient Harmony</option>\n<option label=\"Anders Osborne\"
-        value=\"20\">Anders Osborne</option>\n<option label=\"Aquarium Rescue Unit\"
-        value=\"213\">Aquarium Rescue Unit</option>\n<option label=\"Avalon Allstars\"
-        value=\"301\">Avalon Allstars</option>\n<option label=\"Beanland\" value=\"25\">Beanland</option>\n<option
-        label=\"Bela Fleck &amp; The Flecktones\" value=\"26\">Bela Fleck &amp; The
-        Flecktones</option>\n<option label=\"Bela Fleck &amp; Tony Trischka\" value=\"27\">Bela
-        Fleck &amp; Tony Trischka</option>\n<option label=\"Ben Folds\" value=\"267\">Ben
-        Folds</option>\n<option label=\"Benevento Russo Duo\" value=\"248\">Benevento
-        Russo Duo</option>\n<option label=\"Bernie Worrell and the WOO War\" value=\"30\">Bernie
-        Worrell and the WOO War</option>\n<option label=\"Big Frog\" value=\"298\">Big
-        Frog</option>\n<option label=\"Big Head Todd and the Monsters\" value=\"32\">Big
-        Head Todd and the Monsters</option>\n<option label=\"Big In Japan\" value=\"33\">Big
-        In Japan</option>\n<option label=\"Billy And The Kids\" value=\"339\">Billy
-        And The Kids</option>\n<option label=\"Billy Strings\" value=\"387\">Billy
-        Strings</option>\n<option label=\"Black Crowes\" value=\"215\">Black Crowes</option>\n<option
-        label=\"Blackberry Smoke\" value=\"392\">Blackberry Smoke</option>\n<option
-        label=\"Blind Melon\" value=\"36\">Blind Melon</option>\n<option label=\"Bloodkin\"
-        value=\"334\">Bloodkin</option>\n<option label=\"Blue Floyd\" value=\"255\">Blue
-        Floyd</option>\n<option label=\"Blues Traveler\" value=\"38\">Blues Traveler</option>\n<option
-        label=\"Bob Weir\" value=\"389\">Bob Weir</option>\n<option label=\"Bockman's
-        Euphio\" value=\"39\">Bockman's Euphio</option>\n<option label=\"Bonerama\"
-        value=\"286\">Bonerama</option>\n<option label=\"Brothers Past\" value=\"40\">Brothers
-        Past</option>\n<option label=\"Bruce Hornsby\" value=\"41\">Bruce Hornsby</option>\n<option
-        label=\"Buckethead\" value=\"221\">Buckethead</option>\n<option label=\"Built
-        to Spill\" value=\"277\">Built to Spill</option>\n<option label=\"Cabinet\"
-        value=\"340\">Cabinet</option>\n<option label=\"Camper Van Beethoven\" value=\"341\">Camper
-        Van Beethoven</option>\n<option label=\"Captain Soular Cat\" value=\"211\">Captain
-        Soular Cat</option>\n<option label=\"Carbon Leaf\" value=\"43\">Carbon Leaf</option>\n<option
-        label=\"Charlie Hunter\" value=\"44\">Charlie Hunter</option>\n<option label=\"Chris
-        Duarte\" value=\"284\">Chris Duarte</option>\n<option label=\"Chris Robinson\"
-        value=\"45\">Chris Robinson</option>\n<option label=\"Club d'Elf\" value=\"46\">Club
-        d'Elf</option>\n<option label=\"Col. Bruce Hampton\" value=\"342\">Col. Bruce
-        Hampton</option>\n<option label=\"Commander Cody\" value=\"343\">Commander
-        Cody</option>\n<option label=\"Cornmeal\" value=\"237\">Cornmeal</option>\n<option
-        label=\"Counting Crows\" value=\"47\">Counting Crows</option>\n<option label=\"Cowboy
-        Junkies\" value=\"48\">Cowboy Junkies</option>\n<option label=\"Crack Sabbath\"
-        value=\"251\">Crack Sabbath</option>\n<option label=\"Cracker\" value=\"344\">Cracker</option>\n<option
-        label=\"Crazy Fingers\" value=\"314\">Crazy Fingers</option>\n<option label=\"Critters
-        Buggin\" value=\"49\">Critters Buggin</option>\n<option label=\"Cubensis\"
-        value=\"345\">Cubensis</option>\n<option label=\"Damien Rice\" value=\"311\">Damien
-        Rice</option>\n<option label=\"Dan Bern\" value=\"50\">Dan Bern</option>\n<option
-        label=\"Danny Barnes\" value=\"278\">Danny Barnes</option>\n<option label=\"Dark
-        Star Orchestra\" value=\"51\">Dark Star Orchestra</option>\n<option label=\"Dave
-        Matthews Band\" value=\"252\">Dave Matthews Band</option>\n<option label=\"Dave
-        Matthews Solo\" value=\"253\">Dave Matthews Solo</option>\n<option label=\"David
-        Bromberg\" value=\"208\">David Bromberg</option>\n<option label=\"David Gans\"
-        value=\"55\">David Gans</option>\n<option label=\"David Gray\" value=\"56\">David
-        Gray</option>\n<option label=\"David Grisman\" value=\"245\">David Grisman</option>\n<option
-        label=\"David Nelson Band\" value=\"226\">David Nelson Band</option>\n<option
-        label=\"Day by the River\" value=\"57\">Day by the River</option>\n<option
-        label=\"Dead &amp; Company\" value=\"328\">Dead &amp; Company</option>\n<option
-        label=\"Dead Floyd\" value=\"346\">Dead Floyd</option>\n<option label=\"Deep
-        Banana Blackout\" value=\"59\">Deep Banana Blackout</option>\n<option label=\"Derek
-        Trucks Band\" value=\"60\">Derek Trucks Band</option>\n<option label=\"Dirty
-        Dozen Brass Band\" value=\"62\">Dirty Dozen Brass Band</option>\n<option label=\"Disco
-        Biscuits\" value=\"63\">Disco Biscuits</option>\n<option label=\"Dispatch\"
-        value=\"64\">Dispatch</option>\n<option label=\"Donna Hopkins\" value=\"347\">Donna
-        Hopkins</option>\n<option label=\"Donna the Buffalo\" value=\"65\">Donna the
-        Buffalo</option>\n<option label=\"Dopapod\" value=\"348\">Dopapod</option>\n<option
-        label=\"Dr. Didg\" value=\"66\">Dr. Didg</option>\n<option label=\"Drive-By
-        Truckers\" value=\"67\">Drive-By Truckers</option>\n<option label=\"Driving
-        Wheel\" value=\"349\">Driving Wheel</option>\n<option label=\"Dub Apocalypse\"
-        value=\"393\">Dub Apocalypse</option>\n<option label=\"Dumpstaphunk\" value=\"395\">Dumpstaphunk</option>\n<option
-        label=\"Ed Palermo Big Band\" value=\"399\">Ed Palermo Big Band</option>\n<option
-        label=\"Edie Brickell\" value=\"68\">Edie Brickell</option>\n<option label=\"Ekoostik
-        Hookah\" value=\"69\">Ekoostik Hookah</option>\n<option label=\"Elephant Revival\"
-        value=\"332\">Elephant Revival</option>\n<option label=\"EN2\" value=\"235\">EN2</option>\n<option
-        label=\"Family Groove Company\" value=\"70\">Family Groove Company</option>\n<option
-        label=\"Fare Thee Well\" value=\"327\">Fare Thee Well</option>\n<option label=\"Funky
-        Meters\" value=\"220\">Funky Meters</option>\n<option label=\"Furthur\" value=\"318\">Furthur</option>\n<option
-        label=\"Galactic\" value=\"72\">Galactic</option>\n<option label=\"Garage
-        a Trois\" value=\"2\">Garage a Trois</option>\n<option label=\"Garaj Mahal\"
-        value=\"73\">Garaj Mahal</option>\n<option label=\"Garcia\" value=\"74\">Garcia</option>\n<option
-        label=\"Gary Clark Jr.\" value=\"402\">Gary Clark Jr.</option>\n<option label=\"Gent
-        Treadly\" value=\"350\">Gent Treadly</option>\n<option label=\"George Porter
-        Jr. &amp; Runnin' P\" value=\"75\">George Porter Jr. &amp; Runnin' P</option>\n<option
-        label=\"George Wesley\" value=\"271\">George Wesley</option>\n<option label=\"Giant
-        Panda Guerilla Dub Squad\" value=\"397\">Giant Panda Guerilla Dub Squad</option>\n<option
-        label=\"Golden Gate Wingmen\" value=\"326\">Golden Gate Wingmen</option>\n<option
-        label=\"Gomez\" value=\"260\">Gomez</option>\n<option label=\"Govt Mule\"
-        value=\"12\">Govt Mule</option>\n<option label=\"Grace Potter and the Nocturnals\"
-        value=\"287\">Grace Potter and the Nocturnals</option>\n<option label=\"Grampas
-        Grass\" value=\"351\">Grampas Grass</option>\n<option label=\"Grand Theft
-        Bus\" value=\"77\">Grand Theft Bus</option>\n<option label=\"Grateful Dead\"
-        value=\"8\">Grateful Dead</option>\n<option label=\"Great American Taxi\"
-        value=\"295\">Great American Taxi</option>\n<option label=\"Greensky Bluegrass\"
-        value=\"322\">Greensky Bluegrass</option>\n<option label=\"GreyBoy AllStars\"
-        value=\"78\">GreyBoy AllStars</option>\n<option label=\"GrooveSession\" value=\"352\">GrooveSession</option>\n<option
-        label=\"Guster\" value=\"79\">Guster</option>\n<option label=\"GWAR\" value=\"224\">GWAR</option>\n<option
-        label=\"Hackensaw Boys\" value=\"293\">Hackensaw Boys</option>\n<option label=\"Hairy
-        Apes BMX\" value=\"244\">Hairy Apes BMX</option>\n<option label=\"Half Step\"
-        value=\"353\">Half Step</option>\n<option label=\"Hard Working Americans\"
-        value=\"354\">Hard Working Americans</option>\n<option label=\"Hexbelt\" value=\"242\">Hexbelt</option>\n<option
-        label=\"Hill Country Revue\" value=\"319\">Hill Country Revue</option>\n<option
-        label=\"Holly Bowling\" value=\"400\">Holly Bowling</option>\n<option label=\"Hot
-        Buttered Rum String Band\" value=\"272\">Hot Buttered Rum String Band</option>\n<option
-        label=\"Hotrize\" value=\"304\">Hotrize</option>\n<option label=\"Howie Day\"
-        value=\"81\">Howie Day</option>\n<option label=\"Indigo Girls\" value=\"261\">Indigo
-        Girls</option>\n<option label=\"Infamous Stringdusters\" value=\"307\">Infamous
-        Stringdusters</option>\n<option label=\"Jack Johnson\" value=\"83\">Jack Johnson</option>\n<option
-        label=\"Jackie Greene\" value=\"292\">Jackie Greene</option>\n<option label=\"Jacob
-        Fred Jazz Odyssey\" value=\"84\">Jacob Fred Jazz Odyssey</option>\n<option
-        label=\"Jason Isbell\" value=\"355\">Jason Isbell</option>\n<option label=\"Jason
-        Mraz\" value=\"85\">Jason Mraz</option>\n<option label=\"Jazz Mandolin Project\"
-        value=\"86\">Jazz Mandolin Project</option>\n<option label=\"Jeff Austin Band\"
-        value=\"325\">Jeff Austin Band</option>\n<option label=\"Jeff Mosier\" value=\"37\">Jeff
-        Mosier</option>\n<option label=\"Jeff Sipe\" value=\"259\">Jeff Sipe</option>\n<option
-        label=\"Jeff Tweedy\" value=\"87\">Jeff Tweedy</option>\n<option label=\"Jemimah
-        Puddleduck\" value=\"239\">Jemimah Puddleduck</option>\n<option label=\"Jennifer
-        O'Connor\" value=\"315\">Jennifer O'Connor</option>\n<option label=\"Jerry
-        Joseph\" value=\"254\">Jerry Joseph</option>\n<option label=\"Jimmy Herring\"
-        value=\"313\">Jimmy Herring</option>\n<option label=\"JJ Grey &amp; Mofro\"
-        value=\"232\">JJ Grey &amp; Mofro</option>\n<option label=\"Joan Osborne\"
-        value=\"356\">Joan Osborne</option>\n<option label=\"Joe Craven\" value=\"357\">Joe
-        Craven</option>\n<option label=\"Joe Russo's Almost Dead\" value=\"358\">Joe
-        Russo's Almost Dead</option>\n<option label=\"John Brown's Body\" value=\"359\">John
-        Brown's Body</option>\n<option label=\"John Butler Trio\" value=\"89\">John
-        Butler Trio</option>\n<option label=\"John Cowan Band\" value=\"90\">John
-        Cowan Band</option>\n<option label=\"John Hartford\" value=\"91\">John Hartford</option>\n<option
-        label=\"John Mayer\" value=\"92\">John Mayer</option>\n<option label=\"Karl
-        Denson and Chris Wood\" value=\"97\">Karl Denson and Chris Wood</option>\n<option
-        label=\"Karl Denson's Tiny Universe\" value=\"98\">Karl Denson's Tiny Universe</option>\n<option
-        label=\"Keller Williams\" value=\"99\">Keller Williams</option>\n<option label=\"Kevn
-        Kinney\" value=\"268\">Kevn Kinney</option>\n<option label=\"Kimock\" value=\"101\">Kimock</option>\n<option
-        label=\"Kudzu Kings\" value=\"102\">Kudzu Kings</option>\n<option label=\"Kung
-        Fu\" value=\"329\">Kung Fu</option>\n<option label=\"KVHW\" value=\"103\">KVHW</option>\n<option
-        label=\"Lake Trout\" value=\"104\">Lake Trout</option>\n<option label=\"Larry
-        Campbell\" value=\"360\">Larry Campbell</option>\n<option label=\"Larry Keel\"
-        value=\"275\">Larry Keel</option>\n<option label=\"Leftover Salmon\" value=\"105\">Leftover
-        Salmon</option>\n<option label=\"Leo Kottke &amp; Mike Gordon\" value=\"106\">Leo
-        Kottke &amp; Mike Gordon</option>\n<option label=\"Les Claypool's Fearless
-        Flying Frog Brigade\" value=\"107\">Les Claypool's Fearless Flying Frog Brigade</option>\n<option
-        label=\"Lettuce\" value=\"331\">Lettuce</option>\n<option label=\"Levon Helm\"
-        value=\"305\">Levon Helm</option>\n<option label=\"Little Feat\" value=\"108\">Little
-        Feat</option>\n<option label=\"Living Daylights\" value=\"109\">Living Daylights</option>\n<option
-        label=\"Lo Faber Band\" value=\"110\">Lo Faber Band</option>\n<option label=\"Los
-        Lobos\" value=\"111\">Los Lobos</option>\n<option label=\"Lucero\" value=\"361\">Lucero</option>\n<option
-        label=\"Marc Ford\" value=\"113\">Marc Ford</option>\n<option label=\"Marco
-        Benevento\" value=\"362\">Marco Benevento</option>\n<option label=\"Marcus
-        Eaton and the Lobby\" value=\"114\">Marcus Eaton and the Lobby</option>\n<option
-        label=\"Marcus King Band\" value=\"391\">Marcus King Band</option>\n<option
-        label=\"Mason Jennings\" value=\"115\">Mason Jennings</option>\n<option label=\"Matisyahu\"
-        value=\"236\">Matisyahu</option>\n<option label=\"Matt Nathanson\" value=\"116\">Matt
-        Nathanson</option>\n<option label=\"Max Creek\" value=\"206\">Max Creek</option>\n<option
-        label=\"Medeski, Martin &amp; Wood\" value=\"1\">Medeski, Martin &amp; Wood</option>\n<option
-        label=\"Melvin Seals and JGB\" value=\"398\">Melvin Seals and JGB</option>\n<option
-        label=\"Mike Clark's Prescription Renewal\" value=\"118\">Mike Clark's Prescription
-        Renewal</option>\n<option label=\"Mike Gordon\" value=\"204\">Mike Gordon</option>\n<option
-        label=\"Mike Mizwinski\" value=\"320\">Mike Mizwinski</option>\n<option label=\"Modest
-        Mouse\" value=\"266\">Modest Mouse</option>\n<option label=\"moe.\" value=\"119\">moe.</option>\n<option
-        label=\"moe. side projects\" value=\"120\">moe. side projects</option>\n<option
-        label=\"Mondo Gecko\" value=\"317\">Mondo Gecko</option>\n<option label=\"Moonalice\"
-        value=\"363\">Moonalice</option>\n<option label=\"Moonshine Still\" value=\"216\">Moonshine
-        Still</option>\n<option label=\"Mother Hips\" value=\"364\">Mother Hips</option>\n<option
-        label=\"My Morning Jacket\" value=\"212\">My Morning Jacket</option>\n<option
-        label=\"Nashville Bluegrass Band\" value=\"306\">Nashville Bluegrass Band</option>\n<option
-        label=\"nero\" value=\"123\">nero</option>\n<option label=\"New Monsoon\"
-        value=\"125\">New Monsoon</option>\n<option label=\"New Orleans Suspects\"
-        value=\"365\">New Orleans Suspects</option>\n<option label=\"New Riders of
-        the Purple Sage\" value=\"126\">New Riders of the Purple Sage</option>\n<option
-        label=\"Nicki Bluhm\" value=\"366\">Nicki Bluhm</option>\n<option label=\"North
-        Mississippi Allstars\" value=\"127\">North Mississippi Allstars</option>\n<option
-        label=\"O.A.R. (Of A Revolution)\" value=\"128\">O.A.R. (Of A Revolution)</option>\n<option
-        label=\"Offering\" value=\"129\">Offering</option>\n<option label=\"OM Trio\"
-        value=\"130\">OM Trio</option>\n<option label=\"On the One\" value=\"279\">On
-        the One</option>\n<option label=\"Oteil &amp; the Peacemakers\" value=\"238\">Oteil
-        &amp; the Peacemakers</option>\n<option label=\"Other\" value=\"6\">Other</option>\n<option
-        label=\"Outformation\" value=\"299\">Outformation</option>\n<option label=\"Over
-        The Rhine\" value=\"243\">Over The Rhine</option>\n<option label=\"Oysterhead\"
-        value=\"132\">Oysterhead</option>\n<option label=\"Ozric Tentacles\" value=\"223\">Ozric
-        Tentacles</option>\n<option label=\"Papa Mali\" value=\"262\">Papa Mali</option>\n<option
-        label=\"Papadosio\" value=\"367\">Papadosio</option>\n<option label=\"Particle\"
-        value=\"133\">Particle</option>\n<option label=\"Pat McGee Band\" value=\"134\">Pat
-        McGee Band</option>\n<option label=\"Pat Metheny\" value=\"135\">Pat Metheny</option>\n<option
-        label=\"Patterson Hood and Friends\" value=\"136\">Patterson Hood and Friends</option>\n<option
-        label=\"Pearl Jam\" value=\"137\">Pearl Jam</option>\n<option label=\"Percy
-        Hill\" value=\"138\">Percy Hill</option>\n<option label=\"Perpetual Groove\"
-        value=\"265\">Perpetual Groove</option>\n<option label=\"Phil Lesh &amp; Friends\"
-        value=\"139\">Phil Lesh &amp; Friends</option>\n<option label=\"Phish\" value=\"5\">Phish</option>\n<option
-        label=\"Pigeons Playing Ping Pong\" value=\"388\">Pigeons Playing Ping Pong</option>\n<option
-        label=\"Pink Talking Fish\" value=\"368\">Pink Talking Fish</option>\n<option
-        label=\"Planet Of The Abts\" value=\"369\">Planet Of The Abts</option>\n<option
-        label=\"Polyphonic Spree\" value=\"201\">Polyphonic Spree</option>\n<option
-        label=\"Porter Batiste Stoltz (PBS)\" value=\"285\">Porter Batiste Stoltz
-        (PBS)</option>\n<option label=\"Primus\" value=\"207\">Primus</option>\n<option
-        label=\"Project Object\" value=\"316\">Project Object</option>\n<option label=\"Punch
-        Brothers\" value=\"370\">Punch Brothers</option>\n<option label=\"Queens of
-        the Stone Age\" value=\"250\">Queens of the Stone Age</option>\n<option label=\"Radiators\"
-        value=\"142\">Radiators</option>\n<option label=\"Radiohead\" value=\"222\">Radiohead</option>\n<option
-        label=\"Railroad Earth\" value=\"143\">Railroad Earth</option>\n<option label=\"Ralph
-        Roddenbery\" value=\"371\">Ralph Roddenbery</option>\n<option label=\"Randall
-        Bramblett\" value=\"372\">Randall Bramblett</option>\n<option label=\"Raq\"
-        value=\"144\">Raq</option>\n<option label=\"Ratdog\" value=\"145\">Ratdog</option>\n<option
-        label=\"Reid Genauer\" value=\"147\">Reid Genauer</option>\n<option label=\"REM\"
-        value=\"310\">REM</option>\n<option label=\"Robert Hunter\" value=\"148\">Robert
-        Hunter</option>\n<option label=\"Robert Randolph\" value=\"149\">Robert Randolph</option>\n<option
-        label=\"Robert Walter's 20th Congress\" value=\"150\">Robert Walter's 20th
-        Congress</option>\n<option label=\"Royal Southern Brotherhood\" value=\"373\">Royal
-        Southern Brotherhood</option>\n<option label=\"Rusted Root\" value=\"151\">Rusted
-        Root</option>\n<option label=\"Ryan Adams\" value=\"270\">Ryan Adams</option>\n<option
-        label=\"Sam Bush\" value=\"263\">Sam Bush</option>\n<option label=\"Sam Holt
-        Band\" value=\"333\">Sam Holt Band</option>\n<option label=\"Sam Kininger
-        Band\" value=\"303\">Sam Kininger Band</option>\n<option label=\"Sawgrass\"
-        value=\"300\">Sawgrass</option>\n<option label=\"Scarecrow Collection\" value=\"209\">Scarecrow
-        Collection</option>\n<option label=\"Schleigho\" value=\"153\">Schleigho</option>\n<option
-        label=\"Scott Amendola Band\" value=\"154\">Scott Amendola Band</option>\n<option
-        label=\"Scott Sharrard\" value=\"374\">Scott Sharrard</option>\n<option label=\"Seth
-        Yacovone Band\" value=\"155\">Seth Yacovone Band</option>\n<option label=\"Sex
-        Mob\" value=\"156\">Sex Mob</option>\n<option label=\"Signal Path\" value=\"264\">Signal
-        Path</option>\n<option label=\"Sister Sparrow and the Dirty Birds\" value=\"375\">Sister
-        Sparrow and the Dirty Birds</option>\n<option label=\"Smokin' Boomers\" value=\"234\">Smokin'
-        Boomers</option>\n<option label=\"Solar Circus\" value=\"280\">Solar Circus</option>\n<option
-        label=\"Soulhat\" value=\"225\">Soulhat</option>\n<option label=\"Soulive\"
-        value=\"159\">Soulive</option>\n<option label=\"Sound Tribe Sector 9\" value=\"160\">Sound
-        Tribe Sector 9</option>\n<option label=\"Spafford\" value=\"394\">Spafford</option>\n<option
-        label=\"Spearhead\" value=\"161\">Spearhead</option>\n<option label=\"Spin
-        Doctors\" value=\"162\">Spin Doctors</option>\n<option label=\"Stanton Moore\"
-        value=\"164\">Stanton Moore</option>\n<option label=\"Stephen Kellogg\" value=\"165\">Stephen
-        Kellogg</option>\n<option label=\"Stephen Malkmus\" value=\"274\">Stephen
-        Malkmus</option>\n<option label=\"Steve Kimock &amp; Friends\" value=\"166\">Steve
-        Kimock &amp; Friends</option>\n<option label=\"Steve Kimock Band\" value=\"167\">Steve
-        Kimock Band</option>\n<option label=\"Stockholm Syndrome\" value=\"219\">Stockholm
-        Syndrome</option>\n<option label=\"Strangefolk\" value=\"168\">Strangefolk</option>\n<option
-        label=\"String Cheese Incident\" value=\"169\">String Cheese Incident</option>\n<option
-        label=\"TAUK\" value=\"376\">TAUK</option>\n<option label=\"Tea Leaf Green\"
-        value=\"240\">Tea Leaf Green</option>\n<option label=\"Tedeschi Trucks Band\"
-        value=\"324\">Tedeschi Trucks Band</option>\n<option label=\"Tenacious D\"
-        value=\"171\">Tenacious D</option>\n<option label=\"The Avalon Allstars\"
-        value=\"258\">The Avalon Allstars</option>\n<option label=\"The Big Wu\" value=\"35\">The
-        Big Wu</option>\n<option label=\"The Black Keys\" value=\"288\">The Black
-        Keys</option>\n<option label=\"The Breakfast\" value=\"141\">The Breakfast</option>\n<option
-        label=\"The Brothers Comatose\" value=\"378\">The Brothers Comatose</option>\n<option
-        label=\"The Code Talkers\" value=\"200\">The Code Talkers</option>\n<option
-        label=\"The Dead\" value=\"11\">The Dead</option>\n<option label=\"The Heavy
-        Pets\" value=\"294\">The Heavy Pets</option>\n<option label=\"The Higgs\"
-        value=\"379\">The Higgs</option>\n<option label=\"The Magpie Salute\" value=\"396\">The
-        Magpie Salute</option>\n<option label=\"The Mood Cultivation Project\" value=\"121\">The
-        Mood Cultivation Project</option>\n<option label=\"The Motet\" value=\"122\">The
-        Motet</option>\n<option label=\"The New Deal\" value=\"124\">The New Deal</option>\n<option
-        label=\"The New Mastersounds\" value=\"401\">The New Mastersounds</option>\n<option
-        label=\"The Other Ones\" value=\"131\">The Other Ones</option>\n<option label=\"The
-        Recipe\" value=\"146\">The Recipe</option>\n<option label=\"The Revivalists\"
-        value=\"380\">The Revivalists</option>\n<option label=\"The Roots\" value=\"290\">The
-        Roots</option>\n<option label=\"The Slip\" value=\"158\">The Slip</option>\n<option
-        label=\"The Smashing Pumpkins\" value=\"283\">The Smashing Pumpkins</option>\n<option
-        label=\"The Steepwater Band\" value=\"381\">The Steepwater Band</option>\n<option
-        label=\"The Tragically Hip\" value=\"195\">The Tragically Hip</option>\n<option
-        label=\"The Waybacks\" value=\"282\">The Waybacks</option>\n<option label=\"The
-        Werks\" value=\"382\">The Werks</option>\n<option label=\"The Word\" value=\"190\">The
-        Word</option>\n<option label=\"Tim Palmieri\" value=\"233\">Tim Palmieri</option>\n<option
-        label=\"Tim Reynolds\" value=\"172\">Tim Reynolds</option>\n<option label=\"Tinsley
-        Ellis\" value=\"383\">Tinsley Ellis</option>\n<option label=\"Tishamingo\"
-        value=\"203\">Tishamingo</option>\n<option label=\"Todd Snider\" value=\"308\">Todd
-        Snider</option>\n<option label=\"Tommy Castro\" value=\"289\">Tommy Castro</option>\n<option
-        label=\"Topaz\" value=\"173\">Topaz</option>\n<option label=\"Tortoise\" value=\"174\">Tortoise</option>\n<option
-        label=\"TR3\" value=\"175\">TR3</option>\n<option label=\"Trey Anastasio\"
-        value=\"176\">Trey Anastasio</option>\n<option label=\"Trombone Shorty\" value=\"335\">Trombone
-        Shorty</option>\n<option label=\"Truett Lollis\" value=\"384\">Truett Lollis</option>\n<option
-        label=\"Truth and Salvage Co\" value=\"323\">Truth and Salvage Co</option>\n<option
-        label=\"Twiddle\" value=\"385\">Twiddle</option>\n<option label=\"U-Melt\"
-        value=\"276\">U-Melt</option>\n<option label=\"Ulu\" value=\"177\">Ulu</option>\n<option
-        label=\"Umphrey's McGee\" value=\"178\">Umphrey's McGee</option>\n<option
-        label=\"Uncle Earl\" value=\"291\">Uncle Earl</option>\n<option label=\"Vida
-        Blue\" value=\"180\">Vida Blue</option>\n<option label=\"Vinyl\" value=\"256\">Vinyl</option>\n<option
-        label=\"Violent Femmes\" value=\"297\">Violent Femmes</option>\n<option label=\"Warren
-        Haynes\" value=\"182\">Warren Haynes</option>\n<option label=\"Ween\" value=\"183\">Ween</option>\n<option
-        label=\"Widespread Panic\" value=\"13\">Widespread Panic</option>\n<option
-        label=\"Wilco\" value=\"184\">Wilco</option>\n<option label=\"Will Bernard
-        &amp; Motherbug\" value=\"185\">Will Bernard &amp; Motherbug</option>\n<option
-        label=\"Will Bernard Projects\" value=\"187\">Will Bernard Projects</option>\n<option
-        label=\"Willy Porter Band\" value=\"189\">Willy Porter Band</option>\n<option
-        label=\"Wood Brothers\" value=\"309\">Wood Brothers</option>\n<option label=\"WTFB\"
-        value=\"386\">WTFB</option>\n<option label=\"Xavier Rudd\" value=\"269\">Xavier
-        Rudd</option>\n<option label=\"Yarn Music\" value=\"321\">Yarn Music</option>\n<option
-        label=\"Yo La Tengo\" value=\"214\">Yo La Tengo</option>\n<option label=\"Yonder
-        Mountain String Band\" value=\"191\">Yonder Mountain String Band</option>\n<option
-        label=\"Zac Brown Band\" value=\"390\">Zac Brown Band</option>\n<option label=\"Zen
-        Tricksters\" value=\"197\">Zen Tricksters</option>\n<option label=\"Zero\"
-        value=\"192\">Zero</option>\n<option label=\"Zony Mash\" value=\"193\">Zony
-        Mash</option>\n\r\n</select>\r\n\r\n<br><input type=\"checkbox\" name=\"incldead\"
-        value=\"1\" > including torrents with no seeders\r\n\r\n<input type=\"submit\"
-        value=\"Search!\">\r\n\r\n</p>\r\n</form>\r\n        <h2>Search results for
-        \"wilco\"</h2>\r\n\r\n<p align=\"center\"><a class=\"here\" href=\"/index.php?searchzzzz=wilco&page=0\">1
-        - 50</a>  |   <a class=\"\" href=\"/index.php?searchzzzz=wilco&page=50\">51
-        - 92</a>&nbsp;&nbsp;&nbsp;<a class=\"\" href=\"/index.php?searchzzzz=wilco&page=50\">
-        Next >></a></p>\n\r\n\r\n<center>\r\n<b>Filters:</b> &nbsp; &nbsp;<a href=/index.php?searchzzzz=wilco&filter=noreseed>Hide
-        *RESEEDS*</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nodead>Hide
-        Grateful Dead</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophish>Hide
-        Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophgd>Hide
-        Grateful Dead and Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=none>Hide
-        None</a> &nbsp;\r\n\r\n<br><br>\r\n</center>\r\n\t<table bgcolor=#CCCCCC border=\"0\"
-        cellpadding=\"3\" width=\"100%\">\n<tr bgcolor=#FFFFFF>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=name\">Artist</a></th>\n\t<th>Show</th>\n\t<th>DL</th>\n\t<th>Files</th>\n\t<th><a
-        href=\"/index.php?searchzzzz=wilco&sort=comments\">Chat</a></th>\n\t<th><a
-        href=\"/index.php?searchzzzz=wilco&sort=added\">Added</a></th>\n\t<th>Size</th>\n\t<th><a
-        href=\"/index.php?searchzzzz=wilco&sort=times_completed\">Served</a></th>\n\t<th><a
-        href=\"/index.php?searchzzzz=wilco&sort=seeders\">Seeds</a></th>\n\t<th><a
-        href=\"/index.php?searchzzzz=wilco&sort=leechers\">Leeches</a></th>\n\t<th><a
-        href=\"/index.php?searchzzzz=wilco&sort=username\">Seeded by</a></th>\n\t<!--\n
-        #   if ($variant == \"index\")\n  #      print(\"<td class=\\\"heading\\\"
-        align=\\\"center\\\">Upped by</td>\\n\");\n\n    if ($admin == \"yes\")\n
-        \       print(\"<td class=\\\"heading\\\" align=\\\"right\\\">Moderate</td>\");\n-->\n</tr>\n\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607287\"><b>Wilco
-        - Oct. 15, 2019 - Washington, D.C. (Gefell) 24-bit</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/607287/wilco2019-10-15.flac24.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=607287&filelist=1#filelist\">33</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=607287#startcomments\">0</a>\n\t</td>\n\t<td>10/16
-        \ 1:23</td>\n\t<td>1.424 GB</td>\n\t<td>94 times</td>\n\t<td><a href=\"details.php?torrentId=607287&dllist=1#seeders\">22</a></td>\n\t<td><a
-        href=\"details.php?torrentId=607287&dllist=1#leechers\">1</a></td>\n        <td
-        align=\"left\"><a href=\"http://db.etree.org/vwmule\">vwmule</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607244\"><b>Wilco
-        - Wang Theatre, Boston MA 2019-10-10 Line Audio CM3 / FOB</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/607244/wilco-2019-10-10.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=607244&filelist=1#filelist\">35</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=607244#startcomments\">0</a>\n\t</td>\n\t<td>10/11
-        11:25</td>\n\t<td>616.25 MB</td>\n\t<td>147 times</td>\n\t<td><a href=\"details.php?torrentId=607244&dllist=1#seeders\">24</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=607244&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/bob100\">bob100</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607146\"><b>Wilco
-        2019-09-13 Carlswerk Victoria - K\xF6ln, Germany (Schoeps CMC541V)</b></a>\n
-        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/607146/wilco2019-09-13.cmc541v.flac16.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=607146&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=607146#startcomments\">0</a>\n\t</td>\n\t<td>09/30
-        \ 5:26</td>\n\t<td>677.70 MB</td>\n\t<td>108 times</td>\n\t<td><a href=\"details.php?torrentId=607146&dllist=1#seeders\">10</a></td>\n\t<td><a
-        href=\"details.php?torrentId=607146&dllist=1#leechers\">1</a></td>\n        <td
-        align=\"left\"><a href=\"http://db.etree.org/sebi2704\">sebi2704</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607022\"><b>Wilco
-        2004-11-06 Fillmore Auditorium, Denver, CO {MC012}</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/607022/wilco2004-11-06.flac16.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=607022&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=607022#startcomments\">0</a>\n\t</td>\n\t<td>09/20
-        15:43</td>\n\t<td>714.80 MB</td>\n\t<td>69 times</td>\n\t<td><a href=\"details.php?torrentId=607022&dllist=1#seeders\">7</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=607022&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/sloppyart\">sloppyart</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=606281\"><b>Wilco
-        - Solid Sound Festival - N. Adams, MA - June 28, 2019 - flac16  **Karaoke
-        Show**</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/606281/wilco19-06-28.m700.hsm.flac16.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=606281&filelist=1#filelist\">19</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=606281#startcomments\">7</a>\n\t</td>\n\t<td>07/16
-        12:10</td>\n\t<td>545.60 MB</td>\n\t<td>168 times</td>\n\t<td><a href=\"details.php?torrentId=606281&dllist=1#seeders\">10</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=606281&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/seremetcc\">seremetcc</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=606127\"><b>Grizzly
-        Bear // 2009-06-18 // Centennial Hall - University of Arizona // Tucson, AZ
-        // AKG 460/ck3</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/606127/gb2009-06-18.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=606127&filelist=1#filelist\">14</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=606127#startcomments\">1</a>\n\t</td>\n\t<td>07/06
-        14:56</td>\n\t<td>271.92 MB</td>\n\t<td>38 times</td>\n\t<td><a href=\"details.php?torrentId=606127&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=606127&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/jbanyai97\">jbanyai97</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=605512\"><b>The
-        Karina Rykman Experiment 2019-05-18 The Pressroom Portsmouth, NH **Telefunken
-        ELA M260 + AKG ck61/nBob + SBD**</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/605512/kre2019-05-18.ck61.m260.sbd.flac.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=605512&filelist=1#filelist\">14</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=605512#startcomments\">2</a>\n\t</td>\n\t<td>05/19
-        10:38</td>\n\t<td>408.53 MB</td>\n\t<td>56 times</td>\n\t<td><a href=\"details.php?torrentId=605512&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=605512&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/tgakidis\">tgakidis</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=604570\"><b>Wilco
-        - 2012-07-03 - Adler Theater - Davenport, IA - Matrix (SBD + Neumann AK40)
-        - 24bit</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/604570/wilco2012-07-03matrix.flac24.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=604570&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=604570#startcomments\">7</a>\n\t</td>\n\t<td>03/03
-        18:24</td>\n\t<td>1.314 GB</td>\n\t<td>215 times</td>\n\t<td><a href=\"details.php?torrentId=604570&dllist=1#seeders\">6</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=604570&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/robo\">robo</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=603916\"><b>Banyan
-        (Watt, Perkins, Cline, Waldman) 10/12/02    The Elbo Room - San Francisco,
-        CA  *AKG461 &gt; MV100 &gt; Oade SBM-1 &gt; Casio DA7 (onstage)*</b></a>\n
-        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/603916/banyan2001-10-12.flacf.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=603916&filelist=1#filelist\">22</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=603916#startcomments\">3</a>\n\t</td>\n\t<td>01/24
-        \ 1:31</td>\n\t<td>803.99 MB</td>\n\t<td>57 times</td>\n\t<td><a href=\"details.php?torrentId=603916&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=603916&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/bluegrass_brad\">bluegrass_brad</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\">Jeff
-        Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"
-        href=\"details.php?torrentId=603791\"><b>Jeff Tweedy 2019-01-11 Schoeps Teddy
-        Ballgame t-flac1648</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/603791/Jeff%20Tweedy%202019-01-11%20Schoeps%20Teddy%20Ballgame%20t-flac1648.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=603791&filelist=1#filelist\">11</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=603791#startcomments\">2</a>\n\t</td>\n\t<td>01/13
-        \ 0:10</td>\n\t<td>329.60 MB</td>\n\t<td>108 times</td>\n\t<td><a href=\"details.php?torrentId=603791&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=603791&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/photoleon\">photoleon</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=602994\"><b>wilco
-        1st avenue 1997-10-30</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/602994/Wilco%2010-30-97.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=602994&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=602994#startcomments\">0</a>\n\t</td>\n\t<td>11/28
-        17:16</td>\n\t<td>537.53 MB</td>\n\t<td>59 times</td>\n\t<td><a href=\"details.php?torrentId=602994&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=602994&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/mk1974\">mk1974</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597956\"><b>Wilco
-        1995-08-24 Mann Music Center-Philadelphia,PA HORDE Tour (SBD)</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/597956/Wilco%201995-08-24%20Mann%20Music%20Center-Philadelphia%2CPA%20HORDE%20Tour%20%28SBD%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597956&filelist=1#filelist\">15</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597956#startcomments\">3</a>\n\t</td>\n\t<td>02/11
-        \ 1:51</td>\n\t<td>206.23 MB</td>\n\t<td>109 times</td>\n\t<td><a href=\"details.php?torrentId=597956&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597956&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597917\"><b>Wilco
-        2002-05-26_Melweg - Amsterdam,NL  (Matrix)</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/597917/Wilco%202002-05-26_Melweg%20-%20Amsterdam%2CNL%20%20%28Matrix%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597917&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597917#startcomments\">4</a>\n\t</td>\n\t<td>02/09
-        15:12</td>\n\t<td>672.24 MB</td>\n\t<td>125 times</td>\n\t<td><a href=\"details.php?torrentId=597917&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597917&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\">Jeff
-        Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"
-        href=\"details.php?torrentId=597892\"><b>Jeff Tweedy 1994-12-29_ Lounge Ax_
-        Chicago, IL USA **Great AUD**</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/597892/Jeff%20Tweedy%201994-12-29_%20Lounge%20Ax_%20Chicago%2C%20IL%20USA.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597892&filelist=1#filelist\">35</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597892#startcomments\">4</a>\n\t</td>\n\t<td>02/08
-        \ 2:40</td>\n\t<td>398.60 MB</td>\n\t<td>123 times</td>\n\t<td><a href=\"details.php?torrentId=597892&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597892&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597836\"><b>Wilco1999-11-06
-        \ Newport Music Hall -  Columbus, OH  ** Crispy SBD**</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/597836/Wilco1999-11-06%20%20Newport%20Music%20Hall%20-%20%20Columbus%2C%20OH%20--%20SBD%20--.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597836&filelist=1#filelist\">30</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597836#startcomments\">2</a>\n\t</td>\n\t<td>02/05
-        16:02</td>\n\t<td>631.71 MB</td>\n\t<td>226 times</td>\n\t<td><a href=\"details.php?torrentId=597836&dllist=1#seeders\">6</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597836&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597810\"><b>Wilco
-        2002-05-16 Gruenspan - Hamburg, Germany  (SBD)</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/597810/Wilco%202002-05-16%20Gruenspan%20-%20Hamburg%2C%20Germany%20%20%28SBD%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597810&filelist=1#filelist\">28</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597810#startcomments\">2</a>\n\t</td>\n\t<td>02/04
-        16:52</td>\n\t<td>563.63 MB</td>\n\t<td>89 times</td>\n\t<td><a href=\"details.php?torrentId=597810&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597810&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597790\"><b>Wilco
-        1997-02-15 Irving Plaza - New York, NY (New Matrix)</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/597790/Wilco%201997-02-15%20Irving%20Plaza%20-%20New%20York%2C%20NY%20%28Matrix%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597790&filelist=1#filelist\">26</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597790#startcomments\">6</a>\n\t</td>\n\t<td>02/03
-        \ 1:53</td>\n\t<td>550.80 MB</td>\n\t<td>138 times</td>\n\t<td><a href=\"details.php?torrentId=597790&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597790&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597704\"><b>Wilco
-        1998-09-20Newport Folk Festival LA,CA - New Matrix Source -</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/597704/Wlco_1998-09-20_NewportFolkFestival%20_LA%2CCA%20%28Matrix%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=597704&filelist=1#filelist\">12</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=597704#startcomments\">6</a>\n\t</td>\n\t<td>01/29
-        21:43</td>\n\t<td>212.05 MB</td>\n\t<td>104 times</td>\n\t<td><a href=\"details.php?torrentId=597704&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=597704&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596196\"><b>Wilco
-        1997-02-21  -- FM -- WNNX Studios-Live X - Detroit MI</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/596196/Wilco%201997-02-21%20%20--%20FM%20--%20WNNX%20Studios-Live%20X%20-%20Detroit%20MI.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596196&filelist=1#filelist\">12</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=596196#startcomments\">1</a>\n\t</td>\n\t<td>11/08
-        19:20</td>\n\t<td>176.21 MB</td>\n\t<td>105 times</td>\n\t<td><a href=\"details.php?torrentId=596196&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=596196&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596099\"><b>Wilco
-        2002-08-31 Commodore Ballroom -Vancouver CA  -DSBD-</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/596099/Wilco%202002-08-31%20Commodore%20Ballroom%20-Vancouver%20CA%20%20-DSBD-.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596099&filelist=1#filelist\">38</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=596099#startcomments\">6</a>\n\t</td>\n\t<td>11/04
-        19:42</td>\n\t<td>613.57 MB</td>\n\t<td>141 times</td>\n\t<td><a href=\"details.php?torrentId=596099&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=596099&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596081\"><b>Wilco
-        1999-03-11 Tower Records -  Chicago IL - FM Source -</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/596081/Wilco%201999-03-11%20Tower%20Records%20-%20%20Chicago%20IL%20-FM-.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596081&filelist=1#filelist\">15</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=596081#startcomments\">4</a>\n\t</td>\n\t<td>11/04
-        \ 1:52</td>\n\t<td>296.85 MB</td>\n\t<td>123 times</td>\n\t<td><a href=\"details.php?torrentId=596081&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=596081&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596023\"><b>Wilco
-        1999-11-05 Bogart's - Cincinnati, OH   --SBD --</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/596023/Wilco%201999-11-05%20Bogart%27s%20-%20Cincinnati%2C%20OH%20%20%20--SBD%20--.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596023&filelist=1#filelist\">36</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=596023#startcomments\">2</a>\n\t</td>\n\t<td>11/02
-        \ 6:41</td>\n\t<td>638.08 MB</td>\n\t<td>110 times</td>\n\t<td><a href=\"details.php?torrentId=596023&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=596023&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596011\"><b>Wilco
-        1997-04-04 Rockefeller, Oslo, Norway </b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/596011/Wilco%201997-04-04%20Rockefeller%2C%20Oslo%2C%20Norway.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596011&filelist=1#filelist\">30</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=596011#startcomments\">2</a>\n\t</td>\n\t<td>11/02
-        \ 1:13</td>\n\t<td>514.36 MB</td>\n\t<td>75 times</td>\n\t<td><a href=\"details.php?torrentId=596011&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=596011&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596010\"><b>Wilco
-        1996-11-05 Liberty Lunch - Austin,TX - SBD</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/596010/Wilco%201996-11-05%20Liberty%20Lunch%20-%20Austin%2CTX%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=596010&filelist=1#filelist\">22</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=596010#startcomments\">4</a>\n\t</td>\n\t<td>11/01
-        23:37</td>\n\t<td>378.26 MB</td>\n\t<td>168 times</td>\n\t<td><a href=\"details.php?torrentId=596010&dllist=1#seeders\">3</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=596010&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=595975\"><b>Wilco
-        1999-04-21 Irving Plaza, NY - Taped Live Not Aired -</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/595975/Wilco%201999-04-21%20Irving%20Plaza%2C%20NY%20-%20Taped%20Live%20Not%20Aired%20-.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595975&filelist=1#filelist\">35</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=595975#startcomments\">5</a>\n\t</td>\n\t<td>10/31
-        \ 7:53</td>\n\t<td>655.54 MB</td>\n\t<td>184 times</td>\n\t<td><a href=\"details.php?torrentId=595975&dllist=1#seeders\">1</a></td>\n\t<td><a
-        href=\"details.php?torrentId=595975&dllist=1#leechers\">1</a></td>\n        <td
-        align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=595619\"><b>Wilco
-        Fox Theatre Atlanta, GA 2017-10-08 (DPA 4023 + DPA 4028) &gt; Sound Devices
-        MixPre-6 @ 24/48 (24-bit)</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/595619/wilco2017-10-08.4023%2B4028.flac24.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595619&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=595619#startcomments\">1</a>\n\t</td>\n\t<td>10/14
-        \ 3:57</td>\n\t<td>1.506 GB</td>\n\t<td>61 times</td>\n\t<td><a href=\"details.php?torrentId=595619&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=595619&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/gewwang\">gewwang</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=595571\"><b>Wilco
-        10/9/2017 Thomas Wolfe Auditorium Asheville NC  (Schoeps MK41's &gt; Mixpre-6)</b></a>\n
-        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/595571/Wilco%202017-10-09%2016bit.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595571&filelist=1#filelist\">34</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=595571#startcomments\">9</a>\n\t</td>\n\t<td>10/10
-        14:21</td>\n\t<td>774.67 MB</td>\n\t<td>215 times</td>\n\t<td><a href=\"details.php?torrentId=595571&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=595571&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/ashevilletaper\">ashevilletaper</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=595557\"><b>Wilco
-        2017-10-03 The Pavilion @ Toyota Music Factory, Irving, TX 24bit</b></a>\n
-        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/595557/wilco2017-10-03.flac24.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595557&filelist=1#filelist\">51</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=595557#startcomments\">2</a>\n\t</td>\n\t<td>10/09
-        14:09</td>\n\t<td>1.516 GB</td>\n\t<td>55 times</td>\n\t<td><a href=\"details.php?torrentId=595557&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=595557&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/trustthex\">trustthex</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594953\"><b>WILCO
-        - 2006-07-16 - Pines Theater - Florence, MA, USA</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594953/WILCO%20-%202006-07-16%20-%20Pines%20Theater%20-%20Florence%2C%20MA%2C%20USA.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594953&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594953#startcomments\">3</a>\n\t</td>\n\t<td>08/29
-        19:00</td>\n\t<td>671.68 MB</td>\n\t<td>90 times</td>\n\t<td><a href=\"details.php?torrentId=594953&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594953&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594943\"><b>Wilco
-        1998-07-04 - Summerfest - Milwaukee,WI, USA - SBD</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594943/Wilco%201998-07-04%20-%20Summerfest%20-%20Milwaukee%2CWI%2C%20USA%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594943&filelist=1#filelist\">28</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594943#startcomments\">3</a>\n\t</td>\n\t<td>08/29
-        17:40</td>\n\t<td>467.26 MB</td>\n\t<td>120 times</td>\n\t<td><a href=\"details.php?torrentId=594943&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594943&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594894\"><b>Wilco
-        1998-09-04 -  OnThe Waterfront Fest - Rockford, IL</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594894/Wilco%201998-09-04%20-%20%20OnThe%20Waterfront%20Fest%20-%20Rockford%2C%20IL.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594894&filelist=1#filelist\">19</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594894#startcomments\">2</a>\n\t</td>\n\t<td>08/27
-        \ 2:18</td>\n\t<td>370.01 MB</td>\n\t<td>101 times</td>\n\t<td><a href=\"details.php?torrentId=594894&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594894&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594893\"><b>Wilco
-        1997-02-01 Mississippi Nights - St. Louis, MO - SBD</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/594893/Wilco%201997-02-01%20Mississippi%20Nights%20-%20St.%20Louis%2C%20MO%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594893&filelist=1#filelist\">29</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594893#startcomments\">3</a>\n\t</td>\n\t<td>08/26
-        23:30</td>\n\t<td>666.40 MB</td>\n\t<td>137 times</td>\n\t<td><a href=\"details.php?torrentId=594893&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594893&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594774\"><b>Wilco
-        1995-04-28 Mississippi Nights St. Louis,MO - SBD</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594774/Wilco%201995-04-28%20Mississippi%20Nights%20St.%20Louis%2CMO%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594774&filelist=1#filelist\">32</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594774#startcomments\">4</a>\n\t</td>\n\t<td>08/18
-        \ 4:54</td>\n\t<td>635.24 MB</td>\n\t<td>127 times</td>\n\t<td><a href=\"details.php?torrentId=594774&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594774&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594770\"><b>Uncle
-        Tupelo 1993-10-15 - The Vic Theater - Chicago, IL, USA -- DSBD --</b></a>\n
-        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/594770/Uncle%20Tupelo%201993-10-15%20-%20The%20Vic%20Theater%20-%20Chicago%2C%20IL%2C%20USA%20--%20DSBD%20--.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594770&filelist=1#filelist\">40</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594770#startcomments\">3</a>\n\t</td>\n\t<td>08/18
-        \ 2:44</td>\n\t<td>823.08 MB</td>\n\t<td>213 times</td>\n\t<td><a href=\"details.php?torrentId=594770&dllist=1#seeders\">3</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594770&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594754\"><b>WILCO
-        2000-07-27 Pier 62-63 Seattle, Wa - DSBD-</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594754/WILCO%202000-07-27%20Pier%2062-63%20Seattle%2C%20Wa%20-%20DSBD-.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594754&filelist=1#filelist\">23</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594754#startcomments\">5</a>\n\t</td>\n\t<td>08/17
-        16:45</td>\n\t<td>448.04 MB</td>\n\t<td>140 times</td>\n\t<td><a href=\"details.php?torrentId=594754&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594754&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594744\"><b>Wilco
-        1998-06-28 Spartan Stadium San Jose,CA Fleadh Festival -SBD</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/594744/Wilco%201998-06-28%20Spartan%20Stadium%20San%20Jose%2CCA%20Fleadh%20Festival.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594744&filelist=1#filelist\">18</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594744#startcomments\">2</a>\n\t</td>\n\t<td>08/17
-        \ 6:39</td>\n\t<td>325.52 MB</td>\n\t<td>104 times</td>\n\t<td><a href=\"details.php?torrentId=594744&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594744&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594715\"><b>Wilco
-        1995-07-30 Mountain Stage - Charleston, WV - DSBD</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594715/Wilco%201995-07-30%20Mountain%20Stage%20-%20Charleston%2C%20WV%20-%20DSBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594715&filelist=1#filelist\">16</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594715#startcomments\">3</a>\n\t</td>\n\t<td>08/15
-        18:51</td>\n\t<td>158.43 MB</td>\n\t<td>154 times</td>\n\t<td><a href=\"details.php?torrentId=594715&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594715&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594714\"><b>Wilco
-        2006-03-22 Val Air Ballroom, Des Moines,IA - SBD</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594714/Wilco%202006-03-22%20Val%20Air%20Ballroom%2C%20Des%20Moines%2CIA%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594714&filelist=1#filelist\">30</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594714#startcomments\">6</a>\n\t</td>\n\t<td>08/15
-        17:20</td>\n\t<td>633.43 MB</td>\n\t<td>184 times</td>\n\t<td><a href=\"details.php?torrentId=594714&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594714&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594676\"><b>WILCO
-        12-30-1998 FILLMORE SAN FRANCISCO,, CA, USA - SBD</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594676/WILCO%2012-30-1998%20FILLMORE%20SAN%20FRANCISCO%2C%2C%20CA%2C%20USA%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594676&filelist=1#filelist\">36</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594676#startcomments\">3</a>\n\t</td>\n\t<td>08/13
-        21:54</td>\n\t<td>399.57 MB</td>\n\t<td>152 times</td>\n\t<td><a href=\"details.php?torrentId=594676&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594676&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594613\"><b>Wilco
-        1997-03-28 Ancienne Belgique - Brussels,Belgium - SBD</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/594613/Wilco%201997-03-28%20Ancienne%20Belgique%20-%20Brussels%2CBelgium%20-%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594613&filelist=1#filelist\">25</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594613#startcomments\">4</a>\n\t</td>\n\t<td>08/12
-        \ 5:20</td>\n\t<td>338.54 MB</td>\n\t<td>99 times</td>\n\t<td><a href=\"details.php?torrentId=594613&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594613&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594612\"><b>Golden
-        Smog 1998-12-12 First Avenue Minneapolis, MN, USA -  SBD</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/594612/Golden%20Smog%201998-12-12%20First%20Avenue%20Minneapolis%2C%20MN%2C%20USA%20-%20%20SBD.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594612&filelist=1#filelist\">35</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594612#startcomments\">2</a>\n\t</td>\n\t<td>08/12
-        \ 4:27</td>\n\t<td>595.23 MB</td>\n\t<td>95 times</td>\n\t<td><a href=\"details.php?torrentId=594612&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594612&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594531\"><b>Wilco
-        2000-01-09 Lounge Ax Chicago,IL (Final Show At The Ax)</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/594531/Wilco%202000-01-09%20Lounge%20Ax%20Chicago%2CIL%20%28Final%20Show%20At%20The%20Ax%29.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594531&filelist=1#filelist\">39</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594531#startcomments\">4</a>\n\t</td>\n\t<td>08/09
-        \ 1:24</td>\n\t<td>748.67 MB</td>\n\t<td>88 times</td>\n\t<td><a href=\"details.php?torrentId=594531&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594531&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\">KerouacAW</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=358\">Joe
-        Russo's Almost Dead</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"
-        href=\"details.php?torrentId=594511\"><b>Joe Russo's Almost Dead 07/22/2017
-        The Capitol Theatre, Port Chester, NY (SBD + Schoeps cmc621 + cmc641vxt -
-        16 bit)</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>
-        -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/594511/jrad2017-07-22.cmc621.cmc641vxt.sbd.matrix.flac16.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=594511&filelist=1#filelist\">20</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=594511#startcomments\">3</a>\n\t</td>\n\t<td>08/08
-        12:48</td>\n\t<td>943.11 MB</td>\n\t<td>275 times</td>\n\t<td><a href=\"details.php?torrentId=594511&dllist=1#seeders\">4</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=594511&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/microburst\">microburst</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593965\"><b>WILCO
-        - Solid Sound, Mass MOCA, North Adams MA 06-24-2017 </b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/593965/WILCO-2017-06-24.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593965&filelist=1#filelist\">30</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=593965#startcomments\">5</a>\n\t</td>\n\t<td>06/30
-        16:51</td>\n\t<td>549.09 MB</td>\n\t<td>126 times</td>\n\t<td><a href=\"details.php?torrentId=593965&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=593965&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/bob100\">bob100</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593933\"><b>Wilco,
-        Riverside Theater, Milwaukee, WI, 2017-06-18, flac24</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/593933/wilco2017-06-18.flac24.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593933&filelist=1#filelist\">33</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=593933#startcomments\">1</a>\n\t</td>\n\t<td>06/27
-        21:12</td>\n\t<td>1.300 GB</td>\n\t<td>62 times</td>\n\t<td><a href=\"details.php?torrentId=593933&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=593933&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/bersey\">bersey</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593931\"><b>Wilco,
-        Riverside Theater, Milwaukee, WI, 2017-06-18, flac16</b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/593931/wilco2017-06-18.flac16.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593931&filelist=1#filelist\">33</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=593931#startcomments\">1</a>\n\t</td>\n\t<td>06/27
-        21:11</td>\n\t<td>579.56 MB</td>\n\t<td>123 times</td>\n\t<td><a href=\"details.php?torrentId=593931&dllist=1#seeders\">3</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=593931&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/bersey\">bersey</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593916\"><b>WILCO
-        - Solid Sound, Mass MOCA, North Adams MA 06-23-2017  </b></a>\n        <!--
-        \       &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/593916/WILCO-2017-06-23.torrent\"><img src=\"/pic/disk.gif\"
-        alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593916&filelist=1#filelist\">35</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=593916#startcomments\">16</a>\n\t</td>\n\t<td>06/27
-        \ 1:11</td>\n\t<td>656.15 MB</td>\n\t<td>353 times</td>\n\t<td><a href=\"details.php?torrentId=593916&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=593916&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/bob100\">bob100</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593562\"><b>Wilco
-        - June 9, 2017 - Vienna, VA (DPA 4023) 24-bit</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/593562/wilco2017-06-09.flac24.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593562&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=593562#startcomments\">1</a>\n\t</td>\n\t<td>06/10
-        19:24</td>\n\t<td>1.248 GB</td>\n\t<td>65 times</td>\n\t<td><a href=\"details.php?torrentId=593562&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=593562&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/vwmule\">vwmule</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593545\"><b>Wilco
-        - June 9, 2017 - Vienna, VA (DPA 4023)</b></a>\n        <!--        &nbsp;<span
-        class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/593545/wilco2017-06-09.flac16.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593545&filelist=1#filelist\">27</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=593545#startcomments\">4</a>\n\t</td>\n\t<td>06/10
-        \ 3:15</td>\n\t<td>583.32 MB</td>\n\t<td>130 times</td>\n\t<td><a href=\"details.php?torrentId=593545&dllist=1#seeders\">2</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=593545&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/vwmule\">vwmule</a></td>\n</tr>\n<tr
-        align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td
-        align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=592015\"><b>wilco2017-03-21.gefell.pasternak.flac1644</b></a>\n
-        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a
-        href=\"download.php/592015/wilco2017-03-21.gefell.pasternak.flac1644.torrent\"><img
-        src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=592015&filelist=1#filelist\">36</a>\n\t</td>\n\t<td>\n\t\t<a
-        href=\"details.php?torrentId=592015#startcomments\">1</a>\n\t</td>\n\t<td>03/26
-        14:41</td>\n\t<td>737.27 MB</td>\n\t<td>92 times</td>\n\t<td><a href=\"details.php?torrentId=592015&dllist=1#seeders\">1</a></td>\n\t<td><a
-        class=\"red\" href=\"details.php?torrentId=592015&dllist=1#leechers\">0</a></td>\n
-        \       <td align=\"left\"><a href=\"http://db.etree.org/nfagdtrfb\">nfagdtrfb</a></td>\n</tr>\n\n</table><center>\r\n<br>\r\n\r\n<b>Filters:</b>
-        &nbsp; &nbsp;<a href=/index.php?searchzzzz=wilco&filter=noreseed>Hide *RESEEDS*</a>
-        &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nodead>Hide
-        Grateful Dead</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophish>Hide
-        Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophgd>Hide
-        Grateful Dead and Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=none>Hide
-        None</a> &nbsp;\r\n\r\n<br>\r\n</center>\r\n\r\n<p align=\"center\"><a class=\"here\"
-        href=\"/index.php?searchzzzz=wilco&page=0\">1 - 50</a>  |   <a class=\"\"
-        href=\"/index.php?searchzzzz=wilco&page=50\">51 - 92</a>&nbsp;&nbsp;&nbsp;<a
-        class=\"\" href=\"/index.php?searchzzzz=wilco&page=50\"> Next >></a></p>\n\r\n\r\n<p
-        align=\"center\">\r\n<a href=\"browse.php\">Browse all shows at once.</a>\r\n</p>\r\n\r\n\n<h3>News</h3>\n<ul>\n\n<li>21
-        AUG 2019 - comments have been disabled due to a few bad apples\nusing them
-        to harass others. (you know who you are and should be\nashamed) --phrog\n<li>24
-        NOV 2018 - torrents 602890-602907 have been removed\naccidentally. Please
-        re-upload,\nsorry  --phrog\n<li>03 OCT 2018 - bt.etree.org has been restored.
-        --phrog\n</ul>\r\n<BR></TD>\n                    <TD width=5 bgColor=white></TD>\n
-        \                   <TD width=5 bgColor=#89aa80></TD>\n                    <td></td>\n
-        \                 </TR>\n                  <TR height=3>\n                    <td></td>\n
-        \                   <TD vAlign=top align=right colSpan=2 rowSpan=2><IMG height=13
-        \n                  src=\"pic/cc3.gif\" width=10 border=0></TD>\n                    <TD
-        bgColor=white height=3></TD>\n                    <TD vAlign=top align=left
-        colSpan=2 rowSpan=2><IMG height=13 \n                  src=\"pic/cc4.gif\"
-        width=10 border=0></TD>\n                    <td></td>\n                  </TR>\n
-        \                 <TR height=10>\n                    <td></td>\n                    <TD
-        bgColor=#89aa80 \n        height=10></TD>\n                    <td></td>\n
-        \                 </TR>\n            </TABLE>\n          </TD>\n        </TR></TBODY></TABLE></TD></TR>\n
-        \ <TR>\n    <TD>\n \n    </TD></TR></TBODY></TABLE>\n\n<table align=center>\n<tr>\n<TD
-        width=25></TD>\n<td>\n<a target=_blank href=\"http://etree.org\">http://etree.org</a>\n</td>\n<TD
-        width=6>:</TD>\n<td>\n<a target=_blank href=\"http://db.etree.org\">http://db.etree.org</a>\n</td>\n<TD
-        width=6>:</TD>\n<TD>\n<a target=_blank href=\"http://db.etree.org/privacy.php\">Legal</a>\n</TD>\n<TD
-        width=6>:</TD>\n<TD>\n<a target=_blank href=\"rss/bt_etree_org.rdf\">RSS Feed</a>\n</TD>\n</tr>\n</table>\n<table
-        align=center>\n<tr>\n<td align=center>\n<br>\n        <font face=\"Arial\"
-        align=\"center\" size=\"1\">\n<i>Last refreshed: Sat, 19 Oct 2019 06:26:17
-        EDT</i><BR>\n\nContents designed &amp; maintained by the etree.org volunteers<br>\n\xA9
-        1998-2018, <a href=\"http://etree.org\">etree.org</a>, except where\nnoted.
-        All Rights Reserved.<br>\n\nPHP BitTorrent Tracker derived from the bytemonsoon.com
-        tracker by dfx.<br>\n\n\n<br><br>\n\n</font>\n</td>\n</tr>\n</table>\n</body>\n</html>\n"
+      string: "<!-- SKIP :  -->\n<!DOCTYPE html\n    PUBLIC \"-//W3C//DTD XHTML 1.0\
+        \ Transitional//EN\"\n    \"DTD/xhtml1-strict.dtd\">\n<html><head>\n<title>bt.etree.org\
+        \ | Community Tracker</title>\n<link rel=\"stylesheet\" href=\"torrent.css\"\
+        \ type=\"text/css\" />\n\t<link rel=\"alternate stylesheet\" href=\"/lib/bt_411.css\"\
+        \ title=\":p\" type=\"text/css\">\n</head>\n\n\n\n<BODY bgColor=#bfd5ba leftMargin=0\
+        \ topMargin=0 marginwidth=\"0\" marginheight=\"0\">\n<TABLE height=\"100%\"\
+        \ cellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n  <TBODY>\n  <TR>\n\
+        \    <TD width=\"100%\" align=left vAlign=top>\n      <TABLE height=80 cellSpacing=0\
+        \ cellPadding=0 width=\"100%\" bgColor=white\n      border=0>\n        <TBODY>\n\
+        \        <TR>\n          <TD width=10></TD>\n          <TD><A href=\"https://bt.etree.org/\"\
+        >\n\t\t<IMG alt=\"bt.etree.org\" src=\"pic/logo.gif\" border=0></a>\n\t  </TD>\n\
+        \t<td align=\"right\">\n\t<div style=\"text-align:right;\"><span id=\"freetext_1\"\
+        ></span>\n\n</div>\n\t</td>\n\t</TR></TBODY></TABLE>\n      <TABLE cellSpacing=0\
+        \ cellPadding=0 border=0>\n        <TBODY>\n        <TR height=20>\n     \
+        \     <TD width=20 height=20></TD>\n          <TD width=110 height=20></TD>\n\
+        \          <TD width=10 height=20></TD>\n          <TD width=110 height=20></TD>\n\
+        \          <TD width=10 height=20></TD>\n          <TD width=110 height=20></TD>\n\
+        \          <TD width=10 height=20></TD>\n          <TD width=110 height=20></TD>\n\
+        \          <TD width=10 height=20></TD>\n          <TD width=110 height=20></TD></TR>\n\
+        \        <TR height=20>\n          <TD width=20 height=20></TD>\n        \
+        \  <TD width=110 height=20><a href=\"index.php\"><IMG height=17\n        \
+        \    src=\"pic/b_new.gif\" width=110 border=0></a></TD>\n          <TD width=10\
+        \ height=20></TD>\n          <TD width=110 height=20><a href=\"upload.php\"\
+        ><IMG height=17\n            src=\"pic/b_artist.gif\" width=110 border=0></TD>\n\
+        \          <TD width=10 height=20></a></TD>\n\n                        <TD\
+        \ width=110 height=20><a href=\"login.php\"><IMG height=17\n            src=\"\
+        pic/b_fan.gif\" width=110 border=0></a></TD>\n                      <TD width=10\
+        \ height=20></TD>\n          <TD width=110 height=20><a target=_blank href=https://transmissionbt.com/><IMG\
+        \ height=17\n            src=\"pic/b_corp.gif\" width=110 border=0></a></TD>\n\
+        \           <TD width=10 height=20></TD>\n          <TD width=110 height=20><a\
+        \ target=_blank href=http://wiki.etree.org/index.php?page=BitTorrent><IMG\
+        \ height=17\n            src=\"pic/bt_faq.gif\" width=110 border=0></a></TD>\n\
+        \          <TD width=10 height=20></TD>\n          <TD width=110 height=20><a\
+        \ href=\"/cdn-cgi/l/email-protection#bb9e8c889e8d8e9e8c899e8c8d9e8d8e9e8c899e8f8b9e8d8e9e8c8f9e8c899e8d8e9e8d8e9e89de9e8ddd9e8c899e8d8c\"\
+        ><IMG height=17\n            src=\"pic/b_contact.gif\" width=110 border=0></a></TD></TR>\n\
+        \        <TR height=20>\n          <TD width=20 height=20></TD>\n        \
+        \  <TD width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n\
+        \          <TD width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n\
+        \          <TD width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n\
+        \          <TD width=110 height=20></TD>\n          <TD width=10 height=20></TD>\n\
+        \          <TD width=110 height=20></TD></TR></TBODY></TABLE>\n      <TABLE\
+        \ cellSpacing=0 cellPadding=0 width=100% border=0>\n        <!--DWLayoutTable-->\n\
+        \        <TBODY>\n        <TR>\n          <TD width=100% height=\"500\" align=left\
+        \ vAlign=top>\n            <TABLE cellSpacing=0 cellPadding=0 width=100% border=0>\n\
+        \                <!--DWLayoutTable-->\n                  \n              \
+        \    <TR height=30>\n                    <td width=\"10\"></td>\n        \
+        \            <TD vAlign=top align=left colSpan=2 rowSpan=2><IMG height=33\n\
+        \                  src=\"pic/cc1.gif\" width=10 border=0></TD>\n         \
+        \           <TD width=100% bgColor=#89aa80 height=30><FONT face=Verdana\n\
+        \                  color=white size=2><B>etree.org Community Bittorrent Tracker</B></FONT></TD>\n\
+        \                    <TD vAlign=top colSpan=2 rowSpan=2><IMG height=33\n \
+        \                 src=\"pic/cc2.gif\" width=10 border=0></TD>\n          \
+        \          <td width=\"167\"></td>\n                  </TR>\n            \
+        \      <TR height=3>\n                    <td></td>\n                    <TD\
+        \ bgColor=white height=3></TD>\n                    <td></td>\n          \
+        \        </TR>\n                  <TR>\n                    <td></td>\n  \
+        \                  <TD width=5 bgColor=#89aa80></TD>\n                   \
+        \ <TD width=5 bgColor=white></TD>\n                    <TD bgColor=white>\n\
+        \r\n<script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"\
+        ></script><script language=\"javascript\">\r\n<!--\r\nif (parent.frames.length\
+        \ > 0) {\r\n    parent.location.href = self.document.location;\r\n}\r\n//\
+        \ -->\r\n</script>\r\n\r\n<br>\r\n\r\n<!-- Request: a:1:{s:10:\"searchzzzz\"\
+        ;s:5:\"wilco\";} -->\r\n<!-- Search:  -->\r\n\r\n<!-- <h2><font color=\"red\"\
+        >NOTE:</font> Comments have been\r\ndisabled due to a few bad apples using\
+        \ them to harass others. (you\r\nknow who you are and should be ashamed) --phrog\
+        \ </h2> -->\r\n\r\n<p><font size=\"2\">This site is provided by the <a\r\n\
+        href=\"http://etree.org/\">etree.org</a> community for sharing the live\r\n\
+        concert recordings of <a\r\nhref=http://wiki.etree.org/index.php?page=TradeFriendly>trade\r\
+        \nfriendly</a> artists.  Please tell your friends and family about new\r\n\
+        bands that catch your ear, and support these artists by going to see\r\nthem\
+        \ live and buying their CDs!</font></p>\r\n<!--\r\n<h3>Please Help!</h3>\r\
+        \n<blockquote>\r\nFrom time to time, all the seeders will jump off a torrent\
+        \ leaving a few folks stuck with a partially downloaded show.  <a href=\"\
+        stranded.php\">Click here</a> to see if you can help someone out.  If you\
+        \ have already completed one of the shows please open your window back up\
+        \ until they have completed.\r\n</blockquote>\r\n-->\r\n\r\n<hr>\r\n\r\n<p>Please\
+        \ keep your BitTorrent download windows open as long as possible! This will\
+        \ speed up the downloads of others and help them finish their downloads faster.</p>\r\
+        \n\r\n<form method=\"get\" action=\"./\">\r\n<p align=\"center\">\r\nSearch:\r\
+        \n<input type=\"text\" name=\"searchzzzz\" size=\"40\" value=\"wilco\">\r\n\
+        in\r\n<select name=\"cat\">\r\n\t<option value=\"0\">(all bands)</option>\r\
+        \n\t<option label=\"311\" value=\"217\">311</option>\n<option label=\"Addison\
+        \ Groove Project\" value=\"196\">Addison Groove Project</option>\n<option\
+        \ label=\"Adienne Young and Little Sadie\" value=\"296\">Adienne Young and\
+        \ Little Sadie</option>\n<option label=\"Agents of Good Roots\" value=\"14\"\
+        >Agents of Good Roots</option>\n<option label=\"ALO\" value=\"336\">ALO</option>\n\
+        <option label=\"American Babies\" value=\"337\">American Babies</option>\n\
+        <option label=\"Amfibian\" value=\"18\">Amfibian</option>\n<option label=\"\
+        Amy Helm\" value=\"338\">Amy Helm</option>\n<option label=\"Ancient Harmony\"\
+        \ value=\"19\">Ancient Harmony</option>\n<option label=\"Anders Osborne\"\
+        \ value=\"20\">Anders Osborne</option>\n<option label=\"Aquarium Rescue Unit\"\
+        \ value=\"213\">Aquarium Rescue Unit</option>\n<option label=\"Avalon Allstars\"\
+        \ value=\"301\">Avalon Allstars</option>\n<option label=\"Beanland\" value=\"\
+        25\">Beanland</option>\n<option label=\"Bela Fleck &amp; The Flecktones\"\
+        \ value=\"26\">Bela Fleck &amp; The Flecktones</option>\n<option label=\"\
+        Bela Fleck &amp; Tony Trischka\" value=\"27\">Bela Fleck &amp; Tony Trischka</option>\n\
+        <option label=\"Ben Folds\" value=\"267\">Ben Folds</option>\n<option label=\"\
+        Benevento Russo Duo\" value=\"248\">Benevento Russo Duo</option>\n<option\
+        \ label=\"Bernie Worrell and the WOO War\" value=\"30\">Bernie Worrell and\
+        \ the WOO War</option>\n<option label=\"Big Frog\" value=\"298\">Big Frog</option>\n\
+        <option label=\"Big Head Todd and the Monsters\" value=\"32\">Big Head Todd\
+        \ and the Monsters</option>\n<option label=\"Big In Japan\" value=\"33\">Big\
+        \ In Japan</option>\n<option label=\"Billy And The Kids\" value=\"339\">Billy\
+        \ And The Kids</option>\n<option label=\"Billy Strings\" value=\"387\">Billy\
+        \ Strings</option>\n<option label=\"Black Crowes\" value=\"215\">Black Crowes</option>\n\
+        <option label=\"Blackberry Smoke\" value=\"392\">Blackberry Smoke</option>\n\
+        <option label=\"Blind Melon\" value=\"36\">Blind Melon</option>\n<option label=\"\
+        Bloodkin\" value=\"334\">Bloodkin</option>\n<option label=\"Blue Floyd\" value=\"\
+        255\">Blue Floyd</option>\n<option label=\"Blues Traveler\" value=\"38\">Blues\
+        \ Traveler</option>\n<option label=\"Bob Weir\" value=\"389\">Bob Weir</option>\n\
+        <option label=\"Bockman's Euphio\" value=\"39\">Bockman's Euphio</option>\n\
+        <option label=\"Bonerama\" value=\"286\">Bonerama</option>\n<option label=\"\
+        Brothers Past\" value=\"40\">Brothers Past</option>\n<option label=\"Bruce\
+        \ Hornsby\" value=\"41\">Bruce Hornsby</option>\n<option label=\"Buckethead\"\
+        \ value=\"221\">Buckethead</option>\n<option label=\"Built to Spill\" value=\"\
+        277\">Built to Spill</option>\n<option label=\"Cabinet\" value=\"340\">Cabinet</option>\n\
+        <option label=\"Camper Van Beethoven\" value=\"341\">Camper Van Beethoven</option>\n\
+        <option label=\"Captain Soular Cat\" value=\"211\">Captain Soular Cat</option>\n\
+        <option label=\"Carbon Leaf\" value=\"43\">Carbon Leaf</option>\n<option label=\"\
+        Charlie Hunter\" value=\"44\">Charlie Hunter</option>\n<option label=\"Chris\
+        \ Duarte\" value=\"284\">Chris Duarte</option>\n<option label=\"Chris Robinson\"\
+        \ value=\"45\">Chris Robinson</option>\n<option label=\"Club d'Elf\" value=\"\
+        46\">Club d'Elf</option>\n<option label=\"Col. Bruce Hampton\" value=\"342\"\
+        >Col. Bruce Hampton</option>\n<option label=\"Commander Cody\" value=\"343\"\
+        >Commander Cody</option>\n<option label=\"Cornmeal\" value=\"237\">Cornmeal</option>\n\
+        <option label=\"Counting Crows\" value=\"47\">Counting Crows</option>\n<option\
+        \ label=\"Cowboy Junkies\" value=\"48\">Cowboy Junkies</option>\n<option label=\"\
+        Crack Sabbath\" value=\"251\">Crack Sabbath</option>\n<option label=\"Cracker\"\
+        \ value=\"344\">Cracker</option>\n<option label=\"Crazy Fingers\" value=\"\
+        314\">Crazy Fingers</option>\n<option label=\"Critters Buggin\" value=\"49\"\
+        >Critters Buggin</option>\n<option label=\"Cubensis\" value=\"345\">Cubensis</option>\n\
+        <option label=\"Damien Rice\" value=\"311\">Damien Rice</option>\n<option\
+        \ label=\"Dan Bern\" value=\"50\">Dan Bern</option>\n<option label=\"Danny\
+        \ Barnes\" value=\"278\">Danny Barnes</option>\n<option label=\"Dark Star\
+        \ Orchestra\" value=\"51\">Dark Star Orchestra</option>\n<option label=\"\
+        Dave Matthews Band\" value=\"252\">Dave Matthews Band</option>\n<option label=\"\
+        Dave Matthews Solo\" value=\"253\">Dave Matthews Solo</option>\n<option label=\"\
+        David Bromberg\" value=\"208\">David Bromberg</option>\n<option label=\"David\
+        \ Gans\" value=\"55\">David Gans</option>\n<option label=\"David Gray\" value=\"\
+        56\">David Gray</option>\n<option label=\"David Grisman\" value=\"245\">David\
+        \ Grisman</option>\n<option label=\"David Nelson Band\" value=\"226\">David\
+        \ Nelson Band</option>\n<option label=\"Day by the River\" value=\"57\">Day\
+        \ by the River</option>\n<option label=\"Dead &amp; Company\" value=\"328\"\
+        >Dead &amp; Company</option>\n<option label=\"Dead Floyd\" value=\"346\">Dead\
+        \ Floyd</option>\n<option label=\"Deep Banana Blackout\" value=\"59\">Deep\
+        \ Banana Blackout</option>\n<option label=\"Derek Trucks Band\" value=\"60\"\
+        >Derek Trucks Band</option>\n<option label=\"Dirty Dozen Brass Band\" value=\"\
+        62\">Dirty Dozen Brass Band</option>\n<option label=\"Disco Biscuits\" value=\"\
+        63\">Disco Biscuits</option>\n<option label=\"Dispatch\" value=\"64\">Dispatch</option>\n\
+        <option label=\"Donna Hopkins\" value=\"347\">Donna Hopkins</option>\n<option\
+        \ label=\"Donna the Buffalo\" value=\"65\">Donna the Buffalo</option>\n<option\
+        \ label=\"Dopapod\" value=\"348\">Dopapod</option>\n<option label=\"Dr. Didg\"\
+        \ value=\"66\">Dr. Didg</option>\n<option label=\"Drive-By Truckers\" value=\"\
+        67\">Drive-By Truckers</option>\n<option label=\"Driving Wheel\" value=\"\
+        349\">Driving Wheel</option>\n<option label=\"Dub Apocalypse\" value=\"393\"\
+        >Dub Apocalypse</option>\n<option label=\"Dumpstaphunk\" value=\"395\">Dumpstaphunk</option>\n\
+        <option label=\"Ed Palermo Big Band\" value=\"399\">Ed Palermo Big Band</option>\n\
+        <option label=\"Edie Brickell\" value=\"68\">Edie Brickell</option>\n<option\
+        \ label=\"Ekoostik Hookah\" value=\"69\">Ekoostik Hookah</option>\n<option\
+        \ label=\"Elephant Revival\" value=\"332\">Elephant Revival</option>\n<option\
+        \ label=\"EN2\" value=\"235\">EN2</option>\n<option label=\"Family Groove\
+        \ Company\" value=\"70\">Family Groove Company</option>\n<option label=\"\
+        Fare Thee Well\" value=\"327\">Fare Thee Well</option>\n<option label=\"Funky\
+        \ Meters\" value=\"220\">Funky Meters</option>\n<option label=\"Furthur\"\
+        \ value=\"318\">Furthur</option>\n<option label=\"Galactic\" value=\"72\"\
+        >Galactic</option>\n<option label=\"Garage a Trois\" value=\"2\">Garage a\
+        \ Trois</option>\n<option label=\"Garaj Mahal\" value=\"73\">Garaj Mahal</option>\n\
+        <option label=\"Garcia\" value=\"74\">Garcia</option>\n<option label=\"Gary\
+        \ Clark Jr.\" value=\"402\">Gary Clark Jr.</option>\n<option label=\"Gent\
+        \ Treadly\" value=\"350\">Gent Treadly</option>\n<option label=\"George Porter\
+        \ Jr. &amp; Runnin' P\" value=\"75\">George Porter Jr. &amp; Runnin' P</option>\n\
+        <option label=\"George Wesley\" value=\"271\">George Wesley</option>\n<option\
+        \ label=\"Giant Panda Guerilla Dub Squad\" value=\"397\">Giant Panda Guerilla\
+        \ Dub Squad</option>\n<option label=\"Golden Gate Wingmen\" value=\"326\"\
+        >Golden Gate Wingmen</option>\n<option label=\"Gomez\" value=\"260\">Gomez</option>\n\
+        <option label=\"Govt Mule\" value=\"12\">Govt Mule</option>\n<option label=\"\
+        Grace Potter and the Nocturnals\" value=\"287\">Grace Potter and the Nocturnals</option>\n\
+        <option label=\"Grampas Grass\" value=\"351\">Grampas Grass</option>\n<option\
+        \ label=\"Grand Theft Bus\" value=\"77\">Grand Theft Bus</option>\n<option\
+        \ label=\"Grateful Dead\" value=\"8\">Grateful Dead</option>\n<option label=\"\
+        Great American Taxi\" value=\"295\">Great American Taxi</option>\n<option\
+        \ label=\"Greensky Bluegrass\" value=\"322\">Greensky Bluegrass</option>\n\
+        <option label=\"GreyBoy AllStars\" value=\"78\">GreyBoy AllStars</option>\n\
+        <option label=\"GrooveSession\" value=\"352\">GrooveSession</option>\n<option\
+        \ label=\"Guster\" value=\"79\">Guster</option>\n<option label=\"GWAR\" value=\"\
+        224\">GWAR</option>\n<option label=\"Hackensaw Boys\" value=\"293\">Hackensaw\
+        \ Boys</option>\n<option label=\"Hairy Apes BMX\" value=\"244\">Hairy Apes\
+        \ BMX</option>\n<option label=\"Half Step\" value=\"353\">Half Step</option>\n\
+        <option label=\"Hard Working Americans\" value=\"354\">Hard Working Americans</option>\n\
+        <option label=\"Hexbelt\" value=\"242\">Hexbelt</option>\n<option label=\"\
+        Hill Country Revue\" value=\"319\">Hill Country Revue</option>\n<option label=\"\
+        Holly Bowling\" value=\"400\">Holly Bowling</option>\n<option label=\"Hot\
+        \ Buttered Rum String Band\" value=\"272\">Hot Buttered Rum String Band</option>\n\
+        <option label=\"Hotrize\" value=\"304\">Hotrize</option>\n<option label=\"\
+        Howie Day\" value=\"81\">Howie Day</option>\n<option label=\"Indigo Girls\"\
+        \ value=\"261\">Indigo Girls</option>\n<option label=\"Infamous Stringdusters\"\
+        \ value=\"307\">Infamous Stringdusters</option>\n<option label=\"Jack Johnson\"\
+        \ value=\"83\">Jack Johnson</option>\n<option label=\"Jackie Greene\" value=\"\
+        292\">Jackie Greene</option>\n<option label=\"Jacob Fred Jazz Odyssey\" value=\"\
+        84\">Jacob Fred Jazz Odyssey</option>\n<option label=\"Jason Isbell\" value=\"\
+        355\">Jason Isbell</option>\n<option label=\"Jason Mraz\" value=\"85\">Jason\
+        \ Mraz</option>\n<option label=\"Jazz Mandolin Project\" value=\"86\">Jazz\
+        \ Mandolin Project</option>\n<option label=\"Jeff Austin Band\" value=\"325\"\
+        >Jeff Austin Band</option>\n<option label=\"Jeff Mosier\" value=\"37\">Jeff\
+        \ Mosier</option>\n<option label=\"Jeff Sipe\" value=\"259\">Jeff Sipe</option>\n\
+        <option label=\"Jeff Tweedy\" value=\"87\">Jeff Tweedy</option>\n<option label=\"\
+        Jemimah Puddleduck\" value=\"239\">Jemimah Puddleduck</option>\n<option label=\"\
+        Jennifer O'Connor\" value=\"315\">Jennifer O'Connor</option>\n<option label=\"\
+        Jerry Joseph\" value=\"254\">Jerry Joseph</option>\n<option label=\"Jimmy\
+        \ Herring\" value=\"313\">Jimmy Herring</option>\n<option label=\"JJ Grey\
+        \ &amp; Mofro\" value=\"232\">JJ Grey &amp; Mofro</option>\n<option label=\"\
+        Joan Osborne\" value=\"356\">Joan Osborne</option>\n<option label=\"Joe Craven\"\
+        \ value=\"357\">Joe Craven</option>\n<option label=\"Joe Russo's Almost Dead\"\
+        \ value=\"358\">Joe Russo's Almost Dead</option>\n<option label=\"John Brown's\
+        \ Body\" value=\"359\">John Brown's Body</option>\n<option label=\"John Butler\
+        \ Trio\" value=\"89\">John Butler Trio</option>\n<option label=\"John Cowan\
+        \ Band\" value=\"90\">John Cowan Band</option>\n<option label=\"John Hartford\"\
+        \ value=\"91\">John Hartford</option>\n<option label=\"John Mayer\" value=\"\
+        92\">John Mayer</option>\n<option label=\"Karl Denson and Chris Wood\" value=\"\
+        97\">Karl Denson and Chris Wood</option>\n<option label=\"Karl Denson's Tiny\
+        \ Universe\" value=\"98\">Karl Denson's Tiny Universe</option>\n<option label=\"\
+        Keller Williams\" value=\"99\">Keller Williams</option>\n<option label=\"\
+        Kevn Kinney\" value=\"268\">Kevn Kinney</option>\n<option label=\"Kimock\"\
+        \ value=\"101\">Kimock</option>\n<option label=\"Kudzu Kings\" value=\"102\"\
+        >Kudzu Kings</option>\n<option label=\"Kung Fu\" value=\"329\">Kung Fu</option>\n\
+        <option label=\"KVHW\" value=\"103\">KVHW</option>\n<option label=\"Lake Trout\"\
+        \ value=\"104\">Lake Trout</option>\n<option label=\"Larry Campbell\" value=\"\
+        360\">Larry Campbell</option>\n<option label=\"Larry Keel\" value=\"275\"\
+        >Larry Keel</option>\n<option label=\"Leftover Salmon\" value=\"105\">Leftover\
+        \ Salmon</option>\n<option label=\"Leo Kottke &amp; Mike Gordon\" value=\"\
+        106\">Leo Kottke &amp; Mike Gordon</option>\n<option label=\"Les Claypool's\
+        \ Fearless Flying Frog Brigade\" value=\"107\">Les Claypool's Fearless Flying\
+        \ Frog Brigade</option>\n<option label=\"Lettuce\" value=\"331\">Lettuce</option>\n\
+        <option label=\"Levon Helm\" value=\"305\">Levon Helm</option>\n<option label=\"\
+        Little Feat\" value=\"108\">Little Feat</option>\n<option label=\"Living Daylights\"\
+        \ value=\"109\">Living Daylights</option>\n<option label=\"Lo Faber Band\"\
+        \ value=\"110\">Lo Faber Band</option>\n<option label=\"Los Lobos\" value=\"\
+        111\">Los Lobos</option>\n<option label=\"Lucero\" value=\"361\">Lucero</option>\n\
+        <option label=\"Marc Ford\" value=\"113\">Marc Ford</option>\n<option label=\"\
+        Marco Benevento\" value=\"362\">Marco Benevento</option>\n<option label=\"\
+        Marcus Eaton and the Lobby\" value=\"114\">Marcus Eaton and the Lobby</option>\n\
+        <option label=\"Marcus King Band\" value=\"391\">Marcus King Band</option>\n\
+        <option label=\"Mason Jennings\" value=\"115\">Mason Jennings</option>\n<option\
+        \ label=\"Matisyahu\" value=\"236\">Matisyahu</option>\n<option label=\"Matt\
+        \ Nathanson\" value=\"116\">Matt Nathanson</option>\n<option label=\"Max Creek\"\
+        \ value=\"206\">Max Creek</option>\n<option label=\"Medeski, Martin &amp;\
+        \ Wood\" value=\"1\">Medeski, Martin &amp; Wood</option>\n<option label=\"\
+        Melvin Seals and JGB\" value=\"398\">Melvin Seals and JGB</option>\n<option\
+        \ label=\"Mike Clark's Prescription Renewal\" value=\"118\">Mike Clark's Prescription\
+        \ Renewal</option>\n<option label=\"Mike Gordon\" value=\"204\">Mike Gordon</option>\n\
+        <option label=\"Mike Mizwinski\" value=\"320\">Mike Mizwinski</option>\n<option\
+        \ label=\"Modest Mouse\" value=\"266\">Modest Mouse</option>\n<option label=\"\
+        moe.\" value=\"119\">moe.</option>\n<option label=\"moe. side projects\" value=\"\
+        120\">moe. side projects</option>\n<option label=\"Mondo Gecko\" value=\"\
+        317\">Mondo Gecko</option>\n<option label=\"Moonalice\" value=\"363\">Moonalice</option>\n\
+        <option label=\"Moonshine Still\" value=\"216\">Moonshine Still</option>\n\
+        <option label=\"Mother Hips\" value=\"364\">Mother Hips</option>\n<option\
+        \ label=\"My Morning Jacket\" value=\"212\">My Morning Jacket</option>\n<option\
+        \ label=\"Nashville Bluegrass Band\" value=\"306\">Nashville Bluegrass Band</option>\n\
+        <option label=\"nero\" value=\"123\">nero</option>\n<option label=\"New Monsoon\"\
+        \ value=\"125\">New Monsoon</option>\n<option label=\"New Orleans Suspects\"\
+        \ value=\"365\">New Orleans Suspects</option>\n<option label=\"New Riders\
+        \ of the Purple Sage\" value=\"126\">New Riders of the Purple Sage</option>\n\
+        <option label=\"Nicki Bluhm\" value=\"366\">Nicki Bluhm</option>\n<option\
+        \ label=\"North Mississippi Allstars\" value=\"127\">North Mississippi Allstars</option>\n\
+        <option label=\"O.A.R. (Of A Revolution)\" value=\"128\">O.A.R. (Of A Revolution)</option>\n\
+        <option label=\"Offering\" value=\"129\">Offering</option>\n<option label=\"\
+        OM Trio\" value=\"130\">OM Trio</option>\n<option label=\"On the One\" value=\"\
+        279\">On the One</option>\n<option label=\"Oteil &amp; the Peacemakers\" value=\"\
+        238\">Oteil &amp; the Peacemakers</option>\n<option label=\"Other\" value=\"\
+        6\">Other</option>\n<option label=\"Outformation\" value=\"299\">Outformation</option>\n\
+        <option label=\"Over The Rhine\" value=\"243\">Over The Rhine</option>\n<option\
+        \ label=\"Oysterhead\" value=\"132\">Oysterhead</option>\n<option label=\"\
+        Ozric Tentacles\" value=\"223\">Ozric Tentacles</option>\n<option label=\"\
+        Papa Mali\" value=\"262\">Papa Mali</option>\n<option label=\"Papadosio\"\
+        \ value=\"367\">Papadosio</option>\n<option label=\"Particle\" value=\"133\"\
+        >Particle</option>\n<option label=\"Pat McGee Band\" value=\"134\">Pat McGee\
+        \ Band</option>\n<option label=\"Pat Metheny\" value=\"135\">Pat Metheny</option>\n\
+        <option label=\"Patterson Hood and Friends\" value=\"136\">Patterson Hood\
+        \ and Friends</option>\n<option label=\"Pearl Jam\" value=\"137\">Pearl Jam</option>\n\
+        <option label=\"Percy Hill\" value=\"138\">Percy Hill</option>\n<option label=\"\
+        Perpetual Groove\" value=\"265\">Perpetual Groove</option>\n<option label=\"\
+        Phil Lesh &amp; Friends\" value=\"139\">Phil Lesh &amp; Friends</option>\n\
+        <option label=\"Phish\" value=\"5\">Phish</option>\n<option label=\"Pigeons\
+        \ Playing Ping Pong\" value=\"388\">Pigeons Playing Ping Pong</option>\n<option\
+        \ label=\"Pink Talking Fish\" value=\"368\">Pink Talking Fish</option>\n<option\
+        \ label=\"Planet Of The Abts\" value=\"369\">Planet Of The Abts</option>\n\
+        <option label=\"Polyphonic Spree\" value=\"201\">Polyphonic Spree</option>\n\
+        <option label=\"Porter Batiste Stoltz (PBS)\" value=\"285\">Porter Batiste\
+        \ Stoltz (PBS)</option>\n<option label=\"Primus\" value=\"207\">Primus</option>\n\
+        <option label=\"Project Object\" value=\"316\">Project Object</option>\n<option\
+        \ label=\"Punch Brothers\" value=\"370\">Punch Brothers</option>\n<option\
+        \ label=\"Queens of the Stone Age\" value=\"250\">Queens of the Stone Age</option>\n\
+        <option label=\"Radiators\" value=\"142\">Radiators</option>\n<option label=\"\
+        Radiohead\" value=\"222\">Radiohead</option>\n<option label=\"Railroad Earth\"\
+        \ value=\"143\">Railroad Earth</option>\n<option label=\"Ralph Roddenbery\"\
+        \ value=\"371\">Ralph Roddenbery</option>\n<option label=\"Randall Bramblett\"\
+        \ value=\"372\">Randall Bramblett</option>\n<option label=\"Raq\" value=\"\
+        144\">Raq</option>\n<option label=\"Ratdog\" value=\"145\">Ratdog</option>\n\
+        <option label=\"Reid Genauer\" value=\"147\">Reid Genauer</option>\n<option\
+        \ label=\"REM\" value=\"310\">REM</option>\n<option label=\"Robert Hunter\"\
+        \ value=\"148\">Robert Hunter</option>\n<option label=\"Robert Randolph\"\
+        \ value=\"149\">Robert Randolph</option>\n<option label=\"Robert Walter's\
+        \ 20th Congress\" value=\"150\">Robert Walter's 20th Congress</option>\n<option\
+        \ label=\"Royal Southern Brotherhood\" value=\"373\">Royal Southern Brotherhood</option>\n\
+        <option label=\"Rusted Root\" value=\"151\">Rusted Root</option>\n<option\
+        \ label=\"Ryan Adams\" value=\"270\">Ryan Adams</option>\n<option label=\"\
+        Sam Bush\" value=\"263\">Sam Bush</option>\n<option label=\"Sam Holt Band\"\
+        \ value=\"333\">Sam Holt Band</option>\n<option label=\"Sam Kininger Band\"\
+        \ value=\"303\">Sam Kininger Band</option>\n<option label=\"Sawgrass\" value=\"\
+        300\">Sawgrass</option>\n<option label=\"Scarecrow Collection\" value=\"209\"\
+        >Scarecrow Collection</option>\n<option label=\"Schleigho\" value=\"153\"\
+        >Schleigho</option>\n<option label=\"Scott Amendola Band\" value=\"154\">Scott\
+        \ Amendola Band</option>\n<option label=\"Scott Sharrard\" value=\"374\">Scott\
+        \ Sharrard</option>\n<option label=\"Seth Yacovone Band\" value=\"155\">Seth\
+        \ Yacovone Band</option>\n<option label=\"Sex Mob\" value=\"156\">Sex Mob</option>\n\
+        <option label=\"Signal Path\" value=\"264\">Signal Path</option>\n<option\
+        \ label=\"Sister Sparrow and the Dirty Birds\" value=\"375\">Sister Sparrow\
+        \ and the Dirty Birds</option>\n<option label=\"Smokin' Boomers\" value=\"\
+        234\">Smokin' Boomers</option>\n<option label=\"Solar Circus\" value=\"280\"\
+        >Solar Circus</option>\n<option label=\"Soulhat\" value=\"225\">Soulhat</option>\n\
+        <option label=\"Soulive\" value=\"159\">Soulive</option>\n<option label=\"\
+        Sound Tribe Sector 9\" value=\"160\">Sound Tribe Sector 9</option>\n<option\
+        \ label=\"Spafford\" value=\"394\">Spafford</option>\n<option label=\"Spearhead\"\
+        \ value=\"161\">Spearhead</option>\n<option label=\"Spin Doctors\" value=\"\
+        162\">Spin Doctors</option>\n<option label=\"Stanton Moore\" value=\"164\"\
+        >Stanton Moore</option>\n<option label=\"Stephen Kellogg\" value=\"165\">Stephen\
+        \ Kellogg</option>\n<option label=\"Stephen Malkmus\" value=\"274\">Stephen\
+        \ Malkmus</option>\n<option label=\"Steve Kimock &amp; Friends\" value=\"\
+        166\">Steve Kimock &amp; Friends</option>\n<option label=\"Steve Kimock Band\"\
+        \ value=\"167\">Steve Kimock Band</option>\n<option label=\"Stockholm Syndrome\"\
+        \ value=\"219\">Stockholm Syndrome</option>\n<option label=\"Strangefolk\"\
+        \ value=\"168\">Strangefolk</option>\n<option label=\"String Cheese Incident\"\
+        \ value=\"169\">String Cheese Incident</option>\n<option label=\"TAUK\" value=\"\
+        376\">TAUK</option>\n<option label=\"Tea Leaf Green\" value=\"240\">Tea Leaf\
+        \ Green</option>\n<option label=\"Tedeschi Trucks Band\" value=\"324\">Tedeschi\
+        \ Trucks Band</option>\n<option label=\"Tenacious D\" value=\"171\">Tenacious\
+        \ D</option>\n<option label=\"The Avalon Allstars\" value=\"258\">The Avalon\
+        \ Allstars</option>\n<option label=\"The Big Wu\" value=\"35\">The Big Wu</option>\n\
+        <option label=\"The Bitteroots\" value=\"377\">The Bitteroots</option>\n<option\
+        \ label=\"The Black Keys\" value=\"288\">The Black Keys</option>\n<option\
+        \ label=\"The Breakfast\" value=\"141\">The Breakfast</option>\n<option label=\"\
+        The Brothers Comatose\" value=\"378\">The Brothers Comatose</option>\n<option\
+        \ label=\"The Code Talkers\" value=\"200\">The Code Talkers</option>\n<option\
+        \ label=\"The Dead\" value=\"11\">The Dead</option>\n<option label=\"The Heavy\
+        \ Pets\" value=\"294\">The Heavy Pets</option>\n<option label=\"The Higgs\"\
+        \ value=\"379\">The Higgs</option>\n<option label=\"The Magpie Salute\" value=\"\
+        396\">The Magpie Salute</option>\n<option label=\"The Mood Cultivation Project\"\
+        \ value=\"121\">The Mood Cultivation Project</option>\n<option label=\"The\
+        \ Motet\" value=\"122\">The Motet</option>\n<option label=\"The New Deal\"\
+        \ value=\"124\">The New Deal</option>\n<option label=\"The New Mastersounds\"\
+        \ value=\"401\">The New Mastersounds</option>\n<option label=\"The Other Ones\"\
+        \ value=\"131\">The Other Ones</option>\n<option label=\"The Recipe\" value=\"\
+        146\">The Recipe</option>\n<option label=\"The Revivalists\" value=\"380\"\
+        >The Revivalists</option>\n<option label=\"The Roots\" value=\"290\">The Roots</option>\n\
+        <option label=\"The Slip\" value=\"158\">The Slip</option>\n<option label=\"\
+        The Smashing Pumpkins\" value=\"283\">The Smashing Pumpkins</option>\n<option\
+        \ label=\"The Steepwater Band\" value=\"381\">The Steepwater Band</option>\n\
+        <option label=\"The Tragically Hip\" value=\"195\">The Tragically Hip</option>\n\
+        <option label=\"The Waybacks\" value=\"282\">The Waybacks</option>\n<option\
+        \ label=\"The Werks\" value=\"382\">The Werks</option>\n<option label=\"The\
+        \ Word\" value=\"190\">The Word</option>\n<option label=\"Tim Palmieri\" value=\"\
+        233\">Tim Palmieri</option>\n<option label=\"Tim Reynolds\" value=\"172\"\
+        >Tim Reynolds</option>\n<option label=\"Tinsley Ellis\" value=\"383\">Tinsley\
+        \ Ellis</option>\n<option label=\"Tishamingo\" value=\"203\">Tishamingo</option>\n\
+        <option label=\"Todd Snider\" value=\"308\">Todd Snider</option>\n<option\
+        \ label=\"Tommy Castro\" value=\"289\">Tommy Castro</option>\n<option label=\"\
+        Topaz\" value=\"173\">Topaz</option>\n<option label=\"Tortoise\" value=\"\
+        174\">Tortoise</option>\n<option label=\"TR3\" value=\"175\">TR3</option>\n\
+        <option label=\"Trey Anastasio\" value=\"176\">Trey Anastasio</option>\n<option\
+        \ label=\"Trombone Shorty\" value=\"335\">Trombone Shorty</option>\n<option\
+        \ label=\"Truett Lollis\" value=\"384\">Truett Lollis</option>\n<option label=\"\
+        Truth and Salvage Co\" value=\"323\">Truth and Salvage Co</option>\n<option\
+        \ label=\"Twiddle\" value=\"385\">Twiddle</option>\n<option label=\"U-Melt\"\
+        \ value=\"276\">U-Melt</option>\n<option label=\"Ulu\" value=\"177\">Ulu</option>\n\
+        <option label=\"Umphrey's McGee\" value=\"178\">Umphrey's McGee</option>\n\
+        <option label=\"Uncle Earl\" value=\"291\">Uncle Earl</option>\n<option label=\"\
+        Vida Blue\" value=\"180\">Vida Blue</option>\n<option label=\"Vinyl\" value=\"\
+        256\">Vinyl</option>\n<option label=\"Violent Femmes\" value=\"297\">Violent\
+        \ Femmes</option>\n<option label=\"Warren Haynes\" value=\"182\">Warren Haynes</option>\n\
+        <option label=\"Ween\" value=\"183\">Ween</option>\n<option label=\"Widespread\
+        \ Panic\" value=\"13\">Widespread Panic</option>\n<option label=\"Wilco\"\
+        \ value=\"184\">Wilco</option>\n<option label=\"Will Bernard &amp; Motherbug\"\
+        \ value=\"185\">Will Bernard &amp; Motherbug</option>\n<option label=\"Will\
+        \ Bernard Projects\" value=\"187\">Will Bernard Projects</option>\n<option\
+        \ label=\"Willy Porter Band\" value=\"189\">Willy Porter Band</option>\n<option\
+        \ label=\"Wood Brothers\" value=\"309\">Wood Brothers</option>\n<option label=\"\
+        WTFB\" value=\"386\">WTFB</option>\n<option label=\"Xavier Rudd\" value=\"\
+        269\">Xavier Rudd</option>\n<option label=\"Yarn Music\" value=\"321\">Yarn\
+        \ Music</option>\n<option label=\"Yo La Tengo\" value=\"214\">Yo La Tengo</option>\n\
+        <option label=\"Yonder Mountain String Band\" value=\"191\">Yonder Mountain\
+        \ String Band</option>\n<option label=\"Zac Brown Band\" value=\"390\">Zac\
+        \ Brown Band</option>\n<option label=\"Zen Tricksters\" value=\"197\">Zen\
+        \ Tricksters</option>\n<option label=\"Zero\" value=\"192\">Zero</option>\n\
+        <option label=\"Zony Mash\" value=\"193\">Zony Mash</option>\n\r\n</select>\r\
+        \n\r\n<br><input type=\"checkbox\" name=\"incldead\" value=\"1\" > including\
+        \ torrents with no seeders\r\n\r\n<input type=\"submit\" value=\"Search!\"\
+        >\r\n\r\n</p>\r\n</form>\r\n        <h2>Search results for \"wilco\"</h2>\r\
+        \n\r\n<p align=\"center\"><a class=\"here\" href=\"/index.php?searchzzzz=wilco&page=0\"\
+        >1 - 50</a>  |   <a class=\"\" href=\"/index.php?searchzzzz=wilco&page=50\"\
+        >51 - 55</a>&nbsp;&nbsp;&nbsp;<a class=\"\" href=\"/index.php?searchzzzz=wilco&page=50\"\
+        > Next >></a></p>\n\r\n\r\n<center>\r\n<b>Filters:</b> &nbsp; &nbsp;<a href=/index.php?searchzzzz=wilco&filter=noreseed>Hide\
+        \ *RESEEDS*</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nodead>Hide\
+        \ Grateful Dead</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophish>Hide\
+        \ Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophgd>Hide\
+        \ Grateful Dead and Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=none>Hide\
+        \ None</a> &nbsp;\r\n\r\n<br><br>\r\n</center>\r\n\t<table bgcolor=#CCCCCC\
+        \ border=\"0\" cellpadding=\"3\" width=\"100%\">\n<tr bgcolor=#FFFFFF>\n\t\
+        <th><a href=\"/index.php?searchzzzz=wilco&sort=name\">Artist</a></th>\n\t\
+        <th>Show</th>\n\t<th>DL</th>\n\t<th>Files</th>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=comments\"\
+        >Chat</a></th>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=added\">Added</a></th>\n\
+        \t<th>Size</th>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=times_completed\"\
+        >Served</a></th>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=seeders\"\
+        >Seeds</a></th>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=leechers\"\
+        >Leeches</a></th>\n\t<th><a href=\"/index.php?searchzzzz=wilco&sort=username\"\
+        >Seeded by</a></th>\n\t<!--\n #   if ($variant == \"index\")\n  #      print(\"\
+        <td class=\\\"heading\\\" align=\\\"center\\\">Upped by</td>\\n\");\n\n  \
+        \  if ($admin == \"yes\")\n        print(\"<td class=\\\"heading\\\" align=\\\
+        \"right\\\">Moderate</td>\");\n-->\n</tr>\n\n<tr align=\"right\" bgcolor=\"\
+        #ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\"\
+        >Wilco</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=610889\"><b>Wilco - 1997/02/16 - Avalon Ballroom\
+        \ - Boston, MA</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>\
+        \ -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/610889/Wilco%20-%201997-02-16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=610889&filelist=1#filelist\">27</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=610889#startcomments\">4</a>\n\
+        \t</td>\n\t<td>10/26 11:58</td>\n\t<td>668.06 MB</td>\n\t<td>68 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=610889&dllist=1#seeders\">3</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=610889&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/boilerinthebasement\"\
+        >boilerinthebasement</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\"\
+        >\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\"\
+        >Wilco</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=610806\"><b>Wilco 2000-09-19 New York City\
+        \ [SBD - long out of circulation]</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/610806/wilco2000-09-19.torrent\"><img src=\"/pic/disk.gif\" alt=\"\
+        [download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=610806&filelist=1#filelist\"\
+        >32</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=610806#startcomments\"\
+        >7</a>\n\t</td>\n\t<td>10/20 13:40</td>\n\t<td>708.67 MB</td>\n\t<td>243 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=610806&dllist=1#seeders\">5</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=610806&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/oecourt\"\
+        >oecourt</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=610741\"\
+        ><b>Wilco 1997-05-22 Chicago [SBD - long out of circulation]</b></a>\n   \
+        \     <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/610741/wilco1997-05-22.torrent\"><img src=\"\
+        /pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=610741&filelist=1#filelist\"\
+        >24</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=610741#startcomments\"\
+        >7</a>\n\t</td>\n\t<td>10/14 13:48</td>\n\t<td>471.35 MB</td>\n\t<td>199 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=610741&dllist=1#seeders\">5</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=610741&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/oecourt\"\
+        >oecourt</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\">Jeff\
+        \ Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=610511\"><b>Jeff Tweedy - McHenry Outdoor Theatre,\
+        \ McHenry IL 09-18-20 (48kHz-24bit FLAC)</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/610511/Jeff%20Tweedy%20-%20McHenry%20Outdoor%20Theatre%2C%20McHenry%20IL%2009-18-20%20%2848kHz-24bit%20FLAC%29.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=610511&filelist=1#filelist\">32</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=610511#startcomments\">4</a>\n\
+        \t</td>\n\t<td>09/20 22:12</td>\n\t<td>673.39 MB</td>\n\t<td>77 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=610511&dllist=1#seeders\">3</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=610511&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/dfez\"\
+        >dfez</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\">Jeff Tweedy</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=610509\"\
+        ><b>Jeff Tweedy - McHenry Outdoor Theatre, McHenry IL 09-18-20 (44.1kHz-16bit\
+        \ FLAC)</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>\
+        \ -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/610509/Jeff%20Tweedy%20-%20McHenry%20Outdoor%20Theatre%2C%20McHenry%20IL%2009-18-20%20%2844.1kHz-16bit%20FLAC%29.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=610509&filelist=1#filelist\">31</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=610509#startcomments\">3</a>\n\
+        \t</td>\n\t<td>09/20 14:19</td>\n\t<td>288.54 MB</td>\n\t<td>191 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=610509&dllist=1#seeders\">4</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=610509&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/dfez\"\
+        >dfez</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=609424\"\
+        ><b>Wilco 03/19/02 Mackey Auditorium Boulder, CO (unknown aud source)</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/609424/wilco2002-03-19.flac.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=609424&filelist=1#filelist\">25</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=609424#startcomments\">0</a>\n\
+        \t</td>\n\t<td>04/25 11:09</td>\n\t<td>496.35 MB</td>\n\t<td>54 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=609424&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=609424&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/lucas9000\"\
+        >lucas9000</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=608772\"\
+        ><b>Mellotron Variations - December 7, 2019 - Nashville, TN @ OZ Arts Nashville\
+        \ (John Medeski, Pat Sansone [Wilco], Jonathan Kirkscey &amp; Robby Grant)</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/608772/MellotronVariations2019-12-07.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=608772&filelist=1#filelist\">17</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=608772#startcomments\">3</a>\n\
+        \t</td>\n\t<td>03/01  7:41</td>\n\t<td>691.55 MB</td>\n\t<td>65 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=608772&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=608772&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/RBayers\"\
+        >RBayers</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=1\">Medeski,\
+        \ Martin & Wood</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=608171\"><b>Medeski, Martin, Metzger &amp;\
+        \ Cline 2019-12-28 Ny,Ny FOB DPA 4060 *gotfob*</b></a>\n        <!--     \
+        \   &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\
+        \t<a href=\"download.php/608171/Phish%20After%20Party%20-%202019-12-28%20-%20Cline%2C%20Martin%2C%20Medeski%2C%20Metzger%20-%20Sony%20Hall%20NYC.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=608171&filelist=1#filelist\">11</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=608171#startcomments\">2</a>\n\
+        \t</td>\n\t<td>01/03  2:37</td>\n\t<td>770.34 MB</td>\n\t<td>362 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=608171&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=608171&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/gotfob\"\
+        >gotfob</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607766\"\
+        ><b>Wilco - 2019-11-19 - Mission Ballroom - Denver, CO - DPA 4011 - flac24</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/607766/wilco2019-11-19.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=607766&filelist=1#filelist\">32</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=607766#startcomments\">0</a>\n\
+        \t</td>\n\t<td>11/22 11:25</td>\n\t<td>2.350 GB</td>\n\t<td>151 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=607766&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a href=\"details.php?torrentId=607766&dllist=1#leechers\">1</a></td>\n\
+        \        <td align=\"left\"><a href=\"http://db.etree.org/robo\">robo</a></td>\n\
+        </tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"left\">\n\t\
+        \t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t</td>\n\t<td\
+        \ align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607641\"\
+        ><b>Wilco 2019-10-23 The Pavilion at Toyota Music Factory; Irving, TX (16bit)</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/607641/wilco2019-10-23.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=607641&filelist=1#filelist\">47</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=607641#startcomments\">0</a>\n\
+        \t</td>\n\t<td>11/12 11:42</td>\n\t<td>685.09 MB</td>\n\t<td>99 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=607641&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=607641&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/trustthex\"\
+        >trustthex</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607287\"\
+        ><b>Wilco - Oct. 15, 2019 - Washington, D.C. (Gefell) 24-bit</b></a>\n   \
+        \     <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/607287/wilco2019-10-15.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=607287&filelist=1#filelist\">33</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=607287#startcomments\">0</a>\n\
+        \t</td>\n\t<td>10/16  1:23</td>\n\t<td>1.424 GB</td>\n\t<td>220 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=607287&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=607287&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/vwmule\"\
+        >vwmule</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607244\"\
+        ><b>Wilco - Wang Theatre, Boston MA 2019-10-10 Line Audio CM3 / FOB</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/607244/wilco-2019-10-10.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=607244&filelist=1#filelist\">35</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=607244#startcomments\">0</a>\n\
+        \t</td>\n\t<td>10/11 11:25</td>\n\t<td>616.25 MB</td>\n\t<td>221 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=607244&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=607244&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bob100\"\
+        >bob100</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=607022\"\
+        ><b>Wilco 2004-11-06 Fillmore Auditorium, Denver, CO {MC012}</b></a>\n   \
+        \     <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/607022/wilco2004-11-06.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=607022&filelist=1#filelist\">27</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=607022#startcomments\">0</a>\n\
+        \t</td>\n\t<td>09/20 15:43</td>\n\t<td>714.80 MB</td>\n\t<td>96 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=607022&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=607022&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/sloppyart\"\
+        >sloppyart</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=606281\"\
+        ><b>Wilco - Solid Sound Festival - N. Adams, MA - June 28, 2019 - flac16 \
+        \ **Karaoke Show**</b></a>\n        <!--        &nbsp;<span class=\"red\"\
+        >*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/606281/wilco19-06-28.m700.hsm.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=606281&filelist=1#filelist\">19</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=606281#startcomments\">7</a>\n\
+        \t</td>\n\t<td>07/16 12:10</td>\n\t<td>545.60 MB</td>\n\t<td>222 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=606281&dllist=1#seeders\">3</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=606281&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/seremetcc\"\
+        >seremetcc</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=605512\"\
+        ><b>The Karina Rykman Experiment 2019-05-18 The Pressroom Portsmouth, NH **Telefunken\
+        \ ELA M260 + AKG ck61/nBob + SBD**</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/605512/kre2019-05-18.ck61.m260.sbd.flac.torrent\"><img src=\"\
+        /pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=605512&filelist=1#filelist\"\
+        >14</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=605512#startcomments\"\
+        >2</a>\n\t</td>\n\t<td>05/19 10:38</td>\n\t<td>408.53 MB</td>\n\t<td>70 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=605512&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=605512&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/tgakidis\"\
+        >tgakidis</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=604570\"\
+        ><b>Wilco - 2012-07-03 - Adler Theater - Davenport, IA - Matrix (SBD + Neumann\
+        \ AK40) - 24bit</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>\
+        \ -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/604570/wilco2012-07-03matrix.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=604570&filelist=1#filelist\">27</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=604570#startcomments\">7</a>\n\
+        \t</td>\n\t<td>03/03 18:24</td>\n\t<td>1.314 GB</td>\n\t<td>259 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=604570&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=604570&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/robo\"\
+        >robo</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\t</td>\n\
+        \t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=603916\"\
+        ><b>Banyan (Watt, Perkins, Cline, Waldman) 10/12/02    The Elbo Room - San\
+        \ Francisco, CA  *AKG461 &gt; MV100 &gt; Oade SBM-1 &gt; Casio DA7 (onstage)*</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/603916/banyan2001-10-12.flacf.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=603916&filelist=1#filelist\">22</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=603916#startcomments\">3</a>\n\
+        \t</td>\n\t<td>01/24  1:31</td>\n\t<td>803.99 MB</td>\n\t<td>65 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=603916&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=603916&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bluegrass_brad\"\
+        >bluegrass_brad</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\
+        \t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\"\
+        >Jeff Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=603791\"><b>Jeff Tweedy 2019-01-11 Schoeps\
+        \ Teddy Ballgame t-flac1648</b></a>\n        <!--        &nbsp;<span class=\"\
+        red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/603791/Jeff%20Tweedy%202019-01-11%20Schoeps%20Teddy%20Ballgame%20t-flac1648.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=603791&filelist=1#filelist\">11</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=603791#startcomments\">2</a>\n\
+        \t</td>\n\t<td>01/13  0:10</td>\n\t<td>329.60 MB</td>\n\t<td>113 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=603791&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=603791&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/photoleon\"\
+        >photoleon</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=597836\"\
+        ><b>Wilco1999-11-06  Newport Music Hall -  Columbus, OH  ** Crispy SBD**</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/597836/Wilco1999-11-06%20%20Newport%20Music%20Hall%20-%20%20Columbus%2C%20OH%20--%20SBD%20--.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=597836&filelist=1#filelist\">30</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=597836#startcomments\">2</a>\n\
+        \t</td>\n\t<td>02/05 16:02</td>\n\t<td>631.71 MB</td>\n\t<td>331 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=597836&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=597836&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=596076\"\
+        ><b>Wilco 2002-04-27  Memorial Chapel - Union College New York  -DSBD-</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/596076/Wilco%202002-04-27%20%20Memorial%20Chapel%20-%20Union%20College%20%20-DSBD-.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=596076&filelist=1#filelist\">29</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=596076#startcomments\">3</a>\n\
+        \t</td>\n\t<td>11/04  0:12</td>\n\t<td>578.88 MB</td>\n\t<td>178 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=596076&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=596076&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=595619\"\
+        ><b>Wilco Fox Theatre Atlanta, GA 2017-10-08 (DPA 4023 + DPA 4028) &gt; Sound\
+        \ Devices MixPre-6 @ 24/48 (24-bit)</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/595619/wilco2017-10-08.4023%2B4028.flac24.torrent\"><img src=\"\
+        /pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595619&filelist=1#filelist\"\
+        >32</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595619#startcomments\"\
+        >1</a>\n\t</td>\n\t<td>10/14  3:57</td>\n\t<td>1.506 GB</td>\n\t<td>71 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=595619&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=595619&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/gewwang\"\
+        >gewwang</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=595571\"\
+        ><b>Wilco 10/9/2017 Thomas Wolfe Auditorium Asheville NC  (Schoeps MK41's\
+        \ &gt; Mixpre-6)</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>\
+        \ -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/595571/Wilco%202017-10-09%2016bit.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=595571&filelist=1#filelist\">34</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=595571#startcomments\">9</a>\n\
+        \t</td>\n\t<td>10/10 14:21</td>\n\t<td>774.67 MB</td>\n\t<td>227 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=595571&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=595571&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/ashevilletaper\"\
+        >ashevilletaper</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\
+        \t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\"\
+        >Wilco</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=595557\"><b>Wilco 2017-10-03 The Pavilion @\
+        \ Toyota Music Factory, Irving, TX 24bit</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/595557/wilco2017-10-03.flac24.torrent\"><img src=\"/pic/disk.gif\"\
+        \ alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595557&filelist=1#filelist\"\
+        >51</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=595557#startcomments\"\
+        >2</a>\n\t</td>\n\t<td>10/09 14:09</td>\n\t<td>1.516 GB</td>\n\t<td>62 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=595557&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=595557&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/trustthex\"\
+        >trustthex</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594953\"\
+        ><b>WILCO - 2006-07-16 - Pines Theater - Florence, MA, USA</b></a>\n     \
+        \   <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/594953/WILCO%20-%202006-07-16%20-%20Pines%20Theater%20-%20Florence%2C%20MA%2C%20USA.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=594953&filelist=1#filelist\">32</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=594953#startcomments\">3</a>\n\
+        \t</td>\n\t<td>08/29 19:00</td>\n\t<td>671.68 MB</td>\n\t<td>99 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=594953&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=594953&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594943\"\
+        ><b>Wilco 1998-07-04 - Summerfest - Milwaukee,WI, USA - SBD</b></a>\n    \
+        \    <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/594943/Wilco%201998-07-04%20-%20Summerfest%20-%20Milwaukee%2CWI%2C%20USA%20-%20SBD.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=594943&filelist=1#filelist\">28</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=594943#startcomments\">3</a>\n\
+        \t</td>\n\t<td>08/29 17:40</td>\n\t<td>467.26 MB</td>\n\t<td>143 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=594943&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=594943&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594894\"\
+        ><b>Wilco 1998-09-04 -  OnThe Waterfront Fest - Rockford, IL</b></a>\n   \
+        \     <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/594894/Wilco%201998-09-04%20-%20%20OnThe%20Waterfront%20Fest%20-%20Rockford%2C%20IL.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=594894&filelist=1#filelist\">19</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=594894#startcomments\">2</a>\n\
+        \t</td>\n\t<td>08/27  2:18</td>\n\t<td>370.01 MB</td>\n\t<td>114 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=594894&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=594894&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594774\"\
+        ><b>Wilco 1995-04-28 Mississippi Nights St. Louis,MO - SBD</b></a>\n     \
+        \   <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/594774/Wilco%201995-04-28%20Mississippi%20Nights%20St.%20Louis%2CMO%20-%20SBD.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=594774&filelist=1#filelist\">32</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=594774#startcomments\">4</a>\n\
+        \t</td>\n\t<td>08/18  4:54</td>\n\t<td>635.24 MB</td>\n\t<td>149 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=594774&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=594774&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=6\">Other</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594770\"\
+        ><b>Uncle Tupelo 1993-10-15 - The Vic Theater - Chicago, IL, USA -- DSBD --</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/594770/Uncle%20Tupelo%201993-10-15%20-%20The%20Vic%20Theater%20-%20Chicago%2C%20IL%2C%20USA%20--%20DSBD%20--.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=594770&filelist=1#filelist\">40</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=594770#startcomments\">3</a>\n\
+        \t</td>\n\t<td>08/18  2:44</td>\n\t<td>823.08 MB</td>\n\t<td>233 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=594770&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=594770&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=594714\"\
+        ><b>Wilco 2006-03-22 Val Air Ballroom, Des Moines,IA - SBD</b></a>\n     \
+        \   <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/594714/Wilco%202006-03-22%20Val%20Air%20Ballroom%2C%20Des%20Moines%2CIA%20-%20SBD.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=594714&filelist=1#filelist\">30</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=594714#startcomments\">6</a>\n\
+        \t</td>\n\t<td>08/15 17:20</td>\n\t<td>633.43 MB</td>\n\t<td>209 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=594714&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=594714&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/KerouacAW\"\
+        >KerouacAW</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593965\"\
+        ><b>WILCO - Solid Sound, Mass MOCA, North Adams MA 06-24-2017 </b></a>\n \
+        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/593965/WILCO-2017-06-24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=593965&filelist=1#filelist\">30</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=593965#startcomments\">5</a>\n\
+        \t</td>\n\t<td>06/30 16:51</td>\n\t<td>549.09 MB</td>\n\t<td>138 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=593965&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=593965&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bob100\"\
+        >bob100</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593933\"\
+        ><b>Wilco, Riverside Theater, Milwaukee, WI, 2017-06-18, flac24</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/593933/wilco2017-06-18.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=593933&filelist=1#filelist\">33</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=593933#startcomments\">1</a>\n\
+        \t</td>\n\t<td>06/27 21:12</td>\n\t<td>1.300 GB</td>\n\t<td>70 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=593933&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=593933&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bersey\"\
+        >bersey</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593931\"\
+        ><b>Wilco, Riverside Theater, Milwaukee, WI, 2017-06-18, flac16</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/593931/wilco2017-06-18.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=593931&filelist=1#filelist\">33</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=593931#startcomments\">1</a>\n\
+        \t</td>\n\t<td>06/27 21:11</td>\n\t<td>579.56 MB</td>\n\t<td>131 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=593931&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=593931&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bersey\"\
+        >bersey</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593916\"\
+        ><b>WILCO - Solid Sound, Mass MOCA, North Adams MA 06-23-2017  </b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/593916/WILCO-2017-06-23.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=593916&filelist=1#filelist\">35</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=593916#startcomments\">16</a>\n\
+        \t</td>\n\t<td>06/27  1:11</td>\n\t<td>656.15 MB</td>\n\t<td>367 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=593916&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=593916&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bob100\"\
+        >bob100</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=593562\"\
+        ><b>Wilco - June 9, 2017 - Vienna, VA (DPA 4023) 24-bit</b></a>\n        <!--\
+        \        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\
+        \t\t<a href=\"download.php/593562/wilco2017-06-09.flac24.torrent\"><img src=\"\
+        /pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593562&filelist=1#filelist\"\
+        >27</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=593562#startcomments\"\
+        >1</a>\n\t</td>\n\t<td>06/10 19:24</td>\n\t<td>1.248 GB</td>\n\t<td>72 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=593562&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=593562&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/vwmule\"\
+        >vwmule</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=591962\"\
+        ><b>Wilco Beacon Theatre New York City, New York 3/21/2017 (Schoeps CCM4V'S\
+        \ FOB)</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>\
+        \ -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/591962/wilco2017-03-21.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=591962&filelist=1#filelist\">32</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=591962#startcomments\">9</a>\n\
+        \t</td>\n\t<td>03/22  4:05</td>\n\t<td>628.67 MB</td>\n\t<td>341 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=591962&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=591962&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/zmanatl\"\
+        >zmanatl</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=591934\"\
+        ><b>WILCO Beacon Theatre 3/19/2017</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/591934/WILCO2017-03-19.torrent\"><img src=\"/pic/disk.gif\" alt=\"\
+        [download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=591934&filelist=1#filelist\"\
+        >32</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=591934#startcomments\"\
+        >10</a>\n\t</td>\n\t<td>03/20  3:21</td>\n\t<td>667.86 MB</td>\n\t<td>336\
+        \ times</td>\n\t<td><a href=\"details.php?torrentId=591934&dllist=1#seeders\"\
+        >1</a></td>\n\t<td><a class=\"red\" href=\"details.php?torrentId=591934&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bob100\"\
+        >bob100</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=591915\"\
+        ><b>WILCO Beacon Theatre 03-18-2017 AKG</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/591915/WILCO2017-03-18.torrent\"><img src=\"/pic/disk.gif\" alt=\"\
+        [download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=591915&filelist=1#filelist\"\
+        >30</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=591915#startcomments\"\
+        >7</a>\n\t</td>\n\t<td>03/19 14:43</td>\n\t<td>696.59 MB</td>\n\t<td>206 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=591915&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=591915&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/bob100\"\
+        >bob100</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td align=\"\
+        left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\t\
+        </td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=590745\"\
+        ><b>1997-02-15 Irving Plaza, New York, NY (MTX-24bit)</b></a>\n        <!--\
+        \        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\
+        \t\t<a href=\"download.php/590745/1997-02-15%20Irving%20Plaza%2C%20New%20York%2C%20NY%20%28MTX-24bit%29.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=590745&filelist=1#filelist\">30</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=590745#startcomments\">3</a>\n\
+        \t</td>\n\t<td>01/10 23:17</td>\n\t<td>1.091 GB</td>\n\t<td>124 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=590745&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=590745&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/photoleon\"\
+        >photoleon</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=588395\"\
+        ><b>Wilco 1999-04-26 Theatre of the Living Arts, Philadelphia PA (uncirculated\
+        \ schoeps master)</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span>\
+        \ -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/588395/wilco1999-04-26.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=588395&filelist=1#filelist\">30</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=588395#startcomments\">9</a>\n\
+        \t</td>\n\t<td>08/25  2:25</td>\n\t<td>654.00 MB</td>\n\t<td>147 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=588395&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=588395&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/billydee\"\
+        >billydee</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=587413\"\
+        ><b>Wilco The Tabernacle Atlanta, GA 2016-02-10 DPA 4023 &gt; Lunatec V3 (Oade\
+        \ ACM mod) &gt; Audio Magic Presto II &gt; Sound Devices 722 @ 24/96 (24-bit)</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/587413/wilco2016-02-10.4023.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=587413&filelist=1#filelist\">33</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=587413#startcomments\">1</a>\n\
+        \t</td>\n\t<td>07/04 11:18</td>\n\t<td>2.414 GB</td>\n\t<td>65 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=587413&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=587413&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/gewwang\"\
+        >gewwang</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=587412\"\
+        ><b>Wilco The Tabernacle Atlanta, GA 2016-02-11 DPA 4023 &gt; Lunatec V3 (Oade\
+        \ ACM mod) &gt; Audio Magic Presto II &gt; Sound Devices 722 @ 24/96 (24-bit)</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/587412/wilco2016-02-11.4023.flac24.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=587412&filelist=1#filelist\">34</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=587412#startcomments\">2</a>\n\
+        \t</td>\n\t<td>07/04 11:07</td>\n\t<td>2.504 GB</td>\n\t<td>45 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=587412&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=587412&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/gewwang\"\
+        >gewwang</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=585318\"\
+        ><b>Wilco 2015-04-24 New Orleans Jazz And Heritage Festival, New Orleans,\
+        \ LA</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\
+        \t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/585318/wilco2015-04-24.csb.royboy.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=585318&filelist=1#filelist\">14</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=585318#startcomments\">3</a>\n\
+        \t</td>\n\t<td>03/01  0:08</td>\n\t<td>254.52 MB</td>\n\t<td>98 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=585318&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=585318&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/annapurna1228\"\
+        >annapurna1228</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\
+        \t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\"\
+        >Wilco</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=584761\"><b>Wilco- 1/31/2016 - College Street\
+        \ Music Hall - Schoeps MK4V</b></a>\n        <!--        &nbsp;<span class=\"\
+        red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/584761/wilco2016-01-31.mk4v.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=584761&filelist=1#filelist\">31</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=584761#startcomments\">8</a>\n\
+        \t</td>\n\t<td>02/01 12:26</td>\n\t<td>640.31 MB</td>\n\t<td>216 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=584761&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=584761&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/jessehurlburt\"\
+        >jessehurlburt</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\
+        \t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\"\
+        >Jeff Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=580702\"><b>Jeff Tweedy &amp; Friends - Solid\
+        \ Sound - North Adams, MA - June 28, 2015 - MC930 - flac16</b></a>\n     \
+        \   <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\
+        \t<td>\n\t\t<a href=\"download.php/580702/tweedy15-06-28.mc930.seremetcc.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=580702&filelist=1#filelist\">37</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=580702#startcomments\">10</a>\n\
+        \t</td>\n\t<td>07/03 13:08</td>\n\t<td>611.99 MB</td>\n\t<td>387 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=580702&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=580702&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/seremetcc\"\
+        >seremetcc</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=580700\"\
+        ><b>Wilco - Solid Sound - North Adams, MA - June 27, 2015 - MC930 - flac16</b></a>\n\
+        \        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/580700/wilco15-06-27.mc930.seremetcc.flac16.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=580700&filelist=1#filelist\">30</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=580700#startcomments\">12</a>\n\
+        \t</td>\n\t<td>07/03 10:13</td>\n\t<td>605.43 MB</td>\n\t<td>369 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=580700&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=580700&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/seremetcc\"\
+        >seremetcc</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=580685\"\
+        ><b>Wilco - Solid Sound - North Adams, MA - June 26, 2015 - MC930 - flac16\
+        \  **First Ever All-Acoustic Show**</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/580685/wilco15-06-26.mc930.seremetcc.flac16.torrent\"><img src=\"\
+        /pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=580685&filelist=1#filelist\"\
+        >35</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=580685#startcomments\"\
+        >16</a>\n\t</td>\n\t<td>07/02 14:31</td>\n\t<td>606.09 MB</td>\n\t<td>613\
+        \ times</td>\n\t<td><a href=\"details.php?torrentId=580685&dllist=1#seeders\"\
+        >2</a></td>\n\t<td><a class=\"red\" href=\"details.php?torrentId=580685&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/seremetcc\"\
+        >seremetcc</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t<td\
+        \ align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=87\">Jeff\
+        \ Tweedy</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=573908\"><b>Jeff Tweedy 2014.07.25 - Portsmouth,\
+        \ NH</b></a>\n        <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\
+        \t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/573908/Jeff%20Tweedy%202014.07.25.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=573908&filelist=1#filelist\">33</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=573908#startcomments\">5</a>\n\
+        \t</td>\n\t<td>07/26 12:20</td>\n\t<td>505.17 MB</td>\n\t<td>208 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=573908&dllist=1#seeders\">2</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=573908&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/opsopcopolis\"\
+        >opsopcopolis</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\">\n\t\
+        <td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\">Wilco</a>\n\
+        \t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\" href=\"details.php?torrentId=565124\"\
+        ><b>Wilco, Solid Sound Festival, MASS MoCA, North Adams, MA 6/22/2013 FM simulcast\
+        \ flac16 (all originals Saturday night set)</b></a>\n        <!--        &nbsp;<span\
+        \ class=\"red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"\
+        download.php/565124/wilco2013-06-22-etree.fm.flac16.torrent\"><img src=\"\
+        /pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=565124&filelist=1#filelist\"\
+        >45</a>\n\t</td>\n\t<td>\n\t\t<a href=\"details.php?torrentId=565124#startcomments\"\
+        >11</a>\n\t</td>\n\t<td>07/04  5:35</td>\n\t<td>900.49 MB</td>\n\t<td>580\
+        \ times</td>\n\t<td><a href=\"details.php?torrentId=565124&dllist=1#seeders\"\
+        >1</a></td>\n\t<td><a class=\"red\" href=\"details.php?torrentId=565124&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/scott_bernsteiN@hotmail.com\"\
+        ><span class=\"__cf_email__\" data-cfemail=\"4132222e35351e2324332f323524280f01292e352c20282d6f222e2c\"\
+        >[email&#160;protected]</span></a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"\
+        #ffffff\">\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\"\
+        >Wilco</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=564880\"><b>Wilco - 2013-06-21 Solid Sound\
+        \ Festival (all request show)</b></a>\n        <!--        &nbsp;<span class=\"\
+        red\">*NEW*</span> -->\n\t\t\t\t\t</td>\n\t<td>\n\t\t<a href=\"download.php/564880/wilco2013-06-21%20Solid%20Sound%20Festival.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=564880&filelist=1#filelist\">31</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=564880#startcomments\">27</a>\n\
+        \t</td>\n\t<td>06/23  4:40</td>\n\t<td>767.95 MB</td>\n\t<td>2438 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=564880&dllist=1#seeders\">3</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=564880&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/brennans.recordings\"\
+        >brennans.recordings</a></td>\n</tr>\n<tr align=\"right\" bgcolor=\"#ffffff\"\
+        >\n\t<td align=\"left\">\n\t\t<a href=\"/index.php?searchzzzz=wilco&cat=184\"\
+        >Wilco</a>\n\t</td>\n\t<td align=\"left\">\n\t\t<a class=\"details_link\"\
+        \ href=\"details.php?torrentId=564833\"><b>Wilco 2013-06-14 What Stage - Bonnaroo\
+        \ Music and Arts Festival - Manchester, Tenn. (Avantone CK-1) </b></a>\n \
+        \       <!--        &nbsp;<span class=\"red\">*NEW*</span> -->\n\t\t\t\t\t\
+        </td>\n\t<td>\n\t\t<a href=\"download.php/564833/wilco2013-06-14.flac.torrent\"\
+        ><img src=\"/pic/disk.gif\" alt=\"[download]\"></a>\n\t</td>\n\t<td>\n\t\t\
+        <a href=\"details.php?torrentId=564833&filelist=1#filelist\">23</a>\n\t</td>\n\
+        \t<td>\n\t\t<a href=\"details.php?torrentId=564833#startcomments\">14</a>\n\
+        \t</td>\n\t<td>06/20  2:15</td>\n\t<td>434.07 MB</td>\n\t<td>580 times</td>\n\
+        \t<td><a href=\"details.php?torrentId=564833&dllist=1#seeders\">1</a></td>\n\
+        \t<td><a class=\"red\" href=\"details.php?torrentId=564833&dllist=1#leechers\"\
+        >0</a></td>\n        <td align=\"left\"><a href=\"http://db.etree.org/tdwriter\"\
+        >tdwriter</a></td>\n</tr>\n\n</table><center>\r\n<br>\r\n\r\n<b>Filters:</b>\
+        \ &nbsp; &nbsp;<a href=/index.php?searchzzzz=wilco&filter=noreseed>Hide *RESEEDS*</a>\
+        \ &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nodead>Hide\
+        \ Grateful Dead</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophish>Hide\
+        \ Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=nophgd>Hide\
+        \ Grateful Dead and Phish</a> &nbsp;|\r\n                &nbsp;<a href=/index.php?searchzzzz=wilco&filter=none>Hide\
+        \ None</a> &nbsp;\r\n\r\n<br>\r\n</center>\r\n\r\n<p align=\"center\"><a class=\"\
+        here\" href=\"/index.php?searchzzzz=wilco&page=0\">1 - 50</a>  |   <a class=\"\
+        \" href=\"/index.php?searchzzzz=wilco&page=50\">51 - 55</a>&nbsp;&nbsp;&nbsp;<a\
+        \ class=\"\" href=\"/index.php?searchzzzz=wilco&page=50\"> Next >></a></p>\n\
+        \r\n\r\n<p align=\"center\">\r\n<a href=\"browse.php\">Browse all shows at\
+        \ once.</a>\r\n</p>\r\n\r\n\n<h3>News</h3>\n<ul>\n<li>28 JAN 2020 - thanks\
+        \ to our new volunteer moderators, comments\nhave been restored. --phrog\n\
+        <li>21 AUG 2019 - comments have been disabled due to a few bad apples\nusing\
+        \ them to harass others. (you know who you are and should be\nashamed) --phrog\n\
+        <li>24 NOV 2018 - torrents 602890-602907 have been removed\naccidentally.\
+        \ Please re-upload,\nsorry  --phrog\n<li>03 OCT 2018 - bt.etree.org has been\
+        \ restored. --phrog\n</ul>\r\n<BR></TD>\n                    <TD width=5 bgColor=white></TD>\n\
+        \                    <TD width=5 bgColor=#89aa80></TD>\n                 \
+        \   <td></td>\n                  </TR>\n                  <TR height=3>\n\
+        \                    <td></td>\n                    <TD vAlign=top align=right\
+        \ colSpan=2 rowSpan=2><IMG height=13 \n                  src=\"pic/cc3.gif\"\
+        \ width=10 border=0></TD>\n                    <TD bgColor=white height=3></TD>\n\
+        \                    <TD vAlign=top align=left colSpan=2 rowSpan=2><IMG height=13\
+        \ \n                  src=\"pic/cc4.gif\" width=10 border=0></TD>\n      \
+        \              <td></td>\n                  </TR>\n                  <TR height=10>\n\
+        \                    <td></td>\n                    <TD bgColor=#89aa80 \n\
+        \        height=10></TD>\n                    <td></td>\n                \
+        \  </TR>\n            </TABLE>\n          </TD>\n        </TR></TBODY></TABLE></TD></TR>\n\
+        \  <TR>\n    <TD>\n \n    </TD></TR></TBODY></TABLE>\n\n<table align=center>\n\
+        <tr>\n<TD width=25></TD>\n<td>\n<a target=_blank href=\"http://etree.org\"\
+        >http://etree.org</a>\n</td>\n<TD width=6>:</TD>\n<td>\n<a target=_blank href=\"\
+        http://db.etree.org\">http://db.etree.org</a>\n</td>\n<TD width=6>:</TD>\n\
+        <TD>\n<a target=_blank href=\"http://db.etree.org/privacy.php\">Legal</a>\n\
+        </TD>\n<TD width=6>:</TD>\n<TD>\n<a target=_blank href=\"rss/bt_etree_org.rdf\"\
+        >RSS Feed</a>\n</TD>\n</tr>\n</table>\n<table align=center>\n<tr>\n<td align=center>\n\
+        <br>\n        <font face=\"Arial\" align=\"center\" size=\"1\">\n<i>Last refreshed:\
+        \ Sun, 17 Jan 2021 08:49:53 EST</i><BR>\n\nContents designed &amp; maintained\
+        \ by the etree.org volunteers<br>\n\xA9 1998-2018, <a href=\"http://etree.org\"\
+        >etree.org</a>, except where\nnoted. All Rights Reserved.<br>\n\nPHP BitTorrent\
+        \ Tracker derived from the bytemonsoon.com tracker by dfx.<br>\n\n\n<br><br>\n\
+        \n</font>\n</td>\n</tr>\n</table>\n<script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"\
+        ></script></body>\n</html>\n"
     headers:
       CF-Cache-Status: DYNAMIC
-      CF-RAY: 52820d895a4ad413-BUD
+      CF-RAY: 61308ac67f18412c-PRG
       Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html; charset=UTF-8
-      Date: Sat, 19 Oct 2019 10:26:17 GMT
+      Date: Sun, 17 Jan 2021 13:49:53 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Expires: Thu, 19 Nov 1981 08:52:00 GMT
+      NEL: '{"report_to":"cf-nel","max_age":604800}'
       Pragma: no-cache
+      Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=WJIezUk9sDNAzULF1Ex327lknP47ry5bbKKReDBuqr84Uwsa9JR%2F%2F3kC4VRxJ%2FUgYmSJ17Xyog%2FDWp%2B7Dvfy0M8G%2BRc8h2757pMihPA%3D"}],"group":"cf-nel","max_age":604800}'
       Server: cloudflare
-      Set-Cookie: PHPSESSID=io51hb0kpib9sl8chj1gees1i4; path=/
+      Set-Cookie: PHPSESSID=f1bhh67amvjba5gpf99nqfldq6; path=/
       Transfer-Encoding: chunked
       Vary: Accept-Encoding
       X-Powered-By: PHP/5.3.29
+      cf-request-id: 07b235100d0000412cf9327000000001
     status:
       code: 200
       message: OK

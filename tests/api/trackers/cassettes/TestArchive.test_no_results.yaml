@@ -990,7 +990,7 @@ interactions:
         \              <div class=\"collection-header\">\n        <div class=\"collection-brand\"\
         >\n                      <div id=\"file-dropper-wrap\">\n              <div\
         \ id=\"file-dropper\"> </div>\n              <img id=\"file-dropper-img\"\
-        \ class=\"img-responsive\" src=\"https://ia600300.us.archive.org/26/items/feature_films/oldicon.gif\"\
+        \ class=\"img-responsive\" src=\"https://ia800300.us.archive.org/26/items/feature_films/oldicon.gif\"\
         \ alt=\"\">\n            </div>\n                    <div class=\"collection-titles\"\
         >\n            <h1>Feature Films</h1>\n                          <h4>Internet\
         \ Archive</h4>\n                      </div>\n        </div>\n        <div\
@@ -1828,14 +1828,14 @@ interactions:
         \     </div><!--/#.tabby-forum-->\n  </div><!--/.container-ia-->\n  \n  <script\
         \ type=\"text/javascript\">\narchive_setup.push(function() {\n    });\n</script>\n\
         \        </div><!--/.container-->\n              </main>\n    </div><!--/#wrap-->\n\
-        \    \n    \n    <!-- Timing ...\n     rendered on: www13.us.archive.org\n\
+        \    \n    \n    <!-- Timing ...\n     rendered on: www30.us.archive.org\n\
         \ seconds diff sec                                                       \
         \               message   stack(file:line:function)\n=========================================================\n\
         \  0.0000   0.0000                                                       \
         \         petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require\n\
         \                                             |common/ia:66:require_once\n\
-        \                                             |setup.php:381:log\n  0.0059\
-        \   0.0059                                                             redis_read\
+        \                                             |setup.php:381:log\n  0.0101\
+        \   0.0101                                                             redis_read\
         \ start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n      \
         \                                       |details.php:183:getItem\n       \
         \                                      |common/Item.inc:77:parseMetadata\n\
@@ -1849,7 +1849,7 @@ interactions:
         \                                             |AdapterPipeline.inc:639:fetch\n\
         \                                             |RecordServer.inc:148:execute\n\
         \                                             |RecordServer/FetchRecordOp.inc:57:log\n\
-        \  0.0078   0.0019                                                       \
+        \  0.0152   0.0051                                                       \
         \     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:183:getItem\n \
         \                                            |common/Item.inc:77:parseMetadata\n\
@@ -1863,34 +1863,34 @@ interactions:
         \                                             |AdapterPipeline.inc:639:fetch\n\
         \                                             |RecordServer.inc:148:execute\n\
         \                                             |RecordServer/FetchRecordOp.inc:63:log\n\
-        \  0.0288   0.0210                                                       \
+        \  0.0434   0.0282                                                       \
         \   begin session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:223:head\n  \
         \                                           |common/Nav.inc:129:__construct\n\
         \                                             |Nav.inc:221:session_start\n\
-        \                                             |Cookies.inc:56:log\n  0.0290\
+        \                                             |Cookies.inc:56:log\n  0.0436\
         \   0.0002                                                           done\
         \ session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:223:head\n  \
         \                                           |common/Nav.inc:129:__construct\n\
         \                                             |Nav.inc:221:session_start\n\
-        \                                             |Cookies.inc:62:log\n  0.0499\
-        \   0.0208            going to SE (collection:feature_films OR mediatype:feature_films)\
+        \                                             |Cookies.inc:62:log\n  0.0568\
+        \   0.0133            going to SE (collection:feature_films OR mediatype:feature_films)\
         \   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n            \
         \                                 |details.php:197:include\n             \
         \                                |collection.php:243:main\n              \
         \                               |collection.php:1137:tolist\n            \
         \                                 |common/Search.inc:2491:__construct\n  \
-        \                                           |Search.inc:583:log\n  1.9874\
-        \   1.9375   gone to SE (collection:feature_films OR mediatype:feature_films)\
+        \                                           |Search.inc:583:log\n  1.4530\
+        \   1.3962   gone to SE (collection:feature_films OR mediatype:feature_films)\
         \ (zxcvbnm)   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n  \
         \                                           |details.php:197:include\n   \
         \                                          |collection.php:243:main\n    \
         \                                         |collection.php:1137:tolist\n  \
         \                                           |common/Search.inc:2491:__construct\n\
-        \                                             |Search.inc:935:log\n  1.9877\
+        \                                             |Search.inc:935:log\n  1.4533\
         \   0.0003                                                             start\
         \ db connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n \
         \                                            |details.php:197:include\n  \
@@ -1899,7 +1899,7 @@ interactions:
         \                                           |common/Forum.inc:176:escape\n\
         \                                             |DB.inc:731:connect\n      \
         \                                       |DB.inc:105:conn\n               \
-        \                              |DB.inc:867:log\n  1.9980   0.0103        \
+        \                              |DB.inc:867:log\n  1.4624   0.0092        \
         \                                                               got db   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:243:main\n  \
@@ -1907,7 +1907,7 @@ interactions:
         \                                            |common/Forum.inc:176:escape\n\
         \                                             |DB.inc:731:connect\n      \
         \                                       |DB.inc:105:conn\n               \
-        \                              |DB.inc:914:log\n  2.0644   0.0664        \
+        \                              |DB.inc:914:log\n  1.5638   0.1013        \
         \                                                             bug dump   var/cache/petabox/petabox/www/sf/details.php:62:getItem\n\
         \                                             |details.php:197:include\n \
         \                                            |collection.php:278:footer\n\
@@ -1917,11 +1917,11 @@ interactions:
         \ type=\"text/javascript\">\nif (window.archive_analytics) {\n  window.archive_analytics.send_pageview_on_load(window.archive_analytics);\n\
         \  window.archive_analytics.process_url_events(window.location);\n  var vs\
         \ = window.archive_analytics.get_data_packets();\n  for (var i in vs) {\n\
-        \    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=2064;\n  \
-        \  vs[i]['server_name']=\"www13.us.archive.org\";\n      }\n\n  if (document.querySelectorAll('.more_search').length)\
+        \    vs[i]['cache_bust']=Math.random();\n    vs[i]['server_ms']=1563;\n  \
+        \  vs[i]['server_name']=\"www30.us.archive.org\";\n      }\n\n  if (document.querySelectorAll('.more_search').length)\
         \ {\n    window.archive_analytics.send_scroll_fetch_base_event();\n  }\n}\n\
-        </script>\n              <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=258132944\"\
-        \ alt=\"\" />\n          <noscript>\n        <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=10848360\"\
+        </script>\n              <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=575364511\"\
+        \ alt=\"\" />\n          <noscript>\n        <img src=\"//analytics.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=750721270\"\
         \ />\n      </noscript>\n          <script>\n        document.addEventListener('DOMContentLoaded',\
         \ function() {\n          if (typeof AJS === 'undefined') {\n            return;\n\
         \          }\n          AJS.createTrackingImage('in_page_executes');\n   \
@@ -1930,9 +1930,9 @@ interactions:
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html; charset=utf-8
-      Date: Sun, 17 Jan 2021 12:35:58 GMT
+      Date: Sun, 17 Jan 2021 13:49:43 GMT
       Server: nginx/1.16.1 (Ubuntu)
-      Set-Cookie: PHPSESSID=8j4r1mrk9rvhn6i3rfmjj47lm1; path=/; domain=.archive.org
+      Set-Cookie: PHPSESSID=t1omvrb3prbqvd6gvf7t55v4b1; path=/; domain=.archive.org
       Strict-Transport-Security: max-age=15724800
       Transfer-Encoding: chunked
     status:
