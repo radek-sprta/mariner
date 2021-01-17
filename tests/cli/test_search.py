@@ -45,14 +45,12 @@ class TestSearch:
     def test_search_legal(self, run):
         # GIVEN a search term
         # WHEN searching for it with --legal flag
-        result = run("search", "-f", "csv", "plan 9 from outer space", "--legal", "--limit", "3")[0]
+        result = run("search", "-f", "csv", "one body too many", "--legal", "--limit", "3")[0]
 
         # THEN the results should only come from legal trackers
         expected = [
             '"ID","Name","Tracker","Seeds","Size","Uploaded","Available as"\n',
-            '"Plan 9 from Outer Space","Archive","-1","Unknown","0001-01-01","Torrent"\n',
-            '"Plan 9 from Outer Space (1958)","Archive","-1","Unknown","0001-01-01","Torrent"\n',
-            '"Plan 9 from Outer Space","Archive","-1","Unknown","0001-01-01","Torrent"\n',
+            '"One Body Too Many","Archive","-1","Unknown","0001-01-01","Torrent"\n',
         ]
         for line in expected:
             assert line in result
@@ -76,15 +74,13 @@ class TestSearch:
         # GIVEN a search term
         # WHEN searching for it with --filter legal flag
         result = run(
-            "search", "-f", "csv", "plan 9 from outer space", "--filter", "legal", "--limit", "3"
+            "search", "-f", "csv", "one body too many", "--filter", "legal", "--limit", "3"
         )[0]
 
         # THEN the results should only come from legal trackers
         expected = [
             '"ID","Name","Tracker","Seeds","Size","Uploaded","Available as"\n',
-            '"Plan 9 from Outer Space","Archive","-1","Unknown","0001-01-01","Torrent"\n',
-            '"Plan 9 from Outer Space (1958)","Archive","-1","Unknown","0001-01-01","Torrent"\n',
-            '"Plan 9 from Outer Space","Archive","-1","Unknown","0001-01-01","Torrent"\n',
+            '"One Body Too Many","Archive","-1","Unknown","0001-01-01","Torrent"\n',
         ]
         for line in expected:
             assert line in result

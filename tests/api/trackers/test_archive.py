@@ -16,7 +16,7 @@ class TestArchive:
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
         # WHEN searching for it
-        search = event_loop.run_until_complete(tracker.results("plan 9"))
+        search = event_loop.run_until_complete(tracker.results("one body too many"))
 
         # THEN it should return a list of results
         search = list(search)
