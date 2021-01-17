@@ -1,4 +1,4 @@
-# Mariner [![PyPI version](https://badge.fury.io/py/mariner.svg)](https://badge.fury.io/py/mariner) [![Pipeline status](https://gitlab.com/radek-sprta/mariner/badges/master/pipeline.svg)](https://gitlab.com/radek-sprta/mariner/commits/master) [![Coverage report](https://gitlab.com/radek-sprta/mariner/badges/master/coverage.svg)](https://gitlab.com/radek-sprta/mariner/commits/master) [![Downloads](http://pepy.tech/badge/mariner)](http://pepy.tech/project/mariner)
+# Mariner [![PyPI version](https://badge.fury.io/py/mariner.svg)](https://badge.fury.io/py/mariner) [![Pipeline status](https://gitlab.com/radek-sprta/mariner/badges/master/pipeline.svg)](https://gitlab.com/radek-sprta/mariner/commits/master) [![Coverage report](https://gitlab.com/radek-sprta/mariner/badges/master/coverage.svg)](https://gitlab.com/radek-sprta/mariner/commits/master) [![Downloads](http://pepy.tech/badge/mariner)](http://pepy.tech/project/mariner) [![Black](https://img.shields.io/badge/code%20style-black-000000)](https://github.com/psf/black)
 
 Navigate torrents in CLI with Mariner. It offers a simple interface for streamlined experience. No more annoying ads and pop-up windows.
 
@@ -6,6 +6,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 ## Features
 
+- Runs on Linux and Windows.
 - Automatically get a working proxy for trackers that have them.
 - Download torrent files and copy magnet links to clipboard.
 - Open torrents in your default torrent application.
@@ -25,7 +26,7 @@ It is currently under heavy development, so expect breaking changes. Currently o
 
 ## Installation
 
-Mariner requires Python 3.5.3 or newer to run.
+Mariner requires Python 3.6 or newer to run.
 
 ### Python package
 
