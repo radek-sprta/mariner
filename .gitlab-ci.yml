@@ -23,11 +23,6 @@ before_script:
       - pytest.ini
       - tox.ini
 
-lint:bandit:
-  stage: lint
-  extends: .code
-  script: tox -e bandit
-
 lint:flake8:
   stage: lint
   extends: .code
