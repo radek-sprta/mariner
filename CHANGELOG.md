@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2021-01-17
+
+### Added
+
+- Support for Windows.
+- Run on Python 3.9.
+
+### Fixed
+
+- Search on NyaaPantsu.
+
+### Removed
+
+- Support for Python 3.5.
+- PirateBay tracker, because it requires JavaScript now.
+- KickAssTorrents tracker, because it requires an account now.
+- Anidex tracker, because the site is not working.
+
 ## [1.4.1] - 2019-10-23
 
 ### Fixed
@@ -195,3 +213,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [1.3.1]: https://gitlab.com/radek-sprta/mariner/compare/v1.3.0...v1.3.1
 [1.4.0]: https://gitlab.com/radek-sprta/mariner/compare/v1.3.1...v1.4.0
 [1.4.1]: https://gitlab.com/radek-sprta/mariner/compare/v1.4.0...v1.4.1
+[1.5.0]: https://gitlab.com/radek-sprta/mariner/compare/v1.5.0...v1.5.0
