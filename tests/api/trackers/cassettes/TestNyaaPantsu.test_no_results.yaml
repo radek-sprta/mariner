@@ -1,294 +1,389 @@
 interactions:
 - request:
-    body: &id001 {}
-    headers:
-      User-Agent:
-      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
-    method: get
-    uri: https://nyaa.pantsu.cat/search?c=_&q=zxcvbnm
-  response:
     body: {}
     headers:
-      CF-Cache-Status: DYNAMIC
-      CF-RAY: 52820dfbea09d407-BUD
-      Connection: keep-alive
-      Content-Type: text/html
-      Date: Sat, 19 Oct 2019 10:26:35 GMT
-      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Location: https://nyaa.net/search?c=_&q=zxcvbnm
-      Server: cloudflare
-      Set-Cookie: __cfduid=d937170eb4182ad99c770a833009e696f1571480795; expires=Sun,
-        18-Oct-20 10:26:35 GMT; path=/; domain=.pantsu.cat; HttpOnly
-      Transfer-Encoding: chunked
-    status:
-      code: 302
-      message: Moved Temporarily
-    url: https://nyaa.pantsu.cat/search?c=_&q=zxcvbnm
-- request:
-    body: *id001
-    headers:
       User-Agent:
       - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
     method: get
-    uri: https://nyaa.pantsu.cat/search?c=_&q=zxcvbnm
+    uri: https://nyaa.net/search?c=_&q=zxcvbnm
   response:
     body:
-      string: "\n<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n  <meta charset=\"utf-8\">\n
-        \ <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n  <meta name=\"viewport\"
-        content=\"width=device-width, initial-scale=1\"/>\n  <meta name=\"keywords\"
-        content=\"nyaa, torrents, pantsu, anime, manga, sukebei, nyaapassu, horriblesubs,
-        dlsite\"/>\n  <meta name=\"description\" content='The leading open-source
-        community-based nyaa.se successor, suitable for all anime and manga needs.
-        \u306B\u3083\u3093\u3071\u3059~!'/>\n\n  <!-- The above 3 meta tags *must*
-        come first in the head; any other head content must come *after* these tags
-        -->\n  <title>Nyaa Pantsu - No results found</title>\n  <!-- Flavicons and
-        icons -->\n  <link rel=\"icon\" type=\"image/png\" href=\"/img/favicon.png\"
-        />\n  <link rel=\"shortcut icon\" type=\"image/png\" href=\"/img/favicon.png\"/>\n\n
-        \ <!-- SMO -->\n  <meta property=\"og:site_name\" content=\"Nyaa Pantsu\"/>\n
-        \ <meta property=\"og:title\" content=\" - No results found - Nyaa Pantsu\"/>\n
-        \ <meta property=\"og:image\" content=\"/img/favicon.png\"/>\n  <meta property=\"og:description\"
-        content=\"Nyaa Pantsu Homepage\"/>\n<meta name=\"clckd\" content=\"04eb5245cbd11ba2e0fd541dfd5c93ce\"
-        />\n\n  <!-- RSS Feed with Context -->\n  <link rel=\"alternate\" type=\"application/rss+xml\"
-        title=\"Nyaa Pantsu - Latest torrents RSS Feed\" href=\"/feed?c=_&q=zxcvbnm\"
-        \ />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Nyaa
-        Pantsu - Latest torrents Torznab RSS Feed\" href=\"/feed/torznab?c=_&q=zxcvbnm&t=search\"
-        \ />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Nyaa
-        Pantsu - Latest torrents EZTV RSS Feed\" href=\"/feed/eztv?c=_&q=zxcvbnm\"
-        \ />\n  <!-- do NOT move -->\n  <link rel=\"stylesheet\" href=\"/css/simplemde.min.css?v=1.1.0\"/>\n
-        \ <!-- Base theme -->\n  <link rel=\"stylesheet\" id=\"style\" href=\"/css/main.css?v=1.1.0\"/>\n
-        \ <!-- nyaacon, custom icon set -->\n  <link rel=\"stylesheet\" href=\"/css/nyacon.css?v=1.1.0\"/>\n
-        \ <!-- User selected theme, if empty defaults to theme in nyaa.yml -->\n  <link
-        rel=\"stylesheet\" id=\"theme\" href=\"/css/themes/g.css?v=1.1.0\"/>\n  <!--
-        Flags css -->\n  <link rel=\"stylesheet\" href=\"/css/flags/flags.min.css\"/>\n
-        \ <!-- Search Box for Google -->\n  <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://nyaa.net/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://nyaa.net/search?q={search_term_string}\",\"query-input\":\"required
-        name=search_term_string\"} }</script>\n  \n  </head>\n\n<body >\n  <nav id=\"header\"
-        class=\"header\">\n    \n\n<div class=\"container\">\n  <div class=\"h-left\">\n
-        \   <div class=\"h-logo\">\n      <a href=\"/\">\n        <img class=\"hide-md\"
-        src=\"/img/logo.png\" alt=\"Nyaa Pantsu\"/>\n        <img class=\"visible-md\"
-        src=\"/img/logo_s.png\" alt=\"Nyaa Pantsu\"/>\n      </a>\n    </div>\n    <div
-        class=\"h-nav\">\n      <a href=\"/\" class=\"nav-btn\" id=\"browse-link\"
-        style=\"display: none;\">\n        <div class=\"icon-upload visible-md\"></div>\n
-        \       <span class=\"hide-md\">Browse</span>\n      </a>\n      <a href=\"/upload\"
-        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
-        \       <span class=\"hide-md\">Upload</span>\n      </a>\n      <a href=\"/feed?c=_&q=zxcvbnm\"
-        class=\"nav-btn\">\n        <div class=\"icon-rss-squared visible-md\"></div>\n
-        \       <span class=\"hide-md\">RSS</span>\n      </a>\n      <a href=\"/faq\"
-        class=\"nav-btn\">\n        <div class=\"icon-help-circled visible-md\"></div>\n
-        \       <span class=\"hide-md\">FAQ</span>\n      </a>\n      \n      <a href=\"https://sukebei.nyaa.net\"
-        class=\"nav-btn\">\n        <div class=\"icon-heart visible-md\"></div>\n
-        \       <span class=\"hide-md\">Fap</span>\n      </a>\n      \n\t<a href=\"https://discord.gg/HGZacke\"
-        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
-        \       <span class=\"hide-md\">Discord</span>\n      </a>\n\t<a href=\"https://twitter.com/NyaaPantsu\"
-        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
-        \       <span class=\"hide-md\">Twitter</span>\n      </a>\n\t<a href=\"https://transparency.pantsu.cat/\"
-        class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n
-        \       <span class=\"hide-md\">Transparency</span>\n      </a>\n    </div>\n
-        \ </div>\n  <div class=\"h-right\">\n    \n<div class=\"h-user \">\n  \n  <a
-        href=\"/login?redirectTo=/search?c=_&amp;q=zxcvbnm\" class=\"nav-btn log-in\"
-        style=\"width:auto;\" title=\"Sign In\">\n    <div class=\"icon-user\"></div>\n
-        \   <span>Sign In</span>\n  </a> \n</div>\n\n\n    <div class=\"h-search\">\n
-        \     <form role=\"search\" action=\"/search\" id=\"header-form\" method=\"get\">\n
-        \       \n<select name=\"c\" class=\"form-input form-category\">\n  <option
-        value=\"_\">All categories</option>\n  \n  <option value=\"3_\" >Anime</option>\n
-        \ \n  <option value=\"3_12\" >Anime - Anime Music Video</option>\n  \n  <option
-        value=\"3_5\" >Anime - English-translated</option>\n  \n  <option value=\"3_13\"
-        >Anime - Non-English-translated</option>\n  \n  <option value=\"3_6\" >Anime
-        - Raw</option>\n  \n  <option value=\"2_\" >Audio</option>\n  \n  <option
-        value=\"2_3\" >Audio - Lossless</option>\n  \n  <option value=\"2_4\" >Audio
-        - Lossy</option>\n  \n  <option value=\"4_\" >Literature</option>\n  \n  <option
-        value=\"4_7\" >Literature - English-translated</option>\n  \n  <option value=\"4_14\"
-        >Literature - Non-English-translated</option>\n  \n  <option value=\"4_8\"
-        >Literature - Raw</option>\n  \n  <option value=\"5_\" >Live Action</option>\n
-        \ \n  <option value=\"5_9\" >Live Action - English-translated</option>\n  \n
-        \ <option value=\"5_10\" >Live Action - Idol/Promotional Video</option>\n
-        \ \n  <option value=\"5_18\" >Live Action - Non-English-translated</option>\n
-        \ \n  <option value=\"5_11\" >Live Action - Raw</option>\n  \n  <option value=\"6_\"
-        >Pictures</option>\n  \n  <option value=\"6_15\" >Pictures - Graphics</option>\n
-        \ \n  <option value=\"6_16\" >Pictures - Photos</option>\n  \n  <option value=\"1_\"
-        >Software</option>\n  \n  <option value=\"1_1\" >Software - Applications</option>\n
-        \ \n  <option value=\"1_2\" >Software - Games</option>\n  \n</select>\n \n<input
-        class=\"form-input search-box\" name=\"q\" placeholder=\"Search\" type=\"text\"
-        value=\"zxcvbnm\"/>\n<button type=\"submit\" class=\"form-input icon-search\"></button><button
-        type=\"submit\" class=\"form-input refine\" name=\"refine\" value=\"1\">Refine</button>\n\n
-        \     </form>\n    </div>\n  </div>\n</div>\n\n\n  </nav>\n  <div id=\"header-height-offset\"></div>\n
-        \ <div id=\"content\" class=\"\">\n    <div class=\"content container center\">\n
-        \     \n    \n\n      \n    \n\n      \n<div class=\"centered\">\n\n\n\n\n
-        </div>\n      \n    \n\n<div class=\"box refine\" >\n  <form method=\"GET\"
-        action=\"/search\">\n    <h3>Refine your search</h3>\n\t<div>\n\t  <div class=\"refine-container-1\">\n
-        \   <span class=\"form-refine\">\n      <span class=\"spacing\">Search for:</span>\n
-        \     <input type=\"text\" class=\"form-input refine-searchbox\" size=\"30\"
-        name=\"q\" value=\"zxcvbnm\" placeholder=\"Search for\"/><select name=\"c\"
-        class=\"form-input refine-category\">\n      <option value=\"_\">All categories</option>\n
-        \     \n      <option value=\"3_\" >Anime</option>\n      \n      <option
-        value=\"3_12\" >Anime - Anime Music Video</option>\n      \n      <option
-        value=\"3_5\" >Anime - English-translated</option>\n      \n      <option
-        value=\"3_13\" >Anime - Non-English-translated</option>\n      \n      <option
-        value=\"3_6\" >Anime - Raw</option>\n      \n      <option value=\"2_\" >Audio</option>\n
-        \     \n      <option value=\"2_3\" >Audio - Lossless</option>\n      \n      <option
-        value=\"2_4\" >Audio - Lossy</option>\n      \n      <option value=\"4_\"
-        >Literature</option>\n      \n      <option value=\"4_7\" >Literature - English-translated</option>\n
-        \     \n      <option value=\"4_14\" >Literature - Non-English-translated</option>\n
-        \     \n      <option value=\"4_8\" >Literature - Raw</option>\n      \n      <option
-        value=\"5_\" >Live Action</option>\n      \n      <option value=\"5_9\" >Live
-        Action - English-translated</option>\n      \n      <option value=\"5_10\"
-        >Live Action - Idol/Promotional Video</option>\n      \n      <option value=\"5_18\"
-        >Live Action - Non-English-translated</option>\n      \n      <option value=\"5_11\"
-        >Live Action - Raw</option>\n      \n      <option value=\"6_\" >Pictures</option>\n
-        \     \n      <option value=\"6_15\" >Pictures - Graphics</option>\n      \n
-        \     <option value=\"6_16\" >Pictures - Photos</option>\n      \n      <option
-        value=\"1_\" >Software</option>\n      \n      <option value=\"1_1\" >Software
-        - Applications</option>\n      \n      <option value=\"1_2\" >Software - Games</option>\n
-        \     \n    </select>\n  </span>\n  <span class=\"form-refine\">\n    <span
-        class=\"spacing\">Show:</span>\n    <select name=\"s\" class=\"form-input
-        spacing\" style=\"max-width: 21%;min-width: 100px;\">\n      <option value=\"0\">Show
-        all</option>\n      <option value=\"2\" >Filter Remakes</option>\n      <option
-        value=\"3\" >Torrents uploaded by trusted users.</option>\n      <option value=\"4\"
-        >A+</option>\n    </select>\n    Limit: <input type=\"number\" name=\"limit\"
-        value=\"50\" class=\"form-input spacing\" min=\"1\" max=\"500\"/>\n    From:
-        <input type=\"text\" name=\"user\" placeholder=\"Username/#ID\" value=\"\"
-        class=\"form-input refine-user\"/>\n  </span>\n  <span class=\"form-refine\">\n
-        \   <span class=\"spacing\">Between</span>\n    <input class=\"form-input\"
-        size=\"7\" name=\"minSize\" type=\"text\" value=\"\"/>\n    and\n    <input
-        size=\"7\" class=\"form-input\" name=\"maxSize\" type=\"text\" value=\"\"/>\n
-        \   <select name=\"sizeType\" class=\"form-input\">\n      <option value=\"b\"
-        >B</option>\n      <option value=\"k\" >KiB</option>\n      <option value=\"m\"
-        \ selected>MiB</option>\n      <option value=\"g\" >GiB</option>\n    </select>\n
-        \   large.\n  </span>\n  <span class=\"form-refine\">\n    <span class=\"spacing\">From</span>\n
-        \   <input class=\"form-input refine-date\" name=\"fromDate\" type=\"text\"
-        value=\"\" placeholder=\"YYYY/MM/DD\"/>\n    to\n    <input class=\"form-input
-        refine-date spacing\" size=\"7\" name=\"toDate\" type=\"text\" value=\"\"
-        placeholder=\"YYYY/MM/DD\"/>\n    </span>\n\t<span class=\"form-refine\" style=\"margin-bottom:
-        2px;\">\n\t\t<span class=\"spacing\">Sort by</span>\n\t\t<select name=\"sort\"
-        class=\"form-input\">\n\t\t\t<option value=\"1\" >Name</option>\n\t\t\t<option
-        value=\"4\" >Size</option>\n\t\t\t<option value=\"5\" >Seeders</option>\n\t\t\t<option
-        value=\"6\" >Leechers</option>\n\t\t\t<option value=\"7\" >Completed</option>\n\t\t\t<option
-        value=\"2\" selected>Date</option>\n\t\t</select>\n\t\t<select name=\"order\"
-        class=\"form-input\">\n\t\t\t<option value=\"true\">Ascending</option>\n\t\t\t<option
-        value=\"false\" selected>Descending</option>\n\t\t</select>\n    Exclude:
-        <input type=\"text\" name=\"nuserID\" placeholder=\"UserID\" value=\"\" class=\"form-input
-        refine-userid\" style=\"width: 62px;\">\n\t</span>\n    </div>\n\t  <div class=\"refine-container-2\">\n\t\t
-        \ <span class=\"form-refine\">\n\t\t\t<span class=\"spacing\">Quality:</span>\n\t\t\t<select
-        name=\"vq\" class=\"form-input\">\n\t\t\t  <option value=\"\">Show all</option>\n\t\t\t
-        \ \n\t\t\t  <option value=\"bluray\">Bluray</option>\n\t\t\t  \n\t\t\t  <option
-        value=\"full_hd\">1080p</option>\n\t\t\t  \n\t\t\t  <option value=\"hd\">720p</option>\n\t\t\t
-        \ \n\t\t\t  <option value=\"sd\">480p</option>\n\t\t\t  \n\t\t\t</select>\n\t\t\t<span
-        style=\"margin: 0 5px;\">Hash:</span>\n\t\t\t<input type=\"text\" name=\"hash\"
-        placeholder=\"Torrent hash\" class=\"form-input\">\n\t\t  </span>\n\t\t  <span
-        class=\"form-refine\">\n\t\t\t<span class=\"spacing\">Tags:</span>\n\t\t\t
-        \ <input type=\"text\" name=\"anidb\" placeholder=\"AniDB\" title=\"AniDB\"
-        value=\"\" class=\"form-input\"/>\n\t\t\t  <input type=\"text\" name=\"vgm\"
-        placeholder=\"VGMdb\" title=\"VGMdb\" value=\"\" class=\"form-input\"/>\n\t\t\t
-        \ <input type=\"text\" name=\"vndb\" placeholder=\"VnDB\" title=\"VnDB\" value=\"\"
-        class=\"form-input\"/>\n\t\t\t  <input type=\"text\" name=\"dlsite\" placeholder=\"DLsite\"
-        title=\"DLsite\" value=\"\" class=\"form-input\"/>\n\t\t  </span>\n\t\t  <div
-        class=\"form-refine form-input language\">\n\t\t\t\n\n<span class=\"input-group\">\n<span
-        class=\"refine-search-languagename\">Catalan</span>\n<input type=\"checkbox\"
-        name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ca\" value=\"ca\"><label
-        for=\"refine-search-ca\" class=\"flag flag-ca\" title=\"Catalan\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">German</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-de\"
-        value=\"de\"><label for=\"refine-search-de\" class=\"flag flag-de\" title=\"German\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">English</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-en\"
-        value=\"en\"><label for=\"refine-search-en\" class=\"flag flag-en\" title=\"English\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Spanish,
-        Mexican Spanish</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
-        id=\"refine-search-es\" value=\"es\"><label for=\"refine-search-es\" class=\"flag
-        flag-es\" title=\"Spanish, Mexican Spanish\"></label>\n</span><span class=\"input-group\">\n<span
-        class=\"refine-search-languagename\">French</span>\n<input type=\"checkbox\"
-        name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-fr\" value=\"fr\"><label
-        for=\"refine-search-fr\" class=\"flag flag-fr\" title=\"French\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Hungarian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-hu\"
-        value=\"hu\"><label for=\"refine-search-hu\" class=\"flag flag-hu\" title=\"Hungarian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Indonesian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-id\"
-        value=\"id\"><label for=\"refine-search-id\" class=\"flag flag-id\" title=\"Indonesian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Icelandic</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-is\"
-        value=\"is\"><label for=\"refine-search-is\" class=\"flag flag-is\" title=\"Icelandic\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Italian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-it\"
-        value=\"it\"><label for=\"refine-search-it\" class=\"flag flag-it\" title=\"Italian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Japanese</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ja\"
-        value=\"ja\"><label for=\"refine-search-ja\" class=\"flag flag-ja\" title=\"Japanese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Korean</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ko\"
-        value=\"ko\"><label for=\"refine-search-ko\" class=\"flag flag-ko\" title=\"Korean\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Norwegian
-        Bokm\xE5l</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
-        id=\"refine-search-nb\" value=\"nb\"><label for=\"refine-search-nb\" class=\"flag
-        flag-nb\" title=\"Norwegian Bokm\xE5l\"></label>\n</span><span class=\"input-group\">\n<span
-        class=\"refine-search-languagename\">Dutch</span>\n<input type=\"checkbox\"
-        name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-nl\" value=\"nl\"><label
-        for=\"refine-search-nl\" class=\"flag flag-nl\" title=\"Dutch\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Portuguese</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-pt\"
-        value=\"pt\"><label for=\"refine-search-pt\" class=\"flag flag-pt\" title=\"Portuguese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Romanian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ro\"
-        value=\"ro\"><label for=\"refine-search-ro\" class=\"flag flag-ro\" title=\"Romanian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Russian</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ru\"
-        value=\"ru\"><label for=\"refine-search-ru\" class=\"flag flag-ru\" title=\"Russian\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Swedish</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-sv\"
-        value=\"sv\"><label for=\"refine-search-sv\" class=\"flag flag-sv\" title=\"Swedish\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Thai</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-th\"
-        value=\"th\"><label for=\"refine-search-th\" class=\"flag flag-th\" title=\"Thai\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Chinese</span>\n<input
-        type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-zh\"
-        value=\"zh\"><label for=\"refine-search-zh\" class=\"flag flag-zh\" title=\"Chinese\"></label>\n</span><span
-        class=\"input-group\">\n<span class=\"refine-search-languagename\">Traditional
-        Chinese</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"
-        id=\"refine-search-zh-Hant\" value=\"zh-Hant\"><label for=\"refine-search-zh-Hant\"
-        class=\"flag flag-Hant\" title=\"Traditional Chinese\"></label>\n</span>\n\n\n\t\t
-        \ </div>\n\t\t  <button type=\"submit\" class=\"form-input refine-btn\" name=\"refine\"
-        value=\"1\">Refine</button>\n\t  </div>\n\t</div>\n</form>\n</div>\n\n\n<div
-        style=\"text-align: center;border-top: none;\" class=\"box\">\n  <h1>No results
-        found</h1>\n  <img src=\"/img/no_results.jpg\" alt=\"no results\"/>\n</div>\n\n\n
-        \   </div>\n    <br />\n    \n    <div id=\"cookie-warning\"><span id=\"cookie-warning-close\"
-        class=\"close\">\xD7</span>By using this website, you agree to the usage of
-        cookies for purposes such as customizing content.<br/>This message will be
-        hidden at the next page load.</div>\n    <div class=\"centered\">\n\n<!--\n<a
-        href=\"http://bit.ly/sukasuka-anime\"><img alt=\"NyaaPantsu Ads\" class=\"wb-w\"
-        src=\"https://a.doko.moe/kvchvg.jpg\"></a>\n-->\n\n\n </div>\n    <footer
-        id=\"footer\">\n      <div class=\"container footer center\">\n        <div
-        class=\"footer-opt\">\n          <p><a href=\"/settings\">Change Appearance/Settings</a><a
-        id=\"dark-toggle\" href=\"/dark/search?c=_&amp;q=zxcvbnm\"> - Toggle Dark
-        Mode</a></p>\n        </div>\n        <span><i>Powered by <a href=\"#\">Nyaa
-        Pantsu</a> v1.1.0 - commit <a id=\"commit\" href=\"https://github.com/NyaaPantsu/nyaa/commit/\"></a></i></span>\n
-        \     </div>\n    </footer>\n  </div>\n  <script type=\"text/javascript\">\n
-        \         var commitVersion = \"\",\n              websiteVersion = \"1.1.0\",\n
-        \             UserID = 0,\n              domain = \".pantsu.cat, .nyaa.pt,
-        .nyoo.moe, .nyaa.net, nyaa.net\",\n              darkTheme = \"tomorrow\",\n
-        \             hmFmt = \"{0} hours {1} minutes ago\",\n              dhFmt
-        = \"{0} days {1} hours ago\";\n        </script>\n  <script type=\"text/javascript\"
-        src=\"/js/query.js?v=1.1.0\"></script>\n  <script type=\"text/javascript\"
-        charset=\"utf-8\" src=\"/js/main.js?v=1.1.0\" async></script>\n  \n\n</body>\n</html>\n"
+      string: "\n<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n  <meta charset=\"\
+        utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n \
+        \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\
+        />\n  <meta name=\"keywords\" content=\"nyaa, torrents, pantsu, anime, manga,\
+        \ sukebei, nyaapassu, horriblesubs, dlsite\"/>\n  <meta name=\"description\"\
+        \ content='The leading open-source community-based nyaa.se successor, suitable\
+        \ for all anime and manga needs. \u306B\u3083\u3093\u3071\u3059~!'/>\n<meta\
+        \ name=\"juicyads-site-verification\" content=\"c8c998b00c1e48cf0d7e369afe638471\"\
+        >\n\t<script async src=\"https://arc.io/widget.min.js#BAxygnk1\"></script>\n\
+        \  <!-- The above 3 meta tags *must* come first in the head; any other head\
+        \ content must come *after* these tags -->\n  <title>Nyaa Pantsu - No results\
+        \ found</title>\n  <!-- Flavicons and icons -->\n  <link rel=\"icon\" type=\"\
+        image/png\" href=\"/img/favicon.png\" />\n  <link rel=\"shortcut icon\" type=\"\
+        image/png\" href=\"/img/favicon.png\"/>\n\n  <!-- SMO -->\n  <meta property=\"\
+        og:site_name\" content=\"Nyaa Pantsu\"/>\n  <meta property=\"og:title\" content=\"\
+        \ - No results found - Nyaa Pantsu\"/>\n  <meta property=\"og:image\" content=\"\
+        /img/favicon.png\"/>\n  <meta property=\"og:description\" content=\"Nyaa Pantsu\
+        \ Homepage\"/>\n\n  <!-- RSS Feed with Context -->\n  <link rel=\"alternate\"\
+        \ type=\"application/rss+xml\" title=\"Nyaa Pantsu - Latest torrents RSS Feed\"\
+        \ href=\"/feed?c=_&q=zxcvbnm\"  />\n  <link rel=\"alternate\" type=\"application/rss+xml\"\
+        \ title=\"Nyaa Pantsu - Latest torrents Torznab RSS Feed\" href=\"/feed/torznab?c=_&q=zxcvbnm&t=search\"\
+        \  />\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Nyaa\
+        \ Pantsu - Latest torrents EZTV RSS Feed\" href=\"/feed/eztv?c=_&q=zxcvbnm\"\
+        \  />\n  <!-- do NOT move -->\n  <link rel=\"stylesheet\" href=\"/css/simplemde.min.css?v=1.1.0\"\
+        />\n  <!-- Base theme -->\n  <link rel=\"stylesheet\" id=\"style\" href=\"\
+        /css/main.css?v=1.1.0\"/>\n  <!-- nyaacon, custom icon set -->\n  <link rel=\"\
+        stylesheet\" href=\"/css/nyacon.css?v=1.1.0\"/>\n  <!-- User selected theme,\
+        \ if empty defaults to theme in nyaa.yml -->\n  <link rel=\"stylesheet\" id=\"\
+        theme\" href=\"/css/themes/g.css?v=1.1.0\"/>\n  <!-- Flags css -->\n  <link\
+        \ rel=\"stylesheet\" href=\"/css/flags/flags.min.css\"/>\n  <!-- Search Box\
+        \ for Google -->\n  <script type=\"application/ld+json\">{\"@context\":\"\
+        https://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://nyaa.net/\",\"\
+        potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://nyaa.net/search?q={search_term_string}\"\
+        ,\"query-input\":\"required name=search_term_string\"} }</script>\n\n  <script\
+        \ data-cfasync=\"false\" type=\"text/javascript\">(function(s,o,l,v,e,d){if(s[o]==null&&s[l+e]){s[o]=\"\
+        loading\";s[l+e](d,l=function(){s[o]=\"complete\";s[v+e](d,l,!1)},!1)}})(document,\"\
+        readyState\",\"add\",\"remove\",\"EventListener\",\"DOMContentLoaded\");(function(){var\
+        \ s=document.createElement(\"script\");s.type=\"text/javascript\";s.async=true;s.src=\"\
+        //cdn.engine.4dsply.com/Scripts/infinity.js.aspx?guid=9d881103-9751-4fe5-8a78-49d84256e9f7\"\
+        ;s.id=\"infinity\";s.setAttribute(\"data-guid\",\"9d881103-9751-4fe5-8a78-49d84256e9f7\"\
+        );s.setAttribute(\"data-version\",\"async\");var e=document.getElementsByTagName('script')[0];e.parentNode.insertBefore(s,e)})();</script>\n\
+        <script data-cfasync=\"false\" src=\"//d20903hof2l33q.cloudfront.net/?lfohd=913851\"\
+        ></script>\n  \n  </head>\n\n<body >\n  <nav id=\"header\" class=\"header\"\
+        >\n    \n\n<div class=\"container\">\n  <div class=\"h-left\">\n    <div class=\"\
+        h-logo\">\n      <a href=\"/\">\n        <img class=\"hide-md\" src=\"/img/logo.png\"\
+        \ alt=\"Nyaa Pantsu\"/>\n        <img class=\"visible-md\" src=\"/img/logo_s.png\"\
+        \ alt=\"Nyaa Pantsu\"/>\n      </a>\n    </div>\n    <div class=\"h-nav\"\
+        >\n      <a href=\"/\" class=\"nav-btn\" id=\"browse-link\" style=\"display:\
+        \ none;\">\n        <div class=\"icon-upload visible-md\"></div>\n       \
+        \ <span class=\"hide-md\">Browse</span>\n      </a>\n      <a href=\"/upload\"\
+        \ class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n\
+        \        <span class=\"hide-md\">Upload</span>\n      </a>\n      <a href=\"\
+        /feed?c=_&q=zxcvbnm\" class=\"nav-btn\">\n        <div class=\"icon-rss-squared\
+        \ visible-md\"></div>\n        <span class=\"hide-md\">RSS</span>\n      </a>\n\
+        \      <a href=\"/faq\" class=\"nav-btn\">\n        <div class=\"icon-help-circled\
+        \ visible-md\"></div>\n        <span class=\"hide-md\">FAQ</span>\n      </a>\n\
+        \      \n      <a href=\"https://sukebei.nyaa.net\" class=\"nav-btn\">\n \
+        \       <div class=\"icon-heart visible-md\"></div>\n        <span class=\"\
+        hide-md\">Fap</span>\n      </a>\n      \n\n\t<a href=\"https://bit.ly/2VXEmjn\"\
+        \ class=\"nav-btn\">\n        <div class=\"icon-upload visible-md\"></div>\n\
+        \        <span class=\"hide-md\">Google Drive Proxy</span>\n      </a>\n \
+        \   </div>\n  </div>\n  <div class=\"h-right\">\n    \n<div class=\"h-user\
+        \ \">\n  \n  <a href=\"/login?redirectTo=/search?c=_&amp;q=zxcvbnm\" class=\"\
+        nav-btn log-in\" style=\"width:auto;\" title=\"Sign In\">\n    <div class=\"\
+        icon-user\"></div>\n    <span>Sign In</span>\n  </a> \n</div>\n\n\n    <div\
+        \ class=\"h-search\">\n      <form role=\"search\" action=\"/search\" id=\"\
+        header-form\" method=\"get\">\n        \n<select name=\"c\" class=\"form-input\
+        \ form-category\">\n  <option value=\"_\">All categories</option>\n  \n  <option\
+        \ value=\"3_\" >Anime</option>\n  \n  <option value=\"3_12\" >Anime - Anime\
+        \ Music Video</option>\n  \n  <option value=\"3_5\" >Anime - English-translated</option>\n\
+        \  \n  <option value=\"3_13\" >Anime - Non-English-translated</option>\n \
+        \ \n  <option value=\"3_6\" >Anime - Raw</option>\n  \n  <option value=\"\
+        2_\" >Audio</option>\n  \n  <option value=\"2_3\" >Audio - Lossless</option>\n\
+        \  \n  <option value=\"2_4\" >Audio - Lossy</option>\n  \n  <option value=\"\
+        4_\" >Literature</option>\n  \n  <option value=\"4_7\" >Literature - English-translated</option>\n\
+        \  \n  <option value=\"4_14\" >Literature - Non-English-translated</option>\n\
+        \  \n  <option value=\"4_8\" >Literature - Raw</option>\n  \n  <option value=\"\
+        5_\" >Live Action</option>\n  \n  <option value=\"5_9\" >Live Action - English-translated</option>\n\
+        \  \n  <option value=\"5_10\" >Live Action - Idol/Promotional Video</option>\n\
+        \  \n  <option value=\"5_18\" >Live Action - Non-English-translated</option>\n\
+        \  \n  <option value=\"5_11\" >Live Action - Raw</option>\n  \n  <option value=\"\
+        6_\" >Pictures</option>\n  \n  <option value=\"6_15\" >Pictures - Graphics</option>\n\
+        \  \n  <option value=\"6_16\" >Pictures - Photos</option>\n  \n  <option value=\"\
+        1_\" >Software</option>\n  \n  <option value=\"1_1\" >Software - Applications</option>\n\
+        \  \n  <option value=\"1_2\" >Software - Games</option>\n  \n</select>\n \n\
+        <input class=\"form-input search-box\" name=\"q\" placeholder=\"Search\" type=\"\
+        text\" value=\"zxcvbnm\"/>\n<button type=\"submit\" class=\"form-input icon-search\"\
+        ></button><button type=\"submit\" class=\"form-input refine\" name=\"refine\"\
+        \ value=\"1\">Refine</button>\n\n      </form>\n    </div>\n  </div>\n</div>\n\
+        \n\n  </nav>\n  <div id=\"header-height-offset\"></div>\n  <div id=\"content\"\
+        \ class=\"\">\n    <div class=\"content container center\">\n      \n    \n\
+        \n      \n    \n\n      \n<div class=\"centered\">\n<script type=\"text/javascript\"\
+        \  charset=\"utf-8\">\n// Place this code snippet near the footer of your\
+        \ page before the close of the /body tag\n// LEGAL NOTICE: The content of\
+        \ this website and all associated program code are protected under the Digital\
+        \ Millennium Copyright Act. Intentionally circumventing this code may constitute\
+        \ a violation of the DMCA.\n                            \neval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return\
+        \ d[e]}];e=function(){return'\\\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new\
+        \ RegExp('\\\\b'+e(c)+'\\\\b','g'),k[c])}}return p}(';k N=\\'\\',28=\\'23\\\
+        ';1I(k i=0;i<12;i++)N+=28.X(B.J(B.K()*28.E));k 2z=1,2u=4r,2w=4q,2x=40,2H=C(t){k\
+        \ o=!1,i=C(){z(q.1j){q.2M(\\'2X\\',e);D.2M(\\'1T\\',e)}P{q.2O(\\'2S\\',e);D.2O(\\\
+        '26\\',e)}},e=C(){z(!o&&(q.1j||4p.2d===\\'1T\\'||q.2P===\\'2R\\')){o=!0;i();t()}};z(q.2P===\\\
+        '2R\\'){t()}P z(q.1j){q.1j(\\'2X\\',e);D.1j(\\'1T\\',e)}P{q.2T(\\'2S\\',e);D.2T(\\\
+        '26\\',e);k n=!1;2U{n=D.4n==4m&&q.1Y}2I(r){};z(n&&n.2V){(C a(){z(o)F;2U{n.2V(\\\
+        '14\\')}2I(e){F 4l(a,50)};o=!0;i();t()})()}}};D[\\'\\'+N+\\'\\']=(C(){k t={t$:\\\
+        '23+/=\\',4k:C(e){k a=\\'\\',d,n,o,c,s,l,i,r=0;e=t.e$(e);1f(r<e.E){d=e.16(r++);n=e.16(r++);o=e.16(r++);c=d>>2;s=(d&3)<<4|n>>4;l=(n&15)<<2|o>>6;i=o&63;z(35(n)){l=i=64}P\
+        \ z(35(o)){i=64};a=a+U.t$.X(c)+U.t$.X(s)+U.t$.X(l)+U.t$.X(i)};F a},13:C(e){k\
+        \ n=\\'\\',d,l,c,s,r,i,a,o=0;e=e.1p(/[^A-4j-4i-9\\\\+\\\\/\\\\=]/g,\\'\\');1f(o<e.E){s=U.t$.1N(e.X(o++));r=U.t$.1N(e.X(o++));i=U.t$.1N(e.X(o++));a=U.t$.1N(e.X(o++));d=s<<2|r>>4;l=(r&15)<<4|i>>2;c=(i&3)<<6|a;n=n+S.T(d);z(i!=64){n=n+S.T(l)};z(a!=64){n=n+S.T(c)}};n=t.n$(n);F\
+        \ n},e$:C(t){t=t.1p(/;/g,\\';\\');k n=\\'\\';1I(k o=0;o<t.E;o++){k e=t.16(o);z(e<1v){n+=S.T(e)}P\
+        \ z(e>4h&&e<4g){n+=S.T(e>>6|4f);n+=S.T(e&63|1v)}P{n+=S.T(e>>12|2o);n+=S.T(e>>6&63|1v);n+=S.T(e&63|1v)}};F\
+        \ n},n$:C(t){k o=\\'\\',e=0,n=4e=1r=0;1f(e<t.E){n=t.16(e);z(n<1v){o+=S.T(n);e++}P\
+        \ z(n>4c&&n<2o){1r=t.16(e+1);o+=S.T((n&31)<<6|1r&63);e+=2}P{1r=t.16(e+1);2j=t.16(e+2);o+=S.T((n&15)<<12|(1r&63)<<6|2j&63);e+=3}};F\
+        \ o}};k a=[\\'3W==\\',\\'4b\\',\\'4a=\\',\\'49\\',\\'48\\',\\'47=\\',\\'46=\\\
+        ',\\'45=\\',\\'44\\',\\'43\\',\\'42=\\',\\'41=\\',\\'3Z\\',\\'3Y\\',\\'3X=\\\
+        ',\\'4s\\',\\'4d=\\',\\'4t=\\',\\'4L=\\',\\'4N=\\',\\'4O=\\',\\'4P=\\',\\\
+        '4Q==\\',\\'4R==\\',\\'4S==\\',\\'4M==\\',\\'4T=\\',\\'4V\\',\\'4W\\',\\'4X\\\
+        ',\\'4Y\\',\\'4Z\\',\\'51\\',\\'4U==\\',\\'4K=\\',\\'4v=\\',\\'4J=\\',\\'3U==\\\
+        ',\\'4H=\\',\\'4G\\',\\'4F=\\',\\'4E=\\',\\'4D==\\',\\'4C=\\',\\'4B==\\',\\\
+        '4A==\\',\\'4z=\\',\\'4y=\\',\\'4x\\',\\'4w==\\',\\'4u==\\',\\'3V\\',\\'3v==\\\
+        ',\\'3k=\\'],f=B.J(B.K()*a.E),w=t.13(a[f]),Z=w,L=1,W=\\'#3n\\',r=\\'#37\\\
+        ',g=\\'#3i\\',v=\\'#3p\\',Y=\\'\\',b=\\'3o!\\',y=\\'3j 3h 38 3d\\\\\\'3c 3b\
+        \ 39 2e 2f. 3r\\\\\\'s 3l.  3s 3H\\\\\\'t?\\',p=\\'3S 3R 3Q-3P, 3O 3N\\\\\\\
+        't 3M 3K U 3G 3u.\\',s=\\'I 3D, I 3B 3z 3y 2e 2f.  3t 3x 3C!\\',o=0,u=1,n=\\\
+        '3I.3a\\',l=0,Q=e()+\\'.2i\\';C h(t){z(t)t=t.1R(t.E-15);k o=q.2E(\\'3e\\');1I(k\
+        \ n=o.E;n--;){k e=S(o[n].1F);z(e)e=e.1R(e.E-15);z(e===t)F!0};F!1};C m(t){z(t)t=t.1R(t.E-15);k\
+        \ e=q.3L;x=0;1f(x<e.E){1m=e[x].1O;z(1m)1m=1m.1R(1m.E-15);z(1m===t)F!0;x++};F!1};C\
+        \ e(t){k n=\\'\\',o=\\'23\\';t=t||30;1I(k e=0;e<t;e++)n+=o.X(B.J(B.K()*o.E));F\
+        \ n};C i(o){k i=[\\'3f\\',\\'3A==\\',\\'3w\\',\\'3E\\',\\'2K\\',\\'3F==\\\
+        ',\\'3J=\\',\\'3g==\\',\\'3m=\\',\\'52==\\',\\'4I==\\',\\'54==\\',\\'5j\\\
+        ',\\'6B\\',\\'6v\\',\\'2K\\'],r=[\\'33=\\',\\'6u==\\',\\'6w==\\',\\'6z==\\\
+        ',\\'6q=\\',\\'66\\',\\'6c=\\',\\'61=\\',\\'33=\\',\\'6g\\',\\'53==\\',\\\
+        '6m\\',\\'6n==\\',\\'5Z==\\',\\'6p==\\',\\'6o=\\'];x=0;1H=[];1f(x<o){c=i[B.J(B.K()*i.E)];d=r[B.J(B.K()*r.E)];c=t.13(c);d=t.13(d);k\
+        \ a=B.J(B.K()*2)+1;z(a==1){n=\\'//\\'+c+\\'/\\'+d}P{n=\\'//\\'+c+\\'/\\'+e(B.J(B.K()*20)+4)+\\\
+        '.2i\\'};1H[x]=24 1U();1H[x].1W=C(){k t=1;1f(t<7){t++}};1H[x].1F=n;x++}};C\
+        \ R(t){};F{2Z:C(t,r){z(6k q.M==\\'6j\\'){F};k o=\\'0.1\\',r=Z,e=q.1b(\\'1q\\\
+        ');e.1g=r;e.j.1h=\\'1P\\';e.j.14=\\'-1l\\';e.j.V=\\'-1l\\';e.j.1x=\\'2b\\\
+        ';e.j.11=\\'6i\\';k d=q.M.2p,a=B.J(d.E/2);z(a>15){k n=q.1b(\\'29\\');n.j.1h=\\\
+        '1P\\';n.j.1x=\\'1A\\';n.j.11=\\'1A\\';n.j.V=\\'-1l\\';n.j.14=\\'-1l\\';q.M.6e(n,q.M.2p[a]);n.1d(e);k\
+        \ i=q.1b(\\'1q\\');i.1g=\\'2l\\';i.j.1h=\\'1P\\';i.j.14=\\'-1l\\';i.j.V=\\\
+        '-1l\\';q.M.1d(i)}P{e.1g=\\'2l\\';q.M.1d(e)};l=6d(C(){z(e){t((e.1X==0),o);t((e.1Z==0),o);t((e.1K==\\\
+        '2F\\'),o);t((e.1S==\\'2m\\'),o);t((e.1E==0),o)}P{t(!0,o)}},27)},1L:C(e,c){z((e)&&(o==0)){o=1;D[\\\
+        '\\'+N+\\'\\'].1B();D[\\'\\'+N+\\'\\'].1L=C(){F}}P{k p=t.13(\\'6b\\'),u=q.6a(p);z((u)&&(o==0)){z((2u%3)==0){k\
+        \ l=\\'69=\\';l=t.13(l);z(h(l)){z(u.1J.1p(/\\\\s/g,\\'\\').E==0){o=1;D[\\\
+        '\\'+N+\\'\\'].1B()}}}};k f=!1;z(o==0){z((2w%3)==0){z(!D[\\'\\'+N+\\'\\'].2y){k\
+        \ d=[\\'68==\\',\\'67==\\',\\'6r=\\',\\'62=\\',\\'6f=\\'],m=d.E,r=d[B.J(B.K()*m)],a=r;1f(r==a){a=d[B.J(B.K()*m)]};r=t.13(r);a=t.13(a);i(B.J(B.K()*2)+1);k\
+        \ n=24 1U(),s=24 1U();n.1W=C(){i(B.J(B.K()*2)+1);s.1F=a;i(B.J(B.K()*2)+1)};s.1W=C(){o=1;i(B.J(B.K()*3)+1);D[\\\
+        '\\'+N+\\'\\'].1B()};n.1F=r;z((2x%3)==0){n.26=C(){z((n.11<8)&&(n.11>0)){D[\\\
+        '\\'+N+\\'\\'].1B()}}};i(B.J(B.K()*3)+1);D[\\'\\'+N+\\'\\'].2y=!0};D[\\'\\\
+        '+N+\\'\\'].1L=C(){F}}}}},1B:C(){z(u==1){k G=2A.6s(\\'2C\\');z(G>0){F!0}P{2A.6A(\\\
+        '2C\\',(B.K()+1)*27)}};k h=\\'6D==\\';h=t.13(h);z(!m(h)){k c=q.1b(\\'5w\\\
+        ');c.21(\\'5X\\',\\'5t\\');c.21(\\'2d\\',\\'1i/5s\\');c.21(\\'1O\\',h);q.2E(\\\
+        '5r\\')[0].1d(c)};5q(l);q.M.1J=\\'\\';q.M.j.17+=\\'O:1A !19\\';q.M.j.17+=\\\
+        '1s:1A !19\\';k Q=q.1Y.1Z||D.34||q.M.1Z,f=D.5p||q.M.1X||q.1Y.1X,a=q.1b(\\\
+        '1q\\'),L=e();a.1g=L;a.j.1h=\\'2r\\';a.j.14=\\'0\\';a.j.V=\\'0\\';a.j.11=Q+\\\
+        '1u\\';a.j.1x=f+\\'1u\\';a.j.2G=W;a.j.1V=\\'5o\\';q.M.1d(a);k d=\\'<a 1O=\"\
+        5n://5m.5l\" j=\"H-1c:10.5k;H-1k:1n-1o;1a:5Y;\">5h 55 5g 5f</a>\\';d=d.1p(\\\
+        '5e\\',e());d=d.1p(\\'5d\\',e());k i=q.1b(\\'1q\\');i.1J=d;i.j.1h=\\'1P\\\
+        ';i.j.1y=\\'1D\\';i.j.14=\\'1D\\';i.j.11=\\'5c\\';i.j.1x=\\'5b\\';i.j.1V=\\\
+        '2h\\';i.j.1E=\\'.6\\';i.j.2k=\\'2g\\';i.1j(\\'59\\',C(){n=n.58(\\'\\').57().56(\\\
+        '\\');D.2D.1O=\\'//\\'+n});q.1Q(L).1d(i);k o=q.1b(\\'1q\\'),R=e();o.1g=R;o.j.1h=\\\
+        '2r\\';o.j.V=f/7+\\'1u\\';o.j.5i=Q-5v+\\'1u\\';o.j.5K=f/3.5+\\'1u\\';o.j.2G=\\\
+        '#5W\\';o.j.1V=\\'2h\\';o.j.17+=\\'H-1k: \"5V 5U\", 1t, 1w, 1n-1o !19\\';o.j.17+=\\\
+        '5T-1x: 5S !19\\';o.j.17+=\\'H-1c: 5R !19\\';o.j.17+=\\'1i-1z: 1C !19\\';o.j.17+=\\\
+        '1s: 5Q !19\\';o.j.1K+=\\'2L\\';o.j.2Y=\\'1D\\';o.j.5P=\\'1D\\';o.j.5N=\\\
+        '2v\\';q.M.1d(o);o.j.5M=\\'1A 5J 5x -5I 5H(0,0,0,0.3)\\';o.j.1S=\\'36\\';k\
+        \ Z=30,w=22,Y=18,x=18;z((D.34<32)||(5G.11<32)){o.j.2W=\\'50%\\';o.j.17+=\\\
+        'H-1c: 5E !19\\';o.j.2Y=\\'5D;\\';i.j.2W=\\'65%\\';k Z=22,w=18,Y=12,x=12};o.1J=\\\
+        '<2Q j=\"1a:#5C;H-1c:\\'+Z+\\'1G;1a:\\'+r+\\';H-1k:1t, 1w, 1n-1o;H-1M:5B;O-V:1e;O-1y:1e;1i-1z:1C;\"\
+        >\\'+b+\\'</2Q><2N j=\"H-1c:\\'+w+\\'1G;H-1M:5A;H-1k:1t, 1w, 1n-1o;1a:\\'+r+\\\
+        ';O-V:1e;O-1y:1e;1i-1z:1C;\">\\'+y+\\'</2N><5z j=\" 1K: 2L;O-V: 0.2J;O-1y:\
+        \ 0.2J;O-14: 2a;O-2B: 2a; 2q:5y 6l #3T; 11: 25%;1i-1z:1C;\"><p j=\"H-1k:1t,\
+        \ 1w, 1n-1o;H-1M:2s;H-1c:\\'+Y+\\'1G;1a:\\'+r+\\';1i-1z:1C;\">\\'+p+\\'</p><p\
+        \ j=\"O-V:5F;\"><29 5L=\"U.j.1E=.9;\" 5O=\"U.j.1E=1;\"  1g=\"\\'+e()+\\'\"\
+        \ j=\"2k:2g;H-1c:\\'+x+\\'1G;H-1k:1t, 1w, 1n-1o; H-1M:2s;2q-5u:2v;1s:1e;5a-1a:\\\
+        '+g+\\';1a:\\'+v+\\';1s-14:2b;1s-2B:2b;11:60%;O:2a;O-V:1e;O-1y:1e;\" 6h=\"\
+        D.2D.6C();\">\\'+s+\\'</29></p>\\'}}})();D.2t=C(t,e){k n=6x.6y,o=D.6t,a=n(),i,r=C(){n()-a<e?i||o(r):t()};o(r);F{3q:C(){i=1}}};k\
+        \ 2n;z(q.M){q.M.j.1S=\\'36\\'};2H(C(){z(q.1Q(\\'2c\\')){q.1Q(\\'2c\\').j.1S=\\\
+        '2F\\';q.1Q(\\'2c\\').j.1K=\\'2m\\'};2n=D.2t(C(){D[\\'\\'+N+\\'\\'].2Z(D[\\\
+        '\\'+N+\\'\\'].1L,D[\\'\\'+N+\\'\\'].4o)},2z*27)});',62,412,'|||||||||||||||||||style|var||||||document|||||||||if||Math|function|window|length|return||font||floor|random||body|mSZdZGxPnOis|margin|else|||String|fromCharCode|this|top||charAt||||width||decode|left||charCodeAt|cssText||important|color|createElement|size|appendChild|10px|while|id|position|text|addEventListener|family|5000px|thisurl|sans|serif|replace|DIV|c2|padding|Helvetica|px|128|geneva|height|bottom|align|0px|XoRWrRCPGQ|center|30px|opacity|src|pt|spimg|for|innerHTML|display|TZrGzhbiYc|weight|indexOf|href|absolute|getElementById|substr|visibility|load|Image|zIndex|onerror|clientHeight|documentElement|clientWidth||setAttribute||ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|new||onload|1000|ktJqUVaLGK|div|auto|60px|babasbmsgx|type|ad|blocker|pointer|10000|jpg|c3|cursor|banner_ad|none|reJFzZcZzH|224|childNodes|border|fixed|300|jeHAeziUTH|UBvCbzbkuV|15px|RLZBrzAtza|bOOhtjtNsL|ranAlready|hVqZRIQuyw|sessionStorage|right|babn|location|getElementsByTagName|hidden|backgroundColor|pypGfONgXL|catch|5em|cGFydG5lcmFkcy55c20ueWFob28uY29t|block|removeEventListener|h1|detachEvent|readyState|h3|complete|onreadystatechange|attachEvent|try|doScroll|zoom|DOMContentLoaded|marginLeft|pOgEultisq|||640|ZmF2aWNvbi5pY28|innerWidth|isNaN|visible|777777|like|an|kcolbdakcolb|using|re|you|script|YWRuLmViYXkuY29t|YWR2ZXJ0aXNpbmcuYW9sLmNvbQ|looks|00adcc|It|c3BvbnNvcmVkX2xpbms|okay|Y2FzLmNsaWNrYWJpbGl0eS5jb20|bd71ba|Welcome|FFFFFF|clear|That|Who|Let|awesome|b3V0YnJhaW4tcGFpZA|anVpY3lhZHMuY29t|me|my|disabled|YWQubWFpbC5ydQ|have|in|understand|YWQuZm94bmV0d29ya3MuY29t|YS5saXZlc3BvcnRtZWRpYS5ldQ|site|doesn|moc|YWdvZGEubmV0L2Jhbm5lcnM|making|styleSheets|keep|can|we|income|advertising|without|But|CCC|Z2xpbmtzd3JhcHBlcg|Z29vZ2xlX2Fk|YWQtbGVmdA|QWQ3Mjh4OTA|QWQzMDB4MjUw|QWQzMDB4MTQ1||YWQtY29udGFpbmVyLTI|YWQtY29udGFpbmVyLTE|YWQtY29udGFpbmVy|YWQtZm9vdGVy|YWQtbGI|YWQtbGFiZWw|YWQtaW5uZXI|YWQtaW1n|YWQtaGVhZGVy|YWQtZnJhbWU|YWRCYW5uZXJXcmFw|191|QWRGcmFtZTE|c1|192|2048|127|z0|Za|encode|setTimeout|null|frameElement|kcouqwzzFq|event|91|193|QWRBcmVh|QWRGcmFtZTI|YWRzZW5zZQ|QWRCb3gxNjA|cG9wdXBhZA|YWRzbG90|YmFubmVyaWQ|YWRzZXJ2ZXI|YWRfY2hhbm5lbA|IGFkX2JveA|YmFubmVyYWQ|YWRBZA|YWRiYW5uZXI|YWRCYW5uZXI|YmFubmVyX2Fk|YWRUZWFzZXI|YWRzLnlhaG9vLmNvbQ|QWRDb250YWluZXI|QWREaXY|QWRGcmFtZTM|QWRzX2dvb2dsZV8wNA|QWRGcmFtZTQ|QWRMYXllcjE|QWRMYXllcjI|QWRzX2dvb2dsZV8wMQ|QWRzX2dvb2dsZV8wMg|QWRzX2dvb2dsZV8wMw|RGl2QWQ|QWRJbWFnZQ|RGl2QWQx|RGl2QWQy|RGl2QWQz|RGl2QWRB|RGl2QWRC||RGl2QWRD|cHJvbW90ZS5wYWlyLmNvbQ|c3F1YXJlLWFkLnBuZw|YWRzLnp5bmdhLmNvbQ|to|join|reverse|split|click|background|40px|160px|FILLVECTID2|FILLVECTID1|adblocking|prevent|how|minWidth|YWRzYXR0LmFiY25ld3Muc3RhcndhdmUuY29t|5pt|com|blockadblock|http|9999|innerHeight|clearInterval|head|css|stylesheet|radius|120|link|24px|1px|hr|500|200|999|45px|18pt|35px|screen|rgba|8px|14px|minHeight|onmouseover|boxShadow|borderRadius|onmouseout|marginRight|12px|16pt|normal|line|Black|Arial|fff|rel|black|bGFyZ2VfYmFubmVyLmdpZg||Q0ROLTMzNC0xMDktMTM3eC1hZC1iYW5uZXI|Ly9hZHMudHdpdHRlci5jb20vZmF2aWNvbi5pY28||||MTM2N19hZC1jbGllbnRJRDI0NjQuanBn|Ly93d3cuZ3N0YXRpYy5jb20vYWR4L2RvdWJsZWNsaWNrLmljbw|Ly93d3cuZ29vZ2xlLmNvbS9hZHNlbnNlL3N0YXJ0L2ltYWdlcy9mYXZpY29uLmljbw|Ly9wYWdlYWQyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wYWdlYWQvanMvYWRzYnlnb29nbGUuanM|querySelector|aW5zLmFkc2J5Z29vZ2xl|YWRjbGllbnQtMDAyMTQ3LWhvc3QxLWJhbm5lci1hZC5qcGc|setInterval|insertBefore|Ly93d3cuZG91YmxlY2xpY2tieWdvb2dsZS5jb20vZmF2aWNvbi5pY28|YWQtbGFyZ2UucG5n|onclick|468px|undefined|typeof|solid|ZmF2aWNvbjEuaWNv|YmFubmVyX2FkLmdpZg|YWR2ZXJ0aXNlbWVudC0zNDMyMy5qcGc|d2lkZV9za3lzY3JhcGVyLmpwZw|c2t5c2NyYXBlci5qcGc|Ly9hZHZlcnRpc2luZy55YWhvby5jb20vZmF2aWNvbi5pY28|getItem|requestAnimationFrame|YmFubmVyLmpwZw|YXMuaW5ib3guY29t|NDY4eDYwLmpwZw|Date|now|NzIweDkwLmpwZw|setItem|YWRzYXR0LmVzcG4uc3RhcndhdmUuY29t|reload|Ly95dWkueWFob29hcGlzLmNvbS8zLjE4LjEvYnVpbGQvY3NzcmVzZXQvY3NzcmVzZXQtbWluLmNzcw'.split('|'),0,{}));\n\
+        </script>\n\n<a href=\"https://bit.ly/2VXEmjn\"><img src=\"https://z.zz.ht/uZe2C.png\"\
+        \ width=\"728\" height=\"90\"></a>\n<!--\n<iframe width=\"728\" height=\"\
+        90\" scrolling=\"no\" frameborder=\"0\" src=\"https://a.adtng.com/get/10011773?time=1600111520608\"\
+        \ allowtransparency=\"true\" marginheight=\"0\" marginwidth=\"0\" name=\"\
+        spot_id_10011773\"></iframe>\n-->\n </div>\n      \n    \n\n<div class=\"\
+        box refine\" >\n  <form method=\"GET\" action=\"/search\">\n    <h3>Refine\
+        \ your search</h3>\n\t<div>\n\t  <div class=\"refine-container-1\">\n    <span\
+        \ class=\"form-refine\">\n      <span class=\"spacing\">Search for:</span>\n\
+        \      <input type=\"text\" class=\"form-input refine-searchbox\" size=\"\
+        30\" name=\"q\" value=\"zxcvbnm\" placeholder=\"Search for\"/><select name=\"\
+        c\" class=\"form-input refine-category\">\n      <option value=\"_\">All categories</option>\n\
+        \      \n      <option value=\"3_\" >Anime</option>\n      \n      <option\
+        \ value=\"3_12\" >Anime - Anime Music Video</option>\n      \n      <option\
+        \ value=\"3_5\" >Anime - English-translated</option>\n      \n      <option\
+        \ value=\"3_13\" >Anime - Non-English-translated</option>\n      \n      <option\
+        \ value=\"3_6\" >Anime - Raw</option>\n      \n      <option value=\"2_\"\
+        \ >Audio</option>\n      \n      <option value=\"2_3\" >Audio - Lossless</option>\n\
+        \      \n      <option value=\"2_4\" >Audio - Lossy</option>\n      \n   \
+        \   <option value=\"4_\" >Literature</option>\n      \n      <option value=\"\
+        4_7\" >Literature - English-translated</option>\n      \n      <option value=\"\
+        4_14\" >Literature - Non-English-translated</option>\n      \n      <option\
+        \ value=\"4_8\" >Literature - Raw</option>\n      \n      <option value=\"\
+        5_\" >Live Action</option>\n      \n      <option value=\"5_9\" >Live Action\
+        \ - English-translated</option>\n      \n      <option value=\"5_10\" >Live\
+        \ Action - Idol/Promotional Video</option>\n      \n      <option value=\"\
+        5_18\" >Live Action - Non-English-translated</option>\n      \n      <option\
+        \ value=\"5_11\" >Live Action - Raw</option>\n      \n      <option value=\"\
+        6_\" >Pictures</option>\n      \n      <option value=\"6_15\" >Pictures -\
+        \ Graphics</option>\n      \n      <option value=\"6_16\" >Pictures - Photos</option>\n\
+        \      \n      <option value=\"1_\" >Software</option>\n      \n      <option\
+        \ value=\"1_1\" >Software - Applications</option>\n      \n      <option value=\"\
+        1_2\" >Software - Games</option>\n      \n    </select>\n  </span>\n  <span\
+        \ class=\"form-refine\">\n    <span class=\"spacing\">Show:</span>\n    <select\
+        \ name=\"s\" class=\"form-input spacing\" style=\"max-width: 21%;min-width:\
+        \ 100px;\">\n      <option value=\"0\">Show all</option>\n      <option value=\"\
+        2\" >Filter Remakes</option>\n      <option value=\"3\" >Torrents uploaded\
+        \ by trusted users.</option>\n      <option value=\"4\" >A+</option>\n   \
+        \ </select>\n    Limit: <input type=\"number\" name=\"limit\" value=\"50\"\
+        \ class=\"form-input spacing\" min=\"1\" max=\"500\"/>\n    From: <input type=\"\
+        text\" name=\"user\" placeholder=\"Username/#ID\" value=\"\" class=\"form-input\
+        \ refine-user\"/>\n  </span>\n  <span class=\"form-refine\">\n    <span class=\"\
+        spacing\">Between</span>\n    <input class=\"form-input\" size=\"7\" name=\"\
+        minSize\" type=\"text\" value=\"\"/>\n    and\n    <input size=\"7\" class=\"\
+        form-input\" name=\"maxSize\" type=\"text\" value=\"\"/>\n    <select name=\"\
+        sizeType\" class=\"form-input\">\n      <option value=\"b\" >B</option>\n\
+        \      <option value=\"k\" >KiB</option>\n      <option value=\"m\"  selected>MiB</option>\n\
+        \      <option value=\"g\" >GiB</option>\n    </select>\n    large.\n  </span>\n\
+        \  <span class=\"form-refine\">\n    <span class=\"spacing\">From</span>\n\
+        \    <input class=\"form-input refine-date\" name=\"fromDate\" type=\"text\"\
+        \ value=\"\" placeholder=\"YYYY/MM/DD\"/>\n    to\n    <input class=\"form-input\
+        \ refine-date spacing\" size=\"7\" name=\"toDate\" type=\"text\" value=\"\"\
+        \ placeholder=\"YYYY/MM/DD\"/>\n    </span>\n\t<span class=\"form-refine\"\
+        \ style=\"margin-bottom: 2px;\">\n\t\t<span class=\"spacing\">Sort by</span>\n\
+        \t\t<select name=\"sort\" class=\"form-input\">\n\t\t\t<option value=\"1\"\
+        \ >Name</option>\n\t\t\t<option value=\"4\" >Size</option>\n\t\t\t<option\
+        \ value=\"5\" >Seeders</option>\n\t\t\t<option value=\"6\" >Leechers</option>\n\
+        \t\t\t<option value=\"7\" >Completed</option>\n\t\t\t<option value=\"2\" selected>Date</option>\n\
+        \t\t</select>\n\t\t<select name=\"order\" class=\"form-input\">\n\t\t\t<option\
+        \ value=\"true\">Ascending</option>\n\t\t\t<option value=\"false\" selected>Descending</option>\n\
+        \t\t</select>\n    Exclude: <input type=\"text\" name=\"nuserID\" placeholder=\"\
+        UserID\" value=\"\" class=\"form-input refine-userid\" style=\"width: 62px;\"\
+        >\n\t</span>\n    </div>\n\t  <div class=\"refine-container-2\">\n\t\t  <span\
+        \ class=\"form-refine\">\n\t\t\t<span class=\"spacing\">Quality:</span>\n\t\
+        \t\t<select name=\"vq\" class=\"form-input\">\n\t\t\t  <option value=\"\"\
+        >Show all</option>\n\t\t\t  \n\t\t\t  <option value=\"bluray\">Bluray</option>\n\
+        \t\t\t  \n\t\t\t  <option value=\"full_hd\">1080p</option>\n\t\t\t  \n\t\t\
+        \t  <option value=\"hd\">720p</option>\n\t\t\t  \n\t\t\t  <option value=\"\
+        sd\">480p</option>\n\t\t\t  \n\t\t\t</select>\n\t\t\t<span style=\"margin:\
+        \ 0 5px;\">Hash:</span>\n\t\t\t<input type=\"text\" name=\"hash\" placeholder=\"\
+        Torrent hash\" class=\"form-input\">\n\t\t  </span>\n\t\t  <span class=\"\
+        form-refine\">\n\t\t\t<span class=\"spacing\">Tags:</span>\n\t\t\t  <input\
+        \ type=\"text\" name=\"anidb\" placeholder=\"AniDB\" title=\"AniDB\" value=\"\
+        \" class=\"form-input\"/>\n\t\t\t  <input type=\"text\" name=\"vgm\" placeholder=\"\
+        VGMdb\" title=\"VGMdb\" value=\"\" class=\"form-input\"/>\n\t\t\t  <input\
+        \ type=\"text\" name=\"vndb\" placeholder=\"VnDB\" title=\"VnDB\" value=\"\
+        \" class=\"form-input\"/>\n\t\t\t  <input type=\"text\" name=\"dlsite\" placeholder=\"\
+        DLsite\" title=\"DLsite\" value=\"\" class=\"form-input\"/>\n\t\t  </span>\n\
+        \t\t  <div class=\"form-refine form-input language\">\n\t\t\t\n\n<span class=\"\
+        input-group\">\n<span class=\"refine-search-languagename\">Catalan</span>\n\
+        <input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"\
+        refine-search-ca\" value=\"ca\"><label for=\"refine-search-ca\" class=\"flag\
+        \ flag-ca\" title=\"Catalan\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">German</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-de\"\
+        \ value=\"de\"><label for=\"refine-search-de\" class=\"flag flag-de\" title=\"\
+        German\"></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >English</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"\
+        \ id=\"refine-search-en\" value=\"en\"><label for=\"refine-search-en\" class=\"\
+        flag flag-en\" title=\"English\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Spanish, Mexican Spanish</span>\n\
+        <input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"\
+        refine-search-es\" value=\"es\"><label for=\"refine-search-es\" class=\"flag\
+        \ flag-es\" title=\"Spanish, Mexican Spanish\"></label>\n</span><span class=\"\
+        input-group\">\n<span class=\"refine-search-languagename\">French</span>\n\
+        <input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"\
+        refine-search-fr\" value=\"fr\"><label for=\"refine-search-fr\" class=\"flag\
+        \ flag-fr\" title=\"French\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Hungarian</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-hu\"\
+        \ value=\"hu\"><label for=\"refine-search-hu\" class=\"flag flag-hu\" title=\"\
+        Hungarian\"></label>\n</span><span class=\"input-group\">\n<span class=\"\
+        refine-search-languagename\">Indonesian</span>\n<input type=\"checkbox\" name=\"\
+        lang\" class=\"form-language-checkbox\" id=\"refine-search-id\" value=\"id\"\
+        ><label for=\"refine-search-id\" class=\"flag flag-id\" title=\"Indonesian\"\
+        ></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Icelandic</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"\
+        \ id=\"refine-search-is\" value=\"is\"><label for=\"refine-search-is\" class=\"\
+        flag flag-is\" title=\"Icelandic\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Italian</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-it\"\
+        \ value=\"it\"><label for=\"refine-search-it\" class=\"flag flag-it\" title=\"\
+        Italian\"></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Japanese</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"\
+        \ id=\"refine-search-ja\" value=\"ja\"><label for=\"refine-search-ja\" class=\"\
+        flag flag-ja\" title=\"Japanese\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Korean</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-ko\"\
+        \ value=\"ko\"><label for=\"refine-search-ko\" class=\"flag flag-ko\" title=\"\
+        Korean\"></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Norwegian Bokm\xE5l</span>\n<input type=\"checkbox\" name=\"lang\" class=\"\
+        form-language-checkbox\" id=\"refine-search-nb\" value=\"nb\"><label for=\"\
+        refine-search-nb\" class=\"flag flag-nb\" title=\"Norwegian Bokm\xE5l\"></label>\n\
+        </span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Dutch</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"\
+        \ id=\"refine-search-nl\" value=\"nl\"><label for=\"refine-search-nl\" class=\"\
+        flag flag-nl\" title=\"Dutch\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Portuguese</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-pt\"\
+        \ value=\"pt\"><label for=\"refine-search-pt\" class=\"flag flag-pt\" title=\"\
+        Portuguese\"></label>\n</span><span class=\"input-group\">\n<span class=\"\
+        refine-search-languagename\">Romanian</span>\n<input type=\"checkbox\" name=\"\
+        lang\" class=\"form-language-checkbox\" id=\"refine-search-ro\" value=\"ro\"\
+        ><label for=\"refine-search-ro\" class=\"flag flag-ro\" title=\"Romanian\"\
+        ></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Russian</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"\
+        \ id=\"refine-search-ru\" value=\"ru\"><label for=\"refine-search-ru\" class=\"\
+        flag flag-ru\" title=\"Russian\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Swedish</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-sv\"\
+        \ value=\"sv\"><label for=\"refine-search-sv\" class=\"flag flag-sv\" title=\"\
+        Swedish\"></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Thai</span>\n<input type=\"checkbox\" name=\"lang\" class=\"form-language-checkbox\"\
+        \ id=\"refine-search-th\" value=\"th\"><label for=\"refine-search-th\" class=\"\
+        flag flag-th\" title=\"Thai\"></label>\n</span><span class=\"input-group\"\
+        >\n<span class=\"refine-search-languagename\">Chinese</span>\n<input type=\"\
+        checkbox\" name=\"lang\" class=\"form-language-checkbox\" id=\"refine-search-zh\"\
+        \ value=\"zh\"><label for=\"refine-search-zh\" class=\"flag flag-zh\" title=\"\
+        Chinese\"></label>\n</span><span class=\"input-group\">\n<span class=\"refine-search-languagename\"\
+        >Traditional Chinese</span>\n<input type=\"checkbox\" name=\"lang\" class=\"\
+        form-language-checkbox\" id=\"refine-search-zh-Hant\" value=\"zh-Hant\"><label\
+        \ for=\"refine-search-zh-Hant\" class=\"flag flag-Hant\" title=\"Traditional\
+        \ Chinese\"></label>\n</span>\n\n\n\t\t  </div>\n\t\t  <button type=\"submit\"\
+        \ class=\"form-input refine-btn\" name=\"refine\" value=\"1\">Refine</button>\n\
+        \t  </div>\n\t</div>\n</form>\n</div>\n\n\n<div style=\"text-align: center;border-top:\
+        \ none;\" class=\"box\">\n  <h1>No results found</h1>\n  <img src=\"/img/no_results.jpg\"\
+        \ alt=\"no results\"/>\n</div>\n\n\n    </div>\n    <br />\n    \n    <div\
+        \ id=\"cookie-warning\"><span id=\"cookie-warning-close\" class=\"close\"\
+        >\xD7</span>By using this website, you agree to the usage of cookies for purposes\
+        \ such as customizing content.<br/>This message will be hidden at the next\
+        \ page load.</div>\n    <div class=\"centered\">\n\n<!--\n<a href=\"http://bit.ly/sukasuka-anime\"\
+        ><img alt=\"NyaaPantsu Ads\" class=\"wb-w\" src=\"https://a.doko.moe/kvchvg.jpg\"\
+        ></a>\n-->\n<iframe width=\"728\" height=\"90\" scrolling=\"no\" frameborder=\"\
+        0\" src=\"https://a.adtng.com/get/10011773?time=1600111520608\" allowtransparency=\"\
+        true\" marginheight=\"0\" marginwidth=\"0\" name=\"spot_id_10011773\"></iframe>\n\
+        \n </div>\n    <footer id=\"footer\">\n      <div class=\"container footer\
+        \ center\">\n        <div class=\"footer-opt\">\n          <p><a href=\"/settings\"\
+        >Change Appearance/Settings</a><a id=\"dark-toggle\" href=\"/dark/search?c=_&amp;q=zxcvbnm\"\
+        > - Toggle Dark Mode</a></p>\n        </div>\n        <span><i>Powered by\
+        \ <a href=\"#\">Nyaa Pantsu</a> v1.1.0 - commit <a id=\"commit\" href=\"https://github.com/NyaaPantsu/nyaa/commit/\"\
+        ></a></i></span>\n      </div>\n    </footer>\n  </div>\n  <script type=\"\
+        text/javascript\">\n          var commitVersion = \"\",\n              websiteVersion\
+        \ = \"1.1.0\",\n              UserID = 0,\n              domain = \".pantsu.cat,\
+        \ .nyaa.pt, .nyoo.moe, .nyaa.net, nyaa.net\",\n              darkTheme = \"\
+        tomorrow\",\n              hmFmt = \"{0} hours {1} minutes ago\",\n      \
+        \        dhFmt = \"{0} days {1} hours ago\";\n        </script>\n  <script\
+        \ type=\"text/javascript\" src=\"/js/query.js?v=1.1.0\"></script>\n  <script\
+        \ type=\"text/javascript\" charset=\"utf-8\" src=\"/js/main.js?v=1.1.0\" async></script>\n\
+        \  \n\n</body>\n</html>\n"
     headers:
       Access-Control-Allow-Origin: '*'
       CF-Cache-Status: DYNAMIC
-      CF-RAY: 52820dfcaa02d417-BUD
+      CF-RAY: 6130854188b44132-PRG
       Connection: keep-alive
       Content-Encoding: gzip
-      Content-Security-Policy: default-src 'self'; img-src * data:; media-src *; style-src
-        'self' maxcdn.bootstrapcdn.com fonts.googleapis.com * 'unsafe-inline'; script-src
-        'self' 'unsafe-inline' 'unsafe-eval' go.ero-advertising.com juicyads.com *.juicyads.com
-        crate.widgetbot.io *.pantsu.cat * ; font-src 'self' * fonts.gstatic.com maxcdn.bootstrapcdn.com;
-        child-src juicyads.com *.juicyads.com widgetbot.io *; connect-src 'self' servedby.revive-adserver.net
-        *.revive-adserver.net r.remarketingpixel.com *.urldelivery.com go.ero-advertising.com
-        etahub.com n.pc1ads.com native.propellerads.com syndication.exosrv.com *.exosrv.com
-        *.widgetbot.io pagead2.googlesyndication.com *.googlesyndication.com;
       Content-Type: text/html; charset=utf-8
-      Date: Sat, 19 Oct 2019 10:26:35 GMT
+      Date: Sun, 17 Jan 2021 13:46:07 GMT
       Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL: '{"report_to":"cf-nel","max_age":604800}'
+      Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=xNyv6T2sYLJmbzjVddGNLDzEz8YwpLPDXhfzoeAJBldH7y0WFFojl0xiE1BaTfr8%2BxHmhpWdLEcuQOszqLXuCtd2N3%2BZUVpVeQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server: cloudflare
-      Set-Cookie: EU_Cookie=true; Path=/; Expires=Sun, 18 Oct 2020 10:24:52 GMT
+      Set-Cookie: EU_Cookie=true; Path=/; Expires=Mon, 17 Jan 2022 13:46:46 GMT
       Transfer-Encoding: chunked
       Vary: Cookie
+      cf-request-id: 07b2319cf4000041329a84b000000001
+      content-security-policy: 'default-src * ''unsafe-inline'' ''unsafe-eval''; script-src
+        * ''unsafe-inline'' ''unsafe-eval''; connect-src * ''unsafe-inline''; img-src
+        * data: blob: ''unsafe-inline''; frame-src *; style-src * ''unsafe-inline'';'
     status:
       code: 200
       message: OK

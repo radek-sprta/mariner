@@ -15,7 +15,7 @@ class NyaaPantsu(trackerplugin.TrackerPlugin):
     log = logging.getLogger(__name__)
 
     filters = {"anime"}
-    search_url = "https://nyaa.pantsu.cat/search?c=_&q={title}"
+    search_url = "https://nyaa.net/search?c=_&q={title}"
 
     def _parse(self, raw: str) -> Iterator[torrent.Torrent]:  # pylint: disable=too-many-locals
         """Parse result page.
