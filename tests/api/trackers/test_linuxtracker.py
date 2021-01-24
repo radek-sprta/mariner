@@ -12,7 +12,7 @@ class TestLinuxTracker:
     def tracker(self, engine):
         return engine.plugins["linuxtracker"]()
 
-    @pytest.mark.skip(reason="Linuxtracker.org is missing CA certificate in chain")
+    @pytest.mark.xfail(reason="Linuxtracker.org is missing CA certificate in chain")
     @pytest.mark.vcr()
     def test_results(self, tracker, event_loop):
         # GIVEN a tracker and a title to search for
