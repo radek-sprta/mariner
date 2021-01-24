@@ -32,7 +32,7 @@ class Search(lister.Lister):
             Instance of argument parser.
         """
         parser = super().get_parser(prog_name)
-        parser.add_argument("title", help="Title to search for")
+        parser.add_argument("title", help="Title to search for", nargs="+")
         parser.add_argument(
             "--all", "-a", action="store_true", help="Search all available trackers"
         )
@@ -123,7 +123,7 @@ class Search(lister.Lister):
         Returns:
             List of torrents found.
         """
-        title = parsed_args.title
+        title = " ".join(parsed_args.title)
         limit = parsed_args.limit
         newest = parsed_args.newest
 
