@@ -1,22 +1,25 @@
 interactions:
 - request:
     body: null
-    headers: {}
-    method: GET
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+    method: get
     uri: https://proxybay.github.io
   response:
-    body: {string: "<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>The Proxy
-        Bay - Unblock The Pirate Bay</title>\n  <meta charset=\"utf-8\">\n  <meta
-        name=\"description\" content=\"Unable to access The Pirate Bay? Use a proxy
-        site to bypass your ISP block\">\n  <meta name=\"keywords\" content=\"pirate,
-        bay, proxy, list, thepiratebay, piratebay, piratebay proxy, piraten, geblokkeerd,
-        pirate bay proxy, thepiratebay.org, proxybay.bz, piratebay, blocked, unblocked\">\n
+    body:
+      string: "<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>The Proxy Bay
+        - Unblock The Pirate Bay</title>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\"
+        content=\"Unable to access The Pirate Bay? Use a proxy site to bypass your
+        ISP block\">\n  <meta name=\"keywords\" content=\"pirate, bay, proxy, list,
+        thepiratebay, piratebay, piratebay proxy, piraten, geblokkeerd, pirate bay
+        proxy, thepiratebay.org, proxybay.ink, piratebay, blocked, unblocked\">\n
         \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n
         \ <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:image\"
-        content=\"assets/img/logo.png\">\n  <meta property=\"og:site_name\" content=\"https://proxybay.bz\">\n
+        content=\"assets/img/logo.png\">\n  <meta property=\"og:site_name\" content=\"https://proxybay.ink\">\n
         \ <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:site\"
         content=\"@ThePirateProxy\">\n  <meta name=\"twitter:creator\" content=\"@ThePirateProxy\">\n
-        \ <meta name=\"twitter:title\" content=\"Unblock The Pirate bay - https://proxybay.bz\">\n
+        \ <meta name=\"twitter:title\" content=\"Unblock The Pirate bay - https://proxybay.ink\">\n
         \ <meta name=\"twitter:description\" content=\"Unable to access The Pirate
         Bay? Use a proxy site to bypass your ISP block\">\n  <meta name=\"twitter:image:src\"
         content=\"assets/img/logo.png\">\n  <meta name=\"application-name\" content=\"The
@@ -26,12 +29,14 @@ interactions:
         \ <meta name=\"msapplication-square150x150logo\" content=\"assets/img/mstile-150x150.png\">\n
         \ <meta name=\"msapplication-wide310x150logo\" content=\"assets/img/mstile-310x150.png\">\n
         \ <meta name=\"msapplication-square310x310logo\" content=\"assets/img/mstile-310x310.png\">\n
-        \ <script type=\"text/javascript\" src=\"assets/js/functions.js?01032018\"></script>\n
-        \ <script src='https://www.google.com/recaptcha/api.js'></script>\n  <link
-        rel=\"stylesheet\" href=\"assets/css/style.css?01032018\">\n  <link rel=\"image_src\"
-        href=\"assets/img/logo.png\">\n  <link rel=\"shortcut icon\" type=\"image/x-icon\"
-        href=\"favicon.ico\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"57x57\"
-        href=\"assets/img/apple-touch-icon-57x57.png\">\n  <link rel=\"apple-touch-icon-precomposed\"
+        \ <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-105821461-3\"></script>\n
+        \ <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n
+        \   gtag('js', new Date());\n    gtag('config', 'UA-105821461-3');\n  </script>\n
+        \ <script type=\"text/javascript\" src=\"assets/js/functions.js?29072020\"></script>\n
+        \ <link rel=\"stylesheet\" href=\"assets/css/style.css?01032018\">\n  <link
+        rel=\"image_src\" href=\"assets/img/logo.png\">\n  <link rel=\"shortcut icon\"
+        type=\"image/x-icon\" href=\"favicon.ico\">\n  <link rel=\"apple-touch-icon-precomposed\"
+        sizes=\"57x57\" href=\"assets/img/apple-touch-icon-57x57.png\">\n  <link rel=\"apple-touch-icon-precomposed\"
         sizes=\"114x114\" href=\"assets/img/apple-touch-icon-114x114.png\">\n  <link
         rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"assets/img/apple-touch-icon-72x72.png\">\n
         \ <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"assets/img/apple-touch-icon-144x144.png\">\n
@@ -56,176 +61,210 @@ interactions:
         src=\"assets/img/tpb.jpg\"></div>\n          <h3 style=\"text-align:left;font-size:20px\">Can't
         access The Pirate Bay? Try one of the proxy sites below.</h3>\n          <p
         style=\"text-align:left\">A proxy site allows you to bypass blocks setup by
-        your ISP or network</p>\n          <p style=\"text-align:left\" id=\"headerLinks\"><a
-        href=\"https://unblocked.gdn\" title=\"Unblocked\">Access More Sites</a> -
-        <a href=\"/alternate-methods.html\" title=\"More methods to access The Pirate
+        your Internet provider</p>\n          <p style=\"text-align:left\" id=\"headerLinks\"><a
+        href=\"https://unblockit.ltd\" title=\"Unblocked\">Unblock More Sites</a>
+        - <a href=\"/alternate-methods.html\" title=\"More methods to access The Pirate
         Bay\">Alternate Methods</a> - <a href=\"https://proxybay.github.io/\" title=\"Github\">Github
         Mirror</a></p>\n          <p style=\"text-align:left;font-weight:200\" id=\"dateText\">The
         list was last updated on <span id=\"statusDate\">Wed Feb 21 23:01:46 UTC 2018</span></p>\n
         \         <div id=\"social\"></div>\n      </div>\n      <table id=\"proxyList\"><thead><tr><th>Site</th><th>Country</th><th>Status</th><th>Speed</th><th>Report</th></tr></thead>\n<script
-        type='text/javascript'>document.getElementById('statusDate').innerHTML='Tue
-        Nov 13 07:02:15 UTC 2018';</script>\n<tr><td class=\"site\"><a rel=\"nofollow\"
-        class=\"t1\" href=\"https://pirateproxy.gdn\">pirateproxy.gdn</a></td><td
+        type='text/javascript'>document.getElementById('statusDate').innerHTML='Mon
+        25 Jan 2021 07:12:22 PM UTC';</script>\n<tr><td class=\"site\"><a rel=\"nofollow\"
+        class=\"t1\" href=\"https://pirateproxy.earth\">pirateproxy.earth</a></td><td
         class=\"country\"><img src=\"assets/img/flags/uk.gif\" alt=\"uk\" title=\"uk\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.854</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('pirateproxy.gdn')\" title=\"Report
-        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpbproxy.online\">tpbproxy.online</a></td><td
-        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.447</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpbproxy.online')\" title=\"Report
-        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.vip\">thepiratebay.vip</a></td><td
-        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.909</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('thepiratebay.vip')\"
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.239</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('pirateproxy.earth')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://thepiratebay.vin\">thepiratebay.vin</a></td><td class=\"country\"><img
+        href=\"https://tpb21.ukpass.co\">ukpass.co</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.514</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('thepiratebay.vin')\"
-        title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
-        this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t2\"
-        href=\"https://theproxybay.net\">theproxybay.net</a></td><td class=\"country\"><img
-        src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.779</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('theproxybay.net')\" title=\"Report
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.218</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('ukpass.co')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay-org.prox.icu\">prox.icu</a></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t4\" href=\"https://knaben.ru/ThePirateBay.php\">knaben.ru</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/no.gif\" alt=\"no\" title=\"no\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.275</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('knaben.ru')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb.sadzawka.tk\">tpb.sadzawka.tk</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.072</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('prox.icu')\" title=\"Report
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.195</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpb.sadzawka.tk')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"http://tpb.host4free.org\">host4free.org</a></td><td
-        class=\"country\"><img src=\"assets/img/flags/uk.gif\" alt=\"uk\" title=\"uk\"></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://www.tpbay.win\">tpbay.win</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.254</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpbay.win')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://piratefast.xyz\">piratefast.xyz</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.491</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('piratefast.xyz')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://5mins.eu\">5mins.eu</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/sc.gif\" alt=\"sc\" title=\"sc\"></td><td
         class=\"status\"><img alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
         class=\"report\"><a href=\"#\" onclick=\"reportLink('')\" title=\"Report this
         proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.online\">thepiratebay.online</a></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://gigatorrent.xyz\">gigatorrent.xyz</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.675</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('thepiratebay.online')\"
-        title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
-        this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://thepiratebay.myunblock.com\">myunblock.com</a></td><td class=\"country\"><img
-        src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.089</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('myunblock.com')\" title=\"Report
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.952</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('gigatorrent.xyz')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://ikwilthepiratebay.org\">ikwilthepiratebay.org</a></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb.cnp.cx/index.php\">tpb.cnp.cx</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.750</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('ikwilthepiratebay.org')\"
-        title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
-        this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://piratebayblocked.com\">piratebayblocked.com</a></td><td class=\"country\"><img
-        src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.428</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('piratebayblocked.com')\"
-        title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
-        this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://tpbproxy.rocks\">tpbproxy.rocks</a></td><td class=\"country\"><img
-        src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpbproxy.rocks')\" title=\"Report
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.722</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpb.cnp.cx')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t2\" href=\"https://pirateproxy.rocks\">pirateproxy.rocks</a></td><td
-        class=\"country\"><img src=\"assets/img/flags/gb.gif\" alt=\"gb\" title=\"gb\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.458</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('pirateproxy.rocks')\"
-        title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
-        this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://cruzing.xyz\">cruzing.xyz</a></td><td class=\"country\"><img
-        src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.206</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('cruzing.xyz')\" title=\"Report
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepirateb.xyz\">thepirateb.xyz</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/ir.gif\" alt=\"ir\" title=\"ir\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.676</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('thepirateb.xyz')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb.bz\">tpb.bz</a></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpbay.online\">tpbay.online</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
         class=\"status\"><img alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpb.bz')\" title=\"Report
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpbay.online')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.unblockthe.net\">unblockthe.net</a></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t6\" href=\"https://ezrasstuff.com/index.html\">ezrasstuff.com</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('unblockthe.net')\" title=\"Report
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.171</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('ezrasstuff.com')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t2\" href=\"https://thepiratebay.berhampore-gateway.ml\">berhampore-gateway.ml</a></td><td
-        class=\"country\"><img src=\"assets/img/flags/in.gif\" alt=\"in\" title=\"in\"></td><td
-        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">4.940</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('berhampore-gateway.ml')\"
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepiratebay.d4.re\">thepiratebay.d4.re</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/nl.gif\" alt=\"nl\" title=\"nl\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.912</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('')\" title=\"Report this
+        proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb4me.xyz\">tpb4me.xyz</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.439</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('')\" title=\"Report this
+        proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://thepirateb.xyz\">thepirateb.xyz</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">1.076</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('thepirateb.xyz')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://baypirated.site\">baypirated.site</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.146</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('baypirated.site')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb.skynetcloud.site\">tpb.skynetcloud.site</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.421</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpb.skynetcloud.site')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://bayfortaiwan.online\">bayfortaiwan.online</a></td><td class=\"country\"><img
+        href=\"https://piratetoday.xyz\">piratetoday.xyz</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('bayfortaiwan.online')\"
+        alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.191</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('piratetoday.xyz')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://piratenow.xyz\">piratenow.xyz</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.176</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('piratenow.xyz')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://tpb.biz\">tpb.biz</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.187</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('tpb.biz')\" title=\"Report
+        this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t2\" href=\"https://piratesbaycc.com\">piratesbaycc.com</a></td><td
+        class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
+        class=\"status\"><img alt=\"up\" src=\"assets/img/up.png\"></td><td class=\"speed\">0.322</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('piratesbaycc.com')\"
         title=\"Report this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report
         this proxy\"></a></td></tr>\n<tr><td class=\"site\"><a rel=\"nofollow\" class=\"t1\"
-        href=\"https://www.pietpiraat.xyz\">pietpiraat.xyz</a></td><td class=\"country\"><img
+        href=\"https://piratebayztemzmv.onion.pet\">onion.pet</a></td><td class=\"country\"><img
         src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td class=\"status\"><img
-        alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('pietpiraat.xyz')\" title=\"Report
+        alt=\"tor\" src=\"assets/img/tor.png\"></td><td class=\"speed\">5.000</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('onion.pet')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n<tr><td
-        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://proxydl.cf\">proxydl.cf</a></td><td
+        class=\"site\"><a rel=\"nofollow\" class=\"t1\" href=\"https://piratebayztemzmv.onion.ly/\">onion.ly</a></td><td
         class=\"country\"><img src=\"assets/img/flags/us.gif\" alt=\"us\" title=\"us\"></td><td
-        class=\"status\"><img alt=\"down\" src=\"assets/img/down.png\"></td><td class=\"speed\">N/A</td><td
-        class=\"report\"><a href=\"#\" onclick=\"reportLink('proxydl.cf')\" title=\"Report
+        class=\"status\"><img alt=\"tor\" src=\"assets/img/tor.png\"></td><td class=\"speed\">5.002</td><td
+        class=\"report\"><a href=\"#\" onclick=\"reportLink('onion.ly')\" title=\"Report
         this proxy\"><img src=\"assets/img/attention.png\" alt=\"Report this proxy\"></a></td></tr>\n</table>\n
-        \   </div>\n    <div id=\"feedbackContainer\" class=\"formContainer\">\n      <div
-        id=\"feedbackForm\" class=\"formDiv\">\n        <form action=\"#\" id=\"feedbackForm\"
+        \   </div>\n    <div id=\"reportContainer\" class=\"formContainer\">\n      <div
+        id=\"reportForm\" class=\"formDiv\">\n        <form action=\"#\" id=\"reportForm\"
         method=\"post\" name=\"form\">\n          <img id=\"close\" src=\"assets/img/close.png\"
-        onclick=\"feedback_form_hide()\">\n          <h2>Contact Us</h2>\n          <input
-        id=\"feedback_email\" name=\"email\" placeholder=\"Email (Optional)\" type=\"text\">\n
-        \         <br>\n          <textarea id=\"feedback_message\" name=\"message\"
-        placeholder=\"Message\"></textarea>\n          <div class=\"g-recaptcha\"
-        data-sitekey=\"6LcHAkIUAAAAAMA-ELT_n5yZFZdOonOIxbaW-ilj\"></div>\n          <br>\n
-        \         <a href=\"#\" onclick=\"javascript:submit_feedback();return false;\"
-        id=\"submit\" class=\"submit\">Send</a>\n          <p id=\"feedbackResponse\"></p>\n
-        \       </form>\n      </div>\n    </div>\n    <div id=\"reportContainer\"
-        class=\"formContainer\">\n      <div id=\"reportForm\" class=\"formDiv\">\n
-        \       <form action=\"#\" id=\"reportForm\" method=\"post\" name=\"form\">\n
-        \         <img id=\"close\" src=\"assets/img/close.png\" onclick=\"report_form_hide()\">\n
-        \         <h3 id=\"reportTitle\">Report</h3>\n          <input type=\"radio\"
-        id=\"siteBlocked\" name=\"reportSite\" value=\"1\" checked><label for=\"siteBlocked\">Site
-        is blocked by my ISP</label><br>\n          <br>\n          <input type=\"radio\"
-        id=\"siteDown\" name=\"reportSite\" value=\"2\"><label for=\"siteDown\">Site
-        is down</label><br>\n          <br>\n          <input type=\"radio\" id=\"siteMalware\"
-        name=\"reportSite\" value=\"3\"><label for=\"siteMalware\">Site has malware
-        or viruses</label><br>\n          <br>\n          <input type=\"radio\" id=\"siteOther\"
-        name=\"reportSite\" value=\"4\"><label for=\"siteOther\">Other</label><br>\n
-        \         <input type=\"hidden\" id=\"reportedSite\" name=\"reportedSite\">\n
-        \         <br>\n          <a href=\"javascript:submit_report();\" id=\"submit\"
-        class=\"submit\">Send</a>\n          <p id=\"reportResponse\"></p>\n        </form>\n
-        \     </div>\n    </div>\n    <a id=\"feedbackBtn\" class=\"feedback\" onclick=\"feedback_form_show()\"
-        href=\"#\"><i></i>Contact Us</a>\n    <div id=\"footer\">\n      <div id=\"moreInfo\">\n
-        \       <h2>More Information</h2>\n        <p>The Pirate Bay has been blocked
-        on many ISP's around the world.</p>\n        <p>The Proxy Bay maintains a
-        list of proxy sites that allow access to The Pirate Bay. These proxy sites
-        are hosted in countries and networks where The Pirate Bay has not been blocked.
-        There is more information about the blocks on <a href=\"http://torrentfreak.com/censoring-the-pirate-bay-is-futile-isps-reveal-120711/\"
-        title=\"Torrentfreak\">Torrentfreak</a></p>\n        <p>Proxy sites are the
-        easiest methods to bypass the block. Check the <a href=\"alternate-methods.html\"
-        title=\"Alternate methods of accessing TPB\">Alternate methods</a> for other
-        ways of accessing The Pirate Bay</p>\n        <p>Another list of proxy sites
-        can be found at <a href=\"https://torrents.me/\" title=\"List of torrent site
-        proxies at Torrents.me\" target=\"_blank\">Torrents.me</a></p>\n        <p>If
-        you want to help, you can also create your own proxy site. There are instructions
-        for setting up a simple proxy (using a PHP script) and advanced method using
-        NGINX as a reverse proxy. See the instructions <a href=\"setup.html\" title=\"Set
-        up your own proxy\">here</a></p>\n      </div>\n    </div>\n  </div>\n</body>\n</html>\n"}
-    headers: {Accept-Ranges: bytes, Access-Control-Allow-Origin: '*', Age: '0', Cache-Control: max-age=600,
-      Connection: keep-alive, Content-Encoding: gzip, Content-Length: '3188', Content-Type: text/html;
-        charset=utf-8, Date: 'Tue, 13 Nov 2018 08:58:12 GMT', ETag: W/"5bea771a-434d",
-      Expires: 'Tue, 13 Nov 2018 07:26:20 GMT', Last-Modified: 'Tue, 13 Nov 2018 07:02:50
-        GMT', Server: GitHub.com, Vary: Accept-Encoding, Via: 1.1 varnish, X-Cache: MISS,
-      X-Cache-Hits: '0', X-Fastly-Request-ID: 68842fdd6bb531c533f421478be5b38005cfb556,
-      X-GitHub-Request-Id: '85FC:4906:637640:856E76:5BEA7A43', X-Served-By: cache-hhn1533-HHN,
-      X-Timer: 'S1542099493.593208,VS0,VE92'}
-    status: {code: 200, message: OK}
-    url: !!python/object/new:yarl.URL
-      state: !!python/tuple
-      - !!python/object/new:urllib.parse.SplitResult [https, proxybay.github.io, '',
-        '', '']
+        onclick=\"report_form_hide()\">\n          <h3 id=\"reportTitle\">Report</h3>\n
+        \         <input type=\"radio\" id=\"siteBlocked\" name=\"reportSite\" value=\"1\"
+        checked><label for=\"siteBlocked\">Site is blocked by my ISP</label><br>\n
+        \         <br>\n          <input type=\"radio\" id=\"siteDown\" name=\"reportSite\"
+        value=\"2\"><label for=\"siteDown\">Site is down</label><br>\n          <br>\n
+        \         <input type=\"radio\" id=\"siteMalware\" name=\"reportSite\" value=\"3\"><label
+        for=\"siteMalware\">Site has malware or viruses</label><br>\n          <br>\n
+        \         <input type=\"radio\" id=\"siteOther\" name=\"reportSite\" value=\"4\"><label
+        for=\"siteOther\">Other</label><br>\n          <input type=\"hidden\" id=\"reportedSite\"
+        name=\"reportedSite\">\n          <br>\n          <a href=\"javascript:submit_report();\"
+        id=\"submit\" class=\"submit\">Send</a>\n          <p id=\"reportResponse\"></p>\n
+        \       </form>\n      </div>\n    </div>\n    <div id=\"footer\">\n      <div
+        id=\"moreInfo\">\n        <h2>More Information</h2>\n        <p>The Pirate
+        Bay has been blocked on many ISP's around the world.</p>\n        <p>With
+        a proxy site, you can unblock The Pirate Bay easily. The Proxy Bay maintains
+        an updated list of working TPB proxy sites. See <a href=\"https://torrentfreak.com/how-effective-is-the-uk-pirate-bay-blockade-180527/\"
+        target=\"_blank\" title=\"How Effective is The UK Pirate Bay Blockade?\">this
+        article</a> on TorrentFreak for more details.</p>\n        <p>Proxy sites
+        are the easiest methods to bypass the block and unblock The Pirate Bay, however
+        there are also <a href=\"alternate-methods.html\" title=\"Alternate methods
+        of accessing TPB\">Alternate methods</a></p>\n        <p>Another list of proxy
+        sites can be found at <a href=\"https://torrends.to/\" title=\"List of torrent
+        site proxies at Torrends.to\" target=\"_blank\">Torrends.to</a></p>\n        <p>You
+        can also help by creating your own proxy site. We have created instructions
+        for setting up a simple and advanced proxy site for unblocking The Pirate
+        Bay. See the instructions <a href=\"setup.html\" title=\"Set up your own proxy\">here</a></p>\n
+        \     </div>\n    </div>\n  </div>\n</body>\n</html>\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '233'
+      Cache-Control:
+      - max-age=600
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '3188'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Mon, 25 Jan 2021 20:32:46 GMT
+      Etag:
+      - W/"600f1821-4515"
+      Expires:
+      - Mon, 25 Jan 2021 19:23:26 GMT
+      Last-Modified:
+      - Mon, 25 Jan 2021 19:12:33 GMT
+      Server:
+      - GitHub.com
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Fastly-Request-ID:
+      - 828e9ed3d20adbc730caaaa21e180b9444189373
+      X-GitHub-Request-Id:
+      - D502:0901:12D6FDB:13F9481:600F1854
+      X-Served-By:
+      - cache-fra19178-FRA
+      X-Timer:
+      - S1611606766.371248,VS0,VE1
+      x-proxy-cache:
+      - MISS
+    status:
+      code: 200
+      message: OK
+    url: https://proxybay.github.io
 version: 1
