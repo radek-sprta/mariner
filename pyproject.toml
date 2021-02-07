@@ -7,7 +7,7 @@ line-length = 100
 
 [tool.poetry]
 name = "Mariner"
-version = "1.5.0"
+version = "1.5.1"
 description = "Navigate torrents in CLI"
 authors = ["Radek Sprta <mail@radeksprta.eu>"]
 license = "GPL-3.0"
