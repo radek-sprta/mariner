@@ -71,6 +71,16 @@ test:python39:
     - codecov --token=$COVERAGE_TOKEN
   retry: 1
 
+test:python310:
+  image: python:3.10-rc
+  stage: test
+  extends: .code
+  script:
+    - tox -e py310
+    - codecov --token=$COVERAGE_TOKEN
+  retry: 1
+  allow_failure: true  # Poetry does not work in Python 3.10 yet.
+
 build:package:
   stage: build
   script:
