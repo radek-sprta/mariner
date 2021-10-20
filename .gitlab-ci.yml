@@ -72,7 +72,7 @@ test:python39:
   retry: 1
 
 test:python310:
-  image: python:3.10-rc
+  image: python:3.10
   stage: test
   extends: .code
   script:
